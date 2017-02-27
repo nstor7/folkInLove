@@ -1,24 +1,33 @@
 gris = #939598
-verde = #044d64
+rosado = #9D3973
 celeste = #02aec3
 negro = #231f20
+grisClaro = #e1e1e1
+
 header
  width 100%
  height 64px
- background negro
+ background black
  line-height 64px
  top 0
- .logo
-  display inline-block
-  background url('imagenes/sumergidaLogo.png')
-  background-size cover
-  height 40px
-  width 217px
-  margin 12px 0 0 20px
-  @media screen and (min-resolution: 2dppx)
-   background url('imagenes/sumergidaLogo2x.png') cover
-  @media screen and (min-resolution: 3dppx)
-   background url('imagenes/sumergidaLogo3x.png') cover
+ a
+   margin-left 30px
+   display flex
+   line-height: 64px
+   text-decoration none
+   .logo
+    margin 7px 3px 0 0
+    background url('images/logo.png')
+    background-size contain
+    repeat none
+    height 50px
+    width 50px
+    // @media screen and (min-resolution: 2dppx)
+    //  background url('imagenes/sumergidaLogo2x.png') cover
+    // @media screen and (min-resolution: 3dppx)
+    //  background url('imagenes/sumergidaLogo3x.png') cover
+   h1
+    color grisClaro
 nav
  position absolute
  right 0
@@ -26,7 +35,7 @@ nav
  line-height 64px
  @media(max-width: 600px)
   top 64px
-  background verde
+  background grisClaro
   width 100%
   transition 1s ease
  ul
@@ -44,16 +53,19 @@ nav
     margin 0
     border-bottom: 1px solid #e1e1e1
    a
-    color #e1e1e1
+    color grisClaro
     text-decoration none
     display block
+    margin 0
+    @media(max-width: 600px)
+     color rosado
    a:hover
-    color celeste
-    border-bottom: 3px solid celeste
+    color rosado
+    border-bottom: 3px solid rosado
     box-sizing: border-box
     @media(max-width: 600px)
-     color #e1e1e1
-     background celeste
+     color grisClaro
+     background rosado
   li:last-child
    @media(max-width: 600px)
     border-bottom: none
@@ -63,6 +75,7 @@ nav
 .navButton
  font-size 2rem
  position absolute
+ top 10px
  right 10px
  color #e1e1e1
  @media(min-width: 600px)
