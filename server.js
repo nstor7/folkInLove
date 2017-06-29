@@ -1,3 +1,5 @@
+const mongoose = require('mongoose')
+const config = require('./config')
 const express = require('express')
 const app = express()
 
@@ -9,9 +11,13 @@ app.get('/*', function(req, res){
  res.render('index.pug')
 })
 
+// mongoose.connect(config.db, (err, res) => {
+//   if(err) {
+//     console.log('error al conectar a la base de datos')
+//   }
+//   console.log('Conexión a la base de datos establecida...')
 
-app.listen(3000, function(err){
- if(err) return console.log('Hubo un Error'), process.exit(1)
-
- console.log('Sumergida Producciones escuchando en el puerto 3000')
-})
+  app.listen(config.port, () => {
+   console.log(`Api Rest corriendo en el puerto ${config.port}`)
+  })
+// })

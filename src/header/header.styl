@@ -1,27 +1,58 @@
-gris = #939598
+gris = rgba(147, 149, 152, 1)
 rosado = #9D3973
 celeste = #02aec3
-negro = #231f20
+negro = rgba(35, 31, 32, 1)
 grisClaro = #e1e1e1
+transparente = rgba(35, 31, 32, 0.2)
 
+body
+  margin 0
+  h1
+    font-family: 'Rubic', sans-serif
+    font-size 2rem
+    font-weight: bold
+    margin: 0
+  h2
+    font-family: 'Rubic', sans-serif
+    font-size 2rem
+    font-weight: 500
+  a
+    font-family: 'Rubic', sans-serif
+    font-size: 1rem
+    text-decoration: none
+  h3
+    font-family: 'Crafty Girls', cursive
+    font-size 1rem
+  h4
+    font-family: 'Work Sans', sans-serif
+    font-size 0.75rem
+    font-weight: 300
+  p
+    font-family: 'Cinzel', serif
+    font-size: 1rem
 header
  width 100%
  height 64px
- background black
- line-height 64px
- top 0
- a
-   margin-left 30px
+ box-sizing: border-box
+ padding 0 5vw 0 5vw
+ display: flex
+ justify-content: space-between
+ background transparente
+ position: fixed
+ transition: all 0.5s linear
+ .logoContainer
+   width: 250px
    display flex
-   line-height: 64px
-   text-decoration none
+   justify-content: space-between
+   align-items: center
+   opacity: 0
+   transition: opacity 0.5s linear
    .logo
-    margin 7px 3px 0 0
-    background url('images/logo.png')
-    background-size contain
-    repeat none
-    height 50px
-    width 50px
+     background url('images/logo.png')
+     background-size contain
+     repeat none
+     height 50px
+     width 50px
     // @media screen and (min-resolution: 2dppx)
     //  background url('imagenes/sumergidaLogo2x.png') cover
     // @media screen and (min-resolution: 3dppx)
@@ -29,54 +60,44 @@ header
    h1
     color grisClaro
 nav
- position absolute
- right 0
- top 0
- line-height 64px
- @media(max-width: 600px)
-  top 64px
-  background grisClaro
-  width 100%
-  transition 1s ease
- ul
-  display flex
-  margin 0
-  padding 0
-  @media(max-width: 600px)
-   width 100%
-   display block
-  li
-   margin-right 30px
-   list-style: none
-   text-align center
-   @media(max-width: 600px)
-    margin 0
-    border-bottom: 1px solid #e1e1e1
-   a
-    color grisClaro
-    text-decoration none
-    display block
-    margin 0
-    @media(max-width: 600px)
-     color rosado
-   a:hover
+  line-height 64px
+  width: 40vw
+  display: flex
+  justify-content: space-between
+  transition all ease 1s
+  @media(max-width: 900px)
+    position absolute
+    top 64px
+    right: 0
+    background grisClaro
+    width 100vw
+    transition ease 1s
+    height: 384px
+    flex-wrap: wrap
+  a
+   color grisClaro
+   @media(max-width: 900px)
+    color rosado
+    width: 100%
+    text-align: center
+  a:hover
     color rosado
     border-bottom: 3px solid rosado
     box-sizing: border-box
-    @media(max-width: 600px)
-     color grisClaro
-     background rosado
-  li:last-child
-   @media(max-width: 600px)
-    border-bottom: none
+    @media(max-width: 900px)
+      color grisClaro
+      background rosado
 .hidden
- @media(max-width: 600px)
-  right -100%
+  @media(max-width: 900px)
+    right -100vw
 .navButton
- font-size 2rem
- position absolute
- top 10px
- right 10px
- color #e1e1e1
- @media(min-width: 600px)
-  display none
+  font-size 2rem
+  color #e1e1e1
+  height: 64px
+  line-height: 64px
+  @media(min-width: 900px)
+    display none
+.blanco
+  background: negro
+  .logoContainer
+    opacity: 1

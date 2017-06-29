@@ -1,10 +1,17 @@
 import yo from 'yo-yo'
-import homeAbout from '../homeAbout'
 import banner from '../banner'
+import about from '../homeAbout'
+import artesanas from '../artesanas'
 
-module.exports = yo `
-  <section class="contenido">
+module.exports = yo`
+  <main class="home">
     ${banner}
-    ${homeAbout}
-  </section>
+    <section class="linea">
+      <div class="cuadro red"></div>
+      <div class="cuadro blue"></div>
+    </section>
+    <section class="fondo2">
+      <h2>Denuevo</h2>
+    </section>
+  </main>
 `
