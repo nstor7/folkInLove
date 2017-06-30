@@ -2574,25 +2574,6 @@ module.exports = (0, _yoYo2.default)(_templateObject);
 },{"yo-yo":14}],18:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n  <section class="banner">\n    <article class="titulo">\n      <h1>Folk In Love</h1>\n      <h3>Conoce Costumbres y Tradiciones de Panam\xE1</h3>\n    </article>\n  </section>\n'], ['\n  <section class="banner">\n    <article class="titulo">\n      <h1>Folk In Love</h1>\n      <h3>Conoce Costumbres y Tradiciones de Panam\xE1</h3>\n    </article>\n  </section>\n']);
-
-var _yoYo = require('yo-yo');
-
-var _yoYo2 = _interopRequireDefault(_yoYo);
-
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
-
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
-
-module.exports = (0, _yoYo2.default)(_templateObject);
-
-},{"yo-yo":14}],19:[function(require,module,exports){
-'use strict';
-
 var _emptyElement = require('empty-element');
 
 var _emptyElement2 = _interopRequireDefault(_emptyElement);
@@ -2611,7 +2592,7 @@ module.exports = function footer(ctx, next) {
   next();
 };
 
-},{"./template":20,"empty-element":4}],20:[function(require,module,exports){
+},{"./template":19,"empty-element":4}],19:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n<footer>\n <div class="footerLeft">\n  <a class="logo"></a>\n </div>\n <div class="footerRight">\n  <div class="footerRightUp">\n   <h3>Cont\xE1ctenos:</h3>\n   <ul>\n    <li>Email: info@sumergidapro.com</li>\n    <li>Tel\xE9fono: 263 1173</li>\n    <li>Direcci\xF3n: Calle 49A<br>\n    El Cangrejo, Bella Vista</li>\n   </ul>\n  </div>\n  <div class="footerRightDown">\n   <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>\n   <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>\n   <a href="#"><i class="fa fa-spotify" aria-hidden="true"></i></a>\n   <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>\n   <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>\n  </div>\n </div>\n</footer>\n'], ['\n<footer>\n <div class="footerLeft">\n  <a class="logo"></a>\n </div>\n <div class="footerRight">\n  <div class="footerRightUp">\n   <h3>Cont\xE1ctenos:</h3>\n   <ul>\n    <li>Email: info@sumergidapro.com</li>\n    <li>Tel\xE9fono: 263 1173</li>\n    <li>Direcci\xF3n: Calle 49A<br>\n    El Cangrejo, Bella Vista</li>\n   </ul>\n  </div>\n  <div class="footerRightDown">\n   <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>\n   <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>\n   <a href="#"><i class="fa fa-spotify" aria-hidden="true"></i></a>\n   <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>\n   <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>\n  </div>\n </div>\n</footer>\n']);
@@ -2630,7 +2611,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
-},{"yo-yo":14}],21:[function(require,module,exports){
+},{"yo-yo":14}],20:[function(require,module,exports){
 'use strict';
 
 var _emptyElement = require('empty-element');
@@ -2656,7 +2637,7 @@ module.exports = function header(ctx, next) {
   next();
 };
 
-},{"./scrollFunction":23,"./template":24,"empty-element":4}],22:[function(require,module,exports){
+},{"./scrollFunction":22,"./template":23,"empty-element":4}],21:[function(require,module,exports){
 'use strict';
 
 module.exports = function () {
@@ -2664,7 +2645,7 @@ module.exports = function () {
   nav.classList.toggle('hidden');
 };
 
-},{}],23:[function(require,module,exports){
+},{}],22:[function(require,module,exports){
 'use strict';
 
 module.exports = function () {
@@ -2677,7 +2658,7 @@ module.exports = function () {
   }
 };
 
-},{}],24:[function(require,module,exports){
+},{}],23:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n<header id= "headerContainer">\n <a href="/" class="logoContainer">\n   <div class="logo"></div>\n   <h1>Folk In Love</h1>\n </a>\n <nav id="nav" class="nav hidden">\n   <a href="/" onclick=', '>Inicio</a>\n   <a href="/" onclick=', '>Regiones</a>\n   <a href="/" onclick=', '>Danzas</a>\n   <a href="/" onclick=', '>Vestidos</a>\n   <a href="/productos" onclick=', '>Tienda</a>\n   <a href="#" onclick=', '>Contacto</a>\n </nav>\n <a href="#" class="navButton" onclick=', '>\n   <i class="fa fa-bars" aria-hidden="true"></i>\n </a>\n</header>'], ['\n<header id= "headerContainer">\n <a href="/" class="logoContainer">\n   <div class="logo"></div>\n   <h1>Folk In Love</h1>\n </a>\n <nav id="nav" class="nav hidden">\n   <a href="/" onclick=', '>Inicio</a>\n   <a href="/" onclick=', '>Regiones</a>\n   <a href="/" onclick=', '>Danzas</a>\n   <a href="/" onclick=', '>Vestidos</a>\n   <a href="/productos" onclick=', '>Tienda</a>\n   <a href="#" onclick=', '>Contacto</a>\n </nav>\n <a href="#" class="navButton" onclick=', '>\n   <i class="fa fa-bars" aria-hidden="true"></i>\n </a>\n</header>']);
@@ -2700,7 +2681,25 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject, _navegacionFunction2.default, _navegacionFunction2.default, _navegacionFunction2.default, _navegacionFunction2.default, _navegacionFunction2.default, _navegacionFunction2.default, _navegacionFunction2.default);
 
-},{"./navegacionFunction":22,"yo-yo":14}],25:[function(require,module,exports){
+},{"./navegacionFunction":21,"yo-yo":14}],24:[function(require,module,exports){
+'use strict';
+
+var _page = require('page');
+
+var _page2 = _interopRequireDefault(_page);
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
+
+require('./inicio');
+require('./productoLista');
+require('./producto');
+require('./prueba');
+
+(0, _page2.default)();
+
+},{"./inicio":25,"./producto":29,"./productoLista":32,"./prueba":35,"page":12}],25:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -2732,22 +2731,22 @@ function _interopRequireDefault(obj) {
   (0, _emptyElement2.default)(main).appendChild(_template2.default);
 });
 
-},{"../footer":19,"../header":21,"./template":26,"empty-element":4,"page":12}],26:[function(require,module,exports){
+},{"../footer":18,"../header":20,"./template":26,"empty-element":4,"page":12}],26:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n  <main class="home">\n    ', '\n    <section class="linea">\n      <div class="cuadro red"></div>\n      <div class="cuadro blue"></div>\n    </section>\n    <section class="fondo2">\n      <h2>Denuevo</h2>\n    </section>\n  </main>\n'], ['\n  <main class="home">\n    ', '\n    <section class="linea">\n      <div class="cuadro red"></div>\n      <div class="cuadro blue"></div>\n    </section>\n    <section class="fondo2">\n      <h2>Denuevo</h2>\n    </section>\n  </main>\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  <main class="home">\n    ', '\n    ', '\n    <section class="fondo2">\n      <h2>Denuevo</h2>\n    </section>\n  </main>\n'], ['\n  <main class="home">\n    ', '\n    ', '\n    <section class="fondo2">\n      <h2>Denuevo</h2>\n    </section>\n  </main>\n']);
 
 var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-var _banner = require('../banner');
+var _inicioBanner = require('../inicioBanner');
 
-var _banner2 = _interopRequireDefault(_banner);
+var _inicioBanner2 = _interopRequireDefault(_inicioBanner);
 
-var _homeAbout = require('../homeAbout');
+var _inicioAbout = require('../inicioAbout');
 
-var _homeAbout2 = _interopRequireDefault(_homeAbout);
+var _inicioAbout2 = _interopRequireDefault(_inicioAbout);
 
 var _artesanas = require('../artesanas');
 
@@ -2761,12 +2760,12 @@ function _taggedTemplateLiteral(strings, raw) {
   return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
 }
 
-module.exports = (0, _yoYo2.default)(_templateObject, _banner2.default);
+module.exports = (0, _yoYo2.default)(_templateObject, _inicioBanner2.default, _inicioAbout2.default);
 
-},{"../artesanas":17,"../banner":18,"../homeAbout":27,"yo-yo":14}],27:[function(require,module,exports){
+},{"../artesanas":17,"../inicioAbout":27,"../inicioBanner":28,"yo-yo":14}],27:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n<article class="about">\n  <h2>Folk In Love</h2>\n  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor\n     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud\n     exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute\n     irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla\n      pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia\n      deserunt mollit anim id est laborum.</p>\n</article>\n'], ['\n<article class="about">\n  <h2>Folk In Love</h2>\n  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor\n     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud\n     exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute\n     irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla\n      pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia\n      deserunt mollit anim id est laborum.</p>\n</article>\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  <section class="inicioAbout">\n    <article class="aboutTexto">\n      <hgroup>\n        <h2>Que es Folk In love?</h2>\n        <h3>Conoce Tus Danzas, Descubre tus Vestuarios y Regiones</h3>\n        <h4>Fecha 28 de Junio de 2017</h4>\n        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores iusto porro quod laborum rerum vero laudantium, quo nesciunt mollitia provident illum eius quos ipsum reprehenderit necessitatibus nostrum, impedit reiciendis accusantium.</p>\n        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eum nisi blanditiis ex, provident quidem assumenda ratione doloremque sed. Labore cum quis vero inventore nesciunt deserunt temporibus sequi. Voluptate, labore.</p>\n      </hgroup>\n    </article>\n    <article class="aboutImagen"></article>\n  </section>\n'], ['\n  <section class="inicioAbout">\n    <article class="aboutTexto">\n      <hgroup>\n        <h2>Que es Folk In love?</h2>\n        <h3>Conoce Tus Danzas, Descubre tus Vestuarios y Regiones</h3>\n        <h4>Fecha 28 de Junio de 2017</h4>\n        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores iusto porro quod laborum rerum vero laudantium, quo nesciunt mollitia provident illum eius quos ipsum reprehenderit necessitatibus nostrum, impedit reiciendis accusantium.</p>\n        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eum nisi blanditiis ex, provident quidem assumenda ratione doloremque sed. Labore cum quis vero inventore nesciunt deserunt temporibus sequi. Voluptate, labore.</p>\n      </hgroup>\n    </article>\n    <article class="aboutImagen"></article>\n  </section>\n']);
 
 var _yoYo = require('yo-yo');
 
@@ -2785,22 +2784,23 @@ module.exports = (0, _yoYo2.default)(_templateObject);
 },{"yo-yo":14}],28:[function(require,module,exports){
 'use strict';
 
-var _page = require('page');
+var _templateObject = _taggedTemplateLiteral(['\n  <section class="banner">\n    <article class="titulo">\n      <h1>Folk In Love</h1>\n      <h3>Conoce Costumbres y Tradiciones de Panam\xE1</h3>\n    </article>\n  </section>\n'], ['\n  <section class="banner">\n    <article class="titulo">\n      <h1>Folk In Love</h1>\n      <h3>Conoce Costumbres y Tradiciones de Panam\xE1</h3>\n    </article>\n  </section>\n']);
 
-var _page2 = _interopRequireDefault(_page);
+var _yoYo = require('yo-yo');
+
+var _yoYo2 = _interopRequireDefault(_yoYo);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
 }
 
-require('./home');
-require('./productoLista');
-require('./producto');
-require('./prueba');
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
-(0, _page2.default)();
+module.exports = (0, _yoYo2.default)(_templateObject);
 
-},{"./home":25,"./producto":29,"./productoLista":32,"./prueba":35,"page":12}],29:[function(require,module,exports){
+},{"yo-yo":14}],29:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -2841,7 +2841,7 @@ function _interopRequireDefault(obj) {
   (0, _emptyElement2.default)(main).appendChild((0, _template2.default)(producto));
 });
 
-},{"../footer":19,"../header":21,"../productoLista/productos":33,"./template":30,"empty-element":4,"page":12}],30:[function(require,module,exports){
+},{"../footer":18,"../header":20,"../productoLista/productos":33,"./template":30,"empty-element":4,"page":12}],30:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <section class="producto">\n    <h2>', '</h2>\n    <div class="productoImagen"></div>\n    <div class="productoPrecio">$', '</div>\n    <div class="productoCaracteristicas">\n      <ul>\n          ', '\n      </ul>\n    </div>\n  </section>\n  '], ['\n  <section class="producto">\n    <h2>', '</h2>\n    <div class="productoImagen"></div>\n    <div class="productoPrecio">$', '</div>\n    <div class="productoCaracteristicas">\n      <ul>\n          ', '\n      </ul>\n    </div>\n  </section>\n  ']),
@@ -2925,7 +2925,7 @@ function _interopRequireDefault(obj) {
   (0, _emptyElement2.default)(main).appendChild((0, _template2.default)(_productos2.default));
 });
 
-},{"../footer":19,"../header":21,"./productos":33,"./template":34,"empty-element":4,"page":12}],33:[function(require,module,exports){
+},{"../footer":18,"../header":20,"./productos":33,"./template":34,"empty-element":4,"page":12}],33:[function(require,module,exports){
 'use strict';
 
 var producto = [{
@@ -3020,7 +3020,7 @@ function _interopRequireDefault(obj) {
   (0, _emptyElement2.default)(main).appendChild(_template2.default);
 });
 
-},{"../footer":19,"../header":21,"./template":36,"empty-element":4,"page":12}],36:[function(require,module,exports){
+},{"../footer":18,"../header":20,"./template":36,"empty-element":4,"page":12}],36:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <section class="producto">\n    <h2>', '</h2>\n  </section>\n  '], ['\n  <section class="producto">\n    <h2>', '</h2>\n  </section>\n  ']),
@@ -3049,4 +3049,4 @@ var caracteristica = function caracteristica(product) {
   return (0, _yoYo2.default)(_templateObject2, product);
 };
 
-},{"../../producto":16,"yo-yo":14}]},{},[28]);
+},{"../../producto":16,"yo-yo":14}]},{},[24]);

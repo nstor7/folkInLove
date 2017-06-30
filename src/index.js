@@ -1,6 +1,6 @@
 import page from 'page'
 
-require('./home')
+require('./inicio')
 require('./productoLista')
 require('./producto')
 require('./prueba')

@@ -1,0 +1,50 @@
+gris = rgba(147, 149, 152, 1)
+rosado = #9D3973
+celeste = #02aec3
+negro = rgba(1, 1, 1, 1)
+grisClaro = #e1e1e1
+transparente = rgba(1, 1, 1, 0.2)
+
+.banner
+  width 100vw
+  height 38vw
+  background: url('images/banner-full.jpg')
+  background-size contain
+  background-attachment: fixed
+  display: flex
+  align-items: center
+  justify-content: center
+  @media(max-width: 1280px)
+    background: url('images/banner-med.jpg')
+    background-size: contain
+    background-attachment: fixed
+  @media(max-width: 800px)
+    background: url('images/banner-tab.jpg')
+    background-size: contain
+    background-attachment: fixed
+    height: 100vw
+    align-items: flex-start
+  @media(max-width: 600px)
+    background: url('images/banner-cel.jpg')
+    background-size: contain
+    background-attachment: fixed
+    height: 100vw
+  .titulo
+    width: auto
+    height: auto
+    text-align: center
+    color: grisClaro
+    @media(max-width: 800px){
+      margin-top: 19vw
+    }
+    h1
+      font-size: 4rem
+      @media(max-width: 800px)
+        font-size: 2rem
+    h3
+      font-size: 2rem
+      margin: 0
+      @media(max-width: 800px)
+        font-size: 1.5rem
+      @media(max-width: 500px)
+        font-size: 1rem
