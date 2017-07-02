@@ -9,11 +9,10 @@ module.exports = yo`
  </a>
  <nav id="nav" class="nav hidden">
    <a href="/" onclick=${navegacion}>Inicio</a>
-   <a href="/" onclick=${navegacion}>Regiones</a>
    <a href="/" onclick=${navegacion}>Danzas</a>
-   <a href="/" onclick=${navegacion}>Vestidos</a>
+   <a href="/" onclick=${navegacion}>Vestuarios</a>
    <a href="/productos" onclick=${navegacion}>Tienda</a>
-   <a href="#" onclick=${navegacion}>Contacto</a>
+   <a href="/contacto" onclick=${navegacion}>Contacto</a>
  </nav>
  <a href="#" class="navButton" onclick=${navegacion}>
    <i class="fa fa-bars" aria-hidden="true"></i>

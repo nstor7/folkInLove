@@ -7,10 +7,12 @@ transparente = rgba(1, 1, 1, 0.2)
 
 .inicioAbout
   display: flex
-  flex-wrap: wrap
+  @media(max-width: 800px)
+    flex-wrap: wrap
   article
     width: 50vw
     height: 40vw
+    box-sizing: border-box
     @media(max-width: 800px)
       width: 100vw
       height: 80vw
@@ -24,10 +26,6 @@ transparente = rgba(1, 1, 1, 0.2)
       height: auto
     hgroup
       width: 90%
-    h2, h4
-      margin-bottom: 0
-    h3, p
-      margin-top: 0
   .aboutImagen
     background: url('images/about-full.jpg')
     background-size: contain

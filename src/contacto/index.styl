@@ -1,0 +1,70 @@
+gris = rgba(147, 149, 152, 1)
+rosado = rgba(170, 28, 100, 1)
+celeste = #02aec3
+negro = rgba(1, 1, 1, 1)
+grisClaro = #e1e1e1
+transparente = rgba(170, 28, 100, 0.6)
+
+.contacto
+  width: 100vw
+  height: 50vw
+  min-height: 700px
+  background: gris
+  display: flex
+  align-items: center
+  background: url('images/contacto-full.jpg')
+  background-size: cover
+  background-attachment: fixed
+  @media(max-width: 1280px)
+    background: url('images/contacto-med.jpg')
+    background-size: cover
+    background-attachment: fixed
+  @media(max-width: 800px)
+    background: url('images/contacto-tab.jpg')
+    background-size: contain
+    background-attachment: fixed
+    height: 110vw
+  @media(max-width: 600px)
+    background: url('images/contacto-cel.jpg')
+    background-size: cover
+    background-attachment: fixed
+  .contactoInfo
+    width: 35vw
+    height: 50vw
+    min-height: 700px
+    background: transparente
+    display: flex
+    justify-content: center
+    align-items: center
+    padding-top 64px
+    box-sizing: border-box
+    @media(max-width: 800px)
+      width: 100vw
+      height: 110vw
+    div
+      color: grisClaro
+      width: 80%
+      height: auto
+      h2
+        margin-top: 0
+      form
+        input
+          width: 100%
+          height: 30px
+          margin-bottom: 0.3rem
+          font-family: 'Work Sans', sans-serif
+          font-size: 1rem
+        textarea
+          width: 100%
+          font-family: 'Work Sans', sans-serif
+          font-size: 1rem
+        .btn
+          background: negro
+          width: 160px
+          height: 50px
+          float right
+          color: grisClaro
+        .btn:hover
+          cursor: pointer
+          background: grisClaro
+          color: negro
