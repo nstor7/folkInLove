@@ -33,11 +33,24 @@ module.exports = yo`
         <h2>Identidad</h2>
         <h3>Investigando sobre las Costumbres de Cada Región</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore aliquam cupiditate quod placeat laboriosam molestias temporibus commodi quae, perferendis totam beatae quaerat dignissimos autem asperiores architecto aut eaque dolorum officia.
+          Gracias a su posicion estrategica dentro de las americas nuestro país ha desarrollado una riqueza
+
+cultural y folklórica inigualable. La combinacion entre las etnias indigenas existentes antes de la
+
+conquista, la intromision europea y la llegada de los negros como esclavos ha permitido el
+
+enriquecimiento de la cultura de manera inigualable.
         </p>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quos exercitationem laudantium harum error in explicabo, vero consequuntur itaque, praesentium alias illum reiciendis eius pariatur officia voluptatum optio nesciunt iusto?
-        </p>
+          De acuerdo con investigaciones se pudo apreciar como la vestimenta femenina y masculina fue
+
+          aceptada y utilizada por los panameños a inicios del siglo XX, las polleras, las chambras, las coletas y
+
+          camisillas fueron de uso comun en casi toda la republica. Actualmente podemos ver como las etnias
+
+          indigenas y los grupos congos mantienen sus tradiciones permitiendo la evolución al tener remplazo
+
+          generacional y danzas vivas.        </p>
       </hgroup>
     </article>
   </section>

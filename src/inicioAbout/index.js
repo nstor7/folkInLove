@@ -6,9 +6,12 @@ module.exports = yo`
       <hgroup>
         <h2>Que es Folk In love?</h2>
         <h3>Conoce Tus Danzas, Descubre tus Vestuarios y Regiones</h3>
-        <h4>Fecha 28 de Junio de 2017</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores iusto porro quod laborum rerum vero laudantium, quo nesciunt mollitia provident illum eius quos ipsum reprehenderit necessitatibus nostrum, impedit reiciendis accusantium.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eum nisi blanditiis ex, provident quidem assumenda ratione doloremque sed. Labore cum quis vero inventore nesciunt deserunt temporibus sequi. Voluptate, labore.</p>
+        <p>
+          En Folk in love nos dedicamos a la investigación, difusion, promocion y conservación del folklore Panameño, Procuramos ofrecer un espacio en donde se pueda encontrar información de calidad respaldada por investigaciones y fuentes confiables que puedan servir de referencia para Bailarines, Maestros, vestuaristas, estudiantes y amantes del folklore.
+        </p>
+        <p>
+          Buscamos unir nuestros esfuerzos con la comunidad. Ademas de hacer investigaciones propias estamos abiertos a recibir todo tipo de aporte como fotografias, videosy datos que nos permitan tener un panorama más amplio de nuestras manifestaciones folkloricas.
+        </p>
       </hgroup>
     </article>
     <article class="aboutImagen"></article>
