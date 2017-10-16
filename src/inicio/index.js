@@ -3,7 +3,7 @@ import empty from 'empty-element'
 import template from './template'
 import header from '../header'
 import footer from '../footer'
-import fn from '../header/scrollFunction'
+import fn from '../header/functions'
 
 page('/', header, footer, function(ctx, next){
   var main = document.getElementById('main-container');

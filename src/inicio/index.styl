@@ -1,0 +1,110 @@
+gris = rgba(147, 149, 152, 1)
+rosado = rgba(242, 37, 147, 1)
+celeste = #02aec3
+negro = rgba(1, 1, 1, 1)
+blanco = rgba(240, 240, 240, 1)
+transparente = rgba(1, 1, 1, 0.2)
+
+.banner
+  width 100vw
+  height 39.6vw
+  background: url('images/banner-full.jpg')
+  background-size contain
+  background-repeat: no-repeat
+  background-attachment: fixed
+  display: flex
+  align-items: center
+  justify-content: center
+  @media(max-width: 1280px)
+    background: url('images/banner-med.jpg')
+    background-size: contain
+    background-repeat: no-repeat
+    background-attachment: fixed
+  @media(max-width: 800px)
+    background: url('images/banner-tab.jpg')
+    background-size: contain
+    background-attachment: fixed
+    height: 100vw
+    align-items: flex-start
+  @media(max-width: 600px)
+    background: url('images/banner-cel.jpg')
+    background-size: contain
+    background-attachment: fixed
+    height: 100vw
+  .titulo
+    width: auto
+    height: auto
+    text-align: center
+    color: blanco
+    @media(max-width: 800px)
+      margin-top: 19vw
+    h1
+      font-size: 5vw
+      margin-bottom: 2vw
+    h3 
+      font-size: 3vw
+.inicioAbout
+  display: flex
+  @media(max-width: 800px)
+    flex-wrap: wrap
+  .aboutImagen
+    background: url('images/about-full.jpg')
+    background-size: contain
+    @media(max-width: 1280px)
+      background: url('images/about-med.jpg')
+      background-size: contain
+    @media(max-width: 800px)
+      background: url('images/about-tab.jpg')
+      background-size: contain
+    @media(max-width: 600px)
+      background: url('images/about-cel.jpg')
+      background-size: contain
+.inicioIdentidad
+  width: auto
+  height: auto
+  .identidadImagenes
+    display: flex
+    justify-content: center
+    @media(max-width: 800px)
+      flex-wrap: wrap
+    .identidadImagen
+      text-transform: none
+      text-decoration: none
+      .identidadInfo
+        width: 100%
+        height: 100%
+        display: flex
+        justify-content: center
+        align-items: center
+        opacity: 0
+        transition: opacity 0.5s linear
+        &:hover
+          opacity: 1
+        hgroup
+          text-align: center
+    .identidad1
+      background: url('images/identidad-1.jpg')
+      background-size: cover
+    .identidad2
+      background: url('images/identidad-2.jpg')
+      background-size: cover
+    .identidad3
+      background: url('images/identidad-3.jpg')
+      background-size: cover
+.inicioApoyo
+  background: url('images/apoyo-full.jpg')
+  background-size: cover
+  background-attachment: fixed
+  @media(max-width: 1280px)
+    background: url('images/apoyo-med.jpg')
+    background-size: cover
+    background-attachment: fixed
+  @media(max-width: 800px)
+    background: url('images/apoyo-tab.jpg')
+    background-size: cover
+    height: auto
+    background-attachment: fixed
+  @media(max-width: 600px)
+    background: url('images/apoyo-cel.jpg')
+    background-size: cover
+    background-attachment: fixed

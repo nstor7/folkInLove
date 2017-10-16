@@ -1,9 +1,8 @@
 import yo from 'yo-yo'
-import banner from '../inicioBanner'
-import about from '../inicioAbout'
-import artesanas from '../artesanas'
-import identidad from '../inicioIdentidad'
-import apoyo from '../inicioApoyo'
+import banner from './banner'
+import about from './about'
+import identidad from './identidad'
+import apoyo from './apoyo'
 
 module.exports = yo`
   <main class="home">

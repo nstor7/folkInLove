@@ -1,20 +1,20 @@
 import yo from 'yo-yo'
 
 module.exports = yo`
-  <section class="contacto">
-    <article class="contactoInfo">
+  <section class="contacto completa">
+    <article class="contactoInfo rosaTrans">
       <div>
         <h2>Contáctenos:</h2>
         <h4>Email:</h4>
-        <p>info@folkinlove.com</p>
+        <p>info@folkinlovepty.com</p>
         <h4>teléfono:</h4>
-        <p>263-1173</p>
+        <p>6945-5931</p>
         <form action="/contacto/send" method="post">
           <input type="text" name="nombre" placeholder="Nombre">
           <input type="text" name="email" placeholder="Email">
           <input type="text" name="asunto" placeholder="Asunto">
           <textarea name="mensaje" rows="10" cols="30" placeholder="Envianos Tu Mensaje"></textarea>
-          <input type="submit" name="submit" value="Enviar" class="btn">
+          <input type="submit" name="submit" value="Enviar" class="btn negro">
         </form>
       </div>
     </article>

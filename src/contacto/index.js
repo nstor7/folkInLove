@@ -3,7 +3,7 @@ import empty from 'empty-element'
 import header from '../header'
 import footer from '../footer'
 import template from './template'
-import fn from '../header/scrollFunction'
+import fn from '../header/functions'
 
 page('/contacto', header, footer, fn.noScrollFunction, function(ctx, next){
   var main = document.getElementById('main-container')
