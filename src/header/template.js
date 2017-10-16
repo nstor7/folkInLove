@@ -11,7 +11,6 @@ module.exports = yo`
    <a href="/" onclick=${fn.navegacion}>Inicio</a>
    <a href="/danzas" onclick=${fn.navegacion}>Danzas</a>
    <a href="/vestuarios" onclick=${fn.navegacion}>Vestuarios</a>
-   <a href="/productos" onclick=${fn.navegacion}>Tienda</a>
    <a href="/contacto" onclick=${fn.navegacion}>Contacto</a>
  </nav>
  <a href="#" class="navButton" onclick=${fn.navegacion}>

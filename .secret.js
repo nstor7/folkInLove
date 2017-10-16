@@ -1,5 +1,6 @@
 module.exports = {
  mailuser: 'nstor777@gmail.com',
  mailpsw: 'violin507celloS',
- mailaddress: 'cinthia@folkinlovepty.com'
+ mailaddress: 'cinthia@folkinlovepty.com',
+ yo: 'the best'
 }
