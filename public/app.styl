@@ -12,6 +12,12 @@ article
   display: flex
   justify-content: center
   align-items: center
+section
+  display: flex
+  justify-content: space-around
+  align-items: center
+  @media(max-width: 800px)
+    flex-wrap: wrap
 //Fuentes
 h1, h2
   font-family: 'Mandali', sans-serif
@@ -20,7 +26,7 @@ h1, h2
   font-size 3vw
   margin 0
   padding 0
-  @media(max-width: 900px)
+  @media(max-width: 800px)
     font-size: 9vw
 h3
   font-family: 'Dancing Script', cursive
@@ -28,20 +34,22 @@ h3
   font-weight: 400
   margin 0
   padding 0
-  @media(max-width: 900px)
-    font-size: 3vw
+  @media(max-width: 800px)
+    font-size: 6vw
 h4
   font-family: 'Yantramanav', sans-serif
   font-size 1vw
   font-weight: light
   margin 0
   padding 0
+  @media(max-width: 800px)
+    font-size: 4vw
 p, li
   font-family: 'Yantramanav', sans-serif
   font-size: 1.3vw
   line-height: 1.6vw  
   letter-spacing: 0.05vw
-  @media(max-width: 900px)
+  @media(max-width: 800px)
     font-size: 3.9vw
     line-height: 4.8vw
     letter-spacing: 0.15vw
@@ -76,9 +84,7 @@ a
   background: rgba(242, 37, 147, 0.6)
   color: rgba(240, 240, 240, 1)
 //cajas
-.portada
-  width: 100vw
-  height: 39vw
+
 .completa
   width: 100vw
   height: 40vw
@@ -96,23 +102,39 @@ a
   height: 40vw
   @media(max-width: 800px)
     width: 100vw
-    height: 80vw
+    height: auto
+    padding: 1vw
   hgroup
     width: 90%
+.portada
+  width: 100vw
+  height: 40vw
+  justify-content: space-between
+  @media(max-width: 800px)
+    width: 100vw
+    height: 80vw
+  .completa, .mitad
+    @media(max-width: 800px)
+      height: 80vw
 .tercio
   width: 33.33vw
   height: 40vw
   @media(max-width: 800px)
     width: 100vw
-    height: 80vw
+    height: auto
+    padding: 1vw
 .dosTercios
   width: 66.66vw
   height: 40vw
   @media(max-width : 800px)
     width: 100vw
-    height 80vw
+    height auto
+    padding: 1vw
   hgroup
     width: 90%
+.imagen 
+  @media(max-width: 800px)
+    height: 80vw
 .texto
   display flex
   justify-content: center
@@ -127,20 +149,31 @@ a
     width: 100%
     height: 100%
 form
+  display: flex
+  flex-wrap: wrap
   input
     width: 28vw
     height: 2.34vw
     margin-bottom: 0.5vw
     font-family: 'Work Sans', sans-serif
     font-size: 1.3vw
+    @media(max-width: 800px)
+      width: 60vw 
+      height: 4vw
   textarea
     width: 28vw
     font-family: 'Work Sans', sans-serif
     font-size: 1.3vw
+    @media(max-width: 800px)
+      width: 60vw 
   .btn
     width: 12.5vw
     height: 4vw
     float right
+    @media(max-width: 800px)
+      width: 50vw 
+      height:8vw
+      font-size: 3vw
   .btn:hover
     cursor: pointer
     background: grisClaro
@@ -154,12 +187,17 @@ form
     height auto
     padding: 1vw
     border-right: solid 1px black
+    @media(max-width:800px)
+      display: none
   .listaCont
     width: 74vw
     height: auto
     padding: 2vw
     display: flex
     justify-content: space-between
+    @media(max-width:800px)
+      width: 100vw
+      justify-content: center
 .tarjeta
   width: 22vw
   height: 32vw
@@ -168,14 +206,23 @@ form
   background: white
   box-shadow: grey 1px 1px 5px
   position relative
+  @media(max-width:800px)
+    width: 88vw
+    height: 128vw
+    padding: 8vw
   &:hover
     box-shadow: grey 5px 5px 10px
   .tarjetaImagen
     background: grey 
     width: 18vw
     height: 18vw
+    @media(max-width:800px)
+      width: 72vw
+      height: 72vw
   .tarjetaInfo 
     height: 12vw
+    @media(max-width:800px)
+      height: 48vw
     hgroup
       display flex
       flex-wrap: wrap
@@ -183,8 +230,13 @@ form
       h2
         font-size: 2vw
         margin: 1vw 0
+        @media(max-width: 800px)
+          font-size: 8vw
+          margin: 4vw 0
       h4 
         width: 100%
+        @media(max-width:800px)
+          font-size: 4vw
     
 @import '../src/header/index.styl'
 @import '../src/footer/index.styl'

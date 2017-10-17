@@ -1,7 +1,7 @@
 import yo from 'yo-yo'
 
 module.exports = yo`
-  <section class="inicioIdentidad">
+  <div class="inicioIdentidad">
     <article class="identidadImagenes">
       <a href="#" class="identidadImagen identidad3 tercio">
         <div class="identidadInfo negroTrans">
@@ -52,5 +52,5 @@ enriquecimiento de la cultura de manera inigualable.
           generacional y danzas vivas.        </p>
       </hgroup>
     </article>
-  </section>
+  </div>
 `

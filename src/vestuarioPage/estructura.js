@@ -14,7 +14,7 @@ module.exports = function(vestuario){
    <section className="completa texto info blanco">
     ${vestuario.antecedentes}
    </section>
-   <section class="completa" style="background: url('${vestuario.generalImagen}'); background-size:cover; background-attachment: fixed">
+   <section class="completa portada" style="background: url('${vestuario.generalImagen}'); background-size:cover; background-attachment: fixed">
     <article class="mitad negroTrans texto">
      <hgroup>
        <p>${vestuario.general}</p>
@@ -24,8 +24,8 @@ module.exports = function(vestuario){
    <section class="completa texto info blanco">
      ${vestuario.descripcion}
    </section>
-   <section class="completa">
-     <article class="dosTercios" style="background: url('${vestuario.joyeroImagen}'); background-size:cover"></article>
+   <section>
+     <article class="dosTercios imagen" style="background: url('${vestuario.joyeroImagen}'); background-size:cover"></article>
      <article class="tercio blanco joyero">
       <hgroup>
         <h1>Joyero</h1>

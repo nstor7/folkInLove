@@ -2544,9 +2544,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (imagenes) {
   var el = (0, _yoYo2.default)(_templateObject);
@@ -2562,9 +2566,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (seccion, articulo) {
   var el = (0, _yoYo2.default)(_templateObject, seccion, articulo.url, articulo.miniatura, articulo.nombre, articulo.region, articulo.dato);
@@ -2598,7 +2606,9 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/contacto', _header2.default, _footer2.default, _functions2.default.noScrollFunction, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -2614,9 +2624,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -2647,7 +2661,9 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/confirmacion', _header2.default, _footer2.default, _functions2.default.noScrollFunction, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -2663,9 +2679,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -2696,7 +2716,9 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/error', _header2.default, _footer2.default, _functions2.default.noScrollFunction, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -2712,25 +2734,33 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
 },{"yo-yo":14}],24:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n<main>\n <section class="portada" style="background: url(\'', '\'); background-size:contain; background-attachment: fixed">\n  <article class="mitad rosaTrans">\n   <hgroup>\n    <h1>', '</h1>\n    <p>', '</p>\n   </hgroup>\n  </article>\n </section>\n <section class="completa">\n  <article class="tercio" style="background: url(\'', '\'); background-size: cover;"></article>\n  <article class="dosTercios blanco texto">\n   ', '\n  </article>\n </section>\n <section>\n  <article class="completa texto info blanco">\n   ', '\n  </article>\n </section>\n <section class="completa" >\n  <article class="tercio blanco pasos">\n   <hgroup>\n    <h2>Pasos</h2>\n    <ul>\n     ', '\n    </ul>\n   </hgroup>\n  </article>\n  <article class="dosTercios" style="background: url(\'', '\'); background-size:cover"></article>\n </section>\n <article class="completa texto info rosa">\n     <hgroup>\n      <h2>referencias</h2>\n      <ul>\n       <li>Extracto de "EL PUNTO, LA DENESA, EL ATRAVESADO Y OTROS BAILES ORQUESTADOS". Dora P\xE9rez de Z\xE1rate. 198</li>\n      </ul>\n     </hgroup>\n </article>\n</main>\n \n '], ['\n<main>\n <section class="portada" style="background: url(\'', '\'); background-size:contain; background-attachment: fixed">\n  <article class="mitad rosaTrans">\n   <hgroup>\n    <h1>', '</h1>\n    <p>', '</p>\n   </hgroup>\n  </article>\n </section>\n <section class="completa">\n  <article class="tercio" style="background: url(\'', '\'); background-size: cover;"></article>\n  <article class="dosTercios blanco texto">\n   ', '\n  </article>\n </section>\n <section>\n  <article class="completa texto info blanco">\n   ', '\n  </article>\n </section>\n <section class="completa" >\n  <article class="tercio blanco pasos">\n   <hgroup>\n    <h2>Pasos</h2>\n    <ul>\n     ', '\n    </ul>\n   </hgroup>\n  </article>\n  <article class="dosTercios" style="background: url(\'', '\'); background-size:cover"></article>\n </section>\n <article class="completa texto info rosa">\n     <hgroup>\n      <h2>referencias</h2>\n      <ul>\n       <li>Extracto de "EL PUNTO, LA DENESA, EL ATRAVESADO Y OTROS BAILES ORQUESTADOS". Dora P\xE9rez de Z\xE1rate. 198</li>\n      </ul>\n     </hgroup>\n </article>\n</main>\n \n ']),
+var _templateObject = _taggedTemplateLiteral(['\n<main>\n <section class="portada" style="background: url(\'', '\'); background-size:contain; background-attachment: fixed">\n  <article class="mitad rosaTrans">\n   <hgroup>\n    <h1>', '</h1>\n    <p>', '</p>\n   </hgroup>\n  </article>\n </section>\n <section>\n  <article class="tercio imagen" style="background: url(\'', '\'); background-size: cover;"></article>\n  <article class="dosTercios blanco texto">\n   ', '\n  </article>\n </section>\n <section>\n  <article class="completa texto info blanco">\n   ', '\n  </article>\n </section>\n <section>\n  <article class="tercio blanco pasos">\n   <hgroup>\n    <h2>Pasos</h2>\n    <ul>\n     ', '\n    </ul>\n   </hgroup>\n  </article>\n  <article class="dosTercios imagen" style="background: url(\'', '\'); background-size:cover"></article>\n </section>\n <article class="completa texto info rosa">\n     <hgroup>\n      <h2>referencias</h2>\n      <ul>\n       <li>Extracto de "EL PUNTO, LA DENESA, EL ATRAVESADO Y OTROS BAILES ORQUESTADOS". Dora P\xE9rez de Z\xE1rate. 198</li>\n      </ul>\n     </hgroup>\n </article>\n</main>\n \n '], ['\n<main>\n <section class="portada" style="background: url(\'', '\'); background-size:contain; background-attachment: fixed">\n  <article class="mitad rosaTrans">\n   <hgroup>\n    <h1>', '</h1>\n    <p>', '</p>\n   </hgroup>\n  </article>\n </section>\n <section>\n  <article class="tercio imagen" style="background: url(\'', '\'); background-size: cover;"></article>\n  <article class="dosTercios blanco texto">\n   ', '\n  </article>\n </section>\n <section>\n  <article class="completa texto info blanco">\n   ', '\n  </article>\n </section>\n <section>\n  <article class="tercio blanco pasos">\n   <hgroup>\n    <h2>Pasos</h2>\n    <ul>\n     ', '\n    </ul>\n   </hgroup>\n  </article>\n  <article class="dosTercios imagen" style="background: url(\'', '\'); background-size:cover"></article>\n </section>\n <article class="completa texto info rosa">\n     <hgroup>\n      <h2>referencias</h2>\n      <ul>\n       <li>Extracto de "EL PUNTO, LA DENESA, EL ATRAVESADO Y OTROS BAILES ORQUESTADOS". Dora P\xE9rez de Z\xE1rate. 198</li>\n      </ul>\n     </hgroup>\n </article>\n</main>\n \n ']),
     _templateObject2 = _taggedTemplateLiteral(['<li>', '</li>'], ['<li>', '</li>']);
 
 var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (danza) {
   var el = (0, _yoYo2.default)(_templateObject, danza.portadaImagen, danza.nombre, danza.reseña, danza.introImagen, danza.intro, danza.descripcion, danza.pasos.map(function (paso) {
@@ -2770,7 +2800,9 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/danzas/:url', _header2.default, _footer2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -2791,9 +2823,13 @@ var _danza = require('./danza');
 
 var _danza2 = _interopRequireDefault(_danza);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (danzas, ident) {
   var el = (0, _yoYo2.default)(_templateObject, danzas.map(function (danza) {
@@ -2814,9 +2850,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = [{
   nombre: 'El Punto Santeño',
@@ -2861,7 +2901,9 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/danzas', _header2.default, _footer2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -2886,9 +2928,13 @@ var _danzas = require('./danzas');
 
 var _danzas2 = _interopRequireDefault(_danzas);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, _danzas2.default.map(function (danza) {
   return (0, _tarjeta2.default)('danzas', danza);
@@ -2905,7 +2951,9 @@ var _template = require('./template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 module.exports = function footer(ctx, next) {
   var pie = document.getElementById('footer');
@@ -2922,9 +2970,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -2965,7 +3017,9 @@ var _template = require('./template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 module.exports = function header(ctx, next) {
   var container = document.getElementById('header');
@@ -2986,9 +3040,13 @@ var _functions = require('./functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, _functions2.default.navegacion, _functions2.default.navegacion, _functions2.default.navegacion, _functions2.default.navegacion, _functions2.default.navegacion);
 
@@ -2999,7 +3057,9 @@ var _page = require('page');
 
 var _page2 = _interopRequireDefault(_page);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('*', function (ctx, next) {
   window.scrollTo(0, 0);
@@ -3025,9 +3085,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -3040,39 +3104,51 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
 },{"yo-yo":14}],38:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n  <section class="banner">\n    <articulo class="negroTrans completa texto">\n        <hgroup class="titulo">\n          <h1>Folk in Love</h1>\n          <h3>Conoce Costumbres y Tradiciones de Panam\xE1</h3>\n        </hgroup>\n    </articulo>\n    \n  </section>\n'], ['\n  <section class="banner">\n    <articulo class="negroTrans completa texto">\n        <hgroup class="titulo">\n          <h1>Folk in Love</h1>\n          <h3>Conoce Costumbres y Tradiciones de Panam\xE1</h3>\n        </hgroup>\n    </articulo>\n    \n  </section>\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  <section class="portada banner">\n    <articulo class="negroTrans completa texto">\n        <hgroup>\n          <h1>Folk in Love</h1>\n          <h3>Conoce Costumbres y Tradiciones de Panam\xE1</h3>\n        </hgroup>\n    </articulo>\n    \n  </section>\n'], ['\n  <section class="portada banner">\n    <articulo class="negroTrans completa texto">\n        <hgroup>\n          <h1>Folk in Love</h1>\n          <h3>Conoce Costumbres y Tradiciones de Panam\xE1</h3>\n        </hgroup>\n    </articulo>\n    \n  </section>\n']);
 
 var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
 },{"yo-yo":14}],39:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n  <section class="inicioIdentidad">\n    <article class="identidadImagenes">\n      <a href="#" class="identidadImagen identidad3 tercio">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera De Gala Ocue\xF1a</h2>\n            <h3>Azuero</h3>\n          </hgroup>\n        </div>\n      </a>\n      <a href="#" class="identidadImagen identidad2 tercio">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera Congo</h2>\n            <h3>Col\xF3n</h3>\n          </hgroup>\n        </div>\n      </a>\n      <a href="#" class="identidadImagen identidad1 tercio">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera De Lujo</h2>\n            <h3>Azuero</h3>\n          </hgroup>\n        </div>\n      </a>\n      \n    </article>\n    <article class="identidadTexto completa blanco">\n      <hgroup>\n        <h2>Identidad</h2>\n        <h3>Investigando sobre las Costumbres de Cada Regi\xF3n</h3>\n        <p>\n          Gracias a su posicion estrategica dentro de las americas nuestro pa\xEDs ha desarrollado una riqueza\n\ncultural y folkl\xF3rica inigualable. La combinacion entre las etnias indigenas existentes antes de la\n\nconquista, la intromision europea y la llegada de los negros como esclavos ha permitido el\n\nenriquecimiento de la cultura de manera inigualable.\n        </p>\n        <p>\n          De acuerdo con las investigaciones se pudo apreciar como la vestimenta femenina y masculina fue\n\n          aceptada y utilizada por los paname\xF1os a inicios del siglo XX, las polleras, chambras y otros vestidos fueron de uso comun en toda la republica. Actualmente podemos ver como las etnias\n\n          indigenas y los grupos congos mantienen sus tradiciones permitiendo la evoluci\xF3n al tener remplazo\n\n          generacional y danzas vivas.        </p>\n      </hgroup>\n    </article>\n  </section>\n'], ['\n  <section class="inicioIdentidad">\n    <article class="identidadImagenes">\n      <a href="#" class="identidadImagen identidad3 tercio">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera De Gala Ocue\xF1a</h2>\n            <h3>Azuero</h3>\n          </hgroup>\n        </div>\n      </a>\n      <a href="#" class="identidadImagen identidad2 tercio">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera Congo</h2>\n            <h3>Col\xF3n</h3>\n          </hgroup>\n        </div>\n      </a>\n      <a href="#" class="identidadImagen identidad1 tercio">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera De Lujo</h2>\n            <h3>Azuero</h3>\n          </hgroup>\n        </div>\n      </a>\n      \n    </article>\n    <article class="identidadTexto completa blanco">\n      <hgroup>\n        <h2>Identidad</h2>\n        <h3>Investigando sobre las Costumbres de Cada Regi\xF3n</h3>\n        <p>\n          Gracias a su posicion estrategica dentro de las americas nuestro pa\xEDs ha desarrollado una riqueza\n\ncultural y folkl\xF3rica inigualable. La combinacion entre las etnias indigenas existentes antes de la\n\nconquista, la intromision europea y la llegada de los negros como esclavos ha permitido el\n\nenriquecimiento de la cultura de manera inigualable.\n        </p>\n        <p>\n          De acuerdo con las investigaciones se pudo apreciar como la vestimenta femenina y masculina fue\n\n          aceptada y utilizada por los paname\xF1os a inicios del siglo XX, las polleras, chambras y otros vestidos fueron de uso comun en toda la republica. Actualmente podemos ver como las etnias\n\n          indigenas y los grupos congos mantienen sus tradiciones permitiendo la evoluci\xF3n al tener remplazo\n\n          generacional y danzas vivas.        </p>\n      </hgroup>\n    </article>\n  </section>\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  <div class="inicioIdentidad">\n    <article class="identidadImagenes">\n      <a href="#" class="identidadImagen identidad3 tercio">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera De Gala Ocue\xF1a</h2>\n            <h3>Azuero</h3>\n          </hgroup>\n        </div>\n      </a>\n      <a href="#" class="identidadImagen identidad2 tercio">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera Congo</h2>\n            <h3>Col\xF3n</h3>\n          </hgroup>\n        </div>\n      </a>\n      <a href="#" class="identidadImagen identidad1 tercio">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera De Lujo</h2>\n            <h3>Azuero</h3>\n          </hgroup>\n        </div>\n      </a>\n      \n    </article>\n    <article class="identidadTexto completa blanco">\n      <hgroup>\n        <h2>Identidad</h2>\n        <h3>Investigando sobre las Costumbres de Cada Regi\xF3n</h3>\n        <p>\n          Gracias a su posicion estrategica dentro de las americas nuestro pa\xEDs ha desarrollado una riqueza\n\ncultural y folkl\xF3rica inigualable. La combinacion entre las etnias indigenas existentes antes de la\n\nconquista, la intromision europea y la llegada de los negros como esclavos ha permitido el\n\nenriquecimiento de la cultura de manera inigualable.\n        </p>\n        <p>\n          De acuerdo con las investigaciones se pudo apreciar como la vestimenta femenina y masculina fue\n\n          aceptada y utilizada por los paname\xF1os a inicios del siglo XX, las polleras, chambras y otros vestidos fueron de uso comun en toda la republica. Actualmente podemos ver como las etnias\n\n          indigenas y los grupos congos mantienen sus tradiciones permitiendo la evoluci\xF3n al tener remplazo\n\n          generacional y danzas vivas.        </p>\n      </hgroup>\n    </article>\n  </div>\n'], ['\n  <div class="inicioIdentidad">\n    <article class="identidadImagenes">\n      <a href="#" class="identidadImagen identidad3 tercio">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera De Gala Ocue\xF1a</h2>\n            <h3>Azuero</h3>\n          </hgroup>\n        </div>\n      </a>\n      <a href="#" class="identidadImagen identidad2 tercio">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera Congo</h2>\n            <h3>Col\xF3n</h3>\n          </hgroup>\n        </div>\n      </a>\n      <a href="#" class="identidadImagen identidad1 tercio">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera De Lujo</h2>\n            <h3>Azuero</h3>\n          </hgroup>\n        </div>\n      </a>\n      \n    </article>\n    <article class="identidadTexto completa blanco">\n      <hgroup>\n        <h2>Identidad</h2>\n        <h3>Investigando sobre las Costumbres de Cada Regi\xF3n</h3>\n        <p>\n          Gracias a su posicion estrategica dentro de las americas nuestro pa\xEDs ha desarrollado una riqueza\n\ncultural y folkl\xF3rica inigualable. La combinacion entre las etnias indigenas existentes antes de la\n\nconquista, la intromision europea y la llegada de los negros como esclavos ha permitido el\n\nenriquecimiento de la cultura de manera inigualable.\n        </p>\n        <p>\n          De acuerdo con las investigaciones se pudo apreciar como la vestimenta femenina y masculina fue\n\n          aceptada y utilizada por los paname\xF1os a inicios del siglo XX, las polleras, chambras y otros vestidos fueron de uso comun en toda la republica. Actualmente podemos ver como las etnias\n\n          indigenas y los grupos congos mantienen sus tradiciones permitiendo la evoluci\xF3n al tener remplazo\n\n          generacional y danzas vivas.        </p>\n      </hgroup>\n    </article>\n  </div>\n']);
 
 var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -3103,7 +3179,9 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/', _header2.default, _footer2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -3138,25 +3216,33 @@ var _apoyo = require('./apoyo');
 
 var _apoyo2 = _interopRequireDefault(_apoyo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, _banner2.default, _about2.default, _identidad2.default, _apoyo2.default);
 
 },{"./about":36,"./apoyo":37,"./banner":38,"./identidad":39,"yo-yo":14}],42:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n  <main>\n   <section class="portada" style="background: url(\'', '\'); background-size:contain; background-attachment: fixed">\n    <article class="mitad rosaTrans">\n      <hgroup>\n          <h1>', '</h1>\n          <p>', '</p>\n      </hgroup>\n    </article>\n   </section>\n   <section className="completa texto info blanco">\n    ', '\n   </section>\n   <section class="completa" style="background: url(\'', '\'); background-size:cover; background-attachment: fixed">\n    <article class="mitad negroTrans texto">\n     <hgroup>\n       <p>', '</p>\n     </hgroup>\n    </article>\n   </section>\n   <section class="completa texto info blanco">\n     ', '\n   </section>\n   <section class="completa">\n     <article class="dosTercios" style="background: url(\'', '\'); background-size:cover"></article>\n     <article class="tercio blanco joyero">\n      <hgroup>\n        <h1>Joyero</h1>\n        <ul>\n         ', '\n        </ul>\n        \n      </hgroup>\n     </article>\n   </section>\n  </main>\n '], ['\n  <main>\n   <section class="portada" style="background: url(\'', '\'); background-size:contain; background-attachment: fixed">\n    <article class="mitad rosaTrans">\n      <hgroup>\n          <h1>', '</h1>\n          <p>', '</p>\n      </hgroup>\n    </article>\n   </section>\n   <section className="completa texto info blanco">\n    ', '\n   </section>\n   <section class="completa" style="background: url(\'', '\'); background-size:cover; background-attachment: fixed">\n    <article class="mitad negroTrans texto">\n     <hgroup>\n       <p>', '</p>\n     </hgroup>\n    </article>\n   </section>\n   <section class="completa texto info blanco">\n     ', '\n   </section>\n   <section class="completa">\n     <article class="dosTercios" style="background: url(\'', '\'); background-size:cover"></article>\n     <article class="tercio blanco joyero">\n      <hgroup>\n        <h1>Joyero</h1>\n        <ul>\n         ', '\n        </ul>\n        \n      </hgroup>\n     </article>\n   </section>\n  </main>\n ']),
+var _templateObject = _taggedTemplateLiteral(['\n  <main>\n   <section class="portada" style="background: url(\'', '\'); background-size:contain; background-attachment: fixed">\n    <article class="mitad rosaTrans">\n      <hgroup>\n          <h1>', '</h1>\n          <p>', '</p>\n      </hgroup>\n    </article>\n   </section>\n   <section className="completa texto info blanco">\n    ', '\n   </section>\n   <section class="completa portada" style="background: url(\'', '\'); background-size:cover; background-attachment: fixed">\n    <article class="mitad negroTrans texto">\n     <hgroup>\n       <p>', '</p>\n     </hgroup>\n    </article>\n   </section>\n   <section class="completa texto info blanco">\n     ', '\n   </section>\n   <section>\n     <article class="dosTercios imagen" style="background: url(\'', '\'); background-size:cover"></article>\n     <article class="tercio blanco joyero">\n      <hgroup>\n        <h1>Joyero</h1>\n        <ul>\n         ', '\n        </ul>\n        \n      </hgroup>\n     </article>\n   </section>\n  </main>\n '], ['\n  <main>\n   <section class="portada" style="background: url(\'', '\'); background-size:contain; background-attachment: fixed">\n    <article class="mitad rosaTrans">\n      <hgroup>\n          <h1>', '</h1>\n          <p>', '</p>\n      </hgroup>\n    </article>\n   </section>\n   <section className="completa texto info blanco">\n    ', '\n   </section>\n   <section class="completa portada" style="background: url(\'', '\'); background-size:cover; background-attachment: fixed">\n    <article class="mitad negroTrans texto">\n     <hgroup>\n       <p>', '</p>\n     </hgroup>\n    </article>\n   </section>\n   <section class="completa texto info blanco">\n     ', '\n   </section>\n   <section>\n     <article class="dosTercios imagen" style="background: url(\'', '\'); background-size:cover"></article>\n     <article class="tercio blanco joyero">\n      <hgroup>\n        <h1>Joyero</h1>\n        <ul>\n         ', '\n        </ul>\n        \n      </hgroup>\n     </article>\n   </section>\n  </main>\n ']),
     _templateObject2 = _taggedTemplateLiteral(['<li>', '</li>'], ['<li>', '</li>']);
 
 var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (vestuario) {
   var el = (0, _yoYo2.default)(_templateObject, vestuario.portadaImagen, vestuario.nombre, vestuario.reseña, vestuario.antecedentes, vestuario.generalImagen, vestuario.general, vestuario.descripcion, vestuario.joyeroImagen, vestuario.joyero.map(function (joya) {
@@ -3196,7 +3282,9 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/vestuarios/:url', _header2.default, _footer2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -3221,9 +3309,13 @@ var _estructura = require('./estructura');
 
 var _estructura2 = _interopRequireDefault(_estructura);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (vestuarios, ident) {
   var el = (0, _yoYo2.default)(_templateObject, vestuarios.map(function (vestuario) {
@@ -3261,7 +3353,9 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/vestuarios', _header2.default, _footer2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -3286,9 +3380,13 @@ var _vestuarios = require('./vestuarios');
 
 var _vestuarios2 = _interopRequireDefault(_vestuarios);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, _vestuarios2.default.map(function (danza) {
   return (0, _tarjeta2.default)('vestuarios', danza);
@@ -3305,9 +3403,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = [{
   nombre: 'Pollera de Gala Ocueña',

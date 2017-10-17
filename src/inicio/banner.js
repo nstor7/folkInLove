@@ -1,9 +1,9 @@
 import yo from 'yo-yo'
 
 module.exports = yo`
-  <section class="banner">
+  <section class="portada banner">
     <articulo class="negroTrans completa texto">
-        <hgroup class="titulo">
+        <hgroup>
           <h1>Folk in Love</h1>
           <h3>Conoce Costumbres y Tradiciones de Panamá</h3>
         </hgroup>

@@ -11,8 +11,8 @@ module.exports = function(danza){
    </hgroup>
   </article>
  </section>
- <section class="completa">
-  <article class="tercio" style="background: url('${danza.introImagen}'); background-size: cover;"></article>
+ <section>
+  <article class="tercio imagen" style="background: url('${danza.introImagen}'); background-size: cover;"></article>
   <article class="dosTercios blanco texto">
    ${danza.intro}
   </article>
@@ -22,7 +22,7 @@ module.exports = function(danza){
    ${danza.descripcion}
   </article>
  </section>
- <section class="completa" >
+ <section>
   <article class="tercio blanco pasos">
    <hgroup>
     <h2>Pasos</h2>
@@ -33,7 +33,7 @@ module.exports = function(danza){
     </ul>
    </hgroup>
   </article>
-  <article class="dosTercios" style="background: url('${danza.pasosImagen}'); background-size:cover"></article>
+  <article class="dosTercios imagen" style="background: url('${danza.pasosImagen}'); background-size:cover"></article>
  </section>
  <article class="completa texto info rosa">
      <hgroup>

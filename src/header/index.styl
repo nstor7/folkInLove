@@ -14,6 +14,8 @@ header
  background transparente
  position: fixed
  transition: all 0.3s linear
+ @media(max-width: 800px)
+  height: 15vw
  .logoContainer
    width: 21vw
    display flex
@@ -22,12 +24,17 @@ header
    opacity: 0
    transition: opacity 0.5s linear
    text-decoration: none
+   @media(max-width: 800px)
+    width: 52vw
    .logo
      background url('images/logo.png')
      background-size contain
      repeat none
      height 4vw
      width 4vw
+     @media(max-width: 800px)
+      height 12vw
+      width: 12vw
     // @media screen and (min-resolution: 2dppx)
     //  background url('imagenes/sumergidaLogo2x.png') cover
     // @media screen and (min-resolution: 3dppx)
@@ -35,20 +42,22 @@ header
     h1 
       color black
       font-size: 2.5vw
+      @media(max-width: 800px)
+        font-size: 6vw
 nav
   line-height 5vw
   width: 40vw
   display: flex
   justify-content: space-between
   transition all ease 1s
-  @media(max-width: 900px)
+  @media(max-width: 800px)
     position absolute
-    top 5vw
+    top 15vw
     right: 0
     background blanco
     width 100vw
     transition ease 1s
-    height: 384px
+    height: 100vw
     flex-wrap: wrap
   a  
     font-family: 'Yantramanav', sans-serif
@@ -57,11 +66,12 @@ nav
     text-decoration none
     text-transform: uppercase
     color blanco
-    @media(max-width: 900px)
+    @media(max-width: 800px)
       font-size: 4.5vw
       color rosado
       width: 100vw
       text-align: center
+      line-height: 25vw
     &:hover
       color rosado
       border-bottom: 3px solid rosado
@@ -76,8 +86,8 @@ nav
   font-size 2rem
   color #e1e1e1
   height: 5vw
-  line-height: 5vw
-  @media(min-width: 900px)
+  line-height: 15vw
+  @media(min-width: 800px)
     display none
 .blanco
   background: blanco
