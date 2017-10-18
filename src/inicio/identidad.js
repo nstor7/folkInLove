@@ -3,7 +3,7 @@ import yo from 'yo-yo'
 module.exports = yo`
   <div class="inicioIdentidad">
     <article class="identidadImagenes">
-      <a href="#" class="identidadImagen identidad3 tercio">
+      <a href="/vestuarios/Gala-Ocuena" class="identidadImagen identidad3 tercio">
         <div class="identidadInfo negroTrans">
           <hgroup>
             <h2>Pollera De Gala Ocueña</h2>
