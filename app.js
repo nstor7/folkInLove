@@ -17,7 +17,11 @@ app.use('/danzas', danzas)
 app.use('/vestuarios', vestuarios)
 
 app.get('/', function(req, res){
- res.render('index.pug')
+ res.render('index.pug', {
+   title: 'Folk in Love',
+   description: 'En Folk in love nos dedicamos a la investigación, difusión, promoción y conservación del folklore Panameño, queremos ofrecer un espacio en donde se pueda encontrar información de calidad respaldada por investigaciones y fuentes confiables que puedan servir de referencia para bailarines, maestros, vestuaristas, estudiantes y amantes del folklore.',
+   keywords: 'Investigación, folklore, folclore, folclor, vestuario, vestido tipico, Costumbres de Panamá, República de Panamá, Colón , Azuero, Cultura, panama'
+ })
 })
 app.get('/contacto', function(req,res){
  res.render('index.pug')

@@ -2544,13 +2544,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (imagenes) {
   var el = (0, _yoYo2.default)(_templateObject);
@@ -2566,13 +2562,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (seccion, articulo) {
   var el = (0, _yoYo2.default)(_templateObject, seccion, articulo.url, articulo.miniatura, articulo.nombre, articulo.region, articulo.dato);
@@ -2606,9 +2598,7 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/contacto', _header2.default, _footer2.default, _functions2.default.noScrollFunction, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -2624,13 +2614,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -2661,9 +2647,7 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/confirmacion', _header2.default, _footer2.default, _functions2.default.noScrollFunction, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -2679,13 +2663,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -2716,9 +2696,7 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/error', _header2.default, _footer2.default, _functions2.default.noScrollFunction, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -2734,13 +2712,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -2754,13 +2728,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (danza) {
   var el = (0, _yoYo2.default)(_templateObject, danza.portadaImagen, danza.nombre, danza.reseña, danza.introImagen, danza.intro, danza.descripcion, danza.pasos.map(function (paso) {
@@ -2800,9 +2770,7 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/danzas/:url', _header2.default, _footer2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -2823,13 +2791,9 @@ var _danza = require('./danza');
 
 var _danza2 = _interopRequireDefault(_danza);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (danzas, ident) {
   var el = (0, _yoYo2.default)(_templateObject, danzas.map(function (danza) {
@@ -2844,19 +2808,15 @@ module.exports = function (danzas, ident) {
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n   <hgroup>\n    <p><i>\u201CDespu\xE9s del tamborito, el baile de parejas individual m\xE1s atractivo es el PUNTO en el cual la pareja hace gala de donaire, precisi\xF3n y gracia. Parece de pura ascendencia hisp\xE1nica a juzgar por la m\xFAsica que lo acompa\xF1a.</i></p>\n    <p><i>El baile de PUNTO no es baile de toda una noche como puede serio el Tamborito y la Cumbia; el Pind\xEDn y la Mejorana. Se baila m\xE1s bien como una demostraci\xF3n atractiva entre los minutos de descanso de un baile, para regalo de los ojos y goce del esp\xEDritu de la concurrencia a una fiesta.\u201D</i></p>\n    <p>Dora P\xE9rez de Zarate</p>\n   </hgroup>'], ['\n   <hgroup>\n    <p><i>\u201CDespu\xE9s del tamborito, el baile de parejas individual m\xE1s atractivo es el PUNTO en el cual la pareja hace gala de donaire, precisi\xF3n y gracia. Parece de pura ascendencia hisp\xE1nica a juzgar por la m\xFAsica que lo acompa\xF1a.</i></p>\n    <p><i>El baile de PUNTO no es baile de toda una noche como puede serio el Tamborito y la Cumbia; el Pind\xEDn y la Mejorana. Se baila m\xE1s bien como una demostraci\xF3n atractiva entre los minutos de descanso de un baile, para regalo de los ojos y goce del esp\xEDritu de la concurrencia a una fiesta.\u201D</i></p>\n    <p>Dora P\xE9rez de Zarate</p>\n   </hgroup>']),
-    _templateObject2 = _taggedTemplateLiteral(['\n   <hgroup>\n    <h2>Descripci\xF2n de la danza</h2>\n    <p>El punto sante\xF1o consta de una serie de pasos (que describiremos a continuaci\xF3n) los cuales se repiten 3 veces <i>"tiempos"</i> en el mismo orden. A cada repetici\xF3n le llamamos tiempos o vueltas musicales. Una de sus caracter\xEDsticas particulares se lleva a cabo durante el zapateo ya que en cada uno (son 3) la pareja bailar\xE1 en una direcci\xF3n diferente. En el primer tiempo la pareja realizar\xE1 el zapateo frente a frente, en el segundo tiempo se dirigir\xE1n hacia los m\xFAsicos (es com\xFAn en los conjuntos folkl\xF3ricos dirigir el zapateo en otra direcci\xF3n cuando no se baila con m\xFAsicos en vivo) y en el \xFAltimo tiempo se dirige hacia el p\xFAblico.</p>\n    <p>Cada paso durante la ejecuci\xF3n del Punto Sante\xF1o no tiene una duraci\xF3n definida, es el cambio de la m\xFAsica la que indicar\xE1 el paso a la siguiente figura.</p>\n    <p>Inicia con <b>El PASEO</b>, es el paso de baile en el que el var\xF3n y la dama describen un amplio c\xEDrculo, ocupando cada uno de los extremos.</p>\n    <p>Al cambio de la m\xFAsica se ejecuta una ca\xEDda y vuelta pasando al <b>ZAPATEO</b> en el cual los bailadores, dependiendo del tiempo lo ejecutan, frente a frente, a la m\xFAsica o al p\xFAblico.</p>\n    <p>En seguida, otro cambio de la m\xFAsica les advierte que deben realizar el tercer movimiento, <b>EL ESCOBILLAO</b>, que separa ampliamente a la pareja y  se ejecuta con r\xE1pidos movimientos de los pies hacia atr\xE1s.</p>\n    <p>Por \xFAltimo, tambi\xE9n a indicaci\xF3n de la m\xFAsica, se realiza la <b>SEGUIDILLA</b> con la cual la pareja se desplaza acerc\xE1ndose el uno al otro para girar con mucha serenidad y finura en el centro del c\xEDrculo hasta que se indique el cambio y comience con una vuelta paseada el siguiente tiempo con el <b>PASEO</b>.</p>\n    <p>Es Com\xFAn que al ver a la pareja ejecutar tan hermoso baile los espectadores lancen monedas por el suelo; costumbre que hoy podemos ver en las fiestas cuando las quincea\xF1eras o reinas bailan el punto.</p>\n   </hgroup>\n  '], ['\n   <hgroup>\n    <h2>Descripci\xF2n de la danza</h2>\n    <p>El punto sante\xF1o consta de una serie de pasos (que describiremos a continuaci\xF3n) los cuales se repiten 3 veces <i>"tiempos"</i> en el mismo orden. A cada repetici\xF3n le llamamos tiempos o vueltas musicales. Una de sus caracter\xEDsticas particulares se lleva a cabo durante el zapateo ya que en cada uno (son 3) la pareja bailar\xE1 en una direcci\xF3n diferente. En el primer tiempo la pareja realizar\xE1 el zapateo frente a frente, en el segundo tiempo se dirigir\xE1n hacia los m\xFAsicos (es com\xFAn en los conjuntos folkl\xF3ricos dirigir el zapateo en otra direcci\xF3n cuando no se baila con m\xFAsicos en vivo) y en el \xFAltimo tiempo se dirige hacia el p\xFAblico.</p>\n    <p>Cada paso durante la ejecuci\xF3n del Punto Sante\xF1o no tiene una duraci\xF3n definida, es el cambio de la m\xFAsica la que indicar\xE1 el paso a la siguiente figura.</p>\n    <p>Inicia con <b>El PASEO</b>, es el paso de baile en el que el var\xF3n y la dama describen un amplio c\xEDrculo, ocupando cada uno de los extremos.</p>\n    <p>Al cambio de la m\xFAsica se ejecuta una ca\xEDda y vuelta pasando al <b>ZAPATEO</b> en el cual los bailadores, dependiendo del tiempo lo ejecutan, frente a frente, a la m\xFAsica o al p\xFAblico.</p>\n    <p>En seguida, otro cambio de la m\xFAsica les advierte que deben realizar el tercer movimiento, <b>EL ESCOBILLAO</b>, que separa ampliamente a la pareja y  se ejecuta con r\xE1pidos movimientos de los pies hacia atr\xE1s.</p>\n    <p>Por \xFAltimo, tambi\xE9n a indicaci\xF3n de la m\xFAsica, se realiza la <b>SEGUIDILLA</b> con la cual la pareja se desplaza acerc\xE1ndose el uno al otro para girar con mucha serenidad y finura en el centro del c\xEDrculo hasta que se indique el cambio y comience con una vuelta paseada el siguiente tiempo con el <b>PASEO</b>.</p>\n    <p>Es Com\xFAn que al ver a la pareja ejecutar tan hermoso baile los espectadores lancen monedas por el suelo; costumbre que hoy podemos ver en las fiestas cuando las quincea\xF1eras o reinas bailan el punto.</p>\n   </hgroup>\n  ']);
+    _templateObject2 = _taggedTemplateLiteral(['\n   <hgroup>\n    <h2>Descripci\xF2n de la danza</h2>\n    <p>El punto sante\xF1o consta de una serie de pasos (que describiremos a continuaci\xF3n) los cuales se repiten 3 veces <i>"tiempos"</i> en el mismo orden. A cada repetici\xF3n le llamamos tiempos o vueltas musicales. Una de sus caracter\xEDsticas particulares se lleva a cabo durante el zapateo ya que en cada uno (son 3) la pareja bailar\xE1 en una direcci\xF3n diferente. En el primer tiempo la pareja realizar\xE1 el zapateo frente a frente, en el segundo tiempo se dirigir\xE1n hacia los m\xFAsicos (es com\xFAn en los conjuntos folkl\xF3ricos dirigir el zapateo en otra direcci\xF3n cuando no se baila con m\xFAsicos en vivo) y en el \xFAltimo tiempo se dirige hacia el p\xFAblico.</p>\n    <p>Cada paso durante la ejecuci\xF3n del Punto Sante\xF1o no tiene una duraci\xF3n definida, es el cambio de la m\xFAsica la que indicar\xE1 el paso a la siguiente figura.</p>\n    <p>Inicia con <b>El PASEO</b>, es el paso de baile en el que el var\xF3n y la dama describen un amplio c\xEDrculo, ocupando cada uno de los extremos.</p>\n    <p>Al cambio de la m\xFAsica se ejecuta una ca\xEDda y vuelta pasando al <b>ZAPATEO</b> en el cual los bailadores, dependiendo del tiempo lo ejecutan, frente a frente, a la m\xFAsica o al p\xFAblico.</p>\n    <p>En seguida, otro cambio de la m\xFAsica les advierte que deben realizar el tercer movimiento, <b>EL ESCOBILLAO</b>, que separa ampliamente a la pareja y  se ejecuta con r\xE1pidos movimientos de los pies hacia atr\xE1s.</p>\n    <p>Por \xFAltimo, tambi\xE9n a indicaci\xF3n de la m\xFAsica, se realiza una caida y vuelta para pasar a la <b>SEGUIDILLA</b> con la cual la pareja se desplaza acerc\xE1ndose el uno al otro para girar con mucha serenidad y finura en el centro del c\xEDrculo hasta que se indique el cambio y comience con una vuelta paseada el siguiente tiempo con el <b>PASEO</b>.</p>\n    <p>Al finalizar el tercer tiempo, la mujer realiza un medio giro para quedar frente al p\xFAblico en un cierre que puede ser con el parejo arrodillado o de pi\xE9 tapandole el rostro con el sombrero simulando un beso.</p>\n    <p>Es Com\xFAn que al ver a la pareja ejecutar tan hermoso baile los espectadores lancen monedas por el suelo; costumbre que hoy podemos ver en las fiestas cuando las quincea\xF1eras o reinas bailan el punto.</p>\n   </hgroup>\n  '], ['\n   <hgroup>\n    <h2>Descripci\xF2n de la danza</h2>\n    <p>El punto sante\xF1o consta de una serie de pasos (que describiremos a continuaci\xF3n) los cuales se repiten 3 veces <i>"tiempos"</i> en el mismo orden. A cada repetici\xF3n le llamamos tiempos o vueltas musicales. Una de sus caracter\xEDsticas particulares se lleva a cabo durante el zapateo ya que en cada uno (son 3) la pareja bailar\xE1 en una direcci\xF3n diferente. En el primer tiempo la pareja realizar\xE1 el zapateo frente a frente, en el segundo tiempo se dirigir\xE1n hacia los m\xFAsicos (es com\xFAn en los conjuntos folkl\xF3ricos dirigir el zapateo en otra direcci\xF3n cuando no se baila con m\xFAsicos en vivo) y en el \xFAltimo tiempo se dirige hacia el p\xFAblico.</p>\n    <p>Cada paso durante la ejecuci\xF3n del Punto Sante\xF1o no tiene una duraci\xF3n definida, es el cambio de la m\xFAsica la que indicar\xE1 el paso a la siguiente figura.</p>\n    <p>Inicia con <b>El PASEO</b>, es el paso de baile en el que el var\xF3n y la dama describen un amplio c\xEDrculo, ocupando cada uno de los extremos.</p>\n    <p>Al cambio de la m\xFAsica se ejecuta una ca\xEDda y vuelta pasando al <b>ZAPATEO</b> en el cual los bailadores, dependiendo del tiempo lo ejecutan, frente a frente, a la m\xFAsica o al p\xFAblico.</p>\n    <p>En seguida, otro cambio de la m\xFAsica les advierte que deben realizar el tercer movimiento, <b>EL ESCOBILLAO</b>, que separa ampliamente a la pareja y  se ejecuta con r\xE1pidos movimientos de los pies hacia atr\xE1s.</p>\n    <p>Por \xFAltimo, tambi\xE9n a indicaci\xF3n de la m\xFAsica, se realiza una caida y vuelta para pasar a la <b>SEGUIDILLA</b> con la cual la pareja se desplaza acerc\xE1ndose el uno al otro para girar con mucha serenidad y finura en el centro del c\xEDrculo hasta que se indique el cambio y comience con una vuelta paseada el siguiente tiempo con el <b>PASEO</b>.</p>\n    <p>Al finalizar el tercer tiempo, la mujer realiza un medio giro para quedar frente al p\xFAblico en un cierre que puede ser con el parejo arrodillado o de pi\xE9 tapandole el rostro con el sombrero simulando un beso.</p>\n    <p>Es Com\xFAn que al ver a la pareja ejecutar tan hermoso baile los espectadores lancen monedas por el suelo; costumbre que hoy podemos ver en las fiestas cuando las quincea\xF1eras o reinas bailan el punto.</p>\n   </hgroup>\n  ']);
 
 var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = [{
   nombre: 'El Punto Santeño',
@@ -2901,9 +2861,7 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/danzas', _header2.default, _footer2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -2928,13 +2886,9 @@ var _danzas = require('./danzas');
 
 var _danzas2 = _interopRequireDefault(_danzas);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject, _danzas2.default.map(function (danza) {
   return (0, _tarjeta2.default)('danzas', danza);
@@ -2951,9 +2905,7 @@ var _template = require('./template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 module.exports = function footer(ctx, next) {
   var pie = document.getElementById('footer');
@@ -2970,13 +2922,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -3017,9 +2965,7 @@ var _template = require('./template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 module.exports = function header(ctx, next) {
   var container = document.getElementById('header');
@@ -3040,13 +2986,9 @@ var _functions = require('./functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject, _functions2.default.navegacion, _functions2.default.navegacion, _functions2.default.navegacion, _functions2.default.navegacion, _functions2.default.navegacion);
 
@@ -3057,9 +2999,7 @@ var _page = require('page');
 
 var _page2 = _interopRequireDefault(_page);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('*', function (ctx, next) {
   window.scrollTo(0, 0);
@@ -3079,19 +3019,15 @@ require('./contactoError');
 },{"./contacto":18,"./contactoConfirmacion":20,"./contactoError":22,"./danzaPage":25,"./danzas":28,"./inicio":40,"./vestuarioPage":43,"./vestuarios":45,"page":12}],36:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n  <section class="inicioAbout completa">\n    <article class="aboutTexto mitad">\n      <hgroup>\n        <h2>Que es Folk In love?</h2>\n        <h3>Conoce Tus Danzas, Descubre tus Vestuarios y Regiones</h3>\n        <p>\n          En Folk in love nos dedicamos a la investigaci\xF3n, difusion, promocion y conservaci\xF3n del folklore Paname\xF1o, Procuramos ofrecer un espacio en donde se pueda encontrar informaci\xF3n de calidad respaldada por investigaciones y fuentes confiables que puedan servir de referencia para bailarines, maestros, vestuaristas, estudiantes y amantes del folklore.\n        </p>\n        <p>\n          Buscamos unir nuestros esfuerzos con la comunidad. Ademas de hacer investigaciones propias estamos abiertos a recibir todo tipo de aporte como fotografias, videos y datos que nos permitan tener un panorama m\xE1s amplio de nuestras manifestaciones folkloricas.\n        </p>\n      </hgroup>\n    </article>\n    <article class="aboutImagen mitad"></article>\n  </section>\n'], ['\n  <section class="inicioAbout completa">\n    <article class="aboutTexto mitad">\n      <hgroup>\n        <h2>Que es Folk In love?</h2>\n        <h3>Conoce Tus Danzas, Descubre tus Vestuarios y Regiones</h3>\n        <p>\n          En Folk in love nos dedicamos a la investigaci\xF3n, difusion, promocion y conservaci\xF3n del folklore Paname\xF1o, Procuramos ofrecer un espacio en donde se pueda encontrar informaci\xF3n de calidad respaldada por investigaciones y fuentes confiables que puedan servir de referencia para bailarines, maestros, vestuaristas, estudiantes y amantes del folklore.\n        </p>\n        <p>\n          Buscamos unir nuestros esfuerzos con la comunidad. Ademas de hacer investigaciones propias estamos abiertos a recibir todo tipo de aporte como fotografias, videos y datos que nos permitan tener un panorama m\xE1s amplio de nuestras manifestaciones folkloricas.\n        </p>\n      </hgroup>\n    </article>\n    <article class="aboutImagen mitad"></article>\n  </section>\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  <section class="inicioAbout completa">\n    <article class="aboutTexto mitad">\n      <hgroup>\n        <h2>\xBFQu\xE9 es Folk in love?</h2>\n        <h3>Conoce M\xE1s de las Danzas y Vestidos de Cada Regi\xF3n</h3>\n        <p>\n          En Folk in love nos dedicamos a la investigaci\xF3n, difusi\xF3n, promoci\xF3n y conservaci\xF3n del folklore Paname\xF1o, queremos ofrecer un espacio en donde se pueda encontrar informaci\xF3n de calidad respaldada por investigaciones y fuentes confiables que puedan servir de referencia para bailarines, maestros, vestuaristas, estudiantes y amantes del folklore.\n        </p>\n        <p>\n          Buscamos unir nuestros esfuerzos con la comunidad. Ademas de hacer investigaciones propias estamos abiertos a recibir todo tipo de aporte como fotografias, videos y datos que nos permitan tener un panorama m\xE1s amplio de nuestras manifestaciones folkloricas.\n        </p>\n      </hgroup>\n    </article>\n    <article class="aboutImagen mitad"></article>\n  </section>\n'], ['\n  <section class="inicioAbout completa">\n    <article class="aboutTexto mitad">\n      <hgroup>\n        <h2>\xBFQu\xE9 es Folk in love?</h2>\n        <h3>Conoce M\xE1s de las Danzas y Vestidos de Cada Regi\xF3n</h3>\n        <p>\n          En Folk in love nos dedicamos a la investigaci\xF3n, difusi\xF3n, promoci\xF3n y conservaci\xF3n del folklore Paname\xF1o, queremos ofrecer un espacio en donde se pueda encontrar informaci\xF3n de calidad respaldada por investigaciones y fuentes confiables que puedan servir de referencia para bailarines, maestros, vestuaristas, estudiantes y amantes del folklore.\n        </p>\n        <p>\n          Buscamos unir nuestros esfuerzos con la comunidad. Ademas de hacer investigaciones propias estamos abiertos a recibir todo tipo de aporte como fotografias, videos y datos que nos permitan tener un panorama m\xE1s amplio de nuestras manifestaciones folkloricas.\n        </p>\n      </hgroup>\n    </article>\n    <article class="aboutImagen mitad"></article>\n  </section>\n']);
 
 var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -3104,51 +3040,39 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
 },{"yo-yo":14}],38:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n  <section class="portada banner">\n    <articulo class="negroTrans completa texto">\n        <hgroup>\n          <h1>Folk in Love</h1>\n          <h3>Conoce Costumbres y Tradiciones de Panam\xE1</h3>\n        </hgroup>\n    </articulo>\n    \n  </section>\n'], ['\n  <section class="portada banner">\n    <articulo class="negroTrans completa texto">\n        <hgroup>\n          <h1>Folk in Love</h1>\n          <h3>Conoce Costumbres y Tradiciones de Panam\xE1</h3>\n        </hgroup>\n    </articulo>\n    \n  </section>\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  <section class="portada banner">\n    <articulo class="negroTrans completa texto">\n        <hgroup>\n          <h1>Folk in Love</h1>\n          <h3>La Nueva Manera de Ver el Folklore</h3>\n        </hgroup>\n    </articulo>\n    \n  </section>\n'], ['\n  <section class="portada banner">\n    <articulo class="negroTrans completa texto">\n        <hgroup>\n          <h1>Folk in Love</h1>\n          <h3>La Nueva Manera de Ver el Folklore</h3>\n        </hgroup>\n    </articulo>\n    \n  </section>\n']);
 
 var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
 },{"yo-yo":14}],39:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n  <div class="inicioIdentidad">\n    <article class="identidadImagenes">\n      <a href="/vestuarios/Gala-Ocuena" class="identidadImagen identidad3 tercio">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera De Gala Ocue\xF1a</h2>\n            <h3>Azuero</h3>\n          </hgroup>\n        </div>\n      </a>\n      <a href="#" class="identidadImagen identidad2 tercio">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera Congo</h2>\n            <h3>Col\xF3n</h3>\n          </hgroup>\n        </div>\n      </a>\n      <a href="#" class="identidadImagen identidad1 tercio">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera De Lujo</h2>\n            <h3>Azuero</h3>\n          </hgroup>\n        </div>\n      </a>\n      \n    </article>\n    <article class="identidadTexto completa blanco">\n      <hgroup>\n        <h2>Identidad</h2>\n        <h3>Investigando sobre las Costumbres de Cada Regi\xF3n</h3>\n        <p>\n          Gracias a su posicion estrategica dentro de las americas nuestro pa\xEDs ha desarrollado una riqueza\n\ncultural y folkl\xF3rica inigualable. La combinacion entre las etnias indigenas existentes antes de la\n\nconquista, la intromision europea y la llegada de los negros como esclavos ha permitido el\n\nenriquecimiento de la cultura de manera inigualable.\n        </p>\n        <p>\n          De acuerdo con las investigaciones se pudo apreciar como la vestimenta femenina y masculina fue\n\n          aceptada y utilizada por los paname\xF1os a inicios del siglo XX, las polleras, chambras y otros vestidos fueron de uso comun en toda la republica. Actualmente podemos ver como las etnias\n\n          indigenas y los grupos congos mantienen sus tradiciones permitiendo la evoluci\xF3n al tener remplazo\n\n          generacional y danzas vivas.        </p>\n      </hgroup>\n    </article>\n  </div>\n'], ['\n  <div class="inicioIdentidad">\n    <article class="identidadImagenes">\n      <a href="/vestuarios/Gala-Ocuena" class="identidadImagen identidad3 tercio">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera De Gala Ocue\xF1a</h2>\n            <h3>Azuero</h3>\n          </hgroup>\n        </div>\n      </a>\n      <a href="#" class="identidadImagen identidad2 tercio">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera Congo</h2>\n            <h3>Col\xF3n</h3>\n          </hgroup>\n        </div>\n      </a>\n      <a href="#" class="identidadImagen identidad1 tercio">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera De Lujo</h2>\n            <h3>Azuero</h3>\n          </hgroup>\n        </div>\n      </a>\n      \n    </article>\n    <article class="identidadTexto completa blanco">\n      <hgroup>\n        <h2>Identidad</h2>\n        <h3>Investigando sobre las Costumbres de Cada Regi\xF3n</h3>\n        <p>\n          Gracias a su posicion estrategica dentro de las americas nuestro pa\xEDs ha desarrollado una riqueza\n\ncultural y folkl\xF3rica inigualable. La combinacion entre las etnias indigenas existentes antes de la\n\nconquista, la intromision europea y la llegada de los negros como esclavos ha permitido el\n\nenriquecimiento de la cultura de manera inigualable.\n        </p>\n        <p>\n          De acuerdo con las investigaciones se pudo apreciar como la vestimenta femenina y masculina fue\n\n          aceptada y utilizada por los paname\xF1os a inicios del siglo XX, las polleras, chambras y otros vestidos fueron de uso comun en toda la republica. Actualmente podemos ver como las etnias\n\n          indigenas y los grupos congos mantienen sus tradiciones permitiendo la evoluci\xF3n al tener remplazo\n\n          generacional y danzas vivas.        </p>\n      </hgroup>\n    </article>\n  </div>\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  <div class="inicioIdentidad">\n    <article class="identidadImagenes">\n      <a href="/vestuarios/Gala-Ocuena" class="identidadImagen identidad3 tercio">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera De Gala Ocue\xF1a</h2>\n            <h3>Azuero</h3>\n          </hgroup>\n        </div>\n      </a>\n      <a href="#" class="identidadImagen identidad2 tercio">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera Congo</h2>\n            <h3>Col\xF3n</h3>\n          </hgroup>\n        </div>\n      </a>\n      <a href="#" class="identidadImagen identidad1 tercio">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera De Lujo</h2>\n            <h3>Azuero</h3>\n          </hgroup>\n        </div>\n      </a>\n      \n    </article>\n    <article class="identidadTexto completa blanco">\n      <hgroup>\n        <h2>Identidad</h2>\n        <h3>Investigando sobre las Costumbres de Cada Regi\xF3n</h3>\n        <p>\n          Gracias a su posici\xF3n estrat\xE9gica dentro de las am\xE9ricas nuestro pa\xEDs ha desarrollado una riqueza\n\ncultural y folkl\xF3rica inigualable. La combinacion entre las etnias ind\xEDgenas existentes antes de la\n\nconquista, la intromisi\xF3n europea y la llegada de los negros como esclavos ha permitido el\n\nenriquecimiento de la cultura de manera inigualable.\n        </p>\n        <p>\n          De acuerdo con las investigaciones se pudo apreciar como la vestimenta femenina y masculina fue\n\n          aceptada y utilizada por los paname\xF1os a inicios del siglo XX, las polleras, chambras y otros vestidos fueron de uso com\xFAn en toda la rep\xFAblica. Actualmente podemos ver como las etnias\n\n          ind\xEDgenas y los grupos congos mantienen sus tradiciones permitiendo la evoluci\xF3n al tener remplazo\n\n          generacional y danzas vivas.        </p>\n      </hgroup>\n    </article>\n  </div>\n'], ['\n  <div class="inicioIdentidad">\n    <article class="identidadImagenes">\n      <a href="/vestuarios/Gala-Ocuena" class="identidadImagen identidad3 tercio">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera De Gala Ocue\xF1a</h2>\n            <h3>Azuero</h3>\n          </hgroup>\n        </div>\n      </a>\n      <a href="#" class="identidadImagen identidad2 tercio">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera Congo</h2>\n            <h3>Col\xF3n</h3>\n          </hgroup>\n        </div>\n      </a>\n      <a href="#" class="identidadImagen identidad1 tercio">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera De Lujo</h2>\n            <h3>Azuero</h3>\n          </hgroup>\n        </div>\n      </a>\n      \n    </article>\n    <article class="identidadTexto completa blanco">\n      <hgroup>\n        <h2>Identidad</h2>\n        <h3>Investigando sobre las Costumbres de Cada Regi\xF3n</h3>\n        <p>\n          Gracias a su posici\xF3n estrat\xE9gica dentro de las am\xE9ricas nuestro pa\xEDs ha desarrollado una riqueza\n\ncultural y folkl\xF3rica inigualable. La combinacion entre las etnias ind\xEDgenas existentes antes de la\n\nconquista, la intromisi\xF3n europea y la llegada de los negros como esclavos ha permitido el\n\nenriquecimiento de la cultura de manera inigualable.\n        </p>\n        <p>\n          De acuerdo con las investigaciones se pudo apreciar como la vestimenta femenina y masculina fue\n\n          aceptada y utilizada por los paname\xF1os a inicios del siglo XX, las polleras, chambras y otros vestidos fueron de uso com\xFAn en toda la rep\xFAblica. Actualmente podemos ver como las etnias\n\n          ind\xEDgenas y los grupos congos mantienen sus tradiciones permitiendo la evoluci\xF3n al tener remplazo\n\n          generacional y danzas vivas.        </p>\n      </hgroup>\n    </article>\n  </div>\n']);
 
 var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -3179,9 +3103,7 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/', _header2.default, _footer2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -3216,13 +3138,9 @@ var _apoyo = require('./apoyo');
 
 var _apoyo2 = _interopRequireDefault(_apoyo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject, _banner2.default, _about2.default, _identidad2.default, _apoyo2.default);
 
@@ -3236,13 +3154,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (vestuario) {
   var el = (0, _yoYo2.default)(_templateObject, vestuario.portadaImagen, vestuario.nombre, vestuario.reseña, vestuario.antecedentes, vestuario.generalImagen, vestuario.general, vestuario.descripcion, vestuario.joyeroImagen, vestuario.joyero.map(function (joya) {
@@ -3282,9 +3196,7 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/vestuarios/:url', _header2.default, _footer2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -3309,13 +3221,9 @@ var _estructura = require('./estructura');
 
 var _estructura2 = _interopRequireDefault(_estructura);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (vestuarios, ident) {
   var el = (0, _yoYo2.default)(_templateObject, vestuarios.map(function (vestuario) {
@@ -3353,9 +3261,7 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/vestuarios', _header2.default, _footer2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -3380,13 +3286,9 @@ var _vestuarios = require('./vestuarios');
 
 var _vestuarios2 = _interopRequireDefault(_vestuarios);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject, _vestuarios2.default.map(function (danza) {
   return (0, _tarjeta2.default)('vestuarios', danza);
@@ -3397,19 +3299,15 @@ module.exports = (0, _yoYo2.default)(_templateObject, _vestuarios2.default.map(f
 
 var _templateObject = _taggedTemplateLiteral(['<p>Esta hermosa pollera era utilizada por las mujeres solo en ocasiones especiales como por ejemplo en el matrimonio. Hoy en d\xEDa la representaci\xF3n del Matrimonio campesino es una tradici\xF3n que se realiza dentro del marco del festival del manito, que adem\xE1s de ser una fiesta del pueblo es una celebraci\xF3n religiosa. Se escoge una vez al a\xF1o por la suerte a una pareja ocue\xF1a para realizar el sacramento en la parroquia de San Sebasti\xE1n de Oc\xFA.</p>'], ['<p>Esta hermosa pollera era utilizada por las mujeres solo en ocasiones especiales como por ejemplo en el matrimonio. Hoy en d\xEDa la representaci\xF3n del Matrimonio campesino es una tradici\xF3n que se realiza dentro del marco del festival del manito, que adem\xE1s de ser una fiesta del pueblo es una celebraci\xF3n religiosa. Se escoge una vez al a\xF1o por la suerte a una pareja ocue\xF1a para realizar el sacramento en la parroquia de San Sebasti\xE1n de Oc\xFA.</p>']),
     _templateObject2 = _taggedTemplateLiteral(['\n   <hgroup>\n    <h2>Antecedentes Hist\xF3ricos</h2>\n    <p>La provincia de herrera est\xE1 ubicada en la pen\xEDnsula de Azuero. Antes de la \xE9poca precolombina fue habitada por gran cantidad de ind\xEDgenas.  La conquista de la pen\xEDnsula de Azuero se inicia en 1515, por \xF3rdenes del gobernador de Castilla de Oro, Don Pedrarias D\xE1vila, luego de duras batallas entre ind\xEDgenas y espa\xF1oles en 1520 se funda la primera ciudad espa\xF1ola en la pen\xEDnsula "Nat\xE1 de los Caballeros" este fue uno de los acontecimientos m\xE1s importantes en la regi\xF3n para la expansi\xF3n espa\xF1ola a pesar del genocidio ind\xEDgena.  Los primeros pueblos lejos de Nata se formaron por iniciativa de pobladores que cre\xEDan en la libertad de los ind\xEDgenas (el espa\xF1ol quer\xEDa volver a esclavizarlos) y por soldados espa\xF1oles que vinieron a el nuevo mundo sin vocaci\xF3n b\xE9lica y con ganas de una segunda oportunidad.</p>\n    <p>A\xFAn en el a\xF1o 1903 cuando Panam\xE1 se separa de Colombia y se establece como Rep\xFAblica, Herrera no estaba constituida como provincia. Bajo la administraci\xF3n del Dr. Belisario Porras, en 1915 se funda definitivamente la provincia de Herrera con capital en la ciudad de Chitr\xE9.</p>\n    <p>El distrito de Oc\xFA es muy particular ya que no hay ind\xEDgenas en el \xE1rea (las guerras con los colonizadores acabaron con gran parte de su poblaci\xF3n) su poblaci\xF3n es en su mayor\xEDa mestiza.</p>\n    <p>El hombre y la mujer ocue\xF1a se caracterizan por su sencillez, son personas trabajadoras de la tierra por lo que es com\xFAn ver a los agricultores y a los ganaderos con sombrero y cutarras.</p>\n    <p>Otra caracter\xEDstica importante es que el folklore ocue\xF1o es uno de los mejores conservados del pa\xEDs. Los folkloristas, maestros y las personas del pueblo est\xE1n orgullosos de sus tradiciones, por esta raz\xF3n han unificando criterios y fomentado el relevo generacional en actividades como el festival del manito.</p>\n   </hgroup>\n  '], ['\n   <hgroup>\n    <h2>Antecedentes Hist\xF3ricos</h2>\n    <p>La provincia de herrera est\xE1 ubicada en la pen\xEDnsula de Azuero. Antes de la \xE9poca precolombina fue habitada por gran cantidad de ind\xEDgenas.  La conquista de la pen\xEDnsula de Azuero se inicia en 1515, por \xF3rdenes del gobernador de Castilla de Oro, Don Pedrarias D\xE1vila, luego de duras batallas entre ind\xEDgenas y espa\xF1oles en 1520 se funda la primera ciudad espa\xF1ola en la pen\xEDnsula "Nat\xE1 de los Caballeros" este fue uno de los acontecimientos m\xE1s importantes en la regi\xF3n para la expansi\xF3n espa\xF1ola a pesar del genocidio ind\xEDgena.  Los primeros pueblos lejos de Nata se formaron por iniciativa de pobladores que cre\xEDan en la libertad de los ind\xEDgenas (el espa\xF1ol quer\xEDa volver a esclavizarlos) y por soldados espa\xF1oles que vinieron a el nuevo mundo sin vocaci\xF3n b\xE9lica y con ganas de una segunda oportunidad.</p>\n    <p>A\xFAn en el a\xF1o 1903 cuando Panam\xE1 se separa de Colombia y se establece como Rep\xFAblica, Herrera no estaba constituida como provincia. Bajo la administraci\xF3n del Dr. Belisario Porras, en 1915 se funda definitivamente la provincia de Herrera con capital en la ciudad de Chitr\xE9.</p>\n    <p>El distrito de Oc\xFA es muy particular ya que no hay ind\xEDgenas en el \xE1rea (las guerras con los colonizadores acabaron con gran parte de su poblaci\xF3n) su poblaci\xF3n es en su mayor\xEDa mestiza.</p>\n    <p>El hombre y la mujer ocue\xF1a se caracterizan por su sencillez, son personas trabajadoras de la tierra por lo que es com\xFAn ver a los agricultores y a los ganaderos con sombrero y cutarras.</p>\n    <p>Otra caracter\xEDstica importante es que el folklore ocue\xF1o es uno de los mejores conservados del pa\xEDs. Los folkloristas, maestros y las personas del pueblo est\xE1n orgullosos de sus tradiciones, por esta raz\xF3n han unificando criterios y fomentado el relevo generacional en actividades como el festival del manito.</p>\n   </hgroup>\n  ']),
-    _templateObject3 = _taggedTemplateLiteral(['\n   <hgroup>\n    <h2>Descripci\xF3n</h2>\n    <p>La camisa y la falda se confeccionan con la misma tela. La camisa est\xE1 formada por 2 arandelas y mangas terminadas en encajes, se utilizan encajes de tienda no mundillos. </p>\n    <p>Se enjareta (poner las lanas a trav\xE9s de la trencilla de enjaretar) de dos maneras: la primera forma es, el enjaretado corrido, que consiste en trazar con lana dos l\xEDneas paralelas a trav\xE9s del encaje de enjaretar en el mismo color, la segunda forma es el enjaretado en zigzag, combinando dos colores, el primer color en paralelo (enjaretado corrido) y el otro color traza un zig zag en medio de las dos l\xEDneas. Se remata el enjaretado con dos lacitos en frente y atr\xE1s con la misma lana utilizada. </p>\n    <p>El fald\xF3n de la pollera es de 2 tramos, dividido en la mitad con una trencilla de encaje y al final con un peacillo y encajes anchos o de revuelo. </p>\n    <p>El cabello se divide en 2 con una l\xEDnea a la mitad que llamamos "rayo" y se hacen trenzas que caen sobre la espalda (muchos grupos folkl\xF3ricos utilizan mo\xF1os falsos para semejar est\xE1 caracter\xEDstica) y se amarran desde la mitad con un pedazo de lana del mismo color del enjaretado dejando al final un trozo de lana suelta despu\xE9s del lazo. Si su cabello es corto puede dejarlo suelto. </p>\n    <p>El arreglo de la cabeza se realiza con un juego de peinetas que puede ir desde 2 hasta 6 pares m\xE1s el peinet\xF3n. es com\xFAn en esta regi\xF3n amarrar las peinetas con cintas del color del enjaretado y rematarlas con un lacito en la frente.  Los tembleques que se utilizan son pimpollos, peque\xF1as flores que imitan a los capullos de las rosas, se pueden hacer en dos colores y los materiales caracter\xEDsticos son las cintas, perlas y gusanillos.</p>\n    <p>Cuando se usa la pollera para matrimonio se puede hacer los tembleques y el enjaretado en color blanco.</p>\n    <p>Adem\xE1s la empollerada debe llevar un pa\xF1uelito tejido sencillo que se coloca en la pretina del lado derecho, una carterita tejida, de manta sucia o chacarita ind\xEDgena en donde lleva sus  art\xEDculos de uso personal: peinilla, espejito, perfume, el carm\xEDn (para pintar los labios) y su dinero (tradicionalmente envueltas en un pa\xF1uelito y luego en una bolsita).</p>\n    <p>Para complementar se usa un rebozo o pa\xF1o de tela sencillo en voile (bual) se le pueden poner bordado o marcado similar al de los montuno. En la actualidad se est\xE1n utilizando pa\xF1os de hamaca, (no son tradicionales de panam\xE1), se usan sobre un solo hombro, alrededor del cuello o por detr\xE1s sobre ambos hombros, se puede cruzar en la espalda formando una especie de lazo dando m\xE1s comodidad a la empollerada.</p>\n    <p>Los zapatos de la pollera deben ser de pana, cuando no se encuentran los colores en este material se hacen de tela que no tenga brillo.</p>\n   </hgroup>\n  '], ['\n   <hgroup>\n    <h2>Descripci\xF3n</h2>\n    <p>La camisa y la falda se confeccionan con la misma tela. La camisa est\xE1 formada por 2 arandelas y mangas terminadas en encajes, se utilizan encajes de tienda no mundillos. </p>\n    <p>Se enjareta (poner las lanas a trav\xE9s de la trencilla de enjaretar) de dos maneras: la primera forma es, el enjaretado corrido, que consiste en trazar con lana dos l\xEDneas paralelas a trav\xE9s del encaje de enjaretar en el mismo color, la segunda forma es el enjaretado en zigzag, combinando dos colores, el primer color en paralelo (enjaretado corrido) y el otro color traza un zig zag en medio de las dos l\xEDneas. Se remata el enjaretado con dos lacitos en frente y atr\xE1s con la misma lana utilizada. </p>\n    <p>El fald\xF3n de la pollera es de 2 tramos, dividido en la mitad con una trencilla de encaje y al final con un peacillo y encajes anchos o de revuelo. </p>\n    <p>El cabello se divide en 2 con una l\xEDnea a la mitad que llamamos "rayo" y se hacen trenzas que caen sobre la espalda (muchos grupos folkl\xF3ricos utilizan mo\xF1os falsos para semejar est\xE1 caracter\xEDstica) y se amarran desde la mitad con un pedazo de lana del mismo color del enjaretado dejando al final un trozo de lana suelta despu\xE9s del lazo. Si su cabello es corto puede dejarlo suelto. </p>\n    <p>El arreglo de la cabeza se realiza con un juego de peinetas que puede ir desde 2 hasta 6 pares m\xE1s el peinet\xF3n. es com\xFAn en esta regi\xF3n amarrar las peinetas con cintas del color del enjaretado y rematarlas con un lacito en la frente.  Los tembleques que se utilizan son pimpollos, peque\xF1as flores que imitan a los capullos de las rosas, se pueden hacer en dos colores y los materiales caracter\xEDsticos son las cintas, perlas y gusanillos.</p>\n    <p>Cuando se usa la pollera para matrimonio se puede hacer los tembleques y el enjaretado en color blanco.</p>\n    <p>Adem\xE1s la empollerada debe llevar un pa\xF1uelito tejido sencillo que se coloca en la pretina del lado derecho, una carterita tejida, de manta sucia o chacarita ind\xEDgena en donde lleva sus  art\xEDculos de uso personal: peinilla, espejito, perfume, el carm\xEDn (para pintar los labios) y su dinero (tradicionalmente envueltas en un pa\xF1uelito y luego en una bolsita).</p>\n    <p>Para complementar se usa un rebozo o pa\xF1o de tela sencillo en voile (bual) se le pueden poner bordado o marcado similar al de los montuno. En la actualidad se est\xE1n utilizando pa\xF1os de hamaca, (no son tradicionales de panam\xE1), se usan sobre un solo hombro, alrededor del cuello o por detr\xE1s sobre ambos hombros, se puede cruzar en la espalda formando una especie de lazo dando m\xE1s comodidad a la empollerada.</p>\n    <p>Los zapatos de la pollera deben ser de pana, cuando no se encuentran los colores en este material se hacen de tela que no tenga brillo.</p>\n   </hgroup>\n  ']);
+    _templateObject3 = _taggedTemplateLiteral(['\n   <hgroup>\n    <h2>Descripci\xF3n</h2>\n    <p>La camisa y la falda se confeccionan con la misma tela. La camisa est\xE1 formada por 2 arandelas y mangas terminadas en encajes, se utilizan encajes de tienda no mundillos. </p>\n    <p>Se enjareta (poner las lanas a trav\xE9s de la trencilla de enjaretar) de dos maneras: la primera forma es, el enjaretado corrido, que consiste en trazar con lana dos l\xEDneas paralelas a trav\xE9s del encaje de enjaretar en el mismo color, la segunda forma es el enjaretado en zigzag, combinando dos colores, el primer color en paralelo (enjaretado corrido) y el otro color traza un zig zag en medio de las dos l\xEDneas. Se remata el enjaretado con dos lacitos en frente y atr\xE1s con la misma lana utilizada. </p>\n    <p>El fald\xF3n de la pollera es de 2 tramos, dividido en la mitad con una trencilla de encaje y al final con un peacillo y encajes anchos o de revuelo. </p>\n    <p>El cabello se divide en 2 con una l\xEDnea a la mitad que llamamos "rayo" y se hacen trenzas que caen sobre la espalda (muchos grupos folkl\xF3ricos utilizan mo\xF1os falsos para semejar est\xE1 caracter\xEDstica) y se amarran desde la mitad con un pedazo de lana del mismo color del enjaretado dejando al final un trozo de lana suelta despu\xE9s del lazo. Si su cabello es corto puede dejarlo suelto. </p>\n    <p>El arreglo de la cabeza se realiza con un juego de peinetas que puede ir desde 2 hasta 6 pares m\xE1s el peinet\xF3n. Es com\xFAn en esta regi\xF3n amarrar las peinetas con cintas del color del enjaretado y rematarlas con un lacito en la frente.  Los tembleques que se utilizan son pimpollos, peque\xF1as flores que imitan a los capullos de las rosas, se pueden hacer en dos colores y los materiales caracter\xEDsticos son telas, perlas y gusanillos.</p>\n    <p>Cuando se usa la pollera para matrimonio se puede hacer los tembleques y el enjaretado en color blanco.</p>\n    <p>Adem\xE1s la empollerada debe llevar un pa\xF1uelito tejido sencillo que se coloca en la pretina del lado derecho, una carterita tejida, de manta sucia o chacarita ind\xEDgena en donde lleva sus  art\xEDculos de uso personal: peinilla, espejito, perfume, el carm\xEDn (para pintar los labios) y su dinero (tradicionalmente envueltas en un pa\xF1uelito y luego en una bolsita).</p>\n    <p>Para complementar se usa un rebozo o pa\xF1o de tela sencillo en voile (bual) se le pueden poner bordado o marcado similar al del montuno. En la actualidad se est\xE1n utilizando pa\xF1os de hamaca, (no son tradicionales de panam\xE1), se usan sobre un solo hombro, alrededor del cuello o por detr\xE1s sobre ambos hombros, se puede cruzar en la espalda formando una especie de lazo dando m\xE1s comodidad a la empollerada.</p>\n    <p>Los zapatos de la pollera deben ser de pana, cuando no se encuentran los colores en este material se hacen de tela que no tenga brillo.</p>\n   </hgroup>\n  '], ['\n   <hgroup>\n    <h2>Descripci\xF3n</h2>\n    <p>La camisa y la falda se confeccionan con la misma tela. La camisa est\xE1 formada por 2 arandelas y mangas terminadas en encajes, se utilizan encajes de tienda no mundillos. </p>\n    <p>Se enjareta (poner las lanas a trav\xE9s de la trencilla de enjaretar) de dos maneras: la primera forma es, el enjaretado corrido, que consiste en trazar con lana dos l\xEDneas paralelas a trav\xE9s del encaje de enjaretar en el mismo color, la segunda forma es el enjaretado en zigzag, combinando dos colores, el primer color en paralelo (enjaretado corrido) y el otro color traza un zig zag en medio de las dos l\xEDneas. Se remata el enjaretado con dos lacitos en frente y atr\xE1s con la misma lana utilizada. </p>\n    <p>El fald\xF3n de la pollera es de 2 tramos, dividido en la mitad con una trencilla de encaje y al final con un peacillo y encajes anchos o de revuelo. </p>\n    <p>El cabello se divide en 2 con una l\xEDnea a la mitad que llamamos "rayo" y se hacen trenzas que caen sobre la espalda (muchos grupos folkl\xF3ricos utilizan mo\xF1os falsos para semejar est\xE1 caracter\xEDstica) y se amarran desde la mitad con un pedazo de lana del mismo color del enjaretado dejando al final un trozo de lana suelta despu\xE9s del lazo. Si su cabello es corto puede dejarlo suelto. </p>\n    <p>El arreglo de la cabeza se realiza con un juego de peinetas que puede ir desde 2 hasta 6 pares m\xE1s el peinet\xF3n. Es com\xFAn en esta regi\xF3n amarrar las peinetas con cintas del color del enjaretado y rematarlas con un lacito en la frente.  Los tembleques que se utilizan son pimpollos, peque\xF1as flores que imitan a los capullos de las rosas, se pueden hacer en dos colores y los materiales caracter\xEDsticos son telas, perlas y gusanillos.</p>\n    <p>Cuando se usa la pollera para matrimonio se puede hacer los tembleques y el enjaretado en color blanco.</p>\n    <p>Adem\xE1s la empollerada debe llevar un pa\xF1uelito tejido sencillo que se coloca en la pretina del lado derecho, una carterita tejida, de manta sucia o chacarita ind\xEDgena en donde lleva sus  art\xEDculos de uso personal: peinilla, espejito, perfume, el carm\xEDn (para pintar los labios) y su dinero (tradicionalmente envueltas en un pa\xF1uelito y luego en una bolsita).</p>\n    <p>Para complementar se usa un rebozo o pa\xF1o de tela sencillo en voile (bual) se le pueden poner bordado o marcado similar al del montuno. En la actualidad se est\xE1n utilizando pa\xF1os de hamaca, (no son tradicionales de panam\xE1), se usan sobre un solo hombro, alrededor del cuello o por detr\xE1s sobre ambos hombros, se puede cruzar en la espalda formando una especie de lazo dando m\xE1s comodidad a la empollerada.</p>\n    <p>Los zapatos de la pollera deben ser de pana, cuando no se encuentran los colores en este material se hacen de tela que no tenga brillo.</p>\n   </hgroup>\n  ']);
 
 var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = [{
   nombre: 'Pollera de Gala Ocueña',
@@ -3421,7 +3319,7 @@ module.exports = [{
   antecedentes: (0, _yoYo2.default)(_templateObject2),
   portadaImagen: '/images/galaOcuPortada.jpg',
   generalImagen: '/images/galaOcuGeneral.jpg',
-  general: 'La pollera de gala ocueña  es una pollera blanca utilizada para ocasiones especiales. Una de sus características es que no lleva labores corridas (como en Los Santos). Esta pollera puede ser confeccionada en tela de hilo, voile (bual), coquito, linón de motita, seda lisa o estampadoa, de coquito, tela de colores pasteles y organza bordada o letin bordado (las 2 últimas no son telas tradicionales, su uso es reciente).',
+  general: 'La pollera de gala ocueña  es una pollera blanca utilizada para ocasiones especiales. Una de sus características es que no lleva labores corridas (como en Los Santos). Esta pollera puede ser confeccionada en tela de hilo, voile (bual), coquito, linón de motita, seda lisa o estampada, de coquito, tela de colores pasteles y organza bordada o letin bordado (las 2 últimas no son telas tradicionales, su uso es reciente).',
   descripcion: (0, _yoYo2.default)(_templateObject3),
   joyero: ['zarcillos', 'tapa hueso (dije con cinta negra)', 'cadena chata', 'Cadena bruja (chata abierta) con la flor de guate', 'Cadena guachapalí', 'Rosario', 'Cabestrillo', 'No se utilizan joyas en los brazos.', 'En las manos se utilizan anillos de aro lizo, de corazón o las de manito.'],
   joyeroImagen: '/images/galaOcuJoyero.jpg'

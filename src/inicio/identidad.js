@@ -34,20 +34,20 @@ module.exports = yo`
         <h2>Identidad</h2>
         <h3>Investigando sobre las Costumbres de Cada Región</h3>
         <p>
-          Gracias a su posicion estrategica dentro de las americas nuestro país ha desarrollado una riqueza
+          Gracias a su posición estratégica dentro de las américas nuestro país ha desarrollado una riqueza
 
-cultural y folklórica inigualable. La combinacion entre las etnias indigenas existentes antes de la
+cultural y folklórica inigualable. La combinacion entre las etnias indígenas existentes antes de la
 
-conquista, la intromision europea y la llegada de los negros como esclavos ha permitido el
+conquista, la intromisión europea y la llegada de los negros como esclavos ha permitido el
 
 enriquecimiento de la cultura de manera inigualable.
         </p>
         <p>
           De acuerdo con las investigaciones se pudo apreciar como la vestimenta femenina y masculina fue
 
-          aceptada y utilizada por los panameños a inicios del siglo XX, las polleras, chambras y otros vestidos fueron de uso comun en toda la republica. Actualmente podemos ver como las etnias
+          aceptada y utilizada por los panameños a inicios del siglo XX, las polleras, chambras y otros vestidos fueron de uso común en toda la república. Actualmente podemos ver como las etnias
 
-          indigenas y los grupos congos mantienen sus tradiciones permitiendo la evolución al tener remplazo
+          indígenas y los grupos congos mantienen sus tradiciones permitiendo la evolución al tener remplazo
 
           generacional y danzas vivas.        </p>
       </hgroup>

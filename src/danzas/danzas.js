@@ -23,7 +23,8 @@ module.exports = [
     <p>Inicia con <b>El PASEO</b>, es el paso de baile en el que el varón y la dama describen un amplio círculo, ocupando cada uno de los extremos.</p>
     <p>Al cambio de la música se ejecuta una caída y vuelta pasando al <b>ZAPATEO</b> en el cual los bailadores, dependiendo del tiempo lo ejecutan, frente a frente, a la música o al público.</p>
     <p>En seguida, otro cambio de la música les advierte que deben realizar el tercer movimiento, <b>EL ESCOBILLAO</b>, que separa ampliamente a la pareja y  se ejecuta con rápidos movimientos de los pies hacia atrás.</p>
-    <p>Por último, también a indicación de la música, se realiza la <b>SEGUIDILLA</b> con la cual la pareja se desplaza acercándose el uno al otro para girar con mucha serenidad y finura en el centro del círculo hasta que se indique el cambio y comience con una vuelta paseada el siguiente tiempo con el <b>PASEO</b>.</p>
+    <p>Por último, también a indicación de la música, se realiza una caida y vuelta para pasar a la <b>SEGUIDILLA</b> con la cual la pareja se desplaza acercándose el uno al otro para girar con mucha serenidad y finura en el centro del círculo hasta que se indique el cambio y comience con una vuelta paseada el siguiente tiempo con el <b>PASEO</b>.</p>
+    <p>Al finalizar el tercer tiempo, la mujer realiza un medio giro para quedar frente al público en un cierre que puede ser con el parejo arrodillado o de pié tapandole el rostro con el sombrero simulando un beso.</p>
     <p>Es Común que al ver a la pareja ejecutar tan hermoso baile los espectadores lancen monedas por el suelo; costumbre que hoy podemos ver en las fiestas cuando las quinceañeras o reinas bailan el punto.</p>
    </hgroup>
   `,

@@ -5,7 +5,7 @@ module.exports = yo`
     <articulo class="negroTrans completa texto">
         <hgroup>
           <h1>Folk in Love</h1>
-          <h3>Conoce Costumbres y Tradiciones de Panamá</h3>
+          <h3>La Nueva Manera de Ver el Folklore</h3>
         </hgroup>
     </articulo>
     
