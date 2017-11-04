@@ -2544,9 +2544,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (imagenes) {
   var el = (0, _yoYo2.default)(_templateObject);
@@ -2562,9 +2566,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (seccion, articulo) {
   var el = (0, _yoYo2.default)(_templateObject, seccion, articulo.url, articulo.miniatura, articulo.nombre, articulo.region, articulo.dato);
@@ -2598,7 +2606,9 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/contacto', _header2.default, _footer2.default, _functions2.default.noScrollFunction, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -2614,9 +2624,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -2647,7 +2661,9 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/confirmacion', _header2.default, _footer2.default, _functions2.default.noScrollFunction, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -2663,9 +2679,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -2696,7 +2716,9 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/error', _header2.default, _footer2.default, _functions2.default.noScrollFunction, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -2712,9 +2734,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -2728,9 +2754,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (danza) {
   var el = (0, _yoYo2.default)(_templateObject, danza.portadaImagen, danza.nombre, danza.reseña, danza.introImagen, danza.intro, danza.descripcion, danza.pasos.map(function (paso) {
@@ -2770,7 +2800,9 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/danzas/:url', _header2.default, _footer2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -2791,9 +2823,13 @@ var _danza = require('./danza');
 
 var _danza2 = _interopRequireDefault(_danza);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (danzas, ident) {
   var el = (0, _yoYo2.default)(_templateObject, danzas.map(function (danza) {
@@ -2814,9 +2850,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = [{
   nombre: 'El Punto Santeño',
@@ -2861,7 +2901,9 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/danzas', _header2.default, _footer2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -2886,9 +2928,13 @@ var _danzas = require('./danzas');
 
 var _danzas2 = _interopRequireDefault(_danzas);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, _danzas2.default.map(function (danza) {
   return (0, _tarjeta2.default)('danzas', danza);
@@ -2905,7 +2951,9 @@ var _template = require('./template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 module.exports = function footer(ctx, next) {
   var pie = document.getElementById('footer');
@@ -2922,9 +2970,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -2965,7 +3017,9 @@ var _template = require('./template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 module.exports = function header(ctx, next) {
   var container = document.getElementById('header');
@@ -2986,9 +3040,13 @@ var _functions = require('./functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, _functions2.default.navegacion, _functions2.default.navegacion, _functions2.default.navegacion, _functions2.default.navegacion, _functions2.default.navegacion);
 
@@ -2999,7 +3057,9 @@ var _page = require('page');
 
 var _page2 = _interopRequireDefault(_page);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('*', function (ctx, next) {
   window.scrollTo(0, 0);
@@ -3025,9 +3085,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -3040,9 +3104,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -3055,9 +3123,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -3070,9 +3142,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -3103,7 +3179,9 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/', _header2.default, _footer2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -3138,30 +3216,44 @@ var _apoyo = require('./apoyo');
 
 var _apoyo2 = _interopRequireDefault(_apoyo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, _banner2.default, _about2.default, _identidad2.default, _apoyo2.default);
 
 },{"./about":36,"./apoyo":37,"./banner":38,"./identidad":39,"yo-yo":14}],42:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n  <main>\n   <section class="portada" style="background: url(\'', '\'); background-size:contain; background-attachment: fixed">\n    <article class="mitad rosaTrans">\n      <hgroup>\n          <h1>', '</h1>\n          <p>', '</p>\n      </hgroup>\n    </article>\n   </section>\n   <section className="completa texto info blanco">\n    ', '\n   </section>\n   <section class="completa portada" style="background: url(\'', '\'); background-size:cover; background-attachment: fixed">\n    <article class="mitad negroTrans texto">\n     <hgroup>\n       <p>', '</p>\n     </hgroup>\n    </article>\n   </section>\n   <section class="completa texto info blanco">\n     ', '\n   </section>\n   <section>\n     <article class="dosTercios imagen" style="background: url(\'', '\'); background-size:cover"></article>\n     <article class="tercio blanco joyero">\n      <hgroup>\n        <h1>Joyero</h1>\n        <ul>\n         ', '\n        </ul>\n        \n      </hgroup>\n     </article>\n   </section>\n  </main>\n '], ['\n  <main>\n   <section class="portada" style="background: url(\'', '\'); background-size:contain; background-attachment: fixed">\n    <article class="mitad rosaTrans">\n      <hgroup>\n          <h1>', '</h1>\n          <p>', '</p>\n      </hgroup>\n    </article>\n   </section>\n   <section className="completa texto info blanco">\n    ', '\n   </section>\n   <section class="completa portada" style="background: url(\'', '\'); background-size:cover; background-attachment: fixed">\n    <article class="mitad negroTrans texto">\n     <hgroup>\n       <p>', '</p>\n     </hgroup>\n    </article>\n   </section>\n   <section class="completa texto info blanco">\n     ', '\n   </section>\n   <section>\n     <article class="dosTercios imagen" style="background: url(\'', '\'); background-size:cover"></article>\n     <article class="tercio blanco joyero">\n      <hgroup>\n        <h1>Joyero</h1>\n        <ul>\n         ', '\n        </ul>\n        \n      </hgroup>\n     </article>\n   </section>\n  </main>\n ']),
-    _templateObject2 = _taggedTemplateLiteral(['<li>', '</li>'], ['<li>', '</li>']);
+var _templateObject = _taggedTemplateLiteral(['\n  <section>\n    <article class="dosTercios imagen" style="background: url(\'', '\'); background-size:cover"></article>\n    <article class="tercio blanco joyero">\n      <hgroup>\n        <h1>Joyero</h1>\n        <ul>\n         ', '\n       </ul>  \n      </hgroup>\n    </article>\n  </section>\n    '], ['\n  <section>\n    <article class="dosTercios imagen" style="background: url(\'', '\'); background-size:cover"></article>\n    <article class="tercio blanco joyero">\n      <hgroup>\n        <h1>Joyero</h1>\n        <ul>\n         ', '\n       </ul>  \n      </hgroup>\n    </article>\n  </section>\n    ']),
+    _templateObject2 = _taggedTemplateLiteral(['<li>', '</li>'], ['<li>', '</li>']),
+    _templateObject3 = _taggedTemplateLiteral(['\n  <main>\n   <section class="portada" style="background: url(\'', '\'); background-size:contain; background-attachment: fixed">\n    <article class="mitad rosaTrans">\n      <hgroup>\n          <h1>', '</h1>\n          <p>', '</p>\n      </hgroup>\n    </article>\n   </section>\n   <section className="completa texto info blanco">\n    ', '\n   </section>\n   <section class="completa portada" style="background: url(\'', '\'); background-size:cover; background-attachment: fixed">\n    <article class="mitad negroTrans texto">\n     <hgroup>\n       <p>', '</p>\n     </hgroup>\n    </article>\n   </section>\n   <section class="completa texto info blanco">\n     ', '\n   </section>\n   ', '\n  </main>\n '], ['\n  <main>\n   <section class="portada" style="background: url(\'', '\'); background-size:contain; background-attachment: fixed">\n    <article class="mitad rosaTrans">\n      <hgroup>\n          <h1>', '</h1>\n          <p>', '</p>\n      </hgroup>\n    </article>\n   </section>\n   <section className="completa texto info blanco">\n    ', '\n   </section>\n   <section class="completa portada" style="background: url(\'', '\'); background-size:cover; background-attachment: fixed">\n    <article class="mitad negroTrans texto">\n     <hgroup>\n       <p>', '</p>\n     </hgroup>\n    </article>\n   </section>\n   <section class="completa texto info blanco">\n     ', '\n   </section>\n   ', '\n  </main>\n ']);
 
 var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
+function joyero(vestuario) {
+  if (vestuario.joyero) {
+    return (0, _yoYo2.default)(_templateObject, vestuario.joyeroImagen, vestuario.joyero.map(function (joya) {
+      return (0, _yoYo2.default)(_templateObject2, joya);
+    }));
+  }
+}
 module.exports = function (vestuario) {
-  var el = (0, _yoYo2.default)(_templateObject, vestuario.portadaImagen, vestuario.nombre, vestuario.reseña, vestuario.antecedentes, vestuario.generalImagen, vestuario.general, vestuario.descripcion, vestuario.joyeroImagen, vestuario.joyero.map(function (joya) {
-    return (0, _yoYo2.default)(_templateObject2, joya);
-  }));
+  var el = (0, _yoYo2.default)(_templateObject3, vestuario.portadaImagen, vestuario.nombre, vestuario.reseña, vestuario.antecedentes, vestuario.generalImagen, vestuario.general, vestuario.descripcion, joyero(vestuario));
   return el;
 };
 
@@ -3196,7 +3288,9 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/vestuarios/:url', _header2.default, _footer2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -3221,9 +3315,13 @@ var _estructura = require('./estructura');
 
 var _estructura2 = _interopRequireDefault(_estructura);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (vestuarios, ident) {
   var el = (0, _yoYo2.default)(_templateObject, vestuarios.map(function (vestuario) {
@@ -3261,7 +3359,9 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/vestuarios', _header2.default, _footer2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -3286,9 +3386,13 @@ var _vestuarios = require('./vestuarios');
 
 var _vestuarios2 = _interopRequireDefault(_vestuarios);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, _vestuarios2.default.map(function (danza) {
   return (0, _tarjeta2.default)('vestuarios', danza);
@@ -3299,15 +3403,22 @@ module.exports = (0, _yoYo2.default)(_templateObject, _vestuarios2.default.map(f
 
 var _templateObject = _taggedTemplateLiteral(['<p>Esta hermosa pollera era utilizada por las mujeres solo en ocasiones especiales como por ejemplo en el matrimonio. Hoy en d\xEDa la representaci\xF3n del Matrimonio campesino es una tradici\xF3n que se realiza dentro del marco del festival del manito, que adem\xE1s de ser una fiesta del pueblo es una celebraci\xF3n religiosa. Se escoge una vez al a\xF1o por la suerte a una pareja ocue\xF1a para realizar el sacramento en la parroquia de San Sebasti\xE1n de Oc\xFA.</p>'], ['<p>Esta hermosa pollera era utilizada por las mujeres solo en ocasiones especiales como por ejemplo en el matrimonio. Hoy en d\xEDa la representaci\xF3n del Matrimonio campesino es una tradici\xF3n que se realiza dentro del marco del festival del manito, que adem\xE1s de ser una fiesta del pueblo es una celebraci\xF3n religiosa. Se escoge una vez al a\xF1o por la suerte a una pareja ocue\xF1a para realizar el sacramento en la parroquia de San Sebasti\xE1n de Oc\xFA.</p>']),
     _templateObject2 = _taggedTemplateLiteral(['\n   <hgroup>\n    <h2>Antecedentes Hist\xF3ricos</h2>\n    <p>La provincia de herrera est\xE1 ubicada en la pen\xEDnsula de Azuero. Antes de la \xE9poca precolombina fue habitada por gran cantidad de ind\xEDgenas.  La conquista de la pen\xEDnsula de Azuero se inicia en 1515, por \xF3rdenes del gobernador de Castilla de Oro, Don Pedrarias D\xE1vila, luego de duras batallas entre ind\xEDgenas y espa\xF1oles en 1520 se funda la primera ciudad espa\xF1ola en la pen\xEDnsula "Nat\xE1 de los Caballeros" este fue uno de los acontecimientos m\xE1s importantes en la regi\xF3n para la expansi\xF3n espa\xF1ola a pesar del genocidio ind\xEDgena.  Los primeros pueblos lejos de Nata se formaron por iniciativa de pobladores que cre\xEDan en la libertad de los ind\xEDgenas (el espa\xF1ol quer\xEDa volver a esclavizarlos) y por soldados espa\xF1oles que vinieron a el nuevo mundo sin vocaci\xF3n b\xE9lica y con ganas de una segunda oportunidad.</p>\n    <p>A\xFAn en el a\xF1o 1903 cuando Panam\xE1 se separa de Colombia y se establece como Rep\xFAblica, Herrera no estaba constituida como provincia. Bajo la administraci\xF3n del Dr. Belisario Porras, en 1915 se funda definitivamente la provincia de Herrera con capital en la ciudad de Chitr\xE9.</p>\n    <p>El distrito de Oc\xFA es muy particular ya que no hay ind\xEDgenas en el \xE1rea (las guerras con los colonizadores acabaron con gran parte de su poblaci\xF3n) su poblaci\xF3n es en su mayor\xEDa mestiza.</p>\n    <p>El hombre y la mujer ocue\xF1a se caracterizan por su sencillez, son personas trabajadoras de la tierra por lo que es com\xFAn ver a los agricultores y a los ganaderos con sombrero y cutarras.</p>\n    <p>Otra caracter\xEDstica importante es que el folklore ocue\xF1o es uno de los mejores conservados del pa\xEDs. Los folkloristas, maestros y las personas del pueblo est\xE1n orgullosos de sus tradiciones, por esta raz\xF3n han unificando criterios y fomentado el relevo generacional en actividades como el festival del manito.</p>\n   </hgroup>\n  '], ['\n   <hgroup>\n    <h2>Antecedentes Hist\xF3ricos</h2>\n    <p>La provincia de herrera est\xE1 ubicada en la pen\xEDnsula de Azuero. Antes de la \xE9poca precolombina fue habitada por gran cantidad de ind\xEDgenas.  La conquista de la pen\xEDnsula de Azuero se inicia en 1515, por \xF3rdenes del gobernador de Castilla de Oro, Don Pedrarias D\xE1vila, luego de duras batallas entre ind\xEDgenas y espa\xF1oles en 1520 se funda la primera ciudad espa\xF1ola en la pen\xEDnsula "Nat\xE1 de los Caballeros" este fue uno de los acontecimientos m\xE1s importantes en la regi\xF3n para la expansi\xF3n espa\xF1ola a pesar del genocidio ind\xEDgena.  Los primeros pueblos lejos de Nata se formaron por iniciativa de pobladores que cre\xEDan en la libertad de los ind\xEDgenas (el espa\xF1ol quer\xEDa volver a esclavizarlos) y por soldados espa\xF1oles que vinieron a el nuevo mundo sin vocaci\xF3n b\xE9lica y con ganas de una segunda oportunidad.</p>\n    <p>A\xFAn en el a\xF1o 1903 cuando Panam\xE1 se separa de Colombia y se establece como Rep\xFAblica, Herrera no estaba constituida como provincia. Bajo la administraci\xF3n del Dr. Belisario Porras, en 1915 se funda definitivamente la provincia de Herrera con capital en la ciudad de Chitr\xE9.</p>\n    <p>El distrito de Oc\xFA es muy particular ya que no hay ind\xEDgenas en el \xE1rea (las guerras con los colonizadores acabaron con gran parte de su poblaci\xF3n) su poblaci\xF3n es en su mayor\xEDa mestiza.</p>\n    <p>El hombre y la mujer ocue\xF1a se caracterizan por su sencillez, son personas trabajadoras de la tierra por lo que es com\xFAn ver a los agricultores y a los ganaderos con sombrero y cutarras.</p>\n    <p>Otra caracter\xEDstica importante es que el folklore ocue\xF1o es uno de los mejores conservados del pa\xEDs. Los folkloristas, maestros y las personas del pueblo est\xE1n orgullosos de sus tradiciones, por esta raz\xF3n han unificando criterios y fomentado el relevo generacional en actividades como el festival del manito.</p>\n   </hgroup>\n  ']),
-    _templateObject3 = _taggedTemplateLiteral(['\n   <hgroup>\n    <h2>Descripci\xF3n</h2>\n    <p>La camisa y la falda se confeccionan con la misma tela. La camisa est\xE1 formada por 2 arandelas y mangas terminadas en encajes, se utilizan encajes de tienda no mundillos. </p>\n    <p>Se enjareta (poner las lanas a trav\xE9s de la trencilla de enjaretar) de dos maneras: la primera forma es, el enjaretado corrido, que consiste en trazar con lana dos l\xEDneas paralelas a trav\xE9s del encaje de enjaretar en el mismo color, la segunda forma es el enjaretado en zigzag, combinando dos colores, el primer color en paralelo (enjaretado corrido) y el otro color traza un zig zag en medio de las dos l\xEDneas. Se remata el enjaretado con dos lacitos en frente y atr\xE1s con la misma lana utilizada. </p>\n    <p>El fald\xF3n de la pollera es de 2 tramos, dividido en la mitad con una trencilla de encaje y al final con un peacillo y encajes anchos o de revuelo. </p>\n    <p>El cabello se divide en 2 con una l\xEDnea a la mitad que llamamos "rayo" y se hacen trenzas que caen sobre la espalda (muchos grupos folkl\xF3ricos utilizan mo\xF1os falsos para semejar est\xE1 caracter\xEDstica) y se amarran desde la mitad con un pedazo de lana del mismo color del enjaretado dejando al final un trozo de lana suelta despu\xE9s del lazo. Si su cabello es corto puede dejarlo suelto. </p>\n    <p>El arreglo de la cabeza se realiza con un juego de peinetas que puede ir desde 2 hasta 6 pares m\xE1s el peinet\xF3n. Es com\xFAn en esta regi\xF3n amarrar las peinetas con cintas del color del enjaretado y rematarlas con un lacito en la frente.  Los tembleques que se utilizan son pimpollos, peque\xF1as flores que imitan a los capullos de las rosas, se pueden hacer en dos colores y los materiales caracter\xEDsticos son telas, perlas y gusanillos.</p>\n    <p>Cuando se usa la pollera para matrimonio se puede hacer los tembleques y el enjaretado en color blanco.</p>\n    <p>Adem\xE1s la empollerada debe llevar un pa\xF1uelito tejido sencillo que se coloca en la pretina del lado derecho, una carterita tejida, de manta sucia o chacarita ind\xEDgena en donde lleva sus  art\xEDculos de uso personal: peinilla, espejito, perfume, el carm\xEDn (para pintar los labios) y su dinero (tradicionalmente envueltas en un pa\xF1uelito y luego en una bolsita).</p>\n    <p>Para complementar se usa un rebozo o pa\xF1o de tela sencillo en voile (bual) se le pueden poner bordado o marcado similar al del montuno. En la actualidad se est\xE1n utilizando pa\xF1os de hamaca, (no son tradicionales de panam\xE1), se usan sobre un solo hombro, alrededor del cuello o por detr\xE1s sobre ambos hombros, se puede cruzar en la espalda formando una especie de lazo dando m\xE1s comodidad a la empollerada.</p>\n    <p>Los zapatos de la pollera deben ser de pana, cuando no se encuentran los colores en este material se hacen de tela que no tenga brillo.</p>\n   </hgroup>\n  '], ['\n   <hgroup>\n    <h2>Descripci\xF3n</h2>\n    <p>La camisa y la falda se confeccionan con la misma tela. La camisa est\xE1 formada por 2 arandelas y mangas terminadas en encajes, se utilizan encajes de tienda no mundillos. </p>\n    <p>Se enjareta (poner las lanas a trav\xE9s de la trencilla de enjaretar) de dos maneras: la primera forma es, el enjaretado corrido, que consiste en trazar con lana dos l\xEDneas paralelas a trav\xE9s del encaje de enjaretar en el mismo color, la segunda forma es el enjaretado en zigzag, combinando dos colores, el primer color en paralelo (enjaretado corrido) y el otro color traza un zig zag en medio de las dos l\xEDneas. Se remata el enjaretado con dos lacitos en frente y atr\xE1s con la misma lana utilizada. </p>\n    <p>El fald\xF3n de la pollera es de 2 tramos, dividido en la mitad con una trencilla de encaje y al final con un peacillo y encajes anchos o de revuelo. </p>\n    <p>El cabello se divide en 2 con una l\xEDnea a la mitad que llamamos "rayo" y se hacen trenzas que caen sobre la espalda (muchos grupos folkl\xF3ricos utilizan mo\xF1os falsos para semejar est\xE1 caracter\xEDstica) y se amarran desde la mitad con un pedazo de lana del mismo color del enjaretado dejando al final un trozo de lana suelta despu\xE9s del lazo. Si su cabello es corto puede dejarlo suelto. </p>\n    <p>El arreglo de la cabeza se realiza con un juego de peinetas que puede ir desde 2 hasta 6 pares m\xE1s el peinet\xF3n. Es com\xFAn en esta regi\xF3n amarrar las peinetas con cintas del color del enjaretado y rematarlas con un lacito en la frente.  Los tembleques que se utilizan son pimpollos, peque\xF1as flores que imitan a los capullos de las rosas, se pueden hacer en dos colores y los materiales caracter\xEDsticos son telas, perlas y gusanillos.</p>\n    <p>Cuando se usa la pollera para matrimonio se puede hacer los tembleques y el enjaretado en color blanco.</p>\n    <p>Adem\xE1s la empollerada debe llevar un pa\xF1uelito tejido sencillo que se coloca en la pretina del lado derecho, una carterita tejida, de manta sucia o chacarita ind\xEDgena en donde lleva sus  art\xEDculos de uso personal: peinilla, espejito, perfume, el carm\xEDn (para pintar los labios) y su dinero (tradicionalmente envueltas en un pa\xF1uelito y luego en una bolsita).</p>\n    <p>Para complementar se usa un rebozo o pa\xF1o de tela sencillo en voile (bual) se le pueden poner bordado o marcado similar al del montuno. En la actualidad se est\xE1n utilizando pa\xF1os de hamaca, (no son tradicionales de panam\xE1), se usan sobre un solo hombro, alrededor del cuello o por detr\xE1s sobre ambos hombros, se puede cruzar en la espalda formando una especie de lazo dando m\xE1s comodidad a la empollerada.</p>\n    <p>Los zapatos de la pollera deben ser de pana, cuando no se encuentran los colores en este material se hacen de tela que no tenga brillo.</p>\n   </hgroup>\n  ']);
+    _templateObject3 = _taggedTemplateLiteral(['\n   <hgroup>\n    <h2>Descripci\xF3n</h2>\n    <p>La camisa y la falda se confeccionan con la misma tela. La camisa est\xE1 formada por 2 arandelas y mangas terminadas en encajes, se utilizan encajes de tienda no mundillos. </p>\n    <p>Se enjareta (poner las lanas a trav\xE9s de la trencilla de enjaretar) de dos maneras: la primera forma es, el enjaretado corrido, que consiste en trazar con lana dos l\xEDneas paralelas a trav\xE9s del encaje de enjaretar en el mismo color, la segunda forma es el enjaretado en zigzag, combinando dos colores, el primer color en paralelo (enjaretado corrido) y el otro color traza un zig zag en medio de las dos l\xEDneas. Se remata el enjaretado con dos lacitos en frente y atr\xE1s con la misma lana utilizada. </p>\n    <p>El fald\xF3n de la pollera es de 2 tramos, dividido en la mitad con una trencilla de encaje y al final con un peacillo y encajes anchos o de revuelo. </p>\n    <p>El cabello se divide en 2 con una l\xEDnea a la mitad que llamamos "rayo" y se hacen trenzas que caen sobre la espalda (muchos grupos folkl\xF3ricos utilizan mo\xF1os falsos para semejar est\xE1 caracter\xEDstica) y se amarran desde la mitad con un pedazo de lana del mismo color del enjaretado dejando al final un trozo de lana suelta despu\xE9s del lazo. Si su cabello es corto puede dejarlo suelto. </p>\n    <p>El arreglo de la cabeza se realiza con un juego de peinetas que puede ir desde 2 hasta 6 pares m\xE1s el peinet\xF3n. Es com\xFAn en esta regi\xF3n amarrar las peinetas con cintas del color del enjaretado y rematarlas con un lacito en la frente.  Los tembleques que se utilizan son pimpollos, peque\xF1as flores que imitan a los capullos de las rosas, se pueden hacer en dos colores y los materiales caracter\xEDsticos son telas, perlas y gusanillos.</p>\n    <p>Cuando se usa la pollera para matrimonio se puede hacer los tembleques y el enjaretado en color blanco.</p>\n    <p>Adem\xE1s la empollerada debe llevar un pa\xF1uelito tejido sencillo que se coloca en la pretina del lado derecho, una carterita tejida, de manta sucia o chacarita ind\xEDgena en donde lleva sus  art\xEDculos de uso personal: peinilla, espejito, perfume, el carm\xEDn (para pintar los labios) y su dinero (tradicionalmente envueltas en un pa\xF1uelito y luego en una bolsita).</p>\n    <p>Para complementar se usa un rebozo o pa\xF1o de tela sencillo en voile (bual) se le pueden poner bordado o marcado similar al del montuno. En la actualidad se est\xE1n utilizando pa\xF1os de hamaca, (no son tradicionales de panam\xE1), se usan sobre un solo hombro, alrededor del cuello o por detr\xE1s sobre ambos hombros, se puede cruzar en la espalda formando una especie de lazo dando m\xE1s comodidad a la empollerada.</p>\n    <p>Los zapatos de la pollera deben ser de pana, cuando no se encuentran los colores en este material se hacen de tela que no tenga brillo.</p>\n   </hgroup>\n  '], ['\n   <hgroup>\n    <h2>Descripci\xF3n</h2>\n    <p>La camisa y la falda se confeccionan con la misma tela. La camisa est\xE1 formada por 2 arandelas y mangas terminadas en encajes, se utilizan encajes de tienda no mundillos. </p>\n    <p>Se enjareta (poner las lanas a trav\xE9s de la trencilla de enjaretar) de dos maneras: la primera forma es, el enjaretado corrido, que consiste en trazar con lana dos l\xEDneas paralelas a trav\xE9s del encaje de enjaretar en el mismo color, la segunda forma es el enjaretado en zigzag, combinando dos colores, el primer color en paralelo (enjaretado corrido) y el otro color traza un zig zag en medio de las dos l\xEDneas. Se remata el enjaretado con dos lacitos en frente y atr\xE1s con la misma lana utilizada. </p>\n    <p>El fald\xF3n de la pollera es de 2 tramos, dividido en la mitad con una trencilla de encaje y al final con un peacillo y encajes anchos o de revuelo. </p>\n    <p>El cabello se divide en 2 con una l\xEDnea a la mitad que llamamos "rayo" y se hacen trenzas que caen sobre la espalda (muchos grupos folkl\xF3ricos utilizan mo\xF1os falsos para semejar est\xE1 caracter\xEDstica) y se amarran desde la mitad con un pedazo de lana del mismo color del enjaretado dejando al final un trozo de lana suelta despu\xE9s del lazo. Si su cabello es corto puede dejarlo suelto. </p>\n    <p>El arreglo de la cabeza se realiza con un juego de peinetas que puede ir desde 2 hasta 6 pares m\xE1s el peinet\xF3n. Es com\xFAn en esta regi\xF3n amarrar las peinetas con cintas del color del enjaretado y rematarlas con un lacito en la frente.  Los tembleques que se utilizan son pimpollos, peque\xF1as flores que imitan a los capullos de las rosas, se pueden hacer en dos colores y los materiales caracter\xEDsticos son telas, perlas y gusanillos.</p>\n    <p>Cuando se usa la pollera para matrimonio se puede hacer los tembleques y el enjaretado en color blanco.</p>\n    <p>Adem\xE1s la empollerada debe llevar un pa\xF1uelito tejido sencillo que se coloca en la pretina del lado derecho, una carterita tejida, de manta sucia o chacarita ind\xEDgena en donde lleva sus  art\xEDculos de uso personal: peinilla, espejito, perfume, el carm\xEDn (para pintar los labios) y su dinero (tradicionalmente envueltas en un pa\xF1uelito y luego en una bolsita).</p>\n    <p>Para complementar se usa un rebozo o pa\xF1o de tela sencillo en voile (bual) se le pueden poner bordado o marcado similar al del montuno. En la actualidad se est\xE1n utilizando pa\xF1os de hamaca, (no son tradicionales de panam\xE1), se usan sobre un solo hombro, alrededor del cuello o por detr\xE1s sobre ambos hombros, se puede cruzar en la espalda formando una especie de lazo dando m\xE1s comodidad a la empollerada.</p>\n    <p>Los zapatos de la pollera deben ser de pana, cuando no se encuentran los colores en este material se hacen de tela que no tenga brillo.</p>\n   </hgroup>\n  ']),
+    _templateObject4 = _taggedTemplateLiteral(['\n   <hgroup>\n    <p>El Congo es una cultura, g\xE9nero musical y baile Afro-colonial que se caracteriza por ser alegre y sensual, es ejecutado por hombres y mujeres al ritmo de cantos y tambor.</p>\n    <p>Sus vistosas y coloridas polleras est\xE1n cargadas de historia. Nos hablan de la fortaleza de un pueblo y de su lucha por la libertad.</p>\n   </hgroup>'], ['\n   <hgroup>\n    <p>El Congo es una cultura, g\xE9nero musical y baile Afro-colonial que se caracteriza por ser alegre y sensual, es ejecutado por hombres y mujeres al ritmo de cantos y tambor.</p>\n    <p>Sus vistosas y coloridas polleras est\xE1n cargadas de historia. Nos hablan de la fortaleza de un pueblo y de su lucha por la libertad.</p>\n   </hgroup>']),
+    _templateObject5 = _taggedTemplateLiteral(['\n   <hgroup>\n    <h2>Antecedentes Hist\xF3ricos</h2>\n    <p>A pesar de lo que conocemos com\xFAnmente, existe una teor\xEDa que brinda pruebas de la presencia de africanos en el continente americano antes de la conquista. Esta postura es defendida por el cient\xEDfico social y escritor de la obra "They Came Before Columbus" (Ellos vinieron antes que Col\xF3n) el Dr. Iv\xE1n Van Sertima, en sus escritos el asegura que el historiador Peter Martyr (1457-1526) describi\xF3 como unos africanos hab\xEDan naufragado en un \xE1rea cerca de la costa de la provincia de Dari\xE9n y que luego se hab\xEDan refugiado en las monta\xF1as. Martyr describi\xF3 a los hombres como \u201Cpiratas et\xEDopes\u201D t\xE9rmino que en el pasado hac\xEDa referencia al continente africano. M\xE1s adelante el historiador y etn\xF3logo Franc\xE9s Charles de Bourbourg report\xF3 la existencia de dos tribus abor\xEDgenes en Panam\xE1, los mandingas (de piel negra) y los Tule (de piel roja), Esta informaci\xF3n tiene concordancia con unas figuras ind\xEDgenas de la cultura "Barriles" enterradas en las monta\xF1as de Chiriqu\xED cerca de la frontera con Costa Rica, algunas de ellas llamaban la atenci\xF3n porque sus\n    \n    caracter\xEDsticas eran diferentes a la mayor\xEDa de las presentes en el sitio arqueol\xF3gico y hac\xEDan referencia a las etnias africanas ya que resaltaban caracter\xEDsticas como los labios pronunciados y la nariz ancha.</p>\n    <p>La historia m\xE1s conocida nos confirma la llegada de negros como esclavos a Am\xE9rica durante la conquista. Hombres y mujeres fueron tra\xEDdos a la fuerza desde el continente africano, api\xF1ados en barcos en condiciones inhumanas. Los negros esclavos eran considerados propiedad de sus amos y pod\xEDan ser comprados y vendidos, no hab\xEDa ning\xFAn derecho que les permitiera defenderse as\xED que algunos eran marcados o mutilados para impedir que se fugaran.</p>\n    <p>Podemos pensar, \xBFpor qu\xE9 traer a personas desde tan lejos para trabajar en Am\xE9rica?</p>\n    <p>Esta es la raz\xF3n: Antes del descubrimiento de Am\xE9rica ya se hab\xEDa dictado una ley para evitar la esclavitud en los territorios conquistados.</p>\n    <p>Tras la llegada a Am\xE9rica en 1492, se produjo una de las atrocidades m\xE1s grandes de la historia, el genocidio ind\xEDgena producto de las guerras de la conquista y a\xFAn con las leyes establecidas (era muy dif\xEDcil hacerlas cumplir tan lejos de Espa\xF1a) se daban el comercio de indios como esclavos, ya para este momento en muchas zonas de Am\xE9rica no quedaban muchos ind\xEDgenas por la guerra y por las epidemias tra\xEDdas por los espa\xF1oles. La demanda de mano de obra sigui\xF3 creciendo hasta que el padre Fray Bartolom\xE9 de las casas propuso reemplazar a los ind\xEDgenas por negros africanos y es de esta manera que se inicia la esclavitud en Am\xE9rica con el primer cargamento de negros en 1518, proceso que durar\xEDa hasta 1880.</p>\n    <p>Adem\xE1s de los beneficios en Am\xE9rica, los monarcas espa\xF1oles lograron sacar muchos beneficios a costar de vender licencias para permitir traer esclavos negros a Am\xE9rica, con las siguientes cifras podemos darnos una idea de lo que representaba en ganancias el comercio de esclavos, cada una de estas licencias costaba 8 ducados (moneda de oro antigua) y en el siglo XVI se concedieron en Espa\xF1a m\xE1s de 120.000 licencias.</p>\n    <p>En el a\xF1o 1548 En Panam\xE1 se registra la primera fuga de esclavos. Los negros que se rebelaron contra la opresi\xF3n espa\xF1ola se refugiaron en las monta\xF1as y es est\xE9 hecho el que inicia el cimarronaje.</p>\n    <p>Los primeros dos grupos que lograron escapar fueron liderados por Bayano y Felipillo, dos esclavos que tuvieron un rol muy importante durante la conquista.</p>\n   </hgroup>\n  '], ['\n   <hgroup>\n    <h2>Antecedentes Hist\xF3ricos</h2>\n    <p>A pesar de lo que conocemos com\xFAnmente, existe una teor\xEDa que brinda pruebas de la presencia de africanos en el continente americano antes de la conquista. Esta postura es defendida por el cient\xEDfico social y escritor de la obra "They Came Before Columbus" (Ellos vinieron antes que Col\xF3n) el Dr. Iv\xE1n Van Sertima, en sus escritos el asegura que el historiador Peter Martyr (1457-1526) describi\xF3 como unos africanos hab\xEDan naufragado en un \xE1rea cerca de la costa de la provincia de Dari\xE9n y que luego se hab\xEDan refugiado en las monta\xF1as. Martyr describi\xF3 a los hombres como \u201Cpiratas et\xEDopes\u201D t\xE9rmino que en el pasado hac\xEDa referencia al continente africano. M\xE1s adelante el historiador y etn\xF3logo Franc\xE9s Charles de Bourbourg report\xF3 la existencia de dos tribus abor\xEDgenes en Panam\xE1, los mandingas (de piel negra) y los Tule (de piel roja), Esta informaci\xF3n tiene concordancia con unas figuras ind\xEDgenas de la cultura "Barriles" enterradas en las monta\xF1as de Chiriqu\xED cerca de la frontera con Costa Rica, algunas de ellas llamaban la atenci\xF3n porque sus\n    \n    caracter\xEDsticas eran diferentes a la mayor\xEDa de las presentes en el sitio arqueol\xF3gico y hac\xEDan referencia a las etnias africanas ya que resaltaban caracter\xEDsticas como los labios pronunciados y la nariz ancha.</p>\n    <p>La historia m\xE1s conocida nos confirma la llegada de negros como esclavos a Am\xE9rica durante la conquista. Hombres y mujeres fueron tra\xEDdos a la fuerza desde el continente africano, api\xF1ados en barcos en condiciones inhumanas. Los negros esclavos eran considerados propiedad de sus amos y pod\xEDan ser comprados y vendidos, no hab\xEDa ning\xFAn derecho que les permitiera defenderse as\xED que algunos eran marcados o mutilados para impedir que se fugaran.</p>\n    <p>Podemos pensar, \xBFpor qu\xE9 traer a personas desde tan lejos para trabajar en Am\xE9rica?</p>\n    <p>Esta es la raz\xF3n: Antes del descubrimiento de Am\xE9rica ya se hab\xEDa dictado una ley para evitar la esclavitud en los territorios conquistados.</p>\n    <p>Tras la llegada a Am\xE9rica en 1492, se produjo una de las atrocidades m\xE1s grandes de la historia, el genocidio ind\xEDgena producto de las guerras de la conquista y a\xFAn con las leyes establecidas (era muy dif\xEDcil hacerlas cumplir tan lejos de Espa\xF1a) se daban el comercio de indios como esclavos, ya para este momento en muchas zonas de Am\xE9rica no quedaban muchos ind\xEDgenas por la guerra y por las epidemias tra\xEDdas por los espa\xF1oles. La demanda de mano de obra sigui\xF3 creciendo hasta que el padre Fray Bartolom\xE9 de las casas propuso reemplazar a los ind\xEDgenas por negros africanos y es de esta manera que se inicia la esclavitud en Am\xE9rica con el primer cargamento de negros en 1518, proceso que durar\xEDa hasta 1880.</p>\n    <p>Adem\xE1s de los beneficios en Am\xE9rica, los monarcas espa\xF1oles lograron sacar muchos beneficios a costar de vender licencias para permitir traer esclavos negros a Am\xE9rica, con las siguientes cifras podemos darnos una idea de lo que representaba en ganancias el comercio de esclavos, cada una de estas licencias costaba 8 ducados (moneda de oro antigua) y en el siglo XVI se concedieron en Espa\xF1a m\xE1s de 120.000 licencias.</p>\n    <p>En el a\xF1o 1548 En Panam\xE1 se registra la primera fuga de esclavos. Los negros que se rebelaron contra la opresi\xF3n espa\xF1ola se refugiaron en las monta\xF1as y es est\xE9 hecho el que inicia el cimarronaje.</p>\n    <p>Los primeros dos grupos que lograron escapar fueron liderados por Bayano y Felipillo, dos esclavos que tuvieron un rol muy importante durante la conquista.</p>\n   </hgroup>\n  ']),
+    _templateObject6 = _taggedTemplateLiteral(['\n   <hgroup>\n    <h2>Descripci\xF3n</h2>\n    <h3>Pollera de Retazos</h3>\n    <p>Es una pollera de dos piezas camisa y falda. Se combinan dise\xF1os lisos y estampados para crear una tela colorida y vistosa, los retazos com\xFAnmente son en forma cuadrada, pero se pueden hacer en la forma que se desee como tri\xE1ngulos o rect\xE1ngulos.</p>\n    <p>La camisa puede ser de una o dos arandelas, puede ser usada sin mangas o con mangas terminadas en una peque\xF1a rucha. Esta camisa se usa por dentro de la falda, si es por fuera se termina la camisa en una rucha o arandela.</p>\n    <p>El poller\xF3n tambi\xE9n hecho de retazos puede ser de dos o tres tramos.</p>\n    <p>Por debajo de la falda en algunos palenques se usa un peticote muy sencillo y en otros el uso de esta prenda es exclusiva de la reina, las dem\xE1s usan una especie de ropa interior llamada pantaleta o petipan que llega m\xE1s o menos hasta la rodilla.</p>\n    <p>Tambi\xE9n se usan unas bolsas llamadas Chupas o Chumpas.</p>\n    <p>El cabello se puede llevar de diferentes maneras, porque hay cabellos y peinados muy diversos, desde corto muy rizados hasta largo y liso. Si es largo se puede llevar de manera muy tradicional con partidura a la mitad y dos trenzas, con las puntas amarradas con tiritas de trapos.</p>\n    <p>Para adornar la cabeza se usan flores, tradicionalmente la flor del congo llamada Ca\xF1itolendo que es una flor silvestre que se encuentra a lo largo de la costa arriba y costa abajo, puede decirse que es un tembleque natural.</p>\n    <p>Una de las caracter\xEDsticas del arreglo de la cabeza es que a pesar de que se hace una partidura en el centro de la cabellera y se hacen dos tortas o una hacia atr\xE1s de la cabeza las flores deben ocupar toda la parte trasera de la cabeza, dejando al descubierto la parte de arriba de la cabeza, pero no la partidura de la parte de atr\xE1s como es tradicional en la pollera sante\xF1a</p>\n    <p>Sus accesorios son collares son de cuentas, conchas y caracoles.</p>\n    <p>Este vestido no utiliza zapatos y se dice que es por la relaci\xF3n del negro con la tierra.</p>\n    <p>La cultura congo es matriarcal, la reina congo puede usar lo que ella desee, aunque com\xFAnmente usa una pollera de color blanco y una corona alta. Con flores y cintas de colores que le caen sobre la espalda.</p>\n   </hgroup>\n  '], ['\n   <hgroup>\n    <h2>Descripci\xF3n</h2>\n    <h3>Pollera de Retazos</h3>\n    <p>Es una pollera de dos piezas camisa y falda. Se combinan dise\xF1os lisos y estampados para crear una tela colorida y vistosa, los retazos com\xFAnmente son en forma cuadrada, pero se pueden hacer en la forma que se desee como tri\xE1ngulos o rect\xE1ngulos.</p>\n    <p>La camisa puede ser de una o dos arandelas, puede ser usada sin mangas o con mangas terminadas en una peque\xF1a rucha. Esta camisa se usa por dentro de la falda, si es por fuera se termina la camisa en una rucha o arandela.</p>\n    <p>El poller\xF3n tambi\xE9n hecho de retazos puede ser de dos o tres tramos.</p>\n    <p>Por debajo de la falda en algunos palenques se usa un peticote muy sencillo y en otros el uso de esta prenda es exclusiva de la reina, las dem\xE1s usan una especie de ropa interior llamada pantaleta o petipan que llega m\xE1s o menos hasta la rodilla.</p>\n    <p>Tambi\xE9n se usan unas bolsas llamadas Chupas o Chumpas.</p>\n    <p>El cabello se puede llevar de diferentes maneras, porque hay cabellos y peinados muy diversos, desde corto muy rizados hasta largo y liso. Si es largo se puede llevar de manera muy tradicional con partidura a la mitad y dos trenzas, con las puntas amarradas con tiritas de trapos.</p>\n    <p>Para adornar la cabeza se usan flores, tradicionalmente la flor del congo llamada Ca\xF1itolendo que es una flor silvestre que se encuentra a lo largo de la costa arriba y costa abajo, puede decirse que es un tembleque natural.</p>\n    <p>Una de las caracter\xEDsticas del arreglo de la cabeza es que a pesar de que se hace una partidura en el centro de la cabellera y se hacen dos tortas o una hacia atr\xE1s de la cabeza las flores deben ocupar toda la parte trasera de la cabeza, dejando al descubierto la parte de arriba de la cabeza, pero no la partidura de la parte de atr\xE1s como es tradicional en la pollera sante\xF1a</p>\n    <p>Sus accesorios son collares son de cuentas, conchas y caracoles.</p>\n    <p>Este vestido no utiliza zapatos y se dice que es por la relaci\xF3n del negro con la tierra.</p>\n    <p>La cultura congo es matriarcal, la reina congo puede usar lo que ella desee, aunque com\xFAnmente usa una pollera de color blanco y una corona alta. Con flores y cintas de colores que le caen sobre la espalda.</p>\n   </hgroup>\n  ']);
 
 var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = [{
   nombre: 'Pollera de Gala Ocueña',
@@ -3323,6 +3434,18 @@ module.exports = [{
   descripcion: (0, _yoYo2.default)(_templateObject3),
   joyero: ['zarcillos', 'tapa hueso (dije con cinta negra)', 'cadena chata', 'Cadena bruja (chata abierta) con la flor de guate', 'Cadena guachapalí', 'Rosario', 'Cabestrillo', 'No se utilizan joyas en los brazos.', 'En las manos se utilizan anillos de aro lizo, de corazón o las de manito.'],
   joyeroImagen: '/images/galaOcuJoyero.jpg'
+}, {
+  nombre: 'Pollera Congo',
+  url: 'Pollera-Congo',
+  region: 'Costa Atlántica',
+  dato: 'Danza: Congo',
+  miniatura: 'polleraCongoMiniatura.jpg',
+  reseña: (0, _yoYo2.default)(_templateObject4),
+  antecedentes: (0, _yoYo2.default)(_templateObject5),
+  portadaImagen: '/images/polleraCongoFull.jpg',
+  generalImagen: '/images/polleraCongoGeneral.jpg',
+  general: 'Las polleras congo son confeccionadas en telas de diferentes colores lisos y estampados, no existe una limitación en el uso de las telas, estas son del gusto de la dueña de la pollera, o producto de las telas que se tenga a la mano. Una de las pocas características en las que se restrige el uso de un elemento es en el color Rojo. En la cultura congo este color representa al diablo o chamuco y si alguien lo usa está diciendo que tiene algún pacto con él. Pero este personaje no es el que hoy conocemos, el diablo para los congos era el blanco esclavizador la viva representación del mal. Otros datos nos aportan información sobre lo que significa el uso del color rojo en el vestido congo. Se debía a la colaboración de algunos palenques con los blancos, ellos prestaron su ayuda a corsarios ingleses como Francis Drake y a piratas como Henry Morgan para sabotear el comercio colonial español.',
+  descripcion: (0, _yoYo2.default)(_templateObject6)
 }];
 
 },{"yo-yo":14}]},{},[35]);

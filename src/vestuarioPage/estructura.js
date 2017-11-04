@@ -1,5 +1,22 @@
 import yo from 'yo-yo'
-
+function joyero(vestuario){
+  if(vestuario.joyero){
+    return yo`
+  <section>
+    <article class="dosTercios imagen" style="background: url('${vestuario.joyeroImagen}'); background-size:cover"></article>
+    <article class="tercio blanco joyero">
+      <hgroup>
+        <h1>Joyero</h1>
+        <ul>
+         ${vestuario.joyero.map(function(joya){
+           return yo`<li>${joya}</li>`
+         })}
+       </ul>  
+      </hgroup>
+    </article>
+  </section>
+    `
+ }}
 module.exports = function(vestuario){
  var el = yo`
   <main>
@@ -24,20 +41,7 @@ module.exports = function(vestuario){
    <section class="completa texto info blanco">
      ${vestuario.descripcion}
    </section>
-   <section>
-     <article class="dosTercios imagen" style="background: url('${vestuario.joyeroImagen}'); background-size:cover"></article>
-     <article class="tercio blanco joyero">
-      <hgroup>
-        <h1>Joyero</h1>
-        <ul>
-         ${vestuario.joyero.map(function(joya){
-           return yo`<li>${joya}</li>`
-         })}
-        </ul>
-        
-      </hgroup>
-     </article>
-   </section>
+   ${joyero(vestuario)}
   </main>
  `
  return el

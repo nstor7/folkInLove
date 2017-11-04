@@ -36,5 +36,52 @@ module.exports = [
   `,
  joyero: ['zarcillos', 'tapa hueso (dije con cinta negra)', 'cadena chata', 'Cadena bruja (chata abierta) con la flor de guate', 'Cadena guachapalí', 'Rosario', 'Cabestrillo', 'No se utilizan joyas en los brazos.', 'En las manos se utilizan anillos de aro lizo, de corazón o las de manito.' ],
  joyeroImagen: '/images/galaOcuJoyero.jpg'
+ },
+ {
+  nombre: 'Pollera Congo', 
+  url: 'Pollera-Congo',
+  region: 'Costa Atlántica',
+  dato: 'Danza: Congo',
+  miniatura: 'polleraCongoMiniatura.jpg', 
+  reseña: yo`
+   <hgroup>
+    <p>El Congo es una cultura, género musical y baile Afro-colonial que se caracteriza por ser alegre y sensual, es ejecutado por hombres y mujeres al ritmo de cantos y tambor.</p>
+    <p>Sus vistosas y coloridas polleras están cargadas de historia. Nos hablan de la fortaleza de un pueblo y de su lucha por la libertad.</p>
+   </hgroup>`,
+  antecedentes: yo`
+   <hgroup>
+    <h2>Antecedentes Históricos</h2>
+    <p>A pesar de lo que conocemos comúnmente, existe una teoría que brinda pruebas de la presencia de africanos en el continente americano antes de la conquista. Esta postura es defendida por el científico social y escritor de la obra "They Came Before Columbus" (Ellos vinieron antes que Colón) el Dr. Iván Van Sertima, en sus escritos el asegura que el historiador Peter Martyr (1457-1526) describió como unos africanos habían naufragado en un área cerca de la costa de la provincia de Darién y que luego se habían refugiado en las montañas. Martyr describió a los hombres como “piratas etíopes” término que en el pasado hacía referencia al continente africano. Más adelante el historiador y etnólogo Francés Charles de Bourbourg reportó la existencia de dos tribus aborígenes en Panamá, los mandingas (de piel negra) y los Tule (de piel roja), Esta información tiene concordancia con unas figuras indígenas de la cultura "Barriles" enterradas en las montañas de Chiriquí cerca de la frontera con Costa Rica, algunas de ellas llamaban la atención porque sus
+    
+    características eran diferentes a la mayoría de las presentes en el sitio arqueológico y hacían referencia a las etnias africanas ya que resaltaban características como los labios pronunciados y la nariz ancha.</p>
+    <p>La historia más conocida nos confirma la llegada de negros como esclavos a América durante la conquista. Hombres y mujeres fueron traídos a la fuerza desde el continente africano, apiñados en barcos en condiciones inhumanas. Los negros esclavos eran considerados propiedad de sus amos y podían ser comprados y vendidos, no había ningún derecho que les permitiera defenderse así que algunos eran marcados o mutilados para impedir que se fugaran.</p>
+    <p>Podemos pensar, ¿por qué traer a personas desde tan lejos para trabajar en América?</p>
+    <p>Esta es la razón: Antes del descubrimiento de América ya se había dictado una ley para evitar la esclavitud en los territorios conquistados.</p>
+    <p>Tras la llegada a América en 1492, se produjo una de las atrocidades más grandes de la historia, el genocidio indígena producto de las guerras de la conquista y aún con las leyes establecidas (era muy difícil hacerlas cumplir tan lejos de España) se daban el comercio de indios como esclavos, ya para este momento en muchas zonas de América no quedaban muchos indígenas por la guerra y por las epidemias traídas por los españoles. La demanda de mano de obra siguió creciendo hasta que el padre Fray Bartolomé de las casas propuso reemplazar a los indígenas por negros africanos y es de esta manera que se inicia la esclavitud en América con el primer cargamento de negros en 1518, proceso que duraría hasta 1880.</p>
+    <p>Además de los beneficios en América, los monarcas españoles lograron sacar muchos beneficios a costar de vender licencias para permitir traer esclavos negros a América, con las siguientes cifras podemos darnos una idea de lo que representaba en ganancias el comercio de esclavos, cada una de estas licencias costaba 8 ducados (moneda de oro antigua) y en el siglo XVI se concedieron en España más de 120.000 licencias.</p>
+    <p>En el año 1548 En Panamá se registra la primera fuga de esclavos. Los negros que se rebelaron contra la opresión española se refugiaron en las montañas y es esté hecho el que inicia el cimarronaje.</p>
+    <p>Los primeros dos grupos que lograron escapar fueron liderados por Bayano y Felipillo, dos esclavos que tuvieron un rol muy importante durante la conquista.</p>
+   </hgroup>
+  `,
+  portadaImagen: '/images/polleraCongoFull.jpg',
+  generalImagen: '/images/polleraCongoGeneral.jpg',
+  general: 'Las polleras congo son confeccionadas en telas de diferentes colores lisos y estampados, no existe una limitación en el uso de las telas, estas son del gusto de la dueña de la pollera, o producto de las telas que se tenga a la mano. Una de las pocas características en las que se restrige el uso de un elemento es en el color Rojo. En la cultura congo este color representa al diablo o chamuco y si alguien lo usa está diciendo que tiene algún pacto con él. Pero este personaje no es el que hoy conocemos, el diablo para los congos era el blanco esclavizador la viva representación del mal. Otros datos nos aportan información sobre lo que significa el uso del color rojo en el vestido congo. Se debía a la colaboración de algunos palenques con los blancos, ellos prestaron su ayuda a corsarios ingleses como Francis Drake y a piratas como Henry Morgan para sabotear el comercio colonial español.',
+  descripcion: yo`
+   <hgroup>
+    <h2>Descripción</h2>
+    <h3>Pollera de Retazos</h3>
+    <p>Es una pollera de dos piezas camisa y falda. Se combinan diseños lisos y estampados para crear una tela colorida y vistosa, los retazos comúnmente son en forma cuadrada, pero se pueden hacer en la forma que se desee como triángulos o rectángulos.</p>
+    <p>La camisa puede ser de una o dos arandelas, puede ser usada sin mangas o con mangas terminadas en una pequeña rucha. Esta camisa se usa por dentro de la falda, si es por fuera se termina la camisa en una rucha o arandela.</p>
+    <p>El pollerón también hecho de retazos puede ser de dos o tres tramos.</p>
+    <p>Por debajo de la falda en algunos palenques se usa un peticote muy sencillo y en otros el uso de esta prenda es exclusiva de la reina, las demás usan una especie de ropa interior llamada pantaleta o petipan que llega más o menos hasta la rodilla.</p>
+    <p>También se usan unas bolsas llamadas Chupas o Chumpas.</p>
+    <p>El cabello se puede llevar de diferentes maneras, porque hay cabellos y peinados muy diversos, desde corto muy rizados hasta largo y liso. Si es largo se puede llevar de manera muy tradicional con partidura a la mitad y dos trenzas, con las puntas amarradas con tiritas de trapos.</p>
+    <p>Para adornar la cabeza se usan flores, tradicionalmente la flor del congo llamada Cañitolendo que es una flor silvestre que se encuentra a lo largo de la costa arriba y costa abajo, puede decirse que es un tembleque natural.</p>
+    <p>Una de las características del arreglo de la cabeza es que a pesar de que se hace una partidura en el centro de la cabellera y se hacen dos tortas o una hacia atrás de la cabeza las flores deben ocupar toda la parte trasera de la cabeza, dejando al descubierto la parte de arriba de la cabeza, pero no la partidura de la parte de atrás como es tradicional en la pollera santeña</p>
+    <p>Sus accesorios son collares son de cuentas, conchas y caracoles.</p>
+    <p>Este vestido no utiliza zapatos y se dice que es por la relación del negro con la tierra.</p>
+    <p>La cultura congo es matriarcal, la reina congo puede usar lo que ella desee, aunque comúnmente usa una pollera de color blanco y una corona alta. Con flores y cintas de colores que le caen sobre la espalda.</p>
+   </hgroup>
+  `
  }
 ]
