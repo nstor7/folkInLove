@@ -194,21 +194,22 @@ form
     @media(max-width:800px)
       display: none
   .listaCont
-    width: 74vw
+    width: 100vw
     height: auto
-    padding: 2vw
+    padding: 2.5vw
     display: flex
     justify-content: space-between
     @media(max-width:800px)
       width: 100vw
       justify-content: center
 .tarjeta
-  width: 22vw
-  height: 32vw
-  padding: 2vw
+  width: 30vw
+  height: 40vw
   flex-wrap: wrap
-  background: white
+  background: #ddd
   box-shadow: grey 1px 1px 5px
+  position relative
+  z-index: 0
   @media(max-width:800px)
     width: 88vw
     height: 128vw
@@ -217,13 +218,21 @@ form
     box-shadow: grey 5px 5px 10px
   .tarjetaImagen
     background: grey 
-    width: 18vw
-    height: 18vw
+    width: 100%
+    height: 60%
     @media(max-width:800px)
       width: 72vw
       height: 72vw
   .tarjetaInfo 
-    height: 12vw
+    height: 50%
+    width: 92%
+    background: white 
+    position absolute 
+    bottom: 0
+    left: 4%
+    margin: auto
+    overflow: visible
+    padding 12%
     @media(max-width:800px)
       height: 48vw
     hgroup
@@ -232,7 +241,6 @@ form
       align-items: center
       h2
         font-size: 2vw
-        margin: 1vw 0
         @media(max-width: 800px)
           font-size: 8vw
           margin: 4vw 0

@@ -51,9 +51,9 @@ module.exports = [
   antecedentes: yo`
    <hgroup>
     <h2>Antecedentes Históricos</h2>
-    <p>A pesar de lo que conocemos comúnmente, existe una teoría que brinda pruebas de la presencia de africanos en el continente americano antes de la conquista. Esta postura es defendida por el científico social y escritor de la obra "They Came Before Columbus" (Ellos vinieron antes que Colón) el Dr. Iván Van Sertima, en sus escritos el asegura que el historiador Peter Martyr (1457-1526) describió como unos africanos habían naufragado en un área cerca de la costa de la provincia de Darién y que luego se habían refugiado en las montañas. Martyr describió a los hombres como “piratas etíopes” término que en el pasado hacía referencia al continente africano. Más adelante el historiador y etnólogo Francés Charles de Bourbourg reportó la existencia de dos tribus aborígenes en Panamá, los mandingas (de piel negra) y los Tule (de piel roja), Esta información tiene concordancia con unas figuras indígenas de la cultura "Barriles" enterradas en las montañas de Chiriquí cerca de la frontera con Costa Rica, algunas de ellas llamaban la atención porque sus
+    <p>A pesar de lo que conocemos comúnmente, existe una teoría que brinda pruebas de la presencia de africanos en el continente americano antes de la conquista. Esta postura es defendida por el científico social y escritor de la obra "They Came Before Columbus" (Ellos vinieron antes que Colón) el Dr. Iván Van Sertima, en sus escritos el asegura que el historiador Peter Martyr (1457-1526) describió como unos africanos habían naufragado en un área cerca de la costa de la provincia de Darién y que luego se habían refugiado en las montañas. Martyr describió a los hombres como “piratas etíopes” término que en el pasado hacía referencia al continente africano. Más adelante el historiador y etnólogo Francés Charles de Bourbourg reportó la existencia de dos tribus aborígenes en Panamá, los mandingas (de piel negra) y los Tule (de piel roja), Esta información tiene concordancia con unas figuras indígenas de la cultura "Barriles" enterradas en las montañas de Chiriquí cerca de la frontera con Costa Rica, algunas de ellas resaltaban porque tenían
     
-    características eran diferentes a la mayoría de las presentes en el sitio arqueológico y hacían referencia a las etnias africanas ya que resaltaban características como los labios pronunciados y la nariz ancha.</p>
+    características de la raza negra como los labios pronunciados y la nariz ancha.</p>
     <p>La historia más conocida nos confirma la llegada de negros como esclavos a América durante la conquista. Hombres y mujeres fueron traídos a la fuerza desde el continente africano, apiñados en barcos en condiciones inhumanas. Los negros esclavos eran considerados propiedad de sus amos y podían ser comprados y vendidos, no había ningún derecho que les permitiera defenderse así que algunos eran marcados o mutilados para impedir que se fugaran.</p>
     <p>Podemos pensar, ¿por qué traer a personas desde tan lejos para trabajar en América?</p>
     <p>Esta es la razón: Antes del descubrimiento de América ya se había dictado una ley para evitar la esclavitud en los territorios conquistados.</p>
@@ -70,9 +70,9 @@ module.exports = [
    <hgroup>
     <h2>Descripción</h2>
     <h3>Pollera de Retazos</h3>
-    <p>Es una pollera de dos piezas camisa y falda. Se combinan diseños lisos y estampados para crear una tela colorida y vistosa, los retazos comúnmente son en forma cuadrada, pero se pueden hacer en la forma que se desee como triángulos o rectángulos.</p>
+    <p>Es una pollera de dos piezas, camisa y falda. Se combinan diseños lisos y estampados para crear una tela colorida y vistosa, los retazos comúnmente son en forma cuadrada, pero se pueden hacer en la forma que se desee como triángulos o rectángulos.</p>
     <p>La camisa puede ser de una o dos arandelas, puede ser usada sin mangas o con mangas terminadas en una pequeña rucha. Esta camisa se usa por dentro de la falda, si es por fuera se termina la camisa en una rucha o arandela.</p>
-    <p>El pollerón también hecho de retazos puede ser de dos o tres tramos.</p>
+    <p>El pollerón, también hecho de retazos, puede ser de dos o tres tramos.</p>
     <p>Por debajo de la falda en algunos palenques se usa un peticote muy sencillo y en otros el uso de esta prenda es exclusiva de la reina, las demás usan una especie de ropa interior llamada pantaleta o petipan que llega más o menos hasta la rodilla.</p>
     <p>También se usan unas bolsas llamadas Chupas o Chumpas.</p>
     <p>El cabello se puede llevar de diferentes maneras, porque hay cabellos y peinados muy diversos, desde corto muy rizados hasta largo y liso. Si es largo se puede llevar de manera muy tradicional con partidura a la mitad y dos trenzas, con las puntas amarradas con tiritas de trapos.</p>
@@ -81,6 +81,65 @@ module.exports = [
     <p>Sus accesorios son collares son de cuentas, conchas y caracoles.</p>
     <p>Este vestido no utiliza zapatos y se dice que es por la relación del negro con la tierra.</p>
     <p>La cultura congo es matriarcal, la reina congo puede usar lo que ella desee, aunque comúnmente usa una pollera de color blanco y una corona alta. Con flores y cintas de colores que le caen sobre la espalda.</p>
+   </hgroup>
+  `
+ },
+ {
+  nombre: 'Pollera De Lujo', 
+  url: 'Pollera-De-Lujo',
+  region: 'Los Santos',
+  dato: 'Danza: Cumbia Santeña',
+  miniatura: 'polleraDeLujoMiniatura.jpg', 
+  reseña: yo`
+   <hgroup>
+    <p>La pollera de Gala es el vestido típico más lujoso y conocido de Panamá. el trabajo artesanal que es utilizado para su confección lo hace una pieza digna de colección. </p>
+    <p>La pollera de lujo era el vestido utilizado por las mujeres panameñas en las fiestas más importantes como por ejemplo en los días patrios y en carnavales.</p>
+   </hgroup>`,
+  antecedentes: yo`
+   <hgroup>
+    <h2>Antecedentes Históricos</h2>
+    <p>La Pollera de gala Santeña o de Lujo tiene sus orígenes en Europa, es el resultado de la evolución y de una mezcla de culturas. Desde los tembleques con origen chino, peinado francés hasta zarcillos persas, el vestido típico de gala es una joya que ha unido detalles de tantos lugares, convirtiendo esas influencias en lo que nosotros conocemos hoy día como pollera. </p>
+    <p>Ciertamente la influencia de nuestro traje típico es europea y al ser territorio español desde donde se embarcaron los navíos a América es fácil hacer la relación directa, pero hay muchos indicadores que permiten dar ejemplos tangibles de los orígenes tan diversos de los elementos que la conforman.  <i>1</i></p>
+    <p>En Panamá se tienen datos de las polleras desde el año 1863 gracias a las imágenes captadas por el primer fotógrafo español Rafael Castro Ordoñez, a las polleras centenarias que todavía existen y a los estudios realizados a las telas y encajes. Es muy interesante conocer las menciones que se encuentran en las cartas de los viajes de Cristóbal Colón, más específicamente en su segundo viaje en donde se hace una descripción de las vestimentas que traían las primeras mujeres que llegaron a América resaltando que ellas aclimataron los vestidos al calor del trópico.</p>
+    <p>La pollera de lujo es el vestido típico que representa a la provincia de Los Santos y ha sido adoptada por las personas de la capital con ciertas modificaciones como por ejemplo utilizar la Mosqueta sobre la "mota" o pom pom y tembleques con gusanillos dorados.</p>
+    <p>En el Club Unión las chicas de la alta sociedad retomaron el uso de este hermoso traje típico para carnavales y días patrios. Se tienen datos que afirman que en ocasiones ellas no usaban la partidura en medio y se empolleraban hasta con flequillo. Otro dato interesante es que utilizaban la camisa de la pollera caida sobre los hombros. </p>
+    <p>Ramona "La Trona" Lefevre fue una dama amante de la pollera que sobresalió gracias a su amor por el traje típico y a su poder adquisitivo lo que le permitió tener una colección de 19 polleras y uno de los joyeros más grandes y lujosos de la capital. Ella implementó elementos y los impuso como una nueva moda, como, por ejemplo: el uso del peinetón, el uso de muchas cadenas y el aumento en el tamaño de las labores de la pollera.</p>
+    <p>Otra persona muy sobresaliente en la evolución de la pollera fue el sr Edgardo de León Madariaga un folklorista y artesano, responsable de un cambio estético importante en la pollera, incluyó mayor vuelo en la falda e introdujo las polleras policromadas y degradaciones "matizado". Llegó a utilizar hasta 20 colores en las labores de sus diseños. </p>
+    <p>Otra dama muy importante fue Elia Charpentier la primera “Dama nacional de la pollera” ella fue la responsable del aumento en el tamaño de las monedas coronadas y hasta les incrustó esmeraldas, aumentó el tamaño del peinetón, revivió el uso del tostón y llegó a utilizar todos los tembleques de oro y perlas. </p>
+    <h4>1. recomendamos las charlas del Sr. Eduardo Cano que nos brinda una nueva teoría sobre el origen de la pollera, esta teoría es el resultado de muchos años de estudio tanto a nivel nacional como internacional.</h4>
+   </hgroup>
+  `,
+  portadaImagen: '/images/polleraDeLujoFull.jpg',
+  generalImagen: '/images/polleraDeLujoGeneral.jpg',
+  general: 'Es imposible determinar cuál de las polleras existentes de Panamá es mejor, cada una es fruto de la evolución y de las características históricas del pueblo al que pertenecen. Sus rasgos distintivos hacen a cada una de nuestras polleras únicas y dignas de amor y respeto. Por otro lado, las ganas de volver a "las polleras" más comerciales y vistosas han llegado a crear variaciones muy distintas de lo tradicional.',
+  descripcion: yo`
+   <hgroup>
+    <h2>Descripción</h2>
+    <h3>Pollera de Lujo</h3>
+    <p>La pollera de Gala es una pollera de encajes, en su corte y armado es igual a la pollera blanca o la de coquitos, está formado por una camisa de dos arandelas y mangas; debajo de estas mangas tiene unas cintas que se utilizan para amarrarlas y mantenerlas al mismo nivel que la segunda arandela. </p>
+    <p>El Pollerón está compuesto por dos tramos de tela separados por una trencilla y terminada en un encaje pequeño llamado peacillo y encajes anchos con un poquito de recogido. </p>
+    <p>En la cintura la pretina se separa en dos (adelante y atrás) y a ambos lados se terminan en cuatro tiras de tela que se amarran. Las dos tiras de atrás se amarran primero hacia adelante y luego las de adelante hacia atrás. </p>
+    <p>Los dibujos o labores que se hacen sobre la tela se repiten indefinidamente a lo largo de la falda y de la camisa. </p>
+    <p>Tradicionalmente se utilizan colores sólidos como azul, rojo o negro, con la modernización de los métodos de colorización de hilos y textiles la pollera ha evolucionado y en la actualidad podemos ver labores matizadas (degradación de colores en un solo tono) o combinando colores (hojas verdes, flores rojas y mariposas amarillas), a pesar de la gran diversidad debemos evitar los colores neón. </p>
+    <p>No es posible decir que alguna pollera este mal o bien, la tradición y las investigaciones de las polleras centenarias nos revelan características que por necesidad y a veces por simple gusto se utilizan igual o se han modificado. </p>
+    <p>Hay algunos lineamientos que forman parte del buen gusto a la hora de confeccionar una pollera. como, por ejemplo: el tamaño de las labores, históricamente podemos ver un cambio notable en el tamaño de este elemento indispensable de la pollera de lujo. hoy en día podemos decir que en la pollera se debe dejar ver el color blanco de la tela en la parte superior de los paños como buena práctica.  </p>
+    <p>Diferentes tipos de labores de pollera</p>
+    <ul>
+     <li> Labores Talco en sombra, normalmente es utilizada para trabajar labores en color blanco.</li>
+     <li> Labores Talco al Sol, se utiliza con o sin calados.</li>
+     <li> Labores Marcadas o en punto de cruz. </li>
+     <li> Labores Bordadas se utiliza con o sin calados. </li>
+     <li> Labores Zurcidas se utiliza con o sin calados. </li>
+    </ul>
+    <p>Las labores de la pollera pueden ir acompañadas de "calados" son una técnica que consiste en sacar los hilos de una tela y luego trabajar una especie de bordado sobre ellos. Se realizan dentro de las labores como, por ejemplo: en el centro de una hoja o en el centro del pétalo de una flor. Es característico que las polleras lleven muchos diseños diferentes, en algunos casos en una sola pollera no se repite ninguno. </p>
+    <p>los encajes utilizados para las polleras de gala son los que conocemos comúnmente como valencianos, aunque este nombre es un regionalismo y se refiere a encajes trabajados sobre una malla; Su nombre es valencie o valencienne (así es fácil encontrarlos en Google) </p>
+    <p>Otra de las características de las polleras de gala son los mundillos, que son encajes confeccionados a mano con bolillos (palitos), los que conocemos comúnmente como peacillo y trencilla. según la definición del diccionario el mundillo es en realidad el cilindro que se usa para tejer las trencillas, aunque en Panamá denominamos "mundillo" al juego de trencillas trabajadas con esta técnica que se usan para las polleras. </p>
+    <p>Otro accesorio muy interesante es el paño o rebozo, este accesorio es el equivalente al chal actual, era utilizado para cubrirse la cabeza del sereno o para abrigarse del frío. En la actualidad el reboso es una pieza de gran labor artesanal, se trabaja al igual que la pollera, en labores que combinan perfectamente. No es un accesorio indispensable y cuando se lleva puesto no debe ser amarrado a las mangas, ni utilizado al bailar. </p>
+    <p>En la cabeza de tembleques blancos no se deben utilizan pimpollos de colores, el uso de ellos no es tradicional.  </p>
+    <p>En la actualidad podemos encontrar nuevos materiales para la confección de tembleques como los cristales de Swarovski. </p>
+    <p>Las Enaguas o peticotes son parte fundamental de la pollera. Se utilizan dos o tres y se confeccionan en diferentes técnicas, pueden ser de encajes, tejido de crochet, pajita, con labores en talco y calado. Las enaguas o peticotes internos son más sencillos y tienen la finalidad de no dejar ver las piernas de la empollerada. </p>
+    <p>El Enjaretado en las polleras de gala se utilizan en colores contrastantes, por ejemplo: si la pollera es roja, el enjaretado puede ser en azul o celeste.  </p>
+    <p>Los Zapatos en las polleras de encajes se usan con lazos y hebillas, son del mismo color que el enjaretado y se deben llevar de satén o en una tela con brillos.</p>
    </hgroup>
   `
  }

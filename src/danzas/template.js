@@ -13,9 +13,6 @@ module.exports = yo`
   </article>
  </section>
  <section class="lista blanco">
-  <div class="listaFiltros">
-
-  </div>
   <div class="listaCont">
    ${danzas.map(function(danza){
     return tarjeta('danzas', danza)
