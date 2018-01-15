@@ -19,7 +19,7 @@ module.exports = yo`
           </hgroup>
         </div>
       </a>
-      <a href="#" class="identidadImagen identidad1 tercio">
+      <a href="/vestuarios/Pollera-De-Lujo" class="identidadImagen identidad1 tercio">
         <div class="identidadInfo negroTrans">
           <hgroup>
             <h2>Pollera De Lujo</h2>

@@ -89,7 +89,7 @@ module.exports = [
   url: 'Pollera-De-Lujo',
   region: 'Los Santos',
   dato: 'Danza: Cumbia Santeña',
-  miniatura: 'polleraDeLujoMiniatura.jpg', 
+  miniatura: 'PolleraDeLujoMiniatura.jpg', 
   reseña: yo`
    <hgroup>
     <p>La pollera de Gala es el vestido típico más lujoso y conocido de Panamá. el trabajo artesanal que es utilizado para su confección lo hace una pieza digna de colección. </p>
@@ -109,8 +109,8 @@ module.exports = [
     <h4>1. recomendamos las charlas del Sr. Eduardo Cano que nos brinda una nueva teoría sobre el origen de la pollera, esta teoría es el resultado de muchos años de estudio tanto a nivel nacional como internacional.</h4>
    </hgroup>
   `,
-  portadaImagen: '/images/polleraDeLujoFull.jpg',
-  generalImagen: '/images/polleraDeLujoGeneral.jpg',
+  portadaImagen: '/images/PolleraDeLujoFull.jpg',
+  generalImagen: '/images/PolleraDeLujoGeneral.jpg',
   general: 'Es imposible determinar cuál de las polleras existentes de Panamá es mejor, cada una es fruto de la evolución y de las características históricas del pueblo al que pertenecen. Sus rasgos distintivos hacen a cada una de nuestras polleras únicas y dignas de amor y respeto. Por otro lado, las ganas de volver a "las polleras" más comerciales y vistosas han llegado a crear variaciones muy distintas de lo tradicional.',
   descripcion: yo`
    <hgroup>
