@@ -142,5 +142,49 @@ module.exports = [
     <p>Los Zapatos en las polleras de encajes se usan con lazos y hebillas, son del mismo color que el enjaretado y se deben llevar de satén o en una tela con brillos.</p>
    </hgroup>
   `
+ },
+ {
+  nombre: 'La Camisilla', 
+  url: 'Camisilla',
+  region: 'Provincias Centrales',
+  dato: 'Danza: Punto',
+  miniatura: 'camisillaMiniatura.jpg', 
+  reseña: yo`
+   <hgroup>
+    <p>La camisilla es el vestido típico de gala del hombre panameño y es utilizada en fiestas y en ocasiones especiales como por ejemplo los domingos para asistir a misa.</p>
+   </hgroup>`,
+  antecedentes: yo`
+   <hgroup>
+    <h2>Antecedentes Históricos</h2>
+    <p>"No se sabe a ciencia cierta en qué año sé utilizo por primera vez la camisilla, existen referencias de que esta pieza masculina tiene una larga vida de existencia, ya que en la fiesta del Centenario de Chitré en 1948, se exhibió una camisilla con juegos de alforzas y pequeños talcos piramidales en relieve, con cien años de existencia".</p>
+    <h3>Dora P. De Zárate</h3>
+   </hgroup>
+  `,
+  portadaImagen: '/images/camisillaFull.jpg',
+  generalImagen: '/images/camisillaGeneral.jpg',
+  general: 'Los vestidos típicos de los hombres, no son tan conocidos como los de las mujeres. Existen pocosdatos sobre sus orígenes. En la actualidad podemos apreciar una amplia variedad de modelos endonde se incluyen elementos totalmente novedosos para esta prenda de vestir como, por ejemplo: encajes, bordados, calados, talcos, etc... que son labores usualmente utilizadas en las polleras de gala y en algunas montunas. ',
+  descripcion: yo`
+   <hgroup>
+    <h2>Descripción</h2>
+    <h3>Camisilla</h3>
+    <p>Las camisillas de Los Santos son de color blanco y tienen un diseño característico. </p>
+    <p>El cuello de la camisa es alto y de estilo chino, en la parte frontal posee dos bolsillos, las mangas son largas y holgadas, en las muñecas es cerrada y no lleva botones.</p>
+    <p>El cuerpo de la camisilla esta adornado con alforzas, que son una serie de tabletas finamente cosidas en la parte trasera dela camisa se hacen dos o tres tiras de alforzas y en la parte frontal se hacen a ambos lados del pecho.</p>
+    <p>Las camisillas llevan botones que pueden ser de oro, monedas pequeñas de plata bañada en oro, nácar o hueso. Las más sencillas normalmente llevan los botones pegados y una sola línea de ojales. mientras que las más elaboradas y finas tienen doble línea, ya que los botones son de oro y se puedes quitar y poner para lavar la camisa.</p>
+    <p>Las telas utilizadas para su confección son de hilo como el holán o más sencillas como el poplin.</p>
+    <p>La labor artesanal de las camisillas se destaca en las alforzas o espiguetas, que pueden tomar al rededor de cinco o seis días para su confección.</p>
+    <p>De la cantidad de espiguetas depende el valor que se le brindará a la camisilla. La tradición nos dice que se consideran más finas las camisillas que tienen más espiguetas, por esta razón cuando son confeccionadas para concursos, deben tener un mínimo de 30 espiguetas en la parte delantera.</p>
+    <p>tipos de alforzas o espiguetas</p>
+    <ul>
+     <li>Alforzas Horizontales</li>
+     <li>Alforzas Verticales</li>
+     <li>Alforzas Oblicuas</li>
+     <li>Alforzas Oblicuas Encontradas (combinación de dos tiras independientes de alforzas)</li>
+     <li>Alforzas horizontales y verticales</li>
+     <li>Cepito</li>
+    </ul>
+    <p>Para acompañar la camisilla el hombre debe vestir con pantalón negro, zapatos negros, cutarras o chinelas (zapatos blanco con negro), una cebadera o chácara (bolsa de hilo tejida) y sombrero pintado.</p>
+   </hgroup>
+  `
  }
 ]
