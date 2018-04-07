@@ -27,6 +27,10 @@ app.get('/contacto', function(req,res){
  res.render('index.pug')
 })
 
+app.get('/blog', function(req, res){
+  res.render('index.pug')
+})
+
 app.get('/confirmacion', function(req, res){
  res.render('index.pug')
 })

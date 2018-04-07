@@ -12,5 +12,6 @@ require('./danzaPage')
 require('./vestuarioPage')
 require('./contactoConfirmacion')
 require('./contactoError')
+require('./blog')
 
 page()

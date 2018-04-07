@@ -2538,6 +2538,129 @@ module.exports = [
 },{}],16:[function(require,module,exports){
 'use strict';
 
+var _templateObject = _taggedTemplateLiteral(['\n<div class="w3-card w3-margin w3-margin-top">\n <img src="https://www.w3schools.com/w3images/avatar_g.jpg" style="width:100%">\n <div class="w3-container w3-white">\n  <h4><b>My Name</b></h4>\n  <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>\n </div>\n</div>\n'], ['\n<div class="w3-card w3-margin w3-margin-top">\n <img src="https://www.w3schools.com/w3images/avatar_g.jpg" style="width:100%">\n <div class="w3-container w3-white">\n  <h4><b>My Name</b></h4>\n  <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>\n </div>\n</div>\n']);
+
+var _yoYo = require('yo-yo');
+
+var _yoYo2 = _interopRequireDefault(_yoYo);
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
+
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
+
+module.exports = (0, _yoYo2.default)(_templateObject);
+
+},{"yo-yo":14}],17:[function(require,module,exports){
+'use strict';
+
+var _page = require('page');
+
+var _page2 = _interopRequireDefault(_page);
+
+var _emptyElement = require('empty-element');
+
+var _emptyElement2 = _interopRequireDefault(_emptyElement);
+
+var _template = require('./template');
+
+var _template2 = _interopRequireDefault(_template);
+
+var _header = require('../header');
+
+var _header2 = _interopRequireDefault(_header);
+
+var _footer = require('../footer');
+
+var _footer2 = _interopRequireDefault(_footer);
+
+var _functions = require('../header/functions');
+
+var _functions2 = _interopRequireDefault(_functions);
+
+var _articulos = require('../blogArticulo/articulos');
+
+var _articulos2 = _interopRequireDefault(_articulos);
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
+
+(0, _page2.default)('/blog', _header2.default, _footer2.default, _functions2.default.noScrollFunction, function (ctx, next) {
+  var main = document.getElementById('main-container');
+  (0, _emptyElement2.default)(main).appendChild((0, _template2.default)(_articulos2.default));
+});
+
+},{"../blogArticulo/articulos":20,"../footer":35,"../header":38,"../header/functions":37,"./template":19,"empty-element":4,"page":12}],18:[function(require,module,exports){
+'use strict';
+
+var _templateObject = _taggedTemplateLiteral(['\n <div class="w3-card-4 w3-margin w3-white">\n <img src=', ' alt="Norway" style="width:100%">\n <div class="w3-container">\n   <h2><b>', '</b></h2>\n   <h5>', '</h5>\n </div>\n \n <div class="w3-container">\n   <p>', '</p>\n   <div class="w3-row">\n     <div class="w3-col m8 s12">\n       <p><button class="w3-button w3-padding-large w3-white w3-border"><b>Leer M\xE1s \xBB</b></button></p>\n     </div>\n   </div>\n </div>\n </div>\n\n'], ['\n <div class="w3-card-4 w3-margin w3-white">\n <img src=', ' alt="Norway" style="width:100%">\n <div class="w3-container">\n   <h2><b>', '</b></h2>\n   <h5>', '</h5>\n </div>\n \n <div class="w3-container">\n   <p>', '</p>\n   <div class="w3-row">\n     <div class="w3-col m8 s12">\n       <p><button class="w3-button w3-padding-large w3-white w3-border"><b>Leer M\xE1s \xBB</b></button></p>\n     </div>\n   </div>\n </div>\n </div>\n\n']);
+
+var _yoYo = require('yo-yo');
+
+var _yoYo2 = _interopRequireDefault(_yoYo);
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
+
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
+
+module.exports = function (articulo) {
+  var el = (0, _yoYo2.default)(_templateObject, articulo.imagen, articulo.titulo, articulo.fecha, articulo.descripcion);
+  return el;
+};
+
+},{"yo-yo":14}],19:[function(require,module,exports){
+'use strict';
+
+var _templateObject = _taggedTemplateLiteral(['\n<section class="w3-content pad" style="max-width:1400px">\n  <div class="w3-row">\n    <div class="w3-col l8 s12">\n      ', '\n    </div>\n    <div class="w3-col l4">\n      ', '\n    </div>\n  </div>\n</section>\n'], ['\n<section class="w3-content pad" style="max-width:1400px">\n  <div class="w3-row">\n    <div class="w3-col l8 s12">\n      ', '\n    </div>\n    <div class="w3-col l4">\n      ', '\n    </div>\n  </div>\n</section>\n']);
+
+var _yoYo = require('yo-yo');
+
+var _yoYo2 = _interopRequireDefault(_yoYo);
+
+var _about = require('./about');
+
+var _about2 = _interopRequireDefault(_about);
+
+var _tarjeta = require('./tarjeta');
+
+var _tarjeta2 = _interopRequireDefault(_tarjeta);
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
+
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
+
+module.exports = function (articulos) {
+  var el = (0, _yoYo2.default)(_templateObject, articulos.map(function (articulo) {
+    return (0, _tarjeta2.default)(articulo);
+  }), _about2.default);
+  return el;
+};
+
+},{"./about":16,"./tarjeta":18,"yo-yo":14}],20:[function(require,module,exports){
+'use strict';
+
+module.exports = [{
+  imagen: 'https://www.w3schools.com/w3images/woods.jpg',
+  titulo: 'Primer Artículo de Folk In Love',
+  fecha: 'April 6, 2018',
+  descripcion: 'Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.'
+}];
+
+},{}],21:[function(require,module,exports){
+'use strict';
+
 var _templateObject = _taggedTemplateLiteral(['\n  <article class="tercio album">\n    <div class="imagenCentral">Soy una imagen central</div>\n    <div class="galeria">\n      <a href="" class="miniatura">soy una miniatura</a>\n      <a href="" class="miniatura">soy una miniatura</a>\n      <a href="" class="miniatura">soy una miniatura</a>\n    </div>\n  </article>\n '], ['\n  <article class="tercio album">\n    <div class="imagenCentral">Soy una imagen central</div>\n    <div class="galeria">\n      <a href="" class="miniatura">soy una miniatura</a>\n      <a href="" class="miniatura">soy una miniatura</a>\n      <a href="" class="miniatura">soy una miniatura</a>\n    </div>\n  </article>\n ']);
 
 var _yoYo = require('yo-yo');
@@ -2557,7 +2680,7 @@ module.exports = function (imagenes) {
   return el;
 };
 
-},{"yo-yo":14}],17:[function(require,module,exports){
+},{"yo-yo":14}],22:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <a class="tarjeta" href="/', '/', '">\n    <div class="tarjetaImagen" style="background: url(\'/images/', '\'); background-size: cover"></div>\n    <div class="tarjetaInfo">\n     <hgroup>\n      <h2>', '</h2>\n      <h4>Regi\xF3n: ', '</h4>\n      <h4>', '</h4>\n     </hgroup>\n    </div>\n  </a>\n '], ['\n  <a class="tarjeta" href="/', '/', '">\n    <div class="tarjetaImagen" style="background: url(\'/images/', '\'); background-size: cover"></div>\n    <div class="tarjetaInfo">\n     <hgroup>\n      <h2>', '</h2>\n      <h4>Regi\xF3n: ', '</h4>\n      <h4>', '</h4>\n     </hgroup>\n    </div>\n  </a>\n ']);
@@ -2579,7 +2702,7 @@ module.exports = function (seccion, articulo) {
   return el;
 };
 
-},{"yo-yo":14}],18:[function(require,module,exports){
+},{"yo-yo":14}],23:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -2615,7 +2738,7 @@ function _interopRequireDefault(obj) {
   (0, _emptyElement2.default)(main).appendChild(_template2.default);
 });
 
-},{"../footer":30,"../header":33,"../header/functions":32,"./template":19,"empty-element":4,"page":12}],19:[function(require,module,exports){
+},{"../footer":35,"../header":38,"../header/functions":37,"./template":24,"empty-element":4,"page":12}],24:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <section class="contacto completa">\n    <article class="contactoInfo rosaTrans">\n      <div>\n        <h2>Cont\xE1ctenos:</h2>\n        <h4>Email:</h4>\n        <p>info@folkinlovepty.com</p>\n        <h4>tel\xE9fono:</h4>\n        <p>6945-5931</p>\n        <form action="/contacto/send" method="post">\n          <input type="text" name="nombre" placeholder="Nombre">\n          <input type="text" name="email" placeholder="Email">\n          <input type="text" name="asunto" placeholder="Asunto">\n          <textarea name="mensaje" rows="10" cols="30" placeholder="Envianos Tu Mensaje"></textarea>\n          <input type="submit" name="submit" value="Enviar" class="btn negro">\n        </form>\n      </div>\n    </article>\n  </section>\n'], ['\n  <section class="contacto completa">\n    <article class="contactoInfo rosaTrans">\n      <div>\n        <h2>Cont\xE1ctenos:</h2>\n        <h4>Email:</h4>\n        <p>info@folkinlovepty.com</p>\n        <h4>tel\xE9fono:</h4>\n        <p>6945-5931</p>\n        <form action="/contacto/send" method="post">\n          <input type="text" name="nombre" placeholder="Nombre">\n          <input type="text" name="email" placeholder="Email">\n          <input type="text" name="asunto" placeholder="Asunto">\n          <textarea name="mensaje" rows="10" cols="30" placeholder="Envianos Tu Mensaje"></textarea>\n          <input type="submit" name="submit" value="Enviar" class="btn negro">\n        </form>\n      </div>\n    </article>\n  </section>\n']);
@@ -2634,7 +2757,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
-},{"yo-yo":14}],20:[function(require,module,exports){
+},{"yo-yo":14}],25:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -2670,7 +2793,7 @@ function _interopRequireDefault(obj) {
   (0, _emptyElement2.default)(main).appendChild(_template2.default);
 });
 
-},{"../footer":30,"../header":33,"../header/functions":32,"./template":21,"empty-element":4,"page":12}],21:[function(require,module,exports){
+},{"../footer":35,"../header":38,"../header/functions":37,"./template":26,"empty-element":4,"page":12}],26:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n <articulo className="completa blanco texto">\n  <hgroup>\n   <h2>Su Mensaje Ha Sido Enviado</h2>\n  </hgroup>\n </articulo>\n'], ['\n <articulo className="completa blanco texto">\n  <hgroup>\n   <h2>Su Mensaje Ha Sido Enviado</h2>\n  </hgroup>\n </articulo>\n']);
@@ -2689,7 +2812,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
-},{"yo-yo":14}],22:[function(require,module,exports){
+},{"yo-yo":14}],27:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -2725,7 +2848,7 @@ function _interopRequireDefault(obj) {
   (0, _emptyElement2.default)(main).appendChild(_template2.default);
 });
 
-},{"../footer":30,"../header":33,"../header/functions":32,"./template":23,"empty-element":4,"page":12}],23:[function(require,module,exports){
+},{"../footer":35,"../header":38,"../header/functions":37,"./template":28,"empty-element":4,"page":12}],28:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n <articulo className="completa texto rosa">\n  <hgroup>\n    <h2>Ha habido Un Error</h2>\n  </hgroup> \n </articulo>\n'], ['\n <articulo className="completa texto rosa">\n  <hgroup>\n    <h2>Ha habido Un Error</h2>\n  </hgroup> \n </articulo>\n']);
@@ -2744,7 +2867,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
-},{"yo-yo":14}],24:[function(require,module,exports){
+},{"yo-yo":14}],29:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n<main>\n <section class="portada" style="background: url(\'', '\'); background-size:contain; background-attachment: fixed">\n  <article class="mitad rosaTrans">\n   <hgroup>\n    <h1>', '</h1>\n    <p>', '</p>\n   </hgroup>\n  </article>\n </section>\n <section>\n  <article class="tercio imagen" style="background: url(\'', '\'); background-size: cover;"></article>\n  <article class="dosTercios blanco texto">\n   ', '\n  </article>\n </section>\n <section>\n  <article class="completa texto info blanco">\n   ', '\n  </article>\n </section>\n <section>\n  <article class="tercio blanco pasos">\n   <hgroup>\n    <h2>Pasos</h2>\n    <ul>\n     ', '\n    </ul>\n   </hgroup>\n  </article>\n  <article class="dosTercios imagen" style="background: url(\'', '\'); background-size:cover"></article>\n </section>\n <article class="completa texto info rosa">\n     <hgroup>\n      <h2>referencias</h2>\n      <ul>\n       <li>Extracto de "EL PUNTO, LA DENESA, EL ATRAVESADO Y OTROS BAILES ORQUESTADOS". Dora P\xE9rez de Z\xE1rate. 198</li>\n      </ul>\n     </hgroup>\n </article>\n</main>\n \n '], ['\n<main>\n <section class="portada" style="background: url(\'', '\'); background-size:contain; background-attachment: fixed">\n  <article class="mitad rosaTrans">\n   <hgroup>\n    <h1>', '</h1>\n    <p>', '</p>\n   </hgroup>\n  </article>\n </section>\n <section>\n  <article class="tercio imagen" style="background: url(\'', '\'); background-size: cover;"></article>\n  <article class="dosTercios blanco texto">\n   ', '\n  </article>\n </section>\n <section>\n  <article class="completa texto info blanco">\n   ', '\n  </article>\n </section>\n <section>\n  <article class="tercio blanco pasos">\n   <hgroup>\n    <h2>Pasos</h2>\n    <ul>\n     ', '\n    </ul>\n   </hgroup>\n  </article>\n  <article class="dosTercios imagen" style="background: url(\'', '\'); background-size:cover"></article>\n </section>\n <article class="completa texto info rosa">\n     <hgroup>\n      <h2>referencias</h2>\n      <ul>\n       <li>Extracto de "EL PUNTO, LA DENESA, EL ATRAVESADO Y OTROS BAILES ORQUESTADOS". Dora P\xE9rez de Z\xE1rate. 198</li>\n      </ul>\n     </hgroup>\n </article>\n</main>\n \n ']),
@@ -2769,7 +2892,7 @@ module.exports = function (danza) {
   return el;
 };
 
-},{"yo-yo":14}],25:[function(require,module,exports){
+},{"yo-yo":14}],30:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -2810,7 +2933,7 @@ function _interopRequireDefault(obj) {
   window.addEventListener("scroll", _functions2.default.scrollFunction);
 });
 
-},{"../danzas/danzas":27,"../footer":30,"../header":33,"../header/functions":32,"./template":26,"empty-element":4,"page":12}],26:[function(require,module,exports){
+},{"../danzas/danzas":32,"../footer":35,"../header":38,"../header/functions":37,"./template":31,"empty-element":4,"page":12}],31:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n <div>\n ', '\n </div>\n  \n '], ['\n <div>\n ', '\n </div>\n  \n ']);
@@ -2840,7 +2963,7 @@ module.exports = function (danzas, ident) {
   return el;
 };
 
-},{"./danza":24,"yo-yo":14}],27:[function(require,module,exports){
+},{"./danza":29,"yo-yo":14}],32:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n   <hgroup>\n    <p><i>\u201CDespu\xE9s del tamborito, el baile de parejas individual m\xE1s atractivo es el PUNTO en el cual la pareja hace gala de donaire, precisi\xF3n y gracia. Parece de pura ascendencia hisp\xE1nica a juzgar por la m\xFAsica que lo acompa\xF1a.</i></p>\n    <p><i>El baile de PUNTO no es baile de toda una noche como puede serio el Tamborito y la Cumbia; el Pind\xEDn y la Mejorana. Se baila m\xE1s bien como una demostraci\xF3n atractiva entre los minutos de descanso de un baile, para regalo de los ojos y goce del esp\xEDritu de la concurrencia a una fiesta.\u201D</i></p>\n    <p>Dora P\xE9rez de Zarate</p>\n   </hgroup>'], ['\n   <hgroup>\n    <p><i>\u201CDespu\xE9s del tamborito, el baile de parejas individual m\xE1s atractivo es el PUNTO en el cual la pareja hace gala de donaire, precisi\xF3n y gracia. Parece de pura ascendencia hisp\xE1nica a juzgar por la m\xFAsica que lo acompa\xF1a.</i></p>\n    <p><i>El baile de PUNTO no es baile de toda una noche como puede serio el Tamborito y la Cumbia; el Pind\xEDn y la Mejorana. Se baila m\xE1s bien como una demostraci\xF3n atractiva entre los minutos de descanso de un baile, para regalo de los ojos y goce del esp\xEDritu de la concurrencia a una fiesta.\u201D</i></p>\n    <p>Dora P\xE9rez de Zarate</p>\n   </hgroup>']),
@@ -2874,7 +2997,7 @@ module.exports = [{
 
 }];
 
-},{"yo-yo":14}],28:[function(require,module,exports){
+},{"yo-yo":14}],33:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -2911,7 +3034,7 @@ function _interopRequireDefault(obj) {
   window.addEventListener("scroll", _functions2.default.scrollFunction);
 });
 
-},{"../footer":30,"../header":33,"../header/functions":32,"./template":29,"empty-element":4,"page":12}],29:[function(require,module,exports){
+},{"../footer":35,"../header":38,"../header/functions":37,"./template":34,"empty-element":4,"page":12}],34:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n<main>\n <section class="portada" id="danzasPortada">\n  <article className="completa negroTrans">\n   <hgroup>\n    <h2>Danzas Paname\xF1as</h2>\n    <p>Las danzas de Panam\xE1 expresan las experiencias del hombre y la mujer, muchas de ellas son inspiradas en la faena diaria del trabajo en el campo, otras traen a colaci\xF3n rituales religiosos y celebraciones.</p>\n   </hgroup>\n  </article>\n </section>\n <section class="lista blanco">\n  <div class="listaCont">\n   ', '\n  </div> \n </section>\n</main>\n'], ['\n<main>\n <section class="portada" id="danzasPortada">\n  <article className="completa negroTrans">\n   <hgroup>\n    <h2>Danzas Paname\xF1as</h2>\n    <p>Las danzas de Panam\xE1 expresan las experiencias del hombre y la mujer, muchas de ellas son inspiradas en la faena diaria del trabajo en el campo, otras traen a colaci\xF3n rituales religiosos y celebraciones.</p>\n   </hgroup>\n  </article>\n </section>\n <section class="lista blanco">\n  <div class="listaCont">\n   ', '\n  </div> \n </section>\n</main>\n']);
@@ -2940,7 +3063,7 @@ module.exports = (0, _yoYo2.default)(_templateObject, _danzas2.default.map(funct
   return (0, _tarjeta2.default)('danzas', danza);
 }));
 
-},{"../componentes/tarjeta":17,"./danzas":27,"yo-yo":14}],30:[function(require,module,exports){
+},{"../componentes/tarjeta":22,"./danzas":32,"yo-yo":14}],35:[function(require,module,exports){
 'use strict';
 
 var _emptyElement = require('empty-element');
@@ -2961,7 +3084,7 @@ module.exports = function footer(ctx, next) {
   next();
 };
 
-},{"./template":31,"empty-element":4}],31:[function(require,module,exports){
+},{"./template":36,"empty-element":4}],36:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n<footer>\n <div class="footerLeft">\n  <a class="logo"></a>\n </div>\n <div class="footerRight">\n  <div class="footerRightUp">\n   <h3>Cont\xE1ctenos:</h3>\n   <ul>\n    <li>Email: info@folkinlovepty.com</li>\n    <li>Tel\xE9fono: 6945-5931</li>\n    <li>Direcci\xF3n: Calle 49A<br>\n    El Cangrejo, Bella Vista</li>\n   </ul>\n  </div>\n  <div class="footerRightDown">\n   <a href="https://facebook.com/folkinlovepty" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>\n   <a href="https://instagram.com/folkinlovepty" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>\n   <a href="mailto: info@folkinlovepty.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>\n  </div>\n </div>\n</footer>\n'], ['\n<footer>\n <div class="footerLeft">\n  <a class="logo"></a>\n </div>\n <div class="footerRight">\n  <div class="footerRightUp">\n   <h3>Cont\xE1ctenos:</h3>\n   <ul>\n    <li>Email: info@folkinlovepty.com</li>\n    <li>Tel\xE9fono: 6945-5931</li>\n    <li>Direcci\xF3n: Calle 49A<br>\n    El Cangrejo, Bella Vista</li>\n   </ul>\n  </div>\n  <div class="footerRightDown">\n   <a href="https://facebook.com/folkinlovepty" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>\n   <a href="https://instagram.com/folkinlovepty" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>\n   <a href="mailto: info@folkinlovepty.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>\n  </div>\n </div>\n</footer>\n']);
@@ -2980,7 +3103,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
-},{"yo-yo":14}],32:[function(require,module,exports){
+},{"yo-yo":14}],37:[function(require,module,exports){
 'use strict';
 
 var scrollFunction = function scrollFunction() {
@@ -3006,7 +3129,7 @@ var navegacion = function navegacion() {
 
 module.exports = { scrollFunction: scrollFunction, noScrollFunction: noScrollFunction, navegacion: navegacion };
 
-},{}],33:[function(require,module,exports){
+},{}],38:[function(require,module,exports){
 'use strict';
 
 var _emptyElement = require('empty-element');
@@ -3027,7 +3150,7 @@ module.exports = function header(ctx, next) {
   next();
 };
 
-},{"./template":34,"empty-element":4}],34:[function(require,module,exports){
+},{"./template":39,"empty-element":4}],39:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n<header id= "headerContainer">\n <a href="/" class="logoContainer">\n   <div class="logo"></div>\n   <h1>FOLK in LOVE</h1>\n </a>\n <nav id="nav" class="nav hidden">\n   <a href="/" onclick=', '>Inicio</a>\n   <a href="/danzas" onclick=', '>Danzas</a>\n   <a href="/vestuarios" onclick=', '>Vestuarios</a>\n   <a href="/contacto" onclick=', '>Contacto</a>\n </nav>\n <a href="#" class="navButton" onclick=', '>\n   <i class="fa fa-bars" aria-hidden="true"></i>\n </a>\n</header>'], ['\n<header id= "headerContainer">\n <a href="/" class="logoContainer">\n   <div class="logo"></div>\n   <h1>FOLK in LOVE</h1>\n </a>\n <nav id="nav" class="nav hidden">\n   <a href="/" onclick=', '>Inicio</a>\n   <a href="/danzas" onclick=', '>Danzas</a>\n   <a href="/vestuarios" onclick=', '>Vestuarios</a>\n   <a href="/contacto" onclick=', '>Contacto</a>\n </nav>\n <a href="#" class="navButton" onclick=', '>\n   <i class="fa fa-bars" aria-hidden="true"></i>\n </a>\n</header>']);
@@ -3050,7 +3173,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject, _functions2.default.navegacion, _functions2.default.navegacion, _functions2.default.navegacion, _functions2.default.navegacion, _functions2.default.navegacion);
 
-},{"./functions":32,"yo-yo":14}],35:[function(require,module,exports){
+},{"./functions":37,"yo-yo":14}],40:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -3073,10 +3196,11 @@ require('./danzaPage');
 require('./vestuarioPage');
 require('./contactoConfirmacion');
 require('./contactoError');
+require('./blog');
 
 (0, _page2.default)();
 
-},{"./contacto":18,"./contactoConfirmacion":20,"./contactoError":22,"./danzaPage":25,"./danzas":28,"./inicio":40,"./vestuarioPage":43,"./vestuarios":45,"page":12}],36:[function(require,module,exports){
+},{"./blog":17,"./contacto":23,"./contactoConfirmacion":25,"./contactoError":27,"./danzaPage":30,"./danzas":33,"./inicio":45,"./vestuarioPage":48,"./vestuarios":50,"page":12}],41:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <section class="inicioAbout completa">\n    <article class="aboutTexto mitad">\n      <hgroup>\n        <h2>\xBFQu\xE9 es Folk in love?</h2>\n        <h3>Conoce M\xE1s de las Danzas y Vestidos de Cada Regi\xF3n</h3>\n        <p>\n          En Folk in love nos dedicamos a la investigaci\xF3n, difusi\xF3n, promoci\xF3n y conservaci\xF3n del folklore Paname\xF1o, queremos ofrecer un espacio en donde se pueda encontrar informaci\xF3n de calidad respaldada por investigaciones y fuentes confiables que puedan servir de referencia para bailarines, maestros, vestuaristas, estudiantes y amantes del folklore.\n        </p>\n        <p>\n          Buscamos unir nuestros esfuerzos con la comunidad. Ademas de hacer investigaciones propias estamos abiertos a recibir todo tipo de aporte como fotografias, videos y datos que nos permitan tener un panorama m\xE1s amplio de nuestras manifestaciones folkloricas.\n        </p>\n      </hgroup>\n    </article>\n    <article class="aboutImagen mitad"></article>\n  </section>\n'], ['\n  <section class="inicioAbout completa">\n    <article class="aboutTexto mitad">\n      <hgroup>\n        <h2>\xBFQu\xE9 es Folk in love?</h2>\n        <h3>Conoce M\xE1s de las Danzas y Vestidos de Cada Regi\xF3n</h3>\n        <p>\n          En Folk in love nos dedicamos a la investigaci\xF3n, difusi\xF3n, promoci\xF3n y conservaci\xF3n del folklore Paname\xF1o, queremos ofrecer un espacio en donde se pueda encontrar informaci\xF3n de calidad respaldada por investigaciones y fuentes confiables que puedan servir de referencia para bailarines, maestros, vestuaristas, estudiantes y amantes del folklore.\n        </p>\n        <p>\n          Buscamos unir nuestros esfuerzos con la comunidad. Ademas de hacer investigaciones propias estamos abiertos a recibir todo tipo de aporte como fotografias, videos y datos que nos permitan tener un panorama m\xE1s amplio de nuestras manifestaciones folkloricas.\n        </p>\n      </hgroup>\n    </article>\n    <article class="aboutImagen mitad"></article>\n  </section>\n']);
@@ -3095,7 +3219,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
-},{"yo-yo":14}],37:[function(require,module,exports){
+},{"yo-yo":14}],42:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <section class="inicioApoyo completa">\n    <article class="apoyoTexto mitad rosaTrans">\n      <hgroup>\n        <h2>Ayudenos a Crecer</h2>\n        <h3>Aceptamos Diferentes Tipos de Aportes</h3>\n        <p>\n          Folk in Love es una plataforma que quiere que t\xFA seas parte de la experiencia de ser paname\xF1os. \n        </p>\n        <p>\n          Nuestra identidad se ha formado por cada uno de nuestros abuelos y bisabuelos antes de toda esta \xE9poca tecnol\xF3gica, y son sus recuerdos y sus vivencias las que nos han llevado a lo que somos hoy.  \n        </p>\n        <p>  \n            Si bien nos puedes apoyar econ\xF3micamente no queremos limitar tu aporte, tal vez tengas fotos, libros, escritos o alguna historia que deseas compartir.  \n        </p>\n        <p>\n            \xBFDeseas que investiguemos en tu comunidad?  \n            Nos ayudar\xEDan los recursos que tienes a tu alrededor, hospedaje, comida o contactos que nos permitan ir y documentar las tradiciones de tu regi\xF3n para expresarles a todos los paname\xF1os la diversidad de bailes y vestidos que tiene nuestro hermoso pa\xEDs. \n        </p>\n      </hgroup>\n    </article>\n  </section>\n'], ['\n  <section class="inicioApoyo completa">\n    <article class="apoyoTexto mitad rosaTrans">\n      <hgroup>\n        <h2>Ayudenos a Crecer</h2>\n        <h3>Aceptamos Diferentes Tipos de Aportes</h3>\n        <p>\n          Folk in Love es una plataforma que quiere que t\xFA seas parte de la experiencia de ser paname\xF1os. \n        </p>\n        <p>\n          Nuestra identidad se ha formado por cada uno de nuestros abuelos y bisabuelos antes de toda esta \xE9poca tecnol\xF3gica, y son sus recuerdos y sus vivencias las que nos han llevado a lo que somos hoy.  \n        </p>\n        <p>  \n            Si bien nos puedes apoyar econ\xF3micamente no queremos limitar tu aporte, tal vez tengas fotos, libros, escritos o alguna historia que deseas compartir.  \n        </p>\n        <p>\n            \xBFDeseas que investiguemos en tu comunidad?  \n            Nos ayudar\xEDan los recursos que tienes a tu alrededor, hospedaje, comida o contactos que nos permitan ir y documentar las tradiciones de tu regi\xF3n para expresarles a todos los paname\xF1os la diversidad de bailes y vestidos que tiene nuestro hermoso pa\xEDs. \n        </p>\n      </hgroup>\n    </article>\n  </section>\n']);
@@ -3114,7 +3238,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
-},{"yo-yo":14}],38:[function(require,module,exports){
+},{"yo-yo":14}],43:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <section class="portada banner">\n    <articulo class="negroTrans completa texto">\n        <hgroup>\n          <h1>Folk in Love</h1>\n          <h3>La Nueva Manera de Ver el Folklore</h3>\n        </hgroup>\n    </articulo>\n    \n  </section>\n'], ['\n  <section class="portada banner">\n    <articulo class="negroTrans completa texto">\n        <hgroup>\n          <h1>Folk in Love</h1>\n          <h3>La Nueva Manera de Ver el Folklore</h3>\n        </hgroup>\n    </articulo>\n    \n  </section>\n']);
@@ -3133,7 +3257,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
-},{"yo-yo":14}],39:[function(require,module,exports){
+},{"yo-yo":14}],44:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <div class="inicioIdentidad">\n    <article class="identidadImagenes">\n      <a href="/vestuarios/Gala-Ocuena" class="identidadImagen identidad3 tercio">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera De Gala Ocue\xF1a</h2>\n            <h3>Azuero</h3>\n          </hgroup>\n        </div>\n      </a>\n      <a href="/vestuarios/Pollera-Congo" class="identidadImagen identidad2 tercio">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera Congo</h2>\n            <h3>Col\xF3n</h3>\n          </hgroup>\n        </div>\n      </a>\n      <a href="/vestuarios/Pollera-De-Lujo" class="identidadImagen identidad1 tercio">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera De Lujo</h2>\n            <h3>Azuero</h3>\n          </hgroup>\n        </div>\n      </a>\n      \n    </article>\n    <article class="identidadTexto completa blanco">\n      <hgroup>\n        <h2>Identidad</h2>\n        <h3>Investigando sobre las Costumbres de Cada Regi\xF3n</h3>\n        <p>\n          Gracias a su posici\xF3n estrat\xE9gica dentro de las am\xE9ricas nuestro pa\xEDs ha desarrollado una riqueza\n\ncultural y folkl\xF3rica inigualable. La combinacion entre las etnias ind\xEDgenas existentes antes de la\n\nconquista, la intromisi\xF3n europea y la llegada de los negros como esclavos ha permitido el\n\nenriquecimiento de la cultura de manera inigualable.\n        </p>\n        <p>\n          De acuerdo con las investigaciones se pudo apreciar como la vestimenta femenina y masculina fue\n\n          aceptada y utilizada por los paname\xF1os a inicios del siglo XX, las polleras, chambras y otros vestidos fueron de uso com\xFAn en toda la rep\xFAblica. Actualmente podemos ver como las etnias\n\n          ind\xEDgenas y los grupos congos mantienen sus tradiciones permitiendo la evoluci\xF3n al tener remplazo\n\n          generacional y danzas vivas.        </p>\n      </hgroup>\n    </article>\n  </div>\n'], ['\n  <div class="inicioIdentidad">\n    <article class="identidadImagenes">\n      <a href="/vestuarios/Gala-Ocuena" class="identidadImagen identidad3 tercio">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera De Gala Ocue\xF1a</h2>\n            <h3>Azuero</h3>\n          </hgroup>\n        </div>\n      </a>\n      <a href="/vestuarios/Pollera-Congo" class="identidadImagen identidad2 tercio">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera Congo</h2>\n            <h3>Col\xF3n</h3>\n          </hgroup>\n        </div>\n      </a>\n      <a href="/vestuarios/Pollera-De-Lujo" class="identidadImagen identidad1 tercio">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera De Lujo</h2>\n            <h3>Azuero</h3>\n          </hgroup>\n        </div>\n      </a>\n      \n    </article>\n    <article class="identidadTexto completa blanco">\n      <hgroup>\n        <h2>Identidad</h2>\n        <h3>Investigando sobre las Costumbres de Cada Regi\xF3n</h3>\n        <p>\n          Gracias a su posici\xF3n estrat\xE9gica dentro de las am\xE9ricas nuestro pa\xEDs ha desarrollado una riqueza\n\ncultural y folkl\xF3rica inigualable. La combinacion entre las etnias ind\xEDgenas existentes antes de la\n\nconquista, la intromisi\xF3n europea y la llegada de los negros como esclavos ha permitido el\n\nenriquecimiento de la cultura de manera inigualable.\n        </p>\n        <p>\n          De acuerdo con las investigaciones se pudo apreciar como la vestimenta femenina y masculina fue\n\n          aceptada y utilizada por los paname\xF1os a inicios del siglo XX, las polleras, chambras y otros vestidos fueron de uso com\xFAn en toda la rep\xFAblica. Actualmente podemos ver como las etnias\n\n          ind\xEDgenas y los grupos congos mantienen sus tradiciones permitiendo la evoluci\xF3n al tener remplazo\n\n          generacional y danzas vivas.        </p>\n      </hgroup>\n    </article>\n  </div>\n']);
@@ -3152,7 +3276,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
-},{"yo-yo":14}],40:[function(require,module,exports){
+},{"yo-yo":14}],45:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -3191,7 +3315,7 @@ function _interopRequireDefault(obj) {
   window.addEventListener("scroll", _functions2.default.scrollFunction);
 });
 
-},{"../footer":30,"../header":33,"../header/functions":32,"./template":41,"empty-element":4,"page":12}],41:[function(require,module,exports){
+},{"../footer":35,"../header":38,"../header/functions":37,"./template":46,"empty-element":4,"page":12}],46:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <main class="home">\n    ', '\n    ', '\n    ', '\n    ', '\n  </main>\n'], ['\n  <main class="home">\n    ', '\n    ', '\n    ', '\n    ', '\n  </main>\n']);
@@ -3226,7 +3350,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject, _banner2.default, _about2.default, _identidad2.default, _apoyo2.default);
 
-},{"./about":36,"./apoyo":37,"./banner":38,"./identidad":39,"yo-yo":14}],42:[function(require,module,exports){
+},{"./about":41,"./apoyo":42,"./banner":43,"./identidad":44,"yo-yo":14}],47:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <section>\n    <article class="dosTercios imagen" style="background: url(\'', '\'); background-size:cover"></article>\n    <article class="tercio blanco joyero">\n      <hgroup>\n        <h1>Joyero</h1>\n        <ul>\n         ', '\n       </ul>  \n      </hgroup>\n    </article>\n  </section>\n    '], ['\n  <section>\n    <article class="dosTercios imagen" style="background: url(\'', '\'); background-size:cover"></article>\n    <article class="tercio blanco joyero">\n      <hgroup>\n        <h1>Joyero</h1>\n        <ul>\n         ', '\n       </ul>  \n      </hgroup>\n    </article>\n  </section>\n    ']),
@@ -3257,7 +3381,7 @@ module.exports = function (vestuario) {
   return el;
 };
 
-},{"yo-yo":14}],43:[function(require,module,exports){
+},{"yo-yo":14}],48:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -3298,7 +3422,7 @@ function _interopRequireDefault(obj) {
   window.addEventListener("scroll", _functions2.default.scrollFunction);
 });
 
-},{"../footer":30,"../header":33,"../header/functions":32,"../vestuarios/vestuarios":47,"./template":44,"empty-element":4,"page":12}],44:[function(require,module,exports){
+},{"../footer":35,"../header":38,"../header/functions":37,"../vestuarios/vestuarios":52,"./template":49,"empty-element":4,"page":12}],49:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n <div>\n  ', '\n </div>\n '], ['\n <div>\n  ', '\n </div>\n ']);
@@ -3332,7 +3456,7 @@ module.exports = function (vestuarios, ident) {
   return el;
 };
 
-},{"../componentes/album":16,"./estructura":42,"yo-yo":14}],45:[function(require,module,exports){
+},{"../componentes/album":21,"./estructura":47,"yo-yo":14}],50:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -3369,7 +3493,7 @@ function _interopRequireDefault(obj) {
   window.addEventListener("scroll", _functions2.default.scrollFunction);
 });
 
-},{"../footer":30,"../header":33,"../header/functions":32,"./template":46,"empty-element":4,"page":12}],46:[function(require,module,exports){
+},{"../footer":35,"../header":38,"../header/functions":37,"./template":51,"empty-element":4,"page":12}],51:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n<main>\n <section class="portada" id="vestuarioPortada">\n  <article className="completa negroTrans">\n   <hgroup>\n    <h2>Vestuarios Paname\xF1os</h2>\n    <p>Los vestidos t\xEDpicos de nuestro pa\xEDs son de gran valor y nos muestran la singularidad de cada pueblo y como de acuerdo al lugar de donde vienen expresan las vivencias y situaciones del hombre y la mujer paname\xF1a.</p>\n   </hgroup>\n  </article>\n </section>\n <section class="lista blanco">\n  <div class="listaCont">\n  ', '\n  </div> \n </section>\n</main>\n'], ['\n<main>\n <section class="portada" id="vestuarioPortada">\n  <article className="completa negroTrans">\n   <hgroup>\n    <h2>Vestuarios Paname\xF1os</h2>\n    <p>Los vestidos t\xEDpicos de nuestro pa\xEDs son de gran valor y nos muestran la singularidad de cada pueblo y como de acuerdo al lugar de donde vienen expresan las vivencias y situaciones del hombre y la mujer paname\xF1a.</p>\n   </hgroup>\n  </article>\n </section>\n <section class="lista blanco">\n  <div class="listaCont">\n  ', '\n  </div> \n </section>\n</main>\n']);
@@ -3398,7 +3522,7 @@ module.exports = (0, _yoYo2.default)(_templateObject, _vestuarios2.default.map(f
   return (0, _tarjeta2.default)('vestuarios', danza);
 }));
 
-},{"../componentes/tarjeta":17,"./vestuarios":47,"yo-yo":14}],47:[function(require,module,exports){
+},{"../componentes/tarjeta":22,"./vestuarios":52,"yo-yo":14}],52:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['<p>Esta hermosa pollera era utilizada por las mujeres solo en ocasiones especiales como por ejemplo en el matrimonio. Hoy en d\xEDa la representaci\xF3n del Matrimonio campesino es una tradici\xF3n que se realiza dentro del marco del festival del manito, que adem\xE1s de ser una fiesta del pueblo es una celebraci\xF3n religiosa. Se escoge una vez al a\xF1o por la suerte a una pareja ocue\xF1a para realizar el sacramento en la parroquia de San Sebasti\xE1n de Oc\xFA.</p>'], ['<p>Esta hermosa pollera era utilizada por las mujeres solo en ocasiones especiales como por ejemplo en el matrimonio. Hoy en d\xEDa la representaci\xF3n del Matrimonio campesino es una tradici\xF3n que se realiza dentro del marco del festival del manito, que adem\xE1s de ser una fiesta del pueblo es una celebraci\xF3n religiosa. Se escoge una vez al a\xF1o por la suerte a una pareja ocue\xF1a para realizar el sacramento en la parroquia de San Sebasti\xE1n de Oc\xFA.</p>']),
@@ -3478,4 +3602,4 @@ module.exports = [{
   descripcion: (0, _yoYo2.default)(_templateObject12)
 }];
 
-},{"yo-yo":14}]},{},[35]);
+},{"yo-yo":14}]},{},[40]);
