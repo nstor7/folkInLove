@@ -4,7 +4,7 @@ import fn from './functions'
 module.exports = yo`
 <header id= "headerContainer">
  <a href="/" class="logoContainer">
-   <div class="logo"></div>
+   <img src="images/folkInLove-logo.png" alt="logo de Folk in Love Pty" class='logo'>
    <h1>FOLK in LOVE</h1>
  </a>
  <nav id="nav" class="nav hidden">
