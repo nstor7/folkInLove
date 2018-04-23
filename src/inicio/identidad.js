@@ -3,7 +3,8 @@ import yo from 'yo-yo'
 module.exports = yo`
   <div class="inicioIdentidad">
     <article class="identidadImagenes">
-      <a href="/vestuarios/Gala-Ocuena" class="identidadImagen identidad3 tercio">
+      <a href="/vestuarios/Gala-Ocuena" class="identidadImagen  tercio">
+        <img src="images/identidad-3.jpg" alt="Pollera de Gala Ocueña, traje tipico de la región de azuero, Panama" class="identidadFotos">
         <div class="identidadInfo negroTrans">
           <hgroup>
             <h2>Pollera De Gala Ocueña</h2>
@@ -11,7 +12,8 @@ module.exports = yo`
           </hgroup>
         </div>
       </a>
-      <a href="/vestuarios/Pollera-Congo" class="identidadImagen identidad2 tercio">
+      <a href="/vestuarios/Pollera-Congo" class="identidadImagen tercio">
+        <img src="images/identidad-2.jpg" alt="Pollera Congo, traje tipico de la región de Colón, Panama" class="identidadFotos">
         <div class="identidadInfo negroTrans">
           <hgroup>
             <h2>Pollera Congo</h2>
@@ -20,6 +22,7 @@ module.exports = yo`
         </div>
       </a>
       <a href="/vestuarios/Pollera-De-Lujo" class="identidadImagen identidad1 tercio">
+        <img src="images/identidad-1.jpg" alt="Pollera De Lujo Santeña, traje tipico de la región de azuero, Panama" class="identidadFotos">
         <div class="identidadInfo negroTrans">
           <hgroup>
             <h2>Pollera De Lujo</h2>

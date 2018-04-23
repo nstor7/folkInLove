@@ -8,6 +8,6 @@ module.exports = yo`
           <h1>Folk in Love</h1>
           <h3>La Nueva Manera de Ver el Folklore</h3>
         </hgroup>
-    </articulo>
+    </articulo> 
   </section>
 `
