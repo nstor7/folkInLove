@@ -14,6 +14,6 @@ module.exports = yo`
         </p>
       </hgroup>
     </article>
-    <article class="aboutImagen mitad"></article>
+    <img src="images/moneda-coronada-full.jpg" alt="Joya de la Pollera, Moneda Coronada" class="aboutImagen mitad foto">
   </section>
 `

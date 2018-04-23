@@ -6,44 +6,14 @@ blanco = rgba(240, 240, 240, 1)
 transparente = rgba(1, 1, 1, 0.2)
 
 .banner
-  width 100vw
-  height 39.6vw
   position fixed
   z-index: -10
-  @media(max-width: 1280px)
-    background: url('images/banner-med.jpg')
-    background-size: contain
-    background-repeat: no-repeat
-    background-attachment: fixed
-  @media(max-width: 800px)
-    background: url('images/banner-tab.jpg')
-    background-size: contain
-    background-attachment: fixed
-    height: 80vw
-    align-items: flex-start
-  @media(max-width: 600px)
-    background: url('images/banner-cel.jpg')
-    background-size: contain
-    background-attachment: fixed
-    height: 80vw
 .portadaTitulo
   text-align: center
 .inicioAbout
   display: flex
   @media(max-width: 800px)
     flex-wrap: wrap
-  .aboutImagen
-    background: url('images/about-full.jpg')
-    background-size: contain
-    @media(max-width: 1280px)
-      background: url('images/about-med.jpg')
-      background-size: contain
-    @media(max-width: 800px)
-      background: url('images/about-tab.jpg')
-      background-size: contain
-    @media(max-width: 600px)
-      background: url('images/about-cel.jpg')
-      background-size: contain
 .inicioIdentidad
   width: auto
   height: auto
@@ -74,7 +44,6 @@ transparente = rgba(1, 1, 1, 0.2)
         hgroup
           text-align: center
     .identidadFotos
-      width: 33.33vw
       z-index: -2
       position: absolute
       

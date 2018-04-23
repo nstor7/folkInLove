@@ -11,4 +11,5 @@ page('/', header, footer, function(ctx, next){
   var headerContainer = document.getElementById('headerContainer')
   headerContainer.classList.remove('blanco')
   window.addEventListener("scroll", fn.scrollFunction)
+  next()
 })
