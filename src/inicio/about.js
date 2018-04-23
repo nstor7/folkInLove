@@ -2,7 +2,7 @@ import yo from 'yo-yo'
 
 module.exports = yo`
   <section class="inicioAbout completa">
-    <article class="aboutTexto mitad">
+    <article class="aboutTexto mitad blanco">
       <hgroup>
         <h2>¿Qué es Folk in love?</h2>
         <h3>Conoce Más de las Danzas y Vestidos de Cada Región</h3>

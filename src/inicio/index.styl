@@ -8,9 +8,8 @@ transparente = rgba(1, 1, 1, 0.2)
 .banner
   width 100vw
   height 39.6vw
-  display: flex
-  align-items: center
-  justify-content: center
+  position fixed
+  z-index: -10
   @media(max-width: 1280px)
     background: url('images/banner-med.jpg')
     background-size: contain
@@ -27,8 +26,8 @@ transparente = rgba(1, 1, 1, 0.2)
     background-size: contain
     background-attachment: fixed
     height: 80vw
-  hgroup
-    text-align: center
+.portadaTitulo
+  text-align: center
 .inicioAbout
   display: flex
   @media(max-width: 800px)
