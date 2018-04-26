@@ -1,6 +1,6 @@
 import yo from 'yo-yo'
 
-module.exports = function(seccion, articulo){
+export default function(seccion, articulo){
  var el = yo`
   <a class="tarjeta" href="/${seccion}/${articulo.url}">
     <div class="tarjetaImagen" style="background: url('/images/${articulo.miniatura}'); background-size: cover"></div>

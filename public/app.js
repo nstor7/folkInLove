@@ -2560,7 +2560,16 @@ module.exports = function (imagenes) {
 },{"yo-yo":14}],17:[function(require,module,exports){
 'use strict';
 
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
 var _templateObject = _taggedTemplateLiteral(['\n  <a class="tarjeta" href="/', '/', '">\n    <div class="tarjetaImagen" style="background: url(\'/images/', '\'); background-size: cover"></div>\n    <div class="tarjetaInfo">\n     <hgroup>\n      <h2>', '</h2>\n      <h4>Regi\xF3n: ', '</h4>\n      <h4>', '</h4>\n     </hgroup>\n    </div>\n  </a>\n '], ['\n  <a class="tarjeta" href="/', '/', '">\n    <div class="tarjetaImagen" style="background: url(\'/images/', '\'); background-size: cover"></div>\n    <div class="tarjetaInfo">\n     <hgroup>\n      <h2>', '</h2>\n      <h4>Regi\xF3n: ', '</h4>\n      <h4>', '</h4>\n     </hgroup>\n    </div>\n  </a>\n ']);
+
+exports.default = function (seccion, articulo) {
+  var el = (0, _yoYo2.default)(_templateObject, seccion, articulo.url, articulo.miniatura, articulo.nombre, articulo.region, articulo.dato);
+  return el;
+};
 
 var _yoYo = require('yo-yo');
 
@@ -2573,11 +2582,6 @@ function _interopRequireDefault(obj) {
 function _taggedTemplateLiteral(strings, raw) {
   return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
 }
-
-module.exports = function (seccion, articulo) {
-  var el = (0, _yoYo2.default)(_templateObject, seccion, articulo.url, articulo.miniatura, articulo.nombre, articulo.region, articulo.dato);
-  return el;
-};
 
 },{"yo-yo":14}],18:[function(require,module,exports){
 'use strict';
@@ -3030,7 +3034,7 @@ module.exports = function header(ctx, next) {
 },{"./template":34,"empty-element":4}],34:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n<header id= "headerContainer">\n <a href="/" class="logoContainer">\n   <img src="images/folkInLove-logo.png" alt="logo de Folk in Love Pty" class=\'logo\'>\n   <h1>FOLK in LOVE</h1>\n </a>\n <nav id="nav" class="nav hidden">\n   <a href="/" onclick=', '>Inicio</a>\n   <a href="/danzas" onclick=', '>Danzas</a>\n   <a href="/vestuarios" onclick=', '>Vestuarios</a>\n   <a href="/contacto" onclick=', '>Contacto</a>\n </nav>\n <a href="#" class="navButton" onclick=', '>\n   <i class="fa fa-bars" aria-hidden="true"></i>\n </a>\n</header>'], ['\n<header id= "headerContainer">\n <a href="/" class="logoContainer">\n   <img src="images/folkInLove-logo.png" alt="logo de Folk in Love Pty" class=\'logo\'>\n   <h1>FOLK in LOVE</h1>\n </a>\n <nav id="nav" class="nav hidden">\n   <a href="/" onclick=', '>Inicio</a>\n   <a href="/danzas" onclick=', '>Danzas</a>\n   <a href="/vestuarios" onclick=', '>Vestuarios</a>\n   <a href="/contacto" onclick=', '>Contacto</a>\n </nav>\n <a href="#" class="navButton" onclick=', '>\n   <i class="fa fa-bars" aria-hidden="true"></i>\n </a>\n</header>']);
+var _templateObject = _taggedTemplateLiteral(['\n<header id= "headerContainer">\n <a href="/" class="logoContainer">\n   <img src="images/folkInLove-logo.png" alt="logo de Folk in Love Pty" class=\'logo\'>\n   <h1>FOLK in LOVE</h1>\n </a>\n <nav id="nav" class="nav hidden">\n   <a href="/" onclick=', '>Inicio</a>\n   <a href="/danzas" onclick=', '>Danzas</a>\n   <a href="/vestuarios" onclick=', '>Vestuarios</a>\n   <a href="/tienda" onclick=', '>Productos y Servicios</a>\n   <a href="/contacto" onclick=', '>Contacto</a>\n </nav>\n <a href="#" class="navButton" onclick=', '>\n   <i class="fa fa-bars" aria-hidden="true"></i>\n </a>\n</header>'], ['\n<header id= "headerContainer">\n <a href="/" class="logoContainer">\n   <img src="images/folkInLove-logo.png" alt="logo de Folk in Love Pty" class=\'logo\'>\n   <h1>FOLK in LOVE</h1>\n </a>\n <nav id="nav" class="nav hidden">\n   <a href="/" onclick=', '>Inicio</a>\n   <a href="/danzas" onclick=', '>Danzas</a>\n   <a href="/vestuarios" onclick=', '>Vestuarios</a>\n   <a href="/tienda" onclick=', '>Productos y Servicios</a>\n   <a href="/contacto" onclick=', '>Contacto</a>\n </nav>\n <a href="#" class="navButton" onclick=', '>\n   <i class="fa fa-bars" aria-hidden="true"></i>\n </a>\n</header>']);
 
 var _yoYo = require('yo-yo');
 
@@ -3048,7 +3052,7 @@ function _taggedTemplateLiteral(strings, raw) {
   return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
 }
 
-module.exports = (0, _yoYo2.default)(_templateObject, _functions2.default.navegacion, _functions2.default.navegacion, _functions2.default.navegacion, _functions2.default.navegacion, _functions2.default.navegacion);
+module.exports = (0, _yoYo2.default)(_templateObject, _functions2.default.navegacion, _functions2.default.navegacion, _functions2.default.navegacion, _functions2.default.navegacion, _functions2.default.navegacion, _functions2.default.navegacion);
 
 },{"./functions":32,"yo-yo":14}],35:[function(require,module,exports){
 'use strict';
@@ -3073,10 +3077,12 @@ require('./danzaPage');
 require('./vestuarioPage');
 require('./contactoConfirmacion');
 require('./contactoError');
+require('./tienda');
+require('./producto');
 
 (0, _page2.default)();
 
-},{"./contacto":18,"./contactoConfirmacion":20,"./contactoError":22,"./danzaPage":25,"./danzas":28,"./inicio":40,"./vestuarioPage":43,"./vestuarios":45,"page":12}],36:[function(require,module,exports){
+},{"./contacto":18,"./contactoConfirmacion":20,"./contactoError":22,"./danzaPage":25,"./danzas":28,"./inicio":40,"./producto":42,"./tienda":45,"./vestuarioPage":49,"./vestuarios":51,"page":12}],36:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <section class="inicioAbout completa">\n    <article class="aboutTexto mitad blanco">\n      <hgroup>\n        <h2>\xBFQu\xE9 es Folk in love?</h2>\n        <h3>Conoce M\xE1s de las Danzas y Vestidos de Cada Regi\xF3n</h3>\n        <p>\n          En Folk in love nos dedicamos a la investigaci\xF3n, difusi\xF3n, promoci\xF3n y conservaci\xF3n del folklore Paname\xF1o, queremos ofrecer un espacio en donde se pueda encontrar informaci\xF3n de calidad respaldada por investigaciones y fuentes confiables que puedan servir de referencia para bailarines, maestros, vestuaristas, estudiantes y amantes del folklore.\n        </p>\n        <p>\n          Buscamos unir nuestros esfuerzos con la comunidad. Ademas de hacer investigaciones propias estamos abiertos a recibir todo tipo de aporte como fotografias, videos y datos que nos permitan tener un panorama m\xE1s amplio de nuestras manifestaciones folkloricas.\n        </p>\n      </hgroup>\n    </article>\n    <img src="images/moneda-coronada-full.jpg" alt="Joya de la Pollera, Moneda Coronada" class="aboutImagen mitad foto">\n  </section>\n'], ['\n  <section class="inicioAbout completa">\n    <article class="aboutTexto mitad blanco">\n      <hgroup>\n        <h2>\xBFQu\xE9 es Folk in love?</h2>\n        <h3>Conoce M\xE1s de las Danzas y Vestidos de Cada Regi\xF3n</h3>\n        <p>\n          En Folk in love nos dedicamos a la investigaci\xF3n, difusi\xF3n, promoci\xF3n y conservaci\xF3n del folklore Paname\xF1o, queremos ofrecer un espacio en donde se pueda encontrar informaci\xF3n de calidad respaldada por investigaciones y fuentes confiables que puedan servir de referencia para bailarines, maestros, vestuaristas, estudiantes y amantes del folklore.\n        </p>\n        <p>\n          Buscamos unir nuestros esfuerzos con la comunidad. Ademas de hacer investigaciones propias estamos abiertos a recibir todo tipo de aporte como fotografias, videos y datos que nos permitan tener un panorama m\xE1s amplio de nuestras manifestaciones folkloricas.\n        </p>\n      </hgroup>\n    </article>\n    <img src="images/moneda-coronada-full.jpg" alt="Joya de la Pollera, Moneda Coronada" class="aboutImagen mitad foto">\n  </section>\n']);
@@ -3117,7 +3123,7 @@ module.exports = (0, _yoYo2.default)(_templateObject);
 },{"yo-yo":14}],38:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n  <section class="portada">\n    <img alt="trajes tipicos de panama, pollera de lujo, pollera congo y montuna ocue\xF1a" class="banner completa" src="images/trajes-tipicos-panama-banner-cel.jpg"  \n      srcset=" images/trajes-tipicos-panama-banner-full-2x.jpg 600w">\n    <articulo class="negroTrans completa texto">\n        <hgroup class="portadaTitulo">\n          <h1>Folk in Love</h1>\n          <h3>La Nueva Manera de Ver el Folklore</h3>\n        </hgroup>\n    </articulo> \n  </section>\n'], ['\n  <section class="portada">\n    <img alt="trajes tipicos de panama, pollera de lujo, pollera congo y montuna ocue\xF1a" class="banner completa" src="images/trajes-tipicos-panama-banner-cel.jpg"  \n      srcset=" images/trajes-tipicos-panama-banner-full-2x.jpg 600w">\n    <articulo class="negroTrans completa texto">\n        <hgroup class="portadaTitulo">\n          <h1>Folk in Love</h1>\n          <h3>La Nueva Manera de Ver el Folklore</h3>\n        </hgroup>\n    </articulo> \n  </section>\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  <section class="portada">\n    <picture class="banner">\n      <source media="(min-width: 800px)" srcset="images/trajes-tipicos-panama-banner-full-2x.jpg">\n        <img alt="trajes tipicos de panama, pollera de lujo, pollera congo y montuna ocue\xF1a" class="completa" src="images/trajes-tipicos-panama-banner-cel.jpg">\n    </picture>\n    <articulo class="negroTrans completa texto">\n        <hgroup class="portadaTitulo">\n          <h1>Folk in Love</h1>\n          <h3>La Nueva Manera de Ver el Folklore</h3>\n        </hgroup>\n    </articulo> \n  </section>\n'], ['\n  <section class="portada">\n    <picture class="banner">\n      <source media="(min-width: 800px)" srcset="images/trajes-tipicos-panama-banner-full-2x.jpg">\n        <img alt="trajes tipicos de panama, pollera de lujo, pollera congo y montuna ocue\xF1a" class="completa" src="images/trajes-tipicos-panama-banner-cel.jpg">\n    </picture>\n    <articulo class="negroTrans completa texto">\n        <hgroup class="portadaTitulo">\n          <h1>Folk in Love</h1>\n          <h3>La Nueva Manera de Ver el Folklore</h3>\n        </hgroup>\n    </articulo> \n  </section>\n']);
 
 var _yoYo = require('yo-yo');
 
@@ -3136,7 +3142,7 @@ module.exports = (0, _yoYo2.default)(_templateObject);
 },{"yo-yo":14}],39:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n  <div class="inicioIdentidad">\n    <article class="identidadImagenes">\n      <a href="/vestuarios/Gala-Ocuena" class="identidadImagen  tercio">\n        <img src="images/pollera-gala-ocu-identidad-cel.jpg" alt="Pollera de Gala Ocue\xF1a, traje tipico de la regi\xF3n de azuero, Panama" class="identidadFotos tercio" srcset="images/pollera-gala-ocu-identidad-full.jpg 800w">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera De Gala Ocue\xF1a</h2>\n            <h3>Azuero</h3>\n          </hgroup>\n        </div>\n      </a>\n      <a href="/vestuarios/Pollera-Congo" class="identidadImagen tercio">\n        <img src="images/pollera-congo-identidad-cel.jpg" alt="Pollera Congo, traje tipico de la regi\xF3n de Col\xF3n, Panama" class="identidadFotos tercio foto" srcset="images/pollera-congo-identidad-full.jpg 800w">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera Congo</h2>\n            <h3>Col\xF3n</h3>\n          </hgroup>\n        </div>\n      </a>\n      <a href="/vestuarios/Pollera-De-Lujo" class="identidadImagen identidad1 tercio">\n        <img src="images/pollera-lujo-losantos-identidad-cel.jpg" alt="Pollera De Lujo Sante\xF1a, traje tipico de la regi\xF3n de azuero, Panama" class="identidadFotos tercio foto" srcset="images/pollera-lujo-losantos-identidad-full.jpg 800w">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera De Lujo</h2>\n            <h3>Azuero</h3>\n          </hgroup>\n        </div>\n      </a>\n      \n    </article>\n    <article class="identidadTexto completa blanco">\n      <hgroup>\n        <h2>Identidad</h2>\n        <h3>Investigando sobre las Costumbres de Cada Regi\xF3n</h3>\n        <p>\n          Gracias a su posici\xF3n estrat\xE9gica dentro de las am\xE9ricas nuestro pa\xEDs ha desarrollado una riqueza\n\ncultural y folkl\xF3rica inigualable. La combinacion entre las etnias ind\xEDgenas existentes antes de la\n\nconquista, la intromisi\xF3n europea y la llegada de los negros como esclavos ha permitido el\n\nenriquecimiento de la cultura de manera inigualable.\n        </p>\n        <p>\n          De acuerdo con las investigaciones se pudo apreciar como la vestimenta femenina y masculina fue\n\n          aceptada y utilizada por los paname\xF1os a inicios del siglo XX, las polleras, chambras y otros vestidos fueron de uso com\xFAn en toda la rep\xFAblica. Actualmente podemos ver como las etnias\n\n          ind\xEDgenas y los grupos congos mantienen sus tradiciones permitiendo la evoluci\xF3n al tener remplazo\n\n          generacional y danzas vivas.        </p>\n      </hgroup>\n    </article>\n  </div>\n'], ['\n  <div class="inicioIdentidad">\n    <article class="identidadImagenes">\n      <a href="/vestuarios/Gala-Ocuena" class="identidadImagen  tercio">\n        <img src="images/pollera-gala-ocu-identidad-cel.jpg" alt="Pollera de Gala Ocue\xF1a, traje tipico de la regi\xF3n de azuero, Panama" class="identidadFotos tercio" srcset="images/pollera-gala-ocu-identidad-full.jpg 800w">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera De Gala Ocue\xF1a</h2>\n            <h3>Azuero</h3>\n          </hgroup>\n        </div>\n      </a>\n      <a href="/vestuarios/Pollera-Congo" class="identidadImagen tercio">\n        <img src="images/pollera-congo-identidad-cel.jpg" alt="Pollera Congo, traje tipico de la regi\xF3n de Col\xF3n, Panama" class="identidadFotos tercio foto" srcset="images/pollera-congo-identidad-full.jpg 800w">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera Congo</h2>\n            <h3>Col\xF3n</h3>\n          </hgroup>\n        </div>\n      </a>\n      <a href="/vestuarios/Pollera-De-Lujo" class="identidadImagen identidad1 tercio">\n        <img src="images/pollera-lujo-losantos-identidad-cel.jpg" alt="Pollera De Lujo Sante\xF1a, traje tipico de la regi\xF3n de azuero, Panama" class="identidadFotos tercio foto" srcset="images/pollera-lujo-losantos-identidad-full.jpg 800w">\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera De Lujo</h2>\n            <h3>Azuero</h3>\n          </hgroup>\n        </div>\n      </a>\n      \n    </article>\n    <article class="identidadTexto completa blanco">\n      <hgroup>\n        <h2>Identidad</h2>\n        <h3>Investigando sobre las Costumbres de Cada Regi\xF3n</h3>\n        <p>\n          Gracias a su posici\xF3n estrat\xE9gica dentro de las am\xE9ricas nuestro pa\xEDs ha desarrollado una riqueza\n\ncultural y folkl\xF3rica inigualable. La combinacion entre las etnias ind\xEDgenas existentes antes de la\n\nconquista, la intromisi\xF3n europea y la llegada de los negros como esclavos ha permitido el\n\nenriquecimiento de la cultura de manera inigualable.\n        </p>\n        <p>\n          De acuerdo con las investigaciones se pudo apreciar como la vestimenta femenina y masculina fue\n\n          aceptada y utilizada por los paname\xF1os a inicios del siglo XX, las polleras, chambras y otros vestidos fueron de uso com\xFAn en toda la rep\xFAblica. Actualmente podemos ver como las etnias\n\n          ind\xEDgenas y los grupos congos mantienen sus tradiciones permitiendo la evoluci\xF3n al tener remplazo\n\n          generacional y danzas vivas.        </p>\n      </hgroup>\n    </article>\n  </div>\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  <div class="inicioIdentidad">\n    <article class="identidadImagenes">\n      <a href="/vestuarios/Gala-Ocuena" class="identidadImagen  tercio">\n        <picture>\n          <source media="(min-width: 800px)" srcset="images/pollera-gala-ocu-identidad-full.jpg">\n          <img src="images/pollera-gala-ocu-identidad-cel.jpg" alt="Pollera de Gala Ocue\xF1a, traje tipico de la regi\xF3n de azuero, Panama" class=" tercio identidadFotos">\n        </picture>\n        \n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera De Gala Ocue\xF1a</h2>\n            <h3>Azuero</h3>\n          </hgroup>\n        </div>\n      </a>\n      <a href="/vestuarios/Pollera-Congo" class="identidadImagen tercio">\n        <picture>\n          <source media="(min-width: 800px)" srcset="images/pollera-congo-identidad-full.jpg">\n          <img src="images/pollera-congo-identidad-cel.jpg" alt="Pollera Congo, traje tipico de la regi\xF3n de Col\xF3n, Panama" class=" tercio identidadFotos">\n        </picture>\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera Congo</h2>\n            <h3>Col\xF3n</h3>\n          </hgroup>\n        </div>\n      </a>\n      <a href="/vestuarios/Pollera-De-Lujo" class="identidadImagen identidad1 tercio">\n        <picture>\n          <source media="(min-width: 800px)" srcset="images/pollera-lujo-losantos-identidad-full.jpg">\n          <img src="images/pollera-lujo-losantos-identidad-cel.jpg" alt="Pollera de lujo sante\xF1a, traje tipico de la regi\xF3n de azuero, Panama" class=" tercio identidadFotos">\n        </picture>\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera De Lujo</h2>\n            <h3>Azuero</h3>\n          </hgroup>\n        </div>\n      </a>\n      \n    </article>\n    <article class="identidadTexto completa blanco">\n      <hgroup>\n        <h2>Identidad</h2>\n        <h3>Investigando sobre las Costumbres de Cada Regi\xF3n</h3>\n        <p>\n          Gracias a su posici\xF3n estrat\xE9gica dentro de las am\xE9ricas nuestro pa\xEDs ha desarrollado una riqueza\n\ncultural y folkl\xF3rica inigualable. La combinacion entre las etnias ind\xEDgenas existentes antes de la\n\nconquista, la intromisi\xF3n europea y la llegada de los negros como esclavos ha permitido el\n\nenriquecimiento de la cultura de manera inigualable.\n        </p>\n        <p>\n          De acuerdo con las investigaciones se pudo apreciar como la vestimenta femenina y masculina fue\n\n          aceptada y utilizada por los paname\xF1os a inicios del siglo XX, las polleras, chambras y otros vestidos fueron de uso com\xFAn en toda la rep\xFAblica. Actualmente podemos ver como las etnias\n\n          ind\xEDgenas y los grupos congos mantienen sus tradiciones permitiendo la evoluci\xF3n al tener remplazo\n\n          generacional y danzas vivas.        </p>\n      </hgroup>\n    </article>\n  </div>\n'], ['\n  <div class="inicioIdentidad">\n    <article class="identidadImagenes">\n      <a href="/vestuarios/Gala-Ocuena" class="identidadImagen  tercio">\n        <picture>\n          <source media="(min-width: 800px)" srcset="images/pollera-gala-ocu-identidad-full.jpg">\n          <img src="images/pollera-gala-ocu-identidad-cel.jpg" alt="Pollera de Gala Ocue\xF1a, traje tipico de la regi\xF3n de azuero, Panama" class=" tercio identidadFotos">\n        </picture>\n        \n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera De Gala Ocue\xF1a</h2>\n            <h3>Azuero</h3>\n          </hgroup>\n        </div>\n      </a>\n      <a href="/vestuarios/Pollera-Congo" class="identidadImagen tercio">\n        <picture>\n          <source media="(min-width: 800px)" srcset="images/pollera-congo-identidad-full.jpg">\n          <img src="images/pollera-congo-identidad-cel.jpg" alt="Pollera Congo, traje tipico de la regi\xF3n de Col\xF3n, Panama" class=" tercio identidadFotos">\n        </picture>\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera Congo</h2>\n            <h3>Col\xF3n</h3>\n          </hgroup>\n        </div>\n      </a>\n      <a href="/vestuarios/Pollera-De-Lujo" class="identidadImagen identidad1 tercio">\n        <picture>\n          <source media="(min-width: 800px)" srcset="images/pollera-lujo-losantos-identidad-full.jpg">\n          <img src="images/pollera-lujo-losantos-identidad-cel.jpg" alt="Pollera de lujo sante\xF1a, traje tipico de la regi\xF3n de azuero, Panama" class=" tercio identidadFotos">\n        </picture>\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h2>Pollera De Lujo</h2>\n            <h3>Azuero</h3>\n          </hgroup>\n        </div>\n      </a>\n      \n    </article>\n    <article class="identidadTexto completa blanco">\n      <hgroup>\n        <h2>Identidad</h2>\n        <h3>Investigando sobre las Costumbres de Cada Regi\xF3n</h3>\n        <p>\n          Gracias a su posici\xF3n estrat\xE9gica dentro de las am\xE9ricas nuestro pa\xEDs ha desarrollado una riqueza\n\ncultural y folkl\xF3rica inigualable. La combinacion entre las etnias ind\xEDgenas existentes antes de la\n\nconquista, la intromisi\xF3n europea y la llegada de los negros como esclavos ha permitido el\n\nenriquecimiento de la cultura de manera inigualable.\n        </p>\n        <p>\n          De acuerdo con las investigaciones se pudo apreciar como la vestimenta femenina y masculina fue\n\n          aceptada y utilizada por los paname\xF1os a inicios del siglo XX, las polleras, chambras y otros vestidos fueron de uso com\xFAn en toda la rep\xFAblica. Actualmente podemos ver como las etnias\n\n          ind\xEDgenas y los grupos congos mantienen sus tradiciones permitiendo la evoluci\xF3n al tener remplazo\n\n          generacional y danzas vivas.        </p>\n      </hgroup>\n    </article>\n  </div>\n']);
 
 var _yoYo = require('yo-yo');
 
@@ -3230,6 +3236,364 @@ module.exports = (0, _yoYo2.default)(_templateObject, _banner2.default, _about2.
 },{"./about":36,"./apoyo":37,"./banner":38,"./identidad":39,"yo-yo":14}],42:[function(require,module,exports){
 'use strict';
 
+var _page = require('page');
+
+var _page2 = _interopRequireDefault(_page);
+
+var _emptyElement = require('empty-element');
+
+var _emptyElement2 = _interopRequireDefault(_emptyElement);
+
+var _header = require('../header');
+
+var _header2 = _interopRequireDefault(_header);
+
+var _footer = require('../footer');
+
+var _footer2 = _interopRequireDefault(_footer);
+
+var _template = require('./template');
+
+var _template2 = _interopRequireDefault(_template);
+
+var _functions = require('../header/functions');
+
+var _functions2 = _interopRequireDefault(_functions);
+
+var _catalogo = require('../tienda/catalogo');
+
+var _catalogo2 = _interopRequireDefault(_catalogo);
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
+
+(0, _page2.default)('/tienda/:nombre', _header2.default, _footer2.default, _functions2.default.noScrollFunction, function (ctx, next) {
+
+  var producto = _catalogo2.default.find(function (producto) {
+    return producto.enlace === ctx.params.nombre;
+  });
+  var main = document.getElementById('main-container');
+  (0, _emptyElement2.default)(main).appendChild((0, _template2.default)(producto));
+});
+
+},{"../footer":30,"../header":33,"../header/functions":32,"../tienda/catalogo":44,"./template":43,"empty-element":4,"page":12}],43:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _templateObject = _taggedTemplateLiteral(['\n <section class="completa producto">\n  <articulo class="tercio productoImagenes">\n   <picture>\n    <source media="(min-width: 800px)" srcset="', '">\n    <img src="', '" alt="', '">\n   </picture>\n  </articulo>\n  <articulo class="dosTercios productoInfo">\n   <h1>', '</h1>\n   <h3>', '</h3>\n   <h4>Descripci\xF3n:</h4>\n   <p>', '</p>\n   <h4>Opciones:</h4>\n   ', '\n  </articulo>\n </section>\n'], ['\n <section class="completa producto">\n  <articulo class="tercio productoImagenes">\n   <picture>\n    <source media="(min-width: 800px)" srcset="', '">\n    <img src="', '" alt="', '">\n   </picture>\n  </articulo>\n  <articulo class="dosTercios productoInfo">\n   <h1>', '</h1>\n   <h3>', '</h3>\n   <h4>Descripci\xF3n:</h4>\n   <p>', '</p>\n   <h4>Opciones:</h4>\n   ', '\n  </articulo>\n </section>\n']),
+    _templateObject2 = _taggedTemplateLiteral(['\n    <div class="opciones">\n     <h2>', '</h2>\n     <h4>', '</h4>\n     <p>', '</p>\n    </div>'], ['\n    <div class="opciones">\n     <h2>', '</h2>\n     <h4>', '</h4>\n     <p>', '</p>\n    </div>']);
+
+exports.default = function (producto) {
+  var el = (0, _yoYo2.default)(_templateObject, producto.imagenFull, producto.imagenCel, producto.alt, producto.nombre, producto.subtitulo, producto.descripcion, producto.opciones.map(function (opcion) {
+    return (0, _yoYo2.default)(_templateObject2, opcion.detalle, opcion.precio.toLocaleString("en-US", {
+      style: 'currency',
+      currency: 'USD'
+    }), opcion.descripcion);
+  }));
+  return el;
+};
+
+var _yoYo = require('yo-yo');
+
+var _yoYo2 = _interopRequireDefault(_yoYo);
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
+
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
+
+},{"yo-yo":14}],44:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = [{
+  nombre: 'Sesión de Fotografía',
+  enlace: 'fotografia',
+  subtitulo: 'en vestido típico',
+  descripcion: 'La sesión fotográfica en exteriores. Incluye el vestido típico de su elección, peinado, maquillaje, colocación de tembleques y prendas, asesoría con las poses, Biblioteca digital perzonalizada con 15 fotos Editadas.',
+  miniaturaFull: 'images/fotografia-miniatura-full.jpg',
+  miniaturaCel: 'images/fotografia-miniatura-cel.jpg',
+  imagenFull: 'images/fotografia-imagen-full.jpg',
+  imagenCel: 'images/fotografia-imagen-cel.jpg',
+  alt: 'Sesión fotográfica de alta calidad, vestidos típicos de Panamá',
+  opciones: [{
+    detalle: 'Pollera de Lujo',
+    precio: 350
+  }, {
+    detalle: 'Pollera Blanca',
+    precio: 250
+  }, {
+    detalle: 'Pollera Montuna',
+    precio: 225
+  }, {
+    detalle: 'Pollera Congo',
+    precio: 175
+  }, {
+    detalle: 'Persona Adicional',
+    precio: 0,
+    descripcion: 'No se cobra adicional por las fotografías, sólo el costo del alquiler de cada vestuario. (consultar precios en la sección de alquiler de vestuarios)'
+  }]
+}, {
+  nombre: 'Pollera Blanca',
+  enlace: 'pollera-blanca',
+  subtitulo: 'Organza Bordada',
+  descripcion: 'Pollera confeccionada en tela de organza, adornada con finos encajes de hilo.',
+  miniaturaFull: 'images/organza-bordada-miniatura-full.jpg',
+  miniaturaCel: 'images/organza-bordada-miniatura-cel.jpg',
+  imagenFull: 'images/organza-bordada-producto-full.jpg',
+  imagenCel: 'images/organza-bordada-producto-cel.jpg',
+  alt: 'pollera blanca de organza bordada, traje tipico de panama',
+  opciones: [{
+    detalle: 'Bebes de 0 a 2 años (con una sola arandela)',
+    precio: 50.00
+  }, {
+    detalle: 'de 3 a 5 años (con 2 arandelas)',
+    precio: 100.00
+  }, {
+    detalle: 'de 6 a 10 años',
+    precio: 200.00
+  }, {
+    detalle: 'de 11 en adelante',
+    precio: 400.00
+  }]
+}, {
+  nombre: 'Pollera Congo',
+  enlace: 'pollera-congo',
+  subtitulo: '',
+  descripcion: 'Pollera de retazos de tela de vistosos colores.',
+  miniaturaFull: 'images/pollera-congo-miniatura-full.jpg',
+  miniaturaCel: 'images/pollera-congo-miniatura-cel.jpg',
+  imagenFull: 'images/pollera-congo-producto-full.jpg',
+  imagenCel: 'images/pollera-congo-producto-cel.jpg',
+  alt: 'Pollera congo de retazos, vestuarios tipicos de panama',
+  opciones: [{
+    detalle: 'Niñas hasta 2 años',
+    precio: 45
+  }, {
+    detalle: 'Niñas hasta 10 años',
+    precio: 90
+  }, {
+    detalle: 'Adultos',
+    precio: 160
+  }]
+}, {
+  nombre: 'Pollera de Lujo',
+  enlace: 'pollera-lujo',
+  subtitulo: 'Talco al Sol',
+  descripcion: 'Pollera de gala en técnica del talco al sol con calados y encajes valencianos.',
+  miniaturaFull: 'images/pollera-lujo-miniatura-full.jpg',
+  miniaturaCel: 'images/pollera-lujo-miniatura-cell.jpg',
+  imagenFull: 'images/pollera-lujo-producto-full.jpg',
+  imagenCel: 'images/pollera-lulo-producto-cel.jpg',
+  alt: 'Pollera de Lujo, talco en sol, vestidos tipicos de Panama',
+  opciones: [{
+    detalle: 'Talco en Sol',
+    precio: 5000,
+    descripción: 'Tiempo de entrega 10 a 12 meses, durante ese tiempo se podrán ir efectuando pagos, el primer pago se debe hacer el día de la toma de las medidas.'
+  }]
+}, {
+  nombre: 'Tembleques',
+  enlace: 'tembleques',
+  subtitulo: 'blancos o en color',
+  descripcion: 'Juego de 12 pares de flores.',
+  miniaturaFull: 'images/tembleques-miniatura-full.jpg',
+  miniaturaCel: 'images/tembleques-miniatura-cel.jpg',
+  imagenFull: 'images/tembleques-producto-full.jpg',
+  imagenCel: 'images/tembleques-producto-cel.jpg',
+  alt: 'Cabeza de Tembleques, Accesorios Folklóricos Panameños',
+  opciones: [{
+    detalle: 'Niñas',
+    precio: 250
+  }, {
+    detalle: 'Adulta',
+    precio: 450
+  }, {
+    detalle: 'Tapamoños',
+    precio: 25
+  }]
+},
+// {
+//  nombre: 'Camisa',
+//  enlace: 'camisa',
+//  subtitulo: 'Una Sola Arandela',
+//  descripcion: 'Pollera de gala en técnica del talco al sol con calados y encajes valencianos.',
+//  miniaturaFull: 'images/camisa-miniatura-full.jpg',
+//  miniaturaCel: 'images/camisa-miniatura-cel.jpg',
+//  imagenFull: 'images/camisa-imagen-full.jpg',
+//  imagenCel: 'images/camisa-imagen-cel.jpg',
+//  alt: 'Camisa de voilé, con una sola arandela',
+//  opciones: [
+//   {
+//    detalle: 'Arandela de organza bordada', 
+//    precio: 40
+//   },
+//   {
+//    detalle: 'Arandela de Coquito industrial', 
+//    precio: 40
+//   },
+//   {
+//    detalle: 'Arandela de voilé (bual)',
+//    precio: 40
+//   }
+//  ]
+// },
+{
+  nombre: 'Camisilla',
+  enlace: 'camisilla',
+  subtitulo: 'De Gala',
+  descripcion: '',
+  miniaturaFull: 'images/camisilla-miniatura-full.jpg',
+  miniaturaCel: 'images/camisilla-miniatura-cel.jpg',
+  imagenFull: 'images/camisilla-producto-full.jpg',
+  imagenCel: 'images/camisilla-producto-cel.jpg',
+  alt: 'Camisilla de Gala, Vestidos Típicos de Panamá',
+  opciones: [{
+    detalle: 'Niños hasta 6 años',
+    precio: 35
+  }, {
+    detalle: 'Niños hasta 12 años',
+    precio: 45
+  }, {
+    detalle: 'Adultos, voilé y alforzas',
+    precio: 100
+  }, {
+    detalle: 'Adultos con espiguetas y tela de hilo',
+    precio: 200
+  }]
+}
+// {
+//  nombre: 'Montuno Ocueño',
+//  enlace: 'montuno-ocueno',
+//  subtitulo: '',
+//  descripcion: 'Camisa y Pantalón en tela de manta sucia con bordados a mano.',
+//  miniaturaFull: 'images/montuno-ocueno-miniatura-full.jpg',
+//  miniaturaCel: 'images/montuno-ocueno-miniatura-cel.jpg',
+//  imagenFull: 'images/montuno-ocueno-imagen-full.jpg',
+//  imagenCel: 'images/montuno-ocueno-imagen-cel.jpg',
+//  alt: 'Montuno Ocueño, vestidos tipicos de Panama',
+//  opciones: [
+//   {
+//    detalle: 'Niños hasta 6 años', 
+//    precio: 50
+//   },
+//   {
+//    detalle: 'Niños hasta 12 años',
+//    precio: 80
+//   },
+//   {
+//    detalle: 'Adultos',
+//    precio: 100
+//   }
+//  ]
+// }
+];
+
+},{}],45:[function(require,module,exports){
+'use strict';
+
+var _page = require('page');
+
+var _page2 = _interopRequireDefault(_page);
+
+var _emptyElement = require('empty-element');
+
+var _emptyElement2 = _interopRequireDefault(_emptyElement);
+
+var _header = require('../header');
+
+var _header2 = _interopRequireDefault(_header);
+
+var _functions = require('../header/functions');
+
+var _functions2 = _interopRequireDefault(_functions);
+
+var _footer = require('../footer');
+
+var _footer2 = _interopRequireDefault(_footer);
+
+var _template = require('./template');
+
+var _template2 = _interopRequireDefault(_template);
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
+
+(0, _page2.default)('/tienda', _header2.default, _footer2.default, function (ctx, next) {
+  var main = document.getElementById('main-container');
+  (0, _emptyElement2.default)(main).appendChild(_template2.default);
+  headerContainer.classList.remove('blanco');
+  window.addEventListener("scroll", _functions2.default.scrollFunction);
+  next();
+});
+
+},{"../footer":30,"../header":33,"../header/functions":32,"./template":47,"empty-element":4,"page":12}],46:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _templateObject = _taggedTemplateLiteral(['\n  <a class="tarjeta tiendaTarjeta" href="', '">\n    <picture>\n      <source media="(min-width: 800px)" srcset="', '">\n      <img src="', '" alt=', ' class="tarjetaImagen">\n    </picture>\n    <div class="tarjetaInfo">\n     <hgroup>\n      <h2>', '</h2>\n      <h3>', '</h3>\n      <h4>Descripci\xF3n: </h4>\n      <p>', '</p>\n     </hgroup>\n    </div>\n  </a>\n '], ['\n  <a class="tarjeta tiendaTarjeta" href="', '">\n    <picture>\n      <source media="(min-width: 800px)" srcset="', '">\n      <img src="', '" alt=', ' class="tarjetaImagen">\n    </picture>\n    <div class="tarjetaInfo">\n     <hgroup>\n      <h2>', '</h2>\n      <h3>', '</h3>\n      <h4>Descripci\xF3n: </h4>\n      <p>', '</p>\n     </hgroup>\n    </div>\n  </a>\n ']);
+
+exports.default = function (producto) {
+  var el = (0, _yoYo2.default)(_templateObject, producto.enlace, producto.miniaturaFull, producto.miniaturaCel, producto.alt, producto.nombre, producto.subtitulo, producto.descripcion);
+  return el;
+};
+
+var _yoYo = require('yo-yo');
+
+var _yoYo2 = _interopRequireDefault(_yoYo);
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
+
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
+
+},{"yo-yo":14}],47:[function(require,module,exports){
+'use strict';
+
+var _templateObject = _taggedTemplateLiteral(['\n<main>\n <section class="portada">\n  <picture class="banner">\n   <source media="(min-width: 800px)" srcset="images/pollera-lujo-losantos-tienda-portada-full.jpg">\n   <img class="completa" alt="Foto de Pollera De Lujo Sante\xF1a, traje tipico de panam\xE1, en Panam\xE1 Viejo"  src="images/pollera-lujo-losantos-tienda-portada-cel.jpg"  >\n  </picture>\n  <article className="completa negroTrans">\n   <hgroup>\n    <h2>Productos y Servicios</h2>\n   </hgroup>\n  </article>\n </section>\n <section class="lista blanco">\n  <div class="listaCont">\n   ', '\n  </div>\n  \n </section>\n</main>\n'], ['\n<main>\n <section class="portada">\n  <picture class="banner">\n   <source media="(min-width: 800px)" srcset="images/pollera-lujo-losantos-tienda-portada-full.jpg">\n   <img class="completa" alt="Foto de Pollera De Lujo Sante\xF1a, traje tipico de panam\xE1, en Panam\xE1 Viejo"  src="images/pollera-lujo-losantos-tienda-portada-cel.jpg"  >\n  </picture>\n  <article className="completa negroTrans">\n   <hgroup>\n    <h2>Productos y Servicios</h2>\n   </hgroup>\n  </article>\n </section>\n <section class="lista blanco">\n  <div class="listaCont">\n   ', '\n  </div>\n  \n </section>\n</main>\n']);
+
+var _yoYo = require('yo-yo');
+
+var _yoYo2 = _interopRequireDefault(_yoYo);
+
+var _catalogo = require('./catalogo');
+
+var _catalogo2 = _interopRequireDefault(_catalogo);
+
+var _tarjeta = require('./tarjeta');
+
+var _tarjeta2 = _interopRequireDefault(_tarjeta);
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
+
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
+
+module.exports = (0, _yoYo2.default)(_templateObject, _catalogo2.default.map(function (producto) {
+  return (0, _tarjeta2.default)(producto);
+}));
+
+},{"./catalogo":44,"./tarjeta":46,"yo-yo":14}],48:[function(require,module,exports){
+'use strict';
+
 var _templateObject = _taggedTemplateLiteral(['\n  <section>\n    <article class="dosTercios imagen" style="background: url(\'', '\'); background-size:cover"></article>\n    <article class="tercio blanco joyero">\n      <hgroup>\n        <h1>Joyero</h1>\n        <ul>\n         ', '\n       </ul>  \n      </hgroup>\n    </article>\n  </section>\n    '], ['\n  <section>\n    <article class="dosTercios imagen" style="background: url(\'', '\'); background-size:cover"></article>\n    <article class="tercio blanco joyero">\n      <hgroup>\n        <h1>Joyero</h1>\n        <ul>\n         ', '\n       </ul>  \n      </hgroup>\n    </article>\n  </section>\n    ']),
     _templateObject2 = _taggedTemplateLiteral(['<li>', '</li>'], ['<li>', '</li>']),
     _templateObject3 = _taggedTemplateLiteral(['\n  <main>\n   <section class="portada" style="background: url(\'', '\'); background-size:contain; background-attachment: fixed">\n    <article class="mitad rosaTrans">\n      <hgroup>\n          <h1>', '</h1>\n          <p>', '</p>\n      </hgroup>\n    </article>\n   </section>\n   <section className="completa texto info blanco">\n    ', '\n   </section>\n   <section class="completa portada" style="background: url(\'', '\'); background-size:cover; background-attachment: fixed">\n    <article class="mitad negroTrans texto">\n     <hgroup>\n       <p>', '</p>\n     </hgroup>\n    </article>\n   </section>\n   <section class="completa texto info blanco">\n     ', '\n   </section>\n   ', '\n  </main>\n '], ['\n  <main>\n   <section class="portada" style="background: url(\'', '\'); background-size:contain; background-attachment: fixed">\n    <article class="mitad rosaTrans">\n      <hgroup>\n          <h1>', '</h1>\n          <p>', '</p>\n      </hgroup>\n    </article>\n   </section>\n   <section className="completa texto info blanco">\n    ', '\n   </section>\n   <section class="completa portada" style="background: url(\'', '\'); background-size:cover; background-attachment: fixed">\n    <article class="mitad negroTrans texto">\n     <hgroup>\n       <p>', '</p>\n     </hgroup>\n    </article>\n   </section>\n   <section class="completa texto info blanco">\n     ', '\n   </section>\n   ', '\n  </main>\n ']);
@@ -3258,7 +3622,7 @@ module.exports = function (vestuario) {
   return el;
 };
 
-},{"yo-yo":14}],43:[function(require,module,exports){
+},{"yo-yo":14}],49:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -3299,7 +3663,7 @@ function _interopRequireDefault(obj) {
   window.addEventListener("scroll", _functions2.default.scrollFunction);
 });
 
-},{"../footer":30,"../header":33,"../header/functions":32,"../vestuarios/vestuarios":47,"./template":44,"empty-element":4,"page":12}],44:[function(require,module,exports){
+},{"../footer":30,"../header":33,"../header/functions":32,"../vestuarios/vestuarios":53,"./template":50,"empty-element":4,"page":12}],50:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n <div>\n  ', '\n </div>\n '], ['\n <div>\n  ', '\n </div>\n ']);
@@ -3333,7 +3697,7 @@ module.exports = function (vestuarios, ident) {
   return el;
 };
 
-},{"../componentes/album":16,"./estructura":42,"yo-yo":14}],45:[function(require,module,exports){
+},{"../componentes/album":16,"./estructura":48,"yo-yo":14}],51:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -3370,7 +3734,7 @@ function _interopRequireDefault(obj) {
   window.addEventListener("scroll", _functions2.default.scrollFunction);
 });
 
-},{"../footer":30,"../header":33,"../header/functions":32,"./template":46,"empty-element":4,"page":12}],46:[function(require,module,exports){
+},{"../footer":30,"../header":33,"../header/functions":32,"./template":52,"empty-element":4,"page":12}],52:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n<main>\n <section class="portada" id="vestuarioPortada">\n  <article className="completa negroTrans">\n   <hgroup>\n    <h2>Vestuarios Paname\xF1os</h2>\n    <p>Los vestidos t\xEDpicos de nuestro pa\xEDs son de gran valor y nos muestran la singularidad de cada pueblo y como de acuerdo al lugar de donde vienen expresan las vivencias y situaciones del hombre y la mujer paname\xF1a.</p>\n   </hgroup>\n  </article>\n </section>\n <section class="lista blanco">\n  <div class="listaCont">\n  ', '\n  </div> \n </section>\n</main>\n'], ['\n<main>\n <section class="portada" id="vestuarioPortada">\n  <article className="completa negroTrans">\n   <hgroup>\n    <h2>Vestuarios Paname\xF1os</h2>\n    <p>Los vestidos t\xEDpicos de nuestro pa\xEDs son de gran valor y nos muestran la singularidad de cada pueblo y como de acuerdo al lugar de donde vienen expresan las vivencias y situaciones del hombre y la mujer paname\xF1a.</p>\n   </hgroup>\n  </article>\n </section>\n <section class="lista blanco">\n  <div class="listaCont">\n  ', '\n  </div> \n </section>\n</main>\n']);
@@ -3399,7 +3763,7 @@ module.exports = (0, _yoYo2.default)(_templateObject, _vestuarios2.default.map(f
   return (0, _tarjeta2.default)('vestuarios', danza);
 }));
 
-},{"../componentes/tarjeta":17,"./vestuarios":47,"yo-yo":14}],47:[function(require,module,exports){
+},{"../componentes/tarjeta":17,"./vestuarios":53,"yo-yo":14}],53:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['<p>Esta hermosa pollera era utilizada por las mujeres solo en ocasiones especiales como por ejemplo en el matrimonio. Hoy en d\xEDa la representaci\xF3n del Matrimonio campesino es una tradici\xF3n que se realiza dentro del marco del festival del manito, que adem\xE1s de ser una fiesta del pueblo es una celebraci\xF3n religiosa. Se escoge una vez al a\xF1o por la suerte a una pareja ocue\xF1a para realizar el sacramento en la parroquia de San Sebasti\xE1n de Oc\xFA.</p>'], ['<p>Esta hermosa pollera era utilizada por las mujeres solo en ocasiones especiales como por ejemplo en el matrimonio. Hoy en d\xEDa la representaci\xF3n del Matrimonio campesino es una tradici\xF3n que se realiza dentro del marco del festival del manito, que adem\xE1s de ser una fiesta del pueblo es una celebraci\xF3n religiosa. Se escoge una vez al a\xF1o por la suerte a una pareja ocue\xF1a para realizar el sacramento en la parroquia de San Sebasti\xE1n de Oc\xFA.</p>']),

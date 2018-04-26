@@ -5,6 +5,7 @@ const vestuarios = require('./vestuarios')
 const mailer = require('express-mailer')
 const secret = require('./.secret.js')
 const bodyParser = require('body-parser')
+const tienda = require('./tienda')
 
 app.use(bodyParser.urlencoded({ extended: true }))
 
@@ -15,6 +16,8 @@ app.use(express.static('public'))
 app.use('/danzas', danzas)
 
 app.use('/vestuarios', vestuarios)
+
+app.use('/tienda',tienda)
 
 app.get('/', function(req, res){
  res.render('index.pug', {

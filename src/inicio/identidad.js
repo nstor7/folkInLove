@@ -4,7 +4,11 @@ module.exports = yo`
   <div class="inicioIdentidad">
     <article class="identidadImagenes">
       <a href="/vestuarios/Gala-Ocuena" class="identidadImagen  tercio">
-        <img src="images/pollera-gala-ocu-identidad-cel.jpg" alt="Pollera de Gala Ocueña, traje tipico de la región de azuero, Panama" class="identidadFotos tercio" srcset="images/pollera-gala-ocu-identidad-full.jpg 800w">
+        <picture>
+          <source media="(min-width: 800px)" srcset="images/pollera-gala-ocu-identidad-full.jpg">
+          <img src="images/pollera-gala-ocu-identidad-cel.jpg" alt="Pollera de Gala Ocueña, traje tipico de la región de azuero, Panama" class=" tercio identidadFotos">
+        </picture>
+        
         <div class="identidadInfo negroTrans">
           <hgroup>
             <h2>Pollera De Gala Ocueña</h2>
@@ -13,7 +17,10 @@ module.exports = yo`
         </div>
       </a>
       <a href="/vestuarios/Pollera-Congo" class="identidadImagen tercio">
-        <img src="images/pollera-congo-identidad-cel.jpg" alt="Pollera Congo, traje tipico de la región de Colón, Panama" class="identidadFotos tercio" srcset="images/pollera-congo-identidad-full.jpg 800w">
+        <picture>
+          <source media="(min-width: 800px)" srcset="images/pollera-congo-identidad-full.jpg">
+          <img src="images/pollera-congo-identidad-cel.jpg" alt="Pollera Congo, traje tipico de la región de Colón, Panama" class=" tercio identidadFotos">
+        </picture>
         <div class="identidadInfo negroTrans">
           <hgroup>
             <h2>Pollera Congo</h2>
@@ -22,7 +29,10 @@ module.exports = yo`
         </div>
       </a>
       <a href="/vestuarios/Pollera-De-Lujo" class="identidadImagen identidad1 tercio">
-        <img src="images/pollera-lujo-losantos-identidad-cel.jpg" alt="Pollera De Lujo Santeña, traje tipico de la región de azuero, Panama" class="identidadFotos tercio foto" srcset="images/pollera-lujo-losantos-identidad-full.jpg 800w">
+        <picture>
+          <source media="(min-width: 800px)" srcset="images/pollera-lujo-losantos-identidad-full.jpg">
+          <img src="images/pollera-lujo-losantos-identidad-cel.jpg" alt="Pollera de lujo santeña, traje tipico de la región de azuero, Panama" class=" tercio identidadFotos">
+        </picture>
         <div class="identidadInfo negroTrans">
           <hgroup>
             <h2>Pollera De Lujo</h2>

@@ -12,6 +12,9 @@ require('./danzaPage')
 require('./vestuarioPage')
 require('./contactoConfirmacion')
 require('./contactoError')
+require('./tienda')
+require('./producto')
+
 
 page()
 
