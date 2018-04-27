@@ -3329,7 +3329,6 @@ exports.default = function (producto) {
   var body = document.getElementById('body');
   var script = document.getElementById('script');
   body.insertBefore((0, _template2.default)(producto), script);
-  next();
 };
 
 var _emptyElement = require('empty-element');
