@@ -6,5 +6,4 @@ export default function(producto){
  var body = document.getElementById('body')
  var script = document.getElementById('script')
  body.insertBefore(template(producto), script)
- next()
 }
