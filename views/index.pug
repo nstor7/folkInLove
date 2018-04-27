@@ -31,3 +31,9 @@ html(lang="en")
    #main-container
    #footer
    script#script(type='application/javascript' src='app.js')
+   script(async='', src='https://www.googletagmanager.com/gtag/js?id=UA-118329881-1')
+   script.
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-118329881-1');
