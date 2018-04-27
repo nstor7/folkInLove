@@ -1,19 +1,19 @@
 import yo from 'yo-yo'
 
-module.exports = yo`
+export default yo`
   <section class="inicioAbout completa">
     <article class="aboutTexto mitad blanco">
       <hgroup>
         <h2>¿Qué es Folk in love?</h2>
-        <h3>Conoce Más de las Danzas y Vestidos de Cada Región</h3>
+        <h3>Conoce Más de las costumbres y tradiciones de Panamá</h3>
         <p>
-          En Folk in love nos dedicamos a la investigación, difusión, promoción y conservación del folklore Panameño, queremos ofrecer un espacio en donde se pueda encontrar información de calidad respaldada por investigaciones y fuentes confiables que puedan servir de referencia para bailarines, maestros, vestuaristas, estudiantes y amantes del folklore.
+          En Folk in love nos dedicamos a la investigación, difusión, promoción y conservación del folklore Panameño, queremos ofrecer un espacio en donde se pueda encontrar información de calidad respaldada por investigaciones y fuentes confiables que puedan servir de referencia para bailarines, maestros, vestuaristas, estudiantes y amantes de la Cultura de Panamá.
         </p>
         <p>
-          Buscamos unir nuestros esfuerzos con la comunidad. Ademas de hacer investigaciones propias estamos abiertos a recibir todo tipo de aporte como fotografias, videos y datos que nos permitan tener un panorama más amplio de nuestras manifestaciones folkloricas.
+          Buscamos realizar aportes culturales mediante artículos escritos, productos, fotografías y videos sobre los vestidos y bailes típicos, origen de las manifestacioknes folkóricas, elementos de las diferentes tradiciones, entre otros.
         </p>
       </hgroup>
     </article>
     <img src="images/moneda-coronada-full.jpg" alt="Joya de la Pollera, Moneda Coronada" class="aboutImagen mitad foto">
   </section>
-`
+`;
