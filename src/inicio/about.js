@@ -10,7 +10,7 @@ export default yo`
           En Folk in love nos dedicamos a la investigación, difusión, promoción y conservación del folklore Panameño, queremos ofrecer un espacio en donde se pueda encontrar información de calidad respaldada por investigaciones y fuentes confiables que puedan servir de referencia para bailarines, maestros, vestuaristas, estudiantes y amantes de la Cultura de Panamá.
         </p>
         <p>
-          Buscamos realizar aportes culturales mediante artículos escritos, productos, fotografías y videos sobre los vestidos y bailes típicos, origen de las manifestacioknes folkóricas, elementos de las diferentes tradiciones, entre otros.
+          Buscamos realizar aportes culturales mediante artículos escritos, productos, fotografías y videos sobre los vestidos y bailes típicos, origen de las manifestaciones folkóricas, elementos de las diferentes tradiciones, entre otros.
         </p>
       </hgroup>
     </article>

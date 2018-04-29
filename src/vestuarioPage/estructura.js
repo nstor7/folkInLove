@@ -6,7 +6,7 @@ function joyero(vestuario){
     <article class="dosTercios imagen" style="background: url('${vestuario.joyeroImagen}'); background-size:cover"></article>
     <article class="tercio blanco joyero">
       <hgroup>
-        <h1>Joyero</h1>
+        <h2>Joyero</h2>
         <ul>
          ${vestuario.joyero.map(function(joya){
            return yo`<li>${joya}</li>`
@@ -14,7 +14,7 @@ function joyero(vestuario){
        </ul>  
       </hgroup>
     </article>
-  </section>
+  </section>   
     `
  }}
 module.exports = function(vestuario){
