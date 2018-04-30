@@ -8,7 +8,9 @@ module.exports = yo`
     </picture>
     <articulo class="negroTrans completa texto">
         <hgroup class="portadaTitulo">
-          <h1>Folk in Love</h1>
+          <h1 class="logoLetras">
+            <span>Investigación y Difusión del Folklore de Panamá - Folk in Love</span>
+          </h1>
           <h3>La Nueva Manera de Ver el Folklore</h3>
         </hgroup>
     </articulo> 
