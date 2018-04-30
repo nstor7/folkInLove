@@ -5,7 +5,7 @@ module.exports = yo`
 <header id= "headerContainer">
  <a href="/" class="logoContainer">
    <img src="images/folkInLove-logo.png" alt="logo de Folk in Love Pty" class='logo'>
-   <h1>FOLK in LOVE</h1>
+   <img src="images/folkInLove-letras-negro.png" alt="Tipo de Folk in Love Pty" class='tipo'>
  </a>
  <nav id="nav" class="nav hidden">
    <a href="/" onclick=${fn.navegacion}>Inicio</a>
