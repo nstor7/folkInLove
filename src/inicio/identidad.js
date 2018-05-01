@@ -11,8 +11,8 @@ module.exports = yo`
         
         <div class="identidadInfo negroTrans">
           <hgroup>
-            <h2>Pollera De Gala Ocueña</h2>
-            <h3>Azuero</h3>
+            <h5>Pollera De Gala Ocueña</h5>
+            <h6>Azuero</h6>
           </hgroup>
         </div>
       </a>
@@ -23,8 +23,8 @@ module.exports = yo`
         </picture>
         <div class="identidadInfo negroTrans">
           <hgroup>
-            <h2>Pollera Congo</h2>
-            <h3>Colón</h3>
+            <h5>Pollera Congo</h5>
+            <h6>Colón</h6>
           </hgroup>
         </div>
       </a>
@@ -35,8 +35,8 @@ module.exports = yo`
         </picture>
         <div class="identidadInfo negroTrans">
           <hgroup>
-            <h2>Pollera De Lujo</h2>
-            <h3>Azuero</h3>
+            <h5>Pollera De Lujo</h5>
+            <h6>Azuero</h6>
           </hgroup>
         </div>
       </a>
@@ -44,8 +44,8 @@ module.exports = yo`
     </article>
     <article class="identidadTexto completa blanco">
       <hgroup>
-        <h2>Identidad</h2>
-        <h3>Investigando sobre las Costumbres de Cada Región</h3>
+        <h2>Origen de la Identidad del Panameño</h2>
+        <h3>La importancia de las Tradiciones de Panamá</h3>
         <p>
           Gracias a su posición estratégica dentro de las américas nuestro país ha desarrollado una riqueza
 

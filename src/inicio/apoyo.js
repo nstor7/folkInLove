@@ -4,8 +4,8 @@ module.exports = yo`
   <section class="inicioApoyo completa">
     <article class="apoyoTexto mitad rosaTrans">
       <hgroup>
-        <h2>Ayudenos a Crecer</h2>
-        <h3>Aceptamos Diferentes Tipos de Aportes</h3>
+        <h2>Elementos de Nuestro Folklore</h2>
+        <h3>Investigando Sobre las Costumbres de Cada Región</h3>
         <p>
           Folk in Love es una plataforma que quiere que tú seas parte de la experiencia de ser panameños. 
         </p>
