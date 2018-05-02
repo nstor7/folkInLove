@@ -45,7 +45,7 @@ module.exports = yo`
     <article class="identidadTexto completa blanco">
       <hgroup>
         <h2>Origen de la Identidad del Panameño</h2>
-        <h3>La importancia de las Tradiciones de Panamá</h3>
+        <h3>Historia de las Tradiciones de Panamá</h3>
         <p>
           Gracias a su posición estratégica dentro de las américas nuestro país ha desarrollado una riqueza
 

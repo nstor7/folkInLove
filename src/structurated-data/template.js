@@ -1,16 +1,16 @@
 import yo from 'yo-yo'
 
-export default function(producto){
+export default function(variable){
  var el = yo`
  <script type="application/ld+json">
 {
   "@context": "http://schema.org/",
   "@type": "Product",
-  "name": "${producto.nombre}",
+  "name": "${variable.nombre}",
   "image": [
-    "${producto.imagenFull}"
+    "${variable.imagenFull}"
    ],
-  "description": "${producto.descripcion}",
+  "description": "${variable.descripcion}",
   "brand": {
     "@type": "Thing",
     "name": "Folk in Love"
@@ -20,6 +20,7 @@ export default function(producto){
     "ratingValue": "4.4",
     "reviewCount": "89"
   }
+}
 </script>
  `
  return el
