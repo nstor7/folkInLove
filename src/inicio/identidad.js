@@ -1,7 +1,7 @@
 import yo from 'yo-yo'
 
 module.exports = yo`
-  <div class="inicioIdentidad" vocab="http://schema.org/" typeof="ScholarlyArticle" resource="#article"">
+  <div class="inicioIdentidad" vocab="http://schema.org/" typeof="ScholarlyArticle" resource="#article">
     <article class="identidadImagenes">
       <a href="/vestuarios/Gala-Ocuena" class="identidadImagen  tercio">
         <picture >
