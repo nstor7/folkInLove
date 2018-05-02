@@ -11,7 +11,7 @@ module.exports = yo`
         
         <div class="identidadInfo negroTrans">
           <hgroup>
-            <h5>Pollera De Gala Ocueña</h5>
+            <h5>Pollera de Gala Ocueña</h5>
             <h6>Azuero</h6>
           </hgroup>
         </div>
