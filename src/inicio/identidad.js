@@ -1,12 +1,12 @@
 import yo from 'yo-yo'
 
 module.exports = yo`
-  <div class="inicioIdentidad" vocab="http://schema.org/" typeof="ScholarlyArticle" resource="#article">
+  <div class="inicioIdentidad">
     <article class="identidadImagenes">
       <a href="/vestuarios/Gala-Ocuena" class="identidadImagen  tercio">
         <picture >
           <source media="(min-width: 800px)" srcset="images/pollera-gala-ocu-identidad-full.jpg">
-          <img property="image" src="images/pollera-gala-ocu-identidad-cel.jpg" alt="Pollera de Gala Ocueña, traje tipico de la región de azuero, Panama" class=" tercio identidadFotos">
+          <img src="images/pollera-gala-ocu-identidad-cel.jpg" alt="Pollera de Gala Ocueña, traje tipico de la región de azuero, Panama" class=" tercio identidadFotos">
         </picture>
         
         <div class="identidadInfo negroTrans">
@@ -19,7 +19,7 @@ module.exports = yo`
       <a href="/vestuarios/Pollera-Congo" class="identidadImagen tercio">
         <picture>
           <source media="(min-width: 800px)" srcset="images/pollera-congo-identidad-full.jpg">
-          <img property="image" src="images/pollera-congo-identidad-cel.jpg" alt="Pollera Congo, traje tipico de la región de Colón, Panama" class=" tercio identidadFotos">
+          <img src="images/pollera-congo-identidad-cel.jpg" alt="Pollera Congo, traje tipico de la región de Colón, Panama" class=" tercio identidadFotos">
         </picture>
         <div class="identidadInfo negroTrans">
           <hgroup>
@@ -31,7 +31,7 @@ module.exports = yo`
       <a href="/vestuarios/Pollera-De-Lujo" class="identidadImagen identidad1 tercio">
         <picture>
           <source media="(min-width: 800px)" srcset="images/pollera-lujo-losantos-identidad-full.jpg">
-          <img property="image" src="images/pollera-lujo-losantos-identidad-cel.jpg" alt="Pollera de lujo santeña, traje tipico de la región de azuero, Panama" class=" tercio identidadFotos">
+          <img src="images/pollera-lujo-losantos-identidad-cel.jpg" alt="Pollera de lujo santeña, traje tipico de la región de azuero, Panama" class=" tercio identidadFotos">
         </picture>
         <div class="identidadInfo negroTrans">
           <hgroup>
@@ -42,9 +42,9 @@ module.exports = yo`
       </a>
       
     </article>
-    <article property="articleBody" class="identidadTexto completa blanco">
+    <article class="identidadTexto completa blanco">
       <hgroup>
-        <h2 property="name">Origen de la Identidad del Panameño</h2>
+        <h2>Origen de la Identidad del Panameño</h2>
         <h3>Historia de las Tradiciones de Panamá</h3>
         <p>
           Gracias a su posición estratégica dentro de las américas nuestro país ha desarrollado una riqueza

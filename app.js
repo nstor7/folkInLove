@@ -24,7 +24,8 @@ app.get('/', function(req, res){
    link: 'https://www.folkinlovepty.com',
    title: 'Folk in Love - Investigación y Difusión del Folklore de Panamá',
    description: 'En Folk in love nos dedicamos a la investigación, difusión, promoción y conservación del folklore Panameño.',
-   keywords: 'folklore panameño, costumbres, tradidiones, panama, orígenes, Panamá'
+   keywords: 'folklore panameño, costumbres, tradidiones, panama, orígenes, Panamá',
+   estructurados: 'https://www.folkinlovepty.com/json/estructurados-inicio.json'
  })
 })
 app.get('/contacto', function(req,res){
