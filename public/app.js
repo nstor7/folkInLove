@@ -2544,9 +2544,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (imagenes) {
   var el = (0, _yoYo2.default)(_templateObject);
@@ -2571,9 +2575,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 },{"yo-yo":14}],18:[function(require,module,exports){
 'use strict';
@@ -2602,7 +2610,9 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/contacto', _header2.default, _footer2.default, _functions2.default.noScrollFunction, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -2618,9 +2628,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -2651,7 +2665,9 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/confirmacion', _header2.default, _footer2.default, _functions2.default.noScrollFunction, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -2667,9 +2683,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -2700,7 +2720,9 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/error', _header2.default, _footer2.default, _functions2.default.noScrollFunction, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -2716,9 +2738,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -2732,9 +2758,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (danza) {
   var el = (0, _yoYo2.default)(_templateObject, danza.portadaImagen, danza.nombre, danza.reseña, danza.introImagen, danza.intro, danza.descripcion, danza.pasos.map(function (paso) {
@@ -2774,7 +2804,9 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/danzas/:url', _header2.default, _footer2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -2795,9 +2827,13 @@ var _danza = require('./danza');
 
 var _danza2 = _interopRequireDefault(_danza);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (danzas, ident) {
   var el = (0, _yoYo2.default)(_templateObject, danzas.map(function (danza) {
@@ -2818,9 +2854,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = [{
   nombre: 'El Punto Santeño',
@@ -2865,7 +2905,9 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/danzas', _header2.default, _footer2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -2890,9 +2932,13 @@ var _danzas = require('./danzas');
 
 var _danzas2 = _interopRequireDefault(_danzas);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, _danzas2.default.map(function (danza) {
   return (0, _tarjeta2.default)('danzas', danza);
@@ -2909,7 +2955,9 @@ var _template = require('./template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 module.exports = function footer(ctx, next) {
   var pie = document.getElementById('footer');
@@ -2926,9 +2974,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -2969,7 +3021,9 @@ var _template = require('./template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 module.exports = function header(ctx, next) {
   var container = document.getElementById('header');
@@ -2990,9 +3044,13 @@ var _functions = require('./functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, _functions2.default.navegacion, _functions2.default.navegacion, _functions2.default.navegacion, _functions2.default.navegacion, _functions2.default.navegacion, _functions2.default.navegacion);
 
@@ -3003,7 +3061,9 @@ var _page = require('page');
 
 var _page2 = _interopRequireDefault(_page);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('*', function (ctx, next) {
   window.scrollTo(0, 0);
@@ -3022,7 +3082,7 @@ require('./producto');
 
 (0, _page2.default)();
 
-},{"./contacto":18,"./contactoConfirmacion":20,"./contactoError":22,"./danzaPage":25,"./danzas":28,"./inicio":40,"./producto":42,"./tienda":47,"./vestuarioPage":51,"./vestuarios":53,"page":12}],36:[function(require,module,exports){
+},{"./contacto":18,"./contactoConfirmacion":20,"./contactoError":22,"./danzaPage":25,"./danzas":28,"./inicio":40,"./producto":42,"./tienda":45,"./vestuarioPage":49,"./vestuarios":51,"page":12}],36:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -3035,9 +3095,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 exports.default = (0, _yoYo2.default)(_templateObject);
 
@@ -3050,9 +3114,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -3065,24 +3133,32 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
 },{"yo-yo":14}],39:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n  <div class="inicioIdentidad">\n    <article class="identidadImagenes">\n      <a href="/vestuarios/Gala-Ocuena" class="identidadImagen  tercio">\n        <picture>\n          <source media="(min-width: 800px)" srcset="images/pollera-gala-ocu-identidad-full.jpg">\n          <img src="images/pollera-gala-ocu-identidad-cel.jpg" alt="Pollera de Gala Ocue\xF1a, traje tipico de la regi\xF3n de azuero, Panama" class=" tercio identidadFotos">\n        </picture>\n        \n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h5>Pollera De Gala Ocue\xF1a</h5>\n            <h6>Azuero</h6>\n          </hgroup>\n        </div>\n      </a>\n      <a href="/vestuarios/Pollera-Congo" class="identidadImagen tercio">\n        <picture>\n          <source media="(min-width: 800px)" srcset="images/pollera-congo-identidad-full.jpg">\n          <img src="images/pollera-congo-identidad-cel.jpg" alt="Pollera Congo, traje tipico de la regi\xF3n de Col\xF3n, Panama" class=" tercio identidadFotos">\n        </picture>\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h5>Pollera Congo</h5>\n            <h6>Col\xF3n</h6>\n          </hgroup>\n        </div>\n      </a>\n      <a href="/vestuarios/Pollera-De-Lujo" class="identidadImagen identidad1 tercio">\n        <picture>\n          <source media="(min-width: 800px)" srcset="images/pollera-lujo-losantos-identidad-full.jpg">\n          <img src="images/pollera-lujo-losantos-identidad-cel.jpg" alt="Pollera de lujo sante\xF1a, traje tipico de la regi\xF3n de azuero, Panama" class=" tercio identidadFotos">\n        </picture>\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h5>Pollera De Lujo</h5>\n            <h6>Azuero</h6>\n          </hgroup>\n        </div>\n      </a>\n      \n    </article>\n    <article class="identidadTexto completa blanco">\n      <hgroup>\n        <h2>Origen de la Identidad del Paname\xF1o</h2>\n        <h3>Historia de las Tradiciones de Panam\xE1</h3>\n        <p>\n          Gracias a su posici\xF3n estrat\xE9gica dentro de las am\xE9ricas nuestro pa\xEDs ha desarrollado una riqueza\n\ncultural y folkl\xF3rica inigualable. La combinacion entre las etnias ind\xEDgenas existentes antes de la\n\nconquista, la intromisi\xF3n europea y la llegada de los negros como esclavos ha permitido el\n\nenriquecimiento de la cultura de manera inigualable.\n        </p>\n        <p>\n          De acuerdo con las investigaciones se pudo apreciar como la vestimenta femenina y masculina fue\n\n          aceptada y utilizada por los paname\xF1os a inicios del siglo XX, las polleras, chambras y otros vestidos fueron de uso com\xFAn en toda la rep\xFAblica. Actualmente podemos ver como las etnias\n\n          ind\xEDgenas y los grupos congos mantienen sus tradiciones permitiendo la evoluci\xF3n al tener remplazo\n\n          generacional y danzas vivas.        </p>\n      </hgroup>\n    </article>\n  </div>\n'], ['\n  <div class="inicioIdentidad">\n    <article class="identidadImagenes">\n      <a href="/vestuarios/Gala-Ocuena" class="identidadImagen  tercio">\n        <picture>\n          <source media="(min-width: 800px)" srcset="images/pollera-gala-ocu-identidad-full.jpg">\n          <img src="images/pollera-gala-ocu-identidad-cel.jpg" alt="Pollera de Gala Ocue\xF1a, traje tipico de la regi\xF3n de azuero, Panama" class=" tercio identidadFotos">\n        </picture>\n        \n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h5>Pollera De Gala Ocue\xF1a</h5>\n            <h6>Azuero</h6>\n          </hgroup>\n        </div>\n      </a>\n      <a href="/vestuarios/Pollera-Congo" class="identidadImagen tercio">\n        <picture>\n          <source media="(min-width: 800px)" srcset="images/pollera-congo-identidad-full.jpg">\n          <img src="images/pollera-congo-identidad-cel.jpg" alt="Pollera Congo, traje tipico de la regi\xF3n de Col\xF3n, Panama" class=" tercio identidadFotos">\n        </picture>\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h5>Pollera Congo</h5>\n            <h6>Col\xF3n</h6>\n          </hgroup>\n        </div>\n      </a>\n      <a href="/vestuarios/Pollera-De-Lujo" class="identidadImagen identidad1 tercio">\n        <picture>\n          <source media="(min-width: 800px)" srcset="images/pollera-lujo-losantos-identidad-full.jpg">\n          <img src="images/pollera-lujo-losantos-identidad-cel.jpg" alt="Pollera de lujo sante\xF1a, traje tipico de la regi\xF3n de azuero, Panama" class=" tercio identidadFotos">\n        </picture>\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h5>Pollera De Lujo</h5>\n            <h6>Azuero</h6>\n          </hgroup>\n        </div>\n      </a>\n      \n    </article>\n    <article class="identidadTexto completa blanco">\n      <hgroup>\n        <h2>Origen de la Identidad del Paname\xF1o</h2>\n        <h3>Historia de las Tradiciones de Panam\xE1</h3>\n        <p>\n          Gracias a su posici\xF3n estrat\xE9gica dentro de las am\xE9ricas nuestro pa\xEDs ha desarrollado una riqueza\n\ncultural y folkl\xF3rica inigualable. La combinacion entre las etnias ind\xEDgenas existentes antes de la\n\nconquista, la intromisi\xF3n europea y la llegada de los negros como esclavos ha permitido el\n\nenriquecimiento de la cultura de manera inigualable.\n        </p>\n        <p>\n          De acuerdo con las investigaciones se pudo apreciar como la vestimenta femenina y masculina fue\n\n          aceptada y utilizada por los paname\xF1os a inicios del siglo XX, las polleras, chambras y otros vestidos fueron de uso com\xFAn en toda la rep\xFAblica. Actualmente podemos ver como las etnias\n\n          ind\xEDgenas y los grupos congos mantienen sus tradiciones permitiendo la evoluci\xF3n al tener remplazo\n\n          generacional y danzas vivas.        </p>\n      </hgroup>\n    </article>\n  </div>\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  <div class="inicioIdentidad" itemscope itemtype="http://schema.org/Article">\n    <article class="identidadImagenes">\n      <a href="/vestuarios/Gala-Ocuena" class="identidadImagen  tercio">\n        <picture >\n          <source media="(min-width: 800px)" srcset="images/pollera-gala-ocu-identidad-full.jpg">\n          <img itemprop="image" src="images/pollera-gala-ocu-identidad-cel.jpg" alt="Pollera de Gala Ocue\xF1a, traje tipico de la regi\xF3n de azuero, Panama" class=" tercio identidadFotos">\n        </picture>\n        \n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h5>Pollera De Gala Ocue\xF1a</h5>\n            <h6>Azuero</h6>\n          </hgroup>\n        </div>\n      </a>\n      <a href="/vestuarios/Pollera-Congo" class="identidadImagen tercio">\n        <picture>\n          <source media="(min-width: 800px)" srcset="images/pollera-congo-identidad-full.jpg">\n          <img itemprop="image" src="images/pollera-congo-identidad-cel.jpg" alt="Pollera Congo, traje tipico de la regi\xF3n de Col\xF3n, Panama" class=" tercio identidadFotos">\n        </picture>\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h5>Pollera Congo</h5>\n            <h6>Col\xF3n</h6>\n          </hgroup>\n        </div>\n      </a>\n      <a href="/vestuarios/Pollera-De-Lujo" class="identidadImagen identidad1 tercio">\n        <picture>\n          <source media="(min-width: 800px)" srcset="images/pollera-lujo-losantos-identidad-full.jpg">\n          <img itemprop="image" src="images/pollera-lujo-losantos-identidad-cel.jpg" alt="Pollera de lujo sante\xF1a, traje tipico de la regi\xF3n de azuero, Panama" class=" tercio identidadFotos">\n        </picture>\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h5>Pollera De Lujo</h5>\n            <h6>Azuero</h6>\n          </hgroup>\n        </div>\n      </a>\n      \n    </article>\n    <article itemprop="articleBody" class="identidadTexto completa blanco">\n      <hgroup>\n        <h2 itemprop="name">Origen de la Identidad del Paname\xF1o</h2>\n        <h3>Historia de las Tradiciones de Panam\xE1</h3>\n        <p>\n          Gracias a su posici\xF3n estrat\xE9gica dentro de las am\xE9ricas nuestro pa\xEDs ha desarrollado una riqueza\n\ncultural y folkl\xF3rica inigualable. La combinacion entre las etnias ind\xEDgenas existentes antes de la\n\nconquista, la intromisi\xF3n europea y la llegada de los negros como esclavos ha permitido el\n\nenriquecimiento de la cultura de manera inigualable.\n        </p>\n        <p>\n          De acuerdo con las investigaciones se pudo apreciar como la vestimenta femenina y masculina fue\n\n          aceptada y utilizada por los paname\xF1os a inicios del siglo XX, las polleras, chambras y otros vestidos fueron de uso com\xFAn en toda la rep\xFAblica. Actualmente podemos ver como las etnias\n\n          ind\xEDgenas y los grupos congos mantienen sus tradiciones permitiendo la evoluci\xF3n al tener remplazo\n\n          generacional y danzas vivas.        </p>\n      </hgroup>\n    </article>\n  </div>\n'], ['\n  <div class="inicioIdentidad" itemscope itemtype="http://schema.org/Article">\n    <article class="identidadImagenes">\n      <a href="/vestuarios/Gala-Ocuena" class="identidadImagen  tercio">\n        <picture >\n          <source media="(min-width: 800px)" srcset="images/pollera-gala-ocu-identidad-full.jpg">\n          <img itemprop="image" src="images/pollera-gala-ocu-identidad-cel.jpg" alt="Pollera de Gala Ocue\xF1a, traje tipico de la regi\xF3n de azuero, Panama" class=" tercio identidadFotos">\n        </picture>\n        \n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h5>Pollera De Gala Ocue\xF1a</h5>\n            <h6>Azuero</h6>\n          </hgroup>\n        </div>\n      </a>\n      <a href="/vestuarios/Pollera-Congo" class="identidadImagen tercio">\n        <picture>\n          <source media="(min-width: 800px)" srcset="images/pollera-congo-identidad-full.jpg">\n          <img itemprop="image" src="images/pollera-congo-identidad-cel.jpg" alt="Pollera Congo, traje tipico de la regi\xF3n de Col\xF3n, Panama" class=" tercio identidadFotos">\n        </picture>\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h5>Pollera Congo</h5>\n            <h6>Col\xF3n</h6>\n          </hgroup>\n        </div>\n      </a>\n      <a href="/vestuarios/Pollera-De-Lujo" class="identidadImagen identidad1 tercio">\n        <picture>\n          <source media="(min-width: 800px)" srcset="images/pollera-lujo-losantos-identidad-full.jpg">\n          <img itemprop="image" src="images/pollera-lujo-losantos-identidad-cel.jpg" alt="Pollera de lujo sante\xF1a, traje tipico de la regi\xF3n de azuero, Panama" class=" tercio identidadFotos">\n        </picture>\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h5>Pollera De Lujo</h5>\n            <h6>Azuero</h6>\n          </hgroup>\n        </div>\n      </a>\n      \n    </article>\n    <article itemprop="articleBody" class="identidadTexto completa blanco">\n      <hgroup>\n        <h2 itemprop="name">Origen de la Identidad del Paname\xF1o</h2>\n        <h3>Historia de las Tradiciones de Panam\xE1</h3>\n        <p>\n          Gracias a su posici\xF3n estrat\xE9gica dentro de las am\xE9ricas nuestro pa\xEDs ha desarrollado una riqueza\n\ncultural y folkl\xF3rica inigualable. La combinacion entre las etnias ind\xEDgenas existentes antes de la\n\nconquista, la intromisi\xF3n europea y la llegada de los negros como esclavos ha permitido el\n\nenriquecimiento de la cultura de manera inigualable.\n        </p>\n        <p>\n          De acuerdo con las investigaciones se pudo apreciar como la vestimenta femenina y masculina fue\n\n          aceptada y utilizada por los paname\xF1os a inicios del siglo XX, las polleras, chambras y otros vestidos fueron de uso com\xFAn en toda la rep\xFAblica. Actualmente podemos ver como las etnias\n\n          ind\xEDgenas y los grupos congos mantienen sus tradiciones permitiendo la evoluci\xF3n al tener remplazo\n\n          generacional y danzas vivas.        </p>\n      </hgroup>\n    </article>\n  </div>\n']);
 
 var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -3113,7 +3189,9 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/', _header2.default, _footer2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -3149,9 +3227,13 @@ var _apoyo = require('./apoyo');
 
 var _apoyo2 = _interopRequireDefault(_apoyo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, _banner2.default, _about2.default, _identidad2.default, _apoyo2.default);
 
@@ -3186,11 +3268,9 @@ var _catalogo = require('../tienda/catalogo');
 
 var _catalogo2 = _interopRequireDefault(_catalogo);
 
-var _structuratedData = require('../structurated-data');
-
-var _structuratedData2 = _interopRequireDefault(_structuratedData);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/tienda/:nombre', _header2.default, _footer2.default, _functions2.default.noScrollFunction, function (ctx, next) {
 
@@ -3199,10 +3279,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
   });
   var main = document.getElementById('main-container');
   (0, _emptyElement2.default)(main).appendChild((0, _template2.default)(producto));
-  (0, _structuratedData2.default)(producto);
 });
 
-},{"../footer":30,"../header":33,"../header/functions":32,"../structurated-data":44,"../tienda/catalogo":46,"./template":43,"empty-element":4,"page":12}],43:[function(require,module,exports){
+},{"../footer":30,"../header":33,"../header/functions":32,"../tienda/catalogo":44,"./template":43,"empty-element":4,"page":12}],43:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -3226,60 +3305,15 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 },{"yo-yo":14}],44:[function(require,module,exports){
-'use strict';
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-exports.default = function (variable) {
-  var body = document.getElementById('body');
-  var script = document.getElementById('script');
-  body.insertBefore((0, _template2.default)(variable), script);
-};
-
-var _emptyElement = require('empty-element');
-
-var _emptyElement2 = _interopRequireDefault(_emptyElement);
-
-var _template = require('./template');
-
-var _template2 = _interopRequireDefault(_template);
-
-var _catalogo = require('../tienda/catalogo');
-
-var _catalogo2 = _interopRequireDefault(_catalogo);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-},{"../tienda/catalogo":46,"./template":45,"empty-element":4}],45:[function(require,module,exports){
-'use strict';
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _templateObject = _taggedTemplateLiteral(['\n <script type="application/ld+json">\n{\n  "@context": "http://schema.org/",\n  "@type": "Product",\n  "name": "', '",\n  "image": [\n    "', '"\n   ],\n  "description": "', '",\n  "brand": {\n    "@type": "Thing",\n    "name": "Folk in Love"\n  },\n  "aggregateRating": {\n    "@type": "AggregateRating",\n    "ratingValue": "4.4",\n    "reviewCount": "89"\n  }\n}\n</script>\n '], ['\n <script type="application/ld+json">\n{\n  "@context": "http://schema.org/",\n  "@type": "Product",\n  "name": "', '",\n  "image": [\n    "', '"\n   ],\n  "description": "', '",\n  "brand": {\n    "@type": "Thing",\n    "name": "Folk in Love"\n  },\n  "aggregateRating": {\n    "@type": "AggregateRating",\n    "ratingValue": "4.4",\n    "reviewCount": "89"\n  }\n}\n</script>\n ']);
-
-exports.default = function (variable) {
-  var el = (0, _yoYo2.default)(_templateObject, variable.nombre, variable.imagenFull, variable.descripcion);
-  return el;
-};
-
-var _yoYo = require('yo-yo');
-
-var _yoYo2 = _interopRequireDefault(_yoYo);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
-
-},{"yo-yo":14}],46:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -3467,7 +3501,7 @@ exports.default = [{
 // }
 ];
 
-},{}],47:[function(require,module,exports){
+},{}],45:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -3494,7 +3528,9 @@ var _template = require('./template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/tienda', _header2.default, _footer2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -3504,7 +3540,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
   next();
 });
 
-},{"../footer":30,"../header":33,"../header/functions":32,"./template":49,"empty-element":4,"page":12}],48:[function(require,module,exports){
+},{"../footer":30,"../header":33,"../header/functions":32,"./template":47,"empty-element":4,"page":12}],46:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -3522,11 +3558,15 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
-},{"yo-yo":14}],49:[function(require,module,exports){
+},{"yo-yo":14}],47:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n<main>\n <section class="portada">\n  <picture class="banner">\n   <source media="(min-width: 800px)" srcset="images/pollera-lujo-losantos-tienda-portada-full.jpg">\n   <img class="completa" alt="Foto de Pollera De Lujo Sante\xF1a, traje tipico de panam\xE1, en Panam\xE1 Viejo"  src="images/pollera-lujo-losantos-tienda-portada-cel.jpg"  >\n  </picture>\n  <article className="completa negroTrans">\n   <hgroup>\n    <h2>Productos y Servicios</h2>\n   </hgroup>\n  </article>\n </section>\n <section class="lista blanco">\n  <div class="listaCont">\n   ', '\n  </div>\n  \n </section>\n</main>\n'], ['\n<main>\n <section class="portada">\n  <picture class="banner">\n   <source media="(min-width: 800px)" srcset="images/pollera-lujo-losantos-tienda-portada-full.jpg">\n   <img class="completa" alt="Foto de Pollera De Lujo Sante\xF1a, traje tipico de panam\xE1, en Panam\xE1 Viejo"  src="images/pollera-lujo-losantos-tienda-portada-cel.jpg"  >\n  </picture>\n  <article className="completa negroTrans">\n   <hgroup>\n    <h2>Productos y Servicios</h2>\n   </hgroup>\n  </article>\n </section>\n <section class="lista blanco">\n  <div class="listaCont">\n   ', '\n  </div>\n  \n </section>\n</main>\n']);
@@ -3543,15 +3583,19 @@ var _tarjeta = require('./tarjeta');
 
 var _tarjeta2 = _interopRequireDefault(_tarjeta);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, _catalogo2.default.map(function (producto) {
   return (0, _tarjeta2.default)(producto);
 }));
 
-},{"./catalogo":46,"./tarjeta":48,"yo-yo":14}],50:[function(require,module,exports){
+},{"./catalogo":44,"./tarjeta":46,"yo-yo":14}],48:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <section>\n    <article class="dosTercios imagen" style="background: url(\'', '\'); background-size:cover"></article>\n    <article class="tercio blanco joyero">\n      <hgroup>\n        <h2>Joyero</h2>\n        <ul>\n         ', '\n       </ul>  \n      </hgroup>\n    </article>\n  </section>   \n    '], ['\n  <section>\n    <article class="dosTercios imagen" style="background: url(\'', '\'); background-size:cover"></article>\n    <article class="tercio blanco joyero">\n      <hgroup>\n        <h2>Joyero</h2>\n        <ul>\n         ', '\n       </ul>  \n      </hgroup>\n    </article>\n  </section>   \n    ']),
@@ -3562,9 +3606,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 function joyero(vestuario) {
   if (vestuario.joyero) {
@@ -3578,7 +3626,7 @@ module.exports = function (vestuario) {
   return el;
 };
 
-},{"yo-yo":14}],51:[function(require,module,exports){
+},{"yo-yo":14}],49:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -3609,7 +3657,9 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/vestuarios/:url', _header2.default, _footer2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -3617,7 +3667,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
   window.addEventListener("scroll", _functions2.default.scrollFunction);
 });
 
-},{"../footer":30,"../header":33,"../header/functions":32,"../vestuarios/vestuarios":55,"./template":52,"empty-element":4,"page":12}],52:[function(require,module,exports){
+},{"../footer":30,"../header":33,"../header/functions":32,"../vestuarios/vestuarios":53,"./template":50,"empty-element":4,"page":12}],50:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n <div>\n  ', '\n </div>\n '], ['\n <div>\n  ', '\n </div>\n ']);
@@ -3634,9 +3684,13 @@ var _estructura = require('./estructura');
 
 var _estructura2 = _interopRequireDefault(_estructura);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (vestuarios, ident) {
   var el = (0, _yoYo2.default)(_templateObject, vestuarios.map(function (vestuario) {
@@ -3647,7 +3701,7 @@ module.exports = function (vestuarios, ident) {
   return el;
 };
 
-},{"../componentes/album":16,"./estructura":50,"yo-yo":14}],53:[function(require,module,exports){
+},{"../componentes/album":16,"./estructura":48,"yo-yo":14}],51:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -3674,7 +3728,9 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/vestuarios', _header2.default, _footer2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -3682,7 +3738,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
   window.addEventListener("scroll", _functions2.default.scrollFunction);
 });
 
-},{"../footer":30,"../header":33,"../header/functions":32,"./template":54,"empty-element":4,"page":12}],54:[function(require,module,exports){
+},{"../footer":30,"../header":33,"../header/functions":32,"./template":52,"empty-element":4,"page":12}],52:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n<main>\n <section class="portada" id="vestuarioPortada">\n  <article className="completa negroTrans">\n   <hgroup>\n    <h2>Vestuarios Paname\xF1os</h2>\n    <p>Los vestidos t\xEDpicos de nuestro pa\xEDs son de gran valor y nos muestran la singularidad de cada pueblo y como de acuerdo al lugar de donde vienen expresan las vivencias y situaciones del hombre y la mujer paname\xF1a.</p>\n   </hgroup>\n  </article>\n </section>\n <section class="lista blanco">\n  <div class="listaCont">\n  ', '\n  </div> \n </section>\n</main>\n'], ['\n<main>\n <section class="portada" id="vestuarioPortada">\n  <article className="completa negroTrans">\n   <hgroup>\n    <h2>Vestuarios Paname\xF1os</h2>\n    <p>Los vestidos t\xEDpicos de nuestro pa\xEDs son de gran valor y nos muestran la singularidad de cada pueblo y como de acuerdo al lugar de donde vienen expresan las vivencias y situaciones del hombre y la mujer paname\xF1a.</p>\n   </hgroup>\n  </article>\n </section>\n <section class="lista blanco">\n  <div class="listaCont">\n  ', '\n  </div> \n </section>\n</main>\n']);
@@ -3699,15 +3755,19 @@ var _vestuarios = require('./vestuarios');
 
 var _vestuarios2 = _interopRequireDefault(_vestuarios);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, _vestuarios2.default.map(function (danza) {
   return (0, _tarjeta2.default)('vestuarios', danza);
 }));
 
-},{"../componentes/tarjeta":17,"./vestuarios":55,"yo-yo":14}],55:[function(require,module,exports){
+},{"../componentes/tarjeta":17,"./vestuarios":53,"yo-yo":14}],53:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['<p>Esta hermosa pollera era utilizada por las mujeres solo en ocasiones especiales como por ejemplo en el matrimonio. Hoy en d\xEDa la representaci\xF3n del Matrimonio campesino es una tradici\xF3n que se realiza dentro del marco del festival del manito, que adem\xE1s de ser una fiesta del pueblo es una celebraci\xF3n religiosa. Se escoge una vez al a\xF1o por la suerte a una pareja ocue\xF1a para realizar el sacramento en la parroquia de San Sebasti\xE1n de Oc\xFA.</p>'], ['<p>Esta hermosa pollera era utilizada por las mujeres solo en ocasiones especiales como por ejemplo en el matrimonio. Hoy en d\xEDa la representaci\xF3n del Matrimonio campesino es una tradici\xF3n que se realiza dentro del marco del festival del manito, que adem\xE1s de ser una fiesta del pueblo es una celebraci\xF3n religiosa. Se escoge una vez al a\xF1o por la suerte a una pareja ocue\xF1a para realizar el sacramento en la parroquia de San Sebasti\xE1n de Oc\xFA.</p>']),
@@ -3727,9 +3787,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = [{
   nombre: 'Pollera de Gala Ocueña',
