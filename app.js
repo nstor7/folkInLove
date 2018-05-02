@@ -21,6 +21,7 @@ app.use('/tienda',tienda)
 
 app.get('/', function(req, res){
  res.render('index.pug', {
+   link: 'https://www.folkinlovepty.com',
    title: 'Folk in Love - Investigación y Difusión del Folklore de Panamá',
    description: 'En Folk in love nos dedicamos a la investigación, difusión, promoción y conservación del folklore Panameño.',
    keywords: 'folklore panameño, costumbres, tradidiones, panama, orígenes, Panamá'
