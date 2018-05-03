@@ -7,8 +7,8 @@ module.exports = yo`
  <section class="portada" id="danzasPortada">
   <article className="completa negroTrans">
    <hgroup>
-    <h2>Danzas Panameñas</h2>
-    <p>Las danzas de Panamá expresan las experiencias del hombre y la mujer, muchas de ellas son inspiradas en la faena diaria del trabajo en el campo, otras traen a colación rituales religiosos y celebraciones.</p>
+    <h1>Bailes Típicos de Panamá</h1>
+    <p><b>Las danzas folklóricas</b> panameñas expresan las experiencias del hombre y la mujer, muchas de ellas son inspiradas en la faena diaria del trabajo en el campo, otras traen a colación <b>costumbres</b>, rituales religiosos y celebraciones.</p>
    </hgroup>
   </article>
  </section>
@@ -18,6 +18,10 @@ module.exports = yo`
     return tarjeta('danzas', danza)
    })}
   </div> 
+ </section>
+ <section class="completa blanco videoPasos">
+  <h2>Pasos Básicos de los Danzas Típicas Panameñas</h2>
+  <iframe src="https://www.youtube.com/embed/x7HdglWtujg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
  </section>
 </main>
 `
