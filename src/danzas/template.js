@@ -5,6 +5,11 @@ import danzas from './danzas'
 module.exports = yo`
 <main>
  <section class="portada" id="danzasPortada">
+  <picture class="banner">
+   <source media="(min-width: 800px)" srcset="images/danzas-full.jpg">
+   <source media="(min-width: 600px)" srcset="images/danzas-tab.jpg">
+   <img class="completa" src="images/danzas-cel.jpg" alt="Bailes Típicos de Panamá, Baile Congo">
+  </picture>
   <article className="completa negroTrans">
    <hgroup>
     <h1>Bailes Típicos de Panamá</h1>

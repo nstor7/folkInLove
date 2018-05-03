@@ -5,10 +5,11 @@ danzas.use(express.static('public'))
 
 danzas.get('/', function(req, res){
  res.render('index.pug', {
-  title: 'Folk in Love - Danzas',
-  description: 'En Folk in love nos dedicamos a la investigación, difusión, promoción y conservación del folklore Panameño, queremos ofrecer un espacio en donde se pueda encontrar información de calidad respaldada por investigaciones y fuentes confiables que puedan servir de referencia para bailarines, maestros, vestuaristas, estudiantes y amantes del folklore.',
-  keywords: 'Investigación, folklore, folclore, folclor, vestuario, vestido tipico, Costumbres de Panamá, República de Panamá, Colón , Azuero, Cultura, panama, danzas, celebraciones'
-})
+  link: 'https://www.folkinlovepty.com/danzas/',
+  title: 'Folk in Love - Bailes Típicos de Panamá',
+  description: 'Los Bailes típicos de Panamá son uno de los elementos más importantes de la identidad panameña. Como todos los componentes de nuestro folklore son diferentes deacuerdo a la región de donde provienen. Cada Danza tiene sus propias características, pasos, vestimentas y están asociadas a costumbres o rituales. ',
+  keywords: 'Danzas de Panamá, Bailes Típicos, Pasos de Baile'
+  })
 })
 
 danzas.get('/:nombre', function(req, res){
