@@ -44,25 +44,26 @@ module.exports = yo`
     </article>
     <article class="identidadTexto completa blanco">
       <hgroup>
-        <h2>Origen de la Identidad del Panameño</h2>
-        <h3>Historia de las Tradiciones de Panamá</h3>
+        <h2>Elementos de Nuestro Folklore</h2>
+        <h3>Investigando Sobre las Costumbres de Cada Región</h3>
         <p>
-          Gracias a su posición estratégica dentro de las américas nuestro país ha desarrollado una riqueza
-
-cultural y folklórica inigualable. La combinacion entre las etnias indígenas existentes antes de la
-
-conquista, la intromisión europea y la llegada de los negros como esclavos ha permitido el
-
-enriquecimiento de la cultura de manera inigualable.
+          Son Muchos los <b>elementos</b>  que forman parte de la <b>cultura y el folklore</b>  de un país. Desde pequeños y abstactos como pueden ser cuentos infantiles y rimas; Objetos como <a href="/vestuarios">vestidos tradicionales</a> e instrumentos musicales; O más trascendentales como rituales religiosos o festivos así como la manera de celebrar los momentos de la vida, como bautizos, matrimonios y funerales. 
         </p>
         <p>
-          De acuerdo con las investigaciones se pudo apreciar como la vestimenta femenina y masculina fue
-
-          aceptada y utilizada por los panameños a inicios del siglo XX, las polleras, chambras y otros vestidos fueron de uso común en toda la república. Actualmente podemos ver como las etnias
-
-          indígenas y los grupos congos mantienen sus tradiciones permitiendo la evolución al tener remplazo
-
-          generacional y danzas vivas.        </p>
+          Lo importante de cada uno de estos <b>componentes</b> es que nos definen como seres humanos, como comunidad y como país, nos dán la <b>identidad</b> ante nosotros mismos y los demás.   
+        </p>
+        <p>  
+          Dos <b>elementos</b> importantísimos que definen al <b>panameño</b>  y que pueden diferenciar <b>las costumbres</b> de cada una de las regiones del país, para darle a cada lugar su propia identidad, Son los <a href="/vestuarios">trajes típicos</a> y los <a href="danzas">bailes o danzas folklóricas</a>. 
+        </p>
+        <p>
+          <b>Danzas</b> como <a href="/danzas/El-Punto-Santeno">el punto</a> que nos hablan de la elegancia y ceremonia que nos trajeron los españoles, el Gran Diablo es un reflejo de la llegada del cristianismo, <a href="/vestuarios/Pollera-Congo">las polleras congo</a> nos hablan de la <b>cultura</b> de los Africanos que vinieron en época de colonia y se establecieron en la costa atlántica.
+        </p>
+        <p>
+          Y así se cuenta <b>nuestra historia</b> através de la caja y el repicador, de la pollera montuna y de una máscara de diablico sucio. Caminamos en la vida con una cutarra y nos tapamos del sol con un sombrero pintao. 
+        </p>
+        <p>
+          Creemos en la importancia de conocer de donde venimos para poder desarrollar un sentido de <b>identidad</b>, para poder tomar decisiones hacia el futuro, para cuidar el <b>legado</b> que nos dejaron las generaciones pasadas, para entender quienes somos y de donde venimos y poder así saber hacia donde vamos.  
+        </p>
       </hgroup>
     </article>
   </div>
