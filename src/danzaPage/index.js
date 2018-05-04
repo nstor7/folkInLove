@@ -7,7 +7,8 @@ import danzas from '../danzas/danzas'
 import fn from '../header/functions'
 
 page('/danzas/:url', header, footer, function(ctx, next){
+ var baile = danzas.find(danza => danza.url === ctx.params.url)
  var main = document.getElementById('main-container')
- empty(main).appendChild(template(danzas, ctx.params.url))
+ empty(main).appendChild(template(baile))
  window.addEventListener("scroll", fn.scrollFunction)
 })

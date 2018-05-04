@@ -1,5 +1,6 @@
 const express = require('express')
 const danzas = express.Router()
+const bailes = require('./src/danzas/danzas')
 
 danzas.use(express.static('public'))
 
@@ -13,10 +14,13 @@ danzas.get('/', function(req, res){
 })
 
 danzas.get('/:nombre', function(req, res){
+ var baile = bailes.find(function(baile){
+   return baile.url === req.params.nombre
+ })
  res.render('index.pug', {
-  title: 'Folk in Love - ' + req.params.nombre,
-  description: 'En Folk in love nos dedicamos a la investigación, difusión, promoción y conservación del folklore Panameño, queremos ofrecer un espacio en donde se pueda encontrar información de calidad respaldada por investigaciones y fuentes confiables que puedan servir de referencia para bailarines, maestros, vestuaristas, estudiantes y amantes del folklore.',
-  keywords: 'Bailes típicos, danzas, Panamá, Celebraciones, punto santeño, baile del punto, música del punto, elegancia, baile en pareja. Dora Pérez de zarate, paseo, zapateo, escobillao, seguidilla, costumbres de Panamá'
+  title: 'Folk in Love - ' + baile.nombre,
+  description: baile.reseña.substring(0, 160),
+  image: baile.miniatura
 })
 })
 
