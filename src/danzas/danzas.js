@@ -7,6 +7,7 @@ module.exports = [
   region: 'Azuero', 
   dato: 'Vestuario: Pollera De Lujo',
   miniatura: 'puntoMiniatura.jpg',
+  imagenOpenGraph: 'puntoOpenGraph.jpg',
   reseña: 'El Punto Santeño es un género musical y a su vez un baile. Es considerado como uno de los más bellos y elegantes de todo el Istmo de Panamá; es ejecutado por una sola pareja y tiene como característica principal la elegancia y el donaire con la que el hombre y la mujer se mueven durante su ejecución.',
   portadaImagen: '/images/puntoPortada.jpg',
   intro: yo`
