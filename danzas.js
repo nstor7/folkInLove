@@ -20,7 +20,7 @@ danzas.get('/:nombre', function(req, res){
  res.render('index.pug', {
   title: 'Folk in Love - ' + baile.nombre,
   description: baile.reseña.substring(0, 160),
-  image: 'https://folkinlovepty.com/images/' + baile.imagenOpenGraph
+  image: 'https://www.folkinlovepty.com/images/' + baile.imagenOpenGraph
 })
 })
 
