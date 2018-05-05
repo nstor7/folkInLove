@@ -1,4 +1,4 @@
-import yo from 'yo-yo'
+var yo = require('yo-yo')
 module.exports = [
  {
   nombre: 'Pollera de Gala Ocueña', 

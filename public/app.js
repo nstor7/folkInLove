@@ -3644,26 +3644,21 @@ var _templateObject = _taggedTemplateLiteral(['<p>Esta hermosa pollera era utili
     _templateObject11 = _taggedTemplateLiteral(['\n   <hgroup>\n    <h2>Antecedentes Hist\xF3ricos</h2>\n    <p>"No se sabe a ciencia cierta en qu\xE9 a\xF1o s\xE9 utilizo por primera vez la camisilla, existen referencias de que esta pieza masculina tiene una larga vida de existencia, ya que en la fiesta del Centenario de Chitr\xE9 en 1948, se exhibi\xF3 una camisilla con juegos de alforzas y peque\xF1os talcos piramidales en relieve, con cien a\xF1os de existencia".</p>\n    <h3>Dora P. De Z\xE1rate</h3>\n   </hgroup>\n  '], ['\n   <hgroup>\n    <h2>Antecedentes Hist\xF3ricos</h2>\n    <p>"No se sabe a ciencia cierta en qu\xE9 a\xF1o s\xE9 utilizo por primera vez la camisilla, existen referencias de que esta pieza masculina tiene una larga vida de existencia, ya que en la fiesta del Centenario de Chitr\xE9 en 1948, se exhibi\xF3 una camisilla con juegos de alforzas y peque\xF1os talcos piramidales en relieve, con cien a\xF1os de existencia".</p>\n    <h3>Dora P. De Z\xE1rate</h3>\n   </hgroup>\n  ']),
     _templateObject12 = _taggedTemplateLiteral(['\n   <hgroup>\n    <h2>Descripci\xF3n</h2>\n    <h3>Camisilla</h3>\n    <p>Las camisillas de Los Santos son de color blanco y tienen un dise\xF1o caracter\xEDstico. </p>\n    <p>El cuello de la camisa es alto y de estilo chino, en la parte frontal posee dos bolsillos, las mangas son largas y holgadas, en las mu\xF1ecas es cerrada y no lleva botones.</p>\n    <p>El cuerpo de la camisilla esta adornado con alforzas, que son una serie de tabletas finamente cosidas en la parte trasera dela camisa se hacen dos o tres tiras de alforzas y en la parte frontal se hacen a ambos lados del pecho.</p>\n    <p>Las camisillas llevan botones que pueden ser de oro, monedas peque\xF1as de plata ba\xF1ada en oro, n\xE1car o hueso. Las m\xE1s sencillas normalmente llevan los botones pegados y una sola l\xEDnea de ojales. mientras que las m\xE1s elaboradas y finas tienen doble l\xEDnea, ya que los botones son de oro y se puedes quitar y poner para lavar la camisa.</p>\n    <p>Las telas utilizadas para su confecci\xF3n son de hilo como el hol\xE1n o m\xE1s sencillas como el poplin.</p>\n    <p>La labor artesanal de las camisillas se destaca en las alforzas o espiguetas, que pueden tomar al rededor de cinco o seis d\xEDas para su confecci\xF3n.</p>\n    <p>De la cantidad de espiguetas depende el valor que se le brindar\xE1 a la camisilla. La tradici\xF3n nos dice que se consideran m\xE1s finas las camisillas que tienen m\xE1s espiguetas, por esta raz\xF3n cuando son confeccionadas para concursos, deben tener un m\xEDnimo de 30 espiguetas en la parte delantera.</p>\n    <p>tipos de alforzas o espiguetas</p>\n    <ul>\n     <li>Alforzas Horizontales</li>\n     <li>Alforzas Verticales</li>\n     <li>Alforzas Oblicuas</li>\n     <li>Alforzas Oblicuas Encontradas (combinaci\xF3n de dos tiras independientes de alforzas)</li>\n     <li>Alforzas horizontales y verticales</li>\n     <li>Cepito</li>\n    </ul>\n    <p>Para acompa\xF1ar la camisilla el hombre debe vestir con pantal\xF3n negro, zapatos negros, cutarras o chinelas (zapatos blanco con negro), una cebadera o ch\xE1cara (bolsa de hilo tejida) y sombrero pintado.</p>\n   </hgroup>\n  '], ['\n   <hgroup>\n    <h2>Descripci\xF3n</h2>\n    <h3>Camisilla</h3>\n    <p>Las camisillas de Los Santos son de color blanco y tienen un dise\xF1o caracter\xEDstico. </p>\n    <p>El cuello de la camisa es alto y de estilo chino, en la parte frontal posee dos bolsillos, las mangas son largas y holgadas, en las mu\xF1ecas es cerrada y no lleva botones.</p>\n    <p>El cuerpo de la camisilla esta adornado con alforzas, que son una serie de tabletas finamente cosidas en la parte trasera dela camisa se hacen dos o tres tiras de alforzas y en la parte frontal se hacen a ambos lados del pecho.</p>\n    <p>Las camisillas llevan botones que pueden ser de oro, monedas peque\xF1as de plata ba\xF1ada en oro, n\xE1car o hueso. Las m\xE1s sencillas normalmente llevan los botones pegados y una sola l\xEDnea de ojales. mientras que las m\xE1s elaboradas y finas tienen doble l\xEDnea, ya que los botones son de oro y se puedes quitar y poner para lavar la camisa.</p>\n    <p>Las telas utilizadas para su confecci\xF3n son de hilo como el hol\xE1n o m\xE1s sencillas como el poplin.</p>\n    <p>La labor artesanal de las camisillas se destaca en las alforzas o espiguetas, que pueden tomar al rededor de cinco o seis d\xEDas para su confecci\xF3n.</p>\n    <p>De la cantidad de espiguetas depende el valor que se le brindar\xE1 a la camisilla. La tradici\xF3n nos dice que se consideran m\xE1s finas las camisillas que tienen m\xE1s espiguetas, por esta raz\xF3n cuando son confeccionadas para concursos, deben tener un m\xEDnimo de 30 espiguetas en la parte delantera.</p>\n    <p>tipos de alforzas o espiguetas</p>\n    <ul>\n     <li>Alforzas Horizontales</li>\n     <li>Alforzas Verticales</li>\n     <li>Alforzas Oblicuas</li>\n     <li>Alforzas Oblicuas Encontradas (combinaci\xF3n de dos tiras independientes de alforzas)</li>\n     <li>Alforzas horizontales y verticales</li>\n     <li>Cepito</li>\n    </ul>\n    <p>Para acompa\xF1ar la camisilla el hombre debe vestir con pantal\xF3n negro, zapatos negros, cutarras o chinelas (zapatos blanco con negro), una cebadera o ch\xE1cara (bolsa de hilo tejida) y sombrero pintado.</p>\n   </hgroup>\n  ']);
 
-var _yoYo = require('yo-yo');
-
-var _yoYo2 = _interopRequireDefault(_yoYo);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
 function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
+var yo = require('yo-yo');
 module.exports = [{
   nombre: 'Pollera de Gala Ocueña',
   url: 'Gala-Ocuena',
   region: 'Ocú',
   dato: 'Danzas: Mejorana',
   miniatura: 'galaOcuMiniatura.jpg',
-  reseña: (0, _yoYo2.default)(_templateObject),
-  antecedentes: (0, _yoYo2.default)(_templateObject2),
+  reseña: yo(_templateObject),
+  antecedentes: yo(_templateObject2),
   portadaImagen: '/images/galaOcuPortada.jpg',
   generalImagen: '/images/galaOcuGeneral.jpg',
   general: 'La pollera de gala ocueña  es una pollera blanca utilizada para ocasiones especiales. Una de sus características es que no lleva labores corridas (como en Los Santos). Esta pollera puede ser confeccionada en tela de hilo, voile (bual), coquito, linón de motita, seda lisa o estampada, de coquito, tela de colores pasteles y organza bordada o letin bordado (las 2 últimas no son telas tradicionales, su uso es reciente).',
-  descripcion: (0, _yoYo2.default)(_templateObject3),
+  descripcion: yo(_templateObject3),
   joyero: ['zarcillos', 'tapa hueso (dije con cinta negra)', 'cadena chata', 'Cadena bruja (chata abierta) con la flor de guate', 'Cadena guachapalí', 'Rosario', 'Cabestrillo', 'No se utilizan joyas en los brazos.', 'En las manos se utilizan anillos de aro lizo, de corazón o las de manito.'],
   joyeroImagen: '/images/galaOcuJoyero.jpg'
 }, {
@@ -3672,36 +3667,36 @@ module.exports = [{
   region: 'Costa Atlántica',
   dato: 'Danza: Congo',
   miniatura: 'polleraCongoMiniatura.jpg',
-  reseña: (0, _yoYo2.default)(_templateObject4),
-  antecedentes: (0, _yoYo2.default)(_templateObject5),
+  reseña: yo(_templateObject4),
+  antecedentes: yo(_templateObject5),
   portadaImagen: '/images/polleraCongoFull.jpg',
   generalImagen: '/images/polleraCongoGeneral.jpg',
   general: 'Las polleras congo son confeccionadas en telas de diferentes colores lisos y estampados, no existe una limitación en el uso de las telas, estas son del gusto de la dueña de la pollera, o producto de las telas que se tenga a la mano. Una de las pocas características en las que se restrige el uso de un elemento es en el color Rojo. En la cultura congo este color representa al diablo o chamuco y si alguien lo usa está diciendo que tiene algún pacto con él. Pero este personaje no es el que hoy conocemos, el diablo para los congos era el blanco esclavizador la viva representación del mal. Otros datos nos aportan información sobre lo que significa el uso del color rojo en el vestido congo. Se debía a la colaboración de algunos palenques con los blancos, ellos prestaron su ayuda a corsarios ingleses como Francis Drake y a piratas como Henry Morgan para sabotear el comercio colonial español.',
-  descripcion: (0, _yoYo2.default)(_templateObject6)
+  descripcion: yo(_templateObject6)
 }, {
   nombre: 'Pollera De Lujo',
   url: 'Pollera-De-Lujo',
   region: 'Los Santos',
   dato: 'Danza: Cumbia Santeña',
   miniatura: 'PolleraDeLujoMiniatura.jpg',
-  reseña: (0, _yoYo2.default)(_templateObject7),
-  antecedentes: (0, _yoYo2.default)(_templateObject8),
+  reseña: yo(_templateObject7),
+  antecedentes: yo(_templateObject8),
   portadaImagen: '/images/PolleraDeLujoFull.jpg',
   generalImagen: '/images/PolleraDeLujoGeneral.jpg',
   general: 'Es imposible determinar cuál de las polleras existentes de Panamá es mejor, cada una es fruto de la evolución y de las características históricas del pueblo al que pertenecen. Sus rasgos distintivos hacen a cada una de nuestras polleras únicas y dignas de amor y respeto. Por otro lado, las ganas de volver a "las polleras" más comerciales y vistosas han llegado a crear variaciones muy distintas de lo tradicional.',
-  descripcion: (0, _yoYo2.default)(_templateObject9)
+  descripcion: yo(_templateObject9)
 }, {
   nombre: 'La Camisilla',
   url: 'Camisilla',
   region: 'Provincias Centrales',
   dato: 'Danza: Punto',
   miniatura: 'camisillaMiniatura.jpg',
-  reseña: (0, _yoYo2.default)(_templateObject10),
-  antecedentes: (0, _yoYo2.default)(_templateObject11),
+  reseña: yo(_templateObject10),
+  antecedentes: yo(_templateObject11),
   portadaImagen: '/images/camisillaFull.jpg',
   generalImagen: '/images/camisillaGeneral.jpg',
   general: 'Los vestidos típicos de los hombres, no son tan conocidos como los de las mujeres. Existen pocosdatos sobre sus orígenes. En la actualidad podemos apreciar una amplia variedad de modelos endonde se incluyen elementos totalmente novedosos para esta prenda de vestir como, por ejemplo: encajes, bordados, calados, talcos, etc... que son labores usualmente utilizadas en las polleras de gala y en algunas montunas. ',
-  descripcion: (0, _yoYo2.default)(_templateObject12)
+  descripcion: yo(_templateObject12)
 }];
 
 },{"yo-yo":14}]},{},[34]);

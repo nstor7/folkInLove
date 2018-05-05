@@ -27,41 +27,15 @@ app.get('/', function(req, res){
    title: 'Folk in Love - Investigación y Difusión del Folklore de Panamá',
    description: 'En Folk in love nos dedicamos a la investigación, difusión, promoción y conservación del folklore Panameño.',
    keywords: 'folklore panameño, costumbres, tradidiones, panama, orígenes, Panamá',
-   estructurados: 'https://www.folkinlovepty.com/estructurados-inicio'
+   schemaType: 'Article',
+   schemaImages: [
+    "https://folkinlovepty.com/images/trajes-tipicos-panama-banner-full-2x.jpg",
+    "https://folkinlovepty.com/images/moneda-coronada-full.jpg",
+    "https://folkinlovepty.com/images/pollera-gala-ocu-identidad-full.jpg"
+    ],
+   schemaPublished: '2017-10-016T00:00:00+00:00',
+   schemaModified: '2018-05-02T09:20:00+08:00'
  })
-})
-app.get('/estructurados-inicio', function(req, res){
-  res.send(
-    {
-      "@context": "http://schema.org",
-      "@type": "NewsArticle",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://folkinlovepty.com/"
-      },
-      "headline": "Article headline",
-      "image": [
-        "https://folkinlovepty.com/images/trajes-tipicos-panama-banner-full-2x.jpg",
-        "https://folkinlovepty.com/images/moneda-coronada-full.jpg",
-        "https://folkinlovepty.com/images/pollera-gala-ocu-identidad-full.jpg"
-       ],
-      "datePublished": "2017-10-016T00:00:00+00:00",
-      "dateModified": "2018-05-02T09:20:00+08:00",
-      "author": {
-        "@type": "Person",
-        "name": "Cinthia González"
-      },
-       "publisher": {
-        "@type": "Organization",
-        "name": "Folk in Love",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://folkinlovepty.com/images/folkInLove-logo.png"
-        }
-      },
-      "description": "A most wonderful article"
-     }
-  )
 })
 app.get('/contacto', function(req,res){
  res.render('index.pug')
