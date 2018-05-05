@@ -11,7 +11,7 @@ danzas.get('/', function(req, res){
   description: 'Los Bailes típicos de Panamá son uno de los elementos más importantes de la identidad panameña. Clasificación de las danzas folklóricas por región. ',
   keywords: 'Danzas de Panamá, Bailes Típicos, Pasos de Baile',
   schemaType: 'Article',
-  schemaImages:['images/danzas-full.jpg'],
+  schemaImages:['https://www.folkinlovepty.com/images/danzas-full.jpg'],
   schemaPublished: '2017-10-016T00:00:00+00:00',
   schemaModified: '2018-5-05T03:41:00+03:41',
 
