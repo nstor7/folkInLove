@@ -93,9 +93,9 @@ export default [
   subtitulo: 'Talco al Sol',
   descripcion: 'Pollera de gala en técnica del talco al sol con calados y encajes valencianos.',
   miniaturaFull: 'images/pollera-lujo-miniatura-full.jpg',
-  miniaturaCel : 'images/pollera-lujo-miniatura-cell.jpg',
+  miniaturaCel : 'images/pollera-lujo-miniatura-cel.jpg',
   imagenFull: 'images/pollera-lujo-producto-full.jpg',
-  imagenCel: 'images/pollera-lulo-producto-cel.jpg',
+  imagenCel: 'images/pollera-lujo-producto-cel.jpg',
   alt: 'Pollera de Lujo, talco en sol, vestidos tipicos de Panama',
   opciones: [
    {

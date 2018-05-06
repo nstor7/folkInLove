@@ -11,7 +11,7 @@ module.exports = yo`
   </picture>
   <article className="completa negroTrans">
    <hgroup>
-    <h2>Productos y Servicios</h2>
+    <h1>Productos y Servicios Folklóricos</h1>
    </hgroup>
   </article>
  </section>
