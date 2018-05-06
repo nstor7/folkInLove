@@ -34,8 +34,29 @@ module.exports = [
     <p>Los zapatos de la pollera deben ser de pana, cuando no se encuentran los colores en este material se hacen de tela que no tenga brillo.</p>
    </hgroup>
   `,
- joyero: ['zarcillos', 'tapa hueso (dije con cinta negra)', 'cadena chata', 'Cadena bruja (chata abierta) con la flor de guate', 'Cadena guachapalí', 'Rosario', 'Cabestrillo', 'No se utilizan joyas en los brazos.', 'En las manos se utilizan anillos de aro lizo, de corazón o las de manito.' ],
- joyeroImagen: '/images/galaOcuJoyero.jpg'
+ extra: yo`<section>
+  <picture class="dosTercios">
+      <source media="(min-width: 800px)" srcset="images/galaOcuJoyero">
+      <img class="imagen" src="/images/galaOcuJoyero" alt="joyas de ${vestuario.nombre}">
+  </picture>
+  <article class="tercio blanco joyero">
+   <hgroup>
+     <h2>Joyero</h2>
+     <ul>
+      <li>zarcillos</li>
+      <li>tapa hueso (dije con cinta negra)</li>
+      <li>cadena chata</li>
+      <li>Cadena bruja (chata abierta) con la flor de guate</li>
+      <li>Cadena guachapalí</li>
+      <li>Rosario</li>
+      <li>Cabestrillo</li>
+      <li>No se utilizan joyas en los brazos.</li>
+      <li>En las manos se utilizan anillos de aro lizo, de corazón o las de manito.</li>
+     </ul>  
+    </hgroup> 
+  </article>
+</section>
+ `
  },
  {
   nombre: 'Pollera Congo', 

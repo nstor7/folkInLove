@@ -1,25 +1,6 @@
 import yo from 'yo-yo'
-function joyero(vestuario){
-  if(vestuario.joyero){
-    return yo`
-  <section>
-    <picture class="dosTercios">
-      <source media="(min-width: 800px)" srcset="${vestuario.joyeroImagen}">
-      <img class="imagen" src="${vestuario.joyeroImagen}" alt="joyas de ${vestuario.nombre}">
-    </picture>
-    <article class="tercio blanco joyero">
-      <hgroup>
-        <h2>Joyero</h2>
-        <ul>
-         ${vestuario.joyero.map(function(joya){
-           return yo`<li>${joya}</li>`
-         })}
-       </ul>  
-      </hgroup>
-    </article>
-  </section>   
-    `
- }}
+
+   
 module.exports = function(vestuario){
  var el = yo`
   <main itemscope itemtype="http://schema.org/Article">
@@ -48,7 +29,7 @@ module.exports = function(vestuario){
    <section itemprop="articleBody" class="completa texto info blanco">
      ${vestuario.descripcion}
    </section>
-   ${joyero(vestuario)}
+   ${vestuario.extra}
   </main>
  `
  return el
