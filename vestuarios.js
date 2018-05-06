@@ -6,9 +6,11 @@ vestuarios.use(express.static('public'))
 
 vestuarios.get('/', function(req, res){
  res.render('index.pug', {
-   title: 'Folk in Love - Vestuarios',
-   description: 'En Folk in love nos dedicamos a la investigación, difusión, promoción y conservación del folklore Panameño, queremos ofrecer un espacio en donde se pueda encontrar información de calidad respaldada por investigaciones y fuentes confiables que puedan servir de referencia para bailarines, maestros, vestuaristas, estudiantes y amantes del folklore.',
-   keywords: 'Investigación, folklore, folclore, folclor, vestuario, vestido tipico, Costumbres de Panamá, República de Panamá, Colón , Azuero, Cultura, panama, pollera, tembleques,'
+   title: 'Folk in Love - Vestidos Típicos de Panamá',
+   description: 'Los vestidos típicos de Panamá incluyen algunos de los más hermosos del mundo. Los trajes típicos ayudan a reflejar y preservar la identidad de cada región del país.',
+   link: 'https://www.folkinlovepty.com/vestuarios/',
+   images: 'https://www.folkinlovepty.com/images/vestuarios-full.jpg'
+
  })
 })
 vestuarios.get('/:nombre', function(req, res){
