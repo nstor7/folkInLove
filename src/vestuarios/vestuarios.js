@@ -37,7 +37,7 @@ module.exports = [
  extra: yo`<section>
   <picture class="dosTercios">
       <source media="(min-width: 800px)" srcset="images/galaOcuJoyero">
-      <img class="imagen" src="/images/galaOcuJoyero" alt="joyas de ${vestuario.nombre}">
+      <img class="imagen" src="/images/galaOcuJoyero" alt="joyas de La pollera de Gala Ocueña">
   </picture>
   <article class="tercio blanco joyero">
    <hgroup>
