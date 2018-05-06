@@ -24,7 +24,7 @@ tienda.get('/:nombre', function(req, res){
   link: 'https://www.folkinlovepty.com/' + producto.enlace,
   title: 'Folk in Love - ' + producto.nombre,
   description: producto.descripcion,
-  image: 'https://www.folkinlovepty.com/images/' + producto.miniaturaFull,
+  image: 'https://www.folkinlovepty.com/' + producto.miniaturaFull,
   schemaType: 'Article',
   schemaImages:[
    'https://www.folkinlovepty.com/' + producto.imagenFull
