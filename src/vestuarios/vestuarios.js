@@ -9,7 +9,7 @@ module.exports = [
   reseña: yo`<p>Esta hermosa pollera era utilizada por las mujeres solo en ocasiones especiales como por ejemplo en el matrimonio. Hoy en día la representación del Matrimonio campesino es una tradición que se realiza dentro del marco del festival del manito, que además de ser una fiesta del pueblo es una celebración religiosa. Se escoge una vez al año por la suerte a una pareja ocueña para realizar el sacramento en la parroquia de San Sebastián de Ocú.</p>`,
   antecedentes: yo`
    <hgroup>
-    <h2>Antecedentes Históricos</h2>
+    <h2>Historia de la Pollera de Gala Ocueña</h2>
     <p>La provincia de herrera está ubicada en la península de Azuero. Antes de la época precolombina fue habitada por gran cantidad de indígenas.  La conquista de la península de Azuero se inicia en 1515, por órdenes del gobernador de Castilla de Oro, Don Pedrarias Dávila, luego de duras batallas entre indígenas y españoles en 1520 se funda la primera ciudad española en la península "Natá de los Caballeros" este fue uno de los acontecimientos más importantes en la región para la expansión española a pesar del genocidio indígena.  Los primeros pueblos lejos de Nata se formaron por iniciativa de pobladores que creían en la libertad de los indígenas (el español quería volver a esclavizarlos) y por soldados españoles que vinieron a el nuevo mundo sin vocación bélica y con ganas de una segunda oportunidad.</p>
     <p>Aún en el año 1903 cuando Panamá se separa de Colombia y se establece como República, Herrera no estaba constituida como provincia. Bajo la administración del Dr. Belisario Porras, en 1915 se funda definitivamente la provincia de Herrera con capital en la ciudad de Chitré.</p>
     <p>El distrito de Ocú es muy particular ya que no hay indígenas en el área (las guerras con los colonizadores acabaron con gran parte de su población) su población es en su mayoría mestiza.</p>
@@ -22,7 +22,7 @@ module.exports = [
   general: 'La pollera de gala ocueña  es una pollera blanca utilizada para ocasiones especiales. Una de sus características es que no lleva labores corridas (como en Los Santos). Esta pollera puede ser confeccionada en tela de hilo, voile (bual), coquito, linón de motita, seda lisa o estampada, de coquito, tela de colores pasteles y organza bordada o letin bordado (las 2 últimas no son telas tradicionales, su uso es reciente).',
   descripcion: yo`
    <hgroup>
-    <h2>Descripción</h2>
+    <h2>Descripción de la Pollera de Gala Ocueña</h2>
     <p>La camisa y la falda se confeccionan con la misma tela. La camisa está formada por 2 arandelas y mangas terminadas en encajes, se utilizan encajes de tienda no mundillos. </p>
     <p>Se enjareta (poner las lanas a través de la trencilla de enjaretar) de dos maneras: la primera forma es, el enjaretado corrido, que consiste en trazar con lana dos líneas paralelas a través del encaje de enjaretar en el mismo color, la segunda forma es el enjaretado en zigzag, combinando dos colores, el primer color en paralelo (enjaretado corrido) y el otro color traza un zig zag en medio de las dos líneas. Se remata el enjaretado con dos lacitos en frente y atrás con la misma lana utilizada. </p>
     <p>El faldón de la pollera es de 2 tramos, dividido en la mitad con una trencilla de encaje y al final con un peacillo y encajes anchos o de revuelo. </p>
@@ -50,7 +50,7 @@ module.exports = [
    </hgroup>`,
   antecedentes: yo`
    <hgroup>
-    <h2>Antecedentes Históricos</h2>
+    <h2>Historia de la Pollera Congo</h2>
     <p>A pesar de lo que conocemos comúnmente, existe una teoría que brinda pruebas de la presencia de africanos en el continente americano antes de la conquista. Esta postura es defendida por el científico social y escritor de la obra "They Came Before Columbus" (Ellos vinieron antes que Colón) el Dr. Iván Van Sertima, en sus escritos el asegura que el historiador Peter Martyr (1457-1526) describió como unos africanos habían naufragado en un área cerca de la costa de la provincia de Darién y que luego se habían refugiado en las montañas. Martyr describió a los hombres como “piratas etíopes” término que en el pasado hacía referencia al continente africano. Más adelante el historiador y etnólogo Francés Charles de Bourbourg reportó la existencia de dos tribus aborígenes en Panamá, los mandingas (de piel negra) y los Tule (de piel roja), Esta información tiene concordancia con unas figuras indígenas de la cultura "Barriles" enterradas en las montañas de Chiriquí cerca de la frontera con Costa Rica, algunas de ellas resaltaban porque tenían
     
     características de la raza negra como los labios pronunciados y la nariz ancha.</p>
@@ -68,7 +68,7 @@ module.exports = [
   general: 'Las polleras congo son confeccionadas en telas de diferentes colores lisos y estampados, no existe una limitación en el uso de las telas, estas son del gusto de la dueña de la pollera, o producto de las telas que se tenga a la mano. Una de las pocas características en las que se restrige el uso de un elemento es en el color Rojo. En la cultura congo este color representa al diablo o chamuco y si alguien lo usa está diciendo que tiene algún pacto con él. Pero este personaje no es el que hoy conocemos, el diablo para los congos era el blanco esclavizador la viva representación del mal. Otros datos nos aportan información sobre lo que significa el uso del color rojo en el vestido congo. Se debía a la colaboración de algunos palenques con los blancos, ellos prestaron su ayuda a corsarios ingleses como Francis Drake y a piratas como Henry Morgan para sabotear el comercio colonial español.',
   descripcion: yo`
    <hgroup>
-    <h2>Descripción</h2>
+    <h2>Descripción de la Pollera Congo</h2>
     <h3>Pollera de Retazos</h3>
     <p>Es una pollera de dos piezas, camisa y falda. Se combinan diseños lisos y estampados para crear una tela colorida y vistosa, los retazos comúnmente son en forma cuadrada, pero se pueden hacer en la forma que se desee como triángulos o rectángulos.</p>
     <p>La camisa puede ser de una o dos arandelas, puede ser usada sin mangas o con mangas terminadas en una pequeña rucha. Esta camisa se usa por dentro de la falda, si es por fuera se termina la camisa en una rucha o arandela.</p>
@@ -97,7 +97,7 @@ module.exports = [
    </hgroup>`,
   antecedentes: yo`
    <hgroup>
-    <h2>Antecedentes Históricos</h2>
+    <h2>Historia de la Pollera de Lujo Santeña</h2>
     <p>La Pollera de gala Santeña o de Lujo tiene sus orígenes en Europa, es el resultado de la evolución y de una mezcla de culturas. Desde los tembleques con origen chino, peinado francés hasta zarcillos persas, el vestido típico de gala es una joya que ha unido detalles de tantos lugares, convirtiendo esas influencias en lo que nosotros conocemos hoy día como pollera. </p>
     <p>Ciertamente la influencia de nuestro traje típico es europea y al ser territorio español desde donde se embarcaron los navíos a América es fácil hacer la relación directa, pero hay muchos indicadores que permiten dar ejemplos tangibles de los orígenes tan diversos de los elementos que la conforman.  <i>1</i></p>
     <p>En Panamá se tienen datos de las polleras desde el año 1863 gracias a las imágenes captadas por el primer fotógrafo español Rafael Castro Ordoñez, a las polleras centenarias que todavía existen y a los estudios realizados a las telas y encajes. Es muy interesante conocer las menciones que se encuentran en las cartas de los viajes de Cristóbal Colón, más específicamente en su segundo viaje en donde se hace una descripción de las vestimentas que traían las primeras mujeres que llegaron a América resaltando que ellas aclimataron los vestidos al calor del trópico.</p>
@@ -155,7 +155,7 @@ module.exports = [
    </hgroup>`,
   antecedentes: yo`
    <hgroup>
-    <h2>Antecedentes Históricos</h2>
+    <h2>Historia de la Camisilla</h2>
     <p>"No se sabe a ciencia cierta en qué año sé utilizo por primera vez la camisilla, existen referencias de que esta pieza masculina tiene una larga vida de existencia, ya que en la fiesta del Centenario de Chitré en 1948, se exhibió una camisilla con juegos de alforzas y pequeños talcos piramidales en relieve, con cien años de existencia".</p>
     <h3>Dora P. De Zárate</h3>
    </hgroup>

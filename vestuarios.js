@@ -21,9 +21,18 @@ vestuarios.get('/:nombre', function(req, res){
    return vestido.url === req.params.nombre
  })
  res.render('index.pug', {
+  link: 'https://www.folkinlovepty.com/' + vestido.url,
   title: 'Folk in Love - ' + vestido.nombre,
   description: vestido.general.substring(0, 160),
-  keywords: 'Vestidos típicos, pollera, tembleques, matrimonio ocueño, san Sebastián de ocu, herrera, azuero, Pedrarias Dávila, españoles, conquista, nata de los caballeros, republica de panamá chitre, ocu,bual, coquito. Tela, pollera blanca, organza enjaretado, empollerada cadena chata, bruja, guachapali'
+  image: 'https://www.folkinlovepty.com/images/' + vestido.portadaImagen,
+  schemaType: 'Article',
+  schemaImages:[
+    'https://www.folkinlovepty.com/' + vestido.portadaImagen,
+    'https://www.folkinlovepty.com/' + vestido.generalImagen,
+    'https://www.folkinlovepty.com/' + vestido.joyeroImagen
+],
+  schemaPublished: '2017-10-016T00:00:00+00:00',
+  schemaModified: '2018-5-05T03:41:00+03:41'
 })
 })
 

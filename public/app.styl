@@ -142,8 +142,10 @@ main
   hgroup
     width: 90%
 .imagen 
+  height 40vw
   @media(max-width: 800px)
-    height: 80vw
+    width: 100vw
+    height auto
 .texto
   display flex
   justify-content: center
@@ -273,6 +275,8 @@ form
     font-size: 1.5vw
     @media(max-width: 800px)
       font-size: 4.5vw     
+.medianera
+  z-index: -6
 @import '../src/header/index.styl'
 @import '../src/footer/index.styl'
 @import '../src/inicio'

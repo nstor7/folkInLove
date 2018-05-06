@@ -3,7 +3,10 @@ function joyero(vestuario){
   if(vestuario.joyero){
     return yo`
   <section>
-    <article class="dosTercios imagen" style="background: url('${vestuario.joyeroImagen}'); background-size:cover"></article>
+    <picture class="dosTercios">
+      <source media="(min-width: 800px)" srcset="${vestuario.joyeroImagen}">
+      <img class="imagen" src="${vestuario.joyeroImagen}" alt="joyas de ${vestuario.nombre}">
+    </picture>
     <article class="tercio blanco joyero">
       <hgroup>
         <h2>Joyero</h2>
@@ -20,7 +23,11 @@ function joyero(vestuario){
 module.exports = function(vestuario){
  var el = yo`
   <main itemscope itemtype="http://schema.org/Article">
-   <section class="portada" style="background: url('${vestuario.portadaImagen}'); background-size:contain; background-attachment: fixed">
+   <section class="portada">
+    <picture class="banner">
+      <source media="(min-width: 800px)" srcset="${vestuario.portadaImagen}">
+      <img class="completa" src="${vestuario.portadaImagen}" alt="Imagen de portada ${vestuario.nombre}">
+    </picture>
     <article class="mitad rosaTrans">
       <hgroup>
           <h1 itemprop="name">${vestuario.nombre}</h1>
