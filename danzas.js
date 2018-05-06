@@ -24,9 +24,18 @@ danzas.get('/:nombre', function(req, res){
    return baile.url === req.params.nombre
  })
  res.render('index.pug', {
+  link: 'https://www.folkinlovepty.com/' + baile.url,
   title: 'Folk in Love - ' + baile.nombre,
   description: baile.reseña.substring(0, 160),
-  image: 'https://www.folkinlovepty.com/images/' + baile.imagenOpenGraph
+  image: 'https://www.folkinlovepty.com/images/' + baile.imagenOpenGraph,
+  schemaType: 'Article',
+  schemaImages:[
+    'https://www.folkinlovepty.com/' + baile.portadaImagen,
+    'https://www.folkinlovepty.com/' + baile.introImagen,
+    'https://www.folkinlovepty.com/' + baile.pasosImagen
+],
+  schemaPublished: '2017-10-016T00:00:00+00:00',
+  schemaModified: '2018-5-05T03:41:00+03:41'
 })
 })
 
