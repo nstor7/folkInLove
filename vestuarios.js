@@ -9,7 +9,7 @@ vestuarios.get('/', function(req, res){
    title: 'Folk in Love - Vestidos Típicos de Panamá',
    description: 'Los vestidos típicos de Panamá incluyen algunos de los más hermosos del mundo. Los trajes típicos ayudan a reflejar y preservar la identidad de cada región del país.',
    link: 'https://www.folkinlovepty.com/vestuarios/',
-   images: 'https://www.folkinlovepty.com/images/vestuarios-full.jpg'
+   image: 'https://www.folkinlovepty.com/images/vestuarios-full.jpg'
 
  })
 })
