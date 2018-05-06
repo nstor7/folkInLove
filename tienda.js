@@ -9,8 +9,8 @@ tienda.get('/', function(req, res){
   title: 'Tienda Folk in Love: fotografías en vestidos folklóricos, productos tradicionales para comprar o alquilar',
   description: 'Los productos y servicios de Folk in Love están pensados para acercarte al folklore panameño. Queremos hacer posible que tengas una experiencia cercana a las costumbres y tradiciones de nuestro país.',
   schemaType: 'Article',
-  schemaImage: 'images/pollera-lujo-losantos-tienda-portada-full.jpg',
-  image: 'images/pollera-lujo-losantos-tienda-portada-full.jpg',
+  schemaImage: 'https://www.folkinlovepty.com/images/pollera-lujo-losantos-tienda-portada-full.jpg',
+  image: 'https://www.folkinlovepty.com/images/pollera-lujo-losantos-tienda-portada-full.jpg',
   schemaPublished: '2018-5-01T03:41:00+03:41',
   schemaModified: '2018-5-05T03:41:00+03:41'
  })
