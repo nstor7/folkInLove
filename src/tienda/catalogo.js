@@ -1,4 +1,4 @@
-export default [
+module.exports = [
  {
   nombre: 'Sesión de Fotografía',
   enlace: 'fotografia',

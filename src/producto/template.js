@@ -12,13 +12,13 @@ export default function(producto){
   <articulo class="dosTercios productoInfo">
    <h1>${producto.nombre}</h1>
    <h3>${producto.subtitulo}</h3>
-   <h4>Descripción:</h4>
+   <h2>Descripción:</h2>
    <p>${producto.descripcion}</p>
-   <h4>Opciones:</h4>
+   <h2>Opciones:</h2>
    ${producto.opciones.map(function(opcion){
     return yo`
     <div class="opciones">
-     <h2>${opcion.detalle}</h2>
+     <h3>${opcion.detalle}</h3>
      <h4>${opcion.precio.toLocaleString("en-US", {
        style:'currency',
        currency:'USD'

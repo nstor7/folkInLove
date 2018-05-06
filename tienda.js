@@ -1,5 +1,6 @@
 const express = require('express')
 const tienda = express.Router()
+const productos = require('./src/tienda/catalogo')
 
 tienda.use(express.static('public'))
 
@@ -16,7 +17,21 @@ tienda.get('/', function(req, res){
  })
 })
 tienda.get('/:nombre', function(req, res){
- res.render('index.pug')
+ var producto = productos.find(function(producto){
+  return producto.enlace === req.params.nombre
+ })
+ res.render('index.pug', {
+  link: 'https://www.folkinlovepty.com/' + producto.enlace,
+  title: 'Folk in Love - ' + producto.nombre,
+  description: producto.descripcion,
+  image: 'https://www.folkinlovepty.com/images/' + producto.miniaturaFull,
+  schemaType: 'Article',
+  schemaImages:[
+   'https://www.folkinlovepty.com/' + producto.imagenFull
+  ],
+  schemaPublished: '2017-10-016T00:00:00+00:00',
+  schemaModified: '2018-5-05T03:41:00+03:41'
+ })
 })
 
 module.exports = tienda
