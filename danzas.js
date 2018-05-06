@@ -14,7 +14,7 @@ danzas.get('/', function(req, res){
   schemaType: 'Article',
   schemaImages:['https://www.folkinlovepty.com/images/danzas-full.jpg'],
   schemaPublished: '2017-10-016T00:00:00+00:00',
-  schemaModified: '2018-5-05T03:41:00+03:41',
+  schemaModified: '2018-5-05T03:41:00+03:41'
 
   })
 })
