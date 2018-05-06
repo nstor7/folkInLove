@@ -6,7 +6,7 @@ export default function(seccion, articulo){
     <div class="tarjetaImagen" style="background: url('/images/${articulo.miniatura}'); background-size: cover"></div>
     <div class="tarjetaInfo">
      <hgroup>
-      <h2>${articulo.nombre}</h2>
+      <h3>${articulo.nombre}</h3>
       <h4>Región: ${articulo.region}</h4>
       <h4>${articulo.dato}</h4>
      </hgroup>
