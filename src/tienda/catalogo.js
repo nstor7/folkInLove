@@ -65,7 +65,7 @@ module.exports = [
  {
   nombre: 'Pollera Congo',
   enlace: 'pollera-congo',
-  subtitulo: '',
+  subtitulo: 'De Diferentes Clases',
   descripcion: 'Pollera de retazos de tela de vistosos colores.',
   miniaturaFull: 'images/pollera-congo-miniatura-full.jpg',
   miniaturaCel: 'images/pollera-congo-miniatura-cel.jpg',

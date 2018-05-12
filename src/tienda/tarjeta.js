@@ -12,7 +12,7 @@ export default function(producto){
       <h2>${producto.nombre}</h2>
       <h3>${producto.subtitulo}</h3>
       <h4>Descripción: </h4>
-      <p>${producto.descripcion}</p>
+      <p>${producto.descripcion.substring(0, 90)}</p>
      </hgroup>
     </div>
   </a>

@@ -3257,8 +3257,8 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _templateObject = _taggedTemplateLiteral(['\n <section class="completa producto">\n  <articulo class="tercio productoImagenes">\n   <picture>\n    <source media="(min-width: 800px)" srcset="', '">\n    <img src="', '" alt="', '">\n   </picture>\n  </articulo>\n  <articulo class="dosTercios productoInfo">\n   <h1>', '</h1>\n   <h3>', '</h3>\n   <h2>Descripci\xF3n:</h2>\n   <p>', '</p>\n   <h2>Opciones:</h2>\n   ', '\n  </articulo>\n </section>\n'], ['\n <section class="completa producto">\n  <articulo class="tercio productoImagenes">\n   <picture>\n    <source media="(min-width: 800px)" srcset="', '">\n    <img src="', '" alt="', '">\n   </picture>\n  </articulo>\n  <articulo class="dosTercios productoInfo">\n   <h1>', '</h1>\n   <h3>', '</h3>\n   <h2>Descripci\xF3n:</h2>\n   <p>', '</p>\n   <h2>Opciones:</h2>\n   ', '\n  </articulo>\n </section>\n']),
-    _templateObject2 = _taggedTemplateLiteral(['\n    <div class="opciones">\n     <h3>', '</h3>\n     <h4>', '</h4>\n     <p>', '</p>\n    </div>'], ['\n    <div class="opciones">\n     <h3>', '</h3>\n     <h4>', '</h4>\n     <p>', '</p>\n    </div>']);
+var _templateObject = _taggedTemplateLiteral(['\n <section class="completa producto">\n  <articulo class="tercio productoImagenes">\n   <picture>\n    <source media="(min-width: 800px)" srcset="', '">\n    <img src="', '" alt="', '">\n   </picture>\n  </articulo>\n  <articulo class="dosTercios">\n     <div class="productoInfo">\n      <h1>', '</h1>\n      <h3>', '</h3>\n      <h2>Descripci\xF3n:</h2>\n      <p>', '</p>\n      <h2>Opciones:</h2>\n      ', '\n    </div>\n  </articulo>\n  \n </section>\n'], ['\n <section class="completa producto">\n  <articulo class="tercio productoImagenes">\n   <picture>\n    <source media="(min-width: 800px)" srcset="', '">\n    <img src="', '" alt="', '">\n   </picture>\n  </articulo>\n  <articulo class="dosTercios">\n     <div class="productoInfo">\n      <h1>', '</h1>\n      <h3>', '</h3>\n      <h2>Descripci\xF3n:</h2>\n      <p>', '</p>\n      <h2>Opciones:</h2>\n      ', '\n    </div>\n  </articulo>\n  \n </section>\n']),
+    _templateObject2 = _taggedTemplateLiteral(['\n      <div class="opciones">\n       <h4>', '</h3>\n       <h4>', '</h4>\n       <p>', '</p>\n      </div>'], ['\n      <div class="opciones">\n       <h4>', '</h3>\n       <h4>', '</h4>\n       <p>', '</p>\n      </div>']);
 
 exports.default = function (producto) {
   var el = (0, _yoYo2.default)(_templateObject, producto.imagenFull, producto.imagenCel, producto.alt, producto.nombre, producto.subtitulo, producto.descripcion, producto.opciones.map(function (opcion) {
@@ -3338,7 +3338,7 @@ module.exports = [{
 }, {
   nombre: 'Pollera Congo',
   enlace: 'pollera-congo',
-  subtitulo: '',
+  subtitulo: 'De Diferentes Clases',
   descripcion: 'Pollera de retazos de tela de vistosos colores.',
   miniaturaFull: 'images/pollera-congo-miniatura-full.jpg',
   miniaturaCel: 'images/pollera-congo-miniatura-cel.jpg',
@@ -3516,7 +3516,7 @@ Object.defineProperty(exports, "__esModule", {
 var _templateObject = _taggedTemplateLiteral(['\n  <a class="tarjeta tiendaTarjeta" href="', '">\n    <picture>\n      <source media="(min-width: 800px)" srcset="', '">\n      <img src="', '" alt=', ' class="tarjetaImagen">\n    </picture>\n    <div class="tarjetaInfo">\n     <hgroup>\n      <h2>', '</h2>\n      <h3>', '</h3>\n      <h4>Descripci\xF3n: </h4>\n      <p>', '</p>\n     </hgroup>\n    </div>\n  </a>\n '], ['\n  <a class="tarjeta tiendaTarjeta" href="', '">\n    <picture>\n      <source media="(min-width: 800px)" srcset="', '">\n      <img src="', '" alt=', ' class="tarjetaImagen">\n    </picture>\n    <div class="tarjetaInfo">\n     <hgroup>\n      <h2>', '</h2>\n      <h3>', '</h3>\n      <h4>Descripci\xF3n: </h4>\n      <p>', '</p>\n     </hgroup>\n    </div>\n  </a>\n ']);
 
 exports.default = function (producto) {
-  var el = (0, _yoYo2.default)(_templateObject, producto.enlace, producto.miniaturaFull, producto.miniaturaCel, producto.alt, producto.nombre, producto.subtitulo, producto.descripcion);
+  var el = (0, _yoYo2.default)(_templateObject, producto.enlace, producto.miniaturaFull, producto.miniaturaCel, producto.alt, producto.nombre, producto.subtitulo, producto.descripcion.substring(0, 90));
   return el;
 };
 
