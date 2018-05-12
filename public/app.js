@@ -2544,13 +2544,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (imagenes) {
   var el = (0, _yoYo2.default)(_templateObject);
@@ -2575,13 +2571,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 },{"yo-yo":14}],18:[function(require,module,exports){
 'use strict';
@@ -2610,9 +2602,7 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/contacto', _header2.default, _footer2.default, _functions2.default.noScrollFunction, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -2628,13 +2618,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -2665,9 +2651,7 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/confirmacion', _header2.default, _footer2.default, _functions2.default.noScrollFunction, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -2683,13 +2667,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -2720,9 +2700,7 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/error', _header2.default, _footer2.default, _functions2.default.noScrollFunction, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -2738,13 +2716,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -2779,9 +2753,7 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/danzas/:url', _header2.default, _footer2.default, function (ctx, next) {
   var baile = _danzas2.default.find(function (danza) {
@@ -2802,13 +2774,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (danza) {
   var el = (0, _yoYo2.default)(_templateObject, danza.portadaImagen, danza.nombre, danza.reseña, danza.introImagen, danza.intro, danza.descripcion, danza.nombre, danza.pasos.map(function (paso) {
@@ -2824,9 +2792,7 @@ var _templateObject = _taggedTemplateLiteral(['\n   <hgroup>\n    <p><i>\u201CDe
     _templateObject2 = _taggedTemplateLiteral(['\n   <hgroup>\n    <h2>Descripci\xF3n del Punto Sante\xF1o</h2>\n    <p> <b>El punto</b> consta de una serie de pasos (que describiremos a continuaci\xF3n) los cuales se repiten 3 veces <i>"tiempos"</i> en el mismo orden. A cada repetici\xF3n le llamamos tiempos o vueltas musicales. Una de sus caracter\xEDsticas particulares se lleva a cabo durante el zapateo ya que en cada uno (son 3) la pareja bailar\xE1 en una direcci\xF3n diferente. En el primer tiempo la pareja realizar\xE1 el zapateo frente a frente, en el segundo tiempo se dirigir\xE1n hacia los m\xFAsicos (es com\xFAn en los conjuntos folkl\xF3ricos dirigir el zapateo en otra direcci\xF3n cuando no se baila con m\xFAsicos en vivo) y en el \xFAltimo tiempo se dirige hacia el p\xFAblico.</p>\n    <p>Cada paso durante la ejecuci\xF3n del Punto Sante\xF1o no tiene una duraci\xF3n definida, es el cambio de la m\xFAsica la que indicar\xE1 el paso a la siguiente figura.</p>\n    <p>Inicia con <b>El PASEO</b>, es el paso de baile en el que el var\xF3n y la dama describen un amplio c\xEDrculo, ocupando cada uno de los extremos.</p>\n    <p>Al cambio de la m\xFAsica se ejecuta una ca\xEDda y vuelta pasando al <b>ZAPATEO</b> en el cual los bailadores, dependiendo del tiempo lo ejecutan, frente a frente, a la m\xFAsica o al p\xFAblico.</p>\n    <p>En seguida, otro cambio de la m\xFAsica les advierte que deben realizar el tercer movimiento, <b>EL ESCOBILLAO</b>, que separa ampliamente a la pareja y  se ejecuta con r\xE1pidos movimientos de los pies hacia atr\xE1s.</p>\n    <p>Por \xFAltimo, tambi\xE9n a indicaci\xF3n de la m\xFAsica, se realiza una caida y vuelta para pasar a la <b>SEGUIDILLA</b> con la cual la pareja se desplaza acerc\xE1ndose el uno al otro para girar con mucha serenidad y finura en el centro del c\xEDrculo hasta que se indique el cambio y comience con una vuelta paseada el siguiente tiempo con el <b>PASEO</b>.</p>\n    <p>Al finalizar el tercer tiempo, la mujer realiza un medio giro para quedar frente al p\xFAblico en un cierre que puede ser con el parejo arrodillado o de pi\xE9 tapandole el rostro con el sombrero simulando un beso.</p>\n    <p>Es Com\xFAn que al ver a la pareja ejecutar tan hermoso baile los espectadores lancen monedas por el suelo; costumbre que hoy podemos ver en las fiestas cuando las quincea\xF1eras o reinas bailan el punto.</p>\n   </hgroup>\n  '], ['\n   <hgroup>\n    <h2>Descripci\xF3n del Punto Sante\xF1o</h2>\n    <p> <b>El punto</b> consta de una serie de pasos (que describiremos a continuaci\xF3n) los cuales se repiten 3 veces <i>"tiempos"</i> en el mismo orden. A cada repetici\xF3n le llamamos tiempos o vueltas musicales. Una de sus caracter\xEDsticas particulares se lleva a cabo durante el zapateo ya que en cada uno (son 3) la pareja bailar\xE1 en una direcci\xF3n diferente. En el primer tiempo la pareja realizar\xE1 el zapateo frente a frente, en el segundo tiempo se dirigir\xE1n hacia los m\xFAsicos (es com\xFAn en los conjuntos folkl\xF3ricos dirigir el zapateo en otra direcci\xF3n cuando no se baila con m\xFAsicos en vivo) y en el \xFAltimo tiempo se dirige hacia el p\xFAblico.</p>\n    <p>Cada paso durante la ejecuci\xF3n del Punto Sante\xF1o no tiene una duraci\xF3n definida, es el cambio de la m\xFAsica la que indicar\xE1 el paso a la siguiente figura.</p>\n    <p>Inicia con <b>El PASEO</b>, es el paso de baile en el que el var\xF3n y la dama describen un amplio c\xEDrculo, ocupando cada uno de los extremos.</p>\n    <p>Al cambio de la m\xFAsica se ejecuta una ca\xEDda y vuelta pasando al <b>ZAPATEO</b> en el cual los bailadores, dependiendo del tiempo lo ejecutan, frente a frente, a la m\xFAsica o al p\xFAblico.</p>\n    <p>En seguida, otro cambio de la m\xFAsica les advierte que deben realizar el tercer movimiento, <b>EL ESCOBILLAO</b>, que separa ampliamente a la pareja y  se ejecuta con r\xE1pidos movimientos de los pies hacia atr\xE1s.</p>\n    <p>Por \xFAltimo, tambi\xE9n a indicaci\xF3n de la m\xFAsica, se realiza una caida y vuelta para pasar a la <b>SEGUIDILLA</b> con la cual la pareja se desplaza acerc\xE1ndose el uno al otro para girar con mucha serenidad y finura en el centro del c\xEDrculo hasta que se indique el cambio y comience con una vuelta paseada el siguiente tiempo con el <b>PASEO</b>.</p>\n    <p>Al finalizar el tercer tiempo, la mujer realiza un medio giro para quedar frente al p\xFAblico en un cierre que puede ser con el parejo arrodillado o de pi\xE9 tapandole el rostro con el sombrero simulando un beso.</p>\n    <p>Es Com\xFAn que al ver a la pareja ejecutar tan hermoso baile los espectadores lancen monedas por el suelo; costumbre que hoy podemos ver en las fiestas cuando las quincea\xF1eras o reinas bailan el punto.</p>\n   </hgroup>\n  ']),
     _templateObject3 = _taggedTemplateLiteral(['\n  <hgroup>\n   <h2>Referencias Sobre El Punto Sante\xF1o</h2>\n   <ul>\n   <li>Extracto de "EL PUNTO, LA DENESA, EL ATRAVESADO Y OTROS BAILES ORQUESTADOS". Dora P\xE9rez de Z\xE1rate. 198</li>\n   </ul>\n  </hgroup>\n  '], ['\n  <hgroup>\n   <h2>Referencias Sobre El Punto Sante\xF1o</h2>\n   <ul>\n   <li>Extracto de "EL PUNTO, LA DENESA, EL ATRAVESADO Y OTROS BAILES ORQUESTADOS". Dora P\xE9rez de Z\xE1rate. 198</li>\n   </ul>\n  </hgroup>\n  ']);
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 var yo = require('yo-yo');
 
@@ -2874,9 +2840,7 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/danzas', _header2.default, _footer2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -2901,13 +2865,9 @@ var _danzas = require('./danzas');
 
 var _danzas2 = _interopRequireDefault(_danzas);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject, _danzas2.default.map(function (danza) {
   return (0, _tarjeta2.default)('danzas', danza);
@@ -2924,9 +2884,7 @@ var _template = require('./template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 module.exports = function footer(ctx, next) {
   var pie = document.getElementById('footer');
@@ -2943,13 +2901,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -2990,9 +2944,7 @@ var _template = require('./template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 module.exports = function header(ctx, next) {
   var container = document.getElementById('header');
@@ -3013,13 +2965,9 @@ var _functions = require('./functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject, _functions2.default.navegacion, _functions2.default.navegacion, _functions2.default.navegacion, _functions2.default.navegacion, _functions2.default.navegacion, _functions2.default.navegacion);
 
@@ -3030,9 +2978,7 @@ var _page = require('page');
 
 var _page2 = _interopRequireDefault(_page);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('*', function (ctx, next) {
   window.scrollTo(0, 0);
@@ -3064,13 +3010,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 exports.default = (0, _yoYo2.default)(_templateObject);
 
@@ -3083,13 +3025,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -3102,13 +3040,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -3121,13 +3055,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -3158,9 +3088,7 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/', _header2.default, _footer2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -3196,13 +3124,9 @@ var _apoyo = require('./apoyo');
 
 var _apoyo2 = _interopRequireDefault(_apoyo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject, _banner2.default, _about2.default, _identidad2.default, _apoyo2.default);
 
@@ -3237,9 +3161,7 @@ var _catalogo = require('../tienda/catalogo');
 
 var _catalogo2 = _interopRequireDefault(_catalogo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/tienda/:nombre', _header2.default, _footer2.default, _functions2.default.noScrollFunction, function (ctx, next) {
 
@@ -3257,7 +3179,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _templateObject = _taggedTemplateLiteral(['\n <section class="completa producto">\n  <articulo class="tercio productoImagenes">\n   <picture>\n    <source media="(min-width: 800px)" srcset="', '">\n    <img src="', '" alt="', '">\n   </picture>\n  </articulo>\n  <articulo class="dosTercios">\n     <div class="productoInfo">\n      <h1>', '</h1>\n      <h3>', '</h3>\n      <h2>Descripci\xF3n:</h2>\n      <p>', '</p>\n      <h2>Opciones:</h2>\n      ', '\n    </div>\n  </articulo>\n  \n </section>\n'], ['\n <section class="completa producto">\n  <articulo class="tercio productoImagenes">\n   <picture>\n    <source media="(min-width: 800px)" srcset="', '">\n    <img src="', '" alt="', '">\n   </picture>\n  </articulo>\n  <articulo class="dosTercios">\n     <div class="productoInfo">\n      <h1>', '</h1>\n      <h3>', '</h3>\n      <h2>Descripci\xF3n:</h2>\n      <p>', '</p>\n      <h2>Opciones:</h2>\n      ', '\n    </div>\n  </articulo>\n  \n </section>\n']),
+var _templateObject = _taggedTemplateLiteral(['\n <section class="completa producto">\n  <articulo class="tercio productoImagenes">\n   <picture>\n    <source media="(min-width: 800px)" srcset="', '">\n    <img src="', '" alt="', '">\n   </picture>\n  </articulo>\n  <articulo class="dosTercios">\n     <div class="productoInfo">\n      <h1>', '</h1>\n      <h3>', '</h3>\n      <h2>Descripci\xF3n:</h2>\n      <p>', '</p>\n      <h2>Opciones:</h2>\n      ', '\n    </div>\n  </articulo>\n  ', '\n </section>\n'], ['\n <section class="completa producto">\n  <articulo class="tercio productoImagenes">\n   <picture>\n    <source media="(min-width: 800px)" srcset="', '">\n    <img src="', '" alt="', '">\n   </picture>\n  </articulo>\n  <articulo class="dosTercios">\n     <div class="productoInfo">\n      <h1>', '</h1>\n      <h3>', '</h3>\n      <h2>Descripci\xF3n:</h2>\n      <p>', '</p>\n      <h2>Opciones:</h2>\n      ', '\n    </div>\n  </articulo>\n  ', '\n </section>\n']),
     _templateObject2 = _taggedTemplateLiteral(['\n      <div class="opciones">\n       <h4>', '</h3>\n       <h4>', '</h4>\n       <p>', '</p>\n      </div>'], ['\n      <div class="opciones">\n       <h4>', '</h3>\n       <h4>', '</h4>\n       <p>', '</p>\n      </div>']);
 
 exports.default = function (producto) {
@@ -3266,7 +3188,7 @@ exports.default = function (producto) {
       style: 'currency',
       currency: 'USD'
     }), opcion.descripcion);
-  }));
+  }), producto.seccion);
   return el;
 };
 
@@ -3274,13 +3196,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 },{"yo-yo":14}],43:[function(require,module,exports){
 'use strict';
@@ -3494,9 +3412,7 @@ var _template = require('./template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/tienda', _header2.default, _footer2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -3524,13 +3440,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 },{"yo-yo":14}],46:[function(require,module,exports){
 'use strict';
@@ -3549,13 +3461,9 @@ var _tarjeta = require('./tarjeta');
 
 var _tarjeta2 = _interopRequireDefault(_tarjeta);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject, _catalogo2.default.map(function (producto) {
   return (0, _tarjeta2.default)(producto);
@@ -3564,22 +3472,18 @@ module.exports = (0, _yoYo2.default)(_templateObject, _catalogo2.default.map(fun
 },{"./catalogo":43,"./tarjeta":45,"yo-yo":14}],47:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n  <main itemscope itemtype="http://schema.org/Article">\n   <section class="portada">\n    <picture class="banner">\n      <source media="(min-width: 800px)" srcset="', '">\n      <img class="completa" src="', '" alt="Imagen de portada ', '">\n    </picture>\n    <article class="mitad rosaTrans">\n      <hgroup>\n          <h1 itemprop="name">', '</h1>\n          <p itemprop="description">', '</p>\n      </hgroup>\n    </article>\n   </section>\n   <section itemprop="articleBody" className="completa texto info blanco">\n    ', '\n   </section>\n   <section class="completa portada" style="background: url(\'', '\'); background-size:cover; background-attachment: fixed">\n    <article itemprop="articleBody" class="mitad negroTrans texto">\n     <hgroup>\n       <p>', '</p>\n     </hgroup>\n    </article>\n   </section>\n   <section itemprop="articleBody" class="completa texto info blanco">\n     ', '\n   </section>\n   ', '\n  </main>\n '], ['\n  <main itemscope itemtype="http://schema.org/Article">\n   <section class="portada">\n    <picture class="banner">\n      <source media="(min-width: 800px)" srcset="', '">\n      <img class="completa" src="', '" alt="Imagen de portada ', '">\n    </picture>\n    <article class="mitad rosaTrans">\n      <hgroup>\n          <h1 itemprop="name">', '</h1>\n          <p itemprop="description">', '</p>\n      </hgroup>\n    </article>\n   </section>\n   <section itemprop="articleBody" className="completa texto info blanco">\n    ', '\n   </section>\n   <section class="completa portada" style="background: url(\'', '\'); background-size:cover; background-attachment: fixed">\n    <article itemprop="articleBody" class="mitad negroTrans texto">\n     <hgroup>\n       <p>', '</p>\n     </hgroup>\n    </article>\n   </section>\n   <section itemprop="articleBody" class="completa texto info blanco">\n     ', '\n   </section>\n   ', '\n  </main>\n ']);
+var _templateObject = _taggedTemplateLiteral(['\n  <main itemscope itemtype="http://schema.org/Article">\n   <section class="portada">\n    <picture class="banner">\n      <source media="(min-width: 800px)" srcset="', '">\n      <img class="completa" src="', '" alt="Imagen de portada ', '">\n    </picture>\n    <article class="mitad rosaTrans">\n      <hgroup>\n          <h1 itemprop="name">', '</h1>\n          <p itemprop="description">', '</p>\n      </hgroup>\n    </article>\n   </section>\n   <section itemprop="articleBody" className="completa texto info blanco">\n    ', '\n   </section>\n   <section class="completa portada" style="background: url(\'', '\'); background-size:cover; background-attachment: fixed">\n    <article itemprop="articleBody" class="mitad negroTrans texto">\n     <hgroup>\n       <p>', '</p>\n     </hgroup>\n    </article>\n   </section>\n   <section itemprop="articleBody" class="completa texto info blanco">\n     ', '\n   </section>\n   ', '\n   ', '\n  </main>\n '], ['\n  <main itemscope itemtype="http://schema.org/Article">\n   <section class="portada">\n    <picture class="banner">\n      <source media="(min-width: 800px)" srcset="', '">\n      <img class="completa" src="', '" alt="Imagen de portada ', '">\n    </picture>\n    <article class="mitad rosaTrans">\n      <hgroup>\n          <h1 itemprop="name">', '</h1>\n          <p itemprop="description">', '</p>\n      </hgroup>\n    </article>\n   </section>\n   <section itemprop="articleBody" className="completa texto info blanco">\n    ', '\n   </section>\n   <section class="completa portada" style="background: url(\'', '\'); background-size:cover; background-attachment: fixed">\n    <article itemprop="articleBody" class="mitad negroTrans texto">\n     <hgroup>\n       <p>', '</p>\n     </hgroup>\n    </article>\n   </section>\n   <section itemprop="articleBody" class="completa texto info blanco">\n     ', '\n   </section>\n   ', '\n   ', '\n  </main>\n ']);
 
 var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (vestuario) {
-  var el = (0, _yoYo2.default)(_templateObject, vestuario.portadaImagen, vestuario.portadaImagen, vestuario.nombre, vestuario.nombre, vestuario.reseña, vestuario.antecedentes, vestuario.generalImagen, vestuario.general, vestuario.descripcion, vestuario.extra);
+  var el = (0, _yoYo2.default)(_templateObject, vestuario.portadaImagen, vestuario.portadaImagen, vestuario.nombre, vestuario.nombre, vestuario.reseña, vestuario.antecedentes, vestuario.generalImagen, vestuario.general, vestuario.descripcion, vestuario.extra, vestuario.extra2);
   return el;
 };
 
@@ -3614,9 +3518,7 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/vestuarios/:url', _header2.default, _footer2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -3641,13 +3543,9 @@ var _estructura = require('./estructura');
 
 var _estructura2 = _interopRequireDefault(_estructura);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (vestuarios, ident) {
   var el = (0, _yoYo2.default)(_templateObject, vestuarios.map(function (vestuario) {
@@ -3685,9 +3583,7 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/vestuarios', _header2.default, _footer2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -3712,13 +3608,9 @@ var _vestuarios = require('./vestuarios');
 
 var _vestuarios2 = _interopRequireDefault(_vestuarios);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject, _vestuarios2.default.map(function (danza) {
   return (0, _tarjeta2.default)('vestuarios', danza);
@@ -3733,21 +3625,21 @@ var _templateObject = _taggedTemplateLiteral(['<p>Esta hermosa pollera era utili
     _templateObject4 = _taggedTemplateLiteral(['<section>\n  <picture class="dosTercios">\n      <source media="(min-width: 800px)" srcset="images/galaOcuJoyero">\n      <img class="imagen" src="/images/galaOcuJoyero" alt="joyas de La pollera de Gala Ocue\xF1a">\n  </picture>\n  <article class="tercio blanco joyero">\n   <hgroup>\n     <h2>Joyero</h2>\n     <ul>\n      <li>zarcillos</li>\n      <li>tapa hueso (dije con cinta negra)</li>\n      <li>cadena chata</li>\n      <li>Cadena bruja (chata abierta) con la flor de guate</li>\n      <li>Cadena guachapal\xED</li>\n      <li>Rosario</li>\n      <li>Cabestrillo</li>\n      <li>No se utilizan joyas en los brazos.</li>\n      <li>En las manos se utilizan anillos de aro lizo, de coraz\xF3n o las de manito.</li>\n     </ul>  \n    </hgroup> \n  </article>\n</section>\n '], ['<section>\n  <picture class="dosTercios">\n      <source media="(min-width: 800px)" srcset="images/galaOcuJoyero">\n      <img class="imagen" src="/images/galaOcuJoyero" alt="joyas de La pollera de Gala Ocue\xF1a">\n  </picture>\n  <article class="tercio blanco joyero">\n   <hgroup>\n     <h2>Joyero</h2>\n     <ul>\n      <li>zarcillos</li>\n      <li>tapa hueso (dije con cinta negra)</li>\n      <li>cadena chata</li>\n      <li>Cadena bruja (chata abierta) con la flor de guate</li>\n      <li>Cadena guachapal\xED</li>\n      <li>Rosario</li>\n      <li>Cabestrillo</li>\n      <li>No se utilizan joyas en los brazos.</li>\n      <li>En las manos se utilizan anillos de aro lizo, de coraz\xF3n o las de manito.</li>\n     </ul>  \n    </hgroup> \n  </article>\n</section>\n ']),
     _templateObject5 = _taggedTemplateLiteral(['\n   <hgroup>\n    <p>El Congo es una <b>cultura</b>, g\xE9nero musical y baile Afro-colonial que se caracteriza por ser alegre y sensual, es ejecutado por hombres y mujeres al ritmo de cantos y tambor.</p>\n    <p>Sus vistosas y coloridas <b>polleras</b> est\xE1n cargadas de <b>polleras</b>. Nos hablan de la fortaleza de un pueblo y de su lucha por la libertad.</p>\n   </hgroup>'], ['\n   <hgroup>\n    <p>El Congo es una <b>cultura</b>, g\xE9nero musical y baile Afro-colonial que se caracteriza por ser alegre y sensual, es ejecutado por hombres y mujeres al ritmo de cantos y tambor.</p>\n    <p>Sus vistosas y coloridas <b>polleras</b> est\xE1n cargadas de <b>polleras</b>. Nos hablan de la fortaleza de un pueblo y de su lucha por la libertad.</p>\n   </hgroup>']),
     _templateObject6 = _taggedTemplateLiteral(['\n   <hgroup>\n    <h2>Historia de la Pollera Congo</h2>\n    <p>A pesar de lo que conocemos com\xFAnmente, existe una teor\xEDa que brinda pruebas de la presencia de africanos en el continente americano antes de la conquista. Esta postura es defendida por el cient\xEDfico social y escritor de la obra "They Came Before Columbus" (Ellos vinieron antes que Col\xF3n) el Dr. Iv\xE1n Van Sertima, en sus escritos el asegura que el historiador Peter Martyr (1457-1526) describi\xF3 como unos africanos hab\xEDan naufragado en un \xE1rea cerca de la costa de la provincia de Dari\xE9n y que luego se hab\xEDan refugiado en las monta\xF1as. Martyr describi\xF3 a los hombres como \u201Cpiratas et\xEDopes\u201D t\xE9rmino que en el pasado hac\xEDa referencia al continente africano. M\xE1s adelante el historiador y etn\xF3logo Franc\xE9s Charles de Bourbourg report\xF3 la existencia de dos tribus abor\xEDgenes en Panam\xE1, los mandingas (de piel negra) y los Tule (de piel roja), Esta informaci\xF3n tiene concordancia con unas figuras ind\xEDgenas de la cultura "Barriles" enterradas en las monta\xF1as de Chiriqu\xED cerca de la frontera con Costa Rica, algunas de ellas resaltaban porque ten\xEDan\n    \n    caracter\xEDsticas de la raza negra como los labios pronunciados y la nariz ancha.</p>\n    <p> <b>La historia</b> m\xE1s conocida nos confirma la llegada de negros como esclavos a Am\xE9rica durante la conquista. Hombres y mujeres fueron tra\xEDdos a la fuerza desde el continente africano, api\xF1ados en barcos en condiciones inhumanas. <b>Los negros esclavos</b> eran considerados propiedad de sus amos y pod\xEDan ser comprados y vendidos, no hab\xEDa ning\xFAn derecho que les permitiera defenderse as\xED que algunos eran marcados o mutilados para impedir que se fugaran.</p>\n    <p>Podemos pensar, \xBFpor qu\xE9 traer a personas desde tan lejos para trabajar en Am\xE9rica?</p>\n    <p>Esta es la raz\xF3n: Antes del descubrimiento de Am\xE9rica ya se hab\xEDa dictado una ley para evitar la esclavitud en los territorios conquistados.</p>\n    <p>Tras la llegada a Am\xE9rica en 1492, se produjo una de las atrocidades m\xE1s grandes de la historia, el genocidio ind\xEDgena producto de las guerras de la conquista y a\xFAn con las leyes establecidas (era muy dif\xEDcil hacerlas cumplir tan lejos de Espa\xF1a) se daban el comercio de indios como esclavos, ya para este momento en muchas zonas de Am\xE9rica no quedaban muchos ind\xEDgenas por la guerra y por las epidemias tra\xEDdas por los espa\xF1oles. La demanda de mano de obra sigui\xF3 creciendo hasta que el padre Fray Bartolom\xE9 de las casas propuso reemplazar a los ind\xEDgenas por negros africanos y es de esta manera que se inicia la esclavitud en Am\xE9rica con el primer cargamento de negros en 1518, proceso que durar\xEDa hasta 1880.</p>\n    <p>Adem\xE1s de los beneficios en Am\xE9rica, los monarcas espa\xF1oles lograron sacar muchos beneficios a costar de vender licencias para permitir traer esclavos negros a Am\xE9rica, con las siguientes cifras podemos darnos una idea de lo que representaba en ganancias el comercio de esclavos, cada una de estas licencias costaba 8 ducados (moneda de oro antigua) y en el siglo XVI se concedieron en Espa\xF1a m\xE1s de 120.000 licencias.</p>\n    <p>En el a\xF1o 1548 <b>En Panam\xE1</b> se registra la primera fuga de esclavos. Los negros que se rebelaron contra la opresi\xF3n espa\xF1ola se refugiaron en las monta\xF1as y es est\xE9 hecho el que inicia el cimarronaje.</p>\n    <p>Los primeros dos grupos que lograron escapar fueron liderados por <b>Bayano y Felipillo</b> Bayano y Felipillo, dos esclavos que tuvieron un rol muy importante durante la conquista.</p>\n   </hgroup>\n  '], ['\n   <hgroup>\n    <h2>Historia de la Pollera Congo</h2>\n    <p>A pesar de lo que conocemos com\xFAnmente, existe una teor\xEDa que brinda pruebas de la presencia de africanos en el continente americano antes de la conquista. Esta postura es defendida por el cient\xEDfico social y escritor de la obra "They Came Before Columbus" (Ellos vinieron antes que Col\xF3n) el Dr. Iv\xE1n Van Sertima, en sus escritos el asegura que el historiador Peter Martyr (1457-1526) describi\xF3 como unos africanos hab\xEDan naufragado en un \xE1rea cerca de la costa de la provincia de Dari\xE9n y que luego se hab\xEDan refugiado en las monta\xF1as. Martyr describi\xF3 a los hombres como \u201Cpiratas et\xEDopes\u201D t\xE9rmino que en el pasado hac\xEDa referencia al continente africano. M\xE1s adelante el historiador y etn\xF3logo Franc\xE9s Charles de Bourbourg report\xF3 la existencia de dos tribus abor\xEDgenes en Panam\xE1, los mandingas (de piel negra) y los Tule (de piel roja), Esta informaci\xF3n tiene concordancia con unas figuras ind\xEDgenas de la cultura "Barriles" enterradas en las monta\xF1as de Chiriqu\xED cerca de la frontera con Costa Rica, algunas de ellas resaltaban porque ten\xEDan\n    \n    caracter\xEDsticas de la raza negra como los labios pronunciados y la nariz ancha.</p>\n    <p> <b>La historia</b> m\xE1s conocida nos confirma la llegada de negros como esclavos a Am\xE9rica durante la conquista. Hombres y mujeres fueron tra\xEDdos a la fuerza desde el continente africano, api\xF1ados en barcos en condiciones inhumanas. <b>Los negros esclavos</b> eran considerados propiedad de sus amos y pod\xEDan ser comprados y vendidos, no hab\xEDa ning\xFAn derecho que les permitiera defenderse as\xED que algunos eran marcados o mutilados para impedir que se fugaran.</p>\n    <p>Podemos pensar, \xBFpor qu\xE9 traer a personas desde tan lejos para trabajar en Am\xE9rica?</p>\n    <p>Esta es la raz\xF3n: Antes del descubrimiento de Am\xE9rica ya se hab\xEDa dictado una ley para evitar la esclavitud en los territorios conquistados.</p>\n    <p>Tras la llegada a Am\xE9rica en 1492, se produjo una de las atrocidades m\xE1s grandes de la historia, el genocidio ind\xEDgena producto de las guerras de la conquista y a\xFAn con las leyes establecidas (era muy dif\xEDcil hacerlas cumplir tan lejos de Espa\xF1a) se daban el comercio de indios como esclavos, ya para este momento en muchas zonas de Am\xE9rica no quedaban muchos ind\xEDgenas por la guerra y por las epidemias tra\xEDdas por los espa\xF1oles. La demanda de mano de obra sigui\xF3 creciendo hasta que el padre Fray Bartolom\xE9 de las casas propuso reemplazar a los ind\xEDgenas por negros africanos y es de esta manera que se inicia la esclavitud en Am\xE9rica con el primer cargamento de negros en 1518, proceso que durar\xEDa hasta 1880.</p>\n    <p>Adem\xE1s de los beneficios en Am\xE9rica, los monarcas espa\xF1oles lograron sacar muchos beneficios a costar de vender licencias para permitir traer esclavos negros a Am\xE9rica, con las siguientes cifras podemos darnos una idea de lo que representaba en ganancias el comercio de esclavos, cada una de estas licencias costaba 8 ducados (moneda de oro antigua) y en el siglo XVI se concedieron en Espa\xF1a m\xE1s de 120.000 licencias.</p>\n    <p>En el a\xF1o 1548 <b>En Panam\xE1</b> se registra la primera fuga de esclavos. Los negros que se rebelaron contra la opresi\xF3n espa\xF1ola se refugiaron en las monta\xF1as y es est\xE9 hecho el que inicia el cimarronaje.</p>\n    <p>Los primeros dos grupos que lograron escapar fueron liderados por <b>Bayano y Felipillo</b> Bayano y Felipillo, dos esclavos que tuvieron un rol muy importante durante la conquista.</p>\n   </hgroup>\n  ']),
-    _templateObject7 = _taggedTemplateLiteral(['\n   <hgroup>\n    <h2>Descripci\xF3n de la Pollera Congo</h2>\n    <h3>Pollera de Retazos</h3>\n    <p>Es una <b>pollera</b> de dos piezas, camisa y falda. Se combinan dise\xF1os lisos y estampados para crear una tela colorida y vistosa, los retazos com\xFAnmente son en forma cuadrada, pero se pueden hacer en la forma que se desee como tri\xE1ngulos o rect\xE1ngulos.</p>\n    <p>La camisa puede ser de una o dos arandelas, puede ser usada sin mangas o con mangas terminadas en una peque\xF1a rucha. Esta camisa se usa por dentro de la falda, si es por fuera se termina la camisa en una rucha o arandela.</p>\n    <p>El poller\xF3n, tambi\xE9n hecho de retazos, puede ser de dos o tres tramos.</p>\n    <p>Por debajo de la falda en algunos palenques se usa un peticote muy sencillo y en otros el uso de esta prenda es exclusiva de la reina, las dem\xE1s usan una especie de ropa interior llamada pantaleta o petipan que llega m\xE1s o menos hasta la rodilla.</p>\n    <p>Tambi\xE9n se usan unas bolsas llamadas Chupas o Chumpas.</p>\n    <p>El cabello se puede llevar de diferentes maneras, porque hay cabellos y peinados muy diversos, desde corto muy rizados hasta largo y liso. Si es largo se puede llevar de manera muy tradicional con partidura a la mitad y dos trenzas, con las puntas amarradas con tiritas de trapos.</p>\n    <p>Para adornar la cabeza se usan flores, tradicionalmente la flor del congo llamada Ca\xF1itolendo que es una flor silvestre que se encuentra a lo largo de la costa arriba y costa abajo, puede decirse que es un tembleque natural.</p>\n    <p>Una de las caracter\xEDsticas del arreglo de la cabeza es que a pesar de que se hace una partidura en el centro de la cabellera y se hacen dos tortas o una hacia atr\xE1s de la cabeza las flores deben ocupar toda la parte trasera de la cabeza, dejando al descubierto la parte de arriba de la cabeza, pero no la partidura de la parte de atr\xE1s como es tradicional en la pollera sante\xF1a</p>\n    <p>Sus accesorios son collares son de cuentas, conchas y caracoles.</p>\n    <p>Este vestido no utiliza zapatos y se dice que es por la relaci\xF3n del negro con la tierra.</p>\n    <p>La cultura congo es matriarcal, la reina congo puede usar lo que ella desee, aunque com\xFAnmente usa una pollera de color blanco y una corona alta. Con flores y cintas de colores que le caen sobre la espalda.</p>\n   </hgroup>\n  '], ['\n   <hgroup>\n    <h2>Descripci\xF3n de la Pollera Congo</h2>\n    <h3>Pollera de Retazos</h3>\n    <p>Es una <b>pollera</b> de dos piezas, camisa y falda. Se combinan dise\xF1os lisos y estampados para crear una tela colorida y vistosa, los retazos com\xFAnmente son en forma cuadrada, pero se pueden hacer en la forma que se desee como tri\xE1ngulos o rect\xE1ngulos.</p>\n    <p>La camisa puede ser de una o dos arandelas, puede ser usada sin mangas o con mangas terminadas en una peque\xF1a rucha. Esta camisa se usa por dentro de la falda, si es por fuera se termina la camisa en una rucha o arandela.</p>\n    <p>El poller\xF3n, tambi\xE9n hecho de retazos, puede ser de dos o tres tramos.</p>\n    <p>Por debajo de la falda en algunos palenques se usa un peticote muy sencillo y en otros el uso de esta prenda es exclusiva de la reina, las dem\xE1s usan una especie de ropa interior llamada pantaleta o petipan que llega m\xE1s o menos hasta la rodilla.</p>\n    <p>Tambi\xE9n se usan unas bolsas llamadas Chupas o Chumpas.</p>\n    <p>El cabello se puede llevar de diferentes maneras, porque hay cabellos y peinados muy diversos, desde corto muy rizados hasta largo y liso. Si es largo se puede llevar de manera muy tradicional con partidura a la mitad y dos trenzas, con las puntas amarradas con tiritas de trapos.</p>\n    <p>Para adornar la cabeza se usan flores, tradicionalmente la flor del congo llamada Ca\xF1itolendo que es una flor silvestre que se encuentra a lo largo de la costa arriba y costa abajo, puede decirse que es un tembleque natural.</p>\n    <p>Una de las caracter\xEDsticas del arreglo de la cabeza es que a pesar de que se hace una partidura en el centro de la cabellera y se hacen dos tortas o una hacia atr\xE1s de la cabeza las flores deben ocupar toda la parte trasera de la cabeza, dejando al descubierto la parte de arriba de la cabeza, pero no la partidura de la parte de atr\xE1s como es tradicional en la pollera sante\xF1a</p>\n    <p>Sus accesorios son collares son de cuentas, conchas y caracoles.</p>\n    <p>Este vestido no utiliza zapatos y se dice que es por la relaci\xF3n del negro con la tierra.</p>\n    <p>La cultura congo es matriarcal, la reina congo puede usar lo que ella desee, aunque com\xFAnmente usa una pollera de color blanco y una corona alta. Con flores y cintas de colores que le caen sobre la espalda.</p>\n   </hgroup>\n  ']),
-    _templateObject8 = _taggedTemplateLiteral(['\n  <section>\n   <article class="completa blanco clasificacion">\n    <hgroup class="blogStyle">\n     <h2>Clasificaci\xF3n de la Pollera Congo</h2>\n     <p>En <b>Col\xF3n</b> podemos encontrar una gran variante de <b>polleras</b>, entre las que podemos encontrar:</p>\n     <h3>La Pollera Estampada</h3>\n     <p>Este <b>vestido t\xEDpico</b> consiste en una camisa de una sola arandela y falda de tres tramos. Su caracter\xEDstica principal es que la tela que se usa para la falda y la camisa es de una sola clase puede ser zaraza o de flores. El cuerpo de la camisa puede ser de otro color.</p>\n     <h3>La Pollera de Metidos</h3>\n     <p><b>Traje t\xEDpico</b> tambi\xE9n consiste en una camisa de una sola arandela y falda de tres tramos, pero su caracteristica principal es que en la falda uno de los tramos es de una tela distinta al resto. Se combinan una tela estampada y una lisa.</p>\n     <p>En el fald\xF3n de tres tramos se pueden utilizar dos combinaciones.</p>\n     <ul>\n      <li>Estampado - tela lisa - estampado</li>\n      <li>tela lisa - estampado - tela lisa</li>\n     </ul>\n     <h3>La Pollera de Retazos</h3>\n     <h3>La Pollera Cachimba o Tambor Mayor de Portobelo</h3>\n     <h3>El Pil\xF3n Portobele\xF1o</h3>\n     <p>Esta <b>pollera</b> consiste en una camisa de mangas con volantes al final y arandela en la cintura. El cuerpo de la camisa es de tela de un solo color y las arandelas son de tela estampada. Comunmente flores o zaraza.</p>\n     <p>El fald\xF3n es de tres tramos iguales y se utiliza la tela estampada o de flores que se utiliz\xF3 en los volantes de la camisa.</p>\n     <h3>La Pollera de Tramos Combinados</h3>\n     <h3>Pollera de Parches</h3>\n     <p>Este <b>vestido folkl\xF3rico</b> consiste en una camisa de una sola arandela y falda de tres tramos. Su nombre proviene de tener parches cuadrados en varias partes. Su confecci\xF3n es similar a la pollera estampada, pero se origin\xF3 por el hecho de que las polleras se romp\xEDan o se hac\xEDan agujeros y las damas las remendaban con estos parches. A pesar de que hoy en d\xEDa es com\xFAn confeccionarlas con parches su origen es muy\n\n      interesante y se demuestra la creatividad de las mujeres.</p>\n      <p>Hemos utilizado la clasificaci\xF3n del profesor Ernesto Polanco</p>\n    </hgroup>\n   </article>\n  </section>\n  '], ['\n  <section>\n   <article class="completa blanco clasificacion">\n    <hgroup class="blogStyle">\n     <h2>Clasificaci\xF3n de la Pollera Congo</h2>\n     <p>En <b>Col\xF3n</b> podemos encontrar una gran variante de <b>polleras</b>, entre las que podemos encontrar:</p>\n     <h3>La Pollera Estampada</h3>\n     <p>Este <b>vestido t\xEDpico</b> consiste en una camisa de una sola arandela y falda de tres tramos. Su caracter\xEDstica principal es que la tela que se usa para la falda y la camisa es de una sola clase puede ser zaraza o de flores. El cuerpo de la camisa puede ser de otro color.</p>\n     <h3>La Pollera de Metidos</h3>\n     <p><b>Traje t\xEDpico</b> tambi\xE9n consiste en una camisa de una sola arandela y falda de tres tramos, pero su caracteristica principal es que en la falda uno de los tramos es de una tela distinta al resto. Se combinan una tela estampada y una lisa.</p>\n     <p>En el fald\xF3n de tres tramos se pueden utilizar dos combinaciones.</p>\n     <ul>\n      <li>Estampado - tela lisa - estampado</li>\n      <li>tela lisa - estampado - tela lisa</li>\n     </ul>\n     <h3>La Pollera de Retazos</h3>\n     <h3>La Pollera Cachimba o Tambor Mayor de Portobelo</h3>\n     <h3>El Pil\xF3n Portobele\xF1o</h3>\n     <p>Esta <b>pollera</b> consiste en una camisa de mangas con volantes al final y arandela en la cintura. El cuerpo de la camisa es de tela de un solo color y las arandelas son de tela estampada. Comunmente flores o zaraza.</p>\n     <p>El fald\xF3n es de tres tramos iguales y se utiliza la tela estampada o de flores que se utiliz\xF3 en los volantes de la camisa.</p>\n     <h3>La Pollera de Tramos Combinados</h3>\n     <h3>Pollera de Parches</h3>\n     <p>Este <b>vestido folkl\xF3rico</b> consiste en una camisa de una sola arandela y falda de tres tramos. Su nombre proviene de tener parches cuadrados en varias partes. Su confecci\xF3n es similar a la pollera estampada, pero se origin\xF3 por el hecho de que las polleras se romp\xEDan o se hac\xEDan agujeros y las damas las remendaban con estos parches. A pesar de que hoy en d\xEDa es com\xFAn confeccionarlas con parches su origen es muy\n\n      interesante y se demuestra la creatividad de las mujeres.</p>\n      <p>Hemos utilizado la clasificaci\xF3n del profesor Ernesto Polanco</p>\n    </hgroup>\n   </article>\n  </section>\n  ']),
-    _templateObject9 = _taggedTemplateLiteral(['\n   <hgroup>\n    <p>La pollera de Gala es el vestido t\xEDpico m\xE1s lujoso y conocido de Panam\xE1. el trabajo artesanal que es utilizado para su confecci\xF3n lo hace una pieza digna de colecci\xF3n. </p>\n    <p>La pollera de lujo era el vestido utilizado por las mujeres paname\xF1as en las fiestas m\xE1s importantes como por ejemplo en los d\xEDas patrios y en carnavales.</p>\n   </hgroup>'], ['\n   <hgroup>\n    <p>La pollera de Gala es el vestido t\xEDpico m\xE1s lujoso y conocido de Panam\xE1. el trabajo artesanal que es utilizado para su confecci\xF3n lo hace una pieza digna de colecci\xF3n. </p>\n    <p>La pollera de lujo era el vestido utilizado por las mujeres paname\xF1as en las fiestas m\xE1s importantes como por ejemplo en los d\xEDas patrios y en carnavales.</p>\n   </hgroup>']),
-    _templateObject10 = _taggedTemplateLiteral(['\n   <hgroup>\n    <h2>Historia de la Pollera de Lujo Sante\xF1a</h2>\n    <p>La Pollera de gala Sante\xF1a o de Lujo tiene sus or\xEDgenes en Europa, es el resultado de la evoluci\xF3n y de una mezcla de culturas. Desde los tembleques con origen chino, peinado franc\xE9s hasta zarcillos persas, el vestido t\xEDpico de gala es una joya que ha unido detalles de tantos lugares, convirtiendo esas influencias en lo que nosotros conocemos hoy d\xEDa como pollera. </p>\n    <p>Ciertamente la influencia de nuestro traje t\xEDpico es europea y al ser territorio espa\xF1ol desde donde se embarcaron los nav\xEDos a Am\xE9rica es f\xE1cil hacer la relaci\xF3n directa, pero hay muchos indicadores que permiten dar ejemplos tangibles de los or\xEDgenes tan diversos de los elementos que la conforman.  <i>1</i></p>\n    <p>En Panam\xE1 se tienen datos de las polleras desde el a\xF1o 1863 gracias a las im\xE1genes captadas por el primer fot\xF3grafo espa\xF1ol Rafael Castro Ordo\xF1ez, a las polleras centenarias que todav\xEDa existen y a los estudios realizados a las telas y encajes. Es muy interesante conocer las menciones que se encuentran en las cartas de los viajes de Crist\xF3bal Col\xF3n, m\xE1s espec\xEDficamente en su segundo viaje en donde se hace una descripci\xF3n de las vestimentas que tra\xEDan las primeras mujeres que llegaron a Am\xE9rica resaltando que ellas aclimataron los vestidos al calor del tr\xF3pico.</p>\n    <p>La pollera de lujo es el vestido t\xEDpico que representa a la provincia de Los Santos y ha sido adoptada por las personas de la capital con ciertas modificaciones como por ejemplo utilizar la Mosqueta sobre la "mota" o pom pom y tembleques con gusanillos dorados.</p>\n    <p>En el Club Uni\xF3n las chicas de la alta sociedad retomaron el uso de este hermoso traje t\xEDpico para carnavales y d\xEDas patrios. Se tienen datos que afirman que en ocasiones ellas no usaban la partidura en medio y se empolleraban hasta con flequillo. Otro dato interesante es que utilizaban la camisa de la pollera caida sobre los hombros. </p>\n    <p>Ramona "La Trona" Lefevre fue una dama amante de la pollera que sobresali\xF3 gracias a su amor por el traje t\xEDpico y a su poder adquisitivo lo que le permiti\xF3 tener una colecci\xF3n de 19 polleras y uno de los joyeros m\xE1s grandes y lujosos de la capital. Ella implement\xF3 elementos y los impuso como una nueva moda, como, por ejemplo: el uso del peinet\xF3n, el uso de muchas cadenas y el aumento en el tama\xF1o de las labores de la pollera.</p>\n    <p>Otra persona muy sobresaliente en la evoluci\xF3n de la pollera fue el sr Edgardo de Le\xF3n Madariaga un folklorista y artesano, responsable de un cambio est\xE9tico importante en la pollera, incluy\xF3 mayor vuelo en la falda e introdujo las polleras policromadas y degradaciones "matizado". Lleg\xF3 a utilizar hasta 20 colores en las labores de sus dise\xF1os. </p>\n    <p>Otra dama muy importante fue Elia Charpentier la primera \u201CDama nacional de la pollera\u201D ella fue la responsable del aumento en el tama\xF1o de las monedas coronadas y hasta les incrust\xF3 esmeraldas, aument\xF3 el tama\xF1o del peinet\xF3n, revivi\xF3 el uso del tost\xF3n y lleg\xF3 a utilizar todos los tembleques de oro y perlas. </p>\n    <h4>1. recomendamos las charlas del Sr. Eduardo Cano que nos brinda una nueva teor\xEDa sobre el origen de la pollera, esta teor\xEDa es el resultado de muchos a\xF1os de estudio tanto a nivel nacional como internacional.</h4>\n   </hgroup>\n  '], ['\n   <hgroup>\n    <h2>Historia de la Pollera de Lujo Sante\xF1a</h2>\n    <p>La Pollera de gala Sante\xF1a o de Lujo tiene sus or\xEDgenes en Europa, es el resultado de la evoluci\xF3n y de una mezcla de culturas. Desde los tembleques con origen chino, peinado franc\xE9s hasta zarcillos persas, el vestido t\xEDpico de gala es una joya que ha unido detalles de tantos lugares, convirtiendo esas influencias en lo que nosotros conocemos hoy d\xEDa como pollera. </p>\n    <p>Ciertamente la influencia de nuestro traje t\xEDpico es europea y al ser territorio espa\xF1ol desde donde se embarcaron los nav\xEDos a Am\xE9rica es f\xE1cil hacer la relaci\xF3n directa, pero hay muchos indicadores que permiten dar ejemplos tangibles de los or\xEDgenes tan diversos de los elementos que la conforman.  <i>1</i></p>\n    <p>En Panam\xE1 se tienen datos de las polleras desde el a\xF1o 1863 gracias a las im\xE1genes captadas por el primer fot\xF3grafo espa\xF1ol Rafael Castro Ordo\xF1ez, a las polleras centenarias que todav\xEDa existen y a los estudios realizados a las telas y encajes. Es muy interesante conocer las menciones que se encuentran en las cartas de los viajes de Crist\xF3bal Col\xF3n, m\xE1s espec\xEDficamente en su segundo viaje en donde se hace una descripci\xF3n de las vestimentas que tra\xEDan las primeras mujeres que llegaron a Am\xE9rica resaltando que ellas aclimataron los vestidos al calor del tr\xF3pico.</p>\n    <p>La pollera de lujo es el vestido t\xEDpico que representa a la provincia de Los Santos y ha sido adoptada por las personas de la capital con ciertas modificaciones como por ejemplo utilizar la Mosqueta sobre la "mota" o pom pom y tembleques con gusanillos dorados.</p>\n    <p>En el Club Uni\xF3n las chicas de la alta sociedad retomaron el uso de este hermoso traje t\xEDpico para carnavales y d\xEDas patrios. Se tienen datos que afirman que en ocasiones ellas no usaban la partidura en medio y se empolleraban hasta con flequillo. Otro dato interesante es que utilizaban la camisa de la pollera caida sobre los hombros. </p>\n    <p>Ramona "La Trona" Lefevre fue una dama amante de la pollera que sobresali\xF3 gracias a su amor por el traje t\xEDpico y a su poder adquisitivo lo que le permiti\xF3 tener una colecci\xF3n de 19 polleras y uno de los joyeros m\xE1s grandes y lujosos de la capital. Ella implement\xF3 elementos y los impuso como una nueva moda, como, por ejemplo: el uso del peinet\xF3n, el uso de muchas cadenas y el aumento en el tama\xF1o de las labores de la pollera.</p>\n    <p>Otra persona muy sobresaliente en la evoluci\xF3n de la pollera fue el sr Edgardo de Le\xF3n Madariaga un folklorista y artesano, responsable de un cambio est\xE9tico importante en la pollera, incluy\xF3 mayor vuelo en la falda e introdujo las polleras policromadas y degradaciones "matizado". Lleg\xF3 a utilizar hasta 20 colores en las labores de sus dise\xF1os. </p>\n    <p>Otra dama muy importante fue Elia Charpentier la primera \u201CDama nacional de la pollera\u201D ella fue la responsable del aumento en el tama\xF1o de las monedas coronadas y hasta les incrust\xF3 esmeraldas, aument\xF3 el tama\xF1o del peinet\xF3n, revivi\xF3 el uso del tost\xF3n y lleg\xF3 a utilizar todos los tembleques de oro y perlas. </p>\n    <h4>1. recomendamos las charlas del Sr. Eduardo Cano que nos brinda una nueva teor\xEDa sobre el origen de la pollera, esta teor\xEDa es el resultado de muchos a\xF1os de estudio tanto a nivel nacional como internacional.</h4>\n   </hgroup>\n  ']),
-    _templateObject11 = _taggedTemplateLiteral(['\n   <hgroup>\n    <h2>Descripci\xF3n</h2>\n    <h3>Pollera de Lujo</h3>\n    <p>La pollera de Gala es una pollera de encajes, en su corte y armado es igual a la pollera blanca o la de coquitos, est\xE1 formado por una camisa de dos arandelas y mangas; debajo de estas mangas tiene unas cintas que se utilizan para amarrarlas y mantenerlas al mismo nivel que la segunda arandela. </p>\n    <p>El Poller\xF3n est\xE1 compuesto por dos tramos de tela separados por una trencilla y terminada en un encaje peque\xF1o llamado peacillo y encajes anchos con un poquito de recogido. </p>\n    <p>En la cintura la pretina se separa en dos (adelante y atr\xE1s) y a ambos lados se terminan en cuatro tiras de tela que se amarran. Las dos tiras de atr\xE1s se amarran primero hacia adelante y luego las de adelante hacia atr\xE1s. </p>\n    <p>Los dibujos o labores que se hacen sobre la tela se repiten indefinidamente a lo largo de la falda y de la camisa. </p>\n    <p>Tradicionalmente se utilizan colores s\xF3lidos como azul, rojo o negro, con la modernizaci\xF3n de los m\xE9todos de colorizaci\xF3n de hilos y textiles la pollera ha evolucionado y en la actualidad podemos ver labores matizadas (degradaci\xF3n de colores en un solo tono) o combinando colores (hojas verdes, flores rojas y mariposas amarillas), a pesar de la gran diversidad debemos evitar los colores ne\xF3n. </p>\n    <p>No es posible decir que alguna pollera este mal o bien, la tradici\xF3n y las investigaciones de las polleras centenarias nos revelan caracter\xEDsticas que por necesidad y a veces por simple gusto se utilizan igual o se han modificado. </p>\n    <p>Hay algunos lineamientos que forman parte del buen gusto a la hora de confeccionar una pollera. como, por ejemplo: el tama\xF1o de las labores, hist\xF3ricamente podemos ver un cambio notable en el tama\xF1o de este elemento indispensable de la pollera de lujo. hoy en d\xEDa podemos decir que en la pollera se debe dejar ver el color blanco de la tela en la parte superior de los pa\xF1os como buena pr\xE1ctica.  </p>\n    <p>Diferentes tipos de labores de pollera</p>\n    <ul>\n     <li> Labores Talco en sombra, normalmente es utilizada para trabajar labores en color blanco.</li>\n     <li> Labores Talco al Sol, se utiliza con o sin calados.</li>\n     <li> Labores Marcadas o en punto de cruz. </li>\n     <li> Labores Bordadas se utiliza con o sin calados. </li>\n     <li> Labores Zurcidas se utiliza con o sin calados. </li>\n    </ul>\n    <p>Las labores de la pollera pueden ir acompa\xF1adas de "calados" son una t\xE9cnica que consiste en sacar los hilos de una tela y luego trabajar una especie de bordado sobre ellos. Se realizan dentro de las labores como, por ejemplo: en el centro de una hoja o en el centro del p\xE9talo de una flor. Es caracter\xEDstico que las polleras lleven muchos dise\xF1os diferentes, en algunos casos en una sola pollera no se repite ninguno. </p>\n    <p>los encajes utilizados para las polleras de gala son los que conocemos com\xFAnmente como valencianos, aunque este nombre es un regionalismo y se refiere a encajes trabajados sobre una malla; Su nombre es valencie o valencienne (as\xED es f\xE1cil encontrarlos en Google) </p>\n    <p>Otra de las caracter\xEDsticas de las polleras de gala son los mundillos, que son encajes confeccionados a mano con bolillos (palitos), los que conocemos com\xFAnmente como peacillo y trencilla. seg\xFAn la definici\xF3n del diccionario el mundillo es en realidad el cilindro que se usa para tejer las trencillas, aunque en Panam\xE1 denominamos "mundillo" al juego de trencillas trabajadas con esta t\xE9cnica que se usan para las polleras. </p>\n    <p>Otro accesorio muy interesante es el pa\xF1o o rebozo, este accesorio es el equivalente al chal actual, era utilizado para cubrirse la cabeza del sereno o para abrigarse del fr\xEDo. En la actualidad el reboso es una pieza de gran labor artesanal, se trabaja al igual que la pollera, en labores que combinan perfectamente. No es un accesorio indispensable y cuando se lleva puesto no debe ser amarrado a las mangas, ni utilizado al bailar. </p>\n    <p>En la cabeza de tembleques blancos no se deben utilizan pimpollos de colores, el uso de ellos no es tradicional.  </p>\n    <p>En la actualidad podemos encontrar nuevos materiales para la confecci\xF3n de tembleques como los cristales de Swarovski. </p>\n    <p>Las Enaguas o peticotes son parte fundamental de la pollera. Se utilizan dos o tres y se confeccionan en diferentes t\xE9cnicas, pueden ser de encajes, tejido de crochet, pajita, con labores en talco y calado. Las enaguas o peticotes internos son m\xE1s sencillos y tienen la finalidad de no dejar ver las piernas de la empollerada. </p>\n    <p>El Enjaretado en las polleras de gala se utilizan en colores contrastantes, por ejemplo: si la pollera es roja, el enjaretado puede ser en azul o celeste.  </p>\n    <p>Los Zapatos en las polleras de encajes se usan con lazos y hebillas, son del mismo color que el enjaretado y se deben llevar de sat\xE9n o en una tela con brillos.</p>\n   </hgroup>\n  '], ['\n   <hgroup>\n    <h2>Descripci\xF3n</h2>\n    <h3>Pollera de Lujo</h3>\n    <p>La pollera de Gala es una pollera de encajes, en su corte y armado es igual a la pollera blanca o la de coquitos, est\xE1 formado por una camisa de dos arandelas y mangas; debajo de estas mangas tiene unas cintas que se utilizan para amarrarlas y mantenerlas al mismo nivel que la segunda arandela. </p>\n    <p>El Poller\xF3n est\xE1 compuesto por dos tramos de tela separados por una trencilla y terminada en un encaje peque\xF1o llamado peacillo y encajes anchos con un poquito de recogido. </p>\n    <p>En la cintura la pretina se separa en dos (adelante y atr\xE1s) y a ambos lados se terminan en cuatro tiras de tela que se amarran. Las dos tiras de atr\xE1s se amarran primero hacia adelante y luego las de adelante hacia atr\xE1s. </p>\n    <p>Los dibujos o labores que se hacen sobre la tela se repiten indefinidamente a lo largo de la falda y de la camisa. </p>\n    <p>Tradicionalmente se utilizan colores s\xF3lidos como azul, rojo o negro, con la modernizaci\xF3n de los m\xE9todos de colorizaci\xF3n de hilos y textiles la pollera ha evolucionado y en la actualidad podemos ver labores matizadas (degradaci\xF3n de colores en un solo tono) o combinando colores (hojas verdes, flores rojas y mariposas amarillas), a pesar de la gran diversidad debemos evitar los colores ne\xF3n. </p>\n    <p>No es posible decir que alguna pollera este mal o bien, la tradici\xF3n y las investigaciones de las polleras centenarias nos revelan caracter\xEDsticas que por necesidad y a veces por simple gusto se utilizan igual o se han modificado. </p>\n    <p>Hay algunos lineamientos que forman parte del buen gusto a la hora de confeccionar una pollera. como, por ejemplo: el tama\xF1o de las labores, hist\xF3ricamente podemos ver un cambio notable en el tama\xF1o de este elemento indispensable de la pollera de lujo. hoy en d\xEDa podemos decir que en la pollera se debe dejar ver el color blanco de la tela en la parte superior de los pa\xF1os como buena pr\xE1ctica.  </p>\n    <p>Diferentes tipos de labores de pollera</p>\n    <ul>\n     <li> Labores Talco en sombra, normalmente es utilizada para trabajar labores en color blanco.</li>\n     <li> Labores Talco al Sol, se utiliza con o sin calados.</li>\n     <li> Labores Marcadas o en punto de cruz. </li>\n     <li> Labores Bordadas se utiliza con o sin calados. </li>\n     <li> Labores Zurcidas se utiliza con o sin calados. </li>\n    </ul>\n    <p>Las labores de la pollera pueden ir acompa\xF1adas de "calados" son una t\xE9cnica que consiste en sacar los hilos de una tela y luego trabajar una especie de bordado sobre ellos. Se realizan dentro de las labores como, por ejemplo: en el centro de una hoja o en el centro del p\xE9talo de una flor. Es caracter\xEDstico que las polleras lleven muchos dise\xF1os diferentes, en algunos casos en una sola pollera no se repite ninguno. </p>\n    <p>los encajes utilizados para las polleras de gala son los que conocemos com\xFAnmente como valencianos, aunque este nombre es un regionalismo y se refiere a encajes trabajados sobre una malla; Su nombre es valencie o valencienne (as\xED es f\xE1cil encontrarlos en Google) </p>\n    <p>Otra de las caracter\xEDsticas de las polleras de gala son los mundillos, que son encajes confeccionados a mano con bolillos (palitos), los que conocemos com\xFAnmente como peacillo y trencilla. seg\xFAn la definici\xF3n del diccionario el mundillo es en realidad el cilindro que se usa para tejer las trencillas, aunque en Panam\xE1 denominamos "mundillo" al juego de trencillas trabajadas con esta t\xE9cnica que se usan para las polleras. </p>\n    <p>Otro accesorio muy interesante es el pa\xF1o o rebozo, este accesorio es el equivalente al chal actual, era utilizado para cubrirse la cabeza del sereno o para abrigarse del fr\xEDo. En la actualidad el reboso es una pieza de gran labor artesanal, se trabaja al igual que la pollera, en labores que combinan perfectamente. No es un accesorio indispensable y cuando se lleva puesto no debe ser amarrado a las mangas, ni utilizado al bailar. </p>\n    <p>En la cabeza de tembleques blancos no se deben utilizan pimpollos de colores, el uso de ellos no es tradicional.  </p>\n    <p>En la actualidad podemos encontrar nuevos materiales para la confecci\xF3n de tembleques como los cristales de Swarovski. </p>\n    <p>Las Enaguas o peticotes son parte fundamental de la pollera. Se utilizan dos o tres y se confeccionan en diferentes t\xE9cnicas, pueden ser de encajes, tejido de crochet, pajita, con labores en talco y calado. Las enaguas o peticotes internos son m\xE1s sencillos y tienen la finalidad de no dejar ver las piernas de la empollerada. </p>\n    <p>El Enjaretado en las polleras de gala se utilizan en colores contrastantes, por ejemplo: si la pollera es roja, el enjaretado puede ser en azul o celeste.  </p>\n    <p>Los Zapatos en las polleras de encajes se usan con lazos y hebillas, son del mismo color que el enjaretado y se deben llevar de sat\xE9n o en una tela con brillos.</p>\n   </hgroup>\n  ']),
-    _templateObject12 = _taggedTemplateLiteral(['\n   <hgroup>\n    <p>La camisilla es el vestido t\xEDpico de gala del hombre paname\xF1o y es utilizada en fiestas y en ocasiones especiales como por ejemplo los domingos para asistir a misa.</p>\n   </hgroup>'], ['\n   <hgroup>\n    <p>La camisilla es el vestido t\xEDpico de gala del hombre paname\xF1o y es utilizada en fiestas y en ocasiones especiales como por ejemplo los domingos para asistir a misa.</p>\n   </hgroup>']),
-    _templateObject13 = _taggedTemplateLiteral(['\n   <hgroup>\n    <h2>Historia de la Camisilla</h2>\n    <p>"No se sabe a ciencia cierta en qu\xE9 a\xF1o s\xE9 utilizo por primera vez la camisilla, existen referencias de que esta pieza masculina tiene una larga vida de existencia, ya que en la fiesta del Centenario de Chitr\xE9 en 1948, se exhibi\xF3 una camisilla con juegos de alforzas y peque\xF1os talcos piramidales en relieve, con cien a\xF1os de existencia".</p>\n    <h3>Dora P. De Z\xE1rate</h3>\n   </hgroup>\n  '], ['\n   <hgroup>\n    <h2>Historia de la Camisilla</h2>\n    <p>"No se sabe a ciencia cierta en qu\xE9 a\xF1o s\xE9 utilizo por primera vez la camisilla, existen referencias de que esta pieza masculina tiene una larga vida de existencia, ya que en la fiesta del Centenario de Chitr\xE9 en 1948, se exhibi\xF3 una camisilla con juegos de alforzas y peque\xF1os talcos piramidales en relieve, con cien a\xF1os de existencia".</p>\n    <h3>Dora P. De Z\xE1rate</h3>\n   </hgroup>\n  ']),
-    _templateObject14 = _taggedTemplateLiteral(['\n   <hgroup>\n    <h2>Descripci\xF3n</h2>\n    <h3>Camisilla</h3>\n    <p>Las camisillas de Los Santos son de color blanco y tienen un dise\xF1o caracter\xEDstico. </p>\n    <p>El cuello de la camisa es alto y de estilo chino, en la parte frontal posee dos bolsillos, las mangas son largas y holgadas, en las mu\xF1ecas es cerrada y no lleva botones.</p>\n    <p>El cuerpo de la camisilla esta adornado con alforzas, que son una serie de tabletas finamente cosidas en la parte trasera dela camisa se hacen dos o tres tiras de alforzas y en la parte frontal se hacen a ambos lados del pecho.</p>\n    <p>Las camisillas llevan botones que pueden ser de oro, monedas peque\xF1as de plata ba\xF1ada en oro, n\xE1car o hueso. Las m\xE1s sencillas normalmente llevan los botones pegados y una sola l\xEDnea de ojales. mientras que las m\xE1s elaboradas y finas tienen doble l\xEDnea, ya que los botones son de oro y se puedes quitar y poner para lavar la camisa.</p>\n    <p>Las telas utilizadas para su confecci\xF3n son de hilo como el hol\xE1n o m\xE1s sencillas como el poplin.</p>\n    <p>La labor artesanal de las camisillas se destaca en las alforzas o espiguetas, que pueden tomar al rededor de cinco o seis d\xEDas para su confecci\xF3n.</p>\n    <p>De la cantidad de espiguetas depende el valor que se le brindar\xE1 a la camisilla. La tradici\xF3n nos dice que se consideran m\xE1s finas las camisillas que tienen m\xE1s espiguetas, por esta raz\xF3n cuando son confeccionadas para concursos, deben tener un m\xEDnimo de 30 espiguetas en la parte delantera.</p>\n    <p>tipos de alforzas o espiguetas</p>\n    <ul>\n     <li>Alforzas Horizontales</li>\n     <li>Alforzas Verticales</li>\n     <li>Alforzas Oblicuas</li>\n     <li>Alforzas Oblicuas Encontradas (combinaci\xF3n de dos tiras independientes de alforzas)</li>\n     <li>Alforzas horizontales y verticales</li>\n     <li>Cepito</li>\n    </ul>\n    <p>Para acompa\xF1ar la camisilla el hombre debe vestir con pantal\xF3n negro, zapatos negros, cutarras o chinelas (zapatos blanco con negro), una cebadera o ch\xE1cara (bolsa de hilo tejida) y sombrero pintado.</p>\n   </hgroup>\n  '], ['\n   <hgroup>\n    <h2>Descripci\xF3n</h2>\n    <h3>Camisilla</h3>\n    <p>Las camisillas de Los Santos son de color blanco y tienen un dise\xF1o caracter\xEDstico. </p>\n    <p>El cuello de la camisa es alto y de estilo chino, en la parte frontal posee dos bolsillos, las mangas son largas y holgadas, en las mu\xF1ecas es cerrada y no lleva botones.</p>\n    <p>El cuerpo de la camisilla esta adornado con alforzas, que son una serie de tabletas finamente cosidas en la parte trasera dela camisa se hacen dos o tres tiras de alforzas y en la parte frontal se hacen a ambos lados del pecho.</p>\n    <p>Las camisillas llevan botones que pueden ser de oro, monedas peque\xF1as de plata ba\xF1ada en oro, n\xE1car o hueso. Las m\xE1s sencillas normalmente llevan los botones pegados y una sola l\xEDnea de ojales. mientras que las m\xE1s elaboradas y finas tienen doble l\xEDnea, ya que los botones son de oro y se puedes quitar y poner para lavar la camisa.</p>\n    <p>Las telas utilizadas para su confecci\xF3n son de hilo como el hol\xE1n o m\xE1s sencillas como el poplin.</p>\n    <p>La labor artesanal de las camisillas se destaca en las alforzas o espiguetas, que pueden tomar al rededor de cinco o seis d\xEDas para su confecci\xF3n.</p>\n    <p>De la cantidad de espiguetas depende el valor que se le brindar\xE1 a la camisilla. La tradici\xF3n nos dice que se consideran m\xE1s finas las camisillas que tienen m\xE1s espiguetas, por esta raz\xF3n cuando son confeccionadas para concursos, deben tener un m\xEDnimo de 30 espiguetas en la parte delantera.</p>\n    <p>tipos de alforzas o espiguetas</p>\n    <ul>\n     <li>Alforzas Horizontales</li>\n     <li>Alforzas Verticales</li>\n     <li>Alforzas Oblicuas</li>\n     <li>Alforzas Oblicuas Encontradas (combinaci\xF3n de dos tiras independientes de alforzas)</li>\n     <li>Alforzas horizontales y verticales</li>\n     <li>Cepito</li>\n    </ul>\n    <p>Para acompa\xF1ar la camisilla el hombre debe vestir con pantal\xF3n negro, zapatos negros, cutarras o chinelas (zapatos blanco con negro), una cebadera o ch\xE1cara (bolsa de hilo tejida) y sombrero pintado.</p>\n   </hgroup>\n  ']);
+    _templateObject7 = _taggedTemplateLiteral(['\n  <article class="completa blanco">\n   <hgroup class="blogStyle">\n    <h2>Descripci\xF3n de la Pollera Congo</h2>\n    <p>Los vestidos t\xEDpicos de la provincia de col\xF3n son de gran belleza, en especial las polleras congo.</p>\n    <p>No solo es su tremendo peso hist\xF3rico lo que les brida un incalculable valor, sino es la flexibilidad del pueblo. Esto se debe a que todav\xEDa, la cultura congo, permanece viva, permitiendo que los aspectos f\xEDsicos de estos vestidos se mantengan en constante evoluci\xF3n.</p>\n    <p>Como hemos mencionado la cultura congo es matriarcal y es la reina la que toma desiciones acerca de que se va a utilizar y en que combinaciones.</p>\n    <p>Tenemos que tener presente que las manifestaciones folkl\xF3ricas var\xEDan, en algunos casos grandemente, al ser llevados al escenario como una presentaci\xF3n art\xEDstica.</p>\n    <p>Lo que se busca con la esta informaci\xF3n es brindar opciones a las agrupaciones folkloricas tanto tradicionales como de proyecci\xF3n, que no sean nativos de la provincia de col\xF3n, para que luzcan las diferentes polleras que esta cultura nos puede brindar.</p>\n   </hgroup>\n  </article>\n   '], ['\n  <article class="completa blanco">\n   <hgroup class="blogStyle">\n    <h2>Descripci\xF3n de la Pollera Congo</h2>\n    <p>Los vestidos t\xEDpicos de la provincia de col\xF3n son de gran belleza, en especial las polleras congo.</p>\n    <p>No solo es su tremendo peso hist\xF3rico lo que les brida un incalculable valor, sino es la flexibilidad del pueblo. Esto se debe a que todav\xEDa, la cultura congo, permanece viva, permitiendo que los aspectos f\xEDsicos de estos vestidos se mantengan en constante evoluci\xF3n.</p>\n    <p>Como hemos mencionado la cultura congo es matriarcal y es la reina la que toma desiciones acerca de que se va a utilizar y en que combinaciones.</p>\n    <p>Tenemos que tener presente que las manifestaciones folkl\xF3ricas var\xEDan, en algunos casos grandemente, al ser llevados al escenario como una presentaci\xF3n art\xEDstica.</p>\n    <p>Lo que se busca con la esta informaci\xF3n es brindar opciones a las agrupaciones folkloricas tanto tradicionales como de proyecci\xF3n, que no sean nativos de la provincia de col\xF3n, para que luzcan las diferentes polleras que esta cultura nos puede brindar.</p>\n   </hgroup>\n  </article>\n   ']),
+    _templateObject8 = _taggedTemplateLiteral(['\n   <article class="completa blanco clasificacion">\n    <hgroup class="blogStyle">\n     <h2>Clasificaci\xF3n de la Pollera Congo</h2>\n     <p>En <b>Col\xF3n</b> podemos encontrar una gran variedad de <b>polleras</b>:</p>\n     <h3>La Pollera Estampada</h3>\n     <p><b>vestido t\xEDpico</b> que consiste en una camisa de una sola arandela y falda de tres tramos. Su caracter\xEDstica principal es que la tela que se usa para la falda y la camisa es de una sola clase puede ser zaraza o de flores. El cuerpo de la camisa puede ser de otro color.</p>\n     <h3>La Pollera de Metidos</h3>\n     <p>Este <b>traje t\xEDpico</b> consiste en una camisa de una sola arandela y una falda de tres tramos.</p>\n     <p>Su caracter\xEDstica principal recae en la falda, Se utilizan dos tipos de telas distintos uno liso y uno estampado en su confecci\xF3n.</p>\n     <p>Las combinaciones que utilizan son:</p>\n     <ul>\n      <li>Estampado - tela lisa - estampado</li>\n      <li>tela lisa - estampado - tela lisa</li>\n     </ul>\n     <h3>La Pollera de Retazos</h3>\n     <p>Es una <b>pollera</b> de dos piezas, camisa y falda. Se combinan dise\xF1os lisos y estampados para crear una tela colorida y vistosa, los retazos com\xFAnmente son en forma cuadrada o en rect\xE1ngulos, pero se pueden hacer en la forma que quiera por ejemplo en tri\xE1ngulos.</p>\n     <p>La camisa puede ser de una o dos arandelas. Esta camisa se usa por dentro de la falda, si es por fuera se termina la camisa en una rucha o arandela.</p>\n     <p>El poller\xF3n, tambi\xE9n hecho de retazos, puede ser de dos o tres tramos. La pollera congo no lleva "picarona" (rucha final en las polleras de zaraza de las montunas) el fald\xF3n parece que se divide en tres tramos del mismo ancho.</p>\n     <h3>El Pil\xF3n Portobele\xF1o</h3>\n     <p>Esta <b>pollera</b> consiste en una camisa de mangas con volantes al final y arandela en la cintura, tiene una similitud a la basqui\xF1a. El cuerpo de la camisa es de tela de un solo color, los botones que se utilizan no siempre son iguales y las arandelas son de tela estampada. Com\xFAnmente flores o zaraza.</p>\n     <p>El fald\xF3n es de tres tramos iguales y se utiliza la tela estampada o de flores que se utiliz\xF3 en los volantes de la camisa.</p>\n     <h3>Pollera de Parches</h3>\n     <p>Esta pollera consiste en una camisa de una sola arandela y falda de tres tramos. Su nombre proviene de tener parches cuadrados en varias partes sin ning\xFAn orden\n\n        establecido, su origen proviene de la verdadera necesidad de remendar las polleras que ten\xEDan alg\xFAn tipo de agujero.</p>\n      <p>Su confecci\xF3n es similar a la pollera estampada, A pesar de que hoy en d\xEDa es com\xFAn confeccionarlas con parches su origen es muy interesante y demuestra la gran creatividad de las mujeres ante la necesidad.</p>\n      <p>Por debajo de la falda en algunos palenques las mujeres utilizan un peticote muy sencillo y en otros el uso de esta prenda es exclusiva de la reina, las dem\xE1s usan una especie de ropa interior llamada pantaleta o petipan que llega m\xE1s o menos hasta la rodilla.</p>\n      <p>Tambi\xE9n se usan unas bolsas llamadas Chupas o Chumpas.</p>\n      <p>El cabello se puede llevar de diferentes maneras, porque hay cabellos y peinados muy diversos, desde corto muy rizados hasta largo y liso. Si es largo se puede llevar de manera muy tradicional con partidura a la mitad y dos trenzas, con las puntas amarradas con tiritas de trapos.</p>\n      <p>Para adornar la cabeza se usan flores, tradicionalmente la flor del congo llamada Ca\xF1itolendo que es una flor silvestre que se encuentra a lo largo de la costa arriba y costa abajo, puede decirse que es un tembleque natural.</p>\n      <p>Una de las caracter\xEDsticas del arreglo de la cabeza es que a pesar de que se hace una partidura en el centro de la cabellera y se hacen dos tortas las flores deben ocupar toda la parte trasera, dejando al descubierto la parte de arriba de la cabeza, pero no la partidura en la parte de atr\xE1s como es tradicional en la pollera sante\xF1a.</p>\n      <p>Sus accesorios son collares son de cuentas, conchas y caracoles y semillas.</p>\n      <p>Este vestido t\xEDpico no utiliza zapatos y se dice que es por la relaci\xF3n del negro con la tierra.</p>\n      <p>La cultura congo es matriarcal, la reina congo puede utilizar lo que ella desee, desde una pollera de retazos hasta una pollera de color blanco con una corona alta que lleva flores y cintas de colores que le caen sobre la espalda.</p>\n      <p>Hemos utilizado la clasificaci\xF3n del profesor Ernesto Polanco</p>\n    </hgroup>\n   </article>\n\n  '], ['\n   <article class="completa blanco clasificacion">\n    <hgroup class="blogStyle">\n     <h2>Clasificaci\xF3n de la Pollera Congo</h2>\n     <p>En <b>Col\xF3n</b> podemos encontrar una gran variedad de <b>polleras</b>:</p>\n     <h3>La Pollera Estampada</h3>\n     <p><b>vestido t\xEDpico</b> que consiste en una camisa de una sola arandela y falda de tres tramos. Su caracter\xEDstica principal es que la tela que se usa para la falda y la camisa es de una sola clase puede ser zaraza o de flores. El cuerpo de la camisa puede ser de otro color.</p>\n     <h3>La Pollera de Metidos</h3>\n     <p>Este <b>traje t\xEDpico</b> consiste en una camisa de una sola arandela y una falda de tres tramos.</p>\n     <p>Su caracter\xEDstica principal recae en la falda, Se utilizan dos tipos de telas distintos uno liso y uno estampado en su confecci\xF3n.</p>\n     <p>Las combinaciones que utilizan son:</p>\n     <ul>\n      <li>Estampado - tela lisa - estampado</li>\n      <li>tela lisa - estampado - tela lisa</li>\n     </ul>\n     <h3>La Pollera de Retazos</h3>\n     <p>Es una <b>pollera</b> de dos piezas, camisa y falda. Se combinan dise\xF1os lisos y estampados para crear una tela colorida y vistosa, los retazos com\xFAnmente son en forma cuadrada o en rect\xE1ngulos, pero se pueden hacer en la forma que quiera por ejemplo en tri\xE1ngulos.</p>\n     <p>La camisa puede ser de una o dos arandelas. Esta camisa se usa por dentro de la falda, si es por fuera se termina la camisa en una rucha o arandela.</p>\n     <p>El poller\xF3n, tambi\xE9n hecho de retazos, puede ser de dos o tres tramos. La pollera congo no lleva "picarona" (rucha final en las polleras de zaraza de las montunas) el fald\xF3n parece que se divide en tres tramos del mismo ancho.</p>\n     <h3>El Pil\xF3n Portobele\xF1o</h3>\n     <p>Esta <b>pollera</b> consiste en una camisa de mangas con volantes al final y arandela en la cintura, tiene una similitud a la basqui\xF1a. El cuerpo de la camisa es de tela de un solo color, los botones que se utilizan no siempre son iguales y las arandelas son de tela estampada. Com\xFAnmente flores o zaraza.</p>\n     <p>El fald\xF3n es de tres tramos iguales y se utiliza la tela estampada o de flores que se utiliz\xF3 en los volantes de la camisa.</p>\n     <h3>Pollera de Parches</h3>\n     <p>Esta pollera consiste en una camisa de una sola arandela y falda de tres tramos. Su nombre proviene de tener parches cuadrados en varias partes sin ning\xFAn orden\n\n        establecido, su origen proviene de la verdadera necesidad de remendar las polleras que ten\xEDan alg\xFAn tipo de agujero.</p>\n      <p>Su confecci\xF3n es similar a la pollera estampada, A pesar de que hoy en d\xEDa es com\xFAn confeccionarlas con parches su origen es muy interesante y demuestra la gran creatividad de las mujeres ante la necesidad.</p>\n      <p>Por debajo de la falda en algunos palenques las mujeres utilizan un peticote muy sencillo y en otros el uso de esta prenda es exclusiva de la reina, las dem\xE1s usan una especie de ropa interior llamada pantaleta o petipan que llega m\xE1s o menos hasta la rodilla.</p>\n      <p>Tambi\xE9n se usan unas bolsas llamadas Chupas o Chumpas.</p>\n      <p>El cabello se puede llevar de diferentes maneras, porque hay cabellos y peinados muy diversos, desde corto muy rizados hasta largo y liso. Si es largo se puede llevar de manera muy tradicional con partidura a la mitad y dos trenzas, con las puntas amarradas con tiritas de trapos.</p>\n      <p>Para adornar la cabeza se usan flores, tradicionalmente la flor del congo llamada Ca\xF1itolendo que es una flor silvestre que se encuentra a lo largo de la costa arriba y costa abajo, puede decirse que es un tembleque natural.</p>\n      <p>Una de las caracter\xEDsticas del arreglo de la cabeza es que a pesar de que se hace una partidura en el centro de la cabellera y se hacen dos tortas las flores deben ocupar toda la parte trasera, dejando al descubierto la parte de arriba de la cabeza, pero no la partidura en la parte de atr\xE1s como es tradicional en la pollera sante\xF1a.</p>\n      <p>Sus accesorios son collares son de cuentas, conchas y caracoles y semillas.</p>\n      <p>Este vestido t\xEDpico no utiliza zapatos y se dice que es por la relaci\xF3n del negro con la tierra.</p>\n      <p>La cultura congo es matriarcal, la reina congo puede utilizar lo que ella desee, desde una pollera de retazos hasta una pollera de color blanco con una corona alta que lleva flores y cintas de colores que le caen sobre la espalda.</p>\n      <p>Hemos utilizado la clasificaci\xF3n del profesor Ernesto Polanco</p>\n    </hgroup>\n   </article>\n\n  ']),
+    _templateObject9 = _taggedTemplateLiteral(['\n    <section class="completa blanco videoPasos">\n     <h2>Video sobre La Pollera Congo</h2>\n     <iframe src="https://www.youtube.com/embed/I-KF3UFeTHc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>\n    </section>\n  '], ['\n    <section class="completa blanco videoPasos">\n     <h2>Video sobre La Pollera Congo</h2>\n     <iframe src="https://www.youtube.com/embed/I-KF3UFeTHc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>\n    </section>\n  ']),
+    _templateObject10 = _taggedTemplateLiteral(['\n   <hgroup>\n    <p>La pollera de Gala es el vestido t\xEDpico m\xE1s lujoso y conocido de Panam\xE1. el trabajo artesanal que es utilizado para su confecci\xF3n lo hace una pieza digna de colecci\xF3n. </p>\n    <p>La pollera de lujo era el vestido utilizado por las mujeres paname\xF1as en las fiestas m\xE1s importantes como por ejemplo en los d\xEDas patrios y en carnavales.</p>\n   </hgroup>'], ['\n   <hgroup>\n    <p>La pollera de Gala es el vestido t\xEDpico m\xE1s lujoso y conocido de Panam\xE1. el trabajo artesanal que es utilizado para su confecci\xF3n lo hace una pieza digna de colecci\xF3n. </p>\n    <p>La pollera de lujo era el vestido utilizado por las mujeres paname\xF1as en las fiestas m\xE1s importantes como por ejemplo en los d\xEDas patrios y en carnavales.</p>\n   </hgroup>']),
+    _templateObject11 = _taggedTemplateLiteral(['\n   <hgroup>\n    <h2>Historia de la Pollera de Lujo Sante\xF1a</h2>\n    <p>La Pollera de gala Sante\xF1a o de Lujo tiene sus or\xEDgenes en Europa, es el resultado de la evoluci\xF3n y de una mezcla de culturas. Desde los tembleques con origen chino, peinado franc\xE9s hasta zarcillos persas, el vestido t\xEDpico de gala es una joya que ha unido detalles de tantos lugares, convirtiendo esas influencias en lo que nosotros conocemos hoy d\xEDa como pollera. </p>\n    <p>Ciertamente la influencia de nuestro traje t\xEDpico es europea y al ser territorio espa\xF1ol desde donde se embarcaron los nav\xEDos a Am\xE9rica es f\xE1cil hacer la relaci\xF3n directa, pero hay muchos indicadores que permiten dar ejemplos tangibles de los or\xEDgenes tan diversos de los elementos que la conforman.  <i>1</i></p>\n    <p>En Panam\xE1 se tienen datos de las polleras desde el a\xF1o 1863 gracias a las im\xE1genes captadas por el primer fot\xF3grafo espa\xF1ol Rafael Castro Ordo\xF1ez, a las polleras centenarias que todav\xEDa existen y a los estudios realizados a las telas y encajes. Es muy interesante conocer las menciones que se encuentran en las cartas de los viajes de Crist\xF3bal Col\xF3n, m\xE1s espec\xEDficamente en su segundo viaje en donde se hace una descripci\xF3n de las vestimentas que tra\xEDan las primeras mujeres que llegaron a Am\xE9rica resaltando que ellas aclimataron los vestidos al calor del tr\xF3pico.</p>\n    <p>La pollera de lujo es el vestido t\xEDpico que representa a la provincia de Los Santos y ha sido adoptada por las personas de la capital con ciertas modificaciones como por ejemplo utilizar la Mosqueta sobre la "mota" o pom pom y tembleques con gusanillos dorados.</p>\n    <p>En el Club Uni\xF3n las chicas de la alta sociedad retomaron el uso de este hermoso traje t\xEDpico para carnavales y d\xEDas patrios. Se tienen datos que afirman que en ocasiones ellas no usaban la partidura en medio y se empolleraban hasta con flequillo. Otro dato interesante es que utilizaban la camisa de la pollera caida sobre los hombros. </p>\n    <p>Ramona "La Trona" Lefevre fue una dama amante de la pollera que sobresali\xF3 gracias a su amor por el traje t\xEDpico y a su poder adquisitivo lo que le permiti\xF3 tener una colecci\xF3n de 19 polleras y uno de los joyeros m\xE1s grandes y lujosos de la capital. Ella implement\xF3 elementos y los impuso como una nueva moda, como, por ejemplo: el uso del peinet\xF3n, el uso de muchas cadenas y el aumento en el tama\xF1o de las labores de la pollera.</p>\n    <p>Otra persona muy sobresaliente en la evoluci\xF3n de la pollera fue el sr Edgardo de Le\xF3n Madariaga un folklorista y artesano, responsable de un cambio est\xE9tico importante en la pollera, incluy\xF3 mayor vuelo en la falda e introdujo las polleras policromadas y degradaciones "matizado". Lleg\xF3 a utilizar hasta 20 colores en las labores de sus dise\xF1os. </p>\n    <p>Otra dama muy importante fue Elia Charpentier la primera \u201CDama nacional de la pollera\u201D ella fue la responsable del aumento en el tama\xF1o de las monedas coronadas y hasta les incrust\xF3 esmeraldas, aument\xF3 el tama\xF1o del peinet\xF3n, revivi\xF3 el uso del tost\xF3n y lleg\xF3 a utilizar todos los tembleques de oro y perlas. </p>\n    <h4>1. recomendamos las charlas del Sr. Eduardo Cano que nos brinda una nueva teor\xEDa sobre el origen de la pollera, esta teor\xEDa es el resultado de muchos a\xF1os de estudio tanto a nivel nacional como internacional.</h4>\n   </hgroup>\n  '], ['\n   <hgroup>\n    <h2>Historia de la Pollera de Lujo Sante\xF1a</h2>\n    <p>La Pollera de gala Sante\xF1a o de Lujo tiene sus or\xEDgenes en Europa, es el resultado de la evoluci\xF3n y de una mezcla de culturas. Desde los tembleques con origen chino, peinado franc\xE9s hasta zarcillos persas, el vestido t\xEDpico de gala es una joya que ha unido detalles de tantos lugares, convirtiendo esas influencias en lo que nosotros conocemos hoy d\xEDa como pollera. </p>\n    <p>Ciertamente la influencia de nuestro traje t\xEDpico es europea y al ser territorio espa\xF1ol desde donde se embarcaron los nav\xEDos a Am\xE9rica es f\xE1cil hacer la relaci\xF3n directa, pero hay muchos indicadores que permiten dar ejemplos tangibles de los or\xEDgenes tan diversos de los elementos que la conforman.  <i>1</i></p>\n    <p>En Panam\xE1 se tienen datos de las polleras desde el a\xF1o 1863 gracias a las im\xE1genes captadas por el primer fot\xF3grafo espa\xF1ol Rafael Castro Ordo\xF1ez, a las polleras centenarias que todav\xEDa existen y a los estudios realizados a las telas y encajes. Es muy interesante conocer las menciones que se encuentran en las cartas de los viajes de Crist\xF3bal Col\xF3n, m\xE1s espec\xEDficamente en su segundo viaje en donde se hace una descripci\xF3n de las vestimentas que tra\xEDan las primeras mujeres que llegaron a Am\xE9rica resaltando que ellas aclimataron los vestidos al calor del tr\xF3pico.</p>\n    <p>La pollera de lujo es el vestido t\xEDpico que representa a la provincia de Los Santos y ha sido adoptada por las personas de la capital con ciertas modificaciones como por ejemplo utilizar la Mosqueta sobre la "mota" o pom pom y tembleques con gusanillos dorados.</p>\n    <p>En el Club Uni\xF3n las chicas de la alta sociedad retomaron el uso de este hermoso traje t\xEDpico para carnavales y d\xEDas patrios. Se tienen datos que afirman que en ocasiones ellas no usaban la partidura en medio y se empolleraban hasta con flequillo. Otro dato interesante es que utilizaban la camisa de la pollera caida sobre los hombros. </p>\n    <p>Ramona "La Trona" Lefevre fue una dama amante de la pollera que sobresali\xF3 gracias a su amor por el traje t\xEDpico y a su poder adquisitivo lo que le permiti\xF3 tener una colecci\xF3n de 19 polleras y uno de los joyeros m\xE1s grandes y lujosos de la capital. Ella implement\xF3 elementos y los impuso como una nueva moda, como, por ejemplo: el uso del peinet\xF3n, el uso de muchas cadenas y el aumento en el tama\xF1o de las labores de la pollera.</p>\n    <p>Otra persona muy sobresaliente en la evoluci\xF3n de la pollera fue el sr Edgardo de Le\xF3n Madariaga un folklorista y artesano, responsable de un cambio est\xE9tico importante en la pollera, incluy\xF3 mayor vuelo en la falda e introdujo las polleras policromadas y degradaciones "matizado". Lleg\xF3 a utilizar hasta 20 colores en las labores de sus dise\xF1os. </p>\n    <p>Otra dama muy importante fue Elia Charpentier la primera \u201CDama nacional de la pollera\u201D ella fue la responsable del aumento en el tama\xF1o de las monedas coronadas y hasta les incrust\xF3 esmeraldas, aument\xF3 el tama\xF1o del peinet\xF3n, revivi\xF3 el uso del tost\xF3n y lleg\xF3 a utilizar todos los tembleques de oro y perlas. </p>\n    <h4>1. recomendamos las charlas del Sr. Eduardo Cano que nos brinda una nueva teor\xEDa sobre el origen de la pollera, esta teor\xEDa es el resultado de muchos a\xF1os de estudio tanto a nivel nacional como internacional.</h4>\n   </hgroup>\n  ']),
+    _templateObject12 = _taggedTemplateLiteral(['\n   <hgroup>\n    <h2>Descripci\xF3n</h2>\n    <h3>Pollera de Lujo</h3>\n    <p>La pollera de Gala es una pollera de encajes, en su corte y armado es igual a la pollera blanca o la de coquitos, est\xE1 formado por una camisa de dos arandelas y mangas; debajo de estas mangas tiene unas cintas que se utilizan para amarrarlas y mantenerlas al mismo nivel que la segunda arandela. </p>\n    <p>El Poller\xF3n est\xE1 compuesto por dos tramos de tela separados por una trencilla y terminada en un encaje peque\xF1o llamado peacillo y encajes anchos con un poquito de recogido. </p>\n    <p>En la cintura la pretina se separa en dos (adelante y atr\xE1s) y a ambos lados se terminan en cuatro tiras de tela que se amarran. Las dos tiras de atr\xE1s se amarran primero hacia adelante y luego las de adelante hacia atr\xE1s. </p>\n    <p>Los dibujos o labores que se hacen sobre la tela se repiten indefinidamente a lo largo de la falda y de la camisa. </p>\n    <p>Tradicionalmente se utilizan colores s\xF3lidos como azul, rojo o negro, con la modernizaci\xF3n de los m\xE9todos de colorizaci\xF3n de hilos y textiles la pollera ha evolucionado y en la actualidad podemos ver labores matizadas (degradaci\xF3n de colores en un solo tono) o combinando colores (hojas verdes, flores rojas y mariposas amarillas), a pesar de la gran diversidad debemos evitar los colores ne\xF3n. </p>\n    <p>No es posible decir que alguna pollera este mal o bien, la tradici\xF3n y las investigaciones de las polleras centenarias nos revelan caracter\xEDsticas que por necesidad y a veces por simple gusto se utilizan igual o se han modificado. </p>\n    <p>Hay algunos lineamientos que forman parte del buen gusto a la hora de confeccionar una pollera. como, por ejemplo: el tama\xF1o de las labores, hist\xF3ricamente podemos ver un cambio notable en el tama\xF1o de este elemento indispensable de la pollera de lujo. hoy en d\xEDa podemos decir que en la pollera se debe dejar ver el color blanco de la tela en la parte superior de los pa\xF1os como buena pr\xE1ctica.  </p>\n    <p>Diferentes tipos de labores de pollera</p>\n    <ul>\n     <li> Labores Talco en sombra, normalmente es utilizada para trabajar labores en color blanco.</li>\n     <li> Labores Talco al Sol, se utiliza con o sin calados.</li>\n     <li> Labores Marcadas o en punto de cruz. </li>\n     <li> Labores Bordadas se utiliza con o sin calados. </li>\n     <li> Labores Zurcidas se utiliza con o sin calados. </li>\n    </ul>\n    <p>Las labores de la pollera pueden ir acompa\xF1adas de "calados" son una t\xE9cnica que consiste en sacar los hilos de una tela y luego trabajar una especie de bordado sobre ellos. Se realizan dentro de las labores como, por ejemplo: en el centro de una hoja o en el centro del p\xE9talo de una flor. Es caracter\xEDstico que las polleras lleven muchos dise\xF1os diferentes, en algunos casos en una sola pollera no se repite ninguno. </p>\n    <p>los encajes utilizados para las polleras de gala son los que conocemos com\xFAnmente como valencianos, aunque este nombre es un regionalismo y se refiere a encajes trabajados sobre una malla; Su nombre es valencie o valencienne (as\xED es f\xE1cil encontrarlos en Google) </p>\n    <p>Otra de las caracter\xEDsticas de las polleras de gala son los mundillos, que son encajes confeccionados a mano con bolillos (palitos), los que conocemos com\xFAnmente como peacillo y trencilla. seg\xFAn la definici\xF3n del diccionario el mundillo es en realidad el cilindro que se usa para tejer las trencillas, aunque en Panam\xE1 denominamos "mundillo" al juego de trencillas trabajadas con esta t\xE9cnica que se usan para las polleras. </p>\n    <p>Otro accesorio muy interesante es el pa\xF1o o rebozo, este accesorio es el equivalente al chal actual, era utilizado para cubrirse la cabeza del sereno o para abrigarse del fr\xEDo. En la actualidad el reboso es una pieza de gran labor artesanal, se trabaja al igual que la pollera, en labores que combinan perfectamente. No es un accesorio indispensable y cuando se lleva puesto no debe ser amarrado a las mangas, ni utilizado al bailar. </p>\n    <p>En la cabeza de tembleques blancos no se deben utilizan pimpollos de colores, el uso de ellos no es tradicional.  </p>\n    <p>En la actualidad podemos encontrar nuevos materiales para la confecci\xF3n de tembleques como los cristales de Swarovski. </p>\n    <p>Las Enaguas o peticotes son parte fundamental de la pollera. Se utilizan dos o tres y se confeccionan en diferentes t\xE9cnicas, pueden ser de encajes, tejido de crochet, pajita, con labores en talco y calado. Las enaguas o peticotes internos son m\xE1s sencillos y tienen la finalidad de no dejar ver las piernas de la empollerada. </p>\n    <p>El Enjaretado en las polleras de gala se utilizan en colores contrastantes, por ejemplo: si la pollera es roja, el enjaretado puede ser en azul o celeste.  </p>\n    <p>Los Zapatos en las polleras de encajes se usan con lazos y hebillas, son del mismo color que el enjaretado y se deben llevar de sat\xE9n o en una tela con brillos.</p>\n   </hgroup>\n  '], ['\n   <hgroup>\n    <h2>Descripci\xF3n</h2>\n    <h3>Pollera de Lujo</h3>\n    <p>La pollera de Gala es una pollera de encajes, en su corte y armado es igual a la pollera blanca o la de coquitos, est\xE1 formado por una camisa de dos arandelas y mangas; debajo de estas mangas tiene unas cintas que se utilizan para amarrarlas y mantenerlas al mismo nivel que la segunda arandela. </p>\n    <p>El Poller\xF3n est\xE1 compuesto por dos tramos de tela separados por una trencilla y terminada en un encaje peque\xF1o llamado peacillo y encajes anchos con un poquito de recogido. </p>\n    <p>En la cintura la pretina se separa en dos (adelante y atr\xE1s) y a ambos lados se terminan en cuatro tiras de tela que se amarran. Las dos tiras de atr\xE1s se amarran primero hacia adelante y luego las de adelante hacia atr\xE1s. </p>\n    <p>Los dibujos o labores que se hacen sobre la tela se repiten indefinidamente a lo largo de la falda y de la camisa. </p>\n    <p>Tradicionalmente se utilizan colores s\xF3lidos como azul, rojo o negro, con la modernizaci\xF3n de los m\xE9todos de colorizaci\xF3n de hilos y textiles la pollera ha evolucionado y en la actualidad podemos ver labores matizadas (degradaci\xF3n de colores en un solo tono) o combinando colores (hojas verdes, flores rojas y mariposas amarillas), a pesar de la gran diversidad debemos evitar los colores ne\xF3n. </p>\n    <p>No es posible decir que alguna pollera este mal o bien, la tradici\xF3n y las investigaciones de las polleras centenarias nos revelan caracter\xEDsticas que por necesidad y a veces por simple gusto se utilizan igual o se han modificado. </p>\n    <p>Hay algunos lineamientos que forman parte del buen gusto a la hora de confeccionar una pollera. como, por ejemplo: el tama\xF1o de las labores, hist\xF3ricamente podemos ver un cambio notable en el tama\xF1o de este elemento indispensable de la pollera de lujo. hoy en d\xEDa podemos decir que en la pollera se debe dejar ver el color blanco de la tela en la parte superior de los pa\xF1os como buena pr\xE1ctica.  </p>\n    <p>Diferentes tipos de labores de pollera</p>\n    <ul>\n     <li> Labores Talco en sombra, normalmente es utilizada para trabajar labores en color blanco.</li>\n     <li> Labores Talco al Sol, se utiliza con o sin calados.</li>\n     <li> Labores Marcadas o en punto de cruz. </li>\n     <li> Labores Bordadas se utiliza con o sin calados. </li>\n     <li> Labores Zurcidas se utiliza con o sin calados. </li>\n    </ul>\n    <p>Las labores de la pollera pueden ir acompa\xF1adas de "calados" son una t\xE9cnica que consiste en sacar los hilos de una tela y luego trabajar una especie de bordado sobre ellos. Se realizan dentro de las labores como, por ejemplo: en el centro de una hoja o en el centro del p\xE9talo de una flor. Es caracter\xEDstico que las polleras lleven muchos dise\xF1os diferentes, en algunos casos en una sola pollera no se repite ninguno. </p>\n    <p>los encajes utilizados para las polleras de gala son los que conocemos com\xFAnmente como valencianos, aunque este nombre es un regionalismo y se refiere a encajes trabajados sobre una malla; Su nombre es valencie o valencienne (as\xED es f\xE1cil encontrarlos en Google) </p>\n    <p>Otra de las caracter\xEDsticas de las polleras de gala son los mundillos, que son encajes confeccionados a mano con bolillos (palitos), los que conocemos com\xFAnmente como peacillo y trencilla. seg\xFAn la definici\xF3n del diccionario el mundillo es en realidad el cilindro que se usa para tejer las trencillas, aunque en Panam\xE1 denominamos "mundillo" al juego de trencillas trabajadas con esta t\xE9cnica que se usan para las polleras. </p>\n    <p>Otro accesorio muy interesante es el pa\xF1o o rebozo, este accesorio es el equivalente al chal actual, era utilizado para cubrirse la cabeza del sereno o para abrigarse del fr\xEDo. En la actualidad el reboso es una pieza de gran labor artesanal, se trabaja al igual que la pollera, en labores que combinan perfectamente. No es un accesorio indispensable y cuando se lleva puesto no debe ser amarrado a las mangas, ni utilizado al bailar. </p>\n    <p>En la cabeza de tembleques blancos no se deben utilizan pimpollos de colores, el uso de ellos no es tradicional.  </p>\n    <p>En la actualidad podemos encontrar nuevos materiales para la confecci\xF3n de tembleques como los cristales de Swarovski. </p>\n    <p>Las Enaguas o peticotes son parte fundamental de la pollera. Se utilizan dos o tres y se confeccionan en diferentes t\xE9cnicas, pueden ser de encajes, tejido de crochet, pajita, con labores en talco y calado. Las enaguas o peticotes internos son m\xE1s sencillos y tienen la finalidad de no dejar ver las piernas de la empollerada. </p>\n    <p>El Enjaretado en las polleras de gala se utilizan en colores contrastantes, por ejemplo: si la pollera es roja, el enjaretado puede ser en azul o celeste.  </p>\n    <p>Los Zapatos en las polleras de encajes se usan con lazos y hebillas, son del mismo color que el enjaretado y se deben llevar de sat\xE9n o en una tela con brillos.</p>\n   </hgroup>\n  ']),
+    _templateObject13 = _taggedTemplateLiteral(['\n   <hgroup>\n    <p>La camisilla es el vestido t\xEDpico de gala del hombre paname\xF1o y es utilizada en fiestas y en ocasiones especiales como por ejemplo los domingos para asistir a misa.</p>\n   </hgroup>'], ['\n   <hgroup>\n    <p>La camisilla es el vestido t\xEDpico de gala del hombre paname\xF1o y es utilizada en fiestas y en ocasiones especiales como por ejemplo los domingos para asistir a misa.</p>\n   </hgroup>']),
+    _templateObject14 = _taggedTemplateLiteral(['\n   <hgroup>\n    <h2>Historia de la Camisilla</h2>\n    <p>"No se sabe a ciencia cierta en qu\xE9 a\xF1o s\xE9 utilizo por primera vez la camisilla, existen referencias de que esta pieza masculina tiene una larga vida de existencia, ya que en la fiesta del Centenario de Chitr\xE9 en 1948, se exhibi\xF3 una camisilla con juegos de alforzas y peque\xF1os talcos piramidales en relieve, con cien a\xF1os de existencia".</p>\n    <h3>Dora P. De Z\xE1rate</h3>\n   </hgroup>\n  '], ['\n   <hgroup>\n    <h2>Historia de la Camisilla</h2>\n    <p>"No se sabe a ciencia cierta en qu\xE9 a\xF1o s\xE9 utilizo por primera vez la camisilla, existen referencias de que esta pieza masculina tiene una larga vida de existencia, ya que en la fiesta del Centenario de Chitr\xE9 en 1948, se exhibi\xF3 una camisilla con juegos de alforzas y peque\xF1os talcos piramidales en relieve, con cien a\xF1os de existencia".</p>\n    <h3>Dora P. De Z\xE1rate</h3>\n   </hgroup>\n  ']),
+    _templateObject15 = _taggedTemplateLiteral(['\n   <hgroup>\n    <h2>Descripci\xF3n</h2>\n    <h3>Camisilla</h3>\n    <p>Las camisillas de Los Santos son de color blanco y tienen un dise\xF1o caracter\xEDstico. </p>\n    <p>El cuello de la camisa es alto y de estilo chino, en la parte frontal posee dos bolsillos, las mangas son largas y holgadas, en las mu\xF1ecas es cerrada y no lleva botones.</p>\n    <p>El cuerpo de la camisilla esta adornado con alforzas, que son una serie de tabletas finamente cosidas en la parte trasera dela camisa se hacen dos o tres tiras de alforzas y en la parte frontal se hacen a ambos lados del pecho.</p>\n    <p>Las camisillas llevan botones que pueden ser de oro, monedas peque\xF1as de plata ba\xF1ada en oro, n\xE1car o hueso. Las m\xE1s sencillas normalmente llevan los botones pegados y una sola l\xEDnea de ojales. mientras que las m\xE1s elaboradas y finas tienen doble l\xEDnea, ya que los botones son de oro y se puedes quitar y poner para lavar la camisa.</p>\n    <p>Las telas utilizadas para su confecci\xF3n son de hilo como el hol\xE1n o m\xE1s sencillas como el poplin.</p>\n    <p>La labor artesanal de las camisillas se destaca en las alforzas o espiguetas, que pueden tomar al rededor de cinco o seis d\xEDas para su confecci\xF3n.</p>\n    <p>De la cantidad de espiguetas depende el valor que se le brindar\xE1 a la camisilla. La tradici\xF3n nos dice que se consideran m\xE1s finas las camisillas que tienen m\xE1s espiguetas, por esta raz\xF3n cuando son confeccionadas para concursos, deben tener un m\xEDnimo de 30 espiguetas en la parte delantera.</p>\n    <p>tipos de alforzas o espiguetas</p>\n    <ul>\n     <li>Alforzas Horizontales</li>\n     <li>Alforzas Verticales</li>\n     <li>Alforzas Oblicuas</li>\n     <li>Alforzas Oblicuas Encontradas (combinaci\xF3n de dos tiras independientes de alforzas)</li>\n     <li>Alforzas horizontales y verticales</li>\n     <li>Cepito</li>\n    </ul>\n    <p>Para acompa\xF1ar la camisilla el hombre debe vestir con pantal\xF3n negro, zapatos negros, cutarras o chinelas (zapatos blanco con negro), una cebadera o ch\xE1cara (bolsa de hilo tejida) y sombrero pintado.</p>\n   </hgroup>\n  '], ['\n   <hgroup>\n    <h2>Descripci\xF3n</h2>\n    <h3>Camisilla</h3>\n    <p>Las camisillas de Los Santos son de color blanco y tienen un dise\xF1o caracter\xEDstico. </p>\n    <p>El cuello de la camisa es alto y de estilo chino, en la parte frontal posee dos bolsillos, las mangas son largas y holgadas, en las mu\xF1ecas es cerrada y no lleva botones.</p>\n    <p>El cuerpo de la camisilla esta adornado con alforzas, que son una serie de tabletas finamente cosidas en la parte trasera dela camisa se hacen dos o tres tiras de alforzas y en la parte frontal se hacen a ambos lados del pecho.</p>\n    <p>Las camisillas llevan botones que pueden ser de oro, monedas peque\xF1as de plata ba\xF1ada en oro, n\xE1car o hueso. Las m\xE1s sencillas normalmente llevan los botones pegados y una sola l\xEDnea de ojales. mientras que las m\xE1s elaboradas y finas tienen doble l\xEDnea, ya que los botones son de oro y se puedes quitar y poner para lavar la camisa.</p>\n    <p>Las telas utilizadas para su confecci\xF3n son de hilo como el hol\xE1n o m\xE1s sencillas como el poplin.</p>\n    <p>La labor artesanal de las camisillas se destaca en las alforzas o espiguetas, que pueden tomar al rededor de cinco o seis d\xEDas para su confecci\xF3n.</p>\n    <p>De la cantidad de espiguetas depende el valor que se le brindar\xE1 a la camisilla. La tradici\xF3n nos dice que se consideran m\xE1s finas las camisillas que tienen m\xE1s espiguetas, por esta raz\xF3n cuando son confeccionadas para concursos, deben tener un m\xEDnimo de 30 espiguetas en la parte delantera.</p>\n    <p>tipos de alforzas o espiguetas</p>\n    <ul>\n     <li>Alforzas Horizontales</li>\n     <li>Alforzas Verticales</li>\n     <li>Alforzas Oblicuas</li>\n     <li>Alforzas Oblicuas Encontradas (combinaci\xF3n de dos tiras independientes de alforzas)</li>\n     <li>Alforzas horizontales y verticales</li>\n     <li>Cepito</li>\n    </ul>\n    <p>Para acompa\xF1ar la camisilla el hombre debe vestir con pantal\xF3n negro, zapatos negros, cutarras o chinelas (zapatos blanco con negro), una cebadera o ch\xE1cara (bolsa de hilo tejida) y sombrero pintado.</p>\n   </hgroup>\n  ']);
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 var yo = require('yo-yo');
 module.exports = [{
+  metaTitle: 'Pollera de Gala Ocueña',
   nombre: 'Pollera de Gala Ocueña',
   url: 'Gala-Ocuena',
   region: 'Ocú',
@@ -3755,12 +3647,14 @@ module.exports = [{
   miniatura: 'galaOcuMiniatura.jpg',
   reseña: yo(_templateObject),
   antecedentes: yo(_templateObject2),
+  metaDescription: 'La pollera de gala ocueña  es una pollera blanca utilizada para ocasiones especiales. Una de sus características es que no lleva labores corridas (como en Los Santos). Esta pollera puede ser confeccionada en tela de hilo, voile (bual), coquito, linón de motita, seda lisa o estampada, de coquito, tela de colores pasteles y organza bordada o letin bordado (las 2 últimas no son telas tradicionales, su uso es reciente).',
   portadaImagen: '/images/galaOcuPortada.jpg',
   generalImagen: '/images/galaOcuGeneral.jpg',
   general: 'La pollera de gala ocueña  es una pollera blanca utilizada para ocasiones especiales. Una de sus características es que no lleva labores corridas (como en Los Santos). Esta pollera puede ser confeccionada en tela de hilo, voile (bual), coquito, linón de motita, seda lisa o estampada, de coquito, tela de colores pasteles y organza bordada o letin bordado (las 2 últimas no son telas tradicionales, su uso es reciente).',
   descripcion: yo(_templateObject3),
   extra: yo(_templateObject4)
 }, {
+  metaTitle: 'La Pollera Congo, su historia, clasificación y descripción.',
   nombre: 'Pollera Congo',
   url: 'Pollera-Congo',
   region: 'Costa Atlántica',
@@ -3768,35 +3662,41 @@ module.exports = [{
   miniatura: 'polleraCongoMiniatura.jpg',
   reseña: yo(_templateObject5),
   antecedentes: yo(_templateObject6),
+  metaDescription: '📄 Artículo sobre la pollera congo, ✅ su uso, historia, desde la conquista y la traída de esclavos desde África y su 📝 clasificación según el profesor Ernesto Polanco.',
   portadaImagen: '/images/polleraCongoFull.jpg',
   generalImagen: '/images/polleraCongoGeneral.jpg',
   general: 'Las polleras congo son confeccionadas en telas de diferentes colores lisos y estampados, no existe una limitación en el uso de las telas, estas son del gusto de la dueña de la pollera, o producto de las telas que se tenga a la mano. Una de las pocas características en las que se restrige el uso de un elemento es en el color Rojo. En la cultura congo este color representa al diablo o chamuco y si alguien lo usa está diciendo que tiene algún pacto con él. Pero este personaje no es el que hoy conocemos, el diablo para los congos era el blanco esclavizador la viva representación del mal. Otros datos nos aportan información sobre lo que significa el uso del color rojo en el vestido congo. Se debía a la colaboración de algunos palenques con los blancos, ellos prestaron su ayuda a corsarios ingleses como Francis Drake y a piratas como Henry Morgan para sabotear el comercio colonial español.',
-  descripcion: yo(_templateObject7),
-  extra: yo(_templateObject8)
+  extra: yo(_templateObject7),
+  descripcion: yo(_templateObject8),
+  extra2: yo(_templateObject9)
 }, {
+  metaTitle: 'Pollera De Lujo',
   nombre: 'Pollera De Lujo',
   url: 'Pollera-De-Lujo',
   region: 'Los Santos',
   dato: 'Danza: Cumbia Santeña',
   miniatura: 'PolleraDeLujoMiniatura.jpg',
-  reseña: yo(_templateObject9),
-  antecedentes: yo(_templateObject10),
+  reseña: yo(_templateObject10),
+  antecedentes: yo(_templateObject11),
+  metaDescription: 'Es imposible determinar cuál de las polleras existentes de Panamá es mejor, cada una es fruto de la evolución y de las características históricas del pueblo al que pertenecen. Sus rasgos distintivos hacen a cada una de nuestras polleras únicas y dignas de amor y respeto. Por otro lado, las ganas de volver a "las polleras" más comerciales y vistosas han llegado a crear variaciones muy distintas de lo tradicional.',
   portadaImagen: '/images/PolleraDeLujoFull.jpg',
   generalImagen: '/images/PolleraDeLujoGeneral.jpg',
   general: 'Es imposible determinar cuál de las polleras existentes de Panamá es mejor, cada una es fruto de la evolución y de las características históricas del pueblo al que pertenecen. Sus rasgos distintivos hacen a cada una de nuestras polleras únicas y dignas de amor y respeto. Por otro lado, las ganas de volver a "las polleras" más comerciales y vistosas han llegado a crear variaciones muy distintas de lo tradicional.',
-  descripcion: yo(_templateObject11)
+  descripcion: yo(_templateObject12)
 }, {
+  metaTitle: 'La Camisilla',
   nombre: 'La Camisilla',
   url: 'Camisilla',
   region: 'Provincias Centrales',
   dato: 'Danza: Punto',
   miniatura: 'camisillaMiniatura.jpg',
-  reseña: yo(_templateObject12),
-  antecedentes: yo(_templateObject13),
+  reseña: yo(_templateObject13),
+  antecedentes: yo(_templateObject14),
+  metaDescription: 'Los vestidos típicos de los hombres, no son tan conocidos como los de las mujeres. Existen pocosdatos sobre sus orígenes. En la actualidad podemos apreciar una amplia variedad de modelos endonde se incluyen elementos totalmente novedosos para esta prenda de vestir como, por ejemplo: encajes, bordados, calados, talcos, etc... que son labores usualmente utilizadas en las polleras de gala y en algunas montunas. ',
   portadaImagen: '/images/camisillaFull.jpg',
   generalImagen: '/images/camisillaGeneral.jpg',
   general: 'Los vestidos típicos de los hombres, no son tan conocidos como los de las mujeres. Existen pocosdatos sobre sus orígenes. En la actualidad podemos apreciar una amplia variedad de modelos endonde se incluyen elementos totalmente novedosos para esta prenda de vestir como, por ejemplo: encajes, bordados, calados, talcos, etc... que son labores usualmente utilizadas en las polleras de gala y en algunas montunas. ',
-  descripcion: yo(_templateObject14)
+  descripcion: yo(_templateObject15)
 }];
 
 },{"yo-yo":14}]},{},[34]);

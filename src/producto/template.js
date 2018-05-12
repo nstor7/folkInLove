@@ -29,7 +29,7 @@ export default function(producto){
       })}
     </div>
   </articulo>
-  
+  ${producto.seccion}
  </section>
 `
 return el

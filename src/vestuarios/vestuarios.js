@@ -1,6 +1,7 @@
 var yo = require('yo-yo')
 module.exports = [
  {
+  metaTitle: 'Pollera de Gala Ocueña', 
   nombre: 'Pollera de Gala Ocueña', 
   url: 'Gala-Ocuena',
   region: 'Ocú',
@@ -17,6 +18,7 @@ module.exports = [
     <p>Otra característica importante es que el folklore ocueño es uno de los mejores conservados del país. Los folkloristas, maestros y las personas del pueblo están orgullosos de sus tradiciones, por esta razón han unificando criterios y fomentado el relevo generacional en actividades como el festival del manito.</p>
    </hgroup>
   `,
+  metaDescription: 'La pollera de gala ocueña  es una pollera blanca utilizada para ocasiones especiales. Una de sus características es que no lleva labores corridas (como en Los Santos). Esta pollera puede ser confeccionada en tela de hilo, voile (bual), coquito, linón de motita, seda lisa o estampada, de coquito, tela de colores pasteles y organza bordada o letin bordado (las 2 últimas no son telas tradicionales, su uso es reciente).',
   portadaImagen: '/images/galaOcuPortada.jpg',
   generalImagen: '/images/galaOcuGeneral.jpg',
   general: 'La pollera de gala ocueña  es una pollera blanca utilizada para ocasiones especiales. Una de sus características es que no lleva labores corridas (como en Los Santos). Esta pollera puede ser confeccionada en tela de hilo, voile (bual), coquito, linón de motita, seda lisa o estampada, de coquito, tela de colores pasteles y organza bordada o letin bordado (las 2 últimas no son telas tradicionales, su uso es reciente).',
@@ -59,6 +61,7 @@ module.exports = [
  `
  },
  {
+  metaTitle: 'La Pollera Congo, su historia, clasificación y descripción.', 
   nombre: 'Pollera Congo', 
   url: 'Pollera-Congo',
   region: 'Costa Atlántica',
@@ -84,58 +87,71 @@ module.exports = [
     <p>Los primeros dos grupos que lograron escapar fueron liderados por <b>Bayano y Felipillo</b> Bayano y Felipillo, dos esclavos que tuvieron un rol muy importante durante la conquista.</p>
    </hgroup>
   `,
+  metaDescription: '📄 Artículo sobre la pollera congo, ✅ su uso, historia, desde la conquista y la traída de esclavos desde África y su 📝 clasificación según el profesor Ernesto Polanco.',
   portadaImagen: '/images/polleraCongoFull.jpg',
   generalImagen: '/images/polleraCongoGeneral.jpg',
   general: 'Las polleras congo son confeccionadas en telas de diferentes colores lisos y estampados, no existe una limitación en el uso de las telas, estas son del gusto de la dueña de la pollera, o producto de las telas que se tenga a la mano. Una de las pocas características en las que se restrige el uso de un elemento es en el color Rojo. En la cultura congo este color representa al diablo o chamuco y si alguien lo usa está diciendo que tiene algún pacto con él. Pero este personaje no es el que hoy conocemos, el diablo para los congos era el blanco esclavizador la viva representación del mal. Otros datos nos aportan información sobre lo que significa el uso del color rojo en el vestido congo. Se debía a la colaboración de algunos palenques con los blancos, ellos prestaron su ayuda a corsarios ingleses como Francis Drake y a piratas como Henry Morgan para sabotear el comercio colonial español.',
-  descripcion: yo`
-   <hgroup>
-    <h2>Descripción de la Pollera Congo</h2>
-    <h3>Pollera de Retazos</h3>
-    <p>Es una <b>pollera</b> de dos piezas, camisa y falda. Se combinan diseños lisos y estampados para crear una tela colorida y vistosa, los retazos comúnmente son en forma cuadrada, pero se pueden hacer en la forma que se desee como triángulos o rectángulos.</p>
-    <p>La camisa puede ser de una o dos arandelas, puede ser usada sin mangas o con mangas terminadas en una pequeña rucha. Esta camisa se usa por dentro de la falda, si es por fuera se termina la camisa en una rucha o arandela.</p>
-    <p>El pollerón, también hecho de retazos, puede ser de dos o tres tramos.</p>
-    <p>Por debajo de la falda en algunos palenques se usa un peticote muy sencillo y en otros el uso de esta prenda es exclusiva de la reina, las demás usan una especie de ropa interior llamada pantaleta o petipan que llega más o menos hasta la rodilla.</p>
-    <p>También se usan unas bolsas llamadas Chupas o Chumpas.</p>
-    <p>El cabello se puede llevar de diferentes maneras, porque hay cabellos y peinados muy diversos, desde corto muy rizados hasta largo y liso. Si es largo se puede llevar de manera muy tradicional con partidura a la mitad y dos trenzas, con las puntas amarradas con tiritas de trapos.</p>
-    <p>Para adornar la cabeza se usan flores, tradicionalmente la flor del congo llamada Cañitolendo que es una flor silvestre que se encuentra a lo largo de la costa arriba y costa abajo, puede decirse que es un tembleque natural.</p>
-    <p>Una de las características del arreglo de la cabeza es que a pesar de que se hace una partidura en el centro de la cabellera y se hacen dos tortas o una hacia atrás de la cabeza las flores deben ocupar toda la parte trasera de la cabeza, dejando al descubierto la parte de arriba de la cabeza, pero no la partidura de la parte de atrás como es tradicional en la pollera santeña</p>
-    <p>Sus accesorios son collares son de cuentas, conchas y caracoles.</p>
-    <p>Este vestido no utiliza zapatos y se dice que es por la relación del negro con la tierra.</p>
-    <p>La cultura congo es matriarcal, la reina congo puede usar lo que ella desee, aunque comúnmente usa una pollera de color blanco y una corona alta. Con flores y cintas de colores que le caen sobre la espalda.</p>
-   </hgroup>
-  `,
   extra: yo`
-  <section>
+  <article class="completa blanco">
+   <hgroup class="blogStyle">
+    <h2>Descripción de la Pollera Congo</h2>
+    <p>Los vestidos típicos de la provincia de colón son de gran belleza, en especial las polleras congo.</p>
+    <p>No solo es su tremendo peso histórico lo que les brida un incalculable valor, sino es la flexibilidad del pueblo. Esto se debe a que todavía, la cultura congo, permanece viva, permitiendo que los aspectos físicos de estos vestidos se mantengan en constante evolución.</p>
+    <p>Como hemos mencionado la cultura congo es matriarcal y es la reina la que toma desiciones acerca de que se va a utilizar y en que combinaciones.</p>
+    <p>Tenemos que tener presente que las manifestaciones folklóricas varían, en algunos casos grandemente, al ser llevados al escenario como una presentación artística.</p>
+    <p>Lo que se busca con la esta información es brindar opciones a las agrupaciones folkloricas tanto tradicionales como de proyección, que no sean nativos de la provincia de colón, para que luzcan las diferentes polleras que esta cultura nos puede brindar.</p>
+   </hgroup>
+  </article>
+   `,
+  descripcion: yo`
    <article class="completa blanco clasificacion">
     <hgroup class="blogStyle">
      <h2>Clasificación de la Pollera Congo</h2>
-     <p>En <b>Colón</b> podemos encontrar una gran variante de <b>polleras</b>, entre las que podemos encontrar:</p>
+     <p>En <b>Colón</b> podemos encontrar una gran variedad de <b>polleras</b>:</p>
      <h3>La Pollera Estampada</h3>
-     <p>Este <b>vestido típico</b> consiste en una camisa de una sola arandela y falda de tres tramos. Su característica principal es que la tela que se usa para la falda y la camisa es de una sola clase puede ser zaraza o de flores. El cuerpo de la camisa puede ser de otro color.</p>
+     <p><b>vestido típico</b> que consiste en una camisa de una sola arandela y falda de tres tramos. Su característica principal es que la tela que se usa para la falda y la camisa es de una sola clase puede ser zaraza o de flores. El cuerpo de la camisa puede ser de otro color.</p>
      <h3>La Pollera de Metidos</h3>
-     <p><b>Traje típico</b> también consiste en una camisa de una sola arandela y falda de tres tramos, pero su caracteristica principal es que en la falda uno de los tramos es de una tela distinta al resto. Se combinan una tela estampada y una lisa.</p>
-     <p>En el faldón de tres tramos se pueden utilizar dos combinaciones.</p>
+     <p>Este <b>traje típico</b> consiste en una camisa de una sola arandela y una falda de tres tramos.</p>
+     <p>Su característica principal recae en la falda, Se utilizan dos tipos de telas distintos uno liso y uno estampado en su confección.</p>
+     <p>Las combinaciones que utilizan son:</p>
      <ul>
       <li>Estampado - tela lisa - estampado</li>
       <li>tela lisa - estampado - tela lisa</li>
      </ul>
      <h3>La Pollera de Retazos</h3>
-     <h3>La Pollera Cachimba o Tambor Mayor de Portobelo</h3>
+     <p>Es una <b>pollera</b> de dos piezas, camisa y falda. Se combinan diseños lisos y estampados para crear una tela colorida y vistosa, los retazos comúnmente son en forma cuadrada o en rectángulos, pero se pueden hacer en la forma que quiera por ejemplo en triángulos.</p>
+     <p>La camisa puede ser de una o dos arandelas. Esta camisa se usa por dentro de la falda, si es por fuera se termina la camisa en una rucha o arandela.</p>
+     <p>El pollerón, también hecho de retazos, puede ser de dos o tres tramos. La pollera congo no lleva "picarona" (rucha final en las polleras de zaraza de las montunas) el faldón parece que se divide en tres tramos del mismo ancho.</p>
      <h3>El Pilón Portobeleño</h3>
-     <p>Esta <b>pollera</b> consiste en una camisa de mangas con volantes al final y arandela en la cintura. El cuerpo de la camisa es de tela de un solo color y las arandelas son de tela estampada. Comunmente flores o zaraza.</p>
+     <p>Esta <b>pollera</b> consiste en una camisa de mangas con volantes al final y arandela en la cintura, tiene una similitud a la basquiña. El cuerpo de la camisa es de tela de un solo color, los botones que se utilizan no siempre son iguales y las arandelas son de tela estampada. Comúnmente flores o zaraza.</p>
      <p>El faldón es de tres tramos iguales y se utiliza la tela estampada o de flores que se utilizó en los volantes de la camisa.</p>
-     <h3>La Pollera de Tramos Combinados</h3>
      <h3>Pollera de Parches</h3>
-     <p>Este <b>vestido folklórico</b> consiste en una camisa de una sola arandela y falda de tres tramos. Su nombre proviene de tener parches cuadrados en varias partes. Su confección es similar a la pollera estampada, pero se originó por el hecho de que las polleras se rompían o se hacían agujeros y las damas las remendaban con estos parches. A pesar de que hoy en día es común confeccionarlas con parches su origen es muy
+     <p>Esta pollera consiste en una camisa de una sola arandela y falda de tres tramos. Su nombre proviene de tener parches cuadrados en varias partes sin ningún orden
 
-      interesante y se demuestra la creatividad de las mujeres.</p>
+        establecido, su origen proviene de la verdadera necesidad de remendar las polleras que tenían algún tipo de agujero.</p>
+      <p>Su confección es similar a la pollera estampada, A pesar de que hoy en día es común confeccionarlas con parches su origen es muy interesante y demuestra la gran creatividad de las mujeres ante la necesidad.</p>
+      <p>Por debajo de la falda en algunos palenques las mujeres utilizan un peticote muy sencillo y en otros el uso de esta prenda es exclusiva de la reina, las demás usan una especie de ropa interior llamada pantaleta o petipan que llega más o menos hasta la rodilla.</p>
+      <p>También se usan unas bolsas llamadas Chupas o Chumpas.</p>
+      <p>El cabello se puede llevar de diferentes maneras, porque hay cabellos y peinados muy diversos, desde corto muy rizados hasta largo y liso. Si es largo se puede llevar de manera muy tradicional con partidura a la mitad y dos trenzas, con las puntas amarradas con tiritas de trapos.</p>
+      <p>Para adornar la cabeza se usan flores, tradicionalmente la flor del congo llamada Cañitolendo que es una flor silvestre que se encuentra a lo largo de la costa arriba y costa abajo, puede decirse que es un tembleque natural.</p>
+      <p>Una de las características del arreglo de la cabeza es que a pesar de que se hace una partidura en el centro de la cabellera y se hacen dos tortas las flores deben ocupar toda la parte trasera, dejando al descubierto la parte de arriba de la cabeza, pero no la partidura en la parte de atrás como es tradicional en la pollera santeña.</p>
+      <p>Sus accesorios son collares son de cuentas, conchas y caracoles y semillas.</p>
+      <p>Este vestido típico no utiliza zapatos y se dice que es por la relación del negro con la tierra.</p>
+      <p>La cultura congo es matriarcal, la reina congo puede utilizar lo que ella desee, desde una pollera de retazos hasta una pollera de color blanco con una corona alta que lleva flores y cintas de colores que le caen sobre la espalda.</p>
       <p>Hemos utilizado la clasificación del profesor Ernesto Polanco</p>
     </hgroup>
    </article>
-  </section>
+
+  `,
+  extra2: yo`
+    <section class="completa blanco videoPasos">
+     <h2>Video sobre La Pollera Congo</h2>
+     <iframe src="https://www.youtube.com/embed/I-KF3UFeTHc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </section>
   `
  },
  {
+  metaTitle: 'Pollera De Lujo', 
   nombre: 'Pollera De Lujo', 
   url: 'Pollera-De-Lujo',
   region: 'Los Santos',
@@ -160,6 +176,7 @@ module.exports = [
     <h4>1. recomendamos las charlas del Sr. Eduardo Cano que nos brinda una nueva teoría sobre el origen de la pollera, esta teoría es el resultado de muchos años de estudio tanto a nivel nacional como internacional.</h4>
    </hgroup>
   `,
+  metaDescription: 'Es imposible determinar cuál de las polleras existentes de Panamá es mejor, cada una es fruto de la evolución y de las características históricas del pueblo al que pertenecen. Sus rasgos distintivos hacen a cada una de nuestras polleras únicas y dignas de amor y respeto. Por otro lado, las ganas de volver a "las polleras" más comerciales y vistosas han llegado a crear variaciones muy distintas de lo tradicional.',
   portadaImagen: '/images/PolleraDeLujoFull.jpg',
   generalImagen: '/images/PolleraDeLujoGeneral.jpg',
   general: 'Es imposible determinar cuál de las polleras existentes de Panamá es mejor, cada una es fruto de la evolución y de las características históricas del pueblo al que pertenecen. Sus rasgos distintivos hacen a cada una de nuestras polleras únicas y dignas de amor y respeto. Por otro lado, las ganas de volver a "las polleras" más comerciales y vistosas han llegado a crear variaciones muy distintas de lo tradicional.',
@@ -195,6 +212,7 @@ module.exports = [
   `
  },
  {
+  metaTitle: 'La Camisilla', 
   nombre: 'La Camisilla', 
   url: 'Camisilla',
   region: 'Provincias Centrales',
@@ -211,6 +229,7 @@ module.exports = [
     <h3>Dora P. De Zárate</h3>
    </hgroup>
   `,
+  metaDescription: 'Los vestidos típicos de los hombres, no son tan conocidos como los de las mujeres. Existen pocosdatos sobre sus orígenes. En la actualidad podemos apreciar una amplia variedad de modelos endonde se incluyen elementos totalmente novedosos para esta prenda de vestir como, por ejemplo: encajes, bordados, calados, talcos, etc... que son labores usualmente utilizadas en las polleras de gala y en algunas montunas. ',
   portadaImagen: '/images/camisillaFull.jpg',
   generalImagen: '/images/camisillaGeneral.jpg',
   general: 'Los vestidos típicos de los hombres, no son tan conocidos como los de las mujeres. Existen pocosdatos sobre sus orígenes. En la actualidad podemos apreciar una amplia variedad de modelos endonde se incluyen elementos totalmente novedosos para esta prenda de vestir como, por ejemplo: encajes, bordados, calados, talcos, etc... que son labores usualmente utilizadas en las polleras de gala y en algunas montunas. ',

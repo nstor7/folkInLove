@@ -30,6 +30,7 @@ module.exports = function(vestuario){
      ${vestuario.descripcion}
    </section>
    ${vestuario.extra}
+   ${vestuario.extra2}
   </main>
  `
  return el
