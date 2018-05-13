@@ -3764,7 +3764,7 @@ module.exports = [{
   descripcion: yo(_templateObject3),
   extra: yo(_templateObject4)
 }, {
-  metaTitle: 'La Pollera Congo, su historia, clasificación y descripción.',
+  metaTitle: 'Historia, clasificación y descripción de La Pollera Congo.',
   nombre: 'Pollera Congo',
   url: 'Pollera-Congo',
   region: 'Costa Atlántica',
