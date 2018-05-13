@@ -22,7 +22,7 @@ vestuarios.get('/:nombre', function(req, res){
  })
  res.render('index.pug', {
   link: 'https://www.folkinlovepty.com/' + vestido.url,
-  title: 'Folk in Love - ' + vestido.metaTitle,
+  title: vestido.metaTitle,
   description: vestido.metaDescription,
   image: 'https://www.folkinlovepty.com/images/' + vestido.miniatura,
   schemaType: 'Article',
