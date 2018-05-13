@@ -2831,6 +2831,8 @@ function _taggedTemplateLiteral(strings, raw) {
 var yo = require('yo-yo');
 
 module.exports = [{
+  metaTitle: 'El Punto Santeño, el baile típico más elegante de Panamá.',
+  metaDescription: 'El Punto Santeño. En este artículo 📄 hablamos sobre el baile folklórico que es considerado el más elegante 💎 de Panamá 🇵🇦. su estructura musical 🎼 y sus pasos',
   miniatura: 'puntoMiniatura.jpg',
   region: 'Azuero',
   dato: 'Vestuario: Pollera De Lujo',
