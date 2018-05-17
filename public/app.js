@@ -3268,7 +3268,7 @@ exports.default = function (producto) {
       style: 'currency',
       currency: 'USD'
     }), opcion.descripcion);
-  }), producto.seccion);
+  }), producto.articulo);
   return el;
 };
 
@@ -3287,11 +3287,21 @@ function _taggedTemplateLiteral(strings, raw) {
 },{"yo-yo":14}],43:[function(require,module,exports){
 'use strict';
 
+var _templateObject = _taggedTemplateLiteral(['<section class="articulo">\n <articulo class="completa texto">\n  <hgroup class="blogStyle">\n   <h2>La Experiencia de Ponerse un Vestido T\xEDpico Paname\xF1o</h2>\n   <p>Vestirse de pollera es una de las experiencias m\xE1s lindas que pueden tener todas las paname\xF1a. A lo largo de nuestro pa\xEDs las indumentarias tradicionales son muy variadas, pero describen la vida y las experiencias de las mujeres que las portaban.</p>\n   <p>Hoy en d\xEDa se ha extendido el uso de la pollera de lujo porque es de incalculable belleza, pero no debemos olvidar las otras hermosas polleras y vestimentas que tiene nuestro pa\xEDs. Como, por ejemplo: los vestidos de diablo espejo, diablico sucio, diablicos limpios de la chorrera, indumentarias de faena, basqui\xF1a, chambra y camisola, etc...</p>\n   <p>Realizarse una sesi\xF3n de fotos nos hace sentir hermosas, es una experiencia que nos saca de nuestra zona de confort y nos permite vivir una experiencia memorable, \xBFpor qu\xE9? porque adem\xE1s de tomarnos el tiempo para engalanarnos con un hermoso maquillaje, peinado, prendas y dem\xE1s accesorios, tendremos la experiencia de conocer los detalles de la confecci\xF3n del vestido t\xEDpico escogido y adem\xE1s conocer de primera mano c\xF3mo se siente la tela, el peso de los tembleques y mucho m\xE1s.</p>\n   <h2>Descripci\xF3n de la Sesi\xF3n</h2>\n   <p>La aventura inicia desde que el equipo llega a arreglarte (lugar de conveniencia) en d\xF3nde tendr\xE1s la pollera y los accesorios que necesitar\xE1s para esta maravillosa experiencia. Luego pasamos al peinado y maquillaje, de ah\xED a colocar la pollera, las prendas y los accesorios de la cabeza</p>\n   <p>Escogeremos un lugar m\xE1gico y emblem\xE1tico de Panam\xE1 para que sea el marco perfecto para tu sesi\xF3n de fotos.</p>\n   <p>y listo, ahora solo queda disfrutar y divertirnos con cada momento.</p>\n   <p>Nuestro equipo te contara la historia de estas polleras, detalles interesantes de la confecci\xF3n y adem\xE1s te ayudar\xE1 a que poses para que tus recuerdos sean como siempre los so\xF1aste.</p>\n   <h2>Qu\xE9 Necesitas Para Tu Sesi\xF3n?</h2>\n   <p>Nuestro compromiso es hacer de ese d\xEDa un momento memorable, estas son algunas recomendaciones que nos ayudar\xE1n a hacer todo de forma m\xE1s \xE1gil:</p>\n   <ul>\n    <li>Comer antes de tu sesi\xF3n</li>\n    <li>Ropa interior Blanca</li>\n    <li>Cabello Limpio</li>\n    <li>Cejas arregladas</li>\n    <li>No usar perfume en el cuello</li>\n   </ul>\n   <p>Este video les explicar\xE1 un poco m\xE1s del proceso.</p>\n   <div class="videoPasos texto">\n    <iframe width="560" height="315" src="https://www.youtube.com/embed/Y656jCpFLiM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>\n   </div>\n   <h2>Detalles de Nuestro Servicio</h2>\n   <ul>\n    <li>No hay l\xEDmite de personas por Sesi\xF3n</li>\n    <li>Horarios Flexibles</li>\n    <li>Locaci\xF3n en exteriores o interiores</li>\n    <li>T\xFA escoges la locaci\xF3n que prefieras (si la locaci\xF3n tiene un costo, este debe ser cubierto por el cliente</li>\n    <li>Atenci\xF3n personalizada</li>\n    <li>Incluye Maquillaje y asesor\xEDa para las poses</li>\n    <li>Varios paquetes a escoger</li>\n    <li>Trajes para ni\xF1os disponibles</li>\n    <li>Trajes para hombres disponibles</li>\n    <li>Todos los vestidos disponibles en tallas S, M y L</li>\n    <li>Te entregamos un m\xEDnimo de 15 fotos editadas en una plataforma virtual</li>\n   </ul>\n  </hgroup>\n </articulo>\n</section>\n  \n  '], ['<section class="articulo">\n <articulo class="completa texto">\n  <hgroup class="blogStyle">\n   <h2>La Experiencia de Ponerse un Vestido T\xEDpico Paname\xF1o</h2>\n   <p>Vestirse de pollera es una de las experiencias m\xE1s lindas que pueden tener todas las paname\xF1a. A lo largo de nuestro pa\xEDs las indumentarias tradicionales son muy variadas, pero describen la vida y las experiencias de las mujeres que las portaban.</p>\n   <p>Hoy en d\xEDa se ha extendido el uso de la pollera de lujo porque es de incalculable belleza, pero no debemos olvidar las otras hermosas polleras y vestimentas que tiene nuestro pa\xEDs. Como, por ejemplo: los vestidos de diablo espejo, diablico sucio, diablicos limpios de la chorrera, indumentarias de faena, basqui\xF1a, chambra y camisola, etc...</p>\n   <p>Realizarse una sesi\xF3n de fotos nos hace sentir hermosas, es una experiencia que nos saca de nuestra zona de confort y nos permite vivir una experiencia memorable, \xBFpor qu\xE9? porque adem\xE1s de tomarnos el tiempo para engalanarnos con un hermoso maquillaje, peinado, prendas y dem\xE1s accesorios, tendremos la experiencia de conocer los detalles de la confecci\xF3n del vestido t\xEDpico escogido y adem\xE1s conocer de primera mano c\xF3mo se siente la tela, el peso de los tembleques y mucho m\xE1s.</p>\n   <h2>Descripci\xF3n de la Sesi\xF3n</h2>\n   <p>La aventura inicia desde que el equipo llega a arreglarte (lugar de conveniencia) en d\xF3nde tendr\xE1s la pollera y los accesorios que necesitar\xE1s para esta maravillosa experiencia. Luego pasamos al peinado y maquillaje, de ah\xED a colocar la pollera, las prendas y los accesorios de la cabeza</p>\n   <p>Escogeremos un lugar m\xE1gico y emblem\xE1tico de Panam\xE1 para que sea el marco perfecto para tu sesi\xF3n de fotos.</p>\n   <p>y listo, ahora solo queda disfrutar y divertirnos con cada momento.</p>\n   <p>Nuestro equipo te contara la historia de estas polleras, detalles interesantes de la confecci\xF3n y adem\xE1s te ayudar\xE1 a que poses para que tus recuerdos sean como siempre los so\xF1aste.</p>\n   <h2>Qu\xE9 Necesitas Para Tu Sesi\xF3n?</h2>\n   <p>Nuestro compromiso es hacer de ese d\xEDa un momento memorable, estas son algunas recomendaciones que nos ayudar\xE1n a hacer todo de forma m\xE1s \xE1gil:</p>\n   <ul>\n    <li>Comer antes de tu sesi\xF3n</li>\n    <li>Ropa interior Blanca</li>\n    <li>Cabello Limpio</li>\n    <li>Cejas arregladas</li>\n    <li>No usar perfume en el cuello</li>\n   </ul>\n   <p>Este video les explicar\xE1 un poco m\xE1s del proceso.</p>\n   <div class="videoPasos texto">\n    <iframe width="560" height="315" src="https://www.youtube.com/embed/Y656jCpFLiM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>\n   </div>\n   <h2>Detalles de Nuestro Servicio</h2>\n   <ul>\n    <li>No hay l\xEDmite de personas por Sesi\xF3n</li>\n    <li>Horarios Flexibles</li>\n    <li>Locaci\xF3n en exteriores o interiores</li>\n    <li>T\xFA escoges la locaci\xF3n que prefieras (si la locaci\xF3n tiene un costo, este debe ser cubierto por el cliente</li>\n    <li>Atenci\xF3n personalizada</li>\n    <li>Incluye Maquillaje y asesor\xEDa para las poses</li>\n    <li>Varios paquetes a escoger</li>\n    <li>Trajes para ni\xF1os disponibles</li>\n    <li>Trajes para hombres disponibles</li>\n    <li>Todos los vestidos disponibles en tallas S, M y L</li>\n    <li>Te entregamos un m\xEDnimo de 15 fotos editadas en una plataforma virtual</li>\n   </ul>\n  </hgroup>\n </articulo>\n</section>\n  \n  ']);
+
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
+
+var yo = require('yo-yo');
+
 module.exports = [{
+  metaTitle: 'Sesión de Fotos en Pollera - Panamá 2018',
+  metaDescripcion: 'La sesión fotográfica 📷 incluye vestido típico, maquillaje 💄 , colocación de tembleques y prendas 💍 , asesoría con las poses ✅ y un minimo de 15 fotos editadas en biblioteca digital perzonalizada.',
   nombre: 'Sesión de Fotografía',
-  enlace: 'fotografia',
+  enlace: 'fotos-en-traje-tipico',
   subtitulo: 'en vestido típico',
-  descripcion: 'La sesión fotográfica en exteriores. Incluye el vestido típico de su elección, peinado, maquillaje, colocación de tembleques y prendas, asesoría con las poses, Biblioteca digital perzonalizada con 15 fotos Editadas.',
+  descripcion: 'La sesión fotográfica incluye vestido típico, maquillaje, colocación de tembleques y prendas, asesoría con las poses y un minimo de 15 fotos editadas en biblioteca digital perzonalizada.',
   miniaturaFull: 'images/fotografia-miniatura-full.jpg',
   miniaturaCel: 'images/fotografia-miniatura-cel.jpg',
   imagenFull: 'images/fotografia-imagen-full.jpg',
@@ -3312,9 +3322,12 @@ module.exports = [{
   }, {
     detalle: 'Persona Adicional',
     precio: 0,
-    descripcion: 'No se cobra adicional por las fotografías, sólo el costo del alquiler de cada vestuario. (consultar precios en la sección de alquiler de vestuarios)'
-  }]
+    descripcions: 'No se cobra adicional por las fotografías, sólo el costo del alquiler de cada vestuario. (consultar precios en la sección de alquiler de vestuarios)'
+  }],
+  articulo: yo(_templateObject)
 }, {
+  metaTitle: 'Venta de Pollera Blanca para bebes, niñas, jovenes y adultas',
+  metaDescripcion: 'Pollera confeccionada en tela de organza, adornada con finos encajes de hilo.',
   nombre: 'Pollera Blanca',
   enlace: 'pollera-blanca',
   subtitulo: 'Organza Bordada',
@@ -3338,6 +3351,8 @@ module.exports = [{
     precio: 400.00
   }]
 }, {
+  metaTitle: 'Venta de Pollera Congo para bebes, niñas, jovenes y adultas',
+  metaDescripcion: 'Pollera de retazos de tela de vistosos colores.',
   nombre: 'Pollera Congo',
   enlace: 'pollera-congo',
   subtitulo: 'De Diferentes Clases',
@@ -3358,6 +3373,8 @@ module.exports = [{
     precio: 160
   }]
 }, {
+  metaTitle: 'Venta de Polleras de lujo en Panamá',
+  metaDescripcion: 'Pollera de gala en técnica del talco al sol con calados y encajes valencianos.',
   nombre: 'Pollera de Lujo',
   enlace: 'pollera-lujo',
   subtitulo: 'Talco al Sol',
@@ -3373,6 +3390,8 @@ module.exports = [{
     descripción: 'Tiempo de entrega 10 a 12 meses, durante ese tiempo se podrán ir efectuando pagos, el primer pago se debe hacer el día de la toma de las medidas.'
   }]
 }, {
+  metaTitle: 'Confección de tembleques panameños blancos y en color',
+  metaDescripcion: 'Juego de 12 pares de flores.',
   nombre: 'Tembleques',
   enlace: 'tembleques',
   subtitulo: 'blancos o en color',
@@ -3394,7 +3413,9 @@ module.exports = [{
   }]
 },
 // {
-//  nombre: 'Camisa',
+//  metaTitle: 'Camisa',
+//metaDescripcion: 'Pollera de gala en técnica del talco al sol con calados y encajes valencianos.',//  
+//nombre: 'Camisa',
 //  enlace: 'camisa',
 //  subtitulo: 'Una Sola Arandela',
 //  descripcion: 'Pollera de gala en técnica del talco al sol con calados y encajes valencianos.',
@@ -3419,6 +3440,8 @@ module.exports = [{
 //  ]
 // },
 {
+  metaTitle: 'Venta de Camisas típicas panameñas para hombres',
+  metaDescripcion: '',
   nombre: 'Camisilla',
   enlace: 'camisilla',
   subtitulo: 'De Gala',
@@ -3443,7 +3466,9 @@ module.exports = [{
   }]
 }
 // {
-//  nombre: 'Montuno Ocueño',
+//  metaTitle: 'Montuno Ocueño',
+//metaDescripcion: 'Camisa y Pantalón en tela de manta sucia con bordados a mano.',//  
+//nombre: 'Montuno Ocueño',
 //  enlace: 'montuno-ocueno',
 //  subtitulo: '',
 //  descripcion: 'Camisa y Pantalón en tela de manta sucia con bordados a mano.',
@@ -3466,10 +3491,41 @@ module.exports = [{
 //    precio: 100
 //   }
 //  ]
+// },
+// {
+//  metaTitle: 'Alquiler de Polleras y vestidos típicos en Panamá',
+//metaDescripcion: '',//  
+//nombre: 'Alquiler de Vestidos y accesorios Folklóricos',
+//  enlace: 'alquiler',
+//  subtitulo: 'de Panamá',
+//  descripcion: '',
+//  miniaturaFull: 'images/camisilla-miniatura-full.jpg',
+//  miniaturaCel: 'images/camisilla-miniatura-cel.jpg',
+//  imagenFull: 'images/camisilla-producto-full.jpg',
+//  imagenCel: 'images/camisilla-producto-cel.jpg',
+//  alt: 'Camisilla de Gala, Vestidos Típicos de Panamá',
+//  opciones: [
+//   {
+//    detalle: 'Niños hasta 6 años',
+//    precio: 35
+//   },
+//   {
+//    detalle: 'Niños hasta 12 años',
+//    precio: 45
+//   },
+//   {
+//    detalle: 'Adultos, voilé y alforzas',
+//    precio: 100
+//   },
+//   {
+//    detalle: 'Adultos con espiguetas y tela de hilo',
+//    precio: 200
+//   }
+//  ]
 // }
 ];
 
-},{}],44:[function(require,module,exports){
+},{"yo-yo":14}],44:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');

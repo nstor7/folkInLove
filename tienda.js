@@ -22,8 +22,8 @@ tienda.get('/:nombre', function(req, res){
  })
  res.render('index.pug', {
   link: 'https://www.folkinlovepty.com/' + producto.enlace,
-  title: 'Folk in Love - ' + producto.nombre,
-  description: producto.descripcion,
+  title: producto.metaTitle,
+  description: producto.metaDescripcion,
   image: 'https://www.folkinlovepty.com/' + producto.miniaturaFull,
   schemaType: 'Article',
   schemaImages:[
