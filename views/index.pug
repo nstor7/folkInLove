@@ -3,10 +3,10 @@ html(lang="es")
   head#head
    meta(charset="UTF-8")
    meta(name='viewport', content='width=device-width, initial-scale=1.0, user-scalable=no')
+   link(rel='stylesheet' type='text/css' href='app.css')
    title#metaTitle=title
    meta(name='description' content=description)
    link(rel="canonical" href = link)
-   link(rel='stylesheet' type='text/css' href='app.css')
    link(rel='apple-touch-icon', sizes='57x57', href='images/apple-icon-57x57.png')
    link(rel='apple-touch-icon', sizes='60x60', href='images/apple-icon-60x60.png')
    link(rel='apple-touch-icon', sizes='72x72', href='images/apple-icon-72x72.png')
@@ -61,7 +61,7 @@ html(lang="es")
    #header
    #main-container
    #footer
-   script(type='application/javascript' src='app.js')
+   script(async='' type='application/javascript' src='app.js')
    script(async='', src='https://www.googletagmanager.com/gtag/js?id=UA-118329881-1')
    script.
     window.dataLayer = window.dataLayer || [];
