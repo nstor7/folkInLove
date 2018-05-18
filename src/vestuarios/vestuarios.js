@@ -19,10 +19,10 @@ module.exports = [
    </hgroup>
   `,
   metaDescription: 'La pollera de gala ocueña  es una pollera blanca utilizada para ocasiones especiales. Una de sus características es que no lleva labores corridas (como en Los Santos). Esta pollera puede ser confeccionada en tela de hilo, voile (bual), coquito, linón de motita, seda lisa o estampada, de coquito, tela de colores pasteles y organza bordada o letin bordado (las 2 últimas no son telas tradicionales, su uso es reciente).',
-  portadaImagen: '/images/galaOcuPortada.jpg',
-  portadaImagenFull: '/images/galaOcuPortada.jpg',
-  portadaImagenTab: '/images/galaOcuPortada.jpg',
-  portadaImagenCel: '/images/galaOcuPortada.jpg',
+  portadaImagen: 'images/galaOcuPortadaCel-1x.jpg',
+  portadaImagenFull: 'images/galaOcuPortadaFull-1x.jpg 1x, images/galaOcuPortadaFull-2x.jpg 2x',
+  portadaImagenTab: 'images/galaOcuPortadaTab-1x.jpg 1x, images/galaOcuPortadaTab-2x.jpg 2x',
+  portadaImagenCel: 'images/galaOcuPortadaCel-1x.jpg 1x, images/galaOcuPortadaCel-2x.jpg 2x',
   generalImagen: '/images/galaOcuGeneral.jpg',
   general: 'La pollera de gala ocueña  es una pollera blanca utilizada para ocasiones especiales. Una de sus características es que no lleva labores corridas (como en Los Santos). Esta pollera puede ser confeccionada en tela de hilo, voile (bual), coquito, linón de motita, seda lisa o estampada, de coquito, tela de colores pasteles y organza bordada o letin bordado (las 2 últimas no son telas tradicionales, su uso es reciente).',
   descripcion: yo`
