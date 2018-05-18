@@ -183,10 +183,10 @@ module.exports = [
    </hgroup>
   `,
   metaDescription: 'Es imposible determinar cuál de las polleras existentes de Panamá es mejor, cada una es fruto de la evolución y de las características históricas del pueblo al que pertenecen. Sus rasgos distintivos hacen a cada una de nuestras polleras únicas y dignas de amor y respeto. Por otro lado, las ganas de volver a "las polleras" más comerciales y vistosas han llegado a crear variaciones muy distintas de lo tradicional.',
-  portadaImagen: '/images/PolleraDeLujoFull.jpg',
-  portadaImagenFull: '/images/PolleraDeLujoFull.jpg',
-  portadaImagenTab: '/images/PolleraDeLujoFull.jpg',
-  portadaImagenCel: '/images/PolleraDeLujoFull.jpg',
+  portadaImagen: 'images/PolleraDeLujoCel-1x.jpg',
+  portadaImagenFull: 'images/PolleraDeLujoFull-1x.jpg 1x, images/PolleraDeLujoFull-2x.jpg 2x',
+  portadaImagenTab: 'images/PolleraDeLujoTab-1x.jpg 1x, images/PolleraDeLujoTab-2x.jpg 2x',
+  portadaImagenCel: 'images/PolleraDeLujoCel-1x.jpg 1x, images/PolleraDeLujoCel-2x.jpg 2x',
   generalImagen: '/images/PolleraDeLujoGeneral.jpg',
   general: 'Es imposible determinar cuál de las polleras existentes de Panamá es mejor, cada una es fruto de la evolución y de las características históricas del pueblo al que pertenecen. Sus rasgos distintivos hacen a cada una de nuestras polleras únicas y dignas de amor y respeto. Por otro lado, las ganas de volver a "las polleras" más comerciales y vistosas han llegado a crear variaciones muy distintas de lo tradicional.',
   descripcion: yo`
