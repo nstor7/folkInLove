@@ -6,7 +6,9 @@ module.exports = function(vestuario){
   <main itemscope itemtype="http://schema.org/Article">
    <section class="portada">
     <picture class="banner">
-      <source media="(min-width: 800px)" srcset="${vestuario.portadaImagen}">
+      <source media="(min-width: 800px)" srcset="${vestuario.portadaImagenFull}">
+      <source media="(min-width: 541px)" srcset="${vestuario.portadaImagenTab}">
+      <source media="(min-width: 200px)" srcset="${vestuario.portadaImagenCel}">
       <img class="completa" src="${vestuario.portadaImagen}" alt="Imagen de portada ${vestuario.nombre}">
     </picture>
     <article class="mitad rosaTrans">

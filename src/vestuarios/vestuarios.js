@@ -20,6 +20,9 @@ module.exports = [
   `,
   metaDescription: 'La pollera de gala ocueña  es una pollera blanca utilizada para ocasiones especiales. Una de sus características es que no lleva labores corridas (como en Los Santos). Esta pollera puede ser confeccionada en tela de hilo, voile (bual), coquito, linón de motita, seda lisa o estampada, de coquito, tela de colores pasteles y organza bordada o letin bordado (las 2 últimas no son telas tradicionales, su uso es reciente).',
   portadaImagen: '/images/galaOcuPortada.jpg',
+  portadaImagenFull: '/images/galaOcuPortada.jpg',
+  portadaImagenTab: '/images/galaOcuPortada.jpg',
+  portadaImagenCel: '/images/galaOcuPortada.jpg',
   generalImagen: '/images/galaOcuGeneral.jpg',
   general: 'La pollera de gala ocueña  es una pollera blanca utilizada para ocasiones especiales. Una de sus características es que no lleva labores corridas (como en Los Santos). Esta pollera puede ser confeccionada en tela de hilo, voile (bual), coquito, linón de motita, seda lisa o estampada, de coquito, tela de colores pasteles y organza bordada o letin bordado (las 2 últimas no son telas tradicionales, su uso es reciente).',
   descripcion: yo`
@@ -88,7 +91,10 @@ module.exports = [
    </hgroup>
   `,
   metaDescription: '📄 Artículo sobre la pollera congo, ✅ su uso, historia, desde la conquista y la traída de esclavos desde África y su 📝 clasificación según el profesor Ernesto Polanco.',
-  portadaImagen: '/images/polleraCongoFull.jpg',
+  portadaImagen: 'images/polleraCongoCel-1x.jpg',
+  portadaImagenFull: 'images/polleraCongoFull-1x.jpg 1x, images/polleraCongoFull-2x.jpg 2x',
+  portadaImagenTab: 'images/polleraCongoTab-1x.jpg 1x, images/polleraCongoTab-2x.jpg 2x',
+  portadaImagenCel: 'images/polleraCongoCel-1x.jpg 1x, images/polleraCongoCel-2x.jpg 2x',
   generalImagen: '/images/polleraCongoGeneral.jpg',
   general: 'Las polleras congo son confeccionadas en telas de diferentes colores lisos y estampados, no existe una limitación en el uso de las telas, estas son del gusto de la dueña de la pollera, o producto de las telas que se tenga a la mano. Una de las pocas características en las que se restrige el uso de un elemento es en el color Rojo. En la cultura congo este color representa al diablo o chamuco y si alguien lo usa está diciendo que tiene algún pacto con él. Pero este personaje no es el que hoy conocemos, el diablo para los congos era el blanco esclavizador la viva representación del mal. Otros datos nos aportan información sobre lo que significa el uso del color rojo en el vestido congo. Se debía a la colaboración de algunos palenques con los blancos, ellos prestaron su ayuda a corsarios ingleses como Francis Drake y a piratas como Henry Morgan para sabotear el comercio colonial español.',
   extra: yo`
@@ -178,6 +184,9 @@ module.exports = [
   `,
   metaDescription: 'Es imposible determinar cuál de las polleras existentes de Panamá es mejor, cada una es fruto de la evolución y de las características históricas del pueblo al que pertenecen. Sus rasgos distintivos hacen a cada una de nuestras polleras únicas y dignas de amor y respeto. Por otro lado, las ganas de volver a "las polleras" más comerciales y vistosas han llegado a crear variaciones muy distintas de lo tradicional.',
   portadaImagen: '/images/PolleraDeLujoFull.jpg',
+  portadaImagenFull: '/images/PolleraDeLujoFull.jpg',
+  portadaImagenTab: '/images/PolleraDeLujoFull.jpg',
+  portadaImagenCel: '/images/PolleraDeLujoFull.jpg',
   generalImagen: '/images/PolleraDeLujoGeneral.jpg',
   general: 'Es imposible determinar cuál de las polleras existentes de Panamá es mejor, cada una es fruto de la evolución y de las características históricas del pueblo al que pertenecen. Sus rasgos distintivos hacen a cada una de nuestras polleras únicas y dignas de amor y respeto. Por otro lado, las ganas de volver a "las polleras" más comerciales y vistosas han llegado a crear variaciones muy distintas de lo tradicional.',
   descripcion: yo`
@@ -231,6 +240,9 @@ module.exports = [
   `,
   metaDescription: 'Los vestidos típicos de los hombres, no son tan conocidos como los de las mujeres. Existen pocosdatos sobre sus orígenes. En la actualidad podemos apreciar una amplia variedad de modelos endonde se incluyen elementos totalmente novedosos para esta prenda de vestir como, por ejemplo: encajes, bordados, calados, talcos, etc... que son labores usualmente utilizadas en las polleras de gala y en algunas montunas. ',
   portadaImagen: '/images/camisillaFull.jpg',
+  portadaImagenFull: '/images/camisillaFull.jpg',
+  portadaImagenTab: '/images/camisillaFull.jpg',
+  portadaImagenCel: '/images/camisillaFull.jpg',
   generalImagen: '/images/camisillaGeneral.jpg',
   general: 'Los vestidos típicos de los hombres, no son tan conocidos como los de las mujeres. Existen pocosdatos sobre sus orígenes. En la actualidad podemos apreciar una amplia variedad de modelos endonde se incluyen elementos totalmente novedosos para esta prenda de vestir como, por ejemplo: encajes, bordados, calados, talcos, etc... que son labores usualmente utilizadas en las polleras de gala y en algunas montunas. ',
   descripcion: yo`
