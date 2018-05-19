@@ -73,7 +73,7 @@ module.exports = [
   reseña: yo`
    <hgroup>
     <p>El Congo es una <b>cultura</b>, género musical y baile Afro-colonial que se caracteriza por ser alegre y sensual, es ejecutado por hombres y mujeres al ritmo de cantos y tambor.</p>
-    <p>Sus vistosas y coloridas <b>polleras</b> están cargadas de <b>polleras</b>. Nos hablan de la fortaleza de un pueblo y de su lucha por la libertad.</p>
+    <p>Sus vistosas y coloridas <b>polleras</b> están cargadas de <b>historia</b> que nos habla de la fortaleza de un pueblo y de su lucha por la libertad.</p>
    </hgroup>`,
   antecedentes: yo`
    <hgroup>
