@@ -13,8 +13,6 @@ export default function(producto){
      <div class="productoInfo">
       <h1>${producto.nombre}</h1>
       <h3>${producto.subtitulo}</h3>
-      <h2>Descripción:</h2>
-      <p>${producto.descripcion}</p>
       <h2>Opciones:</h2>
       ${producto.opciones.map(function(opcion){
           return yo`
