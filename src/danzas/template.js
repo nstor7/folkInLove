@@ -6,9 +6,10 @@ module.exports = yo`
 <main>
  <section class="portada" id="danzasPortada">
   <picture class="banner">
-   <source media="(min-width: 800px)" srcset="images/danzas-full.jpg">
-   <source media="(min-width: 600px)" srcset="images/danzas-tab.jpg">
-   <img class="completa" src="images/danzas-cel.jpg" alt="Bailes Típicos de Panamá, Baile Congo">
+   <source media="(min-width: 801px)" srcset="images/danzasBannerFull-1x.jpg 1x, mages/danzasBannerFull-2x.jpg 2x">
+   <source media="(min-width: 541px)" srcset="images/danzasBannerTab-1x.jpg 1x, mages/danzasBannerTab-2x.jpg 2x">
+   <source media="(min-width: 10px)" srcset="images/danzasBannerCel-1x.jpg 1x, mages/danzasBannerCel-2x.jpg 2x">
+   <img class="completa" src="images/danzasBannerCel.jpg" alt="Bailes Típicos de Panamá, Baile Congo">
   </picture>
   <article className="completa negroTrans">
    <hgroup>
