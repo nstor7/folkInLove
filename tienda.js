@@ -33,5 +33,8 @@ tienda.get('/:nombre', function(req, res){
   schemaModified: '2018-5-05T03:41:00+03:41'
  })
 })
+tienda.get('/fotografia', function(req, res) {
+ res.redirect('https://www.folkinlovepty.com/tienda/fotos-en-traje-tipico', 301)
+})
 
 module.exports = tienda
