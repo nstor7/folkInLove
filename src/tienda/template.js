@@ -6,8 +6,10 @@ module.exports = yo`
 <main>
  <section class="portada">
   <picture class="banner">
-   <source media="(min-width: 800px)" srcset="images/pollera-lujo-losantos-tienda-portada-full.jpg">
-   <img class="completa" alt="Foto de Pollera De Lujo Santeña, traje tipico de panamá, en Panamá Viejo"  src="images/pollera-lujo-losantos-tienda-portada-cel.jpg"  >
+   <source media="(min-width: 801px)" srcset="images/tiendaBannerFull-1x.jpg 1x, mages/tiendaBannerFull-2x.jpg 2x">
+   <source media="(min-width: 541px)" srcset="images/tiendaBannerTab-1x.jpg 1x, mages/tiendaBannerTab-2x.jpg 2x">
+   <source media="(min-width: 10px)" srcset="images/tiendaBannerCel-1x.jpg 1x, mages/tiendaBannerCel-2x.jpg 2x"> 
+   <img class="completa" alt="Foto de Pollera De Lujo Santeña, traje tipico de panamá, en Panamá Viejo"  src="images/tiendaBannerCell-1x.jpg"  >
   </picture>
   <article className="completa negroTrans">
    <hgroup>
