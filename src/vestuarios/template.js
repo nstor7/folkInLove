@@ -6,9 +6,9 @@ module.exports = yo`
 <main>
  <section class="portada" id="vestuarioPortada">
   <picture class="banner">
-    <source media="(min-width: 801px)" srcset="images/vestuariosBannerFull-1x.jpg 1x, mages/vestuariosBannerFull-2x.jpg 2x">
-    <source media="(min-width: 541px)" srcset="images/vestuariosBannerTab-1x.jpg 1x, mages/vestuariosBannerTab-2x.jpg 2x">
-    <source media="(min-width: 10px)" srcset="images/vestuariosBannerCel-1x.jpg 1x, mages/vestuariosBannerCel-2x.jpg 2x">
+    <source media="(min-width: 801px)" srcset="images/vestuariosBannerFull-1x.jpg 1x, images/vestuariosBannerFull-2x.jpg 2x">
+    <source media="(min-width: 541px)" srcset="images/vestuariosBannerTab-1x.jpg 1x, images/vestuariosBannerTab-2x.jpg 2x">
+    <source media="(min-width: 10px)" srcset="images/vestuariosBannerCel-1x.jpg 1x, images/vestuariosBannerCel-2x.jpg 2x">
     <img class="completa" src="images/vestuariosBannerCell-1x.jpg" alt="Trajes Típicos de Panamá, Pollera de Lujo Santeña en Panamá Viejo">
    </picture>
   <article className="completa negroTrans">
