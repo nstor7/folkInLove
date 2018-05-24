@@ -2544,13 +2544,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (imagenes) {
   var el = (0, _yoYo2.default)(_templateObject);
@@ -2558,6 +2554,28 @@ module.exports = function (imagenes) {
 };
 
 },{"yo-yo":14}],17:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _templateObject = _taggedTemplateLiteral(['\n  <picture class="banner">\n   <source media="(min-width: 801px)" srcset="images/', 'Full-1x.jpg 1x, images/', 'Full-2x.jpg 2x">\n   <source media="(min-width: 541px)" srcset="images/', 'Tab-1x.jpg 1x, images/', 'Tab-2x.jpg 2x">\n   <source media="(min-width: 10px)" srcset="images/', 'Cel-1x.jpg 1x, images/', 'Cel-2x.jpg 2x">\n   <img class="completa" src="images/', 'Cel.jpg" alt="Bailes T\xEDpicos de Panam\xE1, Baile Congo">\n  </picture>\n '], ['\n  <picture class="banner">\n   <source media="(min-width: 801px)" srcset="images/', 'Full-1x.jpg 1x, images/', 'Full-2x.jpg 2x">\n   <source media="(min-width: 541px)" srcset="images/', 'Tab-1x.jpg 1x, images/', 'Tab-2x.jpg 2x">\n   <source media="(min-width: 10px)" srcset="images/', 'Cel-1x.jpg 1x, images/', 'Cel-2x.jpg 2x">\n   <img class="completa" src="images/', 'Cel.jpg" alt="Bailes T\xEDpicos de Panam\xE1, Baile Congo">\n  </picture>\n ']);
+
+exports.default = function (imagen) {
+  var el = (0, _yoYo2.default)(_templateObject, imagen, imagen, imagen, imagen, imagen, imagen, imagen);
+  return el;
+};
+
+var _yoYo = require('yo-yo');
+
+var _yoYo2 = _interopRequireDefault(_yoYo);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+},{"yo-yo":14}],18:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -2575,15 +2593,11 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-},{"yo-yo":14}],18:[function(require,module,exports){
+},{"yo-yo":14}],19:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -2610,16 +2624,14 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/contacto', _header2.default, _footer2.default, _functions2.default.noScrollFunction, function (ctx, next) {
   var main = document.getElementById('main-container');
   (0, _emptyElement2.default)(main).appendChild(_template2.default);
 });
 
-},{"../footer":29,"../header":32,"../header/functions":31,"./template":19,"empty-element":4,"page":12}],19:[function(require,module,exports){
+},{"../footer":30,"../header":33,"../header/functions":32,"./template":20,"empty-element":4,"page":12}],20:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <section class="contacto completa">\n    <article class="contactoInfo rosaTrans">\n      <div>\n        <h2>Cont\xE1ctenos:</h2>\n        <h4>Email:</h4>\n        <p>info@folkinlovepty.com</p>\n        <h4>tel\xE9fono:</h4>\n        <p>6945-5931</p>\n        <form action="/contacto/send" method="post">\n          <input type="text" name="nombre" placeholder="Nombre">\n          <input type="text" name="email" placeholder="Email">\n          <input type="text" name="asunto" placeholder="Asunto">\n          <textarea name="mensaje" rows="10" cols="30" placeholder="Envianos Tu Mensaje"></textarea>\n          <input type="submit" name="submit" value="Enviar" class="btn negro">\n        </form>\n      </div>\n    </article>\n  </section>\n'], ['\n  <section class="contacto completa">\n    <article class="contactoInfo rosaTrans">\n      <div>\n        <h2>Cont\xE1ctenos:</h2>\n        <h4>Email:</h4>\n        <p>info@folkinlovepty.com</p>\n        <h4>tel\xE9fono:</h4>\n        <p>6945-5931</p>\n        <form action="/contacto/send" method="post">\n          <input type="text" name="nombre" placeholder="Nombre">\n          <input type="text" name="email" placeholder="Email">\n          <input type="text" name="asunto" placeholder="Asunto">\n          <textarea name="mensaje" rows="10" cols="30" placeholder="Envianos Tu Mensaje"></textarea>\n          <input type="submit" name="submit" value="Enviar" class="btn negro">\n        </form>\n      </div>\n    </article>\n  </section>\n']);
@@ -2628,17 +2640,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
-},{"yo-yo":14}],20:[function(require,module,exports){
+},{"yo-yo":14}],21:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -2665,16 +2673,14 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/confirmacion', _header2.default, _footer2.default, _functions2.default.noScrollFunction, function (ctx, next) {
   var main = document.getElementById('main-container');
   (0, _emptyElement2.default)(main).appendChild(_template2.default);
 });
 
-},{"../footer":29,"../header":32,"../header/functions":31,"./template":21,"empty-element":4,"page":12}],21:[function(require,module,exports){
+},{"../footer":30,"../header":33,"../header/functions":32,"./template":22,"empty-element":4,"page":12}],22:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n <articulo className="completa blanco texto">\n  <hgroup>\n   <h2>Su Mensaje Ha Sido Enviado</h2>\n  </hgroup>\n </articulo>\n'], ['\n <articulo className="completa blanco texto">\n  <hgroup>\n   <h2>Su Mensaje Ha Sido Enviado</h2>\n  </hgroup>\n </articulo>\n']);
@@ -2683,17 +2689,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
-},{"yo-yo":14}],22:[function(require,module,exports){
+},{"yo-yo":14}],23:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -2720,16 +2722,14 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/error', _header2.default, _footer2.default, _functions2.default.noScrollFunction, function (ctx, next) {
   var main = document.getElementById('main-container');
   (0, _emptyElement2.default)(main).appendChild(_template2.default);
 });
 
-},{"../footer":29,"../header":32,"../header/functions":31,"./template":23,"empty-element":4,"page":12}],23:[function(require,module,exports){
+},{"../footer":30,"../header":33,"../header/functions":32,"./template":24,"empty-element":4,"page":12}],24:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n <articulo className="completa texto rosa">\n  <hgroup>\n    <h2>Ha habido Un Error</h2>\n  </hgroup> \n </articulo>\n'], ['\n <articulo className="completa texto rosa">\n  <hgroup>\n    <h2>Ha habido Un Error</h2>\n  </hgroup> \n </articulo>\n']);
@@ -2738,17 +2738,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
-},{"yo-yo":14}],24:[function(require,module,exports){
+},{"yo-yo":14}],25:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -2779,9 +2775,7 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/danzas/:url', _header2.default, _footer2.default, function (ctx, next) {
   var baile = _danzas2.default.find(function (danza) {
@@ -2792,41 +2786,39 @@ function _interopRequireDefault(obj) {
   window.addEventListener("scroll", _functions2.default.scrollFunction);
 });
 
-},{"../danzas/danzas":26,"../footer":29,"../header":32,"../header/functions":31,"./template":25,"empty-element":4,"page":12}],25:[function(require,module,exports){
+},{"../danzas/danzas":27,"../footer":30,"../header":33,"../header/functions":32,"./template":26,"empty-element":4,"page":12}],26:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n <main>\n  <section class="portada" style="background: url(\'', '\'); background-size:contain; background-attachment: fixed">\n    <article class="mitad rosaTrans">\n    <hgroup>\n      <h1>', '</h1>\n      <p>', '</p>\n    </hgroup>\n    </article>\n  </section>\n  <section>\n    <article class="tercio imagen" style="background: url(\'', '\'); background-size: cover;"></article>\n    <article class="dosTercios blanco texto">\n    ', '\n    </article>\n  </section>\n  <section>\n    <article class="completa texto info blanco">\n    ', '\n    </article>\n  </section>\n  <section>\n    <article class="tercio blanco pasos">\n    <hgroup>\n      <h2>Pasos de ', '</h2>\n      <ul>\n      ', '\n      </ul>\n    </hgroup>\n    </article>\n    <article class="dosTercios imagen" style="background: url(\'', '\'); background-size:cover"></article>\n  </section>\n  <article class="completa texto info rosa">\n      ', '\n  </article>\n</main>\n '], ['\n <main>\n  <section class="portada" style="background: url(\'', '\'); background-size:contain; background-attachment: fixed">\n    <article class="mitad rosaTrans">\n    <hgroup>\n      <h1>', '</h1>\n      <p>', '</p>\n    </hgroup>\n    </article>\n  </section>\n  <section>\n    <article class="tercio imagen" style="background: url(\'', '\'); background-size: cover;"></article>\n    <article class="dosTercios blanco texto">\n    ', '\n    </article>\n  </section>\n  <section>\n    <article class="completa texto info blanco">\n    ', '\n    </article>\n  </section>\n  <section>\n    <article class="tercio blanco pasos">\n    <hgroup>\n      <h2>Pasos de ', '</h2>\n      <ul>\n      ', '\n      </ul>\n    </hgroup>\n    </article>\n    <article class="dosTercios imagen" style="background: url(\'', '\'); background-size:cover"></article>\n  </section>\n  <article class="completa texto info rosa">\n      ', '\n  </article>\n</main>\n ']),
+var _templateObject = _taggedTemplateLiteral(['\n <main>\n  <section class="portada">\n    ', '   \n    <article class="mitad rosaTrans">\n    <hgroup>\n      <h1>', '</h1>\n      <p>', '</p>\n    </hgroup>\n    </article>\n  </section>\n  <section>\n    <article class="tercio imagen" style="background: url(\'', '\'); background-size: cover;"></article>\n    <article class="dosTercios blanco texto">\n    ', '\n    </article>\n  </section>\n  <section>\n    <article class="completa texto info blanco">\n    ', '\n    </article>\n  </section>\n  <section>\n    <article class="tercio blanco pasos">\n    <hgroup>\n      <h2>Pasos de ', '</h2>\n      <ul>\n      ', '\n      </ul>\n    </hgroup>\n    </article>\n    <article class="dosTercios imagenDoble" style="background: url(\'', '\'); background-size:cover"></article>\n  </section>\n  <article class="completa texto info rosa">\n      ', '\n  </article>\n</main>\n '], ['\n <main>\n  <section class="portada">\n    ', '   \n    <article class="mitad rosaTrans">\n    <hgroup>\n      <h1>', '</h1>\n      <p>', '</p>\n    </hgroup>\n    </article>\n  </section>\n  <section>\n    <article class="tercio imagen" style="background: url(\'', '\'); background-size: cover;"></article>\n    <article class="dosTercios blanco texto">\n    ', '\n    </article>\n  </section>\n  <section>\n    <article class="completa texto info blanco">\n    ', '\n    </article>\n  </section>\n  <section>\n    <article class="tercio blanco pasos">\n    <hgroup>\n      <h2>Pasos de ', '</h2>\n      <ul>\n      ', '\n      </ul>\n    </hgroup>\n    </article>\n    <article class="dosTercios imagenDoble" style="background: url(\'', '\'); background-size:cover"></article>\n  </section>\n  <article class="completa texto info rosa">\n      ', '\n  </article>\n</main>\n ']),
     _templateObject2 = _taggedTemplateLiteral(['<li>', '</li>'], ['<li>', '</li>']);
 
 var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+var _picture = require('../componentes/picture');
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+var _picture2 = _interopRequireDefault(_picture);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (danza) {
-  var el = (0, _yoYo2.default)(_templateObject, danza.portadaImagen, danza.nombre, danza.reseña, danza.introImagen, danza.intro, danza.descripcion, danza.nombre, danza.pasos.map(function (paso) {
+  var el = (0, _yoYo2.default)(_templateObject, (0, _picture2.default)(danza.portadaImagen), danza.nombre, danza.reseña, danza.introImagen, danza.intro, danza.descripcion, danza.nombre, danza.pasos.map(function (paso) {
     return (0, _yoYo2.default)(_templateObject2, paso);
   }), danza.pasosImagen, danza.referencias);
   return el;
 };
 
-},{"yo-yo":14}],26:[function(require,module,exports){
+},{"../componentes/picture":17,"yo-yo":14}],27:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n   <hgroup>\n    <p><i>\u201CDespu\xE9s del tamborito, el baile de parejas individual m\xE1s atractivo es el PUNTO en el cual la pareja hace gala de donaire, precisi\xF3n y gracia. Parece de pura ascendencia hisp\xE1nica a juzgar por la m\xFAsica que lo acompa\xF1a.</i></p>\n    <p><i>El baile de PUNTO no es baile de toda una noche como puede serio el Tamborito y la Cumbia; el Pind\xEDn y la Mejorana. Se baila m\xE1s bien como una demostraci\xF3n atractiva entre los minutos de descanso de un baile, para regalo de los ojos y goce del esp\xEDritu de la concurrencia a una fiesta.\u201D</i></p>\n    <p>Dora P\xE9rez de Zarate</p>\n   </hgroup>'], ['\n   <hgroup>\n    <p><i>\u201CDespu\xE9s del tamborito, el baile de parejas individual m\xE1s atractivo es el PUNTO en el cual la pareja hace gala de donaire, precisi\xF3n y gracia. Parece de pura ascendencia hisp\xE1nica a juzgar por la m\xFAsica que lo acompa\xF1a.</i></p>\n    <p><i>El baile de PUNTO no es baile de toda una noche como puede serio el Tamborito y la Cumbia; el Pind\xEDn y la Mejorana. Se baila m\xE1s bien como una demostraci\xF3n atractiva entre los minutos de descanso de un baile, para regalo de los ojos y goce del esp\xEDritu de la concurrencia a una fiesta.\u201D</i></p>\n    <p>Dora P\xE9rez de Zarate</p>\n   </hgroup>']),
     _templateObject2 = _taggedTemplateLiteral(['\n   <hgroup>\n    <h2>Descripci\xF3n del Punto Sante\xF1o</h2>\n    <p> <b>El punto</b> consta de una serie de pasos (que describiremos a continuaci\xF3n) los cuales se repiten 3 veces <i>"tiempos"</i> en el mismo orden. A cada repetici\xF3n le llamamos tiempos o vueltas musicales. Una de sus caracter\xEDsticas particulares se lleva a cabo durante el zapateo ya que en cada uno (son 3) la pareja bailar\xE1 en una direcci\xF3n diferente. En el primer tiempo la pareja realizar\xE1 el zapateo frente a frente, en el segundo tiempo se dirigir\xE1n hacia los m\xFAsicos (es com\xFAn en los conjuntos folkl\xF3ricos dirigir el zapateo en otra direcci\xF3n cuando no se baila con m\xFAsicos en vivo) y en el \xFAltimo tiempo se dirige hacia el p\xFAblico.</p>\n    <p>Cada paso durante la ejecuci\xF3n del Punto Sante\xF1o no tiene una duraci\xF3n definida, es el cambio de la m\xFAsica la que indicar\xE1 el paso a la siguiente figura.</p>\n    <p>Inicia con <b>El PASEO</b>, es el paso de baile en el que el var\xF3n y la dama describen un amplio c\xEDrculo, ocupando cada uno de los extremos.</p>\n    <p>Al cambio de la m\xFAsica se ejecuta una ca\xEDda y vuelta pasando al <b>ZAPATEO</b> en el cual los bailadores, dependiendo del tiempo lo ejecutan, frente a frente, a la m\xFAsica o al p\xFAblico.</p>\n    <p>En seguida, otro cambio de la m\xFAsica les advierte que deben realizar el tercer movimiento, <b>EL ESCOBILLAO</b>, que separa ampliamente a la pareja y  se ejecuta con r\xE1pidos movimientos de los pies hacia atr\xE1s.</p>\n    <p>Por \xFAltimo, tambi\xE9n a indicaci\xF3n de la m\xFAsica, se realiza una caida y vuelta para pasar a la <b>SEGUIDILLA</b> con la cual la pareja se desplaza acerc\xE1ndose el uno al otro para girar con mucha serenidad y finura en el centro del c\xEDrculo hasta que se indique el cambio y comience con una vuelta paseada el siguiente tiempo con el <b>PASEO</b>.</p>\n    <p>Al finalizar el tercer tiempo, la mujer realiza un medio giro para quedar frente al p\xFAblico en un cierre que puede ser con el parejo arrodillado o de pi\xE9 tapandole el rostro con el sombrero simulando un beso.</p>\n    <p>Es Com\xFAn que al ver a la pareja ejecutar tan hermoso baile los espectadores lancen monedas por el suelo; costumbre que hoy podemos ver en las fiestas cuando las quincea\xF1eras o reinas bailan el punto.</p>\n   </hgroup>\n  '], ['\n   <hgroup>\n    <h2>Descripci\xF3n del Punto Sante\xF1o</h2>\n    <p> <b>El punto</b> consta de una serie de pasos (que describiremos a continuaci\xF3n) los cuales se repiten 3 veces <i>"tiempos"</i> en el mismo orden. A cada repetici\xF3n le llamamos tiempos o vueltas musicales. Una de sus caracter\xEDsticas particulares se lleva a cabo durante el zapateo ya que en cada uno (son 3) la pareja bailar\xE1 en una direcci\xF3n diferente. En el primer tiempo la pareja realizar\xE1 el zapateo frente a frente, en el segundo tiempo se dirigir\xE1n hacia los m\xFAsicos (es com\xFAn en los conjuntos folkl\xF3ricos dirigir el zapateo en otra direcci\xF3n cuando no se baila con m\xFAsicos en vivo) y en el \xFAltimo tiempo se dirige hacia el p\xFAblico.</p>\n    <p>Cada paso durante la ejecuci\xF3n del Punto Sante\xF1o no tiene una duraci\xF3n definida, es el cambio de la m\xFAsica la que indicar\xE1 el paso a la siguiente figura.</p>\n    <p>Inicia con <b>El PASEO</b>, es el paso de baile en el que el var\xF3n y la dama describen un amplio c\xEDrculo, ocupando cada uno de los extremos.</p>\n    <p>Al cambio de la m\xFAsica se ejecuta una ca\xEDda y vuelta pasando al <b>ZAPATEO</b> en el cual los bailadores, dependiendo del tiempo lo ejecutan, frente a frente, a la m\xFAsica o al p\xFAblico.</p>\n    <p>En seguida, otro cambio de la m\xFAsica les advierte que deben realizar el tercer movimiento, <b>EL ESCOBILLAO</b>, que separa ampliamente a la pareja y  se ejecuta con r\xE1pidos movimientos de los pies hacia atr\xE1s.</p>\n    <p>Por \xFAltimo, tambi\xE9n a indicaci\xF3n de la m\xFAsica, se realiza una caida y vuelta para pasar a la <b>SEGUIDILLA</b> con la cual la pareja se desplaza acerc\xE1ndose el uno al otro para girar con mucha serenidad y finura en el centro del c\xEDrculo hasta que se indique el cambio y comience con una vuelta paseada el siguiente tiempo con el <b>PASEO</b>.</p>\n    <p>Al finalizar el tercer tiempo, la mujer realiza un medio giro para quedar frente al p\xFAblico en un cierre que puede ser con el parejo arrodillado o de pi\xE9 tapandole el rostro con el sombrero simulando un beso.</p>\n    <p>Es Com\xFAn que al ver a la pareja ejecutar tan hermoso baile los espectadores lancen monedas por el suelo; costumbre que hoy podemos ver en las fiestas cuando las quincea\xF1eras o reinas bailan el punto.</p>\n   </hgroup>\n  ']),
     _templateObject3 = _taggedTemplateLiteral(['\n  <hgroup>\n   <h2>Referencias Sobre El Punto Sante\xF1o</h2>\n   <ul>\n   <li>Extracto de "EL PUNTO, LA DENESA, EL ATRAVESADO Y OTROS BAILES ORQUESTADOS". Dora P\xE9rez de Z\xE1rate. 198</li>\n   </ul>\n  </hgroup>\n  '], ['\n  <hgroup>\n   <h2>Referencias Sobre El Punto Sante\xF1o</h2>\n   <ul>\n   <li>Extracto de "EL PUNTO, LA DENESA, EL ATRAVESADO Y OTROS BAILES ORQUESTADOS". Dora P\xE9rez de Z\xE1rate. 198</li>\n   </ul>\n  </hgroup>\n  ']);
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 var yo = require('yo-yo');
 
@@ -2840,7 +2832,7 @@ module.exports = [{
   nombre: 'El Punto Santeño',
   url: 'El-Punto-Santeno',
   reseña: 'El Punto Santeño es un género musical y a su vez un baile. Es considerado como uno de los más bellos y elegantes de todo el Istmo de Panamá; es ejecutado por una sola pareja y tiene como característica principal la elegancia y el donaire con la que el hombre y la mujer se mueven durante su ejecución.',
-  portadaImagen: '/images/puntoPortada.jpg',
+  portadaImagen: 'puntoPortada',
   intro: yo(_templateObject),
   introImagen: '/images/puntoIntro.jpg',
   descripcion: yo(_templateObject2),
@@ -2849,7 +2841,7 @@ module.exports = [{
   referencias: yo(_templateObject3)
 }];
 
-},{"yo-yo":14}],27:[function(require,module,exports){
+},{"yo-yo":14}],28:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -2876,9 +2868,7 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/danzas', _header2.default, _footer2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -2886,7 +2876,7 @@ function _interopRequireDefault(obj) {
   window.addEventListener("scroll", _functions2.default.scrollFunction);
 });
 
-},{"../footer":29,"../header":32,"../header/functions":31,"./template":28,"empty-element":4,"page":12}],28:[function(require,module,exports){
+},{"../footer":30,"../header":33,"../header/functions":32,"./template":29,"empty-element":4,"page":12}],29:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n<main>\n <section class="portada" id="danzasPortada">\n  <picture class="banner">\n   <source media="(min-width: 801px)" srcset="images/danzasBannerFull-1x.jpg 1x, images/danzasBannerFull-2x.jpg 2x">\n   <source media="(min-width: 541px)" srcset="images/danzasBannerTab-1x.jpg 1x, images/danzasBannerTab-2x.jpg 2x">\n   <source media="(min-width: 10px)" srcset="images/danzasBannerCel-1x.jpg 1x, images/danzasBannerCel-2x.jpg 2x">\n   <img class="completa" src="images/danzasBannerCel.jpg" alt="Bailes T\xEDpicos de Panam\xE1, Baile Congo">\n  </picture>\n  <article className="completa negroTrans">\n   <hgroup>\n    <h1>Bailes T\xEDpicos de Panam\xE1</h1>\n    <p><b>Las danzas folkl\xF3ricas</b> paname\xF1as expresan las experiencias del hombre y la mujer, muchas de ellas son inspiradas en la faena diaria del trabajo en el campo, otras traen a colaci\xF3n <b>costumbres</b>, rituales religiosos y celebraciones.</p>\n   </hgroup>\n  </article>\n </section>\n <section class="lista blanco">\n  <div class="listaCont">\n   ', '\n  </div> \n </section>\n <section class="completa blanco videoPasos">\n  <h2>Pasos B\xE1sicos de los Danzas T\xEDpicas Paname\xF1as</h2>\n  <iframe src="https://www.youtube.com/embed/x7HdglWtujg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>\n  <hgroup class="blogStyle">\n    <p>A diferencia de otros pa\xEDses de latinoam\xE9rica, donde los bailes no tiene una estructura marcada y los pasos cambian a voluntad del bailar\xEDn, en Panam\xE1 si tenemos una serie de <b>pasos estructurados</b>  que son guiados por los <b>cambios de la m\xFAsica</b>.</p>\n    <h3>El Paseo</h3>\n    <p>El Paseo es el <b>paso b\xE1sico por excelencia</b> , ya que con \xE9l se inician la mayor\xEDa de los bailes, como es el caso de la Cumbia Sante\xF1a.</p>\n    <h3>Caida y Vuelta</h3>\n    <p>Son dos <b>movimientos</b> que normalmente van juntos y marcan el cambio de un paso al otro. En algunos <b>bailes</b> las ca\xEDdas son marcas y en\xE9rgicas mientras que en otros son sutiles y delicadas.</p>\n    <h3>La Seguidilla</h3>\n    <p>Es un paso que se realiza frente a <b>la pareja</b>. El pi\xE9 que gu\xEDa va en punta y el que le sigue va arrastrando pasando por en frente, cuando cambias de direcci\xF3n el pi\xE9 que gu\xEDa cambia igualmente.</p>\n    <h3>El Zapateo</h3>\n    <p>Este es uno de los pasos m\xE1s vistosos en las <b>danzas folk\xF3ricas paname\xF1as</b>, mientras la mujer lo ejecuta con gracia y sutileza, el hombre muestra su fuerza y destreza.</p>\n    <h3>El Cruce</h3>\n    <p>En este paso, como su nombre lo indica, el hombre y la mujer se cruzan. Cada uno sale de su posici\xF3n con el pi\xE9 izquierdo, pasando de espaldas al lado de la pareja. Se cuentan cuatro pasos hacia adelante y cuatro pasos hacia atras.</p>\n  </hgroup>\n </section>\n</main>\n'], ['\n<main>\n <section class="portada" id="danzasPortada">\n  <picture class="banner">\n   <source media="(min-width: 801px)" srcset="images/danzasBannerFull-1x.jpg 1x, images/danzasBannerFull-2x.jpg 2x">\n   <source media="(min-width: 541px)" srcset="images/danzasBannerTab-1x.jpg 1x, images/danzasBannerTab-2x.jpg 2x">\n   <source media="(min-width: 10px)" srcset="images/danzasBannerCel-1x.jpg 1x, images/danzasBannerCel-2x.jpg 2x">\n   <img class="completa" src="images/danzasBannerCel.jpg" alt="Bailes T\xEDpicos de Panam\xE1, Baile Congo">\n  </picture>\n  <article className="completa negroTrans">\n   <hgroup>\n    <h1>Bailes T\xEDpicos de Panam\xE1</h1>\n    <p><b>Las danzas folkl\xF3ricas</b> paname\xF1as expresan las experiencias del hombre y la mujer, muchas de ellas son inspiradas en la faena diaria del trabajo en el campo, otras traen a colaci\xF3n <b>costumbres</b>, rituales religiosos y celebraciones.</p>\n   </hgroup>\n  </article>\n </section>\n <section class="lista blanco">\n  <div class="listaCont">\n   ', '\n  </div> \n </section>\n <section class="completa blanco videoPasos">\n  <h2>Pasos B\xE1sicos de los Danzas T\xEDpicas Paname\xF1as</h2>\n  <iframe src="https://www.youtube.com/embed/x7HdglWtujg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>\n  <hgroup class="blogStyle">\n    <p>A diferencia de otros pa\xEDses de latinoam\xE9rica, donde los bailes no tiene una estructura marcada y los pasos cambian a voluntad del bailar\xEDn, en Panam\xE1 si tenemos una serie de <b>pasos estructurados</b>  que son guiados por los <b>cambios de la m\xFAsica</b>.</p>\n    <h3>El Paseo</h3>\n    <p>El Paseo es el <b>paso b\xE1sico por excelencia</b> , ya que con \xE9l se inician la mayor\xEDa de los bailes, como es el caso de la Cumbia Sante\xF1a.</p>\n    <h3>Caida y Vuelta</h3>\n    <p>Son dos <b>movimientos</b> que normalmente van juntos y marcan el cambio de un paso al otro. En algunos <b>bailes</b> las ca\xEDdas son marcas y en\xE9rgicas mientras que en otros son sutiles y delicadas.</p>\n    <h3>La Seguidilla</h3>\n    <p>Es un paso que se realiza frente a <b>la pareja</b>. El pi\xE9 que gu\xEDa va en punta y el que le sigue va arrastrando pasando por en frente, cuando cambias de direcci\xF3n el pi\xE9 que gu\xEDa cambia igualmente.</p>\n    <h3>El Zapateo</h3>\n    <p>Este es uno de los pasos m\xE1s vistosos en las <b>danzas folk\xF3ricas paname\xF1as</b>, mientras la mujer lo ejecuta con gracia y sutileza, el hombre muestra su fuerza y destreza.</p>\n    <h3>El Cruce</h3>\n    <p>En este paso, como su nombre lo indica, el hombre y la mujer se cruzan. Cada uno sale de su posici\xF3n con el pi\xE9 izquierdo, pasando de espaldas al lado de la pareja. Se cuentan cuatro pasos hacia adelante y cuatro pasos hacia atras.</p>\n  </hgroup>\n </section>\n</main>\n']);
@@ -2903,19 +2893,15 @@ var _danzas = require('./danzas');
 
 var _danzas2 = _interopRequireDefault(_danzas);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject, _danzas2.default.map(function (danza) {
   return (0, _tarjeta2.default)('danzas', danza);
 }));
 
-},{"../componentes/tarjeta":17,"./danzas":26,"yo-yo":14}],29:[function(require,module,exports){
+},{"../componentes/tarjeta":18,"./danzas":27,"yo-yo":14}],30:[function(require,module,exports){
 'use strict';
 
 var _emptyElement = require('empty-element');
@@ -2926,9 +2912,7 @@ var _template = require('./template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 module.exports = function footer(ctx, next) {
   var pie = document.getElementById('footer');
@@ -2936,7 +2920,7 @@ module.exports = function footer(ctx, next) {
   next();
 };
 
-},{"./template":30,"empty-element":4}],30:[function(require,module,exports){
+},{"./template":31,"empty-element":4}],31:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n<footer>\n <div class="footerLeft">\n  <a class="logo"></a>\n </div>\n <div class="footerRight">\n  <div class="footerRightUp">\n   <h3>Cont\xE1ctenos:</h3>\n   <ul>\n    <li>Email: info@folkinlovepty.com</li>\n    <li>Tel\xE9fono: 6945-5931</li>\n    <li>Direcci\xF3n: Calle 49A<br>\n    El Cangrejo, Bella Vista</li>\n   </ul>\n  </div>\n  <div class="footerRightDown">\n   <a href="https://facebook.com/folkinlovepty" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>\n   <a href="https://instagram.com/folkinlovepty" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>\n   <a href="mailto: info@folkinlovepty.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>\n  </div>\n </div>\n</footer>\n'], ['\n<footer>\n <div class="footerLeft">\n  <a class="logo"></a>\n </div>\n <div class="footerRight">\n  <div class="footerRightUp">\n   <h3>Cont\xE1ctenos:</h3>\n   <ul>\n    <li>Email: info@folkinlovepty.com</li>\n    <li>Tel\xE9fono: 6945-5931</li>\n    <li>Direcci\xF3n: Calle 49A<br>\n    El Cangrejo, Bella Vista</li>\n   </ul>\n  </div>\n  <div class="footerRightDown">\n   <a href="https://facebook.com/folkinlovepty" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>\n   <a href="https://instagram.com/folkinlovepty" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>\n   <a href="mailto: info@folkinlovepty.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>\n  </div>\n </div>\n</footer>\n']);
@@ -2945,17 +2929,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
-},{"yo-yo":14}],31:[function(require,module,exports){
+},{"yo-yo":14}],32:[function(require,module,exports){
 'use strict';
 
 var scrollFunction = function scrollFunction() {
@@ -2981,7 +2961,7 @@ var navegacion = function navegacion() {
 
 module.exports = { scrollFunction: scrollFunction, noScrollFunction: noScrollFunction, navegacion: navegacion };
 
-},{}],32:[function(require,module,exports){
+},{}],33:[function(require,module,exports){
 'use strict';
 
 var _emptyElement = require('empty-element');
@@ -2992,9 +2972,7 @@ var _template = require('./template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 module.exports = function header(ctx, next) {
   var container = document.getElementById('header');
@@ -3002,7 +2980,7 @@ module.exports = function header(ctx, next) {
   next();
 };
 
-},{"./template":33,"empty-element":4}],33:[function(require,module,exports){
+},{"./template":34,"empty-element":4}],34:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n<header id= "headerContainer">\n <a href="/" class="logoContainer">\n   <img src="images/folkInLove-logo.png" alt="logo de Folk in Love Pty" class=\'logo\'>\n   <img src="images/folkInLove-letras-negro.png" alt="Tipo de Folk in Love Pty" class=\'tipo\'>\n </a>\n <nav id="nav" class="nav hidden">\n   <a href="/" onclick=', '>Inicio</a>\n   <a href="/danzas" onclick=', '>Danzas</a>\n   <a href="/vestuarios" onclick=', '>Vestuarios</a>\n   <a href="/tienda" onclick=', '>Productos y Servicios</a>\n   <a href="/contacto" onclick=', '>Contacto</a>\n </nav>\n <a href="#" class="navButton" onclick=', '>\n   <i class="fa fa-bars" aria-hidden="true"></i>\n </a>\n</header>'], ['\n<header id= "headerContainer">\n <a href="/" class="logoContainer">\n   <img src="images/folkInLove-logo.png" alt="logo de Folk in Love Pty" class=\'logo\'>\n   <img src="images/folkInLove-letras-negro.png" alt="Tipo de Folk in Love Pty" class=\'tipo\'>\n </a>\n <nav id="nav" class="nav hidden">\n   <a href="/" onclick=', '>Inicio</a>\n   <a href="/danzas" onclick=', '>Danzas</a>\n   <a href="/vestuarios" onclick=', '>Vestuarios</a>\n   <a href="/tienda" onclick=', '>Productos y Servicios</a>\n   <a href="/contacto" onclick=', '>Contacto</a>\n </nav>\n <a href="#" class="navButton" onclick=', '>\n   <i class="fa fa-bars" aria-hidden="true"></i>\n </a>\n</header>']);
@@ -3015,26 +2993,20 @@ var _functions = require('./functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject, _functions2.default.navegacion, _functions2.default.navegacion, _functions2.default.navegacion, _functions2.default.navegacion, _functions2.default.navegacion, _functions2.default.navegacion);
 
-},{"./functions":31,"yo-yo":14}],34:[function(require,module,exports){
+},{"./functions":32,"yo-yo":14}],35:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
 
 var _page2 = _interopRequireDefault(_page);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('*', function (ctx, next) {
   window.scrollTo(0, 0);
@@ -3053,7 +3025,7 @@ require('./producto');
 
 (0, _page2.default)();
 
-},{"./contacto":18,"./contactoConfirmacion":20,"./contactoError":22,"./danzaPage":24,"./danzas":27,"./inicio":39,"./producto":41,"./tienda":44,"./vestuarioPage":48,"./vestuarios":50,"page":12}],35:[function(require,module,exports){
+},{"./contacto":19,"./contactoConfirmacion":21,"./contactoError":23,"./danzaPage":25,"./danzas":28,"./inicio":40,"./producto":42,"./tienda":45,"./vestuarioPage":49,"./vestuarios":51,"page":12}],36:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -3066,17 +3038,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 exports.default = (0, _yoYo2.default)(_templateObject);
 
-},{"yo-yo":14}],36:[function(require,module,exports){
+},{"yo-yo":14}],37:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <section class="inicioApoyo completa">\n    <article class="apoyoTexto mitad rosaTrans">\n      <hgroup>\n        <h2>Origen de la Identidad del Paname\xF1o</h2>\n        <h3>Historia de las Tradiciones de Panam\xE1</h3>\n        <p>\n          Gracias a su posici\xF3n estrat\xE9gica dentro de las am\xE9ricas nuestro pa\xEDs ha desarrollado una riqueza\n    \n    cultural y folkl\xF3rica inigualable. La combinacion entre las etnias ind\xEDgenas existentes antes de la\n    \n    conquista, la intromisi\xF3n europea y la llegada de los negros como esclavos ha permitido el\n    \n    enriquecimiento de la cultura de manera inigualable.\n        </p>\n        <p>\n          De acuerdo con las investigaciones se pudo apreciar como la vestimenta femenina y masculina fue\n    \n          aceptada y utilizada por los paname\xF1os a inicios del siglo XX, las polleras, chambras y otros vestidos fueron de uso com\xFAn en toda la rep\xFAblica. Actualmente podemos ver como las etnias\n    \n          ind\xEDgenas y los grupos congos mantienen sus tradiciones permitiendo la evoluci\xF3n al tener remplazo\n    \n          generacional y danzas vivas.        </p>\n      </hgroup>\n    </article>\n  </section>\n  '], ['\n  <section class="inicioApoyo completa">\n    <article class="apoyoTexto mitad rosaTrans">\n      <hgroup>\n        <h2>Origen de la Identidad del Paname\xF1o</h2>\n        <h3>Historia de las Tradiciones de Panam\xE1</h3>\n        <p>\n          Gracias a su posici\xF3n estrat\xE9gica dentro de las am\xE9ricas nuestro pa\xEDs ha desarrollado una riqueza\n    \n    cultural y folkl\xF3rica inigualable. La combinacion entre las etnias ind\xEDgenas existentes antes de la\n    \n    conquista, la intromisi\xF3n europea y la llegada de los negros como esclavos ha permitido el\n    \n    enriquecimiento de la cultura de manera inigualable.\n        </p>\n        <p>\n          De acuerdo con las investigaciones se pudo apreciar como la vestimenta femenina y masculina fue\n    \n          aceptada y utilizada por los paname\xF1os a inicios del siglo XX, las polleras, chambras y otros vestidos fueron de uso com\xFAn en toda la rep\xFAblica. Actualmente podemos ver como las etnias\n    \n          ind\xEDgenas y los grupos congos mantienen sus tradiciones permitiendo la evoluci\xF3n al tener remplazo\n    \n          generacional y danzas vivas.        </p>\n      </hgroup>\n    </article>\n  </section>\n  ']);
@@ -3085,17 +3053,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
-},{"yo-yo":14}],37:[function(require,module,exports){
+},{"yo-yo":14}],38:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <section class="portada">\n    <picture class="banner">\n      <source media="(min-width: 801px)" srcset="images/trajesTipicosPanamaBannerFull-2x.jpg 2x, images/trajesTipicosPanamaBannerFull-1x.jpg 1x">\n      <source media="(min-width: 541px)" srcset="images/trajesTipicosPanamaBannerTab-2x.jpg 2x, images/trajesTipicosPanamaBannerTab-1x.jpg 1x">\n      <source media="(min-width: 10px)" srcset="images/trajesTipicosPanamaBannerCel-2x.jpg 2x, images/trajesTipicosPanamaBannerCel-1x.jpg 1x">\n      <img alt="trajes tipicos de panama, pollera de lujo, pollera congo y montuna ocue\xF1a" class="completa" src="images/trajesTipicosPanamaBannerCel-1x.jpg">\n    </picture>\n    <articulo class="negroTrans completa texto">\n        <hgroup class="portadaTitulo">\n          <h1 class="logoLetras">\n            <span>Investigaci\xF3n y Difusi\xF3n del Folklore de Panam\xE1 - Folk in Love</span>\n          </h1>\n          <h3>La Nueva Manera de Ver el Folklore</h3>\n        </hgroup>\n    </articulo> \n  </section>\n'], ['\n  <section class="portada">\n    <picture class="banner">\n      <source media="(min-width: 801px)" srcset="images/trajesTipicosPanamaBannerFull-2x.jpg 2x, images/trajesTipicosPanamaBannerFull-1x.jpg 1x">\n      <source media="(min-width: 541px)" srcset="images/trajesTipicosPanamaBannerTab-2x.jpg 2x, images/trajesTipicosPanamaBannerTab-1x.jpg 1x">\n      <source media="(min-width: 10px)" srcset="images/trajesTipicosPanamaBannerCel-2x.jpg 2x, images/trajesTipicosPanamaBannerCel-1x.jpg 1x">\n      <img alt="trajes tipicos de panama, pollera de lujo, pollera congo y montuna ocue\xF1a" class="completa" src="images/trajesTipicosPanamaBannerCel-1x.jpg">\n    </picture>\n    <articulo class="negroTrans completa texto">\n        <hgroup class="portadaTitulo">\n          <h1 class="logoLetras">\n            <span>Investigaci\xF3n y Difusi\xF3n del Folklore de Panam\xE1 - Folk in Love</span>\n          </h1>\n          <h3>La Nueva Manera de Ver el Folklore</h3>\n        </hgroup>\n    </articulo> \n  </section>\n']);
@@ -3104,17 +3068,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
-},{"yo-yo":14}],38:[function(require,module,exports){
+},{"yo-yo":14}],39:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <div class="inicioIdentidad">\n    <article class="identidadImagenes">\n      <a href="/vestuarios/Gala-Ocuena" class="identidadImagen  tercio">\n        <picture >\n          <source media="(min-width: 800px)" srcset="images/pollera-gala-ocu-identidad-full.jpg">\n          <img src="images/pollera-gala-ocu-identidad-cel.jpg" alt="Pollera de Gala Ocue\xF1a, traje tipico de la regi\xF3n de azuero, Panama" class=" tercio identidadFotos">\n        </picture>\n        \n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h5>Pollera de Gala Ocue\xF1a</h5>\n            <h6>Azuero</h6>\n          </hgroup>\n        </div>\n      </a>\n      <a href="/vestuarios/Pollera-Congo" class="identidadImagen tercio">\n        <picture>\n          <source media="(min-width: 800px)" srcset="images/pollera-congo-identidad-full.jpg">\n          <img src="images/pollera-congo-identidad-cel.jpg" alt="Pollera Congo, traje tipico de la regi\xF3n de Col\xF3n, Panama" class=" tercio identidadFotos">\n        </picture>\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h5>Pollera Congo</h5>\n            <h6>Col\xF3n</h6>\n          </hgroup>\n        </div>\n      </a>\n      <a href="/vestuarios/Pollera-De-Lujo" class="identidadImagen identidad1 tercio">\n        <picture>\n          <source media="(min-width: 800px)" srcset="images/pollera-lujo-losantos-identidad-full.jpg">\n          <img src="images/pollera-lujo-losantos-identidad-cel.jpg" alt="Pollera de lujo sante\xF1a, traje tipico de la regi\xF3n de azuero, Panama" class=" tercio identidadFotos">\n        </picture>\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h5>Pollera De Lujo</h5>\n            <h6>Azuero</h6>\n          </hgroup>\n        </div>\n      </a>\n      \n    </article>\n    <article class="identidadTexto completa blanco">\n      <hgroup>\n        <h2>Elementos de Nuestro Folklore</h2>\n        <h3>Investigando Sobre las Costumbres de Cada Regi\xF3n</h3>\n        <p>\n          Son Muchos los <b>elementos</b>  que forman parte de la <b>cultura y el folklore</b>  de un pa\xEDs. Desde peque\xF1os y abstactos como pueden ser cuentos infantiles y rimas; Objetos como <a href="/vestuarios">vestidos tradicionales</a> e instrumentos musicales; O m\xE1s trascendentales como rituales religiosos o festivos as\xED como la manera de celebrar los momentos de la vida, como bautizos, matrimonios y funerales. \n        </p>\n        <p>\n          Lo importante de cada uno de estos <b>componentes</b> es que nos definen como seres humanos, como comunidad y como pa\xEDs, nos d\xE1n la <b>identidad</b> ante nosotros mismos y los dem\xE1s.   \n        </p>\n        <p>  \n          Dos <b>elementos</b> important\xEDsimos que definen al <b>paname\xF1o</b>  y que pueden diferenciar <b>las costumbres</b> de cada una de las regiones del pa\xEDs, para darle a cada lugar su propia identidad, Son los <a href="/vestuarios">trajes t\xEDpicos</a> y los <a href="danzas">bailes o danzas folkl\xF3ricas</a>. \n        </p>\n        <p>\n          <b>Danzas</b> como <a href="/danzas/El-Punto-Santeno">el punto</a> que nos hablan de la elegancia y ceremonia que nos trajeron los espa\xF1oles, el Gran Diablo es un reflejo de la llegada del cristianismo, <a href="/vestuarios/Pollera-Congo">las polleras congo</a> nos hablan de la <b>cultura</b> de los Africanos que vinieron en \xE9poca de colonia y se establecieron en la costa atl\xE1ntica.\n        </p>\n        <p>\n          Y as\xED se cuenta <b>nuestra historia</b> atrav\xE9s de la caja y el repicador, de la pollera montuna y de una m\xE1scara de diablico sucio. Caminamos en la vida con una cutarra y nos tapamos del sol con un sombrero pintao. \n        </p>\n        <p>\n          Creemos en la importancia de conocer de donde venimos para poder desarrollar un sentido de <b>identidad</b>, para poder tomar decisiones hacia el futuro, para cuidar el <b>legado</b> que nos dejaron las generaciones pasadas, para entender quienes somos y de donde venimos y poder as\xED saber hacia donde vamos.  \n        </p>\n      </hgroup>\n    </article>\n  </div>\n'], ['\n  <div class="inicioIdentidad">\n    <article class="identidadImagenes">\n      <a href="/vestuarios/Gala-Ocuena" class="identidadImagen  tercio">\n        <picture >\n          <source media="(min-width: 800px)" srcset="images/pollera-gala-ocu-identidad-full.jpg">\n          <img src="images/pollera-gala-ocu-identidad-cel.jpg" alt="Pollera de Gala Ocue\xF1a, traje tipico de la regi\xF3n de azuero, Panama" class=" tercio identidadFotos">\n        </picture>\n        \n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h5>Pollera de Gala Ocue\xF1a</h5>\n            <h6>Azuero</h6>\n          </hgroup>\n        </div>\n      </a>\n      <a href="/vestuarios/Pollera-Congo" class="identidadImagen tercio">\n        <picture>\n          <source media="(min-width: 800px)" srcset="images/pollera-congo-identidad-full.jpg">\n          <img src="images/pollera-congo-identidad-cel.jpg" alt="Pollera Congo, traje tipico de la regi\xF3n de Col\xF3n, Panama" class=" tercio identidadFotos">\n        </picture>\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h5>Pollera Congo</h5>\n            <h6>Col\xF3n</h6>\n          </hgroup>\n        </div>\n      </a>\n      <a href="/vestuarios/Pollera-De-Lujo" class="identidadImagen identidad1 tercio">\n        <picture>\n          <source media="(min-width: 800px)" srcset="images/pollera-lujo-losantos-identidad-full.jpg">\n          <img src="images/pollera-lujo-losantos-identidad-cel.jpg" alt="Pollera de lujo sante\xF1a, traje tipico de la regi\xF3n de azuero, Panama" class=" tercio identidadFotos">\n        </picture>\n        <div class="identidadInfo negroTrans">\n          <hgroup>\n            <h5>Pollera De Lujo</h5>\n            <h6>Azuero</h6>\n          </hgroup>\n        </div>\n      </a>\n      \n    </article>\n    <article class="identidadTexto completa blanco">\n      <hgroup>\n        <h2>Elementos de Nuestro Folklore</h2>\n        <h3>Investigando Sobre las Costumbres de Cada Regi\xF3n</h3>\n        <p>\n          Son Muchos los <b>elementos</b>  que forman parte de la <b>cultura y el folklore</b>  de un pa\xEDs. Desde peque\xF1os y abstactos como pueden ser cuentos infantiles y rimas; Objetos como <a href="/vestuarios">vestidos tradicionales</a> e instrumentos musicales; O m\xE1s trascendentales como rituales religiosos o festivos as\xED como la manera de celebrar los momentos de la vida, como bautizos, matrimonios y funerales. \n        </p>\n        <p>\n          Lo importante de cada uno de estos <b>componentes</b> es que nos definen como seres humanos, como comunidad y como pa\xEDs, nos d\xE1n la <b>identidad</b> ante nosotros mismos y los dem\xE1s.   \n        </p>\n        <p>  \n          Dos <b>elementos</b> important\xEDsimos que definen al <b>paname\xF1o</b>  y que pueden diferenciar <b>las costumbres</b> de cada una de las regiones del pa\xEDs, para darle a cada lugar su propia identidad, Son los <a href="/vestuarios">trajes t\xEDpicos</a> y los <a href="danzas">bailes o danzas folkl\xF3ricas</a>. \n        </p>\n        <p>\n          <b>Danzas</b> como <a href="/danzas/El-Punto-Santeno">el punto</a> que nos hablan de la elegancia y ceremonia que nos trajeron los espa\xF1oles, el Gran Diablo es un reflejo de la llegada del cristianismo, <a href="/vestuarios/Pollera-Congo">las polleras congo</a> nos hablan de la <b>cultura</b> de los Africanos que vinieron en \xE9poca de colonia y se establecieron en la costa atl\xE1ntica.\n        </p>\n        <p>\n          Y as\xED se cuenta <b>nuestra historia</b> atrav\xE9s de la caja y el repicador, de la pollera montuna y de una m\xE1scara de diablico sucio. Caminamos en la vida con una cutarra y nos tapamos del sol con un sombrero pintao. \n        </p>\n        <p>\n          Creemos en la importancia de conocer de donde venimos para poder desarrollar un sentido de <b>identidad</b>, para poder tomar decisiones hacia el futuro, para cuidar el <b>legado</b> que nos dejaron las generaciones pasadas, para entender quienes somos y de donde venimos y poder as\xED saber hacia donde vamos.  \n        </p>\n      </hgroup>\n    </article>\n  </div>\n']);
@@ -3123,17 +3083,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
-},{"yo-yo":14}],39:[function(require,module,exports){
+},{"yo-yo":14}],40:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -3160,9 +3116,7 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/', _header2.default, _footer2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -3173,7 +3127,7 @@ function _interopRequireDefault(obj) {
   next();
 });
 
-},{"../footer":29,"../header":32,"../header/functions":31,"./template":40,"empty-element":4,"page":12}],40:[function(require,module,exports){
+},{"../footer":30,"../header":33,"../header/functions":32,"./template":41,"empty-element":4,"page":12}],41:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <main class="home">\n    ', '\n    ', '\n    ', '\n    ', '\n  </main>\n'], ['\n  <main class="home">\n    ', '\n    ', '\n    ', '\n    ', '\n  </main>\n']);
@@ -3198,17 +3152,13 @@ var _apoyo = require('./apoyo');
 
 var _apoyo2 = _interopRequireDefault(_apoyo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject, _banner2.default, _about2.default, _identidad2.default, _apoyo2.default);
 
-},{"./about":35,"./apoyo":36,"./banner":37,"./identidad":38,"yo-yo":14}],41:[function(require,module,exports){
+},{"./about":36,"./apoyo":37,"./banner":38,"./identidad":39,"yo-yo":14}],42:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -3239,9 +3189,7 @@ var _catalogo = require('../tienda/catalogo');
 
 var _catalogo2 = _interopRequireDefault(_catalogo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/tienda/:nombre', _header2.default, _footer2.default, _functions2.default.noScrollFunction, function (ctx, next) {
 
@@ -3252,7 +3200,7 @@ function _interopRequireDefault(obj) {
   (0, _emptyElement2.default)(main).appendChild((0, _template2.default)(producto));
 });
 
-},{"../footer":29,"../header":32,"../header/functions":31,"../tienda/catalogo":43,"./template":42,"empty-element":4,"page":12}],42:[function(require,module,exports){
+},{"../footer":30,"../header":33,"../header/functions":32,"../tienda/catalogo":44,"./template":43,"empty-element":4,"page":12}],43:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -3276,22 +3224,16 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-},{"yo-yo":14}],43:[function(require,module,exports){
+},{"yo-yo":14}],44:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['<section class="articulo conGaleria">\n  <div class="sesionGal">\n    <picture>\n    <source media="(min-width: 10px )" srcset="images/sesionFotosCel1x.jpg 1x, images/sesionFotosCel2x.jpg 2x">\n    <source media="(min-width: 541px )" srcset="images/sesionFotosTab1x.jpg 1x, images/sesionFotosTab2x.jpg 2x">\n    <source media="(min-width: 801px )" srcset="images/sesionFotosFull1x.jpg 1x, images/sesionFotosFull2x.jpg 2x"> \n    <img src="images/sesionFotosCel1x.jpg 1x" alt="Sesi\xF3n de Fotos en pollera en el lugar de la ciudad de Panam\xE1 que prefiera">\n    </picture>\n    <picture>\n    <source media="(min-width: 10px )" srcset="images/polleraSesionFotosCel1x.jpg 1x, images/polleraSesionFotosCel2x.jpg 2x">\n    <source media="(min-width: 541px )" srcset="images/polleraSesionFotosTab1x.jpg 1x, images/polleraSesionFotosTab2x.jpg 2x">\n    <source media="(min-width: 801px )" srcset="images/polleraSesionFotosFull1x.jpg 1x, images/polleraSesionFotosFull2x.jpg 2x"> \n    <img src="images/polleraSesionFotosCel1x.jpg 1x" alt="Fotos de Alta Calidad en Vestidos T\xEDpicos de Panam\xE1"> \n    </picture>\n    <picture>\n    <source media="(min-width: 10px )" srcset="images/sesionFotosPolleraCel1x.jpg 1x, images/sesionFotosPolleraCel2x.jpg 2x">\n    <source media="(min-width: 541px )" srcset="images/sesionFotosPolleraTab1x.jpg 1x, images/sesionFotosPolleraTab2x.jpg 2x">\n    <source media="(min-width: 801px )" srcset="images/sesionFotosPolleraFull1x.jpg 1x, images/sesionFotosPolleraFull2x.jpg 2x"> \n    <img src="images/sesionFotosPolleraCel1x.jpg 1x" alt="Fotograf\xEDa en Pollera y Vestidos T\xEDpicos de Panam\xE1. Alta calidad Fotogr\xE1fica, excelentes polleras, tembleques y Maquillaje">\n    </picture>\n  </div>\n <articulo class="completa texto">\n  <hgroup class="blogStyle">\n   <h2>La Experiencia de Ponerse un Vestido T\xEDpico Paname\xF1o</h2>\n   <p>Vestirse de pollera es una de las experiencias m\xE1s lindas que pueden tener todas las paname\xF1a. A lo largo de nuestro pa\xEDs las indumentarias tradicionales son muy variadas, pero describen la vida y las experiencias de las mujeres que las portaban.</p>\n   <p>Hoy en d\xEDa se ha extendido el uso de la pollera de lujo porque es de incalculable belleza, pero no debemos olvidar las otras hermosas polleras y vestimentas que tiene nuestro pa\xEDs. Como, por ejemplo: los vestidos de diablo espejo, diablico sucio, diablicos limpios de la chorrera, indumentarias de faena, basqui\xF1a, chambra y camisola, etc...</p>\n   <p>Realizarse una sesi\xF3n de fotos nos hace sentir hermosas, es una experiencia que nos saca de nuestra zona de confort y nos permite vivir una experiencia memorable, \xBFpor qu\xE9? porque adem\xE1s de tomarnos el tiempo para engalanarnos con un hermoso maquillaje, peinado, prendas y dem\xE1s accesorios, tendremos la experiencia de conocer los detalles de la confecci\xF3n del vestido t\xEDpico escogido y adem\xE1s conocer de primera mano c\xF3mo se siente la tela, el peso de los tembleques y mucho m\xE1s.</p>\n   <h2>Descripci\xF3n de la Sesi\xF3n</h2>\n   <p>La aventura inicia desde que el equipo llega a arreglarte (lugar de conveniencia) en d\xF3nde tendr\xE1s la pollera y los accesorios que necesitar\xE1s para esta maravillosa experiencia. Luego pasamos al peinado y maquillaje, de ah\xED a colocar la pollera, las prendas y los accesorios de la cabeza</p>\n   <p>Escogeremos un lugar m\xE1gico y emblem\xE1tico de Panam\xE1 para que sea el marco perfecto para tu sesi\xF3n de fotos.</p>\n   <p>y listo, ahora solo queda disfrutar y divertirnos con cada momento.</p>\n   <p>Nuestro equipo te contara la historia de estas polleras, detalles interesantes de la confecci\xF3n y adem\xE1s te ayudar\xE1 a que poses para que tus recuerdos sean como siempre los so\xF1aste.</p>\n   <h2>Qu\xE9 Necesitas Para Tu Sesi\xF3n?</h2>\n   <p>Nuestro compromiso es hacer de ese d\xEDa un momento memorable, estas son algunas recomendaciones que nos ayudar\xE1n a hacer todo de forma m\xE1s \xE1gil:</p>\n   <ul>\n    <li>Comer antes de tu sesi\xF3n</li>\n    <li>Ropa interior Blanca</li>\n    <li>Cabello Limpio</li>\n    <li>Cejas arregladas</li>\n    <li>No usar perfume en el cuello</li>\n   </ul>\n   <p>Este video les explicar\xE1 un poco m\xE1s del proceso.</p>\n   <div class="videoPasos texto">\n    <iframe width="560" height="315" src="https://www.youtube.com/embed/Y656jCpFLiM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>\n   </div>\n   <h2>Detalles de Nuestro Servicio</h2>\n   <ul>\n    <li>No hay l\xEDmite de personas por Sesi\xF3n</li>\n    <li>Horarios Flexibles</li>\n    <li>Locaci\xF3n en exteriores o interiores</li>\n    <li>T\xFA escoges la locaci\xF3n que prefieras (si la locaci\xF3n tiene un costo, este debe ser cubierto por el cliente</li>\n    <li>Atenci\xF3n personalizada</li>\n    <li>Incluye Maquillaje y asesor\xEDa para las poses</li>\n    <li>Varios paquetes a escoger</li>\n    <li>Trajes para ni\xF1os disponibles</li>\n    <li>Trajes para hombres disponibles</li>\n    <li>Todos los vestidos disponibles en tallas S, M y L</li>\n    <li>Te entregamos un m\xEDnimo de 15 fotos editadas en una plataforma virtual</li>\n   </ul>\n  </hgroup>\n </articulo>\n</section>\n  \n  '], ['<section class="articulo conGaleria">\n  <div class="sesionGal">\n    <picture>\n    <source media="(min-width: 10px )" srcset="images/sesionFotosCel1x.jpg 1x, images/sesionFotosCel2x.jpg 2x">\n    <source media="(min-width: 541px )" srcset="images/sesionFotosTab1x.jpg 1x, images/sesionFotosTab2x.jpg 2x">\n    <source media="(min-width: 801px )" srcset="images/sesionFotosFull1x.jpg 1x, images/sesionFotosFull2x.jpg 2x"> \n    <img src="images/sesionFotosCel1x.jpg 1x" alt="Sesi\xF3n de Fotos en pollera en el lugar de la ciudad de Panam\xE1 que prefiera">\n    </picture>\n    <picture>\n    <source media="(min-width: 10px )" srcset="images/polleraSesionFotosCel1x.jpg 1x, images/polleraSesionFotosCel2x.jpg 2x">\n    <source media="(min-width: 541px )" srcset="images/polleraSesionFotosTab1x.jpg 1x, images/polleraSesionFotosTab2x.jpg 2x">\n    <source media="(min-width: 801px )" srcset="images/polleraSesionFotosFull1x.jpg 1x, images/polleraSesionFotosFull2x.jpg 2x"> \n    <img src="images/polleraSesionFotosCel1x.jpg 1x" alt="Fotos de Alta Calidad en Vestidos T\xEDpicos de Panam\xE1"> \n    </picture>\n    <picture>\n    <source media="(min-width: 10px )" srcset="images/sesionFotosPolleraCel1x.jpg 1x, images/sesionFotosPolleraCel2x.jpg 2x">\n    <source media="(min-width: 541px )" srcset="images/sesionFotosPolleraTab1x.jpg 1x, images/sesionFotosPolleraTab2x.jpg 2x">\n    <source media="(min-width: 801px )" srcset="images/sesionFotosPolleraFull1x.jpg 1x, images/sesionFotosPolleraFull2x.jpg 2x"> \n    <img src="images/sesionFotosPolleraCel1x.jpg 1x" alt="Fotograf\xEDa en Pollera y Vestidos T\xEDpicos de Panam\xE1. Alta calidad Fotogr\xE1fica, excelentes polleras, tembleques y Maquillaje">\n    </picture>\n  </div>\n <articulo class="completa texto">\n  <hgroup class="blogStyle">\n   <h2>La Experiencia de Ponerse un Vestido T\xEDpico Paname\xF1o</h2>\n   <p>Vestirse de pollera es una de las experiencias m\xE1s lindas que pueden tener todas las paname\xF1a. A lo largo de nuestro pa\xEDs las indumentarias tradicionales son muy variadas, pero describen la vida y las experiencias de las mujeres que las portaban.</p>\n   <p>Hoy en d\xEDa se ha extendido el uso de la pollera de lujo porque es de incalculable belleza, pero no debemos olvidar las otras hermosas polleras y vestimentas que tiene nuestro pa\xEDs. Como, por ejemplo: los vestidos de diablo espejo, diablico sucio, diablicos limpios de la chorrera, indumentarias de faena, basqui\xF1a, chambra y camisola, etc...</p>\n   <p>Realizarse una sesi\xF3n de fotos nos hace sentir hermosas, es una experiencia que nos saca de nuestra zona de confort y nos permite vivir una experiencia memorable, \xBFpor qu\xE9? porque adem\xE1s de tomarnos el tiempo para engalanarnos con un hermoso maquillaje, peinado, prendas y dem\xE1s accesorios, tendremos la experiencia de conocer los detalles de la confecci\xF3n del vestido t\xEDpico escogido y adem\xE1s conocer de primera mano c\xF3mo se siente la tela, el peso de los tembleques y mucho m\xE1s.</p>\n   <h2>Descripci\xF3n de la Sesi\xF3n</h2>\n   <p>La aventura inicia desde que el equipo llega a arreglarte (lugar de conveniencia) en d\xF3nde tendr\xE1s la pollera y los accesorios que necesitar\xE1s para esta maravillosa experiencia. Luego pasamos al peinado y maquillaje, de ah\xED a colocar la pollera, las prendas y los accesorios de la cabeza</p>\n   <p>Escogeremos un lugar m\xE1gico y emblem\xE1tico de Panam\xE1 para que sea el marco perfecto para tu sesi\xF3n de fotos.</p>\n   <p>y listo, ahora solo queda disfrutar y divertirnos con cada momento.</p>\n   <p>Nuestro equipo te contara la historia de estas polleras, detalles interesantes de la confecci\xF3n y adem\xE1s te ayudar\xE1 a que poses para que tus recuerdos sean como siempre los so\xF1aste.</p>\n   <h2>Qu\xE9 Necesitas Para Tu Sesi\xF3n?</h2>\n   <p>Nuestro compromiso es hacer de ese d\xEDa un momento memorable, estas son algunas recomendaciones que nos ayudar\xE1n a hacer todo de forma m\xE1s \xE1gil:</p>\n   <ul>\n    <li>Comer antes de tu sesi\xF3n</li>\n    <li>Ropa interior Blanca</li>\n    <li>Cabello Limpio</li>\n    <li>Cejas arregladas</li>\n    <li>No usar perfume en el cuello</li>\n   </ul>\n   <p>Este video les explicar\xE1 un poco m\xE1s del proceso.</p>\n   <div class="videoPasos texto">\n    <iframe width="560" height="315" src="https://www.youtube.com/embed/Y656jCpFLiM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>\n   </div>\n   <h2>Detalles de Nuestro Servicio</h2>\n   <ul>\n    <li>No hay l\xEDmite de personas por Sesi\xF3n</li>\n    <li>Horarios Flexibles</li>\n    <li>Locaci\xF3n en exteriores o interiores</li>\n    <li>T\xFA escoges la locaci\xF3n que prefieras (si la locaci\xF3n tiene un costo, este debe ser cubierto por el cliente</li>\n    <li>Atenci\xF3n personalizada</li>\n    <li>Incluye Maquillaje y asesor\xEDa para las poses</li>\n    <li>Varios paquetes a escoger</li>\n    <li>Trajes para ni\xF1os disponibles</li>\n    <li>Trajes para hombres disponibles</li>\n    <li>Todos los vestidos disponibles en tallas S, M y L</li>\n    <li>Te entregamos un m\xEDnimo de 15 fotos editadas en una plataforma virtual</li>\n   </ul>\n  </hgroup>\n </articulo>\n</section>\n  \n  ']);
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 var yo = require('yo-yo');
 
@@ -3525,7 +3467,7 @@ module.exports = [{
 // }
 ];
 
-},{"yo-yo":14}],44:[function(require,module,exports){
+},{"yo-yo":14}],45:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -3552,9 +3494,7 @@ var _template = require('./template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/tienda', _header2.default, _footer2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -3564,7 +3504,7 @@ function _interopRequireDefault(obj) {
   next();
 });
 
-},{"../footer":29,"../header":32,"../header/functions":31,"./template":46,"empty-element":4,"page":12}],45:[function(require,module,exports){
+},{"../footer":30,"../header":33,"../header/functions":32,"./template":47,"empty-element":4,"page":12}],46:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -3582,15 +3522,11 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-},{"yo-yo":14}],46:[function(require,module,exports){
+},{"yo-yo":14}],47:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n<main>\n <section class="portada">\n  <picture class="banner">\n   <source media="(min-width: 801px)" srcset="images/tiendaBannerFull-1x.jpg 1x, images/tiendaBannerFull-2x.jpg 2x">\n   <source media="(min-width: 541px)" srcset="images/tiendaBannerTab-1x.jpg 1x, images/tiendaBannerTab-2x.jpg 2x">\n   <source media="(min-width: 10px)" srcset="images/tiendaBannerCel-1x.jpg 1x, images/tiendaBannerCel-2x.jpg 2x"> \n   <img class="completa" alt="Foto de Pollera De Lujo Sante\xF1a, traje tipico de panam\xE1, en Panam\xE1 Viejo"  src="images/tiendaBannerCell-1x.jpg"  >\n  </picture>\n  <article className="completa negroTrans">\n   <hgroup>\n    <h1>Productos y Servicios Folkl\xF3ricos</h1>\n   </hgroup>\n  </article>\n </section>\n <section class="lista blanco">\n  <div class="listaCont">\n   ', '\n  </div>\n  \n </section>\n</main>\n'], ['\n<main>\n <section class="portada">\n  <picture class="banner">\n   <source media="(min-width: 801px)" srcset="images/tiendaBannerFull-1x.jpg 1x, images/tiendaBannerFull-2x.jpg 2x">\n   <source media="(min-width: 541px)" srcset="images/tiendaBannerTab-1x.jpg 1x, images/tiendaBannerTab-2x.jpg 2x">\n   <source media="(min-width: 10px)" srcset="images/tiendaBannerCel-1x.jpg 1x, images/tiendaBannerCel-2x.jpg 2x"> \n   <img class="completa" alt="Foto de Pollera De Lujo Sante\xF1a, traje tipico de panam\xE1, en Panam\xE1 Viejo"  src="images/tiendaBannerCell-1x.jpg"  >\n  </picture>\n  <article className="completa negroTrans">\n   <hgroup>\n    <h1>Productos y Servicios Folkl\xF3ricos</h1>\n   </hgroup>\n  </article>\n </section>\n <section class="lista blanco">\n  <div class="listaCont">\n   ', '\n  </div>\n  \n </section>\n</main>\n']);
@@ -3607,19 +3543,15 @@ var _tarjeta = require('./tarjeta');
 
 var _tarjeta2 = _interopRequireDefault(_tarjeta);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject, _catalogo2.default.map(function (producto) {
   return (0, _tarjeta2.default)(producto);
 }));
 
-},{"./catalogo":43,"./tarjeta":45,"yo-yo":14}],47:[function(require,module,exports){
+},{"./catalogo":44,"./tarjeta":46,"yo-yo":14}],48:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <main itemscope itemtype="http://schema.org/Article">\n   <section class="portada">\n    <picture class="banner">\n      <source media="(min-width: 800px)" srcset="', '">\n      <source media="(min-width: 541px)" srcset="', '">\n      <source media="(min-width: 200px)" srcset="', '">\n      <img class="completa" src="', '" alt="Imagen de portada ', '">\n    </picture>\n    <article class="mitad rosaTrans">\n      <hgroup>\n          <h1 itemprop="name">', '</h1>\n          <p itemprop="description">', '</p>\n      </hgroup>\n    </article>\n   </section>\n   <section itemprop="articleBody" className="completa texto info blanco">\n    ', '\n   </section>\n   <section class="completa portada" style="background: url(\'', '\'); background-size:cover; background-attachment: fixed">\n    <article itemprop="articleBody" class="mitad negroTrans texto">\n     <hgroup>\n       <p>', '</p>\n     </hgroup>\n    </article>\n   </section>\n   <section itemprop="articleBody" class="completa texto info blanco">\n     ', '\n   </section>\n   ', '\n   ', '\n  </main>\n '], ['\n  <main itemscope itemtype="http://schema.org/Article">\n   <section class="portada">\n    <picture class="banner">\n      <source media="(min-width: 800px)" srcset="', '">\n      <source media="(min-width: 541px)" srcset="', '">\n      <source media="(min-width: 200px)" srcset="', '">\n      <img class="completa" src="', '" alt="Imagen de portada ', '">\n    </picture>\n    <article class="mitad rosaTrans">\n      <hgroup>\n          <h1 itemprop="name">', '</h1>\n          <p itemprop="description">', '</p>\n      </hgroup>\n    </article>\n   </section>\n   <section itemprop="articleBody" className="completa texto info blanco">\n    ', '\n   </section>\n   <section class="completa portada" style="background: url(\'', '\'); background-size:cover; background-attachment: fixed">\n    <article itemprop="articleBody" class="mitad negroTrans texto">\n     <hgroup>\n       <p>', '</p>\n     </hgroup>\n    </article>\n   </section>\n   <section itemprop="articleBody" class="completa texto info blanco">\n     ', '\n   </section>\n   ', '\n   ', '\n  </main>\n ']);
@@ -3628,20 +3560,16 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (vestuario) {
   var el = (0, _yoYo2.default)(_templateObject, vestuario.portadaImagenFull, vestuario.portadaImagenTab, vestuario.portadaImagenCel, vestuario.portadaImagen, vestuario.nombre, vestuario.nombre, vestuario.reseña, vestuario.antecedentes, vestuario.generalImagen, vestuario.general, vestuario.descripcion, vestuario.extra, vestuario.extra2);
   return el;
 };
 
-},{"yo-yo":14}],48:[function(require,module,exports){
+},{"yo-yo":14}],49:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -3672,9 +3600,7 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/vestuarios/:url', _header2.default, _footer2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -3682,7 +3608,7 @@ function _interopRequireDefault(obj) {
   window.addEventListener("scroll", _functions2.default.scrollFunction);
 });
 
-},{"../footer":29,"../header":32,"../header/functions":31,"../vestuarios/vestuarios":52,"./template":49,"empty-element":4,"page":12}],49:[function(require,module,exports){
+},{"../footer":30,"../header":33,"../header/functions":32,"../vestuarios/vestuarios":53,"./template":50,"empty-element":4,"page":12}],50:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n <div>\n  ', '\n </div>\n '], ['\n <div>\n  ', '\n </div>\n ']);
@@ -3699,13 +3625,9 @@ var _estructura = require('./estructura');
 
 var _estructura2 = _interopRequireDefault(_estructura);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (vestuarios, ident) {
   var el = (0, _yoYo2.default)(_templateObject, vestuarios.map(function (vestuario) {
@@ -3716,7 +3638,7 @@ module.exports = function (vestuarios, ident) {
   return el;
 };
 
-},{"../componentes/album":16,"./estructura":47,"yo-yo":14}],50:[function(require,module,exports){
+},{"../componentes/album":16,"./estructura":48,"yo-yo":14}],51:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -3743,9 +3665,7 @@ var _functions = require('../header/functions');
 
 var _functions2 = _interopRequireDefault(_functions);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/vestuarios', _header2.default, _footer2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -3753,7 +3673,7 @@ function _interopRequireDefault(obj) {
   window.addEventListener("scroll", _functions2.default.scrollFunction);
 });
 
-},{"../footer":29,"../header":32,"../header/functions":31,"./template":51,"empty-element":4,"page":12}],51:[function(require,module,exports){
+},{"../footer":30,"../header":33,"../header/functions":32,"./template":52,"empty-element":4,"page":12}],52:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n<main>\n <section class="portada" id="vestuarioPortada">\n  <picture class="banner">\n    <source media="(min-width: 801px)" srcset="images/vestuariosBannerFull-1x.jpg 1x, images/vestuariosBannerFull-2x.jpg 2x">\n    <source media="(min-width: 541px)" srcset="images/vestuariosBannerTab-1x.jpg 1x, images/vestuariosBannerTab-2x.jpg 2x">\n    <source media="(min-width: 10px)" srcset="images/vestuariosBannerCel-1x.jpg 1x, images/vestuariosBannerCel-2x.jpg 2x">\n    <img class="completa" src="images/vestuariosBannerCell-1x.jpg" alt="Trajes T\xEDpicos de Panam\xE1, Pollera de Lujo Sante\xF1a en Panam\xE1 Viejo">\n   </picture>\n  <article className="completa negroTrans">\n   <hgroup>\n    <h1>Vestuarios Paname\xF1os</h1>\n    <p>Los vestidos t\xEDpicos de nuestro pa\xEDs son de gran valor y nos muestran la singularidad de cada pueblo y como de acuerdo al lugar de donde vienen expresan las vivencias y situaciones del hombre y la mujer paname\xF1a.</p>\n   </hgroup>\n  </article>\n </section>\n <section class="lista blanco">\n  <div class="listaCont">\n  ', '\n  </div> \n </section>\n</main>\n'], ['\n<main>\n <section class="portada" id="vestuarioPortada">\n  <picture class="banner">\n    <source media="(min-width: 801px)" srcset="images/vestuariosBannerFull-1x.jpg 1x, images/vestuariosBannerFull-2x.jpg 2x">\n    <source media="(min-width: 541px)" srcset="images/vestuariosBannerTab-1x.jpg 1x, images/vestuariosBannerTab-2x.jpg 2x">\n    <source media="(min-width: 10px)" srcset="images/vestuariosBannerCel-1x.jpg 1x, images/vestuariosBannerCel-2x.jpg 2x">\n    <img class="completa" src="images/vestuariosBannerCell-1x.jpg" alt="Trajes T\xEDpicos de Panam\xE1, Pollera de Lujo Sante\xF1a en Panam\xE1 Viejo">\n   </picture>\n  <article className="completa negroTrans">\n   <hgroup>\n    <h1>Vestuarios Paname\xF1os</h1>\n    <p>Los vestidos t\xEDpicos de nuestro pa\xEDs son de gran valor y nos muestran la singularidad de cada pueblo y como de acuerdo al lugar de donde vienen expresan las vivencias y situaciones del hombre y la mujer paname\xF1a.</p>\n   </hgroup>\n  </article>\n </section>\n <section class="lista blanco">\n  <div class="listaCont">\n  ', '\n  </div> \n </section>\n</main>\n']);
@@ -3770,19 +3690,15 @@ var _vestuarios = require('./vestuarios');
 
 var _vestuarios2 = _interopRequireDefault(_vestuarios);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject, _vestuarios2.default.map(function (danza) {
   return (0, _tarjeta2.default)('vestuarios', danza);
 }));
 
-},{"../componentes/tarjeta":17,"./vestuarios":52,"yo-yo":14}],52:[function(require,module,exports){
+},{"../componentes/tarjeta":18,"./vestuarios":53,"yo-yo":14}],53:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['<p>Esta hermosa pollera era utilizada por las mujeres solo en ocasiones especiales como por ejemplo en el matrimonio. Hoy en d\xEDa la representaci\xF3n del Matrimonio campesino es una tradici\xF3n que se realiza dentro del marco del festival del manito, que adem\xE1s de ser una fiesta del pueblo es una celebraci\xF3n religiosa. Se escoge una vez al a\xF1o por la suerte a una pareja ocue\xF1a para realizar el sacramento en la parroquia de San Sebasti\xE1n de Oc\xFA.</p>'], ['<p>Esta hermosa pollera era utilizada por las mujeres solo en ocasiones especiales como por ejemplo en el matrimonio. Hoy en d\xEDa la representaci\xF3n del Matrimonio campesino es una tradici\xF3n que se realiza dentro del marco del festival del manito, que adem\xE1s de ser una fiesta del pueblo es una celebraci\xF3n religiosa. Se escoge una vez al a\xF1o por la suerte a una pareja ocue\xF1a para realizar el sacramento en la parroquia de San Sebasti\xE1n de Oc\xFA.</p>']),
@@ -3801,9 +3717,7 @@ var _templateObject = _taggedTemplateLiteral(['<p>Esta hermosa pollera era utili
     _templateObject14 = _taggedTemplateLiteral(['\n   <hgroup>\n    <h2>Historia de la Camisilla</h2>\n    <p>"No se sabe a ciencia cierta en qu\xE9 a\xF1o s\xE9 utilizo por primera vez la camisilla, existen referencias de que esta pieza masculina tiene una larga vida de existencia, ya que en la fiesta del Centenario de Chitr\xE9 en 1948, se exhibi\xF3 una camisilla con juegos de alforzas y peque\xF1os talcos piramidales en relieve, con cien a\xF1os de existencia".</p>\n    <h3>Dora P. De Z\xE1rate</h3>\n   </hgroup>\n  '], ['\n   <hgroup>\n    <h2>Historia de la Camisilla</h2>\n    <p>"No se sabe a ciencia cierta en qu\xE9 a\xF1o s\xE9 utilizo por primera vez la camisilla, existen referencias de que esta pieza masculina tiene una larga vida de existencia, ya que en la fiesta del Centenario de Chitr\xE9 en 1948, se exhibi\xF3 una camisilla con juegos de alforzas y peque\xF1os talcos piramidales en relieve, con cien a\xF1os de existencia".</p>\n    <h3>Dora P. De Z\xE1rate</h3>\n   </hgroup>\n  ']),
     _templateObject15 = _taggedTemplateLiteral(['\n   <hgroup>\n    <h2>Descripci\xF3n</h2>\n    <h3>Camisilla</h3>\n    <p>Las camisillas de Los Santos son de color blanco y tienen un dise\xF1o caracter\xEDstico. </p>\n    <p>El cuello de la camisa es alto y de estilo chino, en la parte frontal posee dos bolsillos, las mangas son largas y holgadas, en las mu\xF1ecas es cerrada y no lleva botones.</p>\n    <p>El cuerpo de la camisilla esta adornado con alforzas, que son una serie de tabletas finamente cosidas en la parte trasera dela camisa se hacen dos o tres tiras de alforzas y en la parte frontal se hacen a ambos lados del pecho.</p>\n    <p>Las camisillas llevan botones que pueden ser de oro, monedas peque\xF1as de plata ba\xF1ada en oro, n\xE1car o hueso. Las m\xE1s sencillas normalmente llevan los botones pegados y una sola l\xEDnea de ojales. mientras que las m\xE1s elaboradas y finas tienen doble l\xEDnea, ya que los botones son de oro y se puedes quitar y poner para lavar la camisa.</p>\n    <p>Las telas utilizadas para su confecci\xF3n son de hilo como el hol\xE1n o m\xE1s sencillas como el poplin.</p>\n    <p>La labor artesanal de las camisillas se destaca en las alforzas o espiguetas, que pueden tomar al rededor de cinco o seis d\xEDas para su confecci\xF3n.</p>\n    <p>De la cantidad de espiguetas depende el valor que se le brindar\xE1 a la camisilla. La tradici\xF3n nos dice que se consideran m\xE1s finas las camisillas que tienen m\xE1s espiguetas, por esta raz\xF3n cuando son confeccionadas para concursos, deben tener un m\xEDnimo de 30 espiguetas en la parte delantera.</p>\n    <p>tipos de alforzas o espiguetas</p>\n    <ul>\n     <li>Alforzas Horizontales</li>\n     <li>Alforzas Verticales</li>\n     <li>Alforzas Oblicuas</li>\n     <li>Alforzas Oblicuas Encontradas (combinaci\xF3n de dos tiras independientes de alforzas)</li>\n     <li>Alforzas horizontales y verticales</li>\n     <li>Cepito</li>\n    </ul>\n    <p>Para acompa\xF1ar la camisilla el hombre debe vestir con pantal\xF3n negro, zapatos negros, cutarras o chinelas (zapatos blanco con negro), una cebadera o ch\xE1cara (bolsa de hilo tejida) y sombrero pintado.</p>\n   </hgroup>\n  '], ['\n   <hgroup>\n    <h2>Descripci\xF3n</h2>\n    <h3>Camisilla</h3>\n    <p>Las camisillas de Los Santos son de color blanco y tienen un dise\xF1o caracter\xEDstico. </p>\n    <p>El cuello de la camisa es alto y de estilo chino, en la parte frontal posee dos bolsillos, las mangas son largas y holgadas, en las mu\xF1ecas es cerrada y no lleva botones.</p>\n    <p>El cuerpo de la camisilla esta adornado con alforzas, que son una serie de tabletas finamente cosidas en la parte trasera dela camisa se hacen dos o tres tiras de alforzas y en la parte frontal se hacen a ambos lados del pecho.</p>\n    <p>Las camisillas llevan botones que pueden ser de oro, monedas peque\xF1as de plata ba\xF1ada en oro, n\xE1car o hueso. Las m\xE1s sencillas normalmente llevan los botones pegados y una sola l\xEDnea de ojales. mientras que las m\xE1s elaboradas y finas tienen doble l\xEDnea, ya que los botones son de oro y se puedes quitar y poner para lavar la camisa.</p>\n    <p>Las telas utilizadas para su confecci\xF3n son de hilo como el hol\xE1n o m\xE1s sencillas como el poplin.</p>\n    <p>La labor artesanal de las camisillas se destaca en las alforzas o espiguetas, que pueden tomar al rededor de cinco o seis d\xEDas para su confecci\xF3n.</p>\n    <p>De la cantidad de espiguetas depende el valor que se le brindar\xE1 a la camisilla. La tradici\xF3n nos dice que se consideran m\xE1s finas las camisillas que tienen m\xE1s espiguetas, por esta raz\xF3n cuando son confeccionadas para concursos, deben tener un m\xEDnimo de 30 espiguetas en la parte delantera.</p>\n    <p>tipos de alforzas o espiguetas</p>\n    <ul>\n     <li>Alforzas Horizontales</li>\n     <li>Alforzas Verticales</li>\n     <li>Alforzas Oblicuas</li>\n     <li>Alforzas Oblicuas Encontradas (combinaci\xF3n de dos tiras independientes de alforzas)</li>\n     <li>Alforzas horizontales y verticales</li>\n     <li>Cepito</li>\n    </ul>\n    <p>Para acompa\xF1ar la camisilla el hombre debe vestir con pantal\xF3n negro, zapatos negros, cutarras o chinelas (zapatos blanco con negro), una cebadera o ch\xE1cara (bolsa de hilo tejida) y sombrero pintado.</p>\n   </hgroup>\n  ']);
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 var yo = require('yo-yo');
 module.exports = [{
@@ -3879,4 +3793,4 @@ module.exports = [{
   descripcion: yo(_templateObject15)
 }];
 
-},{"yo-yo":14}]},{},[34]);
+},{"yo-yo":14}]},{},[35]);

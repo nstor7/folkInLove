@@ -11,7 +11,7 @@ module.exports = [
   nombre: 'El Punto Santeño',
   url: 'El-Punto-Santeno',
   reseña: 'El Punto Santeño es un género musical y a su vez un baile. Es considerado como uno de los más bellos y elegantes de todo el Istmo de Panamá; es ejecutado por una sola pareja y tiene como característica principal la elegancia y el donaire con la que el hombre y la mujer se mueven durante su ejecución.',
-  portadaImagen: '/images/puntoPortada.jpg',
+  portadaImagen: 'puntoPortada',
   intro: yo`
    <hgroup>
     <p><i>“Después del tamborito, el baile de parejas individual más atractivo es el PUNTO en el cual la pareja hace gala de donaire, precisión y gracia. Parece de pura ascendencia hispánica a juzgar por la música que lo acompaña.</i></p>

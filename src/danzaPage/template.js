@@ -1,9 +1,11 @@
 import yo from 'yo-yo'
+import picture from '../componentes/picture'
 
 module.exports = function(danza){
  var el = yo`
  <main>
-  <section class="portada" style="background: url('${danza.portadaImagen}'); background-size:contain; background-attachment: fixed">
+  <section class="portada">
+    ${picture(danza.portadaImagen)}   
     <article class="mitad rosaTrans">
     <hgroup>
       <h1>${danza.nombre}</h1>
@@ -33,7 +35,7 @@ module.exports = function(danza){
       </ul>
     </hgroup>
     </article>
-    <article class="dosTercios imagen" style="background: url('${danza.pasosImagen}'); background-size:cover"></article>
+    <article class="dosTercios imagenDoble" style="background: url('${danza.pasosImagen}'); background-size:cover"></article>
   </section>
   <article class="completa texto info rosa">
       ${danza.referencias}
