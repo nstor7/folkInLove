@@ -20,7 +20,7 @@ module.exports = [
    },
    {
     detalle: 'Pollera Blanca',
-    precio: 250
+    precio: 300
    },
    {
     detalle: 'Pollera Montuna',
