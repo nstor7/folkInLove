@@ -39,22 +39,22 @@ module.exports = [
   articulo: yo`<section class="articulo conGaleria">
   <div class="sesionGal">
     <picture>
-    <source media="(min-width: 10px )" srcset="images/sesionFotosCel1x.jpg 1x, images/sesionFotosCel2x.jpg 2x">
-    <source media="(min-width: 541px )" srcset="images/sesionFotosTab1x.jpg 1x, images/sesionFotosTab2x.jpg 2x">
-    <source media="(min-width: 801px )" srcset="images/sesionFotosFull1x.jpg 1x, images/sesionFotosFull2x.jpg 2x"> 
-    <img src="images/sesionFotosCel1x.jpg 1x" alt="Sesión de Fotos en pollera en el lugar de la ciudad de Panamá que prefiera">
+    <source media="(min-width: 10px )" srcset="images/sesionFotosGaleriaCel1x-1.jpg 1x, images/sesionFotosGaleriaCel2x-1.jpg 2x">
+    <source media="(min-width: 541px )" srcset="images/sesionFotosGaleriaTab1x-1.jpg 1x, images/sesionFotosGaleriaTab2x-1.jpg 2x">
+    <source media="(min-width: 801px )" srcset="images/sesionFotosGaleriaFull1x-1.jpg 1x, images/sesionFotosGaleriaFull2x-1.jpg 2x"> 
+    <img src="images/sesionFotosGaleriaCel1x-1.jpg 1x" alt="Sesión de Fotos en pollera en el lugar de la ciudad de Panamá que prefiera">
     </picture>
     <picture>
-    <source media="(min-width: 10px )" srcset="images/polleraSesionFotosCel1x.jpg 1x, images/polleraSesionFotosCel2x.jpg 2x">
-    <source media="(min-width: 541px )" srcset="images/polleraSesionFotosTab1x.jpg 1x, images/polleraSesionFotosTab2x.jpg 2x">
-    <source media="(min-width: 801px )" srcset="images/polleraSesionFotosFull1x.jpg 1x, images/polleraSesionFotosFull2x.jpg 2x"> 
-    <img src="images/polleraSesionFotosCel1x.jpg 1x" alt="Fotos de Alta Calidad en Vestidos Típicos de Panamá"> 
+    <source media="(min-width: 10px )" srcset="images/sesionFotosGaleriaCel1x-3.jpg 1x, images/sesionFotosGaleriaCel2x-3.jpg 2x">
+    <source media="(min-width: 541px )" srcset="images/sesionFotosGaleriaTab1x-3.jpg 1x, images/sesionFotosGaleriaTab2x-3.jpg 2x">
+    <source media="(min-width: 801px )" srcset="images/sesionFotosGaleriaFull1x-3.jpg 1x, images/sesionFotosGaleriaFull2x-3.jpg 2x"> 
+    <img src="images/sesionFotosGaleriaCel1x-3.jpg 1x" alt="Fotos de Alta Calidad en Vestidos Típicos de Panamá"> 
     </picture>
     <picture>
-    <source media="(min-width: 10px )" srcset="images/sesionFotosPolleraCel1x.jpg 1x, images/sesionFotosPolleraCel2x.jpg 2x">
-    <source media="(min-width: 541px )" srcset="images/sesionFotosPolleraTab1x.jpg 1x, images/sesionFotosPolleraTab2x.jpg 2x">
-    <source media="(min-width: 801px )" srcset="images/sesionFotosPolleraFull1x.jpg 1x, images/sesionFotosPolleraFull2x.jpg 2x"> 
-    <img src="images/sesionFotosPolleraCel1x.jpg 1x" alt="Fotografía en Pollera y Vestidos Típicos de Panamá. Alta calidad Fotográfica, excelentes polleras, tembleques y Maquillaje">
+    <source media="(min-width: 10px )" srcset="images/sesionFotosGaleriaCel1x-2.jpg 1x, images/sesionFotosGaleriaCel2x-2.jpg 2x">
+    <source media="(min-width: 541px )" srcset="images/sesionFotosGaleriaTab1x-2.jpg 1x, images/sesionFotosGaleriaTab2x-2.jpg 2x">
+    <source media="(min-width: 801px )" srcset="images/sesionFotosGaleriaFull1x-2.jpg 1x, images/sesionFotosGaleriaFull2x-2.jpg 2x"> 
+    <img src="images/sesionFotosGaleriaCel1x-2.jpg 1x" alt="Fotografía en Pollera y Vestidos Típicos de Panamá. Alta calidad Fotográfica, excelentes polleras, tembleques y Maquillaje">
     </picture>
   </div>
  <articulo class="completa texto">
