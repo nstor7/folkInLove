@@ -2,8 +2,8 @@ const yo = require('yo-yo')
 
 module.exports = [
  {
-  metaTitle: 'Sesión de Fotos en Pollera - Panamá 2018',
-  metaDescripcion: 'La sesión fotográfica 📷 incluye vestido típico, maquillaje 💄 , colocación de tembleques y prendas 💍 , asesoría con las poses ✅ y un minimo de 15 fotos editadas en biblioteca digital perzonalizada.',
+  metaTitle: 'Sesión de Fotos en Pollera',
+  metaDescripcion: '🎖Vive la EXPERIENCIA de lucir uno de los trajes típicos más hermosos del mundo. Folk in Love te ofrece 📷 sesiones de FOTOS que incluyen POLLERA, 💍 prendas, tembleques, 💄maquillaje, arreglo, sesión de fotos con asesoría de poses.',
   nombre: 'Sesión de Fotografía',
   enlace: 'fotos-en-traje-tipico',
   subtitulo: 'en vestido típico',

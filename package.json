@@ -2,26 +2,27 @@
   "name": "folkinlovesite",
   "version": "0.1.0",
   "dependencies": {
-    "config": "^1.25.1",
+    "body-parser": "^1.18.3",
+    "config": "^1.31.0",
     "empty-element": "^1.0.0",
-    "express": "^4.14.0",
+    "express": "^4.16.4",
     "express-mailer": "^0.3.1",
-    "mongoose": "^4.9.4",
-    "page": "^1.7.1",
-    "pug": "^2.0.0-beta6",
-    "yo-yo": "^1.2.2"
+    "mongoose": "^4.13.18",
+    "page": "^1.11.4",
+    "pug": "^2.0.3",
+    "yo-yo": "^1.4.1"
   },
   "scripts": {
     "serve": "NODE_PATH=. node server",
     "start": "gulp watch & npm run serve"
   },
   "devDependencies": {
-    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-es2015": "^6.24.1",
     "babelify": "^7.3.0",
     "browserify": "^13.1.0",
     "gulp": "^3.9.1",
-    "gulp-rename": "^1.2.2",
-    "vinyl-source-stream": "^1.1.0",
-    "watchify": "^3.7.0"
+    "gulp-rename": "^1.4.0",
+    "vinyl-source-stream": "^1.1.2",
+    "watchify": "^3.11.1"
   }
 }
