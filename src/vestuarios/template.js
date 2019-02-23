@@ -2,7 +2,7 @@ import yo from 'yo-yo'
 import tarjeta from '../componentes/tarjeta'
 import vestuarios from './vestuarios'
 
-module.exports = yo`
+var template = yo`
 <main>
  <section class="portada" id="vestuarioPortada">
   <picture class="banner">
@@ -27,3 +27,4 @@ module.exports = yo`
  </section>
 </main>
 `
+export default template

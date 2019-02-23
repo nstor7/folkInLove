@@ -2,7 +2,7 @@ const express = require('express')
 const danzas = express.Router()
 const bailes = require('./src/danzas/danzas')
 
-danzas.use(express.static('public'))
+danzas.use(express.static('dist'))
 
 danzas.get('/', function(req, res){
  res.render('index.pug', {

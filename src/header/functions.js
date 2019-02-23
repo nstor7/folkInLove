@@ -1,4 +1,4 @@
-var scrollFunction = function(){
+export var scroll = function(){
     var altura = window.innerWidth * 0.19
     var headerContainer = document.getElementById('headerContainer')
   if(window.scrollY > altura){
@@ -8,15 +8,15 @@ var scrollFunction = function(){
   }
 }
 
-var noScrollFunction = function(ctx, next){
-  removeEventListener('scroll', scrollFunction)
+export var noScroll = function(ctx, next){
+  removeEventListener('scroll', scroll)
   var headerContainer = document.getElementById('headerContainer')
   headerContainer.classList.add('blanco')
   next()
 }
-var navegacion =function(){
+export var navegacion = function(){
   var nav = document.getElementById('nav')
   nav.classList.toggle('hidden')
  }
 
-module.exports = {scrollFunction, noScrollFunction, navegacion}
+

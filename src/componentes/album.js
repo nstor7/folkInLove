@@ -1,6 +1,6 @@
 import yo from 'yo-yo'
 
-module.exports = function(imagenes){
+var album = function(imagenes){
  var el = yo`
   <article class="tercio album">
     <div class="imagenCentral">Soy una imagen central</div>
@@ -13,3 +13,4 @@ module.exports = function(imagenes){
  `
  return el
 }
+export default album

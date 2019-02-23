@@ -1,3 +1,5 @@
+
+import './app.styl'
 import page from 'page'
 
 page('*', function(ctx, next){

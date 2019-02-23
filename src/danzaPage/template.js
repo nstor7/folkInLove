@@ -1,7 +1,7 @@
 import yo from 'yo-yo'
 import picture from '../componentes/picture'
 
-module.exports = function(danza){
+var template = function(danza){
  var el = yo`
  <main>
   <section class="portada">
@@ -46,3 +46,4 @@ module.exports = function(danza){
 }
 
 
+export default template

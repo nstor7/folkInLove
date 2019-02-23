@@ -4,7 +4,7 @@ import about from './about'
 import identidad from './identidad'
 import apoyo from './apoyo'
 
-module.exports = yo`
+var template = yo`
   <main class="home">
     ${banner}
     ${about}
@@ -12,3 +12,4 @@ module.exports = yo`
     ${apoyo}
   </main>
 `
+export default template

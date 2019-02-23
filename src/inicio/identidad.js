@@ -1,6 +1,6 @@
 import yo from 'yo-yo'
 
-module.exports = yo`
+var identidad = yo`
   <div class="inicioIdentidad">
     <article class="identidadImagenes">
       <a href="/vestuarios/Gala-Ocuena" class="identidadImagen  tercio">
@@ -68,3 +68,4 @@ module.exports = yo`
     </article>
   </div>
 `
+export default identidad

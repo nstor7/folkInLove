@@ -13,7 +13,7 @@ app.use(bodyParser.json())
 
 app.set('view engine', 'pug')
 
-app.use(express.static('public'))
+app.use(express.static('dist'))
 
 app.use('/danzas', danzas)
 

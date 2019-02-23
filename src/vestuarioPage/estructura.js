@@ -1,7 +1,7 @@
 import yo from 'yo-yo'
 
    
-module.exports = function(vestuario){
+export default function(vestuario){
  var el = yo`
   <main itemscope itemtype="http://schema.org/Article">
    <section class="portada">

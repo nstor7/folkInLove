@@ -1,6 +1,6 @@
 import yo from 'yo-yo'
 
-module.exports = yo`
+var template = yo`
 <footer>
  <div class="footerLeft">
   <a class="logo"></a>
@@ -23,3 +23,4 @@ module.exports = yo`
  </div>
 </footer>
 `
+export default template

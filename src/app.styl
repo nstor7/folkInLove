@@ -1,0 +1,295 @@
+// @import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css'
+// @import 'https://fonts.googleapis.com/css?family=Dancing+Script|Mandali|Yantramanav:300,400,700'
+
+// GUÍA DE ESTILOS
+
+//Generales
+body
+  margin 0
+  width: 100vw
+div, section, article, a, hgroup, main, body, .completa, .mitad, .tercio, img, footer, header, .dosTercios
+  box-sizing: border-box
+article
+  display: flex
+  justify-content: center
+  align-items: center
+section
+  display: flex
+  justify-content: space-around
+  align-items: center
+  @media(max-width: 800px)
+    flex-wrap: wrap
+//Fuentes
+h1, h2, h5
+  font-family: 'Mandali', sans-serif
+  font-family: 'Century Gothic', sans-serif
+  font-weight: normal
+  font-size 3vw
+  margin 0
+  padding 0
+  @media(max-width: 800px)
+    font-size: 5vw
+h3, h6
+  font-family: 'Dancing Script', cursive
+  font-size 2vw
+  font-weight: 400
+  margin 0
+  padding 0
+  @media(max-width: 800px)
+    font-size: 6vw
+h4
+  font-family: 'Yantramanav', sans-serif
+  font-size 1vw
+  font-weight: light
+  margin 0
+  padding 0
+  @media(max-width: 800px)
+    font-size: 4vw
+p, li
+  font-family: 'Yantramanav', sans-serif
+  font-size: 1.3vw
+  line-height: 1.6vw  
+  letter-spacing: 0.05vw
+  @media(max-width: 800px)
+    font-size: 3.9vw
+    line-height: 4.8vw
+    letter-spacing: 0.15vw
+  b
+    text-transform: uppercase
+  i 
+    font-size: 1.1vw
+    @media(max-width:900px)
+      font-size: 3.3vw
+a
+  text-decoration: none
+//Colores
+.blanco
+  background: rgba(240, 240, 240, 1)
+  color: black
+.gris
+  background: grey
+.negro
+  background: rgba(1, 1, 1, 1)
+  color: rgba(240, 240, 240, 1)
+  .btn:hover
+    cursor: pointer
+    background: grisClaro
+    color: negro
+.negroTrans
+  background: rgba(1, 1, 1, 0.3)
+  color: rgba(240, 240, 240, 1)
+.rosa
+  background: rgba(242, 37, 147, 1)
+  color: rgba(240, 240, 240, 1)
+.rosaTrans
+  background: rgba(242, 37, 147, 0.6)
+  color: rgba(240, 240, 240, 1)
+//cajas
+main
+  width: 100vw
+.completa
+  width: 100vw
+  min-height: 40vw
+  display flex
+  @media(max-width: 800px)
+    width: 100vw
+    height: auto
+  hgroup
+    width: 60vw
+    height: auto
+    @media(max-width: 800px)
+      width: 90vw
+    a
+      text-transform: uppercase
+      text-decoration: underline
+.mitad
+  width: 50vw
+  height: 40vw
+  @media(max-width: 800px)
+    width: 100vw
+    height: auto
+    padding: 1vw
+  hgroup
+    width: 90%
+.portada
+  width: 100vw
+  height: 40vw
+  justify-content: space-between
+  @media(max-width: 800px)
+    width: 100vw
+    height: 80vw
+  .completa, .mitad
+    @media(max-width: 800px)
+      height: 80vw
+// .portadaImagen
+//   width: 100vw
+//   height 40vw
+//   z-index: -10
+.tercio
+  width: 33.33vw
+  height: 40vw
+  @media(max-width: 800px)
+    width: 100vw
+    height: auto
+    padding: 1vw
+.imagen 
+  height 40vw
+  @media(max-width: 800px)
+    width: 100vw
+    height 120vw
+.dosTercios
+  width: 66.66vw
+  height: 40vw
+  @media(max-width : 800px)
+    width: 100vw
+    height auto
+    padding: 1vw
+  hgroup
+    width: 90%
+.imagenDoble 
+  height 40vw
+  @media(max-width: 800px)
+    width: 100vw
+    height 60vw
+.texto
+  display flex
+  justify-content: center
+  align-items: center
+  hgroup
+    height: auto
+    width: 90%
+.info 
+  height: auto
+  padding: 5vw
+  hgroup
+    width: 100%
+    height: 100%
+form
+  display: flex
+  flex-wrap: wrap
+  input
+    width: 28vw
+    height: 2.34vw
+    margin-bottom: 0.5vw
+    font-family: 'Work Sans', sans-serif
+    font-size: 1.3vw
+    @media(max-width: 800px)
+      width: 80vw 
+      height: 10vw
+      font-size: 4vw
+  textarea
+    width: 28vw
+    font-family: 'Work Sans', sans-serif
+    font-size: 1.3vw
+    @media(max-width: 800px)
+      width: 80vw 
+      font-size: 4vw
+  .btn
+    width: 12.5vw
+    height: 4vw
+    float right
+    @media(max-width: 800px)
+      width: 50vw 
+      height:8vw
+      font-size: 3vw
+  .btn:hover
+    cursor: pointer
+    background: grisClaro
+    color: negro
+.lista
+  width: 100vw
+  height: auto
+  display flex
+  .listaFiltros
+    width: 26vw
+    height auto
+    padding: 1vw
+    border-right: solid 1px black
+    @media(max-width:800px)
+      display: none
+  .listaCont
+    width: 100vw
+    height: auto
+    padding: 2.5vw
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    @media(max-width:800px)
+      width: 100vw
+      justify-content: center
+.tarjeta
+  width: 30vw
+  height: 40vw
+  flex-wrap: wrap
+  background: #ddd
+  box-shadow: grey 1px 1px 5px
+  position relative
+  z-index: 0
+  margin-bottom: 2.5vw
+  @media(max-width:800px)
+    width: 90vw
+    height: 120vw
+    margin-bottom: 7.5vw
+  &:hover
+    box-shadow: grey 5px 5px 10px
+  .tarjetaImagen
+    background: grey 
+    width: 30vw
+    height: 24vw
+    @media(max-width:800px)
+      width: 90vw
+      height: 72vw
+  .tarjetaInfo 
+    height: 20vw
+    width: 27.6vw
+    background: white 
+    position absolute 
+    bottom: 0
+    left: 4%
+    margin: auto
+    overflow: visible
+    padding 12%
+    @media(max-width:800px)
+      width: 82.8vw
+      height: 60vw
+    hgroup
+      display flex
+      flex-wrap: wrap
+      align-items: center
+      h3  
+        font-family: 'Mandali', sans-serif
+        font-family: 'Century Gothic', sans-serif
+        font-weight: normal
+        font-size 3vw
+        margin 0
+        padding 0
+        font-size: 2vw
+        @media(max-width: 800px)
+          font-size: 6vw
+      h4 
+        width: 100%
+        @media(max-width:800px)
+          font-size: 4vw
+.blogStyle 
+  h3
+    font-family: 'Mandali', sans-serif
+    font-family: 'Century Gothic', sans-serif
+    font-weight: normal
+    margin 0
+    padding 0
+    font-size: 1.5vw
+    @media(max-width: 800px)
+      font-size: 4.5vw     
+.medianera
+  z-index: -6
+@import './header/index.styl'
+@import './footer/index.styl'
+@import './inicio'
+@import './contacto/index.styl'
+@import './componentes/album.styl'
+@import './danzaPage'
+@import './vestuarios'
+@import './danzas'
+@import './tienda'
+@import './producto'
+

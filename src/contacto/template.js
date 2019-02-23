@@ -1,6 +1,6 @@
 import yo from 'yo-yo'
 
-module.exports = yo`
+var template = yo`
   <section class="contacto completa">
     <article class="contactoInfo rosaTrans">
       <div>
@@ -20,3 +20,4 @@ module.exports = yo`
     </article>
   </section>
 `
+export default template

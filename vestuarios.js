@@ -2,7 +2,7 @@ const express = require('express')
 const vestuarios = express.Router()
 const vestidos = require('./src/vestuarios/vestuarios')
 
-vestuarios.use(express.static('public'))
+vestuarios.use(express.static('dist'))
 
 vestuarios.get('/', function(req, res){
  res.render('index.pug', {

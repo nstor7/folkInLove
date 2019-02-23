@@ -1,6 +1,6 @@
 import yo from 'yo-yo'
 
-module.exports = yo`
+var apoyo = yo`
   <section class="inicioApoyo completa">
     <article class="apoyoTexto mitad rosaTrans">
       <hgroup>
@@ -27,3 +27,4 @@ module.exports = yo`
     </article>
   </section>
   `
+export default apoyo

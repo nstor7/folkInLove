@@ -2,7 +2,7 @@ const express = require('express')
 const tienda = express.Router()
 const productos = require('./src/tienda/catalogo')
 
-tienda.use(express.static('public'))
+tienda.use(express.static('dist'))
 
 tienda.get('/', function(req, res){
  res.render('index.pug', {

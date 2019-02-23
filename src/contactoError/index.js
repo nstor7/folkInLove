@@ -3,9 +3,9 @@ import empty from 'empty-element'
 import header from '../header'
 import footer from '../footer'
 import template from './template'
-import fn from '../header/functions'
+import {noScroll} from '../header/functions'
 
-page('/error', header, footer, fn.noScrollFunction, function(ctx, next){
+page('/error', header, footer, noScroll, function(ctx, next){
   var main = document.getElementById('main-container')
   empty(main).appendChild(template)
 })

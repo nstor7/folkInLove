@@ -2,7 +2,7 @@ import yo from 'yo-yo'
 import album from '../componentes/album'
 import estructura from './estructura'
 
-module.exports = function(vestuarios, ident){
+var template = function(vestuarios, ident){
  var el = yo`
  <div>
   ${vestuarios.map(function(vestuario){
@@ -16,3 +16,4 @@ module.exports = function(vestuarios, ident){
  return el
 }
 
+export default template

@@ -1,6 +1,6 @@
 import yo from 'yo-yo'
 
-module.exports = yo`
+var banner = yo`
   <section class="portada">
     <picture class="banner">
       <source media="(min-width: 801px)" srcset="images/trajesTipicosPanamaBannerFull-2x.jpg 2x, images/trajesTipicosPanamaBannerFull-1x.jpg 1x">
@@ -18,3 +18,4 @@ module.exports = yo`
     </articulo> 
   </section>
 `
+export default banner
