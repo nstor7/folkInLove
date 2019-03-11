@@ -1,29 +1,43 @@
 {
-  "name": "folkinlovesite",
-  "version": "0.1.0",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "config": "^1.31.0",
-    "empty-element": "^1.0.0",
-    "express": "^4.16.4",
-    "express-mailer": "^0.3.1",
-    "mongoose": "^4.13.18",
-    "page": "^1.11.4",
-    "pug": "^2.0.3",
-    "webpack": "^4.29.5",
-    "yo-yo": "^1.4.1"
-  },
+  "name": "rr-ssr-gists",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "serve": "NODE_PATH=. node server",
-    "start": "webpack -p & npm run serve"
+    "start": "webpack -w & nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ],
+    "plugins": [
+      "transform-object-rest-spread"
+    ]
   },
   "devDependencies": {
-    "@babel/core": "^7.3.3",
-    "@babel/preset-env": "^7.3.1",
-    "css-loader": "^2.1.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^2.1.1",
+    "nodemon": "^1.12.5",
     "style-loader": "^0.23.1",
-    "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
-    "webpack-cli": "^3.2.3"
+    "webpack": "^3.10.0",
+    "webpack-node-externals": "^1.6.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "isomorphic-fetch": "^2.2.1",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "react-router-dom": "^4.2.2",
+    "serialize-javascript": "^1.4.0"
   }
 }
