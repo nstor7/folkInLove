@@ -1,16 +1,16 @@
 import React from 'react'
 // import tarjeta from '../componentes/tarjeta'
-// import danzas from './danzas'
+import Listado from './danzas'
 
 export default function Danzas(){
   return ( 
     <main>
-      <section class="portada" id="danzasPortada">
-        <picture class="banner">
-        <source media="(min-width: 801px)" srcset="images/danzasBannerFull-1x.jpg 1x, images/danzasBannerFull-2x.jpg 2x"/>
-        <source media="(min-width: 541px)" srcset="images/danzasBannerTab-1x.jpg 1x, images/danzasBannerTab-2x.jpg 2x"/>
-        <source media="(min-width: 10px)" srcset="images/danzasBannerCel-1x.jpg 1x, images/danzasBannerCel-2x.jpg 2x"/>
-        <img class="completa" src="images/danzasBannerCel.jpg" alt="Bailes Típicos de Panamá, Baile Congo"/>
+      <section className="portada" id="danzasPortada">
+        <picture className="banner">
+        <source media="(min-width: 801px)" srcSet="images/danzasBannerFull-1x.jpg 1x, images/danzasBannerFull-2x.jpg 2x"/>
+        <source media="(min-width: 541px)" srcSet="images/danzasBannerTab-1x.jpg 1x, images/danzasBannerTab-2x.jpg 2x"/>
+        <source media="(min-width: 10px)" srcSet="images/danzasBannerCel-1x.jpg 1x, images/danzasBannerCel-2x.jpg 2x"/>
+        <img className="completa" src="images/danzasBannerCel.jpg" alt="Bailes Típicos de Panamá, Baile Congo"/>
         </picture>
         <article className="completa negroTrans">
         <hgroup>
@@ -19,15 +19,15 @@ export default function Danzas(){
         </hgroup>
         </article>
       </section>
-      <section class="lista blanco">
-        <div class="listaCont">
-          <h1>aqui van las danzas</h1>
+      <section className="lista blanco">
+        <div className="listaCont">
+          <Listado/>
         </div> 
       </section>
-      <section class="completa blanco videoPasos">
+      <section className="completa blanco videoPasos">
         <h2>Pasos Básicos de los Danzas Típicas Panameñas</h2>
         <iframe src="https://www.youtube.com/embed/x7HdglWtujg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <hgroup class="blogStyle">
+        <hgroup className="blogStyle">
           <p>A diferencia de otros países de latinoamérica, donde los bailes no tiene una estructura marcada y los pasos cambian a voluntad del bailarín, en Panamá si tenemos una serie de <b>pasos estructurados</b>  que son guiados por los <b>cambios de la música</b>.</p>
           <h3>El Paseo</h3>
           <p>El Paseo es el <b>paso básico por excelencia</b> , ya que con él se inician la mayoría de los bailes, como es el caso de la Cumbia Santeña.</p>

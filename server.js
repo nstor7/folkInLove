@@ -1139,177 +1139,410 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+var _danzas = __webpack_require__(20);
 
-// import tarjeta from '../componentes/tarjeta'
-// import danzas from './danzas'
+var _danzas2 = _interopRequireDefault(_danzas);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function Danzas() {
   return _react2.default.createElement(
-    "main",
+    'main',
     null,
     _react2.default.createElement(
-      "section",
-      { "class": "portada", id: "danzasPortada" },
+      'section',
+      { className: 'portada', id: 'danzasPortada' },
       _react2.default.createElement(
-        "picture",
-        { "class": "banner" },
-        _react2.default.createElement("source", { media: "(min-width: 801px)", srcset: "images/danzasBannerFull-1x.jpg 1x, images/danzasBannerFull-2x.jpg 2x" }),
-        _react2.default.createElement("source", { media: "(min-width: 541px)", srcset: "images/danzasBannerTab-1x.jpg 1x, images/danzasBannerTab-2x.jpg 2x" }),
-        _react2.default.createElement("source", { media: "(min-width: 10px)", srcset: "images/danzasBannerCel-1x.jpg 1x, images/danzasBannerCel-2x.jpg 2x" }),
-        _react2.default.createElement("img", { "class": "completa", src: "images/danzasBannerCel.jpg", alt: "Bailes T\xEDpicos de Panam\xE1, Baile Congo" })
+        'picture',
+        { className: 'banner' },
+        _react2.default.createElement('source', { media: '(min-width: 801px)', srcSet: 'images/danzasBannerFull-1x.jpg 1x, images/danzasBannerFull-2x.jpg 2x' }),
+        _react2.default.createElement('source', { media: '(min-width: 541px)', srcSet: 'images/danzasBannerTab-1x.jpg 1x, images/danzasBannerTab-2x.jpg 2x' }),
+        _react2.default.createElement('source', { media: '(min-width: 10px)', srcSet: 'images/danzasBannerCel-1x.jpg 1x, images/danzasBannerCel-2x.jpg 2x' }),
+        _react2.default.createElement('img', { className: 'completa', src: 'images/danzasBannerCel.jpg', alt: 'Bailes T\xEDpicos de Panam\xE1, Baile Congo' })
       ),
       _react2.default.createElement(
-        "article",
-        { className: "completa negroTrans" },
+        'article',
+        { className: 'completa negroTrans' },
         _react2.default.createElement(
-          "hgroup",
+          'hgroup',
           null,
           _react2.default.createElement(
-            "h1",
+            'h1',
             null,
-            "Bailes T\xEDpicos de Panam\xE1"
+            'Bailes T\xEDpicos de Panam\xE1'
           ),
           _react2.default.createElement(
-            "p",
+            'p',
             null,
             _react2.default.createElement(
-              "b",
+              'b',
               null,
-              "Las danzas folkl\xF3ricas"
+              'Las danzas folkl\xF3ricas'
             ),
-            " paname\xF1as expresan las experiencias del hombre y la mujer, muchas de ellas son inspiradas en la faena diaria del trabajo en el campo, otras traen a colaci\xF3n ",
+            ' paname\xF1as expresan las experiencias del hombre y la mujer, muchas de ellas son inspiradas en la faena diaria del trabajo en el campo, otras traen a colaci\xF3n ',
             _react2.default.createElement(
-              "b",
+              'b',
               null,
-              "costumbres"
+              'costumbres'
             ),
-            ", rituales religiosos y celebraciones."
+            ', rituales religiosos y celebraciones.'
           )
         )
       )
     ),
     _react2.default.createElement(
-      "section",
-      { "class": "lista blanco" },
+      'section',
+      { className: 'lista blanco' },
       _react2.default.createElement(
-        "div",
-        { "class": "listaCont" },
-        _react2.default.createElement(
-          "h1",
-          null,
-          "aqui van las danzas"
-        )
+        'div',
+        { className: 'listaCont' },
+        _react2.default.createElement(_danzas2.default, null)
       )
     ),
     _react2.default.createElement(
-      "section",
-      { "class": "completa blanco videoPasos" },
+      'section',
+      { className: 'completa blanco videoPasos' },
       _react2.default.createElement(
-        "h2",
+        'h2',
         null,
-        "Pasos B\xE1sicos de los Danzas T\xEDpicas Paname\xF1as"
+        'Pasos B\xE1sicos de los Danzas T\xEDpicas Paname\xF1as'
       ),
-      _react2.default.createElement("iframe", { src: "https://www.youtube.com/embed/x7HdglWtujg?rel=0", frameborder: "0", allow: "autoplay; encrypted-media", allowfullscreen: true }),
+      _react2.default.createElement('iframe', { src: 'https://www.youtube.com/embed/x7HdglWtujg?rel=0', frameborder: '0', allow: 'autoplay; encrypted-media', allowfullscreen: true }),
+      _react2.default.createElement(
+        'hgroup',
+        { className: 'blogStyle' },
+        _react2.default.createElement(
+          'p',
+          null,
+          'A diferencia de otros pa\xEDses de latinoam\xE9rica, donde los bailes no tiene una estructura marcada y los pasos cambian a voluntad del bailar\xEDn, en Panam\xE1 si tenemos una serie de ',
+          _react2.default.createElement(
+            'b',
+            null,
+            'pasos estructurados'
+          ),
+          '  que son guiados por los ',
+          _react2.default.createElement(
+            'b',
+            null,
+            'cambios de la m\xFAsica'
+          ),
+          '.'
+        ),
+        _react2.default.createElement(
+          'h3',
+          null,
+          'El Paseo'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'El Paseo es el ',
+          _react2.default.createElement(
+            'b',
+            null,
+            'paso b\xE1sico por excelencia'
+          ),
+          ' , ya que con \xE9l se inician la mayor\xEDa de los bailes, como es el caso de la Cumbia Sante\xF1a.'
+        ),
+        _react2.default.createElement(
+          'h3',
+          null,
+          'Caida y Vuelta'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Son dos ',
+          _react2.default.createElement(
+            'b',
+            null,
+            'movimientos'
+          ),
+          ' que normalmente van juntos y marcan el cambio de un paso al otro. En algunos ',
+          _react2.default.createElement(
+            'b',
+            null,
+            'bailes'
+          ),
+          ' las ca\xEDdas son marcas y en\xE9rgicas mientras que en otros son sutiles y delicadas.'
+        ),
+        _react2.default.createElement(
+          'h3',
+          null,
+          'La Seguidilla'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Es un paso que se realiza frente a ',
+          _react2.default.createElement(
+            'b',
+            null,
+            'la pareja'
+          ),
+          '. El pi\xE9 que gu\xEDa va en punta y el que le sigue va arrastrando pasando por en frente, cuando cambias de direcci\xF3n el pi\xE9 que gu\xEDa cambia igualmente.'
+        ),
+        _react2.default.createElement(
+          'h3',
+          null,
+          'El Zapateo'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Este es uno de los pasos m\xE1s vistosos en las ',
+          _react2.default.createElement(
+            'b',
+            null,
+            'danzas folk\xF3ricas paname\xF1as'
+          ),
+          ', mientras la mujer lo ejecuta con gracia y sutileza, el hombre muestra su fuerza y destreza.'
+        ),
+        _react2.default.createElement(
+          'h3',
+          null,
+          'El Cruce'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'En este paso, como su nombre lo indica, el hombre y la mujer se cruzan. Cada uno sale de su posici\xF3n con el pi\xE9 izquierdo, pasando de espaldas al lado de la pareja. Se cuentan cuatro pasos hacia adelante y cuatro pasos hacia atras.'
+        )
+      )
+    )
+  );
+}
+// import tarjeta from '../componentes/tarjeta'
+
+/***/ }),
+/* 20 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = lista;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _tarjeta = __webpack_require__(21);
+
+var _tarjeta2 = _interopRequireDefault(_tarjeta);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function lista() {
+  var danzas = [{
+    metaTitle: 'El Punto Santeño, el baile típico más elegante de Panamá.',
+    metaDescription: 'El Punto Santeño. En este artículo 📄 hablamos sobre el baile folklórico que es considerado el más elegante 💎 de Panamá 🇵🇦. su estructura musical 🎼 y sus pasos',
+    miniatura: 'images/puntoMiniatura.jpg',
+    region: 'Azuero',
+    dato: 'Vestuario: Pollera De Lujo',
+    imagenOpenGraph: 'puntoOpenGraph.jpg',
+    nombre: 'El Punto Santeño',
+    url: 'danzas/El-Punto-Santeno',
+    reseña: 'El Punto Santeño es un género musical y a su vez un baile. Es considerado como uno de los más bellos y elegantes de todo el Istmo de Panamá; es ejecutado por una sola pareja y tiene como característica principal la elegancia y el donaire con la que el hombre y la mujer se mueven durante su ejecución.',
+    portadaImagen: 'puntoPortada',
+    intro: _react2.default.createElement(
+      'hgroup',
+      null,
+      _react2.default.createElement(
+        'p',
+        null,
+        _react2.default.createElement(
+          'i',
+          null,
+          '\u201CDespu\xE9s del tamborito, el baile de parejas individual m\xE1s atractivo es el PUNTO en el cual la pareja hace gala de donaire, precisi\xF3n y gracia. Parece de pura ascendencia hisp\xE1nica a juzgar por la m\xFAsica que lo acompa\xF1a.'
+        )
+      ),
+      _react2.default.createElement(
+        'p',
+        null,
+        _react2.default.createElement(
+          'i',
+          null,
+          'El baile de PUNTO no es baile de toda una noche como puede serio el Tamborito y la Cumbia; el Pind\xEDn y la Mejorana. Se baila m\xE1s bien como una demostraci\xF3n atractiva entre los minutos de descanso de un baile, para regalo de los ojos y goce del esp\xEDritu de la concurrencia a una fiesta.\u201D'
+        )
+      ),
+      _react2.default.createElement(
+        'p',
+        null,
+        'Dora P\xE9rez de Zarate'
+      )
+    ),
+    introImagen: '/images/puntoIntro.jpg',
+    descripcion: _react2.default.createElement(
+      'hgroup',
+      null,
+      _react2.default.createElement(
+        'h2',
+        null,
+        'Descripci\xF3n del Punto Sante\xF1o'
+      ),
+      _react2.default.createElement(
+        'p',
+        null,
+        ' ',
+        _react2.default.createElement(
+          'b',
+          null,
+          'El punto'
+        ),
+        ' consta de una serie de pasos (que describiremos a continuaci\xF3n) los cuales se repiten 3 veces ',
+        _react2.default.createElement(
+          'i',
+          null,
+          '"tiempos"'
+        ),
+        ' en el mismo orden. A cada repetici\xF3n le llamamos tiempos o vueltas musicales. Una de sus caracter\xEDsticas particulares se lleva a cabo durante el zapateo ya que en cada uno (son 3) la pareja bailar\xE1 en una direcci\xF3n diferente. En el primer tiempo la pareja realizar\xE1 el zapateo frente a frente, en el segundo tiempo se dirigir\xE1n hacia los m\xFAsicos (es com\xFAn en los conjuntos folkl\xF3ricos dirigir el zapateo en otra direcci\xF3n cuando no se baila con m\xFAsicos en vivo) y en el \xFAltimo tiempo se dirige hacia el p\xFAblico.'
+      ),
+      _react2.default.createElement(
+        'p',
+        null,
+        'Cada paso durante la ejecuci\xF3n del Punto Sante\xF1o no tiene una duraci\xF3n definida, es el cambio de la m\xFAsica la que indicar\xE1 el paso a la siguiente figura.'
+      ),
+      _react2.default.createElement(
+        'p',
+        null,
+        'Inicia con ',
+        _react2.default.createElement(
+          'b',
+          null,
+          'El PASEO'
+        ),
+        ', es el paso de baile en el que el var\xF3n y la dama describen un amplio c\xEDrculo, ocupando cada uno de los extremos.'
+      ),
+      _react2.default.createElement(
+        'p',
+        null,
+        'Al cambio de la m\xFAsica se ejecuta una ca\xEDda y vuelta pasando al ',
+        _react2.default.createElement(
+          'b',
+          null,
+          'ZAPATEO'
+        ),
+        ' en el cual los bailadores, dependiendo del tiempo lo ejecutan, frente a frente, a la m\xFAsica o al p\xFAblico.'
+      ),
+      _react2.default.createElement(
+        'p',
+        null,
+        'En seguida, otro cambio de la m\xFAsica les advierte que deben realizar el tercer movimiento, ',
+        _react2.default.createElement(
+          'b',
+          null,
+          'EL ESCOBILLAO'
+        ),
+        ', que separa ampliamente a la pareja y  se ejecuta con r\xE1pidos movimientos de los pies hacia atr\xE1s.'
+      ),
+      _react2.default.createElement(
+        'p',
+        null,
+        'Por \xFAltimo, tambi\xE9n a indicaci\xF3n de la m\xFAsica, se realiza una caida y vuelta para pasar a la ',
+        _react2.default.createElement(
+          'b',
+          null,
+          'SEGUIDILLA'
+        ),
+        ' con la cual la pareja se desplaza acerc\xE1ndose el uno al otro para girar con mucha serenidad y finura en el centro del c\xEDrculo hasta que se indique el cambio y comience con una vuelta paseada el siguiente tiempo con el ',
+        _react2.default.createElement(
+          'b',
+          null,
+          'PASEO'
+        ),
+        '.'
+      ),
+      _react2.default.createElement(
+        'p',
+        null,
+        'Al finalizar el tercer tiempo, la mujer realiza un medio giro para quedar frente al p\xFAblico en un cierre que puede ser con el parejo arrodillado o de pi\xE9 tapandole el rostro con el sombrero simulando un beso.'
+      ),
+      _react2.default.createElement(
+        'p',
+        null,
+        'Es Com\xFAn que al ver a la pareja ejecutar tan hermoso baile los espectadores lancen monedas por el suelo; costumbre que hoy podemos ver en las fiestas cuando las quincea\xF1eras o reinas bailan el punto.'
+      )
+    ),
+
+    pasos: ['Paseo', 'Caida y vuelta', 'Zapateo', 'Escobillao', 'Seguidilla', 'Vuelta Paseada'],
+    pasosImagen: '/images/puntoPasos.jpg',
+    referencias: _react2.default.createElement(
+      'hgroup',
+      null,
+      _react2.default.createElement(
+        'h2',
+        null,
+        'Referencias Sobre El Punto Sante\xF1o'
+      ),
+      _react2.default.createElement(
+        'ul',
+        null,
+        _react2.default.createElement(
+          'li',
+          null,
+          'Extracto de "EL PUNTO, LA DENESA, EL ATRAVESADO Y OTROS BAILES ORQUESTADOS". Dora P\xE9rez de Z\xE1rate. 198'
+        )
+      )
+    )
+  }];
+
+  var Listado = function Listado() {
+    return danzas.map(function (danza) {
+      return (0, _tarjeta2.default)(danza);
+    });
+  };
+  return _react2.default.createElement(Listado, null);
+}
+
+/***/ }),
+/* 21 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Tarjeta;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Tarjeta(el) {
+
+  return _react2.default.createElement(
+    "a",
+    { "class": "tarjeta", href: el.url },
+    _react2.default.createElement("img", { "class": "tarjetaImagen", src: el.miniatura }),
+    _react2.default.createElement(
+      "div",
+      { "class": "tarjetaInfo" },
       _react2.default.createElement(
         "hgroup",
-        { "class": "blogStyle" },
-        _react2.default.createElement(
-          "p",
-          null,
-          "A diferencia de otros pa\xEDses de latinoam\xE9rica, donde los bailes no tiene una estructura marcada y los pasos cambian a voluntad del bailar\xEDn, en Panam\xE1 si tenemos una serie de ",
-          _react2.default.createElement(
-            "b",
-            null,
-            "pasos estructurados"
-          ),
-          "  que son guiados por los ",
-          _react2.default.createElement(
-            "b",
-            null,
-            "cambios de la m\xFAsica"
-          ),
-          "."
-        ),
+        null,
         _react2.default.createElement(
           "h3",
           null,
-          "El Paseo"
+          el.nombre
         ),
         _react2.default.createElement(
-          "p",
+          "h4",
           null,
-          "El Paseo es el ",
-          _react2.default.createElement(
-            "b",
-            null,
-            "paso b\xE1sico por excelencia"
-          ),
-          " , ya que con \xE9l se inician la mayor\xEDa de los bailes, como es el caso de la Cumbia Sante\xF1a."
+          "Regi\xF3n: ",
+          el.region
         ),
         _react2.default.createElement(
-          "h3",
+          "h4",
           null,
-          "Caida y Vuelta"
-        ),
-        _react2.default.createElement(
-          "p",
-          null,
-          "Son dos ",
-          _react2.default.createElement(
-            "b",
-            null,
-            "movimientos"
-          ),
-          " que normalmente van juntos y marcan el cambio de un paso al otro. En algunos ",
-          _react2.default.createElement(
-            "b",
-            null,
-            "bailes"
-          ),
-          " las ca\xEDdas son marcas y en\xE9rgicas mientras que en otros son sutiles y delicadas."
-        ),
-        _react2.default.createElement(
-          "h3",
-          null,
-          "La Seguidilla"
-        ),
-        _react2.default.createElement(
-          "p",
-          null,
-          "Es un paso que se realiza frente a ",
-          _react2.default.createElement(
-            "b",
-            null,
-            "la pareja"
-          ),
-          ". El pi\xE9 que gu\xEDa va en punta y el que le sigue va arrastrando pasando por en frente, cuando cambias de direcci\xF3n el pi\xE9 que gu\xEDa cambia igualmente."
-        ),
-        _react2.default.createElement(
-          "h3",
-          null,
-          "El Zapateo"
-        ),
-        _react2.default.createElement(
-          "p",
-          null,
-          "Este es uno de los pasos m\xE1s vistosos en las ",
-          _react2.default.createElement(
-            "b",
-            null,
-            "danzas folk\xF3ricas paname\xF1as"
-          ),
-          ", mientras la mujer lo ejecuta con gracia y sutileza, el hombre muestra su fuerza y destreza."
-        ),
-        _react2.default.createElement(
-          "h3",
-          null,
-          "El Cruce"
-        ),
-        _react2.default.createElement(
-          "p",
-          null,
-          "En este paso, como su nombre lo indica, el hombre y la mujer se cruzan. Cada uno sale de su posici\xF3n con el pi\xE9 izquierdo, pasando de espaldas al lado de la pareja. Se cuentan cuatro pasos hacia adelante y cuatro pasos hacia atras."
+          el.dato
         )
       )
     )
