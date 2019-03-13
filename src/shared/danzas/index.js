@@ -1,6 +1,7 @@
 import React from 'react'
 // import tarjeta from '../componentes/tarjeta'
 import Listado from './danzas'
+import Tarjeta from '../tarjeta'
 
 export default function Danzas(){
   return ( 
@@ -21,12 +22,12 @@ export default function Danzas(){
       </section>
       <section className="lista blanco">
         <div className="listaCont">
-          <Listado/>
+          {Listado.map((danza) => Tarjeta("danzas", danza))}
         </div> 
       </section>
       <section className="completa blanco videoPasos">
         <h2>Pasos Básicos de los Danzas Típicas Panameñas</h2>
-        <iframe src="https://www.youtube.com/embed/x7HdglWtujg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/x7HdglWtujg?rel=0" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
         <hgroup className="blogStyle">
           <p>A diferencia de otros países de latinoamérica, donde los bailes no tiene una estructura marcada y los pasos cambian a voluntad del bailarín, en Panamá si tenemos una serie de <b>pasos estructurados</b>  que son guiados por los <b>cambios de la música</b>.</p>
           <h3>El Paseo</h3>

@@ -36,7 +36,7 @@ app.get("*", (req, res, next) => {
       <html>
         <head>
           <title>${seo.title}</title>
-          <link rel="stylesheet" href="index.css">
+          <link rel="stylesheet" href="/index.css">
           <script src="/bundle.js" defer></script>
           <script>window.__INITIAL_DATA__ = ${serialize(data)}</script>
         </head>
