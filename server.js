@@ -110,6 +110,14 @@ var _vestuario = __webpack_require__(25);
 
 var _vestuario2 = _interopRequireDefault(_vestuario);
 
+var _tienda = __webpack_require__(26);
+
+var _tienda2 = _interopRequireDefault(_tienda);
+
+var _producto = __webpack_require__(29);
+
+var _producto2 = _interopRequireDefault(_producto);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var routes = [{
@@ -117,7 +125,14 @@ var routes = [{
   exact: true,
   component: _index2.default,
   seo: {
-    title: 'SSR with RR'
+    link: 'https://www.folkinlovepty.com',
+    title: 'Folk in Love - Investigación y Difusión del Folklore de Panamá',
+    description: 'En Folk in love nos dedicamos a la investigación, difusión, promoción y conservación del folklore Panameño.',
+    keywords: 'folklore panameño, costumbres, tradidiones, panama, orígenes, Panamá',
+    schemaType: 'Article',
+    schemaImages: ["https://folkinlovepty.com/images/trajes-tipicos-panama-banner-full-2x.jpg", "https://folkinlovepty.com/images/moneda-coronada-full.jpg", "https://folkinlovepty.com/images/pollera-gala-ocu-identidad-full.jpg"],
+    schemaPublished: '2017-10-016T00:00:00+00:00',
+    schemaModified: '2018-05-02T09:20:00+08:00'
   }
 }, {
   path: '/contacto',
@@ -143,6 +158,13 @@ var routes = [{
 }, {
   path: '/vestuarios/:url',
   component: _vestuario2.default
+}, {
+  path: '/tienda',
+  exact: true,
+  component: _tienda2.default
+}, {
+  path: '/tienda/:enlace',
+  component: _producto2.default
 }];
 
 exports.default = routes;
@@ -429,7 +451,7 @@ app.get("*", function (req, res, next) {
       _react2.default.createElement(_App2.default, null)
     ));
 
-    res.send("\n      <!DOCTYPE html>\n      <html>\n        <head>\n          <title>" + seo.title + "</title>\n          <link rel=\"stylesheet\" href=\"/index.css\">\n          <script src=\"/bundle.js\" defer></script>\n          <script>window.__INITIAL_DATA__ = " + (0, _serializeJavascript2.default)(data) + "</script>\n        </head>\n\n        <body>\n          <div id=\"app\">" + markup + "</div>\n        </body>\n      </html>\n    ");
+    res.send("\n      <!DOCTYPE html>\n      <html>\n        <head>\n          <meta charset=\"UTF-8\">\n          <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=no\"><meta name=\"google-site-verification\" content=\"A8E9MrD4Av9bQbh6y4jcxY4I-yoSDqg8yuMCsidXEIU\" />\n          <script async src=\"https://cdn.ampproject.org/v0.js\"></script>\n          <title>" + seo.title + "</title>\n          <link rel=\"stylesheet\" href=\"/index.css\">\n          <script src=\"/bundle.js\" defer></script>\n          <link rel='apple-touch-icon', sizes='57x57', href='/images/apple-icon-57x57.png'/>\n          <link rel='apple-touch-icon', sizes='60x60', href='/images/apple-icon-60x60.png'/>\n          <link rel='apple-touch-icon', sizes='72x72', href='/images/apple-icon-72x72.png'/>\n          <link rel='apple-touch-icon', sizes='76x76', href='/images/apple-icon-76x76.png'/>\n          <link rel='apple-touch-icon', sizes='114x114', href='/images/apple-icon-114x114.png'/>\n          <link rel='apple-touch-icon', sizes='120x120', href='/images/apple-icon-120x120.png'/>\n          <link rel='apple-touch-icon', sizes='144x144', href='/images/apple-icon-144x144.png'/>\n          <link rel='apple-touch-icon', sizes='152x152', href='/images/apple-icon-152x152.png'/>\n          <link rel='apple-touch-icon', sizes='180x180', href='/images/apple-icon-180x180.png'/>\n          <link rel='icon', type='image/png', sizes='192x192', href='/images/android-icon-192x192.png'/>\n          <link rel='icon', type='image/png', sizes='32x32', href='/images/favicon-32x32.png'/>\n          <link rel='icon', type='image/png', sizes='96x96', href='/images/favicon-96x96.png'/>\n          <link rel='icon', type='image/png', sizes='16x16', href='/images/favicon-16x16.png'/>\n          <link rel='manifest', href='/images/manifest.json'/>\n          <meta name='msapplication-TileColor', content='#ffffff'/>\n          <meta name='msapplication-TileImage', content='/images/ms-icon-144x144.png'/>\n          <meta name='theme-color', content='#ffffff'/>\n          <meta property=\"og:title\" content=" + seo.title + "/>\n          <meta name='description' content=" + seo.description + "/>\n          <meta property=\"og:type\" content=\"article/> \n          <meta property=\"og:url\" content= " + seo.link + "/> \n          <meta property=\"og:image\" content = " + seo.image + "/>\n          <meta property='og:description', content=" + seo.description + "/>\n          <script type='application/ld+json'>\n          {\n           \"@context\": \"http://schema.org\",\n           \"@type\": \"" + seo.schemaType + "\", \n           \"mainEntityOfPage\": {\n           \"@type\": \"WebPage\",\n           \"@id\": \"https://folkinlovepty.com/\"\n           },\n           \"headline\": \"" + seo.title + "\",\n           \"image\": \"" + seo.schemaImages + "\" ,\n           \"datePublished\": \"" + seo.schemaPublished + "\",\n           \"dateModified\": \"" + seo.schemaModified + "\",\n           \"author\": {\n           \"@type\": \"Person\",\n           \"name\": \"Cinthia Gonz\xE1lez\"\n           },\n           \"publisher\": {\n           \"@type\": \"Organization\",\n           \"name\": \"Folk in Love\",\n           \"logo\": {\n           \"@type\": \"ImageObject\",\n           \"url\": \"https://folkinlovepty.com/images/folkInLove-logo.png\"\n           }\n           },\n           \"description\": \"" + seo.description + "\"\n           }\n\n          </script>\n          <script>\n            !function(f,b,e,v,n,t,s)\n            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?\n            n.callMethod.apply(n,arguments):n.queue.push(arguments)};\n            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\n            n.queue=[];t=b.createElement(e);t.async=!0;\n            t.src=v;s=b.getElementsByTagName(e)[0];\n            s.parentNode.insertBefore(t,s)}(window, document,'script',\n            'https://connect.facebook.net/en_US/fbevents.js');\n            fbq('init', '2556254097725082');\n            fbq('track', 'PageView');\n          </script>\n          <noscript>\n            img(height='1', width='1', style='display:none', src='https://www.facebook.com/tr?id=2556254097725082&ev=PageView&noscript=1')</noscript>\n          <script>window.__INITIAL_DATA__ = " + (0, _serializeJavascript2.default)(data) + "</script>\n        </head>\n\n        <body>\n          <div id=\"app\">" + markup + "</div>\n        </body>\n      </html>\n    ");
   }).catch(next);
 });
 
@@ -1705,13 +1727,13 @@ exports.default = [{
     null,
     _react2.default.createElement(
       'picture',
-      { 'class': 'dosTercios' },
-      _react2.default.createElement('source', { media: '(min-width: 800px)', srcset: 'images/galaOcuJoyero' }),
-      _react2.default.createElement('img', { 'class': 'imagen', src: '/images/galaOcuJoyero', alt: 'joyas de La pollera de Gala Ocue\xF1a' })
+      { className: 'dosTercios' },
+      _react2.default.createElement('source', { media: '(min-width: 800px)', srcSet: '/images/galaOcuJoyero.jpg' }),
+      _react2.default.createElement('img', { className: 'imagen', src: '/images/galaOcuJoyero.jpg', alt: 'joyas de La pollera de Gala Ocue\xF1a' })
     ),
     _react2.default.createElement(
       'article',
-      { 'class': 'tercio blanco joyero' },
+      { className: 'tercio blanco joyero' },
       _react2.default.createElement(
         'hgroup',
         null,
@@ -1895,10 +1917,10 @@ exports.default = [{
   general: 'Las polleras congo son confeccionadas en telas de diferentes colores lisos y estampados, no existe una limitación en el uso de las telas, estas son del gusto de la dueña de la pollera, o producto de las telas que se tenga a la mano. Una de las pocas características en las que se restrige el uso de un elemento es en el color Rojo. En la cultura congo este color representa al diablo o chamuco y si alguien lo usa está diciendo que tiene algún pacto con él. Pero este personaje no es el que hoy conocemos, el diablo para los congos era el blanco esclavizador la viva representación del mal. Otros datos nos aportan información sobre lo que significa el uso del color rojo en el vestido congo. Se debía a la colaboración de algunos palenques con los blancos, ellos prestaron su ayuda a corsarios ingleses como Francis Drake y a piratas como Henry Morgan para sabotear el comercio colonial español.',
   extra: _react2.default.createElement(
     'article',
-    { 'class': 'completa blanco' },
+    { className: 'completa blanco' },
     _react2.default.createElement(
       'hgroup',
-      { 'class': 'blogStyle' },
+      { className: 'blogStyle' },
       _react2.default.createElement(
         'h2',
         null,
@@ -1934,10 +1956,10 @@ exports.default = [{
 
   descripcion: _react2.default.createElement(
     'article',
-    { 'class': 'completa blanco clasificacion' },
+    { className: 'completa blanco clasificacion' },
     _react2.default.createElement(
       'hgroup',
-      { 'class': 'blogStyle' },
+      { className: 'blogStyle' },
       _react2.default.createElement(
         'h2',
         null,
@@ -2127,7 +2149,7 @@ exports.default = [{
 
   extra2: _react2.default.createElement(
     'section',
-    { 'class': 'completa blanco videoPasos' },
+    { className: 'completa blanco videoPasos' },
     _react2.default.createElement(
       'h2',
       null,
@@ -2388,10 +2410,10 @@ exports.default = [{
     )
   ),
   metaDescription: 'Los vestidos típicos de los hombres, no son tan conocidos como los de las mujeres. Existen pocosdatos sobre sus orígenes. En la actualidad podemos apreciar una amplia variedad de modelos endonde se incluyen elementos totalmente novedosos para esta prenda de vestir como, por ejemplo: encajes, bordados, calados, talcos, etc... que son labores usualmente utilizadas en las polleras de gala y en algunas montunas. ',
-  portadaImagen: 'images/camisillaCel-1x.jpg',
-  portadaImagenFull: 'images/camisillaFull-1x.jpg 1x, images/camisillaFull-2x.jpg 2x',
-  portadaImagenTab: 'images/camisillaTab-1x.jpg 1x, images/camisillaTab-2x.jpg 2x',
-  portadaImagenCel: 'images/camisillaCel-1x.jpg 1x, images/camisillaCel-2x.jpg 2x',
+  portadaImagen: '/images/camisillaCel-1x.jpg',
+  portadaImagenFull: '/images/camisillaFull-1x.jpg 1x, /images/camisillaFull-2x.jpg 2x',
+  portadaImagenTab: '/images/camisillaTab-1x.jpg 1x, /images/camisillaTab-2x.jpg 2x',
+  portadaImagenCel: '/images/camisillaCel-1x.jpg 1x, /images/camisillaCel-2x.jpg 2x',
   generalImagen: '/images/camisillaGeneral.jpg',
   general: 'Los vestidos típicos de los hombres, no son tan conocidos como los de las mujeres. Existen pocosdatos sobre sus orígenes. En la actualidad podemos apreciar una amplia variedad de modelos endonde se incluyen elementos totalmente novedosos para esta prenda de vestir como, por ejemplo: encajes, bordados, calados, talcos, etc... que son labores usualmente utilizadas en las polleras de gala y en algunas montunas. ',
   descripcion: _react2.default.createElement(
@@ -2730,32 +2752,32 @@ function Vestuario(props) {
   });
   return _react2.default.createElement(
     'main',
-    { itemscope: true, itemtype: 'http://schema.org/Article' },
+    { itemScope: true, itemType: 'http://schema.org/Article' },
     _react2.default.createElement(
       'section',
-      { 'class': 'portada' },
+      { className: 'portada' },
       _react2.default.createElement(
         'picture',
-        { 'class': 'banner' },
-        _react2.default.createElement('source', { media: '(min-width: 800px)', srcset: Vestido.portadaImagenFull }),
-        _react2.default.createElement('source', { media: '(min-width: 541px)', srcset: Vestido.portadaImagenTab }),
-        _react2.default.createElement('source', { media: '(min-width: 200px)', srcset: Vestido.portadaImagenCel }),
-        _react2.default.createElement('img', { 'class': 'completa', src: Vestido.portadaImagen, alt: Vestido.nombre })
+        { className: 'banner' },
+        _react2.default.createElement('source', { media: '(min-width: 800px)', srcSet: Vestido.portadaImagenFull }),
+        _react2.default.createElement('source', { media: '(min-width: 541px)', srcSet: Vestido.portadaImagenTab }),
+        _react2.default.createElement('source', { media: '(min-width: 200px)', srcSet: Vestido.portadaImagenCel }),
+        _react2.default.createElement('img', { className: 'completa', src: Vestido.portadaImagen, alt: Vestido.nombre })
       ),
       _react2.default.createElement(
         'article',
-        { 'class': 'mitad rosaTrans' },
+        { className: 'mitad rosaTrans' },
         _react2.default.createElement(
           'hgroup',
           null,
           _react2.default.createElement(
             'h1',
-            { itemprop: 'name' },
+            { itemProp: 'name' },
             Vestido.nombre
           ),
           _react2.default.createElement(
             'p',
-            { itemprop: 'description' },
+            { itemProp: 'description' },
             Vestido.reseña
           )
         )
@@ -2763,15 +2785,15 @@ function Vestuario(props) {
     ),
     _react2.default.createElement(
       'section',
-      { itemprop: 'articleBody', className: 'completa texto info blanco' },
+      { itemProp: 'articleBody', className: 'completa texto info blanco' },
       Vestido.antecedentes
     ),
     _react2.default.createElement(
       'section',
-      { 'class': 'completa portada', style: { background: "url('" + Vestido.generalImagen + "')", backgroundSize: "cover", backgroundAttachment: "fixed" } },
+      { className: 'completa portada', style: { background: "url('" + Vestido.generalImagen + "')", backgroundSize: "cover", backgroundAttachment: "fixed" } },
       _react2.default.createElement(
         'article',
-        { itemprop: 'articleBody', 'class': 'mitad negroTrans texto' },
+        { itemProp: 'articleBody', className: 'mitad negroTrans texto' },
         _react2.default.createElement(
           'hgroup',
           null,
@@ -2785,11 +2807,680 @@ function Vestuario(props) {
     ),
     _react2.default.createElement(
       'section',
-      { itemprop: 'articleBody', 'class': 'completa texto info blanco' },
+      { itemProp: 'articleBody', className: 'completa texto info blanco' },
       Vestido.descripcion
     ),
     Vestido.extra,
     Vestido.extra2
+  );
+}
+
+/***/ }),
+/* 26 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Tienda;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _catalogo = __webpack_require__(27);
+
+var _catalogo2 = _interopRequireDefault(_catalogo);
+
+var _tarjeta = __webpack_require__(28);
+
+var _tarjeta2 = _interopRequireDefault(_tarjeta);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Tienda(props) {
+  return _react2.default.createElement(
+    'main',
+    null,
+    _react2.default.createElement(
+      'section',
+      { 'class': 'portada' },
+      _react2.default.createElement(
+        'picture',
+        { 'class': 'banner' },
+        _react2.default.createElement('source', { media: '(min-width: 801px)', srcset: 'images/tiendaBannerFull-1x.jpg 1x, images/tiendaBannerFull-2x.jpg 2x' }),
+        _react2.default.createElement('source', { media: '(min-width: 541px)', srcset: 'images/tiendaBannerTab-1x.jpg 1x, images/tiendaBannerTab-2x.jpg 2x' }),
+        _react2.default.createElement('source', { media: '(min-width: 10px)', srcset: 'images/tiendaBannerCel-1x.jpg 1x, images/tiendaBannerCel-2x.jpg 2x' }),
+        _react2.default.createElement('img', { 'class': 'completa', alt: 'Foto de Pollera De Lujo Sante\xF1a, traje tipico de panam\xE1, en Panam\xE1 Viejo', src: 'images/tiendaBannerCell-1x.jpg' })
+      ),
+      _react2.default.createElement(
+        'article',
+        { className: 'completa negroTrans' },
+        _react2.default.createElement(
+          'hgroup',
+          null,
+          _react2.default.createElement(
+            'h1',
+            null,
+            'Productos y Servicios Folkl\xF3ricos'
+          )
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'section',
+      { 'class': 'lista blanco' },
+      _react2.default.createElement(
+        'div',
+        { 'class': 'listaCont' },
+        _catalogo2.default.map(function (Producto) {
+          return (0, _tarjeta2.default)(Producto);
+        })
+      )
+    )
+  );
+}
+
+/***/ }),
+/* 27 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = [{
+  metaTitle: 'Sesión de Fotos en Pollera',
+  metaDescripcion: '🎖Vive la EXPERIENCIA de lucir uno de los trajes típicos más hermosos del mundo. Folk in Love te ofrece 📷 sesiones de FOTOS que incluyen POLLERA, 💍 prendas, tembleques, 💄maquillaje, arreglo, sesión de fotos con asesoría de poses.',
+  nombre: 'Sesión de Fotografía',
+  enlace: 'fotos-en-traje-tipico',
+  subtitulo: 'en vestido típico',
+  descripcion: 'La sesión fotográfica incluye vestido típico, maquillaje, colocación de tembleques y prendas, asesoría con las poses y un minimo de 15 fotos editadas en biblioteca digital perzonalizada.',
+  miniaturaFull: '/images/fotografia-miniatura-full.jpg',
+  miniaturaCel: '/images/fotografia-miniatura-cel.jpg',
+  imagenFull: '/images/fotografia-imagen-full.jpg',
+  imagenCel: '/images/fotografia-imagen-cel.jpg',
+  alt: 'Sesión fotográfica de alta calidad, vestidos típicos de Panamá',
+  opciones: [{
+    detalle: 'Pollera de Lujo',
+    precio: 350
+  }, {
+    detalle: 'Pollera Blanca',
+    precio: 300
+  }, {
+    detalle: 'Pollera Montuna',
+    precio: 225
+  }, {
+    detalle: 'Pollera Congo',
+    precio: 175
+  }, {
+    detalle: 'Persona Adicional',
+    precio: 0,
+    descripcions: 'No se cobra adicional por las fotografías, sólo el costo del alquiler de cada vestuario. (consultar precios en la sección de alquiler de vestuarios)'
+  }],
+  articulo: _react2.default.createElement(
+    'section',
+    { className: 'articulo conGaleria' },
+    _react2.default.createElement(
+      'div',
+      { className: 'sesionGal' },
+      _react2.default.createElement(
+        'picture',
+        null,
+        _react2.default.createElement('source', { media: '(min-width: 10px )', srcSet: '/images/sesionFotosGaleriaCel1x-1.jpg 1x, /images/sesionFotosGaleriaCel2x-1.jpg 2x' }),
+        _react2.default.createElement('source', { media: '(min-width: 541px )', srcSet: '/images/sesionFotosGaleriaTab1x-1.jpg 1x, /images/sesionFotosGaleriaTab2x-1.jpg 2x' }),
+        _react2.default.createElement('source', { media: '(min-width: 801px )', srcSet: '/images/sesionFotosGaleriaFull1x-1.jpg 1x, /images/sesionFotosGaleriaFull2x-1.jpg 2x' }),
+        _react2.default.createElement('img', { src: '/images/sesionFotosGaleriaCel1x-1.jpg 1x', alt: 'Sesi\xF3n de Fotos en pollera en el lugar de la ciudad de Panam\xE1 que prefiera' })
+      ),
+      _react2.default.createElement(
+        'picture',
+        null,
+        _react2.default.createElement('source', { media: '(min-width: 10px )', srcSet: '/images/sesionFotosGaleriaCel1x-3.jpg 1x, /images/sesionFotosGaleriaCel2x-3.jpg 2x' }),
+        _react2.default.createElement('source', { media: '(min-width: 541px )', srcSet: '/images/sesionFotosGaleriaTab1x-3.jpg 1x, /images/sesionFotosGaleriaTab2x-3.jpg 2x' }),
+        _react2.default.createElement('source', { media: '(min-width: 801px )', srcSet: '/images/sesionFotosGaleriaFull1x-3.jpg 1x, /images/sesionFotosGaleriaFull2x-3.jpg 2x' }),
+        _react2.default.createElement('img', { src: '/images/sesionFotosGaleriaCel1x-3.jpg 1x', alt: 'Fotos de Alta Calidad en Vestidos T\xEDpicos de Panam\xE1' })
+      ),
+      _react2.default.createElement(
+        'picture',
+        null,
+        _react2.default.createElement('source', { media: '(min-width: 10px )', srcSet: '/images/sesionFotosGaleriaCel1x-2.jpg 1x, /images/sesionFotosGaleriaCel2x-2.jpg 2x' }),
+        _react2.default.createElement('source', { media: '(min-width: 541px )', srcSet: '/images/sesionFotosGaleriaTab1x-2.jpg 1x, /images/sesionFotosGaleriaTab2x-2.jpg 2x' }),
+        _react2.default.createElement('source', { media: '(min-width: 801px )', srcSet: '/images/sesionFotosGaleriaFull1x-2.jpg 1x, /images/sesionFotosGaleriaFull2x-2.jpg 2x' }),
+        _react2.default.createElement('img', { src: '/images/sesionFotosGaleriaCel1x-2.jpg 1x', alt: 'Fotograf\xEDa en Pollera y Vestidos T\xEDpicos de Panam\xE1. Alta calidad Fotogr\xE1fica, excelentes polleras, tembleques y Maquillaje' })
+      )
+    ),
+    _react2.default.createElement(
+      'articulo',
+      { className: 'completa texto' },
+      _react2.default.createElement(
+        'hgroup',
+        { className: 'blogStyle' },
+        _react2.default.createElement(
+          'h2',
+          null,
+          'La Experiencia de Ponerse un Vestido T\xEDpico Paname\xF1o'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Vestirse de pollera es una de las experiencias m\xE1s lindas que pueden tener todas las paname\xF1a. A lo largo de nuestro pa\xEDs las indumentarias tradicionales son muy variadas, pero describen la vida y las experiencias de las mujeres que las portaban.'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Hoy en d\xEDa se ha extendido el uso de la pollera de lujo porque es de incalculable belleza, pero no debemos olvidar las otras hermosas polleras y vestimentas que tiene nuestro pa\xEDs. Como, por ejemplo: los vestidos de diablo espejo, diablico sucio, diablicos limpios de la chorrera, indumentarias de faena, basqui\xF1a, chambra y camisola, etc...'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Realizarse una sesi\xF3n de fotos nos hace sentir hermosas, es una experiencia que nos saca de nuestra zona de confort y nos permite vivir una experiencia memorable, \xBFpor qu\xE9? porque adem\xE1s de tomarnos el tiempo para engalanarnos con un hermoso maquillaje, peinado, prendas y dem\xE1s accesorios, tendremos la experiencia de conocer los detalles de la confecci\xF3n del vestido t\xEDpico escogido y adem\xE1s conocer de primera mano c\xF3mo se siente la tela, el peso de los tembleques y mucho m\xE1s.'
+        ),
+        _react2.default.createElement(
+          'h2',
+          null,
+          'Descripci\xF3n de la Sesi\xF3n'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'La aventura inicia desde que el equipo llega a arreglarte (lugar de conveniencia) en d\xF3nde tendr\xE1s la pollera y los accesorios que necesitar\xE1s para esta maravillosa experiencia. Luego pasamos al peinado y maquillaje, de ah\xED a colocar la pollera, las prendas y los accesorios de la cabeza'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Escogeremos un lugar m\xE1gico y emblem\xE1tico de Panam\xE1 para que sea el marco perfecto para tu sesi\xF3n de fotos.'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'y listo, ahora solo queda disfrutar y divertirnos con cada momento.'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Nuestro equipo te contara la historia de estas polleras, detalles interesantes de la confecci\xF3n y adem\xE1s te ayudar\xE1 a que poses para que tus recuerdos sean como siempre los so\xF1aste.'
+        ),
+        _react2.default.createElement(
+          'h2',
+          null,
+          'Qu\xE9 Necesitas Para Tu Sesi\xF3n?'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Nuestro compromiso es hacer de ese d\xEDa un momento memorable, estas son algunas recomendaciones que nos ayudar\xE1n a hacer todo de forma m\xE1s \xE1gil:'
+        ),
+        _react2.default.createElement(
+          'ul',
+          null,
+          _react2.default.createElement(
+            'li',
+            null,
+            'Comer antes de tu sesi\xF3n'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Ropa interior Blanca'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Cabello Limpio'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Cejas arregladas'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'No usar perfume en el cuello'
+          )
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Este video les explicar\xE1 un poco m\xE1s del proceso.'
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'videoPasos texto' },
+          _react2.default.createElement('iframe', { width: '560', height: '315', src: 'https://www.youtube.com/embed/Y656jCpFLiM?rel=0', frameBorder: '0', allow: 'autoplay; encrypted-media', allowFullScreen: true })
+        ),
+        _react2.default.createElement(
+          'h2',
+          null,
+          'Detalles de Nuestro Servicio'
+        ),
+        _react2.default.createElement(
+          'ul',
+          null,
+          _react2.default.createElement(
+            'li',
+            null,
+            'No hay l\xEDmite de personas por Sesi\xF3n'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Horarios Flexibles'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Locaci\xF3n en exteriores o interiores'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'T\xFA escoges la locaci\xF3n que prefieras (si la locaci\xF3n tiene un costo, este debe ser cubierto por el cliente'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Atenci\xF3n personalizada'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Incluye Maquillaje y asesor\xEDa para las poses'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Varios paquetes a escoger'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Trajes para ni\xF1os disponibles'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Trajes para hombres disponibles'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Todos los vestidos disponibles en tallas S, M y L'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Te entregamos un m\xEDnimo de 15 fotos editadas en una plataforma virtual'
+          )
+        )
+      )
+    )
+  )
+}, {
+  metaTitle: 'Venta de Pollera Blanca para bebes, niñas, jovenes y adultas',
+  metaDescripcion: 'Pollera confeccionada en tela de organza, adornada con finos encajes de hilo.',
+  nombre: 'Pollera Blanca',
+  enlace: 'pollera-blanca',
+  subtitulo: 'Organza Bordada',
+  descripcion: 'Pollera confeccionada en tela de organza, adornada con finos encajes de hilo.',
+  miniaturaFull: '/images/organza-bordada-miniatura-full.jpg',
+  miniaturaCel: '/images/organza-bordada-miniatura-cel.jpg',
+  imagenFull: '/images/organza-bordada-producto-full.jpg',
+  imagenCel: '/images/organza-bordada-producto-cel.jpg',
+  alt: 'pollera blanca de organza bordada, traje tipico de panama',
+  opciones: [{
+    detalle: 'Bebes de 0 a 2 años (con una sola arandela)',
+    precio: 50.00
+  }, {
+    detalle: 'de 3 a 5 años (con 2 arandelas)',
+    precio: 100.00
+  }, {
+    detalle: 'de 6 a 10 años',
+    precio: 200.00
+  }, {
+    detalle: 'de 11 en adelante',
+    precio: 400.00
+  }]
+}, {
+  metaTitle: 'Venta de Pollera Congo para bebes, niñas, jovenes y adultas',
+  metaDescripcion: 'Pollera de retazos de tela de vistosos colores.',
+  nombre: 'Pollera Congo',
+  enlace: 'pollera-congo',
+  subtitulo: 'De Diferentes Clases',
+  descripcion: 'Pollera de retazos de tela de vistosos colores.',
+  miniaturaFull: '/images/pollera-congo-miniatura-full.jpg',
+  miniaturaCel: '/images/pollera-congo-miniatura-cel.jpg',
+  imagenFull: '/images/pollera-congo-producto-full.jpg',
+  imagenCel: '/images/pollera-congo-producto-cel.jpg',
+  alt: 'Pollera congo de retazos, vestuarios tipicos de panama',
+  opciones: [{
+    detalle: 'Niñas hasta 2 años',
+    precio: 45
+  }, {
+    detalle: 'Niñas hasta 10 años',
+    precio: 90
+  }, {
+    detalle: 'Adultos',
+    precio: 160
+  }]
+}, {
+  metaTitle: 'Venta de Polleras de lujo en Panamá',
+  metaDescripcion: 'Pollera de gala en técnica del talco al sol con calados y encajes valencianos.',
+  nombre: 'Pollera de Lujo',
+  enlace: 'pollera-lujo',
+  subtitulo: 'Talco al Sol',
+  descripcion: 'Pollera de gala en técnica del talco al sol con calados y encajes valencianos.',
+  miniaturaFull: '/images/pollera-lujo-miniatura-full.jpg',
+  miniaturaCel: '/images/pollera-lujo-miniatura-cel.jpg',
+  imagenFull: '/images/pollera-lujo-producto-full.jpg',
+  imagenCel: '/images/pollera-lujo-producto-cel.jpg',
+  alt: 'Pollera de Lujo, talco en sol, vestidos tipicos de Panama',
+  opciones: [{
+    detalle: 'Talco en Sol',
+    precio: 5000,
+    descripción: 'Tiempo de entrega 10 a 12 meses, durante ese tiempo se podrán ir efectuando pagos, el primer pago se debe hacer el día de la toma de las medidas.'
+  }]
+}, {
+  metaTitle: 'Confección de tembleques panameños blancos y en color',
+  metaDescripcion: 'Juego de 12 pares de flores.',
+  nombre: 'Tembleques',
+  enlace: 'tembleques',
+  subtitulo: 'blancos o en color',
+  descripcion: 'Juego de 12 pares de flores.',
+  miniaturaFull: '/images/tembleques-miniatura-full.jpg',
+  miniaturaCel: '/images/tembleques-miniatura-cel.jpg',
+  imagenFull: '/images/tembleques-producto-full.jpg',
+  imagenCel: '/images/tembleques-producto-cel.jpg',
+  alt: 'Cabeza de Tembleques, Accesorios Folklóricos Panameños',
+  opciones: [{
+    detalle: 'Niñas',
+    precio: 250
+  }, {
+    detalle: 'Adulta',
+    precio: 450
+  }, {
+    detalle: 'Tapamoños',
+    precio: 25
+  }]
+},
+//estas ya estaban comentadas
+// {
+//  metaTitle: 'Camisa',
+//metaDescripcion: 'Pollera de gala en técnica del talco al sol con calados y encajes valencianos.',//  
+//nombre: 'Camisa',
+//  enlace: 'camisa',
+//  subtitulo: 'Una Sola Arandela',
+//  descripcion: 'Pollera de gala en técnica del talco al sol con calados y encajes valencianos.',
+//  miniaturaFull: '/images/camisa-miniatura-full.jpg',
+//  miniaturaCel: '/images/camisa-miniatura-cel.jpg',
+//  imagenFull: '/images/camisa-imagen-full.jpg',
+//  imagenCel: '/images/camisa-imagen-cel.jpg',
+//  alt: 'Camisa de voilé, con una sola arandela',
+//  opciones: [
+//   {
+//    detalle: 'Arandela de organza bordada', 
+//    precio: 40
+//   },
+//   {
+//    detalle: 'Arandela de Coquito industrial', 
+//    precio: 40
+//   },
+//   {
+//    detalle: 'Arandela de voilé (bual)',
+//    precio: 40
+//   }
+//  ]
+// },
+{
+  metaTitle: 'Venta de Camisas típicas panameñas para hombres',
+  metaDescripcion: '',
+  nombre: 'Camisilla',
+  enlace: 'camisilla',
+  subtitulo: 'De Gala',
+  descripcion: '',
+  miniaturaFull: '/images/camisilla-miniatura-full.jpg',
+  miniaturaCel: '/images/camisilla-miniatura-cel.jpg',
+  imagenFull: '/images/camisilla-producto-full.jpg',
+  imagenCel: '/images/camisilla-producto-cel.jpg',
+  alt: 'Camisilla de Gala, Vestidos Típicos de Panamá',
+  opciones: [{
+    detalle: 'Niños hasta 6 años',
+    precio: 35
+  }, {
+    detalle: 'Niños hasta 12 años',
+    precio: 45
+  }, {
+    detalle: 'Adultos, voilé y alforzas',
+    precio: 100
+  }, {
+    detalle: 'Adultos con espiguetas y tela de hilo',
+    precio: 200
+  }]
+  // {
+  //  metaTitle: 'Montuno Ocueño',
+  //metaDescripcion: 'Camisa y Pantalón en tela de manta sucia con bordados a mano.',//  
+  //nombre: 'Montuno Ocueño',
+  //  enlace: 'montuno-ocueno',
+  //  subtitulo: '',
+  //  descripcion: 'Camisa y Pantalón en tela de manta sucia con bordados a mano.',
+  //  miniaturaFull: '/images/montuno-ocueno-miniatura-full.jpg',
+  //  miniaturaCel: '/images/montuno-ocueno-miniatura-cel.jpg',
+  //  imagenFull: '/images/montuno-ocueno-imagen-full.jpg',
+  //  imagenCel: '/images/montuno-ocueno-imagen-cel.jpg',
+  //  alt: 'Montuno Ocueño, vestidos tipicos de Panama',
+  //  opciones: [
+  //   {
+  //    detalle: 'Niños hasta 6 años', 
+  //    precio: 50
+  //   },
+  //   {
+  //    detalle: 'Niños hasta 12 años',
+  //    precio: 80
+  //   },
+  //   {
+  //    detalle: 'Adultos',
+  //    precio: 100
+  //   }
+  //  ]
+  // },
+  // {
+  //  metaTitle: 'Alquiler de Polleras y vestidos típicos en Panamá',
+  //metaDescripcion: '',//  
+  //nombre: 'Alquiler de Vestidos y accesorios Folklóricos',
+  //  enlace: 'alquiler',
+  //  subtitulo: 'de Panamá',
+  //  descripcion: '',
+  //  miniaturaFull: '/images/camisilla-miniatura-full.jpg',
+  //  miniaturaCel: '/images/camisilla-miniatura-cel.jpg',
+  //  imagenFull: '/images/camisilla-producto-full.jpg',
+  //  imagenCel: '/images/camisilla-producto-cel.jpg',
+  //  alt: 'Camisilla de Gala, Vestidos Típicos de Panamá',
+  //  opciones: [
+  //   {
+  //    detalle: 'Niños hasta 6 años',
+  //    precio: 35
+  //   },
+  //   {
+  //    detalle: 'Niños hasta 12 años',
+  //    precio: 45
+  //   },
+  //   {
+  //    detalle: 'Adultos, voilé y alforzas',
+  //    precio: 100
+  //   },
+  //   {
+  //    detalle: 'Adultos con espiguetas y tela de hilo',
+  //    precio: 200
+  //   }
+  //  ]
+  // }
+}];
+
+/***/ }),
+/* 28 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Tarjeta;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Tarjeta(producto) {
+  var url = "/tienda/" + producto.enlace;
+  return _react2.default.createElement(
+    "a",
+    { "class": "tarjeta tiendaTarjeta", href: url },
+    _react2.default.createElement(
+      "picture",
+      null,
+      _react2.default.createElement("source", { media: "(min-width: 800px)", srcset: producto.miniaturaFull }),
+      _react2.default.createElement("img", { src: producto.miniaturaCel, alt: producto.alt, "class": "tarjetaImagen" })
+    ),
+    _react2.default.createElement(
+      "div",
+      { "class": "tarjetaInfo" },
+      _react2.default.createElement(
+        "hgroup",
+        null,
+        _react2.default.createElement(
+          "h2",
+          null,
+          producto.nombre
+        ),
+        _react2.default.createElement(
+          "h3",
+          null,
+          producto.subtitulo
+        ),
+        _react2.default.createElement(
+          "h4",
+          null,
+          "Descripci\xF3n: "
+        ),
+        _react2.default.createElement(
+          "p",
+          null,
+          producto.descripcion.substring(0, 90)
+        )
+      )
+    )
+  );
+}
+
+/***/ }),
+/* 29 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Producto;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _catalogo = __webpack_require__(27);
+
+var _catalogo2 = _interopRequireDefault(_catalogo);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Producto(props) {
+  var Producto = _catalogo2.default.find(function (producto) {
+    return producto.enlace === props.match.params.enlace;
+  });
+  function Template(opcion) {
+
+    return _react2.default.createElement(
+      "div",
+      { className: "opciones" },
+      _react2.default.createElement(
+        "h4",
+        null,
+        opcion.detalle
+      ),
+      _react2.default.createElement(
+        "h4",
+        null,
+        opcion.precio.toLocaleString("en-US", {
+          style: 'currency',
+          currency: 'USD'
+        })
+      ),
+      _react2.default.createElement(
+        "p",
+        null,
+        opcion.descripcion
+      )
+    );
+  }
+  var opciones = Producto.opciones.map(function (opcion) {
+    return Template(opcion);
+  });
+
+  return _react2.default.createElement(
+    "section",
+    { className: "completa producto" },
+    _react2.default.createElement(
+      "articulo",
+      { className: "tercio productoImagenes" },
+      _react2.default.createElement(
+        "picture",
+        null,
+        _react2.default.createElement("source", { media: "(min-width: 800px)", srcSet: Producto.imagenFull }),
+        _react2.default.createElement("img", { src: Producto.imagenCel, alt: Producto.alt })
+      )
+    ),
+    _react2.default.createElement(
+      "articulo",
+      { className: "dosTercios" },
+      _react2.default.createElement(
+        "div",
+        { className: "productoInfo" },
+        _react2.default.createElement(
+          "h1",
+          null,
+          Producto.nombre
+        ),
+        _react2.default.createElement(
+          "h3",
+          null,
+          Producto.subtitulo
+        ),
+        _react2.default.createElement(
+          "h2",
+          null,
+          "Opciones:"
+        ),
+        opciones
+      )
+    ),
+    Producto.articulo
   );
 }
 

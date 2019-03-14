@@ -1,6 +1,6 @@
-const yo = require('yo-yo')
+import React from 'react'
 
-module.exports = [
+export default [
  {
   metaTitle: 'Sesión de Fotos en Pollera',
   metaDescripcion: '🎖Vive la EXPERIENCIA de lucir uno de los trajes típicos más hermosos del mundo. Folk in Love te ofrece 📷 sesiones de FOTOS que incluyen POLLERA, 💍 prendas, tembleques, 💄maquillaje, arreglo, sesión de fotos con asesoría de poses.',
@@ -8,10 +8,10 @@ module.exports = [
   enlace: 'fotos-en-traje-tipico',
   subtitulo: 'en vestido típico',
   descripcion: 'La sesión fotográfica incluye vestido típico, maquillaje, colocación de tembleques y prendas, asesoría con las poses y un minimo de 15 fotos editadas en biblioteca digital perzonalizada.',
-  miniaturaFull: 'images/fotografia-miniatura-full.jpg',
-  miniaturaCel: 'images/fotografia-miniatura-cel.jpg',
-  imagenFull: 'images/fotografia-imagen-full.jpg',
-  imagenCel: 'images/fotografia-imagen-cel.jpg',
+  miniaturaFull: '/images/fotografia-miniatura-full.jpg',
+  miniaturaCel: '/images/fotografia-miniatura-cel.jpg',
+  imagenFull: '/images/fotografia-imagen-full.jpg',
+  imagenCel: '/images/fotografia-imagen-cel.jpg',
   alt: 'Sesión fotográfica de alta calidad, vestidos típicos de Panamá',
   opciones:[
    {
@@ -36,29 +36,30 @@ module.exports = [
     descripcions: 'No se cobra adicional por las fotografías, sólo el costo del alquiler de cada vestuario. (consultar precios en la sección de alquiler de vestuarios)'
    }
   ],
-  articulo: yo`<section class="articulo conGaleria">
-  <div class="sesionGal">
+  articulo: (
+  <section className="articulo conGaleria">
+  <div className="sesionGal">
     <picture>
-    <source media="(min-width: 10px )" srcset="images/sesionFotosGaleriaCel1x-1.jpg 1x, images/sesionFotosGaleriaCel2x-1.jpg 2x">
-    <source media="(min-width: 541px )" srcset="images/sesionFotosGaleriaTab1x-1.jpg 1x, images/sesionFotosGaleriaTab2x-1.jpg 2x">
-    <source media="(min-width: 801px )" srcset="images/sesionFotosGaleriaFull1x-1.jpg 1x, images/sesionFotosGaleriaFull2x-1.jpg 2x"> 
-    <img src="images/sesionFotosGaleriaCel1x-1.jpg 1x" alt="Sesión de Fotos en pollera en el lugar de la ciudad de Panamá que prefiera">
+    <source media="(min-width: 10px )" srcSet="/images/sesionFotosGaleriaCel1x-1.jpg 1x, /images/sesionFotosGaleriaCel2x-1.jpg 2x"/>
+    <source media="(min-width: 541px )" srcSet="/images/sesionFotosGaleriaTab1x-1.jpg 1x, /images/sesionFotosGaleriaTab2x-1.jpg 2x"/>
+    <source media="(min-width: 801px )" srcSet="/images/sesionFotosGaleriaFull1x-1.jpg 1x, /images/sesionFotosGaleriaFull2x-1.jpg 2x"/> 
+    <img src="/images/sesionFotosGaleriaCel1x-1.jpg 1x" alt="Sesión de Fotos en pollera en el lugar de la ciudad de Panamá que prefiera"/>
     </picture>
     <picture>
-    <source media="(min-width: 10px )" srcset="images/sesionFotosGaleriaCel1x-3.jpg 1x, images/sesionFotosGaleriaCel2x-3.jpg 2x">
-    <source media="(min-width: 541px )" srcset="images/sesionFotosGaleriaTab1x-3.jpg 1x, images/sesionFotosGaleriaTab2x-3.jpg 2x">
-    <source media="(min-width: 801px )" srcset="images/sesionFotosGaleriaFull1x-3.jpg 1x, images/sesionFotosGaleriaFull2x-3.jpg 2x"> 
-    <img src="images/sesionFotosGaleriaCel1x-3.jpg 1x" alt="Fotos de Alta Calidad en Vestidos Típicos de Panamá"> 
+    <source media="(min-width: 10px )" srcSet="/images/sesionFotosGaleriaCel1x-3.jpg 1x, /images/sesionFotosGaleriaCel2x-3.jpg 2x"/>
+    <source media="(min-width: 541px )" srcSet="/images/sesionFotosGaleriaTab1x-3.jpg 1x, /images/sesionFotosGaleriaTab2x-3.jpg 2x"/>
+    <source media="(min-width: 801px )" srcSet="/images/sesionFotosGaleriaFull1x-3.jpg 1x, /images/sesionFotosGaleriaFull2x-3.jpg 2x"/> 
+    <img src="/images/sesionFotosGaleriaCel1x-3.jpg 1x" alt="Fotos de Alta Calidad en Vestidos Típicos de Panamá"/> 
     </picture>
     <picture>
-    <source media="(min-width: 10px )" srcset="images/sesionFotosGaleriaCel1x-2.jpg 1x, images/sesionFotosGaleriaCel2x-2.jpg 2x">
-    <source media="(min-width: 541px )" srcset="images/sesionFotosGaleriaTab1x-2.jpg 1x, images/sesionFotosGaleriaTab2x-2.jpg 2x">
-    <source media="(min-width: 801px )" srcset="images/sesionFotosGaleriaFull1x-2.jpg 1x, images/sesionFotosGaleriaFull2x-2.jpg 2x"> 
-    <img src="images/sesionFotosGaleriaCel1x-2.jpg 1x" alt="Fotografía en Pollera y Vestidos Típicos de Panamá. Alta calidad Fotográfica, excelentes polleras, tembleques y Maquillaje">
+    <source media="(min-width: 10px )" srcSet="/images/sesionFotosGaleriaCel1x-2.jpg 1x, /images/sesionFotosGaleriaCel2x-2.jpg 2x"/>
+    <source media="(min-width: 541px )" srcSet="/images/sesionFotosGaleriaTab1x-2.jpg 1x, /images/sesionFotosGaleriaTab2x-2.jpg 2x"/>
+    <source media="(min-width: 801px )" srcSet="/images/sesionFotosGaleriaFull1x-2.jpg 1x, /images/sesionFotosGaleriaFull2x-2.jpg 2x"/> 
+    <img src="/images/sesionFotosGaleriaCel1x-2.jpg 1x" alt="Fotografía en Pollera y Vestidos Típicos de Panamá. Alta calidad Fotográfica, excelentes polleras, tembleques y Maquillaje"/>
     </picture>
   </div>
- <articulo class="completa texto">
-  <hgroup class="blogStyle">
+ <articulo className="completa texto">
+  <hgroup className="blogStyle">
    <h2>La Experiencia de Ponerse un Vestido Típico Panameño</h2>
    <p>Vestirse de pollera es una de las experiencias más lindas que pueden tener todas las panameña. A lo largo de nuestro país las indumentarias tradicionales son muy variadas, pero describen la vida y las experiencias de las mujeres que las portaban.</p>
    <p>Hoy en día se ha extendido el uso de la pollera de lujo porque es de incalculable belleza, pero no debemos olvidar las otras hermosas polleras y vestimentas que tiene nuestro país. Como, por ejemplo: los vestidos de diablo espejo, diablico sucio, diablicos limpios de la chorrera, indumentarias de faena, basquiña, chambra y camisola, etc...</p>
@@ -78,8 +79,8 @@ module.exports = [
     <li>No usar perfume en el cuello</li>
    </ul>
    <p>Este video les explicará un poco más del proceso.</p>
-   <div class="videoPasos texto">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Y656jCpFLiM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+   <div className="videoPasos texto">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Y656jCpFLiM?rel=0" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
    </div>
    <h2>Detalles de Nuestro Servicio</h2>
    <ul>
@@ -98,8 +99,7 @@ module.exports = [
   </hgroup>
  </articulo>
 </section>
-  
-  `
+  )
  },
  {
   metaTitle: 'Venta de Pollera Blanca para bebes, niñas, jovenes y adultas',
@@ -108,10 +108,10 @@ module.exports = [
   enlace: 'pollera-blanca',
   subtitulo: 'Organza Bordada',
   descripcion: 'Pollera confeccionada en tela de organza, adornada con finos encajes de hilo.',
-  miniaturaFull: 'images/organza-bordada-miniatura-full.jpg',
-  miniaturaCel: 'images/organza-bordada-miniatura-cel.jpg',
-  imagenFull: 'images/organza-bordada-producto-full.jpg',
-  imagenCel: 'images/organza-bordada-producto-cel.jpg',
+  miniaturaFull: '/images/organza-bordada-miniatura-full.jpg',
+  miniaturaCel: '/images/organza-bordada-miniatura-cel.jpg',
+  imagenFull: '/images/organza-bordada-producto-full.jpg',
+  imagenCel: '/images/organza-bordada-producto-cel.jpg',
   alt: 'pollera blanca de organza bordada, traje tipico de panama', 
   opciones:[
    {
@@ -139,10 +139,10 @@ module.exports = [
   enlace: 'pollera-congo',
   subtitulo: 'De Diferentes Clases',
   descripcion: 'Pollera de retazos de tela de vistosos colores.',
-  miniaturaFull: 'images/pollera-congo-miniatura-full.jpg',
-  miniaturaCel: 'images/pollera-congo-miniatura-cel.jpg',
-  imagenFull: 'images/pollera-congo-producto-full.jpg',
-  imagenCel: 'images/pollera-congo-producto-cel.jpg',
+  miniaturaFull: '/images/pollera-congo-miniatura-full.jpg',
+  miniaturaCel: '/images/pollera-congo-miniatura-cel.jpg',
+  imagenFull: '/images/pollera-congo-producto-full.jpg',
+  imagenCel: '/images/pollera-congo-producto-cel.jpg',
   alt: 'Pollera congo de retazos, vestuarios tipicos de panama',
   opciones: [
    {
@@ -166,10 +166,10 @@ module.exports = [
   enlace: 'pollera-lujo',
   subtitulo: 'Talco al Sol',
   descripcion: 'Pollera de gala en técnica del talco al sol con calados y encajes valencianos.',
-  miniaturaFull: 'images/pollera-lujo-miniatura-full.jpg',
-  miniaturaCel : 'images/pollera-lujo-miniatura-cel.jpg',
-  imagenFull: 'images/pollera-lujo-producto-full.jpg',
-  imagenCel: 'images/pollera-lujo-producto-cel.jpg',
+  miniaturaFull: '/images/pollera-lujo-miniatura-full.jpg',
+  miniaturaCel : '/images/pollera-lujo-miniatura-cel.jpg',
+  imagenFull: '/images/pollera-lujo-producto-full.jpg',
+  imagenCel: '/images/pollera-lujo-producto-cel.jpg',
   alt: 'Pollera de Lujo, talco en sol, vestidos tipicos de Panama',
   opciones: [
    {
@@ -186,10 +186,10 @@ module.exports = [
   enlace: 'tembleques',
   subtitulo: 'blancos o en color',
   descripcion: 'Juego de 12 pares de flores.', 
-  miniaturaFull: 'images/tembleques-miniatura-full.jpg',
-  miniaturaCel: 'images/tembleques-miniatura-cel.jpg',
-  imagenFull: 'images/tembleques-producto-full.jpg',
-  imagenCel: 'images/tembleques-producto-cel.jpg',
+  miniaturaFull: '/images/tembleques-miniatura-full.jpg',
+  miniaturaCel: '/images/tembleques-miniatura-cel.jpg',
+  imagenFull: '/images/tembleques-producto-full.jpg',
+  imagenCel: '/images/tembleques-producto-cel.jpg',
   alt: 'Cabeza de Tembleques, Accesorios Folklóricos Panameños',
   opciones: [
    {
@@ -206,6 +206,7 @@ module.exports = [
    }
   ]
  },
+//estas ya estaban comentadas
  // {
  //  metaTitle: 'Camisa',
  //metaDescripcion: 'Pollera de gala en técnica del talco al sol con calados y encajes valencianos.',//  
@@ -213,10 +214,10 @@ module.exports = [
  //  enlace: 'camisa',
  //  subtitulo: 'Una Sola Arandela',
  //  descripcion: 'Pollera de gala en técnica del talco al sol con calados y encajes valencianos.',
- //  miniaturaFull: 'images/camisa-miniatura-full.jpg',
- //  miniaturaCel: 'images/camisa-miniatura-cel.jpg',
- //  imagenFull: 'images/camisa-imagen-full.jpg',
- //  imagenCel: 'images/camisa-imagen-cel.jpg',
+ //  miniaturaFull: '/images/camisa-miniatura-full.jpg',
+ //  miniaturaCel: '/images/camisa-miniatura-cel.jpg',
+ //  imagenFull: '/images/camisa-imagen-full.jpg',
+ //  imagenCel: '/images/camisa-imagen-cel.jpg',
  //  alt: 'Camisa de voilé, con una sola arandela',
  //  opciones: [
  //   {
@@ -240,10 +241,10 @@ module.exports = [
   enlace: 'camisilla',
   subtitulo: 'De Gala',
   descripcion: '',
-  miniaturaFull: 'images/camisilla-miniatura-full.jpg',
-  miniaturaCel: 'images/camisilla-miniatura-cel.jpg',
-  imagenFull: 'images/camisilla-producto-full.jpg',
-  imagenCel: 'images/camisilla-producto-cel.jpg',
+  miniaturaFull: '/images/camisilla-miniatura-full.jpg',
+  miniaturaCel: '/images/camisilla-miniatura-cel.jpg',
+  imagenFull: '/images/camisilla-producto-full.jpg',
+  imagenCel: '/images/camisilla-producto-cel.jpg',
   alt: 'Camisilla de Gala, Vestidos Típicos de Panamá',
   opciones: [
    {
@@ -271,10 +272,10 @@ module.exports = [
  //  enlace: 'montuno-ocueno',
  //  subtitulo: '',
  //  descripcion: 'Camisa y Pantalón en tela de manta sucia con bordados a mano.',
- //  miniaturaFull: 'images/montuno-ocueno-miniatura-full.jpg',
- //  miniaturaCel: 'images/montuno-ocueno-miniatura-cel.jpg',
- //  imagenFull: 'images/montuno-ocueno-imagen-full.jpg',
- //  imagenCel: 'images/montuno-ocueno-imagen-cel.jpg',
+ //  miniaturaFull: '/images/montuno-ocueno-miniatura-full.jpg',
+ //  miniaturaCel: '/images/montuno-ocueno-miniatura-cel.jpg',
+ //  imagenFull: '/images/montuno-ocueno-imagen-full.jpg',
+ //  imagenCel: '/images/montuno-ocueno-imagen-cel.jpg',
  //  alt: 'Montuno Ocueño, vestidos tipicos de Panama',
  //  opciones: [
  //   {
@@ -298,10 +299,10 @@ module.exports = [
  //  enlace: 'alquiler',
  //  subtitulo: 'de Panamá',
  //  descripcion: '',
- //  miniaturaFull: 'images/camisilla-miniatura-full.jpg',
- //  miniaturaCel: 'images/camisilla-miniatura-cel.jpg',
- //  imagenFull: 'images/camisilla-producto-full.jpg',
- //  imagenCel: 'images/camisilla-producto-cel.jpg',
+ //  miniaturaFull: '/images/camisilla-miniatura-full.jpg',
+ //  miniaturaCel: '/images/camisilla-miniatura-cel.jpg',
+ //  imagenFull: '/images/camisilla-producto-full.jpg',
+ //  imagenCel: '/images/camisilla-producto-cel.jpg',
  //  alt: 'Camisilla de Gala, Vestidos Típicos de Panamá',
  //  opciones: [
  //   {

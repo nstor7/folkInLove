@@ -27,15 +27,15 @@ html(lang="es")
    script(type='application/ld+json').
     {
     "@context": "http://schema.org",
-    "@type": "#{schemaType}", 
+    "@type": "${schemaType}", 
     "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://folkinlovepty.com/"
     },
-    "headline": "#{title}",
-    "image": "#{schemaImages}" ,
-    "datePublished": "#{schemaPublished}",
-    "dateModified": "#{schemaModified}",
+    "headline": "${title}",
+    "image": "${schemaImages}" ,
+    "datePublished": "${schemaPublished}",
+    "dateModified": "${schemaModified}",
     "author": {
     "@type": "Person",
     "name": "Cinthia González"
@@ -48,7 +48,7 @@ html(lang="es")
     "url": "https://folkinlovepty.com/images/folkInLove-logo.png"
     }
     },
-    "description": "#{description}"
+    "description": "${description}"
     }
       
    //- Facebook Pixel Code

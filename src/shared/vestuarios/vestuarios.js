@@ -42,11 +42,11 @@ export default[
   ,
  extra: 
  (<section>
-  <picture class="dosTercios">
-      <source media="(min-width: 800px)" srcset="images/galaOcuJoyero"/>
-      <img class="imagen" src="/images/galaOcuJoyero" alt="joyas de La pollera de Gala Ocueña"/>
+  <picture className="dosTercios">
+      <source media="(min-width: 800px)" srcSet="/images/galaOcuJoyero.jpg"/>
+      <img className="imagen" src="/images/galaOcuJoyero.jpg" alt="joyas de La pollera de Gala Ocueña"/>
   </picture>
-  <article class="tercio blanco joyero">
+  <article className="tercio blanco joyero">
    <hgroup>
      <h2>Joyero</h2>
      <ul>
@@ -100,8 +100,8 @@ export default[
   generalImagen: '/images/polleraCongoGeneral.jpg',
   general: 'Las polleras congo son confeccionadas en telas de diferentes colores lisos y estampados, no existe una limitación en el uso de las telas, estas son del gusto de la dueña de la pollera, o producto de las telas que se tenga a la mano. Una de las pocas características en las que se restrige el uso de un elemento es en el color Rojo. En la cultura congo este color representa al diablo o chamuco y si alguien lo usa está diciendo que tiene algún pacto con él. Pero este personaje no es el que hoy conocemos, el diablo para los congos era el blanco esclavizador la viva representación del mal. Otros datos nos aportan información sobre lo que significa el uso del color rojo en el vestido congo. Se debía a la colaboración de algunos palenques con los blancos, ellos prestaron su ayuda a corsarios ingleses como Francis Drake y a piratas como Henry Morgan para sabotear el comercio colonial español.',
   extra: 
-  (<article class="completa blanco">
-   <hgroup class="blogStyle">
+  (<article className="completa blanco">
+   <hgroup className="blogStyle">
     <h2>Descripción de la Pollera Congo</h2>
     <p>Los vestidos típicos de la provincia de colón son de gran belleza, en especial las polleras congo.</p>
     <p>No solo es su tremendo peso histórico lo que les brida un incalculable valor, sino es la flexibilidad del pueblo. Esto se debe a que todavía, la cultura congo, permanece viva, permitiendo que los aspectos físicos de estos vestidos se mantengan en constante evolución.</p>
@@ -112,8 +112,8 @@ export default[
   </article>)
    ,
   descripcion: 
-   (<article class="completa blanco clasificacion">
-    <hgroup class="blogStyle">
+   (<article className="completa blanco clasificacion">
+    <hgroup className="blogStyle">
      <h2>Clasificación de la Pollera Congo</h2>
      <p>En <b>Colón</b> podemos encontrar una gran variedad de <b>polleras</b>:</p>
      <h3>La Pollera Estampada</h3>
@@ -152,7 +152,7 @@ export default[
 
   ,
   extra2: 
-    (<section class="completa blanco videoPasos">
+    (<section className="completa blanco videoPasos">
      <h2>Video sobre La Pollera Congo</h2>
      <iframe src="https://www.youtube.com/embed/I-KF3UFeTHc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </section>)
@@ -241,10 +241,10 @@ export default[
    </hgroup>
   ),
   metaDescription: 'Los vestidos típicos de los hombres, no son tan conocidos como los de las mujeres. Existen pocosdatos sobre sus orígenes. En la actualidad podemos apreciar una amplia variedad de modelos endonde se incluyen elementos totalmente novedosos para esta prenda de vestir como, por ejemplo: encajes, bordados, calados, talcos, etc... que son labores usualmente utilizadas en las polleras de gala y en algunas montunas. ',
-  portadaImagen: 'images/camisillaCel-1x.jpg',
-  portadaImagenFull: 'images/camisillaFull-1x.jpg 1x, images/camisillaFull-2x.jpg 2x',
-  portadaImagenTab: 'images/camisillaTab-1x.jpg 1x, images/camisillaTab-2x.jpg 2x',
-  portadaImagenCel: 'images/camisillaCel-1x.jpg 1x, images/camisillaCel-2x.jpg 2x',
+  portadaImagen: '/images/camisillaCel-1x.jpg',
+  portadaImagenFull: '/images/camisillaFull-1x.jpg 1x, /images/camisillaFull-2x.jpg 2x',
+  portadaImagenTab: '/images/camisillaTab-1x.jpg 1x, /images/camisillaTab-2x.jpg 2x',
+  portadaImagenCel: '/images/camisillaCel-1x.jpg 1x, /images/camisillaCel-2x.jpg 2x',
   generalImagen: '/images/camisillaGeneral.jpg',
   general: 'Los vestidos típicos de los hombres, no son tan conocidos como los de las mujeres. Existen pocosdatos sobre sus orígenes. En la actualidad podemos apreciar una amplia variedad de modelos endonde se incluyen elementos totalmente novedosos para esta prenda de vestir como, por ejemplo: encajes, bordados, calados, talcos, etc... que son labores usualmente utilizadas en las polleras de gala y en algunas montunas. ',
   descripcion: (
