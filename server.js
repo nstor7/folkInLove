@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 7);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -71,12 +71,6 @@ module.exports = require("react");
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports) {
-
-module.exports = require("react-router-dom");
-
-/***/ }),
-/* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -86,37 +80,495 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _index = __webpack_require__(11);
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = [{
+  metaTitle: 'Sesión de Fotos en Pollera',
+  metaDescripcion: '🎖Vive la EXPERIENCIA de lucir uno de los trajes típicos más hermosos del mundo. Folk in Love te ofrece 📷 sesiones de FOTOS que incluyen POLLERA, 💍 prendas, tembleques, 💄maquillaje, arreglo, sesión de fotos con asesoría de poses.',
+  nombre: 'Sesión de Fotografía',
+  enlace: 'fotos-en-traje-tipico',
+  subtitulo: 'en vestido típico',
+  descripcion: 'La sesión fotográfica incluye vestido típico, maquillaje, colocación de tembleques y prendas, asesoría con las poses y un minimo de 15 fotos editadas en biblioteca digital perzonalizada.',
+  miniaturaFull: '/images/fotografia-miniatura-full.jpg',
+  miniaturaCel: '/images/fotografia-miniatura-cel.jpg',
+  imagenFull: '/images/fotografia-imagen-full.jpg',
+  imagenCel: '/images/fotografia-imagen-cel.jpg',
+  alt: 'Sesión fotográfica de alta calidad, vestidos típicos de Panamá',
+  opciones: [{
+    detalle: 'Pollera de Lujo',
+    precio: 350
+  }, {
+    detalle: 'Pollera Blanca',
+    precio: 300
+  }, {
+    detalle: 'Pollera Montuna',
+    precio: 225
+  }, {
+    detalle: 'Pollera Congo',
+    precio: 175
+  }, {
+    detalle: 'Persona Adicional',
+    precio: 0,
+    descripcions: 'No se cobra adicional por las fotografías, sólo el costo del alquiler de cada vestuario. (consultar precios en la sección de alquiler de vestuarios)'
+  }],
+  articulo: _react2.default.createElement(
+    'section',
+    { className: 'articulo conGaleria' },
+    _react2.default.createElement(
+      'div',
+      { className: 'sesionGal' },
+      _react2.default.createElement(
+        'picture',
+        null,
+        _react2.default.createElement('source', { media: '(min-width: 10px )', srcSet: '/images/sesionFotosGaleriaCel1x-1.jpg 1x, /images/sesionFotosGaleriaCel2x-1.jpg 2x' }),
+        _react2.default.createElement('source', { media: '(min-width: 541px )', srcSet: '/images/sesionFotosGaleriaTab1x-1.jpg 1x, /images/sesionFotosGaleriaTab2x-1.jpg 2x' }),
+        _react2.default.createElement('source', { media: '(min-width: 801px )', srcSet: '/images/sesionFotosGaleriaFull1x-1.jpg 1x, /images/sesionFotosGaleriaFull2x-1.jpg 2x' }),
+        _react2.default.createElement('img', { src: '/images/sesionFotosGaleriaCel1x-1.jpg 1x', alt: 'Sesi\xF3n de Fotos en pollera en el lugar de la ciudad de Panam\xE1 que prefiera' })
+      ),
+      _react2.default.createElement(
+        'picture',
+        null,
+        _react2.default.createElement('source', { media: '(min-width: 10px )', srcSet: '/images/sesionFotosGaleriaCel1x-3.jpg 1x, /images/sesionFotosGaleriaCel2x-3.jpg 2x' }),
+        _react2.default.createElement('source', { media: '(min-width: 541px )', srcSet: '/images/sesionFotosGaleriaTab1x-3.jpg 1x, /images/sesionFotosGaleriaTab2x-3.jpg 2x' }),
+        _react2.default.createElement('source', { media: '(min-width: 801px )', srcSet: '/images/sesionFotosGaleriaFull1x-3.jpg 1x, /images/sesionFotosGaleriaFull2x-3.jpg 2x' }),
+        _react2.default.createElement('img', { src: '/images/sesionFotosGaleriaCel1x-3.jpg 1x', alt: 'Fotos de Alta Calidad en Vestidos T\xEDpicos de Panam\xE1' })
+      ),
+      _react2.default.createElement(
+        'picture',
+        null,
+        _react2.default.createElement('source', { media: '(min-width: 10px )', srcSet: '/images/sesionFotosGaleriaCel1x-2.jpg 1x, /images/sesionFotosGaleriaCel2x-2.jpg 2x' }),
+        _react2.default.createElement('source', { media: '(min-width: 541px )', srcSet: '/images/sesionFotosGaleriaTab1x-2.jpg 1x, /images/sesionFotosGaleriaTab2x-2.jpg 2x' }),
+        _react2.default.createElement('source', { media: '(min-width: 801px )', srcSet: '/images/sesionFotosGaleriaFull1x-2.jpg 1x, /images/sesionFotosGaleriaFull2x-2.jpg 2x' }),
+        _react2.default.createElement('img', { src: '/images/sesionFotosGaleriaCel1x-2.jpg 1x', alt: 'Fotograf\xEDa en Pollera y Vestidos T\xEDpicos de Panam\xE1. Alta calidad Fotogr\xE1fica, excelentes polleras, tembleques y Maquillaje' })
+      )
+    ),
+    _react2.default.createElement(
+      'articulo',
+      { className: 'completa texto' },
+      _react2.default.createElement(
+        'hgroup',
+        { className: 'blogStyle' },
+        _react2.default.createElement(
+          'h2',
+          null,
+          'La Experiencia de Ponerse un Vestido T\xEDpico Paname\xF1o'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Vestirse de pollera es una de las experiencias m\xE1s lindas que pueden tener todas las paname\xF1a. A lo largo de nuestro pa\xEDs las indumentarias tradicionales son muy variadas, pero describen la vida y las experiencias de las mujeres que las portaban.'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Hoy en d\xEDa se ha extendido el uso de la pollera de lujo porque es de incalculable belleza, pero no debemos olvidar las otras hermosas polleras y vestimentas que tiene nuestro pa\xEDs. Como, por ejemplo: los vestidos de diablo espejo, diablico sucio, diablicos limpios de la chorrera, indumentarias de faena, basqui\xF1a, chambra y camisola, etc...'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Realizarse una sesi\xF3n de fotos nos hace sentir hermosas, es una experiencia que nos saca de nuestra zona de confort y nos permite vivir una experiencia memorable, \xBFpor qu\xE9? porque adem\xE1s de tomarnos el tiempo para engalanarnos con un hermoso maquillaje, peinado, prendas y dem\xE1s accesorios, tendremos la experiencia de conocer los detalles de la confecci\xF3n del vestido t\xEDpico escogido y adem\xE1s conocer de primera mano c\xF3mo se siente la tela, el peso de los tembleques y mucho m\xE1s.'
+        ),
+        _react2.default.createElement(
+          'h2',
+          null,
+          'Descripci\xF3n de la Sesi\xF3n'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'La aventura inicia desde que el equipo llega a arreglarte (lugar de conveniencia) en d\xF3nde tendr\xE1s la pollera y los accesorios que necesitar\xE1s para esta maravillosa experiencia. Luego pasamos al peinado y maquillaje, de ah\xED a colocar la pollera, las prendas y los accesorios de la cabeza'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Escogeremos un lugar m\xE1gico y emblem\xE1tico de Panam\xE1 para que sea el marco perfecto para tu sesi\xF3n de fotos.'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'y listo, ahora solo queda disfrutar y divertirnos con cada momento.'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Nuestro equipo te contara la historia de estas polleras, detalles interesantes de la confecci\xF3n y adem\xE1s te ayudar\xE1 a que poses para que tus recuerdos sean como siempre los so\xF1aste.'
+        ),
+        _react2.default.createElement(
+          'h2',
+          null,
+          'Qu\xE9 Necesitas Para Tu Sesi\xF3n?'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Nuestro compromiso es hacer de ese d\xEDa un momento memorable, estas son algunas recomendaciones que nos ayudar\xE1n a hacer todo de forma m\xE1s \xE1gil:'
+        ),
+        _react2.default.createElement(
+          'ul',
+          null,
+          _react2.default.createElement(
+            'li',
+            null,
+            'Comer antes de tu sesi\xF3n'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Ropa interior Blanca'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Cabello Limpio'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Cejas arregladas'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'No usar perfume en el cuello'
+          )
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Este video les explicar\xE1 un poco m\xE1s del proceso.'
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'videoPasos texto' },
+          _react2.default.createElement('iframe', { width: '560', height: '315', src: 'https://www.youtube.com/embed/Y656jCpFLiM?rel=0', frameBorder: '0', allow: 'autoplay; encrypted-media', allowFullScreen: true })
+        ),
+        _react2.default.createElement(
+          'h2',
+          null,
+          'Detalles de Nuestro Servicio'
+        ),
+        _react2.default.createElement(
+          'ul',
+          null,
+          _react2.default.createElement(
+            'li',
+            null,
+            'No hay l\xEDmite de personas por Sesi\xF3n'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Horarios Flexibles'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Locaci\xF3n en exteriores o interiores'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'T\xFA escoges la locaci\xF3n que prefieras (si la locaci\xF3n tiene un costo, este debe ser cubierto por el cliente'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Atenci\xF3n personalizada'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Incluye Maquillaje y asesor\xEDa para las poses'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Varios paquetes a escoger'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Trajes para ni\xF1os disponibles'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Trajes para hombres disponibles'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Todos los vestidos disponibles en tallas S, M y L'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Te entregamos un m\xEDnimo de 15 fotos editadas en una plataforma virtual'
+          )
+        )
+      )
+    )
+  )
+}, {
+  metaTitle: 'Venta de Pollera Blanca para bebes, niñas, jovenes y adultas',
+  metaDescripcion: 'Pollera confeccionada en tela de organza, adornada con finos encajes de hilo.',
+  nombre: 'Pollera Blanca',
+  enlace: 'pollera-blanca',
+  subtitulo: 'Organza Bordada',
+  descripcion: 'Pollera confeccionada en tela de organza, adornada con finos encajes de hilo.',
+  miniaturaFull: '/images/organza-bordada-miniatura-full.jpg',
+  miniaturaCel: '/images/organza-bordada-miniatura-cel.jpg',
+  imagenFull: '/images/organza-bordada-producto-full.jpg',
+  imagenCel: '/images/organza-bordada-producto-cel.jpg',
+  alt: 'pollera blanca de organza bordada, traje tipico de panama',
+  opciones: [{
+    detalle: 'Bebes de 0 a 2 años (con una sola arandela)',
+    precio: 50.00
+  }, {
+    detalle: 'de 3 a 5 años (con 2 arandelas)',
+    precio: 100.00
+  }, {
+    detalle: 'de 6 a 10 años',
+    precio: 200.00
+  }, {
+    detalle: 'de 11 en adelante',
+    precio: 400.00
+  }]
+}, {
+  metaTitle: 'Venta de Pollera Congo para bebes, niñas, jovenes y adultas',
+  metaDescripcion: 'Pollera de retazos de tela de vistosos colores.',
+  nombre: 'Pollera Congo',
+  enlace: 'pollera-congo',
+  subtitulo: 'De Diferentes Clases',
+  descripcion: 'Pollera de retazos de tela de vistosos colores.',
+  miniaturaFull: '/images/pollera-congo-miniatura-full.jpg',
+  miniaturaCel: '/images/pollera-congo-miniatura-cel.jpg',
+  imagenFull: '/images/pollera-congo-producto-full.jpg',
+  imagenCel: '/images/pollera-congo-producto-cel.jpg',
+  alt: 'Pollera congo de retazos, vestuarios tipicos de panama',
+  opciones: [{
+    detalle: 'Niñas hasta 2 años',
+    precio: 45
+  }, {
+    detalle: 'Niñas hasta 10 años',
+    precio: 90
+  }, {
+    detalle: 'Adultos',
+    precio: 160
+  }]
+}, {
+  metaTitle: 'Venta de Polleras de lujo en Panamá',
+  metaDescripcion: 'Pollera de gala en técnica del talco al sol con calados y encajes valencianos.',
+  nombre: 'Pollera de Lujo',
+  enlace: 'pollera-lujo',
+  subtitulo: 'Talco al Sol',
+  descripcion: 'Pollera de gala en técnica del talco al sol con calados y encajes valencianos.',
+  miniaturaFull: '/images/pollera-lujo-miniatura-full.jpg',
+  miniaturaCel: '/images/pollera-lujo-miniatura-cel.jpg',
+  imagenFull: '/images/pollera-lujo-producto-full.jpg',
+  imagenCel: '/images/pollera-lujo-producto-cel.jpg',
+  alt: 'Pollera de Lujo, talco en sol, vestidos tipicos de Panama',
+  opciones: [{
+    detalle: 'Talco en Sol',
+    precio: 5000,
+    descripción: 'Tiempo de entrega 10 a 12 meses, durante ese tiempo se podrán ir efectuando pagos, el primer pago se debe hacer el día de la toma de las medidas.'
+  }]
+}, {
+  metaTitle: 'Confección de tembleques panameños blancos y en color',
+  metaDescripcion: 'Juego de 12 pares de flores.',
+  nombre: 'Tembleques',
+  enlace: 'tembleques',
+  subtitulo: 'blancos o en color',
+  descripcion: 'Juego de 12 pares de flores.',
+  miniaturaFull: '/images/tembleques-miniatura-full.jpg',
+  miniaturaCel: '/images/tembleques-miniatura-cel.jpg',
+  imagenFull: '/images/tembleques-producto-full.jpg',
+  imagenCel: '/images/tembleques-producto-cel.jpg',
+  alt: 'Cabeza de Tembleques, Accesorios Folklóricos Panameños',
+  opciones: [{
+    detalle: 'Niñas',
+    precio: 250
+  }, {
+    detalle: 'Adulta',
+    precio: 450
+  }, {
+    detalle: 'Tapamoños',
+    precio: 25
+  }]
+},
+//estas ya estaban comentadas
+// {
+//  metaTitle: 'Camisa',
+//metaDescripcion: 'Pollera de gala en técnica del talco al sol con calados y encajes valencianos.',//  
+//nombre: 'Camisa',
+//  enlace: 'camisa',
+//  subtitulo: 'Una Sola Arandela',
+//  descripcion: 'Pollera de gala en técnica del talco al sol con calados y encajes valencianos.',
+//  miniaturaFull: '/images/camisa-miniatura-full.jpg',
+//  miniaturaCel: '/images/camisa-miniatura-cel.jpg',
+//  imagenFull: '/images/camisa-imagen-full.jpg',
+//  imagenCel: '/images/camisa-imagen-cel.jpg',
+//  alt: 'Camisa de voilé, con una sola arandela',
+//  opciones: [
+//   {
+//    detalle: 'Arandela de organza bordada', 
+//    precio: 40
+//   },
+//   {
+//    detalle: 'Arandela de Coquito industrial', 
+//    precio: 40
+//   },
+//   {
+//    detalle: 'Arandela de voilé (bual)',
+//    precio: 40
+//   }
+//  ]
+// },
+{
+  metaTitle: 'Venta de Camisas típicas panameñas para hombres',
+  metaDescripcion: '',
+  nombre: 'Camisilla',
+  enlace: 'camisilla',
+  subtitulo: 'De Gala',
+  descripcion: '',
+  miniaturaFull: '/images/camisilla-miniatura-full.jpg',
+  miniaturaCel: '/images/camisilla-miniatura-cel.jpg',
+  imagenFull: '/images/camisilla-producto-full.jpg',
+  imagenCel: '/images/camisilla-producto-cel.jpg',
+  alt: 'Camisilla de Gala, Vestidos Típicos de Panamá',
+  opciones: [{
+    detalle: 'Niños hasta 6 años',
+    precio: 35
+  }, {
+    detalle: 'Niños hasta 12 años',
+    precio: 45
+  }, {
+    detalle: 'Adultos, voilé y alforzas',
+    precio: 100
+  }, {
+    detalle: 'Adultos con espiguetas y tela de hilo',
+    precio: 200
+  }]
+  // {
+  //  metaTitle: 'Montuno Ocueño',
+  //metaDescripcion: 'Camisa y Pantalón en tela de manta sucia con bordados a mano.',//  
+  //nombre: 'Montuno Ocueño',
+  //  enlace: 'montuno-ocueno',
+  //  subtitulo: '',
+  //  descripcion: 'Camisa y Pantalón en tela de manta sucia con bordados a mano.',
+  //  miniaturaFull: '/images/montuno-ocueno-miniatura-full.jpg',
+  //  miniaturaCel: '/images/montuno-ocueno-miniatura-cel.jpg',
+  //  imagenFull: '/images/montuno-ocueno-imagen-full.jpg',
+  //  imagenCel: '/images/montuno-ocueno-imagen-cel.jpg',
+  //  alt: 'Montuno Ocueño, vestidos tipicos de Panama',
+  //  opciones: [
+  //   {
+  //    detalle: 'Niños hasta 6 años', 
+  //    precio: 50
+  //   },
+  //   {
+  //    detalle: 'Niños hasta 12 años',
+  //    precio: 80
+  //   },
+  //   {
+  //    detalle: 'Adultos',
+  //    precio: 100
+  //   }
+  //  ]
+  // },
+  // {
+  //  metaTitle: 'Alquiler de Polleras y vestidos típicos en Panamá',
+  //metaDescripcion: '',//  
+  //nombre: 'Alquiler de Vestidos y accesorios Folklóricos',
+  //  enlace: 'alquiler',
+  //  subtitulo: 'de Panamá',
+  //  descripcion: '',
+  //  miniaturaFull: '/images/camisilla-miniatura-full.jpg',
+  //  miniaturaCel: '/images/camisilla-miniatura-cel.jpg',
+  //  imagenFull: '/images/camisilla-producto-full.jpg',
+  //  imagenCel: '/images/camisilla-producto-cel.jpg',
+  //  alt: 'Camisilla de Gala, Vestidos Típicos de Panamá',
+  //  opciones: [
+  //   {
+  //    detalle: 'Niños hasta 6 años',
+  //    precio: 35
+  //   },
+  //   {
+  //    detalle: 'Niños hasta 12 años',
+  //    precio: 45
+  //   },
+  //   {
+  //    detalle: 'Adultos, voilé y alforzas',
+  //    precio: 100
+  //   },
+  //   {
+  //    detalle: 'Adultos con espiguetas y tela de hilo',
+  //    precio: 200
+  //   }
+  //  ]
+  // }
+}];
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-router-dom");
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _index = __webpack_require__(13);
 
 var _index2 = _interopRequireDefault(_index);
 
-var _contacto = __webpack_require__(16);
+var _contacto = __webpack_require__(18);
 
 var _contacto2 = _interopRequireDefault(_contacto);
 
-var _danzas = __webpack_require__(17);
+var _danzas = __webpack_require__(19);
 
 var _danzas2 = _interopRequireDefault(_danzas);
 
-var _danza = __webpack_require__(18);
+var _danza = __webpack_require__(20);
 
 var _danza2 = _interopRequireDefault(_danza);
 
-var _vestuarios = __webpack_require__(20);
+var _vestuarios = __webpack_require__(22);
 
 var _vestuarios2 = _interopRequireDefault(_vestuarios);
 
-var _vestuario = __webpack_require__(25);
+var _vestuario = __webpack_require__(23);
 
 var _vestuario2 = _interopRequireDefault(_vestuario);
 
-var _tienda = __webpack_require__(26);
+var _tienda = __webpack_require__(24);
 
 var _tienda2 = _interopRequireDefault(_tienda);
 
-var _producto = __webpack_require__(29);
+var _producto = __webpack_require__(26);
 
 var _producto2 = _interopRequireDefault(_producto);
+
+var _catalogo = __webpack_require__(1);
+
+var _catalogo2 = _interopRequireDefault(_catalogo);
+
+var _danzas3 = __webpack_require__(4);
+
+var _danzas4 = _interopRequireDefault(_danzas3);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -124,53 +576,132 @@ var routes = [{
   path: '/',
   exact: true,
   component: _index2.default,
-  seo: {
-    link: 'https://www.folkinlovepty.com',
-    title: 'Folk in Love - Investigación y Difusión del Folklore de Panamá',
-    description: 'En Folk in love nos dedicamos a la investigación, difusión, promoción y conservación del folklore Panameño.',
-    keywords: 'folklore panameño, costumbres, tradidiones, panama, orígenes, Panamá',
-    schemaType: 'Article',
-    schemaImages: ["https://folkinlovepty.com/images/trajes-tipicos-panama-banner-full-2x.jpg", "https://folkinlovepty.com/images/moneda-coronada-full.jpg", "https://folkinlovepty.com/images/pollera-gala-ocu-identidad-full.jpg"],
-    schemaPublished: '2017-10-016T00:00:00+00:00',
-    schemaModified: '2018-05-02T09:20:00+08:00'
+  seo: function seo() {
+    return {
+      link: 'https://www.folkinlovepty.com',
+      title: 'Folk in Love - Investigación y Difusión del Folklore de Panamá',
+      description: 'En Folk in love nos dedicamos a la investigación, difusión, promoción y conservación del folklore Panameño.',
+      keywords: 'folklore panameño, costumbres, tradidiones, panama, orígenes, Panamá',
+      schemaType: 'Article',
+      schemaImages: ["https://folkinlovepty.com/images/trajes-tipicos-panama-banner-full-2x.jpg", "https://folkinlovepty.com/images/moneda-coronada-full.jpg", "https://folkinlovepty.com/images/pollera-gala-ocu-identidad-full.jpg"],
+      schemaPublished: '2017-10-016T00:00:00+00:00',
+      schemaModified: '2018-05-02T09:20:00+08:00'
+    };
   }
 }, {
   path: '/contacto',
   exact: true,
   component: _contacto2.default,
-  seo: {
-    title: 'Contactenos Para Cualquier consulta o producto que le interese'
+  seo: function seo() {
+    return {
+      title: 'Contactenos Para Cualquier consulta o producto que le interese'
+    };
   }
 }, {
   path: '/danzas',
   exact: true,
   component: _danzas2.default,
-  seo: {
-    title: 'Danzas'
+  seo: function seo() {
+    return {
+      link: 'https://www.folkinlovepty.com/danzas/',
+      title: 'Folk in Love - Bailes Típicos de Panamá',
+      description: 'Los Bailes típicos de Panamá son uno de los elementos más importantes de la identidad panameña. Clasificación de las danzas folklóricas por región. ',
+      keywords: 'Danzas de Panamá, Bailes Típicos, Pasos de Baile',
+      image: 'https://www.folkinlovepty.com/images/danzasOpenGraph.jpg',
+      schemaType: 'Article',
+      schemaImages: ['https://www.folkinlovepty.com/images/danzas-full.jpg'],
+      schemaPublished: '2017-10-016T00:00:00+00:00',
+      schemaModified: '2018-5-05T03:41:00+03:41'
+
+    };
   }
 }, {
   path: '/danzas/:url',
-  component: _danza2.default
+  component: _danza2.default,
+  seo: function seo(enlace) {
+    var danza = _danzas4.default.find(function (baile) {
+      return baile.url === enlace;
+    });
+    return {
+      link: 'https://www.folkinlovepty.com/' + danza.url,
+      title: '' + danza.metaTitle,
+      description: '' + danza.metaDescription,
+      image: 'https://www.folkinlovepty.com/images/' + danza.imagenOpenGraph,
+      schemaType: 'Article',
+      schemaImages: ['https://www.folkinlovepty.com/' + danza.portadaImagen, 'https://www.folkinlovepty.com/' + danza.introImagen, 'https://www.folkinlovepty.com/' + danza.pasosImagen],
+      schemaPublished: '2017-10-016T00:00:00+00:00',
+      schemaModified: '2018-5-05T03:41:00+03:41'
+    };
+  }
 }, {
   path: '/vestuarios',
   exact: true,
-  component: _vestuarios2.default
+  component: _vestuarios2.default,
+  seo: function seo() {
+    return {
+      title: 'Folk in Love - Vestidos Típicos de Panamá',
+      description: 'Los vestidos típicos de Panamá incluyen algunos de los más hermosos del mundo. Los trajes típicos ayudan a reflejar y preservar la identidad de cada región del país.',
+      link: 'https://www.folkinlovepty.com/vestuarios/',
+      image: 'https://www.folkinlovepty.com/images/vestuarios-full.jpg',
+      schemaType: 'Article',
+      schemaImages: ['https://www.folkinlovepty.com/images/vestuarios-full.jpg'],
+      schemaPublished: '2017-10-016T00:00:00+00:00',
+      schemaModified: '2018-5-05T03:41:00+03:41'
+    };
+  }
 }, {
   path: '/vestuarios/:url',
-  component: _vestuario2.default
+  component: _vestuario2.default,
+  seo: function seo() {
+    return {
+      link: 'https://www.folkinlovepty.com/' + vestido.url,
+      title: '' + vestido.metaTitle,
+      description: '' + vestido.metaDescription,
+      image: 'https://www.folkinlovepty.com/images/' + vestido.miniatura,
+      schemaType: 'Article',
+      schemaImages: ['https://www.folkinlovepty.com/' + vestido.portadaImagen, 'https://www.folkinlovepty.com/' + vestido.generalImagen, 'https://www.folkinlovepty.com/' + vestido.joyeroImagen],
+      schemaPublished: '2017-10-016T00:00:00+00:00',
+      schemaModified: '2018-5-05T03:41:00+03:41'
+    };
+  }
 }, {
   path: '/tienda',
   exact: true,
-  component: _tienda2.default
+  component: _tienda2.default,
+  seo: {
+    link: 'https://www.folkinlovepty.com/tienda/',
+    title: 'Tienda Folk in Love: fotografías en vestidos folklóricos, productos tradicionales para comprar o alquilar',
+    description: 'Los productos y servicios de Folk in Love están pensados para acercarte al folklore panameño. Queremos hacer posible que tengas una experiencia cercana a las costumbres y tradiciones de nuestro país.',
+    schemaType: 'Article',
+    schemaImages: ['https://www.folkinlovepty.com/images/pollera-lujo-losantos-tienda-portada-full.jpg'],
+    image: 'https://www.folkinlovepty.com/images/pollera-lujo-losantos-tienda-portada-full.jpg',
+    schemaPublished: '2018-5-01T03:41:00+03:41',
+    schemaModified: '2018-5-05T03:41:00+03:41'
+  }
 }, {
   path: '/tienda/:enlace',
-  component: _producto2.default
+  component: _producto2.default,
+  seo: function seo(enlace) {
+    var product = _catalogo2.default.find(function (prod) {
+      return prod.enlace === enlace;
+    });
+    return {
+      link: 'https://www.folkinlovepty.com/' + product.enlace,
+      title: '' + product.metaTitle,
+      description: '' + product.metaDescripcion,
+      image: 'https://www.folkinlovepty.com/' + product.miniaturaFull,
+      schemaType: 'Article',
+      schemaImages: ['https://www.folkinlovepty.com/' + product.imagenFull],
+      schemaPublished: '2017-10-016T00:00:00+00:00',
+      schemaModified: '2018-5-05T03:41:00+03:41'
+    };
+  }
 }];
 
 exports.default = routes;
 
 /***/ }),
-/* 3 */
+/* 4 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -340,7 +871,7 @@ exports.default = [{
 }];
 
 /***/ }),
-/* 4 */
+/* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -393,1211 +924,7 @@ function Tarjeta(seccion, el) {
 }
 
 /***/ }),
-/* 5 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _express = __webpack_require__(6);
-
-var _express2 = _interopRequireDefault(_express);
-
-var _cors = __webpack_require__(7);
-
-var _cors2 = _interopRequireDefault(_cors);
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _server = __webpack_require__(8);
-
-var _reactRouterDom = __webpack_require__(1);
-
-var _serializeJavascript = __webpack_require__(9);
-
-var _serializeJavascript2 = _interopRequireDefault(_serializeJavascript);
-
-var _App = __webpack_require__(10);
-
-var _App2 = _interopRequireDefault(_App);
-
-var _routes = __webpack_require__(2);
-
-var _routes2 = _interopRequireDefault(_routes);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var app = (0, _express2.default)();
-
-app.use((0, _cors2.default)());
-app.use(_express2.default.static("public"));
-
-app.get("*", function (req, res, next) {
-  var activeRoute = _routes2.default.find(function (route) {
-    return (0, _reactRouterDom.matchPath)(req.url, route);
-  }) || {};
-  var seo = activeRoute.seo ? activeRoute.seo : { title: '', description: '' };
-
-  var promise = activeRoute.fetchInitialData ? activeRoute.fetchInitialData(req.path) : Promise.resolve();
-
-  promise.then(function (data) {
-    var context = { data: data };
-
-    var markup = (0, _server.renderToString)(_react2.default.createElement(
-      _reactRouterDom.StaticRouter,
-      { location: req.url, context: context },
-      _react2.default.createElement(_App2.default, null)
-    ));
-
-    res.send("\n      <!DOCTYPE html>\n      <html>\n        <head>\n          <meta charset=\"UTF-8\">\n          <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=no\"><meta name=\"google-site-verification\" content=\"A8E9MrD4Av9bQbh6y4jcxY4I-yoSDqg8yuMCsidXEIU\" />\n          <script async src=\"https://cdn.ampproject.org/v0.js\"></script>\n          <title>" + seo.title + "</title>\n          <link rel=\"stylesheet\" href=\"/index.css\">\n          <script src=\"/bundle.js\" defer></script>\n          <link rel='apple-touch-icon', sizes='57x57', href='/images/apple-icon-57x57.png'/>\n          <link rel='apple-touch-icon', sizes='60x60', href='/images/apple-icon-60x60.png'/>\n          <link rel='apple-touch-icon', sizes='72x72', href='/images/apple-icon-72x72.png'/>\n          <link rel='apple-touch-icon', sizes='76x76', href='/images/apple-icon-76x76.png'/>\n          <link rel='apple-touch-icon', sizes='114x114', href='/images/apple-icon-114x114.png'/>\n          <link rel='apple-touch-icon', sizes='120x120', href='/images/apple-icon-120x120.png'/>\n          <link rel='apple-touch-icon', sizes='144x144', href='/images/apple-icon-144x144.png'/>\n          <link rel='apple-touch-icon', sizes='152x152', href='/images/apple-icon-152x152.png'/>\n          <link rel='apple-touch-icon', sizes='180x180', href='/images/apple-icon-180x180.png'/>\n          <link rel='icon', type='image/png', sizes='192x192', href='/images/android-icon-192x192.png'/>\n          <link rel='icon', type='image/png', sizes='32x32', href='/images/favicon-32x32.png'/>\n          <link rel='icon', type='image/png', sizes='96x96', href='/images/favicon-96x96.png'/>\n          <link rel='icon', type='image/png', sizes='16x16', href='/images/favicon-16x16.png'/>\n          <link rel='manifest', href='/images/manifest.json'/>\n          <meta name='msapplication-TileColor', content='#ffffff'/>\n          <meta name='msapplication-TileImage', content='/images/ms-icon-144x144.png'/>\n          <meta name='theme-color', content='#ffffff'/>\n          <meta property=\"og:title\" content=" + seo.title + "/>\n          <meta name='description' content=" + seo.description + "/>\n          <meta property=\"og:type\" content=\"article/> \n          <meta property=\"og:url\" content= " + seo.link + "/> \n          <meta property=\"og:image\" content = " + seo.image + "/>\n          <meta property='og:description', content=" + seo.description + "/>\n          <script type='application/ld+json'>\n          {\n           \"@context\": \"http://schema.org\",\n           \"@type\": \"" + seo.schemaType + "\", \n           \"mainEntityOfPage\": {\n           \"@type\": \"WebPage\",\n           \"@id\": \"https://folkinlovepty.com/\"\n           },\n           \"headline\": \"" + seo.title + "\",\n           \"image\": \"" + seo.schemaImages + "\" ,\n           \"datePublished\": \"" + seo.schemaPublished + "\",\n           \"dateModified\": \"" + seo.schemaModified + "\",\n           \"author\": {\n           \"@type\": \"Person\",\n           \"name\": \"Cinthia Gonz\xE1lez\"\n           },\n           \"publisher\": {\n           \"@type\": \"Organization\",\n           \"name\": \"Folk in Love\",\n           \"logo\": {\n           \"@type\": \"ImageObject\",\n           \"url\": \"https://folkinlovepty.com/images/folkInLove-logo.png\"\n           }\n           },\n           \"description\": \"" + seo.description + "\"\n           }\n\n          </script>\n          <script>\n            !function(f,b,e,v,n,t,s)\n            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?\n            n.callMethod.apply(n,arguments):n.queue.push(arguments)};\n            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\n            n.queue=[];t=b.createElement(e);t.async=!0;\n            t.src=v;s=b.getElementsByTagName(e)[0];\n            s.parentNode.insertBefore(t,s)}(window, document,'script',\n            'https://connect.facebook.net/en_US/fbevents.js');\n            fbq('init', '2556254097725082');\n            fbq('track', 'PageView');\n          </script>\n          <noscript>\n            img(height='1', width='1', style='display:none', src='https://www.facebook.com/tr?id=2556254097725082&ev=PageView&noscript=1')</noscript>\n          <script>window.__INITIAL_DATA__ = " + (0, _serializeJavascript2.default)(data) + "</script>\n        </head>\n\n        <body>\n          <div id=\"app\">" + markup + "</div>\n        </body>\n      </html>\n    ");
-  }).catch(next);
-});
-
-app.listen(3000, function () {
-  console.log("Server is listening on port: 3000");
-});
-
-/*
-  1) Just get shared App rendering to string on server then taking over on client.
-  2) Pass data to <App /> on server. Show diff. Add data to window then pick it up on the client too.
-  3) Instead of static data move to dynamic data (github gists)
-  4) add in routing.
-*/
-
-/***/ }),
 /* 6 */
-/***/ (function(module, exports) {
-
-module.exports = require("express");
-
-/***/ }),
-/* 7 */
-/***/ (function(module, exports) {
-
-module.exports = require("cors");
-
-/***/ }),
-/* 8 */
-/***/ (function(module, exports) {
-
-module.exports = require("react-dom/server");
-
-/***/ }),
-/* 9 */
-/***/ (function(module, exports) {
-
-module.exports = require("serialize-javascript");
-
-/***/ }),
-/* 10 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _routes = __webpack_require__(2);
-
-var _routes2 = _interopRequireDefault(_routes);
-
-var _reactRouterDom = __webpack_require__(1);
-
-var _NoMatch = __webpack_require__(22);
-
-var _NoMatch2 = _interopRequireDefault(_NoMatch);
-
-var _Navbar = __webpack_require__(23);
-
-var _Navbar2 = _interopRequireDefault(_Navbar);
-
-var _footer = __webpack_require__(24);
-
-var _footer2 = _interopRequireDefault(_footer);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var App = function (_Component) {
-  _inherits(App, _Component);
-
-  function App() {
-    _classCallCheck(this, App);
-
-    return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).apply(this, arguments));
-  }
-
-  _createClass(App, [{
-    key: 'render',
-    value: function render() {
-      return _react2.default.createElement(
-        'div',
-        null,
-        _react2.default.createElement(_Navbar2.default, null),
-        _react2.default.createElement(
-          _reactRouterDom.Switch,
-          null,
-          _routes2.default.map(function (_ref) {
-            var path = _ref.path,
-                exact = _ref.exact,
-                Component = _ref.component,
-                rest = _objectWithoutProperties(_ref, ['path', 'exact', 'component']);
-
-            return _react2.default.createElement(_reactRouterDom.Route, { key: path, path: path, exact: exact, render: function render(props) {
-                return _react2.default.createElement(Component, _extends({}, props, rest));
-              } });
-          }),
-          _react2.default.createElement(_reactRouterDom.Route, { render: function render(props) {
-              return _react2.default.createElement(_NoMatch2.default, props);
-            } })
-        ),
-        _react2.default.createElement(_footer2.default, null)
-      );
-    }
-  }]);
-
-  return App;
-}(_react.Component);
-
-exports.default = App;
-
-/***/ }),
-/* 11 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = Inicio;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _banner = __webpack_require__(12);
-
-var _banner2 = _interopRequireDefault(_banner);
-
-var _about = __webpack_require__(13);
-
-var _about2 = _interopRequireDefault(_about);
-
-var _identidad = __webpack_require__(14);
-
-var _identidad2 = _interopRequireDefault(_identidad);
-
-var _apoyo = __webpack_require__(15);
-
-var _apoyo2 = _interopRequireDefault(_apoyo);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Inicio() {
-  return _react2.default.createElement(
-    'main',
-    { className: 'home' },
-    _react2.default.createElement(_banner2.default, null),
-    _react2.default.createElement(_about2.default, null),
-    _react2.default.createElement(_identidad2.default, null),
-    _react2.default.createElement(_apoyo2.default, null)
-  );
-}
-
-/***/ }),
-/* 12 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = Banner;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Banner() {
-  return _react2.default.createElement(
-    "section",
-    { className: "portada" },
-    _react2.default.createElement(
-      "picture",
-      { className: "banner" },
-      _react2.default.createElement("source", { media: "(min-width: 801px)", srcSet: "images/trajesTipicosPanamaBannerFull-2x.jpg 2x, images/trajesTipicosPanamaBannerFull-1x.jpg 1x" }),
-      _react2.default.createElement("source", { media: "(min-width: 541px)", srcSet: "images/trajesTipicosPanamaBannerTab-2x.jpg 2x, images/trajesTipicosPanamaBannerTab-1x.jpg 1x" }),
-      _react2.default.createElement("source", { media: "(min-width: 10px)", srcSet: "images/trajesTipicosPanamaBannerCel-2x.jpg 2x, images/trajesTipicosPanamaBannerCel-1x.jpg 1x" }),
-      _react2.default.createElement("img", { alt: "trajes tipicos de panama, pollera de lujo, pollera congo y montuna ocue\xF1a", className: "completa", src: "images/trajesTipicosPanamaBannerCel-1x.jpg" })
-    ),
-    _react2.default.createElement(
-      "articulo",
-      { className: "negroTrans completa texto" },
-      _react2.default.createElement(
-        "hgroup",
-        { className: "portadaTitulo" },
-        _react2.default.createElement(
-          "h1",
-          { className: "logoLetras" },
-          _react2.default.createElement(
-            "span",
-            null,
-            "Investigaci\xF3n y Difusi\xF3n del Folklore de Panam\xE1 - Folk in Love"
-          )
-        ),
-        _react2.default.createElement(
-          "h3",
-          null,
-          "La Nueva Manera de Ver el Folklore"
-        )
-      )
-    )
-  );
-}
-
-/***/ }),
-/* 13 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = About;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function About() {
-  return _react2.default.createElement(
-    "section",
-    { className: "inicioAbout completa" },
-    _react2.default.createElement(
-      "article",
-      { className: "aboutTexto mitad blanco" },
-      _react2.default.createElement(
-        "hgroup",
-        null,
-        _react2.default.createElement(
-          "h2",
-          null,
-          "\xBFQu\xE9 es Folk in love?"
-        ),
-        _react2.default.createElement(
-          "h3",
-          null,
-          "Conoce M\xE1s de las costumbres y tradiciones de Panam\xE1"
-        ),
-        _react2.default.createElement(
-          "p",
-          null,
-          "En ",
-          _react2.default.createElement(
-            "b",
-            null,
-            "Folk in love"
-          ),
-          " nos dedicamos a la investigaci\xF3n, difusi\xF3n, promoci\xF3n y conservaci\xF3n del ",
-          _react2.default.createElement(
-            "b",
-            null,
-            "folklore Paname\xF1o"
-          ),
-          ", queremos ofrecer un espacio en donde se pueda encontrar informaci\xF3n de calidad respaldada por investigaciones y fuentes confiables que puedan servir de referencia para bailarines, maestros, vestuaristas, estudiantes y amantes de la ",
-          _react2.default.createElement(
-            "b",
-            null,
-            "Cultura de Panam\xE1"
-          ),
-          "."
-        ),
-        _react2.default.createElement(
-          "p",
-          null,
-          "Buscamos realizar ",
-          _react2.default.createElement(
-            "b",
-            null,
-            "aportes culturales"
-          ),
-          " mediante art\xEDculos escritos, ",
-          _react2.default.createElement(
-            "a",
-            { href: "/tienda" },
-            "productos"
-          ),
-          ", ",
-          _react2.default.createElement(
-            "a",
-            { href: "/tienda/fotografia" },
-            "fotograf\xEDas"
-          ),
-          " y videos sobre los ",
-          _react2.default.createElement(
-            "a",
-            { href: "/vestuarios" },
-            "vestidos"
-          ),
-          " y ",
-          _react2.default.createElement(
-            "a",
-            { href: "/danzas" },
-            "bailes t\xEDpicos"
-          ),
-          ", ",
-          _react2.default.createElement(
-            "b",
-            null,
-            "origen"
-          ),
-          " de las manifestaciones folk\xF3ricas, ",
-          _react2.default.createElement(
-            "b",
-            null,
-            "elementos"
-          ),
-          " de las diferentes tradiciones, entre otros."
-        )
-      )
-    ),
-    _react2.default.createElement("img", { src: "images/moneda-coronada-full.jpg", alt: "Joya de la Pollera, Moneda Coronada", className: "aboutImagen mitad foto" })
-  );
-}
-
-/***/ }),
-/* 14 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = Identidad;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Identidad() {
-  return _react2.default.createElement(
-    "div",
-    { className: "inicioIdentidad" },
-    _react2.default.createElement(
-      "article",
-      { className: "identidadImagenes" },
-      _react2.default.createElement(
-        "a",
-        { href: "/vestuarios/Gala-Ocuena", className: "identidadImagen  tercio" },
-        _react2.default.createElement(
-          "picture",
-          null,
-          _react2.default.createElement("source", { media: "(min-width: 800px)", srcSet: "images/pollera-gala-ocu-identidad-full.jpg" }),
-          _react2.default.createElement("img", { src: "images/pollera-gala-ocu-identidad-cel.jpg", alt: "Pollera de Gala Ocue\xF1a, traje tipico de la regi\xF3n de azuero, Panama", className: " tercio identidadFotos" })
-        ),
-        _react2.default.createElement(
-          "div",
-          { className: "identidadInfo negroTrans" },
-          _react2.default.createElement(
-            "hgroup",
-            null,
-            _react2.default.createElement(
-              "h5",
-              null,
-              "Pollera de Gala Ocue\xF1a"
-            ),
-            _react2.default.createElement(
-              "h6",
-              null,
-              "Azuero"
-            )
-          )
-        )
-      ),
-      _react2.default.createElement(
-        "a",
-        { href: "/vestuarios/Pollera-Congo", className: "identidadImagen tercio" },
-        _react2.default.createElement(
-          "picture",
-          null,
-          _react2.default.createElement("source", { media: "(min-width: 800px)", srcSet: "images/pollera-congo-identidad-full.jpg" }),
-          _react2.default.createElement("img", { src: "images/pollera-congo-identidad-cel.jpg", alt: "Pollera Congo, traje tipico de la regi\xF3n de Col\xF3n, Panama", className: " tercio identidadFotos" })
-        ),
-        _react2.default.createElement(
-          "div",
-          { className: "identidadInfo negroTrans" },
-          _react2.default.createElement(
-            "hgroup",
-            null,
-            _react2.default.createElement(
-              "h5",
-              null,
-              "Pollera Congo"
-            ),
-            _react2.default.createElement(
-              "h6",
-              null,
-              "Col\xF3n"
-            )
-          )
-        )
-      ),
-      _react2.default.createElement(
-        "a",
-        { href: "/vestuarios/Pollera-De-Lujo", className: "identidadImagen identidad1 tercio" },
-        _react2.default.createElement(
-          "picture",
-          null,
-          _react2.default.createElement("source", { media: "(min-width: 800px)", srcSet: "images/pollera-lujo-losantos-identidad-full.jpg" }),
-          _react2.default.createElement("img", { src: "images/pollera-lujo-losantos-identidad-cel.jpg", alt: "Pollera de lujo sante\xF1a, traje tipico de la regi\xF3n de azuero, Panama", className: " tercio identidadFotos" })
-        ),
-        _react2.default.createElement(
-          "div",
-          { className: "identidadInfo negroTrans" },
-          _react2.default.createElement(
-            "hgroup",
-            null,
-            _react2.default.createElement(
-              "h5",
-              null,
-              "Pollera De Lujo"
-            ),
-            _react2.default.createElement(
-              "h6",
-              null,
-              "Azuero"
-            )
-          )
-        )
-      )
-    ),
-    _react2.default.createElement(
-      "article",
-      { className: "identidadTexto completa blanco" },
-      _react2.default.createElement(
-        "hgroup",
-        null,
-        _react2.default.createElement(
-          "h2",
-          null,
-          "Elementos de Nuestro Folklore"
-        ),
-        _react2.default.createElement(
-          "h3",
-          null,
-          "Investigando Sobre las Costumbres de Cada Regi\xF3n"
-        ),
-        _react2.default.createElement(
-          "p",
-          null,
-          "Son Muchos los ",
-          _react2.default.createElement(
-            "b",
-            null,
-            "elementos"
-          ),
-          "  que forman parte de la ",
-          _react2.default.createElement(
-            "b",
-            null,
-            "cultura y el folklore"
-          ),
-          "  de un pa\xEDs. Desde peque\xF1os y abstactos como pueden ser cuentos infantiles y rimas; Objetos como ",
-          _react2.default.createElement(
-            "a",
-            { href: "/vestuarios" },
-            "vestidos tradicionales"
-          ),
-          " e instrumentos musicales; O m\xE1s trascendentales como rituales religiosos o festivos as\xED como la manera de celebrar los momentos de la vida, como bautizos, matrimonios y funerales."
-        ),
-        _react2.default.createElement(
-          "p",
-          null,
-          "Lo importante de cada uno de estos ",
-          _react2.default.createElement(
-            "b",
-            null,
-            "componentes"
-          ),
-          " es que nos definen como seres humanos, como comunidad y como pa\xEDs, nos d\xE1n la ",
-          _react2.default.createElement(
-            "b",
-            null,
-            "identidad"
-          ),
-          " ante nosotros mismos y los dem\xE1s."
-        ),
-        _react2.default.createElement(
-          "p",
-          null,
-          "Dos ",
-          _react2.default.createElement(
-            "b",
-            null,
-            "elementos"
-          ),
-          " important\xEDsimos que definen al ",
-          _react2.default.createElement(
-            "b",
-            null,
-            "paname\xF1o"
-          ),
-          "  y que pueden diferenciar ",
-          _react2.default.createElement(
-            "b",
-            null,
-            "las costumbres"
-          ),
-          " de cada una de las regiones del pa\xEDs, para darle a cada lugar su propia identidad, Son los ",
-          _react2.default.createElement(
-            "a",
-            { href: "/vestuarios" },
-            "trajes t\xEDpicos"
-          ),
-          " y los ",
-          _react2.default.createElement(
-            "a",
-            { href: "danzas" },
-            "bailes o danzas folkl\xF3ricas"
-          ),
-          "."
-        ),
-        _react2.default.createElement(
-          "p",
-          null,
-          _react2.default.createElement(
-            "b",
-            null,
-            "Danzas"
-          ),
-          " como ",
-          _react2.default.createElement(
-            "a",
-            { href: "/danzas/El-Punto-Santeno" },
-            "el punto"
-          ),
-          " que nos hablan de la elegancia y ceremonia que nos trajeron los espa\xF1oles, el Gran Diablo es un reflejo de la llegada del cristianismo, ",
-          _react2.default.createElement(
-            "a",
-            { href: "/vestuarios/Pollera-Congo" },
-            "las polleras congo"
-          ),
-          " nos hablan de la ",
-          _react2.default.createElement(
-            "b",
-            null,
-            "cultura"
-          ),
-          " de los Africanos que vinieron en \xE9poca de colonia y se establecieron en la costa atl\xE1ntica."
-        ),
-        _react2.default.createElement(
-          "p",
-          null,
-          "Y as\xED se cuenta ",
-          _react2.default.createElement(
-            "b",
-            null,
-            "nuestra historia"
-          ),
-          " atrav\xE9s de la caja y el repicador, de la pollera montuna y de una m\xE1scara de diablico sucio. Caminamos en la vida con una cutarra y nos tapamos del sol con un sombrero pintao."
-        ),
-        _react2.default.createElement(
-          "p",
-          null,
-          "Creemos en la importancia de conocer de donde venimos para poder desarrollar un sentido de ",
-          _react2.default.createElement(
-            "b",
-            null,
-            "identidad"
-          ),
-          ", para poder tomar decisiones hacia el futuro, para cuidar el ",
-          _react2.default.createElement(
-            "b",
-            null,
-            "legado"
-          ),
-          " que nos dejaron las generaciones pasadas, para entender quienes somos y de donde venimos y poder as\xED saber hacia donde vamos."
-        )
-      )
-    )
-  );
-}
-
-/***/ }),
-/* 15 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = Apoyo;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Apoyo() {
-  return _react2.default.createElement(
-    "section",
-    { className: "inicioApoyo completa" },
-    _react2.default.createElement(
-      "article",
-      { className: "apoyoTexto mitad rosaTrans" },
-      _react2.default.createElement(
-        "hgroup",
-        null,
-        _react2.default.createElement(
-          "h2",
-          null,
-          "Origen de la Identidad del Paname\xF1o"
-        ),
-        _react2.default.createElement(
-          "h3",
-          null,
-          "Historia de las Tradiciones de Panam\xE1"
-        ),
-        _react2.default.createElement(
-          "p",
-          null,
-          "Gracias a su posici\xF3n estrat\xE9gica dentro de las am\xE9ricas nuestro pa\xEDs ha desarrollado una riqueza cultural y folkl\xF3rica inigualable. La combinacion entre las etnias ind\xEDgenas existentes antes de la conquista, la intromisi\xF3n europea y la llegada de los negros como esclavos ha permitido el enriquecimiento de la cultura de manera inigualable."
-        ),
-        _react2.default.createElement(
-          "p",
-          null,
-          "De acuerdo con las investigaciones se pudo apreciar como la vestimenta femenina y masculina fue aceptada y utilizada por los paname\xF1os a inicios del siglo XX, las polleras, chambras y otros vestidos fueron de uso com\xFAn en toda la rep\xFAblica. Actualmente podemos ver como las etnias ind\xEDgenas y los grupos congos mantienen sus tradiciones permitiendo la evoluci\xF3n al tener remplazo generacional y danzas vivas.        "
-        )
-      )
-    )
-  );
-}
-
-/***/ }),
-/* 16 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = Contacto;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Contacto() {
-  return _react2.default.createElement(
-    "section",
-    { "class": "contacto completa" },
-    _react2.default.createElement(
-      "article",
-      { "class": "contactoInfo rosaTrans" },
-      _react2.default.createElement(
-        "div",
-        null,
-        _react2.default.createElement(
-          "h2",
-          null,
-          "Cont\xE1ctenos:"
-        ),
-        _react2.default.createElement(
-          "h4",
-          null,
-          "Email:"
-        ),
-        _react2.default.createElement(
-          "p",
-          null,
-          "info@folkinlovepty.com"
-        ),
-        _react2.default.createElement(
-          "h4",
-          null,
-          "tel\xE9fono:"
-        ),
-        _react2.default.createElement(
-          "p",
-          null,
-          "6945-5931"
-        ),
-        _react2.default.createElement(
-          "form",
-          { action: "/contacto/send", method: "post" },
-          _react2.default.createElement("input", { type: "text", name: "nombre", placeholder: "Nombre" }),
-          _react2.default.createElement("input", { type: "text", name: "email", placeholder: "Email" }),
-          _react2.default.createElement("input", { type: "text", name: "asunto", placeholder: "Asunto" }),
-          _react2.default.createElement("textarea", { name: "mensaje", rows: "10", cols: "30", placeholder: "Envianos Tu Mensaje" }),
-          _react2.default.createElement("input", { type: "submit", name: "submit", value: "Enviar", "class": "btn negro" })
-        )
-      )
-    )
-  );
-}
-
-/***/ }),
-/* 17 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = Danzas;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _danzas = __webpack_require__(3);
-
-var _danzas2 = _interopRequireDefault(_danzas);
-
-var _tarjeta = __webpack_require__(4);
-
-var _tarjeta2 = _interopRequireDefault(_tarjeta);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-// import tarjeta from '../componentes/tarjeta'
-function Danzas() {
-  return _react2.default.createElement(
-    'main',
-    null,
-    _react2.default.createElement(
-      'section',
-      { className: 'portada', id: 'danzasPortada' },
-      _react2.default.createElement(
-        'picture',
-        { className: 'banner' },
-        _react2.default.createElement('source', { media: '(min-width: 801px)', srcSet: 'images/danzasBannerFull-1x.jpg 1x, images/danzasBannerFull-2x.jpg 2x' }),
-        _react2.default.createElement('source', { media: '(min-width: 541px)', srcSet: 'images/danzasBannerTab-1x.jpg 1x, images/danzasBannerTab-2x.jpg 2x' }),
-        _react2.default.createElement('source', { media: '(min-width: 10px)', srcSet: 'images/danzasBannerCel-1x.jpg 1x, images/danzasBannerCel-2x.jpg 2x' }),
-        _react2.default.createElement('img', { className: 'completa', src: 'images/danzasBannerCel.jpg', alt: 'Bailes T\xEDpicos de Panam\xE1, Baile Congo' })
-      ),
-      _react2.default.createElement(
-        'article',
-        { className: 'completa negroTrans' },
-        _react2.default.createElement(
-          'hgroup',
-          null,
-          _react2.default.createElement(
-            'h1',
-            null,
-            'Bailes T\xEDpicos de Panam\xE1'
-          ),
-          _react2.default.createElement(
-            'p',
-            null,
-            _react2.default.createElement(
-              'b',
-              null,
-              'Las danzas folkl\xF3ricas'
-            ),
-            ' paname\xF1as expresan las experiencias del hombre y la mujer, muchas de ellas son inspiradas en la faena diaria del trabajo en el campo, otras traen a colaci\xF3n ',
-            _react2.default.createElement(
-              'b',
-              null,
-              'costumbres'
-            ),
-            ', rituales religiosos y celebraciones.'
-          )
-        )
-      )
-    ),
-    _react2.default.createElement(
-      'section',
-      { className: 'lista blanco' },
-      _react2.default.createElement(
-        'div',
-        { className: 'listaCont' },
-        _danzas2.default.map(function (danza) {
-          return (0, _tarjeta2.default)("danzas", danza);
-        })
-      )
-    ),
-    _react2.default.createElement(
-      'section',
-      { className: 'completa blanco videoPasos' },
-      _react2.default.createElement(
-        'h2',
-        null,
-        'Pasos B\xE1sicos de los Danzas T\xEDpicas Paname\xF1as'
-      ),
-      _react2.default.createElement('iframe', { src: 'https://www.youtube.com/embed/x7HdglWtujg?rel=0', frameBorder: '0', allow: 'autoplay; encrypted-media', allowFullScreen: true }),
-      _react2.default.createElement(
-        'hgroup',
-        { className: 'blogStyle' },
-        _react2.default.createElement(
-          'p',
-          null,
-          'A diferencia de otros pa\xEDses de latinoam\xE9rica, donde los bailes no tiene una estructura marcada y los pasos cambian a voluntad del bailar\xEDn, en Panam\xE1 si tenemos una serie de ',
-          _react2.default.createElement(
-            'b',
-            null,
-            'pasos estructurados'
-          ),
-          '  que son guiados por los ',
-          _react2.default.createElement(
-            'b',
-            null,
-            'cambios de la m\xFAsica'
-          ),
-          '.'
-        ),
-        _react2.default.createElement(
-          'h3',
-          null,
-          'El Paseo'
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'El Paseo es el ',
-          _react2.default.createElement(
-            'b',
-            null,
-            'paso b\xE1sico por excelencia'
-          ),
-          ' , ya que con \xE9l se inician la mayor\xEDa de los bailes, como es el caso de la Cumbia Sante\xF1a.'
-        ),
-        _react2.default.createElement(
-          'h3',
-          null,
-          'Caida y Vuelta'
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'Son dos ',
-          _react2.default.createElement(
-            'b',
-            null,
-            'movimientos'
-          ),
-          ' que normalmente van juntos y marcan el cambio de un paso al otro. En algunos ',
-          _react2.default.createElement(
-            'b',
-            null,
-            'bailes'
-          ),
-          ' las ca\xEDdas son marcas y en\xE9rgicas mientras que en otros son sutiles y delicadas.'
-        ),
-        _react2.default.createElement(
-          'h3',
-          null,
-          'La Seguidilla'
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'Es un paso que se realiza frente a ',
-          _react2.default.createElement(
-            'b',
-            null,
-            'la pareja'
-          ),
-          '. El pi\xE9 que gu\xEDa va en punta y el que le sigue va arrastrando pasando por en frente, cuando cambias de direcci\xF3n el pi\xE9 que gu\xEDa cambia igualmente.'
-        ),
-        _react2.default.createElement(
-          'h3',
-          null,
-          'El Zapateo'
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'Este es uno de los pasos m\xE1s vistosos en las ',
-          _react2.default.createElement(
-            'b',
-            null,
-            'danzas folk\xF3ricas paname\xF1as'
-          ),
-          ', mientras la mujer lo ejecuta con gracia y sutileza, el hombre muestra su fuerza y destreza.'
-        ),
-        _react2.default.createElement(
-          'h3',
-          null,
-          'El Cruce'
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'En este paso, como su nombre lo indica, el hombre y la mujer se cruzan. Cada uno sale de su posici\xF3n con el pi\xE9 izquierdo, pasando de espaldas al lado de la pareja. Se cuentan cuatro pasos hacia adelante y cuatro pasos hacia atras.'
-        )
-      )
-    )
-  );
-}
-
-/***/ }),
-/* 18 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = Danza;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _danzas = __webpack_require__(3);
-
-var _danzas2 = _interopRequireDefault(_danzas);
-
-var _picture = __webpack_require__(19);
-
-var _picture2 = _interopRequireDefault(_picture);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Danza(props) {
-  var Baile = _danzas2.default.find(function (danza) {
-    return danza.url === props.match.params.url;
-  });
-  console.log(Baile);
-  return _react2.default.createElement(
-    'main',
-    null,
-    _react2.default.createElement(
-      'section',
-      { className: 'portada' },
-      (0, _picture2.default)(Baile.portadaImagen),
-      _react2.default.createElement(
-        'article',
-        { className: 'mitad rosaTrans' },
-        _react2.default.createElement(
-          'hgroup',
-          null,
-          _react2.default.createElement(
-            'h1',
-            null,
-            Baile.nombre
-          ),
-          _react2.default.createElement(
-            'p',
-            null,
-            Baile.reseña
-          )
-        )
-      )
-    ),
-    _react2.default.createElement(
-      'section',
-      null,
-      _react2.default.createElement('article', { className: 'tercio imagen', style: { background: 'url("/images/' + Baile.introImagen + '")', backgroundSize: 'cover' } }),
-      _react2.default.createElement(
-        'article',
-        { className: 'dosTercios blanco texto' },
-        Baile.intro
-      )
-    ),
-    _react2.default.createElement(
-      'section',
-      null,
-      _react2.default.createElement(
-        'article',
-        { className: 'completa texto info blanco' },
-        Baile.descripcion
-      )
-    ),
-    _react2.default.createElement(
-      'section',
-      null,
-      _react2.default.createElement(
-        'article',
-        { className: 'tercio blanco pasos' },
-        _react2.default.createElement(
-          'hgroup',
-          null,
-          _react2.default.createElement(
-            'h2',
-            null,
-            'Pasos de ',
-            Baile.nombre
-          ),
-          _react2.default.createElement(
-            'ul',
-            null,
-            Baile.pasos.map(function (paso) {
-              return _react2.default.createElement(
-                'li',
-                null,
-                paso
-              );
-            })
-          )
-        )
-      ),
-      _react2.default.createElement('article', { className: 'dosTercios imagenDoble', style: { background: 'url("/images/' + Baile.pasosImagen + '")', backgroundSize: 'cover' } })
-    ),
-    _react2.default.createElement(
-      'article',
-      { className: 'completa texto info rosa' },
-      Baile.referencias
-    )
-  );
-}
-
-/***/ }),
-/* 19 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = Picture;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Picture(imagen) {
-
-  var tamaño1 = "/images/" + imagen + "Full-1x.jpg 1x, /images/" + imagen + "Full-2x.jpg 2x";
-  var tamaño2 = "/images/" + imagen + "Tab-1x.jpg 1x, /images/" + imagen + "Tab-2x.jpg 2x";
-  var tamaño3 = "/images/" + imagen + "Cel-1x.jpg 1x, /images/" + imagen + "Cel-2x.jpg 2x";
-  var tamaño4 = "/images/" + imagen + "Cel.jpg";
-
-  return _react2.default.createElement(
-    "picture",
-    { className: "banner" },
-    _react2.default.createElement("source", { media: "(min-width: 801px)", srcSet: tamaño1 }),
-    _react2.default.createElement("source", { media: "(min-width: 541px)", srcSet: tamaño2 }),
-    _react2.default.createElement("source", { media: "(min-width: 10px)", srcSet: tamaño3 }),
-    _react2.default.createElement("img", { "class": "completa", src: tamaño4, alt: "Bailes T\xEDpicos de Panam\xE1, Baile Congo" })
-  );
-}
-
-/***/ }),
-/* 20 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = vestuarios;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _vestuarios = __webpack_require__(21);
-
-var _vestuarios2 = _interopRequireDefault(_vestuarios);
-
-var _tarjeta = __webpack_require__(4);
-
-var _tarjeta2 = _interopRequireDefault(_tarjeta);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function vestuarios() {
-  return _react2.default.createElement(
-    'main',
-    null,
-    _react2.default.createElement(
-      'section',
-      { 'class': 'portada', id: 'vestuarioPortada' },
-      _react2.default.createElement(
-        'picture',
-        { 'class': 'banner' },
-        _react2.default.createElement('source', { media: '(min-width: 801px)', srcset: 'images/vestuariosBannerFull-1x.jpg 1x, images/vestuariosBannerFull-2x.jpg 2x' }),
-        _react2.default.createElement('source', { media: '(min-width: 541px)', srcset: 'images/vestuariosBannerTab-1x.jpg 1x, images/vestuariosBannerTab-2x.jpg 2x' }),
-        _react2.default.createElement('source', { media: '(min-width: 10px)', srcset: 'images/vestuariosBannerCel-1x.jpg 1x, images/vestuariosBannerCel-2x.jpg 2x' }),
-        _react2.default.createElement('img', { 'class': 'completa', src: 'images/vestuariosBannerCell-1x.jpg', alt: 'Trajes T\xEDpicos de Panam\xE1, Pollera de Lujo Sante\xF1a en Panam\xE1 Viejo' })
-      ),
-      _react2.default.createElement(
-        'article',
-        { className: 'completa negroTrans' },
-        _react2.default.createElement(
-          'hgroup',
-          null,
-          _react2.default.createElement(
-            'h1',
-            null,
-            'Vestuarios Paname\xF1os'
-          ),
-          _react2.default.createElement(
-            'p',
-            null,
-            'Los vestidos t\xEDpicos de nuestro pa\xEDs son de gran valor y nos muestran la singularidad de cada pueblo y como de acuerdo al lugar de donde vienen expresan las vivencias y situaciones del hombre y la mujer paname\xF1a.'
-          )
-        )
-      )
-    ),
-    _react2.default.createElement(
-      'section',
-      { 'class': 'lista blanco' },
-      _react2.default.createElement(
-        'div',
-        { 'class': 'listaCont' },
-        _vestuarios2.default.map(function (vestuario) {
-          return (0, _tarjeta2.default)("vestuarios", vestuario);
-        })
-      )
-    )
-  );
-}
-
-/***/ }),
-/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2512,7 +1839,1527 @@ exports.default = [{
 }];
 
 /***/ }),
+/* 7 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _express = __webpack_require__(8);
+
+var _express2 = _interopRequireDefault(_express);
+
+var _cors = __webpack_require__(9);
+
+var _cors2 = _interopRequireDefault(_cors);
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _server = __webpack_require__(10);
+
+var _reactRouterDom = __webpack_require__(2);
+
+var _serializeJavascript = __webpack_require__(11);
+
+var _serializeJavascript2 = _interopRequireDefault(_serializeJavascript);
+
+var _App = __webpack_require__(12);
+
+var _App2 = _interopRequireDefault(_App);
+
+var _routes = __webpack_require__(3);
+
+var _routes2 = _interopRequireDefault(_routes);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var app = (0, _express2.default)();
+
+app.use((0, _cors2.default)());
+app.use(_express2.default.static("public"));
+
+app.get("*", function (req, res, next) {
+  var activeRoute = _routes2.default.find(function (route) {
+    return (0, _reactRouterDom.matchPath)(req.url, route);
+  }) || {};
+  var seo = activeRoute.seo ? activeRoute.seo(req.url.split('/')[2]) : { title: '', description: '' };
+
+  var promise = activeRoute.fetchInitialData ? activeRoute.fetchInitialData(req.path) : Promise.resolve();
+
+  promise.then(function (data) {
+    var context = { data: data };
+
+    var markup = (0, _server.renderToString)(_react2.default.createElement(
+      _reactRouterDom.StaticRouter,
+      { location: req.url, context: context },
+      _react2.default.createElement(_App2.default, null)
+    ));
+
+    res.send("\n      <!DOCTYPE html>\n      <html>\n        <head id=\"headTag\">\n          <meta charset=\"UTF-8\">\n          <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=no\"><meta name=\"google-site-verification\" content=\"A8E9MrD4Av9bQbh6y4jcxY4I-yoSDqg8yuMCsidXEIU\" />\n          <script async src=\"https://cdn.ampproject.org/v0.js\"></script>\n          <title>" + seo.title + "</title>\n          <link rel=\"stylesheet\" href=\"/index.css\">\n          <script src=\"/bundle.js\" defer></script>\n          <link rel='apple-touch-icon', sizes='57x57', href='/images/apple-icon-57x57.png'/>\n          <link rel='apple-touch-icon', sizes='60x60', href='/images/apple-icon-60x60.png'/>\n          <link rel='apple-touch-icon', sizes='72x72', href='/images/apple-icon-72x72.png'/>\n          <link rel='apple-touch-icon', sizes='76x76', href='/images/apple-icon-76x76.png'/>\n          <link rel='apple-touch-icon', sizes='114x114', href='/images/apple-icon-114x114.png'/>\n          <link rel='apple-touch-icon', sizes='120x120', href='/images/apple-icon-120x120.png'/>\n          <link rel='apple-touch-icon', sizes='144x144', href='/images/apple-icon-144x144.png'/>\n          <link rel='apple-touch-icon', sizes='152x152', href='/images/apple-icon-152x152.png'/>\n          <link rel='apple-touch-icon', sizes='180x180', href='/images/apple-icon-180x180.png'/>\n          <link rel='icon', type='image/png', sizes='192x192', href='/images/android-icon-192x192.png'/>\n          <link rel='icon', type='image/png', sizes='32x32', href='/images/favicon-32x32.png'/>\n          <link rel='icon', type='image/png', sizes='96x96', href='/images/favicon-96x96.png'/>\n          <link rel='icon', type='image/png', sizes='16x16', href='/images/favicon-16x16.png'/>\n          <link rel='manifest', href='/images/manifest.json'/>\n          <meta name='msapplication-TileColor', content='#ffffff'/>\n          <meta name='msapplication-TileImage', content='/images/ms-icon-144x144.png'/>\n          <meta name='theme-color', content='#ffffff'/>\n          <meta property=\"og:title\" content=\"" + seo.title + "\"/>\n          <meta name='description' content=\"" + seo.description + "\"/>\n          <meta property=\"og:type\" content=\"article\"/> \n          <meta property=\"og:url\" content= \"" + seo.link + "\"/> \n          <meta property=\"og:image\" content = \"" + seo.image + "\"/>\n          <meta property='og:description', content=\"" + seo.description + "\"/>\n          <script type='application/ld+json'>\n          {\n           \"@context\": \"http://schema.org\",\n           \"@type\": \"" + seo.schemaType + "\", \n           \"mainEntityOfPage\": {\n           \"@type\": \"WebPage\",\n           \"@id\": \"https://folkinlovepty.com/\"\n           },\n           \"headline\": \"" + seo.title + "\",\n           \"image\": \"" + seo.schemaImages + "\" ,\n           \"datePublished\": \"" + seo.schemaPublished + "\",\n           \"dateModified\": \"" + seo.schemaModified + "\",\n           \"author\": {\n           \"@type\": \"Person\",\n           \"name\": \"Cinthia Gonz\xE1lez\"\n           },\n           \"publisher\": {\n           \"@type\": \"Organization\",\n           \"name\": \"Folk in Love\",\n           \"logo\": {\n           \"@type\": \"ImageObject\",\n           \"url\": \"https://folkinlovepty.com/images/folkInLove-logo.png\"\n           }\n           },\n           \"description\": \"" + seo.description + "\"\n           }\n\n          </script>\n          <script>\n            !function(f,b,e,v,n,t,s)\n            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?\n            n.callMethod.apply(n,arguments):n.queue.push(arguments)};\n            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\n            n.queue=[];t=b.createElement(e);t.async=!0;\n            t.src=v;s=b.getElementsByTagName(e)[0];\n            s.parentNode.insertBefore(t,s)}(window, document,'script',\n            'https://connect.facebook.net/en_US/fbevents.js');\n            fbq('init', '2556254097725082');\n            fbq('track', 'PageView');\n          </script>\n          <noscript>\n            img(height='1', width='1', style='display:none', src='https://www.facebook.com/tr?id=2556254097725082&ev=PageView&noscript=1')</noscript>\n          <script>window.__INITIAL_DATA__ = " + (0, _serializeJavascript2.default)(data) + "</script>\n        </head>\n\n        <body>\n          <div id=\"app\">" + markup + "</div>\n        </body>\n      </html>\n    ");
+  }).catch(next);
+});
+
+app.listen(3000, function () {
+  console.log("Server is listening on port: 3000");
+});
+
+/*
+  1) Just get shared App rendering to string on server then taking over on client.
+  2) Pass data to <App /> on server. Show diff. Add data to window then pick it up on the client too.
+  3) Instead of static data move to dynamic data (github gists)
+  4) add in routing.
+*/
+
+/***/ }),
+/* 8 */
+/***/ (function(module, exports) {
+
+module.exports = require("express");
+
+/***/ }),
+/* 9 */
+/***/ (function(module, exports) {
+
+module.exports = require("cors");
+
+/***/ }),
+/* 10 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-dom/server");
+
+/***/ }),
+/* 11 */
+/***/ (function(module, exports) {
+
+module.exports = require("serialize-javascript");
+
+/***/ }),
+/* 12 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _routes = __webpack_require__(3);
+
+var _routes2 = _interopRequireDefault(_routes);
+
+var _reactRouterDom = __webpack_require__(2);
+
+var _NoMatch = __webpack_require__(27);
+
+var _NoMatch2 = _interopRequireDefault(_NoMatch);
+
+var _Navbar = __webpack_require__(28);
+
+var _Navbar2 = _interopRequireDefault(_Navbar);
+
+var _footer = __webpack_require__(29);
+
+var _footer2 = _interopRequireDefault(_footer);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var App = function (_Component) {
+  _inherits(App, _Component);
+
+  function App() {
+    _classCallCheck(this, App);
+
+    return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).apply(this, arguments));
+  }
+
+  _createClass(App, [{
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(_Navbar2.default, null),
+        _react2.default.createElement(
+          _reactRouterDom.Switch,
+          null,
+          _routes2.default.map(function (_ref) {
+            var path = _ref.path,
+                exact = _ref.exact,
+                Component = _ref.component,
+                rest = _objectWithoutProperties(_ref, ['path', 'exact', 'component']);
+
+            return _react2.default.createElement(_reactRouterDom.Route, { key: path, path: path, exact: exact, render: function render(props) {
+                return _react2.default.createElement(Component, _extends({}, props, rest));
+              } });
+          }),
+          _react2.default.createElement(_reactRouterDom.Route, { render: function render(props) {
+              return _react2.default.createElement(_NoMatch2.default, props);
+            } })
+        ),
+        _react2.default.createElement(_footer2.default, null)
+      );
+    }
+  }]);
+
+  return App;
+}(_react.Component);
+
+exports.default = App;
+
+/***/ }),
+/* 13 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Inicio;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _banner = __webpack_require__(14);
+
+var _banner2 = _interopRequireDefault(_banner);
+
+var _about = __webpack_require__(15);
+
+var _about2 = _interopRequireDefault(_about);
+
+var _identidad = __webpack_require__(16);
+
+var _identidad2 = _interopRequireDefault(_identidad);
+
+var _apoyo = __webpack_require__(17);
+
+var _apoyo2 = _interopRequireDefault(_apoyo);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Inicio() {
+  return _react2.default.createElement(
+    'main',
+    { className: 'home' },
+    _react2.default.createElement(_banner2.default, null),
+    _react2.default.createElement(_about2.default, null),
+    _react2.default.createElement(_identidad2.default, null),
+    _react2.default.createElement(_apoyo2.default, null)
+  );
+}
+
+/***/ }),
+/* 14 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Banner;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Banner() {
+  return _react2.default.createElement(
+    "section",
+    { className: "portada" },
+    _react2.default.createElement(
+      "picture",
+      { className: "banner" },
+      _react2.default.createElement("source", { media: "(min-width: 801px)", srcSet: "images/trajesTipicosPanamaBannerFull-2x.jpg 2x, images/trajesTipicosPanamaBannerFull-1x.jpg 1x" }),
+      _react2.default.createElement("source", { media: "(min-width: 541px)", srcSet: "images/trajesTipicosPanamaBannerTab-2x.jpg 2x, images/trajesTipicosPanamaBannerTab-1x.jpg 1x" }),
+      _react2.default.createElement("source", { media: "(min-width: 10px)", srcSet: "images/trajesTipicosPanamaBannerCel-2x.jpg 2x, images/trajesTipicosPanamaBannerCel-1x.jpg 1x" }),
+      _react2.default.createElement("img", { alt: "trajes tipicos de panama, pollera de lujo, pollera congo y montuna ocue\xF1a", className: "completa", src: "images/trajesTipicosPanamaBannerCel-1x.jpg" })
+    ),
+    _react2.default.createElement(
+      "articulo",
+      { className: "negroTrans completa texto" },
+      _react2.default.createElement(
+        "hgroup",
+        { className: "portadaTitulo" },
+        _react2.default.createElement(
+          "h1",
+          { className: "logoLetras" },
+          _react2.default.createElement(
+            "span",
+            null,
+            "Investigaci\xF3n y Difusi\xF3n del Folklore de Panam\xE1 - Folk in Love"
+          )
+        ),
+        _react2.default.createElement(
+          "h3",
+          null,
+          "La Nueva Manera de Ver el Folklore"
+        )
+      )
+    )
+  );
+}
+
+/***/ }),
+/* 15 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = About;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function About() {
+  return _react2.default.createElement(
+    "section",
+    { className: "inicioAbout completa" },
+    _react2.default.createElement(
+      "article",
+      { className: "aboutTexto mitad blanco" },
+      _react2.default.createElement(
+        "hgroup",
+        null,
+        _react2.default.createElement(
+          "h2",
+          null,
+          "\xBFQu\xE9 es Folk in love?"
+        ),
+        _react2.default.createElement(
+          "h3",
+          null,
+          "Conoce M\xE1s de las costumbres y tradiciones de Panam\xE1"
+        ),
+        _react2.default.createElement(
+          "p",
+          null,
+          "En ",
+          _react2.default.createElement(
+            "b",
+            null,
+            "Folk in love"
+          ),
+          " nos dedicamos a la investigaci\xF3n, difusi\xF3n, promoci\xF3n y conservaci\xF3n del ",
+          _react2.default.createElement(
+            "b",
+            null,
+            "folklore Paname\xF1o"
+          ),
+          ", queremos ofrecer un espacio en donde se pueda encontrar informaci\xF3n de calidad respaldada por investigaciones y fuentes confiables que puedan servir de referencia para bailarines, maestros, vestuaristas, estudiantes y amantes de la ",
+          _react2.default.createElement(
+            "b",
+            null,
+            "Cultura de Panam\xE1"
+          ),
+          "."
+        ),
+        _react2.default.createElement(
+          "p",
+          null,
+          "Buscamos realizar ",
+          _react2.default.createElement(
+            "b",
+            null,
+            "aportes culturales"
+          ),
+          " mediante art\xEDculos escritos, ",
+          _react2.default.createElement(
+            "a",
+            { href: "/tienda" },
+            "productos"
+          ),
+          ", ",
+          _react2.default.createElement(
+            "a",
+            { href: "/tienda/fotografia" },
+            "fotograf\xEDas"
+          ),
+          " y videos sobre los ",
+          _react2.default.createElement(
+            "a",
+            { href: "/vestuarios" },
+            "vestidos"
+          ),
+          " y ",
+          _react2.default.createElement(
+            "a",
+            { href: "/danzas" },
+            "bailes t\xEDpicos"
+          ),
+          ", ",
+          _react2.default.createElement(
+            "b",
+            null,
+            "origen"
+          ),
+          " de las manifestaciones folk\xF3ricas, ",
+          _react2.default.createElement(
+            "b",
+            null,
+            "elementos"
+          ),
+          " de las diferentes tradiciones, entre otros."
+        )
+      )
+    ),
+    _react2.default.createElement("img", { src: "images/moneda-coronada-full.jpg", alt: "Joya de la Pollera, Moneda Coronada", className: "aboutImagen mitad foto" })
+  );
+}
+
+/***/ }),
+/* 16 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Identidad;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Identidad() {
+  return _react2.default.createElement(
+    "div",
+    { className: "inicioIdentidad" },
+    _react2.default.createElement(
+      "article",
+      { className: "identidadImagenes" },
+      _react2.default.createElement(
+        "a",
+        { href: "/vestuarios/Gala-Ocuena", className: "identidadImagen  tercio" },
+        _react2.default.createElement(
+          "picture",
+          null,
+          _react2.default.createElement("source", { media: "(min-width: 800px)", srcSet: "images/pollera-gala-ocu-identidad-full.jpg" }),
+          _react2.default.createElement("img", { src: "images/pollera-gala-ocu-identidad-cel.jpg", alt: "Pollera de Gala Ocue\xF1a, traje tipico de la regi\xF3n de azuero, Panama", className: " tercio identidadFotos" })
+        ),
+        _react2.default.createElement(
+          "div",
+          { className: "identidadInfo negroTrans" },
+          _react2.default.createElement(
+            "hgroup",
+            null,
+            _react2.default.createElement(
+              "h5",
+              null,
+              "Pollera de Gala Ocue\xF1a"
+            ),
+            _react2.default.createElement(
+              "h6",
+              null,
+              "Azuero"
+            )
+          )
+        )
+      ),
+      _react2.default.createElement(
+        "a",
+        { href: "/vestuarios/Pollera-Congo", className: "identidadImagen tercio" },
+        _react2.default.createElement(
+          "picture",
+          null,
+          _react2.default.createElement("source", { media: "(min-width: 800px)", srcSet: "images/pollera-congo-identidad-full.jpg" }),
+          _react2.default.createElement("img", { src: "images/pollera-congo-identidad-cel.jpg", alt: "Pollera Congo, traje tipico de la regi\xF3n de Col\xF3n, Panama", className: " tercio identidadFotos" })
+        ),
+        _react2.default.createElement(
+          "div",
+          { className: "identidadInfo negroTrans" },
+          _react2.default.createElement(
+            "hgroup",
+            null,
+            _react2.default.createElement(
+              "h5",
+              null,
+              "Pollera Congo"
+            ),
+            _react2.default.createElement(
+              "h6",
+              null,
+              "Col\xF3n"
+            )
+          )
+        )
+      ),
+      _react2.default.createElement(
+        "a",
+        { href: "/vestuarios/Pollera-De-Lujo", className: "identidadImagen identidad1 tercio" },
+        _react2.default.createElement(
+          "picture",
+          null,
+          _react2.default.createElement("source", { media: "(min-width: 800px)", srcSet: "images/pollera-lujo-losantos-identidad-full.jpg" }),
+          _react2.default.createElement("img", { src: "images/pollera-lujo-losantos-identidad-cel.jpg", alt: "Pollera de lujo sante\xF1a, traje tipico de la regi\xF3n de azuero, Panama", className: " tercio identidadFotos" })
+        ),
+        _react2.default.createElement(
+          "div",
+          { className: "identidadInfo negroTrans" },
+          _react2.default.createElement(
+            "hgroup",
+            null,
+            _react2.default.createElement(
+              "h5",
+              null,
+              "Pollera De Lujo"
+            ),
+            _react2.default.createElement(
+              "h6",
+              null,
+              "Azuero"
+            )
+          )
+        )
+      )
+    ),
+    _react2.default.createElement(
+      "article",
+      { className: "identidadTexto completa blanco" },
+      _react2.default.createElement(
+        "hgroup",
+        null,
+        _react2.default.createElement(
+          "h2",
+          null,
+          "Elementos de Nuestro Folklore"
+        ),
+        _react2.default.createElement(
+          "h3",
+          null,
+          "Investigando Sobre las Costumbres de Cada Regi\xF3n"
+        ),
+        _react2.default.createElement(
+          "p",
+          null,
+          "Son Muchos los ",
+          _react2.default.createElement(
+            "b",
+            null,
+            "elementos"
+          ),
+          "  que forman parte de la ",
+          _react2.default.createElement(
+            "b",
+            null,
+            "cultura y el folklore"
+          ),
+          "  de un pa\xEDs. Desde peque\xF1os y abstactos como pueden ser cuentos infantiles y rimas; Objetos como ",
+          _react2.default.createElement(
+            "a",
+            { href: "/vestuarios" },
+            "vestidos tradicionales"
+          ),
+          " e instrumentos musicales; O m\xE1s trascendentales como rituales religiosos o festivos as\xED como la manera de celebrar los momentos de la vida, como bautizos, matrimonios y funerales."
+        ),
+        _react2.default.createElement(
+          "p",
+          null,
+          "Lo importante de cada uno de estos ",
+          _react2.default.createElement(
+            "b",
+            null,
+            "componentes"
+          ),
+          " es que nos definen como seres humanos, como comunidad y como pa\xEDs, nos d\xE1n la ",
+          _react2.default.createElement(
+            "b",
+            null,
+            "identidad"
+          ),
+          " ante nosotros mismos y los dem\xE1s."
+        ),
+        _react2.default.createElement(
+          "p",
+          null,
+          "Dos ",
+          _react2.default.createElement(
+            "b",
+            null,
+            "elementos"
+          ),
+          " important\xEDsimos que definen al ",
+          _react2.default.createElement(
+            "b",
+            null,
+            "paname\xF1o"
+          ),
+          "  y que pueden diferenciar ",
+          _react2.default.createElement(
+            "b",
+            null,
+            "las costumbres"
+          ),
+          " de cada una de las regiones del pa\xEDs, para darle a cada lugar su propia identidad, Son los ",
+          _react2.default.createElement(
+            "a",
+            { href: "/vestuarios" },
+            "trajes t\xEDpicos"
+          ),
+          " y los ",
+          _react2.default.createElement(
+            "a",
+            { href: "danzas" },
+            "bailes o danzas folkl\xF3ricas"
+          ),
+          "."
+        ),
+        _react2.default.createElement(
+          "p",
+          null,
+          _react2.default.createElement(
+            "b",
+            null,
+            "Danzas"
+          ),
+          " como ",
+          _react2.default.createElement(
+            "a",
+            { href: "/danzas/El-Punto-Santeno" },
+            "el punto"
+          ),
+          " que nos hablan de la elegancia y ceremonia que nos trajeron los espa\xF1oles, el Gran Diablo es un reflejo de la llegada del cristianismo, ",
+          _react2.default.createElement(
+            "a",
+            { href: "/vestuarios/Pollera-Congo" },
+            "las polleras congo"
+          ),
+          " nos hablan de la ",
+          _react2.default.createElement(
+            "b",
+            null,
+            "cultura"
+          ),
+          " de los Africanos que vinieron en \xE9poca de colonia y se establecieron en la costa atl\xE1ntica."
+        ),
+        _react2.default.createElement(
+          "p",
+          null,
+          "Y as\xED se cuenta ",
+          _react2.default.createElement(
+            "b",
+            null,
+            "nuestra historia"
+          ),
+          " atrav\xE9s de la caja y el repicador, de la pollera montuna y de una m\xE1scara de diablico sucio. Caminamos en la vida con una cutarra y nos tapamos del sol con un sombrero pintao."
+        ),
+        _react2.default.createElement(
+          "p",
+          null,
+          "Creemos en la importancia de conocer de donde venimos para poder desarrollar un sentido de ",
+          _react2.default.createElement(
+            "b",
+            null,
+            "identidad"
+          ),
+          ", para poder tomar decisiones hacia el futuro, para cuidar el ",
+          _react2.default.createElement(
+            "b",
+            null,
+            "legado"
+          ),
+          " que nos dejaron las generaciones pasadas, para entender quienes somos y de donde venimos y poder as\xED saber hacia donde vamos."
+        )
+      )
+    )
+  );
+}
+
+/***/ }),
+/* 17 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Apoyo;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Apoyo() {
+  return _react2.default.createElement(
+    "section",
+    { className: "inicioApoyo completa" },
+    _react2.default.createElement(
+      "article",
+      { className: "apoyoTexto mitad rosaTrans" },
+      _react2.default.createElement(
+        "hgroup",
+        null,
+        _react2.default.createElement(
+          "h2",
+          null,
+          "Origen de la Identidad del Paname\xF1o"
+        ),
+        _react2.default.createElement(
+          "h3",
+          null,
+          "Historia de las Tradiciones de Panam\xE1"
+        ),
+        _react2.default.createElement(
+          "p",
+          null,
+          "Gracias a su posici\xF3n estrat\xE9gica dentro de las am\xE9ricas nuestro pa\xEDs ha desarrollado una riqueza cultural y folkl\xF3rica inigualable. La combinacion entre las etnias ind\xEDgenas existentes antes de la conquista, la intromisi\xF3n europea y la llegada de los negros como esclavos ha permitido el enriquecimiento de la cultura de manera inigualable."
+        ),
+        _react2.default.createElement(
+          "p",
+          null,
+          "De acuerdo con las investigaciones se pudo apreciar como la vestimenta femenina y masculina fue aceptada y utilizada por los paname\xF1os a inicios del siglo XX, las polleras, chambras y otros vestidos fueron de uso com\xFAn en toda la rep\xFAblica. Actualmente podemos ver como las etnias ind\xEDgenas y los grupos congos mantienen sus tradiciones permitiendo la evoluci\xF3n al tener remplazo generacional y danzas vivas.        "
+        )
+      )
+    )
+  );
+}
+
+/***/ }),
+/* 18 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Contacto;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Contacto() {
+  return _react2.default.createElement(
+    "section",
+    { "class": "contacto completa" },
+    _react2.default.createElement(
+      "article",
+      { "class": "contactoInfo rosaTrans" },
+      _react2.default.createElement(
+        "div",
+        null,
+        _react2.default.createElement(
+          "h2",
+          null,
+          "Cont\xE1ctenos:"
+        ),
+        _react2.default.createElement(
+          "h4",
+          null,
+          "Email:"
+        ),
+        _react2.default.createElement(
+          "p",
+          null,
+          "info@folkinlovepty.com"
+        ),
+        _react2.default.createElement(
+          "h4",
+          null,
+          "tel\xE9fono:"
+        ),
+        _react2.default.createElement(
+          "p",
+          null,
+          "6945-5931"
+        ),
+        _react2.default.createElement(
+          "form",
+          { action: "/contacto/send", method: "post" },
+          _react2.default.createElement("input", { type: "text", name: "nombre", placeholder: "Nombre" }),
+          _react2.default.createElement("input", { type: "text", name: "email", placeholder: "Email" }),
+          _react2.default.createElement("input", { type: "text", name: "asunto", placeholder: "Asunto" }),
+          _react2.default.createElement("textarea", { name: "mensaje", rows: "10", cols: "30", placeholder: "Envianos Tu Mensaje" }),
+          _react2.default.createElement("input", { type: "submit", name: "submit", value: "Enviar", "class": "btn negro" })
+        )
+      )
+    )
+  );
+}
+
+/***/ }),
+/* 19 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Danzas;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _danzas = __webpack_require__(4);
+
+var _danzas2 = _interopRequireDefault(_danzas);
+
+var _tarjeta = __webpack_require__(5);
+
+var _tarjeta2 = _interopRequireDefault(_tarjeta);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+// import tarjeta from '../componentes/tarjeta'
+function Danzas() {
+  return _react2.default.createElement(
+    'main',
+    null,
+    _react2.default.createElement(
+      'section',
+      { className: 'portada', id: 'danzasPortada' },
+      _react2.default.createElement(
+        'picture',
+        { className: 'banner' },
+        _react2.default.createElement('source', { media: '(min-width: 801px)', srcSet: 'images/danzasBannerFull-1x.jpg 1x, images/danzasBannerFull-2x.jpg 2x' }),
+        _react2.default.createElement('source', { media: '(min-width: 541px)', srcSet: 'images/danzasBannerTab-1x.jpg 1x, images/danzasBannerTab-2x.jpg 2x' }),
+        _react2.default.createElement('source', { media: '(min-width: 10px)', srcSet: 'images/danzasBannerCel-1x.jpg 1x, images/danzasBannerCel-2x.jpg 2x' }),
+        _react2.default.createElement('img', { className: 'completa', src: 'images/danzasBannerCel.jpg', alt: 'Bailes T\xEDpicos de Panam\xE1, Baile Congo' })
+      ),
+      _react2.default.createElement(
+        'article',
+        { className: 'completa negroTrans' },
+        _react2.default.createElement(
+          'hgroup',
+          null,
+          _react2.default.createElement(
+            'h1',
+            null,
+            'Bailes T\xEDpicos de Panam\xE1'
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            _react2.default.createElement(
+              'b',
+              null,
+              'Las danzas folkl\xF3ricas'
+            ),
+            ' paname\xF1as expresan las experiencias del hombre y la mujer, muchas de ellas son inspiradas en la faena diaria del trabajo en el campo, otras traen a colaci\xF3n ',
+            _react2.default.createElement(
+              'b',
+              null,
+              'costumbres'
+            ),
+            ', rituales religiosos y celebraciones.'
+          )
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'section',
+      { className: 'lista blanco' },
+      _react2.default.createElement(
+        'div',
+        { className: 'listaCont' },
+        _danzas2.default.map(function (danza) {
+          return (0, _tarjeta2.default)("danzas", danza);
+        })
+      )
+    ),
+    _react2.default.createElement(
+      'section',
+      { className: 'completa blanco videoPasos' },
+      _react2.default.createElement(
+        'h2',
+        null,
+        'Pasos B\xE1sicos de los Danzas T\xEDpicas Paname\xF1as'
+      ),
+      _react2.default.createElement('iframe', { src: 'https://www.youtube.com/embed/x7HdglWtujg?rel=0', frameBorder: '0', allow: 'autoplay; encrypted-media', allowFullScreen: true }),
+      _react2.default.createElement(
+        'hgroup',
+        { className: 'blogStyle' },
+        _react2.default.createElement(
+          'p',
+          null,
+          'A diferencia de otros pa\xEDses de latinoam\xE9rica, donde los bailes no tiene una estructura marcada y los pasos cambian a voluntad del bailar\xEDn, en Panam\xE1 si tenemos una serie de ',
+          _react2.default.createElement(
+            'b',
+            null,
+            'pasos estructurados'
+          ),
+          '  que son guiados por los ',
+          _react2.default.createElement(
+            'b',
+            null,
+            'cambios de la m\xFAsica'
+          ),
+          '.'
+        ),
+        _react2.default.createElement(
+          'h3',
+          null,
+          'El Paseo'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'El Paseo es el ',
+          _react2.default.createElement(
+            'b',
+            null,
+            'paso b\xE1sico por excelencia'
+          ),
+          ' , ya que con \xE9l se inician la mayor\xEDa de los bailes, como es el caso de la Cumbia Sante\xF1a.'
+        ),
+        _react2.default.createElement(
+          'h3',
+          null,
+          'Caida y Vuelta'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Son dos ',
+          _react2.default.createElement(
+            'b',
+            null,
+            'movimientos'
+          ),
+          ' que normalmente van juntos y marcan el cambio de un paso al otro. En algunos ',
+          _react2.default.createElement(
+            'b',
+            null,
+            'bailes'
+          ),
+          ' las ca\xEDdas son marcas y en\xE9rgicas mientras que en otros son sutiles y delicadas.'
+        ),
+        _react2.default.createElement(
+          'h3',
+          null,
+          'La Seguidilla'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Es un paso que se realiza frente a ',
+          _react2.default.createElement(
+            'b',
+            null,
+            'la pareja'
+          ),
+          '. El pi\xE9 que gu\xEDa va en punta y el que le sigue va arrastrando pasando por en frente, cuando cambias de direcci\xF3n el pi\xE9 que gu\xEDa cambia igualmente.'
+        ),
+        _react2.default.createElement(
+          'h3',
+          null,
+          'El Zapateo'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Este es uno de los pasos m\xE1s vistosos en las ',
+          _react2.default.createElement(
+            'b',
+            null,
+            'danzas folk\xF3ricas paname\xF1as'
+          ),
+          ', mientras la mujer lo ejecuta con gracia y sutileza, el hombre muestra su fuerza y destreza.'
+        ),
+        _react2.default.createElement(
+          'h3',
+          null,
+          'El Cruce'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'En este paso, como su nombre lo indica, el hombre y la mujer se cruzan. Cada uno sale de su posici\xF3n con el pi\xE9 izquierdo, pasando de espaldas al lado de la pareja. Se cuentan cuatro pasos hacia adelante y cuatro pasos hacia atras.'
+        )
+      )
+    )
+  );
+}
+
+/***/ }),
+/* 20 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Danza;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _danzas = __webpack_require__(4);
+
+var _danzas2 = _interopRequireDefault(_danzas);
+
+var _picture = __webpack_require__(21);
+
+var _picture2 = _interopRequireDefault(_picture);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Danza(props) {
+  var Baile = _danzas2.default.find(function (danza) {
+    return danza.url === props.match.params.url;
+  });
+  return _react2.default.createElement(
+    'main',
+    null,
+    _react2.default.createElement(
+      'section',
+      { className: 'portada' },
+      (0, _picture2.default)(Baile.portadaImagen),
+      _react2.default.createElement(
+        'article',
+        { className: 'mitad rosaTrans' },
+        _react2.default.createElement(
+          'hgroup',
+          null,
+          _react2.default.createElement(
+            'h1',
+            null,
+            Baile.nombre
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            Baile.reseña
+          )
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'section',
+      null,
+      _react2.default.createElement('article', { className: 'tercio imagen', style: { background: 'url("/images/' + Baile.introImagen + '")', backgroundSize: 'cover' } }),
+      _react2.default.createElement(
+        'article',
+        { className: 'dosTercios blanco texto' },
+        Baile.intro
+      )
+    ),
+    _react2.default.createElement(
+      'section',
+      null,
+      _react2.default.createElement(
+        'article',
+        { className: 'completa texto info blanco' },
+        Baile.descripcion
+      )
+    ),
+    _react2.default.createElement(
+      'section',
+      null,
+      _react2.default.createElement(
+        'article',
+        { className: 'tercio blanco pasos' },
+        _react2.default.createElement(
+          'hgroup',
+          null,
+          _react2.default.createElement(
+            'h2',
+            null,
+            'Pasos de ',
+            Baile.nombre
+          ),
+          _react2.default.createElement(
+            'ul',
+            null,
+            Baile.pasos.map(function (paso) {
+              return _react2.default.createElement(
+                'li',
+                null,
+                paso
+              );
+            })
+          )
+        )
+      ),
+      _react2.default.createElement('article', { className: 'dosTercios imagenDoble', style: { background: 'url("/images/' + Baile.pasosImagen + '")', backgroundSize: 'cover' } })
+    ),
+    _react2.default.createElement(
+      'article',
+      { className: 'completa texto info rosa' },
+      Baile.referencias
+    )
+  );
+}
+
+/***/ }),
+/* 21 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Picture;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Picture(imagen) {
+
+  var tamaño1 = "/images/" + imagen + "Full-1x.jpg 1x, /images/" + imagen + "Full-2x.jpg 2x";
+  var tamaño2 = "/images/" + imagen + "Tab-1x.jpg 1x, /images/" + imagen + "Tab-2x.jpg 2x";
+  var tamaño3 = "/images/" + imagen + "Cel-1x.jpg 1x, /images/" + imagen + "Cel-2x.jpg 2x";
+  var tamaño4 = "/images/" + imagen + "Cel.jpg";
+
+  return _react2.default.createElement(
+    "picture",
+    { className: "banner" },
+    _react2.default.createElement("source", { media: "(min-width: 801px)", srcSet: tamaño1 }),
+    _react2.default.createElement("source", { media: "(min-width: 541px)", srcSet: tamaño2 }),
+    _react2.default.createElement("source", { media: "(min-width: 10px)", srcSet: tamaño3 }),
+    _react2.default.createElement("img", { "class": "completa", src: tamaño4, alt: "Bailes T\xEDpicos de Panam\xE1, Baile Congo" })
+  );
+}
+
+/***/ }),
 /* 22 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = vestuarios;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _vestuarios = __webpack_require__(6);
+
+var _vestuarios2 = _interopRequireDefault(_vestuarios);
+
+var _tarjeta = __webpack_require__(5);
+
+var _tarjeta2 = _interopRequireDefault(_tarjeta);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function vestuarios() {
+  return _react2.default.createElement(
+    'main',
+    null,
+    _react2.default.createElement(
+      'section',
+      { 'class': 'portada', id: 'vestuarioPortada' },
+      _react2.default.createElement(
+        'picture',
+        { 'class': 'banner' },
+        _react2.default.createElement('source', { media: '(min-width: 801px)', srcset: 'images/vestuariosBannerFull-1x.jpg 1x, images/vestuariosBannerFull-2x.jpg 2x' }),
+        _react2.default.createElement('source', { media: '(min-width: 541px)', srcset: 'images/vestuariosBannerTab-1x.jpg 1x, images/vestuariosBannerTab-2x.jpg 2x' }),
+        _react2.default.createElement('source', { media: '(min-width: 10px)', srcset: 'images/vestuariosBannerCel-1x.jpg 1x, images/vestuariosBannerCel-2x.jpg 2x' }),
+        _react2.default.createElement('img', { 'class': 'completa', src: 'images/vestuariosBannerCell-1x.jpg', alt: 'Trajes T\xEDpicos de Panam\xE1, Pollera de Lujo Sante\xF1a en Panam\xE1 Viejo' })
+      ),
+      _react2.default.createElement(
+        'article',
+        { className: 'completa negroTrans' },
+        _react2.default.createElement(
+          'hgroup',
+          null,
+          _react2.default.createElement(
+            'h1',
+            null,
+            'Vestuarios Paname\xF1os'
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            'Los vestidos t\xEDpicos de nuestro pa\xEDs son de gran valor y nos muestran la singularidad de cada pueblo y como de acuerdo al lugar de donde vienen expresan las vivencias y situaciones del hombre y la mujer paname\xF1a.'
+          )
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'section',
+      { 'class': 'lista blanco' },
+      _react2.default.createElement(
+        'div',
+        { 'class': 'listaCont' },
+        _vestuarios2.default.map(function (vestuario) {
+          return (0, _tarjeta2.default)("vestuarios", vestuario);
+        })
+      )
+    )
+  );
+}
+
+/***/ }),
+/* 23 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Vestuario;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _vestuarios = __webpack_require__(6);
+
+var _vestuarios2 = _interopRequireDefault(_vestuarios);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Vestuario(props) {
+  var Vestido = _vestuarios2.default.find(function (vestuario) {
+    return vestuario.url === props.match.params.url;
+  });
+  return _react2.default.createElement(
+    'main',
+    { itemScope: true, itemType: 'http://schema.org/Article' },
+    _react2.default.createElement(
+      'section',
+      { className: 'portada' },
+      _react2.default.createElement(
+        'picture',
+        { className: 'banner' },
+        _react2.default.createElement('source', { media: '(min-width: 800px)', srcSet: Vestido.portadaImagenFull }),
+        _react2.default.createElement('source', { media: '(min-width: 541px)', srcSet: Vestido.portadaImagenTab }),
+        _react2.default.createElement('source', { media: '(min-width: 200px)', srcSet: Vestido.portadaImagenCel }),
+        _react2.default.createElement('img', { className: 'completa', src: Vestido.portadaImagen, alt: Vestido.nombre })
+      ),
+      _react2.default.createElement(
+        'article',
+        { className: 'mitad rosaTrans' },
+        _react2.default.createElement(
+          'hgroup',
+          null,
+          _react2.default.createElement(
+            'h1',
+            { itemProp: 'name' },
+            Vestido.nombre
+          ),
+          _react2.default.createElement(
+            'p',
+            { itemProp: 'description' },
+            Vestido.reseña
+          )
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'section',
+      { itemProp: 'articleBody', className: 'completa texto info blanco' },
+      Vestido.antecedentes
+    ),
+    _react2.default.createElement(
+      'section',
+      { className: 'completa portada', style: { background: "url('" + Vestido.generalImagen + "')", backgroundSize: "cover", backgroundAttachment: "fixed" } },
+      _react2.default.createElement(
+        'article',
+        { itemProp: 'articleBody', className: 'mitad negroTrans texto' },
+        _react2.default.createElement(
+          'hgroup',
+          null,
+          _react2.default.createElement(
+            'p',
+            null,
+            Vestido.general
+          )
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'section',
+      { itemProp: 'articleBody', className: 'completa texto info blanco' },
+      Vestido.descripcion
+    ),
+    Vestido.extra,
+    Vestido.extra2
+  );
+}
+
+/***/ }),
+/* 24 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Tienda;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _catalogo = __webpack_require__(1);
+
+var _catalogo2 = _interopRequireDefault(_catalogo);
+
+var _tarjeta = __webpack_require__(25);
+
+var _tarjeta2 = _interopRequireDefault(_tarjeta);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Tienda(props) {
+
+  return _react2.default.createElement(
+    'main',
+    null,
+    _react2.default.createElement(
+      'section',
+      { 'class': 'portada' },
+      _react2.default.createElement(
+        'picture',
+        { 'class': 'banner' },
+        _react2.default.createElement('source', { media: '(min-width: 801px)', srcset: 'images/tiendaBannerFull-1x.jpg 1x, images/tiendaBannerFull-2x.jpg 2x' }),
+        _react2.default.createElement('source', { media: '(min-width: 541px)', srcset: 'images/tiendaBannerTab-1x.jpg 1x, images/tiendaBannerTab-2x.jpg 2x' }),
+        _react2.default.createElement('source', { media: '(min-width: 10px)', srcset: 'images/tiendaBannerCel-1x.jpg 1x, images/tiendaBannerCel-2x.jpg 2x' }),
+        _react2.default.createElement('img', { 'class': 'completa', alt: 'Foto de Pollera De Lujo Sante\xF1a, traje tipico de panam\xE1, en Panam\xE1 Viejo', src: 'images/tiendaBannerCell-1x.jpg' })
+      ),
+      _react2.default.createElement(
+        'article',
+        { className: 'completa negroTrans' },
+        _react2.default.createElement(
+          'hgroup',
+          null,
+          _react2.default.createElement(
+            'h1',
+            null,
+            'Productos y Servicios Folkl\xF3ricos'
+          )
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'section',
+      { 'class': 'lista blanco' },
+      _react2.default.createElement(
+        'div',
+        { 'class': 'listaCont' },
+        _catalogo2.default.map(function (Producto) {
+          return (0, _tarjeta2.default)(Producto);
+        })
+      )
+    )
+  );
+}
+
+/***/ }),
+/* 25 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Tarjeta;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Tarjeta(producto) {
+  var url = "/tienda/" + producto.enlace;
+  return _react2.default.createElement(
+    "a",
+    { "class": "tarjeta tiendaTarjeta", href: url },
+    _react2.default.createElement(
+      "picture",
+      null,
+      _react2.default.createElement("source", { media: "(min-width: 800px)", srcset: producto.miniaturaFull }),
+      _react2.default.createElement("img", { src: producto.miniaturaCel, alt: producto.alt, "class": "tarjetaImagen" })
+    ),
+    _react2.default.createElement(
+      "div",
+      { "class": "tarjetaInfo" },
+      _react2.default.createElement(
+        "hgroup",
+        null,
+        _react2.default.createElement(
+          "h2",
+          null,
+          producto.nombre
+        ),
+        _react2.default.createElement(
+          "h3",
+          null,
+          producto.subtitulo
+        ),
+        _react2.default.createElement(
+          "h4",
+          null,
+          "Descripci\xF3n: "
+        ),
+        _react2.default.createElement(
+          "p",
+          null,
+          producto.descripcion.substring(0, 90)
+        )
+      )
+    )
+  );
+}
+
+/***/ }),
+/* 26 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Producto;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _catalogo = __webpack_require__(1);
+
+var _catalogo2 = _interopRequireDefault(_catalogo);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Producto(props) {
+  var Producto = _catalogo2.default.find(function (producto) {
+    return producto.enlace === props.match.params.enlace;
+  });
+  function Template(opcion) {
+
+    return _react2.default.createElement(
+      "div",
+      { className: "opciones" },
+      _react2.default.createElement(
+        "h4",
+        null,
+        opcion.detalle
+      ),
+      _react2.default.createElement(
+        "h4",
+        null,
+        opcion.precio.toLocaleString("en-US", {
+          style: 'currency',
+          currency: 'USD'
+        })
+      ),
+      _react2.default.createElement(
+        "p",
+        null,
+        opcion.descripcion
+      )
+    );
+  }
+  var opciones = Producto.opciones.map(function (opcion) {
+    return Template(opcion);
+  });
+
+  return _react2.default.createElement(
+    "section",
+    { className: "completa producto" },
+    _react2.default.createElement(
+      "articulo",
+      { className: "tercio productoImagenes" },
+      _react2.default.createElement(
+        "picture",
+        null,
+        _react2.default.createElement("source", { media: "(min-width: 800px)", srcSet: Producto.imagenFull }),
+        _react2.default.createElement("img", { src: Producto.imagenCel, alt: Producto.alt })
+      )
+    ),
+    _react2.default.createElement(
+      "articulo",
+      { className: "dosTercios" },
+      _react2.default.createElement(
+        "div",
+        { className: "productoInfo" },
+        _react2.default.createElement(
+          "h1",
+          null,
+          Producto.nombre
+        ),
+        _react2.default.createElement(
+          "h3",
+          null,
+          Producto.subtitulo
+        ),
+        _react2.default.createElement(
+          "h2",
+          null,
+          "Opciones:"
+        ),
+        opciones
+      )
+    ),
+    Producto.articulo
+  );
+}
+
+/***/ }),
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2538,7 +3385,7 @@ function NoMatch() {
 }
 
 /***/ }),
-/* 23 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2595,8 +3442,8 @@ var NavBAr = function (_React$Component) {
         _react2.default.createElement(
           "a",
           { href: "/", className: "logoContainer" },
-          _react2.default.createElement("img", { src: "images/folkInLove-logo.png", alt: "logo de Folk in Love Pty", className: "logo" }),
-          _react2.default.createElement("img", { src: "images/folkInLove-letras-negro.png", alt: "Tipo de Folk in Love Pty", className: "tipo" })
+          _react2.default.createElement("img", { src: "/images/folkInLove-logo.png", alt: "logo de Folk in Love Pty", className: "logo" }),
+          _react2.default.createElement("img", { src: "/images/folkInLove-letras-negro.png", alt: "Tipo de Folk in Love Pty", className: "tipo" })
         ),
         _react2.default.createElement(
           "nav",
@@ -2642,7 +3489,7 @@ var NavBAr = function (_React$Component) {
 exports.default = NavBAr;
 
 /***/ }),
-/* 24 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2721,766 +3568,6 @@ function Footer() {
         )
       )
     )
-  );
-}
-
-/***/ }),
-/* 25 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = Vestuario;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _vestuarios = __webpack_require__(21);
-
-var _vestuarios2 = _interopRequireDefault(_vestuarios);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Vestuario(props) {
-  var Vestido = _vestuarios2.default.find(function (vestuario) {
-    return vestuario.url === props.match.params.url;
-  });
-  return _react2.default.createElement(
-    'main',
-    { itemScope: true, itemType: 'http://schema.org/Article' },
-    _react2.default.createElement(
-      'section',
-      { className: 'portada' },
-      _react2.default.createElement(
-        'picture',
-        { className: 'banner' },
-        _react2.default.createElement('source', { media: '(min-width: 800px)', srcSet: Vestido.portadaImagenFull }),
-        _react2.default.createElement('source', { media: '(min-width: 541px)', srcSet: Vestido.portadaImagenTab }),
-        _react2.default.createElement('source', { media: '(min-width: 200px)', srcSet: Vestido.portadaImagenCel }),
-        _react2.default.createElement('img', { className: 'completa', src: Vestido.portadaImagen, alt: Vestido.nombre })
-      ),
-      _react2.default.createElement(
-        'article',
-        { className: 'mitad rosaTrans' },
-        _react2.default.createElement(
-          'hgroup',
-          null,
-          _react2.default.createElement(
-            'h1',
-            { itemProp: 'name' },
-            Vestido.nombre
-          ),
-          _react2.default.createElement(
-            'p',
-            { itemProp: 'description' },
-            Vestido.reseña
-          )
-        )
-      )
-    ),
-    _react2.default.createElement(
-      'section',
-      { itemProp: 'articleBody', className: 'completa texto info blanco' },
-      Vestido.antecedentes
-    ),
-    _react2.default.createElement(
-      'section',
-      { className: 'completa portada', style: { background: "url('" + Vestido.generalImagen + "')", backgroundSize: "cover", backgroundAttachment: "fixed" } },
-      _react2.default.createElement(
-        'article',
-        { itemProp: 'articleBody', className: 'mitad negroTrans texto' },
-        _react2.default.createElement(
-          'hgroup',
-          null,
-          _react2.default.createElement(
-            'p',
-            null,
-            Vestido.general
-          )
-        )
-      )
-    ),
-    _react2.default.createElement(
-      'section',
-      { itemProp: 'articleBody', className: 'completa texto info blanco' },
-      Vestido.descripcion
-    ),
-    Vestido.extra,
-    Vestido.extra2
-  );
-}
-
-/***/ }),
-/* 26 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = Tienda;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _catalogo = __webpack_require__(27);
-
-var _catalogo2 = _interopRequireDefault(_catalogo);
-
-var _tarjeta = __webpack_require__(28);
-
-var _tarjeta2 = _interopRequireDefault(_tarjeta);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Tienda(props) {
-  return _react2.default.createElement(
-    'main',
-    null,
-    _react2.default.createElement(
-      'section',
-      { 'class': 'portada' },
-      _react2.default.createElement(
-        'picture',
-        { 'class': 'banner' },
-        _react2.default.createElement('source', { media: '(min-width: 801px)', srcset: 'images/tiendaBannerFull-1x.jpg 1x, images/tiendaBannerFull-2x.jpg 2x' }),
-        _react2.default.createElement('source', { media: '(min-width: 541px)', srcset: 'images/tiendaBannerTab-1x.jpg 1x, images/tiendaBannerTab-2x.jpg 2x' }),
-        _react2.default.createElement('source', { media: '(min-width: 10px)', srcset: 'images/tiendaBannerCel-1x.jpg 1x, images/tiendaBannerCel-2x.jpg 2x' }),
-        _react2.default.createElement('img', { 'class': 'completa', alt: 'Foto de Pollera De Lujo Sante\xF1a, traje tipico de panam\xE1, en Panam\xE1 Viejo', src: 'images/tiendaBannerCell-1x.jpg' })
-      ),
-      _react2.default.createElement(
-        'article',
-        { className: 'completa negroTrans' },
-        _react2.default.createElement(
-          'hgroup',
-          null,
-          _react2.default.createElement(
-            'h1',
-            null,
-            'Productos y Servicios Folkl\xF3ricos'
-          )
-        )
-      )
-    ),
-    _react2.default.createElement(
-      'section',
-      { 'class': 'lista blanco' },
-      _react2.default.createElement(
-        'div',
-        { 'class': 'listaCont' },
-        _catalogo2.default.map(function (Producto) {
-          return (0, _tarjeta2.default)(Producto);
-        })
-      )
-    )
-  );
-}
-
-/***/ }),
-/* 27 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = [{
-  metaTitle: 'Sesión de Fotos en Pollera',
-  metaDescripcion: '🎖Vive la EXPERIENCIA de lucir uno de los trajes típicos más hermosos del mundo. Folk in Love te ofrece 📷 sesiones de FOTOS que incluyen POLLERA, 💍 prendas, tembleques, 💄maquillaje, arreglo, sesión de fotos con asesoría de poses.',
-  nombre: 'Sesión de Fotografía',
-  enlace: 'fotos-en-traje-tipico',
-  subtitulo: 'en vestido típico',
-  descripcion: 'La sesión fotográfica incluye vestido típico, maquillaje, colocación de tembleques y prendas, asesoría con las poses y un minimo de 15 fotos editadas en biblioteca digital perzonalizada.',
-  miniaturaFull: '/images/fotografia-miniatura-full.jpg',
-  miniaturaCel: '/images/fotografia-miniatura-cel.jpg',
-  imagenFull: '/images/fotografia-imagen-full.jpg',
-  imagenCel: '/images/fotografia-imagen-cel.jpg',
-  alt: 'Sesión fotográfica de alta calidad, vestidos típicos de Panamá',
-  opciones: [{
-    detalle: 'Pollera de Lujo',
-    precio: 350
-  }, {
-    detalle: 'Pollera Blanca',
-    precio: 300
-  }, {
-    detalle: 'Pollera Montuna',
-    precio: 225
-  }, {
-    detalle: 'Pollera Congo',
-    precio: 175
-  }, {
-    detalle: 'Persona Adicional',
-    precio: 0,
-    descripcions: 'No se cobra adicional por las fotografías, sólo el costo del alquiler de cada vestuario. (consultar precios en la sección de alquiler de vestuarios)'
-  }],
-  articulo: _react2.default.createElement(
-    'section',
-    { className: 'articulo conGaleria' },
-    _react2.default.createElement(
-      'div',
-      { className: 'sesionGal' },
-      _react2.default.createElement(
-        'picture',
-        null,
-        _react2.default.createElement('source', { media: '(min-width: 10px )', srcSet: '/images/sesionFotosGaleriaCel1x-1.jpg 1x, /images/sesionFotosGaleriaCel2x-1.jpg 2x' }),
-        _react2.default.createElement('source', { media: '(min-width: 541px )', srcSet: '/images/sesionFotosGaleriaTab1x-1.jpg 1x, /images/sesionFotosGaleriaTab2x-1.jpg 2x' }),
-        _react2.default.createElement('source', { media: '(min-width: 801px )', srcSet: '/images/sesionFotosGaleriaFull1x-1.jpg 1x, /images/sesionFotosGaleriaFull2x-1.jpg 2x' }),
-        _react2.default.createElement('img', { src: '/images/sesionFotosGaleriaCel1x-1.jpg 1x', alt: 'Sesi\xF3n de Fotos en pollera en el lugar de la ciudad de Panam\xE1 que prefiera' })
-      ),
-      _react2.default.createElement(
-        'picture',
-        null,
-        _react2.default.createElement('source', { media: '(min-width: 10px )', srcSet: '/images/sesionFotosGaleriaCel1x-3.jpg 1x, /images/sesionFotosGaleriaCel2x-3.jpg 2x' }),
-        _react2.default.createElement('source', { media: '(min-width: 541px )', srcSet: '/images/sesionFotosGaleriaTab1x-3.jpg 1x, /images/sesionFotosGaleriaTab2x-3.jpg 2x' }),
-        _react2.default.createElement('source', { media: '(min-width: 801px )', srcSet: '/images/sesionFotosGaleriaFull1x-3.jpg 1x, /images/sesionFotosGaleriaFull2x-3.jpg 2x' }),
-        _react2.default.createElement('img', { src: '/images/sesionFotosGaleriaCel1x-3.jpg 1x', alt: 'Fotos de Alta Calidad en Vestidos T\xEDpicos de Panam\xE1' })
-      ),
-      _react2.default.createElement(
-        'picture',
-        null,
-        _react2.default.createElement('source', { media: '(min-width: 10px )', srcSet: '/images/sesionFotosGaleriaCel1x-2.jpg 1x, /images/sesionFotosGaleriaCel2x-2.jpg 2x' }),
-        _react2.default.createElement('source', { media: '(min-width: 541px )', srcSet: '/images/sesionFotosGaleriaTab1x-2.jpg 1x, /images/sesionFotosGaleriaTab2x-2.jpg 2x' }),
-        _react2.default.createElement('source', { media: '(min-width: 801px )', srcSet: '/images/sesionFotosGaleriaFull1x-2.jpg 1x, /images/sesionFotosGaleriaFull2x-2.jpg 2x' }),
-        _react2.default.createElement('img', { src: '/images/sesionFotosGaleriaCel1x-2.jpg 1x', alt: 'Fotograf\xEDa en Pollera y Vestidos T\xEDpicos de Panam\xE1. Alta calidad Fotogr\xE1fica, excelentes polleras, tembleques y Maquillaje' })
-      )
-    ),
-    _react2.default.createElement(
-      'articulo',
-      { className: 'completa texto' },
-      _react2.default.createElement(
-        'hgroup',
-        { className: 'blogStyle' },
-        _react2.default.createElement(
-          'h2',
-          null,
-          'La Experiencia de Ponerse un Vestido T\xEDpico Paname\xF1o'
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'Vestirse de pollera es una de las experiencias m\xE1s lindas que pueden tener todas las paname\xF1a. A lo largo de nuestro pa\xEDs las indumentarias tradicionales son muy variadas, pero describen la vida y las experiencias de las mujeres que las portaban.'
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'Hoy en d\xEDa se ha extendido el uso de la pollera de lujo porque es de incalculable belleza, pero no debemos olvidar las otras hermosas polleras y vestimentas que tiene nuestro pa\xEDs. Como, por ejemplo: los vestidos de diablo espejo, diablico sucio, diablicos limpios de la chorrera, indumentarias de faena, basqui\xF1a, chambra y camisola, etc...'
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'Realizarse una sesi\xF3n de fotos nos hace sentir hermosas, es una experiencia que nos saca de nuestra zona de confort y nos permite vivir una experiencia memorable, \xBFpor qu\xE9? porque adem\xE1s de tomarnos el tiempo para engalanarnos con un hermoso maquillaje, peinado, prendas y dem\xE1s accesorios, tendremos la experiencia de conocer los detalles de la confecci\xF3n del vestido t\xEDpico escogido y adem\xE1s conocer de primera mano c\xF3mo se siente la tela, el peso de los tembleques y mucho m\xE1s.'
-        ),
-        _react2.default.createElement(
-          'h2',
-          null,
-          'Descripci\xF3n de la Sesi\xF3n'
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'La aventura inicia desde que el equipo llega a arreglarte (lugar de conveniencia) en d\xF3nde tendr\xE1s la pollera y los accesorios que necesitar\xE1s para esta maravillosa experiencia. Luego pasamos al peinado y maquillaje, de ah\xED a colocar la pollera, las prendas y los accesorios de la cabeza'
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'Escogeremos un lugar m\xE1gico y emblem\xE1tico de Panam\xE1 para que sea el marco perfecto para tu sesi\xF3n de fotos.'
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'y listo, ahora solo queda disfrutar y divertirnos con cada momento.'
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'Nuestro equipo te contara la historia de estas polleras, detalles interesantes de la confecci\xF3n y adem\xE1s te ayudar\xE1 a que poses para que tus recuerdos sean como siempre los so\xF1aste.'
-        ),
-        _react2.default.createElement(
-          'h2',
-          null,
-          'Qu\xE9 Necesitas Para Tu Sesi\xF3n?'
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'Nuestro compromiso es hacer de ese d\xEDa un momento memorable, estas son algunas recomendaciones que nos ayudar\xE1n a hacer todo de forma m\xE1s \xE1gil:'
-        ),
-        _react2.default.createElement(
-          'ul',
-          null,
-          _react2.default.createElement(
-            'li',
-            null,
-            'Comer antes de tu sesi\xF3n'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Ropa interior Blanca'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Cabello Limpio'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Cejas arregladas'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'No usar perfume en el cuello'
-          )
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'Este video les explicar\xE1 un poco m\xE1s del proceso.'
-        ),
-        _react2.default.createElement(
-          'div',
-          { className: 'videoPasos texto' },
-          _react2.default.createElement('iframe', { width: '560', height: '315', src: 'https://www.youtube.com/embed/Y656jCpFLiM?rel=0', frameBorder: '0', allow: 'autoplay; encrypted-media', allowFullScreen: true })
-        ),
-        _react2.default.createElement(
-          'h2',
-          null,
-          'Detalles de Nuestro Servicio'
-        ),
-        _react2.default.createElement(
-          'ul',
-          null,
-          _react2.default.createElement(
-            'li',
-            null,
-            'No hay l\xEDmite de personas por Sesi\xF3n'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Horarios Flexibles'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Locaci\xF3n en exteriores o interiores'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'T\xFA escoges la locaci\xF3n que prefieras (si la locaci\xF3n tiene un costo, este debe ser cubierto por el cliente'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Atenci\xF3n personalizada'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Incluye Maquillaje y asesor\xEDa para las poses'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Varios paquetes a escoger'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Trajes para ni\xF1os disponibles'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Trajes para hombres disponibles'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Todos los vestidos disponibles en tallas S, M y L'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Te entregamos un m\xEDnimo de 15 fotos editadas en una plataforma virtual'
-          )
-        )
-      )
-    )
-  )
-}, {
-  metaTitle: 'Venta de Pollera Blanca para bebes, niñas, jovenes y adultas',
-  metaDescripcion: 'Pollera confeccionada en tela de organza, adornada con finos encajes de hilo.',
-  nombre: 'Pollera Blanca',
-  enlace: 'pollera-blanca',
-  subtitulo: 'Organza Bordada',
-  descripcion: 'Pollera confeccionada en tela de organza, adornada con finos encajes de hilo.',
-  miniaturaFull: '/images/organza-bordada-miniatura-full.jpg',
-  miniaturaCel: '/images/organza-bordada-miniatura-cel.jpg',
-  imagenFull: '/images/organza-bordada-producto-full.jpg',
-  imagenCel: '/images/organza-bordada-producto-cel.jpg',
-  alt: 'pollera blanca de organza bordada, traje tipico de panama',
-  opciones: [{
-    detalle: 'Bebes de 0 a 2 años (con una sola arandela)',
-    precio: 50.00
-  }, {
-    detalle: 'de 3 a 5 años (con 2 arandelas)',
-    precio: 100.00
-  }, {
-    detalle: 'de 6 a 10 años',
-    precio: 200.00
-  }, {
-    detalle: 'de 11 en adelante',
-    precio: 400.00
-  }]
-}, {
-  metaTitle: 'Venta de Pollera Congo para bebes, niñas, jovenes y adultas',
-  metaDescripcion: 'Pollera de retazos de tela de vistosos colores.',
-  nombre: 'Pollera Congo',
-  enlace: 'pollera-congo',
-  subtitulo: 'De Diferentes Clases',
-  descripcion: 'Pollera de retazos de tela de vistosos colores.',
-  miniaturaFull: '/images/pollera-congo-miniatura-full.jpg',
-  miniaturaCel: '/images/pollera-congo-miniatura-cel.jpg',
-  imagenFull: '/images/pollera-congo-producto-full.jpg',
-  imagenCel: '/images/pollera-congo-producto-cel.jpg',
-  alt: 'Pollera congo de retazos, vestuarios tipicos de panama',
-  opciones: [{
-    detalle: 'Niñas hasta 2 años',
-    precio: 45
-  }, {
-    detalle: 'Niñas hasta 10 años',
-    precio: 90
-  }, {
-    detalle: 'Adultos',
-    precio: 160
-  }]
-}, {
-  metaTitle: 'Venta de Polleras de lujo en Panamá',
-  metaDescripcion: 'Pollera de gala en técnica del talco al sol con calados y encajes valencianos.',
-  nombre: 'Pollera de Lujo',
-  enlace: 'pollera-lujo',
-  subtitulo: 'Talco al Sol',
-  descripcion: 'Pollera de gala en técnica del talco al sol con calados y encajes valencianos.',
-  miniaturaFull: '/images/pollera-lujo-miniatura-full.jpg',
-  miniaturaCel: '/images/pollera-lujo-miniatura-cel.jpg',
-  imagenFull: '/images/pollera-lujo-producto-full.jpg',
-  imagenCel: '/images/pollera-lujo-producto-cel.jpg',
-  alt: 'Pollera de Lujo, talco en sol, vestidos tipicos de Panama',
-  opciones: [{
-    detalle: 'Talco en Sol',
-    precio: 5000,
-    descripción: 'Tiempo de entrega 10 a 12 meses, durante ese tiempo se podrán ir efectuando pagos, el primer pago se debe hacer el día de la toma de las medidas.'
-  }]
-}, {
-  metaTitle: 'Confección de tembleques panameños blancos y en color',
-  metaDescripcion: 'Juego de 12 pares de flores.',
-  nombre: 'Tembleques',
-  enlace: 'tembleques',
-  subtitulo: 'blancos o en color',
-  descripcion: 'Juego de 12 pares de flores.',
-  miniaturaFull: '/images/tembleques-miniatura-full.jpg',
-  miniaturaCel: '/images/tembleques-miniatura-cel.jpg',
-  imagenFull: '/images/tembleques-producto-full.jpg',
-  imagenCel: '/images/tembleques-producto-cel.jpg',
-  alt: 'Cabeza de Tembleques, Accesorios Folklóricos Panameños',
-  opciones: [{
-    detalle: 'Niñas',
-    precio: 250
-  }, {
-    detalle: 'Adulta',
-    precio: 450
-  }, {
-    detalle: 'Tapamoños',
-    precio: 25
-  }]
-},
-//estas ya estaban comentadas
-// {
-//  metaTitle: 'Camisa',
-//metaDescripcion: 'Pollera de gala en técnica del talco al sol con calados y encajes valencianos.',//  
-//nombre: 'Camisa',
-//  enlace: 'camisa',
-//  subtitulo: 'Una Sola Arandela',
-//  descripcion: 'Pollera de gala en técnica del talco al sol con calados y encajes valencianos.',
-//  miniaturaFull: '/images/camisa-miniatura-full.jpg',
-//  miniaturaCel: '/images/camisa-miniatura-cel.jpg',
-//  imagenFull: '/images/camisa-imagen-full.jpg',
-//  imagenCel: '/images/camisa-imagen-cel.jpg',
-//  alt: 'Camisa de voilé, con una sola arandela',
-//  opciones: [
-//   {
-//    detalle: 'Arandela de organza bordada', 
-//    precio: 40
-//   },
-//   {
-//    detalle: 'Arandela de Coquito industrial', 
-//    precio: 40
-//   },
-//   {
-//    detalle: 'Arandela de voilé (bual)',
-//    precio: 40
-//   }
-//  ]
-// },
-{
-  metaTitle: 'Venta de Camisas típicas panameñas para hombres',
-  metaDescripcion: '',
-  nombre: 'Camisilla',
-  enlace: 'camisilla',
-  subtitulo: 'De Gala',
-  descripcion: '',
-  miniaturaFull: '/images/camisilla-miniatura-full.jpg',
-  miniaturaCel: '/images/camisilla-miniatura-cel.jpg',
-  imagenFull: '/images/camisilla-producto-full.jpg',
-  imagenCel: '/images/camisilla-producto-cel.jpg',
-  alt: 'Camisilla de Gala, Vestidos Típicos de Panamá',
-  opciones: [{
-    detalle: 'Niños hasta 6 años',
-    precio: 35
-  }, {
-    detalle: 'Niños hasta 12 años',
-    precio: 45
-  }, {
-    detalle: 'Adultos, voilé y alforzas',
-    precio: 100
-  }, {
-    detalle: 'Adultos con espiguetas y tela de hilo',
-    precio: 200
-  }]
-  // {
-  //  metaTitle: 'Montuno Ocueño',
-  //metaDescripcion: 'Camisa y Pantalón en tela de manta sucia con bordados a mano.',//  
-  //nombre: 'Montuno Ocueño',
-  //  enlace: 'montuno-ocueno',
-  //  subtitulo: '',
-  //  descripcion: 'Camisa y Pantalón en tela de manta sucia con bordados a mano.',
-  //  miniaturaFull: '/images/montuno-ocueno-miniatura-full.jpg',
-  //  miniaturaCel: '/images/montuno-ocueno-miniatura-cel.jpg',
-  //  imagenFull: '/images/montuno-ocueno-imagen-full.jpg',
-  //  imagenCel: '/images/montuno-ocueno-imagen-cel.jpg',
-  //  alt: 'Montuno Ocueño, vestidos tipicos de Panama',
-  //  opciones: [
-  //   {
-  //    detalle: 'Niños hasta 6 años', 
-  //    precio: 50
-  //   },
-  //   {
-  //    detalle: 'Niños hasta 12 años',
-  //    precio: 80
-  //   },
-  //   {
-  //    detalle: 'Adultos',
-  //    precio: 100
-  //   }
-  //  ]
-  // },
-  // {
-  //  metaTitle: 'Alquiler de Polleras y vestidos típicos en Panamá',
-  //metaDescripcion: '',//  
-  //nombre: 'Alquiler de Vestidos y accesorios Folklóricos',
-  //  enlace: 'alquiler',
-  //  subtitulo: 'de Panamá',
-  //  descripcion: '',
-  //  miniaturaFull: '/images/camisilla-miniatura-full.jpg',
-  //  miniaturaCel: '/images/camisilla-miniatura-cel.jpg',
-  //  imagenFull: '/images/camisilla-producto-full.jpg',
-  //  imagenCel: '/images/camisilla-producto-cel.jpg',
-  //  alt: 'Camisilla de Gala, Vestidos Típicos de Panamá',
-  //  opciones: [
-  //   {
-  //    detalle: 'Niños hasta 6 años',
-  //    precio: 35
-  //   },
-  //   {
-  //    detalle: 'Niños hasta 12 años',
-  //    precio: 45
-  //   },
-  //   {
-  //    detalle: 'Adultos, voilé y alforzas',
-  //    precio: 100
-  //   },
-  //   {
-  //    detalle: 'Adultos con espiguetas y tela de hilo',
-  //    precio: 200
-  //   }
-  //  ]
-  // }
-}];
-
-/***/ }),
-/* 28 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = Tarjeta;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Tarjeta(producto) {
-  var url = "/tienda/" + producto.enlace;
-  return _react2.default.createElement(
-    "a",
-    { "class": "tarjeta tiendaTarjeta", href: url },
-    _react2.default.createElement(
-      "picture",
-      null,
-      _react2.default.createElement("source", { media: "(min-width: 800px)", srcset: producto.miniaturaFull }),
-      _react2.default.createElement("img", { src: producto.miniaturaCel, alt: producto.alt, "class": "tarjetaImagen" })
-    ),
-    _react2.default.createElement(
-      "div",
-      { "class": "tarjetaInfo" },
-      _react2.default.createElement(
-        "hgroup",
-        null,
-        _react2.default.createElement(
-          "h2",
-          null,
-          producto.nombre
-        ),
-        _react2.default.createElement(
-          "h3",
-          null,
-          producto.subtitulo
-        ),
-        _react2.default.createElement(
-          "h4",
-          null,
-          "Descripci\xF3n: "
-        ),
-        _react2.default.createElement(
-          "p",
-          null,
-          producto.descripcion.substring(0, 90)
-        )
-      )
-    )
-  );
-}
-
-/***/ }),
-/* 29 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = Producto;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _catalogo = __webpack_require__(27);
-
-var _catalogo2 = _interopRequireDefault(_catalogo);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Producto(props) {
-  var Producto = _catalogo2.default.find(function (producto) {
-    return producto.enlace === props.match.params.enlace;
-  });
-  function Template(opcion) {
-
-    return _react2.default.createElement(
-      "div",
-      { className: "opciones" },
-      _react2.default.createElement(
-        "h4",
-        null,
-        opcion.detalle
-      ),
-      _react2.default.createElement(
-        "h4",
-        null,
-        opcion.precio.toLocaleString("en-US", {
-          style: 'currency',
-          currency: 'USD'
-        })
-      ),
-      _react2.default.createElement(
-        "p",
-        null,
-        opcion.descripcion
-      )
-    );
-  }
-  var opciones = Producto.opciones.map(function (opcion) {
-    return Template(opcion);
-  });
-
-  return _react2.default.createElement(
-    "section",
-    { className: "completa producto" },
-    _react2.default.createElement(
-      "articulo",
-      { className: "tercio productoImagenes" },
-      _react2.default.createElement(
-        "picture",
-        null,
-        _react2.default.createElement("source", { media: "(min-width: 800px)", srcSet: Producto.imagenFull }),
-        _react2.default.createElement("img", { src: Producto.imagenCel, alt: Producto.alt })
-      )
-    ),
-    _react2.default.createElement(
-      "articulo",
-      { className: "dosTercios" },
-      _react2.default.createElement(
-        "div",
-        { className: "productoInfo" },
-        _react2.default.createElement(
-          "h1",
-          null,
-          Producto.nombre
-        ),
-        _react2.default.createElement(
-          "h3",
-          null,
-          Producto.subtitulo
-        ),
-        _react2.default.createElement(
-          "h2",
-          null,
-          "Opciones:"
-        ),
-        opciones
-      )
-    ),
-    Producto.articulo
   );
 }
 

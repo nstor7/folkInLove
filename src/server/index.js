@@ -7,6 +7,7 @@ import serialize from "serialize-javascript"
 import App from '../shared/App'
 import routes from '../shared/routes'
 
+
 const app = express()
 
 app.use(cors())
@@ -15,7 +16,7 @@ app.use(express.static("public"))
 app.get("*", (req, res, next) => {
   const activeRoute = routes.find((route) => matchPath(req.url, route)) || {}
   const seo = activeRoute.seo
-  ?  activeRoute.seo
+  ?  activeRoute.seo(req.url.split('/')[2])
   :  {title:'', description:''}
 
   const promise = activeRoute.fetchInitialData
@@ -30,11 +31,12 @@ app.get("*", (req, res, next) => {
         <App />
       </StaticRouter>
     )
+
   
     res.send(`
       <!DOCTYPE html>
       <html>
-        <head>
+        <head id="headTag">
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><meta name="google-site-verification" content="A8E9MrD4Av9bQbh6y4jcxY4I-yoSDqg8yuMCsidXEIU" />
           <script async src="https://cdn.ampproject.org/v0.js"></script>
@@ -58,12 +60,12 @@ app.get("*", (req, res, next) => {
           <meta name='msapplication-TileColor', content='#ffffff'/>
           <meta name='msapplication-TileImage', content='/images/ms-icon-144x144.png'/>
           <meta name='theme-color', content='#ffffff'/>
-          <meta property="og:title" content=${seo.title}/>
-          <meta name='description' content=${seo.description}/>
-          <meta property="og:type" content="article/> 
-          <meta property="og:url" content= ${seo.link}/> 
-          <meta property="og:image" content = ${seo.image}/>
-          <meta property='og:description', content=${seo.description}/>
+          <meta property="og:title" content="${seo.title}"/>
+          <meta name='description' content="${seo.description}"/>
+          <meta property="og:type" content="article"/> 
+          <meta property="og:url" content= "${seo.link}"/> 
+          <meta property="og:image" content = "${seo.image}"/>
+          <meta property='og:description', content="${seo.description}"/>
           <script type='application/ld+json'>
           {
            "@context": "http://schema.org",

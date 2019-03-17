@@ -2,7 +2,9 @@ import React from 'react'
 import Catalogo from './catalogo'
 import Tarjeta from './tarjeta'
 
+
 export default function Tienda(props) {
+
  return (
 <main>
  <section class="portada">

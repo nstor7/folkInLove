@@ -19,8 +19,8 @@ export default class NavBAr extends React.Component {
     return (
       <header id= "headerContainer">
        <a href="/" className="logoContainer">
-         <img src="images/folkInLove-logo.png" alt="logo de Folk in Love Pty" className='logo'/>
-         <img src="images/folkInLove-letras-negro.png" alt="Tipo de Folk in Love Pty" className='tipo'/>
+         <img src="/images/folkInLove-logo.png" alt="logo de Folk in Love Pty" className='logo'/>
+         <img src="/images/folkInLove-letras-negro.png" alt="Tipo de Folk in Love Pty" className='tipo'/>
        </a>
        <nav id="nav" className={this.state.isToggleOn ? 'nav hidden' : 'nav'}>
          <a href="/" onClick={this.handleClick}>Inicio</a>

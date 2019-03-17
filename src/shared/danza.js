@@ -4,8 +4,7 @@ import Picture from './picture'
 
 
  export default function Danza(props) {
-  var Baile = Listado.find((danza) =>  danza.url === props.match.params.url)
-  console.log(Baile) 
+  var Baile = Listado.find((danza) =>  danza.url === props.match.params.url) 
   return(
  <main>
   <section className="portada">
