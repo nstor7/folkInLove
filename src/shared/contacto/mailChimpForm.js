@@ -4,7 +4,7 @@ export default function Chimp (){
 
  return (
 <div id="mc_embed_signup">
-<form action="https://folkinlovepty.us20.list-manage.com/subscribe/post?u=f0ce6f84c82e3f639c6d105d9&amp;id=22a2454ef3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" novalidate>
+<form action="https://folkinlovepty.us20.list-manage.com/subscribe/post?u=f0ce6f84c82e3f639c6d105d9&amp;id=22a2454ef3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
     <div id="mc_embed_signup_scroll">
 	<h2>Información:</h2>
 <div className="indicates-required"><span className="asterisk">*</span>Indica los campos requeridos</div>

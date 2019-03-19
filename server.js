@@ -3610,7 +3610,7 @@ function Chimp() {
 		{ id: "mc_embed_signup" },
 		_react2.default.createElement(
 			"form",
-			{ action: "https://folkinlovepty.us20.list-manage.com/subscribe/post?u=f0ce6f84c82e3f639c6d105d9&id=22a2454ef3", method: "post", id: "mc-embedded-subscribe-form", name: "mc-embedded-subscribe-form", className: "validate", target: "_blank", novalidate: true },
+			{ action: "https://folkinlovepty.us20.list-manage.com/subscribe/post?u=f0ce6f84c82e3f639c6d105d9&id=22a2454ef3", method: "post", id: "mc-embedded-subscribe-form", name: "mc-embedded-subscribe-form", className: "validate", target: "_blank", noValidate: true },
 			_react2.default.createElement(
 				"div",
 				{ id: "mc_embed_signup_scroll" },
