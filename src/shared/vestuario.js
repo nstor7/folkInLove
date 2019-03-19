@@ -15,7 +15,7 @@ export default function Vestuario(props){
     <article className="mitad rosaTrans">
       <hgroup>
           <h1 itemProp="name">{Vestido.nombre}</h1>
-          <p itemProp="description">{Vestido.reseña}</p>
+          {Vestido.reseña}
       </hgroup>
     </article>
    </section>

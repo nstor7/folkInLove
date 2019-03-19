@@ -5,12 +5,12 @@ import Tarjeta from '../tarjeta'
 export default function vestuarios(){
  return(
 <main>
- <section class="portada" id="vestuarioPortada">
-  <picture class="banner">
-    <source media="(min-width: 801px)" srcset="images/vestuariosBannerFull-1x.jpg 1x, images/vestuariosBannerFull-2x.jpg 2x"/>
-    <source media="(min-width: 541px)" srcset="images/vestuariosBannerTab-1x.jpg 1x, images/vestuariosBannerTab-2x.jpg 2x"/>
-    <source media="(min-width: 10px)" srcset="images/vestuariosBannerCel-1x.jpg 1x, images/vestuariosBannerCel-2x.jpg 2x"/>
-    <img class="completa" src="images/vestuariosBannerCell-1x.jpg" alt="Trajes Típicos de Panamá, Pollera de Lujo Santeña en Panamá Viejo"/>
+ <section className="portada" id="vestuarioPortada">
+  <picture className="banner">
+    <source media="(min-width: 801px)" srcSet="images/vestuariosBannerFull-1x.jpg 1x, images/vestuariosBannerFull-2x.jpg 2x"/>
+    <source media="(min-width: 541px)" srcSet="images/vestuariosBannerTab-1x.jpg 1x, images/vestuariosBannerTab-2x.jpg 2x"/>
+    <source media="(min-width: 10px)" srcSet="images/vestuariosBannerCel-1x.jpg 1x, images/vestuariosBannerCel-2x.jpg 2x"/>
+    <img className="completa" src="images/vestuariosBannerCell-1x.jpg" alt="Trajes Típicos de Panamá, Pollera de Lujo Santeña en Panamá Viejo"/>
    </picture>
   <article className="completa negroTrans">
    <hgroup>
@@ -19,8 +19,8 @@ export default function vestuarios(){
    </hgroup>
   </article>
  </section>
- <section class="lista blanco">
-  <div class="listaCont">
+ <section className="lista blanco">
+  <div className="listaCont">
   {Listado.map((vestuario) => Tarjeta("vestuarios", vestuario))}
   </div> 
  </section>

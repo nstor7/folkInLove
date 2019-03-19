@@ -154,7 +154,7 @@ export default[
   extra2: 
     (<section className="completa blanco videoPasos">
      <h2>Video sobre La Pollera Congo</h2>
-     <iframe src="https://www.youtube.com/embed/I-KF3UFeTHc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+     <iframe src="https://www.youtube.com/embed/I-KF3UFeTHc?rel=0" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
     </section>)
   
  },

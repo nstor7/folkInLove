@@ -33,7 +33,7 @@ import Picture from './picture'
       <h2>Pasos de {Baile.nombre}</h2>
       <ul>
       {Baile.pasos.map(function(paso){
-        return (<li>{paso}</li>)
+        return (<li key={paso}>{paso}</li>)
       })}
       </ul>
     </hgroup>

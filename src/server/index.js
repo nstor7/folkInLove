@@ -19,6 +19,10 @@ app.get("*", (req, res, next) => {
   ?  activeRoute.seo(req.url.split('/')[2])
   :  {title:'', description:''}
 
+  const chimpScript = activeRoute.chimpScript
+  ?  activeRoute.chimpScript
+  :  ''
+
   const promise = activeRoute.fetchInitialData
     ? activeRoute.fetchInitialData(req.path)
     : Promise.resolve()
@@ -108,7 +112,8 @@ app.get("*", (req, res, next) => {
           </script>
           <noscript>
             img(height='1', width='1', style='display:none', src='https://www.facebook.com/tr?id=2556254097725082&ev=PageView&noscript=1')</noscript>
-          <script>window.__INITIAL_DATA__ = ${serialize(data)}</script>
+            ${chimpScript}
+            <script>window.__INITIAL_DATA__ = ${serialize(data)}</script>
         </head>
 
         <body>

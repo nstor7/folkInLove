@@ -3,12 +3,12 @@ import React from 'react'
 export default function Tarjeta(producto){
 var url = `/tienda/${producto.enlace}`
 return(
-  <a class="tarjeta tiendaTarjeta" href={url}>
+  <a className="tarjeta tiendaTarjeta" key={url} href={url}>
     <picture>
-      <source media="(min-width: 800px)" srcset={producto.miniaturaFull}/>
-      <img src={producto.miniaturaCel} alt={producto.alt} class="tarjetaImagen"/>
+      <source media="(min-width: 800px)" srcSet={producto.miniaturaFull}/>
+      <img src={producto.miniaturaCel} alt={producto.alt} className="tarjetaImagen"/>
     </picture>
-    <div class="tarjetaInfo">
+    <div className="tarjetaInfo">
      <hgroup>
       <h2>{producto.nombre}</h2>
       <h3>{producto.subtitulo}</h3>

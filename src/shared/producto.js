@@ -6,7 +6,7 @@ export default function Producto(props){
  var Producto = Catalogo.find((producto) => producto.enlace === props.match.params.enlace)
  function Template(opcion) { 
   
-  return (<div className="opciones">
+  return (<div key={opcion.detalle} className="opciones">
        <h4>{opcion.detalle}</h4>
        <h4>{opcion.precio.toLocaleString("en-US", {
          style:'currency',

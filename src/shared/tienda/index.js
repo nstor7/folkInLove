@@ -7,12 +7,12 @@ export default function Tienda(props) {
 
  return (
 <main>
- <section class="portada">
-  <picture class="banner">
-   <source media="(min-width: 801px)" srcset="images/tiendaBannerFull-1x.jpg 1x, images/tiendaBannerFull-2x.jpg 2x"/>
-   <source media="(min-width: 541px)" srcset="images/tiendaBannerTab-1x.jpg 1x, images/tiendaBannerTab-2x.jpg 2x"/>
-   <source media="(min-width: 10px)" srcset="images/tiendaBannerCel-1x.jpg 1x, images/tiendaBannerCel-2x.jpg 2x"/> 
-   <img class="completa" alt="Foto de Pollera De Lujo Santeña, traje tipico de panamá, en Panamá Viejo"  src="images/tiendaBannerCell-1x.jpg"  />
+ <section className="portada">
+  <picture className="banner">
+   <source media="(min-width: 801px)" srcSet="images/tiendaBannerFull-1x.jpg 1x, images/tiendaBannerFull-2x.jpg 2x"/>
+   <source media="(min-width: 541px)" srcSet="images/tiendaBannerTab-1x.jpg 1x, images/tiendaBannerTab-2x.jpg 2x"/>
+   <source media="(min-width: 10px)" srcSet="images/tiendaBannerCel-1x.jpg 1x, images/tiendaBannerCel-2x.jpg 2x"/> 
+   <img className="completa" alt="Foto de Pollera De Lujo Santeña, traje tipico de panamá, en Panamá Viejo"  src="images/tiendaBannerCell-1x.jpg"  />
   </picture>
   <article className="completa negroTrans">
    <hgroup>
@@ -20,8 +20,8 @@ export default function Tienda(props) {
    </hgroup>
   </article>
  </section>
- <section class="lista blanco">
-  <div class="listaCont">
+ <section className="lista blanco">
+  <div className="listaCont">
    {Catalogo.map((Producto) => Tarjeta(Producto))}
   </div>
   

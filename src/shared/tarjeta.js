@@ -6,7 +6,7 @@ var url = `/${seccion}/${el.url}`
 
 
 return (
-  <a className="tarjeta" href={url}>
+  <a className="tarjeta" key={el.nombre} href={url}>
     <img className="tarjetaImagen" src={miniatura} />
     <div className="tarjetaInfo">
      <hgroup>

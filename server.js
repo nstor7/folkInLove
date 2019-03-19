@@ -87,6 +87,176 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = [{
+  metaTitle: 'El Punto Santeño, el baile típico más elegante de Panamá.',
+  metaDescription: 'El Punto Santeño. En este artículo 📄 hablamos sobre el baile folklórico que es considerado el más elegante 💎 de Panamá 🇵🇦. su estructura musical 🎼 y sus pasos',
+  miniatura: 'puntoMiniatura.jpg',
+  region: 'Azuero',
+  dato: 'Vestuario: Pollera De Lujo',
+  imagenOpenGraph: 'puntoOpenGraph.jpg',
+  nombre: 'El Punto Santeño',
+  url: 'El-Punto-Santeno',
+  reseña: 'El Punto Santeño es un género musical y a su vez un baile. Es considerado como uno de los más bellos y elegantes de todo el Istmo de Panamá; es ejecutado por una sola pareja y tiene como característica principal la elegancia y el donaire con la que el hombre y la mujer se mueven durante su ejecución.',
+  portadaImagen: 'puntoPortada',
+  intro: _react2.default.createElement(
+    'hgroup',
+    null,
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement(
+        'i',
+        null,
+        '\u201CDespu\xE9s del tamborito, el baile de parejas individual m\xE1s atractivo es el PUNTO en el cual la pareja hace gala de donaire, precisi\xF3n y gracia. Parece de pura ascendencia hisp\xE1nica a juzgar por la m\xFAsica que lo acompa\xF1a.'
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement(
+        'i',
+        null,
+        'El baile de PUNTO no es baile de toda una noche como puede serio el Tamborito y la Cumbia; el Pind\xEDn y la Mejorana. Se baila m\xE1s bien como una demostraci\xF3n atractiva entre los minutos de descanso de un baile, para regalo de los ojos y goce del esp\xEDritu de la concurrencia a una fiesta.\u201D'
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Dora P\xE9rez de Zarate'
+    )
+  ),
+  introImagen: 'puntoIntro.jpg',
+  descripcion: _react2.default.createElement(
+    'hgroup',
+    null,
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Descripci\xF3n del Punto Sante\xF1o'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      ' ',
+      _react2.default.createElement(
+        'b',
+        null,
+        'El punto'
+      ),
+      ' consta de una serie de pasos (que describiremos a continuaci\xF3n) los cuales se repiten 3 veces ',
+      _react2.default.createElement(
+        'i',
+        null,
+        '"tiempos"'
+      ),
+      ' en el mismo orden. A cada repetici\xF3n le llamamos tiempos o vueltas musicales. Una de sus caracter\xEDsticas particulares se lleva a cabo durante el zapateo ya que en cada uno (son 3) la pareja bailar\xE1 en una direcci\xF3n diferente. En el primer tiempo la pareja realizar\xE1 el zapateo frente a frente, en el segundo tiempo se dirigir\xE1n hacia los m\xFAsicos (es com\xFAn en los conjuntos folkl\xF3ricos dirigir el zapateo en otra direcci\xF3n cuando no se baila con m\xFAsicos en vivo) y en el \xFAltimo tiempo se dirige hacia el p\xFAblico.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Cada paso durante la ejecuci\xF3n del Punto Sante\xF1o no tiene una duraci\xF3n definida, es el cambio de la m\xFAsica la que indicar\xE1 el paso a la siguiente figura.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Inicia con ',
+      _react2.default.createElement(
+        'b',
+        null,
+        'El PASEO'
+      ),
+      ', es el paso de baile en el que el var\xF3n y la dama describen un amplio c\xEDrculo, ocupando cada uno de los extremos.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Al cambio de la m\xFAsica se ejecuta una ca\xEDda y vuelta pasando al ',
+      _react2.default.createElement(
+        'b',
+        null,
+        'ZAPATEO'
+      ),
+      ' en el cual los bailadores, dependiendo del tiempo lo ejecutan, frente a frente, a la m\xFAsica o al p\xFAblico.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'En seguida, otro cambio de la m\xFAsica les advierte que deben realizar el tercer movimiento, ',
+      _react2.default.createElement(
+        'b',
+        null,
+        'EL ESCOBILLAO'
+      ),
+      ', que separa ampliamente a la pareja y  se ejecuta con r\xE1pidos movimientos de los pies hacia atr\xE1s.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Por \xFAltimo, tambi\xE9n a indicaci\xF3n de la m\xFAsica, se realiza una caida y vuelta para pasar a la ',
+      _react2.default.createElement(
+        'b',
+        null,
+        'SEGUIDILLA'
+      ),
+      ' con la cual la pareja se desplaza acerc\xE1ndose el uno al otro para girar con mucha serenidad y finura en el centro del c\xEDrculo hasta que se indique el cambio y comience con una vuelta paseada el siguiente tiempo con el ',
+      _react2.default.createElement(
+        'b',
+        null,
+        'PASEO'
+      ),
+      '.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Al finalizar el tercer tiempo, la mujer realiza un medio giro para quedar frente al p\xFAblico en un cierre que puede ser con el parejo arrodillado o de pi\xE9 tapandole el rostro con el sombrero simulando un beso.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Es Com\xFAn que al ver a la pareja ejecutar tan hermoso baile los espectadores lancen monedas por el suelo; costumbre que hoy podemos ver en las fiestas cuando las quincea\xF1eras o reinas bailan el punto.'
+    )
+  ),
+
+  pasos: ['Paseo', 'Caida y vuelta', 'Zapateo', 'Escobillao', 'Seguidilla', 'Vuelta Paseada'],
+  pasosImagen: 'puntoPasos.jpg',
+  referencias: _react2.default.createElement(
+    'hgroup',
+    null,
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Referencias Sobre El Punto Sante\xF1o'
+    ),
+    _react2.default.createElement(
+      'ul',
+      null,
+      _react2.default.createElement(
+        'li',
+        null,
+        'Extracto de "EL PUNTO, LA DENESA, EL ATRAVESADO Y OTROS BAILES ORQUESTADOS". Dora P\xE9rez de Z\xE1rate. 198'
+      )
+    )
+  )
+}];
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = [{
   metaTitle: 'Sesión de Fotos en Pollera',
   metaDescripcion: '🎖Vive la EXPERIENCIA de lucir uno de los trajes típicos más hermosos del mundo. Folk in Love te ofrece 📷 sesiones de FOTOS que incluyen POLLERA, 💍 prendas, tembleques, 💄maquillaje, arreglo, sesión de fotos con asesoría de poses.',
   nombre: 'Sesión de Fotografía',
@@ -514,13 +684,13 @@ exports.default = [{
 }];
 
 /***/ }),
-/* 2 */
+/* 3 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-router-dom");
 
 /***/ }),
-/* 3 */
+/* 4 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -534,9 +704,9 @@ var _index = __webpack_require__(13);
 
 var _index2 = _interopRequireDefault(_index);
 
-var _contacto = __webpack_require__(18);
+var _index3 = __webpack_require__(30);
 
-var _contacto2 = _interopRequireDefault(_contacto);
+var _index4 = _interopRequireDefault(_index3);
 
 var _danzas = __webpack_require__(19);
 
@@ -562,13 +732,21 @@ var _producto = __webpack_require__(26);
 
 var _producto2 = _interopRequireDefault(_producto);
 
-var _catalogo = __webpack_require__(1);
+var _catalogo = __webpack_require__(2);
 
 var _catalogo2 = _interopRequireDefault(_catalogo);
 
-var _danzas3 = __webpack_require__(4);
+var _danzas3 = __webpack_require__(1);
 
 var _danzas4 = _interopRequireDefault(_danzas3);
+
+var _vestuarios3 = __webpack_require__(6);
+
+var _vestuarios4 = _interopRequireDefault(_vestuarios3);
+
+var _confirmacion = __webpack_require__(32);
+
+var _confirmacion2 = _interopRequireDefault(_confirmacion);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -591,12 +769,14 @@ var routes = [{
 }, {
   path: '/contacto',
   exact: true,
-  component: _contacto2.default,
+  component: _index4.default,
   seo: function seo() {
     return {
       title: 'Contactenos Para Cualquier consulta o producto que le interese'
     };
-  }
+  },
+  chimpScript: '<script type=\'text/javascript\' src=\'//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js\'></script><script type=\'text/javascript\'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]=\'EMAIL\';ftypes[0]=\'email\';fnames[1]=\'FNAME\';ftypes[1]=\'text\';fnames[2]=\'LNAME\';ftypes[2]=\'text\';fnames[5]=\'BIRTHDAY\';ftypes[5]=\'birthday\';fnames[3]=\'MMERGE3\';ftypes[3]=\'radio\'; /*\n                       * Translated default messages for the $ validation plugin.\n                       * Locale: ES\n                       */\n                      $.extend($.validator.messages, {\n                        required: "Este campo es obligatorio.",\n                        remote: "Por favor, rellena este campo.",\n                        email: "Por favor, escribe una direcci\xF3n de correo v\xE1lida",\n                        url: "Por favor, escribe una URL v\xE1lida.",\n                        date: "Por favor, escribe una fecha v\xE1lida.",\n                        dateISO: "Por favor, escribe una fecha (ISO) v\xE1lida.",\n                        number: "Por favor, escribe un n\xFAmero entero v\xE1lido.",\n                        digits: "Por favor, escribe s\xF3lo d\xEDgitos.",\n                        creditcard: "Por favor, escribe un n\xFAmero de tarjeta v\xE1lido.",\n                        equalTo: "Por favor, escribe el mismo valor de nuevo.",\n                        accept: "Por favor, escribe un valor con una extensi\xF3n aceptada.",\n                        maxlength: $.validator.format("Por favor, no escribas m\xE1s de {0} caracteres."),\n                        minlength: $.validator.format("Por favor, no escribas menos de {0} caracteres."),\n                        rangelength: $.validator.format("Por favor, escribe un valor entre {0} y {1} caracteres."),\n                        range: $.validator.format("Por favor, escribe un valor entre {0} y {1}."),\n                        max: $.validator.format("Por favor, escribe un valor menor o igual a {0}."),\n                        min: $.validator.format("Por favor, escribe un valor mayor o igual a {0}.")\n                      });}(jQuery));var $mcj = jQuery.noConflict(true);</script>\n\n                      '
+
 }, {
   path: '/danzas',
   exact: true,
@@ -652,7 +832,10 @@ var routes = [{
 }, {
   path: '/vestuarios/:url',
   component: _vestuario2.default,
-  seo: function seo() {
+  seo: function seo(enlace) {
+    var vestido = _vestuarios4.default.find(function (vestuario) {
+      return vestuario.url === enlace;
+    });
     return {
       link: 'https://www.folkinlovepty.com/' + vestido.url,
       title: '' + vestido.metaTitle,
@@ -668,15 +851,17 @@ var routes = [{
   path: '/tienda',
   exact: true,
   component: _tienda2.default,
-  seo: {
-    link: 'https://www.folkinlovepty.com/tienda/',
-    title: 'Tienda Folk in Love: fotografías en vestidos folklóricos, productos tradicionales para comprar o alquilar',
-    description: 'Los productos y servicios de Folk in Love están pensados para acercarte al folklore panameño. Queremos hacer posible que tengas una experiencia cercana a las costumbres y tradiciones de nuestro país.',
-    schemaType: 'Article',
-    schemaImages: ['https://www.folkinlovepty.com/images/pollera-lujo-losantos-tienda-portada-full.jpg'],
-    image: 'https://www.folkinlovepty.com/images/pollera-lujo-losantos-tienda-portada-full.jpg',
-    schemaPublished: '2018-5-01T03:41:00+03:41',
-    schemaModified: '2018-5-05T03:41:00+03:41'
+  seo: function seo() {
+    return {
+      link: 'https://www.folkinlovepty.com/tienda/',
+      title: 'Tienda Folk in Love: fotografías en vestidos folklóricos, productos tradicionales para comprar o alquilar',
+      description: 'Los productos y servicios de Folk in Love están pensados para acercarte al folklore panameño. Queremos hacer posible que tengas una experiencia cercana a las costumbres y tradiciones de nuestro país.',
+      schemaType: 'Article',
+      schemaImages: ['https://www.folkinlovepty.com/images/pollera-lujo-losantos-tienda-portada-full.jpg'],
+      image: 'https://www.folkinlovepty.com/images/pollera-lujo-losantos-tienda-portada-full.jpg',
+      schemaPublished: '2018-5-01T03:41:00+03:41',
+      schemaModified: '2018-5-05T03:41:00+03:41'
+    };
   }
 }, {
   path: '/tienda/:enlace',
@@ -696,179 +881,13 @@ var routes = [{
       schemaModified: '2018-5-05T03:41:00+03:41'
     };
   }
+}, {
+  path: '/confirmacion',
+  component: _confirmacion2.default,
+  exact: true
 }];
 
 exports.default = routes;
-
-/***/ }),
-/* 4 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = [{
-  metaTitle: 'El Punto Santeño, el baile típico más elegante de Panamá.',
-  metaDescription: 'El Punto Santeño. En este artículo 📄 hablamos sobre el baile folklórico que es considerado el más elegante 💎 de Panamá 🇵🇦. su estructura musical 🎼 y sus pasos',
-  miniatura: 'puntoMiniatura.jpg',
-  region: 'Azuero',
-  dato: 'Vestuario: Pollera De Lujo',
-  imagenOpenGraph: 'puntoOpenGraph.jpg',
-  nombre: 'El Punto Santeño',
-  url: 'El-Punto-Santeno',
-  reseña: 'El Punto Santeño es un género musical y a su vez un baile. Es considerado como uno de los más bellos y elegantes de todo el Istmo de Panamá; es ejecutado por una sola pareja y tiene como característica principal la elegancia y el donaire con la que el hombre y la mujer se mueven durante su ejecución.',
-  portadaImagen: 'puntoPortada',
-  intro: _react2.default.createElement(
-    'hgroup',
-    null,
-    _react2.default.createElement(
-      'p',
-      null,
-      _react2.default.createElement(
-        'i',
-        null,
-        '\u201CDespu\xE9s del tamborito, el baile de parejas individual m\xE1s atractivo es el PUNTO en el cual la pareja hace gala de donaire, precisi\xF3n y gracia. Parece de pura ascendencia hisp\xE1nica a juzgar por la m\xFAsica que lo acompa\xF1a.'
-      )
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      _react2.default.createElement(
-        'i',
-        null,
-        'El baile de PUNTO no es baile de toda una noche como puede serio el Tamborito y la Cumbia; el Pind\xEDn y la Mejorana. Se baila m\xE1s bien como una demostraci\xF3n atractiva entre los minutos de descanso de un baile, para regalo de los ojos y goce del esp\xEDritu de la concurrencia a una fiesta.\u201D'
-      )
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      'Dora P\xE9rez de Zarate'
-    )
-  ),
-  introImagen: 'puntoIntro.jpg',
-  descripcion: _react2.default.createElement(
-    'hgroup',
-    null,
-    _react2.default.createElement(
-      'h2',
-      null,
-      'Descripci\xF3n del Punto Sante\xF1o'
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      ' ',
-      _react2.default.createElement(
-        'b',
-        null,
-        'El punto'
-      ),
-      ' consta de una serie de pasos (que describiremos a continuaci\xF3n) los cuales se repiten 3 veces ',
-      _react2.default.createElement(
-        'i',
-        null,
-        '"tiempos"'
-      ),
-      ' en el mismo orden. A cada repetici\xF3n le llamamos tiempos o vueltas musicales. Una de sus caracter\xEDsticas particulares se lleva a cabo durante el zapateo ya que en cada uno (son 3) la pareja bailar\xE1 en una direcci\xF3n diferente. En el primer tiempo la pareja realizar\xE1 el zapateo frente a frente, en el segundo tiempo se dirigir\xE1n hacia los m\xFAsicos (es com\xFAn en los conjuntos folkl\xF3ricos dirigir el zapateo en otra direcci\xF3n cuando no se baila con m\xFAsicos en vivo) y en el \xFAltimo tiempo se dirige hacia el p\xFAblico.'
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      'Cada paso durante la ejecuci\xF3n del Punto Sante\xF1o no tiene una duraci\xF3n definida, es el cambio de la m\xFAsica la que indicar\xE1 el paso a la siguiente figura.'
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      'Inicia con ',
-      _react2.default.createElement(
-        'b',
-        null,
-        'El PASEO'
-      ),
-      ', es el paso de baile en el que el var\xF3n y la dama describen un amplio c\xEDrculo, ocupando cada uno de los extremos.'
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      'Al cambio de la m\xFAsica se ejecuta una ca\xEDda y vuelta pasando al ',
-      _react2.default.createElement(
-        'b',
-        null,
-        'ZAPATEO'
-      ),
-      ' en el cual los bailadores, dependiendo del tiempo lo ejecutan, frente a frente, a la m\xFAsica o al p\xFAblico.'
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      'En seguida, otro cambio de la m\xFAsica les advierte que deben realizar el tercer movimiento, ',
-      _react2.default.createElement(
-        'b',
-        null,
-        'EL ESCOBILLAO'
-      ),
-      ', que separa ampliamente a la pareja y  se ejecuta con r\xE1pidos movimientos de los pies hacia atr\xE1s.'
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      'Por \xFAltimo, tambi\xE9n a indicaci\xF3n de la m\xFAsica, se realiza una caida y vuelta para pasar a la ',
-      _react2.default.createElement(
-        'b',
-        null,
-        'SEGUIDILLA'
-      ),
-      ' con la cual la pareja se desplaza acerc\xE1ndose el uno al otro para girar con mucha serenidad y finura en el centro del c\xEDrculo hasta que se indique el cambio y comience con una vuelta paseada el siguiente tiempo con el ',
-      _react2.default.createElement(
-        'b',
-        null,
-        'PASEO'
-      ),
-      '.'
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      'Al finalizar el tercer tiempo, la mujer realiza un medio giro para quedar frente al p\xFAblico en un cierre que puede ser con el parejo arrodillado o de pi\xE9 tapandole el rostro con el sombrero simulando un beso.'
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      'Es Com\xFAn que al ver a la pareja ejecutar tan hermoso baile los espectadores lancen monedas por el suelo; costumbre que hoy podemos ver en las fiestas cuando las quincea\xF1eras o reinas bailan el punto.'
-    )
-  ),
-
-  pasos: ['Paseo', 'Caida y vuelta', 'Zapateo', 'Escobillao', 'Seguidilla', 'Vuelta Paseada'],
-  pasosImagen: 'puntoPasos.jpg',
-  referencias: _react2.default.createElement(
-    'hgroup',
-    null,
-    _react2.default.createElement(
-      'h2',
-      null,
-      'Referencias Sobre El Punto Sante\xF1o'
-    ),
-    _react2.default.createElement(
-      'ul',
-      null,
-      _react2.default.createElement(
-        'li',
-        null,
-        'Extracto de "EL PUNTO, LA DENESA, EL ATRAVESADO Y OTROS BAILES ORQUESTADOS". Dora P\xE9rez de Z\xE1rate. 198'
-      )
-    )
-  )
-}];
 
 /***/ }),
 /* 5 */
@@ -894,7 +913,7 @@ function Tarjeta(seccion, el) {
 
   return _react2.default.createElement(
     "a",
-    { className: "tarjeta", href: url },
+    { className: "tarjeta", key: el.nombre, href: url },
     _react2.default.createElement("img", { className: "tarjetaImagen", src: miniatura }),
     _react2.default.createElement(
       "div",
@@ -1482,7 +1501,7 @@ exports.default = [{
       null,
       'Video sobre La Pollera Congo'
     ),
-    _react2.default.createElement('iframe', { src: 'https://www.youtube.com/embed/I-KF3UFeTHc?rel=0', frameborder: '0', allow: 'autoplay; encrypted-media', allowfullscreen: true })
+    _react2.default.createElement('iframe', { src: 'https://www.youtube.com/embed/I-KF3UFeTHc?rel=0', frameBorder: '0', allow: 'autoplay; encrypted-media', allowFullScreen: true })
   )
 
 }, {
@@ -1859,7 +1878,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _server = __webpack_require__(10);
 
-var _reactRouterDom = __webpack_require__(2);
+var _reactRouterDom = __webpack_require__(3);
 
 var _serializeJavascript = __webpack_require__(11);
 
@@ -1869,7 +1888,7 @@ var _App = __webpack_require__(12);
 
 var _App2 = _interopRequireDefault(_App);
 
-var _routes = __webpack_require__(3);
+var _routes = __webpack_require__(4);
 
 var _routes2 = _interopRequireDefault(_routes);
 
@@ -1886,6 +1905,8 @@ app.get("*", function (req, res, next) {
   }) || {};
   var seo = activeRoute.seo ? activeRoute.seo(req.url.split('/')[2]) : { title: '', description: '' };
 
+  var chimpScript = activeRoute.chimpScript ? activeRoute.chimpScript : '';
+
   var promise = activeRoute.fetchInitialData ? activeRoute.fetchInitialData(req.path) : Promise.resolve();
 
   promise.then(function (data) {
@@ -1897,7 +1918,7 @@ app.get("*", function (req, res, next) {
       _react2.default.createElement(_App2.default, null)
     ));
 
-    res.send("\n      <!DOCTYPE html>\n      <html>\n        <head id=\"headTag\">\n          <meta charset=\"UTF-8\">\n          <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=no\"><meta name=\"google-site-verification\" content=\"A8E9MrD4Av9bQbh6y4jcxY4I-yoSDqg8yuMCsidXEIU\" />\n          <script async src=\"https://cdn.ampproject.org/v0.js\"></script>\n          <title>" + seo.title + "</title>\n          <link rel=\"stylesheet\" href=\"/index.css\">\n          <script src=\"/bundle.js\" defer></script>\n          <link rel='apple-touch-icon', sizes='57x57', href='/images/apple-icon-57x57.png'/>\n          <link rel='apple-touch-icon', sizes='60x60', href='/images/apple-icon-60x60.png'/>\n          <link rel='apple-touch-icon', sizes='72x72', href='/images/apple-icon-72x72.png'/>\n          <link rel='apple-touch-icon', sizes='76x76', href='/images/apple-icon-76x76.png'/>\n          <link rel='apple-touch-icon', sizes='114x114', href='/images/apple-icon-114x114.png'/>\n          <link rel='apple-touch-icon', sizes='120x120', href='/images/apple-icon-120x120.png'/>\n          <link rel='apple-touch-icon', sizes='144x144', href='/images/apple-icon-144x144.png'/>\n          <link rel='apple-touch-icon', sizes='152x152', href='/images/apple-icon-152x152.png'/>\n          <link rel='apple-touch-icon', sizes='180x180', href='/images/apple-icon-180x180.png'/>\n          <link rel='icon', type='image/png', sizes='192x192', href='/images/android-icon-192x192.png'/>\n          <link rel='icon', type='image/png', sizes='32x32', href='/images/favicon-32x32.png'/>\n          <link rel='icon', type='image/png', sizes='96x96', href='/images/favicon-96x96.png'/>\n          <link rel='icon', type='image/png', sizes='16x16', href='/images/favicon-16x16.png'/>\n          <link rel='manifest', href='/images/manifest.json'/>\n          <meta name='msapplication-TileColor', content='#ffffff'/>\n          <meta name='msapplication-TileImage', content='/images/ms-icon-144x144.png'/>\n          <meta name='theme-color', content='#ffffff'/>\n          <meta property=\"og:title\" content=\"" + seo.title + "\"/>\n          <meta name='description' content=\"" + seo.description + "\"/>\n          <meta property=\"og:type\" content=\"article\"/> \n          <meta property=\"og:url\" content= \"" + seo.link + "\"/> \n          <meta property=\"og:image\" content = \"" + seo.image + "\"/>\n          <meta property='og:description', content=\"" + seo.description + "\"/>\n          <script type='application/ld+json'>\n          {\n           \"@context\": \"http://schema.org\",\n           \"@type\": \"" + seo.schemaType + "\", \n           \"mainEntityOfPage\": {\n           \"@type\": \"WebPage\",\n           \"@id\": \"https://folkinlovepty.com/\"\n           },\n           \"headline\": \"" + seo.title + "\",\n           \"image\": \"" + seo.schemaImages + "\" ,\n           \"datePublished\": \"" + seo.schemaPublished + "\",\n           \"dateModified\": \"" + seo.schemaModified + "\",\n           \"author\": {\n           \"@type\": \"Person\",\n           \"name\": \"Cinthia Gonz\xE1lez\"\n           },\n           \"publisher\": {\n           \"@type\": \"Organization\",\n           \"name\": \"Folk in Love\",\n           \"logo\": {\n           \"@type\": \"ImageObject\",\n           \"url\": \"https://folkinlovepty.com/images/folkInLove-logo.png\"\n           }\n           },\n           \"description\": \"" + seo.description + "\"\n           }\n\n          </script>\n          <script>\n            !function(f,b,e,v,n,t,s)\n            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?\n            n.callMethod.apply(n,arguments):n.queue.push(arguments)};\n            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\n            n.queue=[];t=b.createElement(e);t.async=!0;\n            t.src=v;s=b.getElementsByTagName(e)[0];\n            s.parentNode.insertBefore(t,s)}(window, document,'script',\n            'https://connect.facebook.net/en_US/fbevents.js');\n            fbq('init', '2556254097725082');\n            fbq('track', 'PageView');\n          </script>\n          <noscript>\n            img(height='1', width='1', style='display:none', src='https://www.facebook.com/tr?id=2556254097725082&ev=PageView&noscript=1')</noscript>\n          <script>window.__INITIAL_DATA__ = " + (0, _serializeJavascript2.default)(data) + "</script>\n        </head>\n\n        <body>\n          <div id=\"app\">" + markup + "</div>\n        </body>\n      </html>\n    ");
+    res.send("\n      <!DOCTYPE html>\n      <html>\n        <head id=\"headTag\">\n          <meta charset=\"UTF-8\">\n          <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=no\"><meta name=\"google-site-verification\" content=\"A8E9MrD4Av9bQbh6y4jcxY4I-yoSDqg8yuMCsidXEIU\" />\n          <script async src=\"https://cdn.ampproject.org/v0.js\"></script>\n          <title>" + seo.title + "</title>\n          <link rel=\"stylesheet\" href=\"/index.css\">\n          <script src=\"/bundle.js\" defer></script>\n          <link rel='apple-touch-icon', sizes='57x57', href='/images/apple-icon-57x57.png'/>\n          <link rel='apple-touch-icon', sizes='60x60', href='/images/apple-icon-60x60.png'/>\n          <link rel='apple-touch-icon', sizes='72x72', href='/images/apple-icon-72x72.png'/>\n          <link rel='apple-touch-icon', sizes='76x76', href='/images/apple-icon-76x76.png'/>\n          <link rel='apple-touch-icon', sizes='114x114', href='/images/apple-icon-114x114.png'/>\n          <link rel='apple-touch-icon', sizes='120x120', href='/images/apple-icon-120x120.png'/>\n          <link rel='apple-touch-icon', sizes='144x144', href='/images/apple-icon-144x144.png'/>\n          <link rel='apple-touch-icon', sizes='152x152', href='/images/apple-icon-152x152.png'/>\n          <link rel='apple-touch-icon', sizes='180x180', href='/images/apple-icon-180x180.png'/>\n          <link rel='icon', type='image/png', sizes='192x192', href='/images/android-icon-192x192.png'/>\n          <link rel='icon', type='image/png', sizes='32x32', href='/images/favicon-32x32.png'/>\n          <link rel='icon', type='image/png', sizes='96x96', href='/images/favicon-96x96.png'/>\n          <link rel='icon', type='image/png', sizes='16x16', href='/images/favicon-16x16.png'/>\n          <link rel='manifest', href='/images/manifest.json'/>\n          <meta name='msapplication-TileColor', content='#ffffff'/>\n          <meta name='msapplication-TileImage', content='/images/ms-icon-144x144.png'/>\n          <meta name='theme-color', content='#ffffff'/>\n          <meta property=\"og:title\" content=\"" + seo.title + "\"/>\n          <meta name='description' content=\"" + seo.description + "\"/>\n          <meta property=\"og:type\" content=\"article\"/> \n          <meta property=\"og:url\" content= \"" + seo.link + "\"/> \n          <meta property=\"og:image\" content = \"" + seo.image + "\"/>\n          <meta property='og:description', content=\"" + seo.description + "\"/>\n          <script type='application/ld+json'>\n          {\n           \"@context\": \"http://schema.org\",\n           \"@type\": \"" + seo.schemaType + "\", \n           \"mainEntityOfPage\": {\n           \"@type\": \"WebPage\",\n           \"@id\": \"https://folkinlovepty.com/\"\n           },\n           \"headline\": \"" + seo.title + "\",\n           \"image\": \"" + seo.schemaImages + "\" ,\n           \"datePublished\": \"" + seo.schemaPublished + "\",\n           \"dateModified\": \"" + seo.schemaModified + "\",\n           \"author\": {\n           \"@type\": \"Person\",\n           \"name\": \"Cinthia Gonz\xE1lez\"\n           },\n           \"publisher\": {\n           \"@type\": \"Organization\",\n           \"name\": \"Folk in Love\",\n           \"logo\": {\n           \"@type\": \"ImageObject\",\n           \"url\": \"https://folkinlovepty.com/images/folkInLove-logo.png\"\n           }\n           },\n           \"description\": \"" + seo.description + "\"\n           }\n\n          </script>\n          <script>\n            !function(f,b,e,v,n,t,s)\n            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?\n            n.callMethod.apply(n,arguments):n.queue.push(arguments)};\n            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\n            n.queue=[];t=b.createElement(e);t.async=!0;\n            t.src=v;s=b.getElementsByTagName(e)[0];\n            s.parentNode.insertBefore(t,s)}(window, document,'script',\n            'https://connect.facebook.net/en_US/fbevents.js');\n            fbq('init', '2556254097725082');\n            fbq('track', 'PageView');\n          </script>\n          <noscript>\n            img(height='1', width='1', style='display:none', src='https://www.facebook.com/tr?id=2556254097725082&ev=PageView&noscript=1')</noscript>\n            " + chimpScript + "\n            <script>window.__INITIAL_DATA__ = " + (0, _serializeJavascript2.default)(data) + "</script>\n        </head>\n\n        <body>\n          <div id=\"app\">" + markup + "</div>\n        </body>\n      </html>\n    ");
   }).catch(next);
 });
 
@@ -1955,11 +1976,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _routes = __webpack_require__(3);
+var _routes = __webpack_require__(4);
 
 var _routes2 = _interopRequireDefault(_routes);
 
-var _reactRouterDom = __webpack_require__(2);
+var _reactRouterDom = __webpack_require__(3);
 
 var _NoMatch = __webpack_require__(27);
 
@@ -2556,73 +2577,7 @@ function Apoyo() {
 }
 
 /***/ }),
-/* 18 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = Contacto;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Contacto() {
-  return _react2.default.createElement(
-    "section",
-    { "class": "contacto completa" },
-    _react2.default.createElement(
-      "article",
-      { "class": "contactoInfo rosaTrans" },
-      _react2.default.createElement(
-        "div",
-        null,
-        _react2.default.createElement(
-          "h2",
-          null,
-          "Cont\xE1ctenos:"
-        ),
-        _react2.default.createElement(
-          "h4",
-          null,
-          "Email:"
-        ),
-        _react2.default.createElement(
-          "p",
-          null,
-          "info@folkinlovepty.com"
-        ),
-        _react2.default.createElement(
-          "h4",
-          null,
-          "tel\xE9fono:"
-        ),
-        _react2.default.createElement(
-          "p",
-          null,
-          "6945-5931"
-        ),
-        _react2.default.createElement(
-          "form",
-          { action: "/contacto/send", method: "post" },
-          _react2.default.createElement("input", { type: "text", name: "nombre", placeholder: "Nombre" }),
-          _react2.default.createElement("input", { type: "text", name: "email", placeholder: "Email" }),
-          _react2.default.createElement("input", { type: "text", name: "asunto", placeholder: "Asunto" }),
-          _react2.default.createElement("textarea", { name: "mensaje", rows: "10", cols: "30", placeholder: "Envianos Tu Mensaje" }),
-          _react2.default.createElement("input", { type: "submit", name: "submit", value: "Enviar", "class": "btn negro" })
-        )
-      )
-    )
-  );
-}
-
-/***/ }),
+/* 18 */,
 /* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2638,7 +2593,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _danzas = __webpack_require__(4);
+var _danzas = __webpack_require__(1);
 
 var _danzas2 = _interopRequireDefault(_danzas);
 
@@ -2835,7 +2790,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _danzas = __webpack_require__(4);
+var _danzas = __webpack_require__(1);
 
 var _danzas2 = _interopRequireDefault(_danzas);
 
@@ -2915,7 +2870,7 @@ function Danza(props) {
             Baile.pasos.map(function (paso) {
               return _react2.default.createElement(
                 'li',
-                null,
+                { key: paso },
                 paso
               );
             })
@@ -2963,7 +2918,7 @@ function Picture(imagen) {
     _react2.default.createElement("source", { media: "(min-width: 801px)", srcSet: tamaño1 }),
     _react2.default.createElement("source", { media: "(min-width: 541px)", srcSet: tamaño2 }),
     _react2.default.createElement("source", { media: "(min-width: 10px)", srcSet: tamaño3 }),
-    _react2.default.createElement("img", { "class": "completa", src: tamaño4, alt: "Bailes T\xEDpicos de Panam\xE1, Baile Congo" })
+    _react2.default.createElement("img", { className: "completa", src: tamaño4, alt: "Bailes T\xEDpicos de Panam\xE1, Baile Congo" })
   );
 }
 
@@ -2999,14 +2954,14 @@ function vestuarios() {
     null,
     _react2.default.createElement(
       'section',
-      { 'class': 'portada', id: 'vestuarioPortada' },
+      { className: 'portada', id: 'vestuarioPortada' },
       _react2.default.createElement(
         'picture',
-        { 'class': 'banner' },
-        _react2.default.createElement('source', { media: '(min-width: 801px)', srcset: 'images/vestuariosBannerFull-1x.jpg 1x, images/vestuariosBannerFull-2x.jpg 2x' }),
-        _react2.default.createElement('source', { media: '(min-width: 541px)', srcset: 'images/vestuariosBannerTab-1x.jpg 1x, images/vestuariosBannerTab-2x.jpg 2x' }),
-        _react2.default.createElement('source', { media: '(min-width: 10px)', srcset: 'images/vestuariosBannerCel-1x.jpg 1x, images/vestuariosBannerCel-2x.jpg 2x' }),
-        _react2.default.createElement('img', { 'class': 'completa', src: 'images/vestuariosBannerCell-1x.jpg', alt: 'Trajes T\xEDpicos de Panam\xE1, Pollera de Lujo Sante\xF1a en Panam\xE1 Viejo' })
+        { className: 'banner' },
+        _react2.default.createElement('source', { media: '(min-width: 801px)', srcSet: 'images/vestuariosBannerFull-1x.jpg 1x, images/vestuariosBannerFull-2x.jpg 2x' }),
+        _react2.default.createElement('source', { media: '(min-width: 541px)', srcSet: 'images/vestuariosBannerTab-1x.jpg 1x, images/vestuariosBannerTab-2x.jpg 2x' }),
+        _react2.default.createElement('source', { media: '(min-width: 10px)', srcSet: 'images/vestuariosBannerCel-1x.jpg 1x, images/vestuariosBannerCel-2x.jpg 2x' }),
+        _react2.default.createElement('img', { className: 'completa', src: 'images/vestuariosBannerCell-1x.jpg', alt: 'Trajes T\xEDpicos de Panam\xE1, Pollera de Lujo Sante\xF1a en Panam\xE1 Viejo' })
       ),
       _react2.default.createElement(
         'article',
@@ -3029,10 +2984,10 @@ function vestuarios() {
     ),
     _react2.default.createElement(
       'section',
-      { 'class': 'lista blanco' },
+      { className: 'lista blanco' },
       _react2.default.createElement(
         'div',
-        { 'class': 'listaCont' },
+        { className: 'listaCont' },
         _vestuarios2.default.map(function (vestuario) {
           return (0, _tarjeta2.default)("vestuarios", vestuario);
         })
@@ -3092,11 +3047,7 @@ function Vestuario(props) {
             { itemProp: 'name' },
             Vestido.nombre
           ),
-          _react2.default.createElement(
-            'p',
-            { itemProp: 'description' },
-            Vestido.reseña
-          )
+          Vestido.reseña
         )
       )
     ),
@@ -3148,7 +3099,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _catalogo = __webpack_require__(1);
+var _catalogo = __webpack_require__(2);
 
 var _catalogo2 = _interopRequireDefault(_catalogo);
 
@@ -3165,14 +3116,14 @@ function Tienda(props) {
     null,
     _react2.default.createElement(
       'section',
-      { 'class': 'portada' },
+      { className: 'portada' },
       _react2.default.createElement(
         'picture',
-        { 'class': 'banner' },
-        _react2.default.createElement('source', { media: '(min-width: 801px)', srcset: 'images/tiendaBannerFull-1x.jpg 1x, images/tiendaBannerFull-2x.jpg 2x' }),
-        _react2.default.createElement('source', { media: '(min-width: 541px)', srcset: 'images/tiendaBannerTab-1x.jpg 1x, images/tiendaBannerTab-2x.jpg 2x' }),
-        _react2.default.createElement('source', { media: '(min-width: 10px)', srcset: 'images/tiendaBannerCel-1x.jpg 1x, images/tiendaBannerCel-2x.jpg 2x' }),
-        _react2.default.createElement('img', { 'class': 'completa', alt: 'Foto de Pollera De Lujo Sante\xF1a, traje tipico de panam\xE1, en Panam\xE1 Viejo', src: 'images/tiendaBannerCell-1x.jpg' })
+        { className: 'banner' },
+        _react2.default.createElement('source', { media: '(min-width: 801px)', srcSet: 'images/tiendaBannerFull-1x.jpg 1x, images/tiendaBannerFull-2x.jpg 2x' }),
+        _react2.default.createElement('source', { media: '(min-width: 541px)', srcSet: 'images/tiendaBannerTab-1x.jpg 1x, images/tiendaBannerTab-2x.jpg 2x' }),
+        _react2.default.createElement('source', { media: '(min-width: 10px)', srcSet: 'images/tiendaBannerCel-1x.jpg 1x, images/tiendaBannerCel-2x.jpg 2x' }),
+        _react2.default.createElement('img', { className: 'completa', alt: 'Foto de Pollera De Lujo Sante\xF1a, traje tipico de panam\xE1, en Panam\xE1 Viejo', src: 'images/tiendaBannerCell-1x.jpg' })
       ),
       _react2.default.createElement(
         'article',
@@ -3190,10 +3141,10 @@ function Tienda(props) {
     ),
     _react2.default.createElement(
       'section',
-      { 'class': 'lista blanco' },
+      { className: 'lista blanco' },
       _react2.default.createElement(
         'div',
-        { 'class': 'listaCont' },
+        { className: 'listaCont' },
         _catalogo2.default.map(function (Producto) {
           return (0, _tarjeta2.default)(Producto);
         })
@@ -3224,16 +3175,16 @@ function Tarjeta(producto) {
   var url = "/tienda/" + producto.enlace;
   return _react2.default.createElement(
     "a",
-    { "class": "tarjeta tiendaTarjeta", href: url },
+    { className: "tarjeta tiendaTarjeta", key: url, href: url },
     _react2.default.createElement(
       "picture",
       null,
-      _react2.default.createElement("source", { media: "(min-width: 800px)", srcset: producto.miniaturaFull }),
-      _react2.default.createElement("img", { src: producto.miniaturaCel, alt: producto.alt, "class": "tarjetaImagen" })
+      _react2.default.createElement("source", { media: "(min-width: 800px)", srcSet: producto.miniaturaFull }),
+      _react2.default.createElement("img", { src: producto.miniaturaCel, alt: producto.alt, className: "tarjetaImagen" })
     ),
     _react2.default.createElement(
       "div",
-      { "class": "tarjetaInfo" },
+      { className: "tarjetaInfo" },
       _react2.default.createElement(
         "hgroup",
         null,
@@ -3278,7 +3229,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _catalogo = __webpack_require__(1);
+var _catalogo = __webpack_require__(2);
 
 var _catalogo2 = _interopRequireDefault(_catalogo);
 
@@ -3292,7 +3243,7 @@ function Producto(props) {
 
     return _react2.default.createElement(
       "div",
-      { className: "opciones" },
+      { key: opcion.detalle, className: "opciones" },
       _react2.default.createElement(
         "h4",
         null,
@@ -3566,6 +3517,300 @@ function Footer() {
           { href: "mailto: info@folkinlovepty.com" },
           _react2.default.createElement("i", { className: "fa fa-envelope-o", "aria-hidden": "true" })
         )
+      )
+    )
+  );
+}
+
+/***/ }),
+/* 30 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Contacto;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _mailChimpForm = __webpack_require__(31);
+
+var _mailChimpForm2 = _interopRequireDefault(_mailChimpForm);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Contacto() {
+  return _react2.default.createElement(
+    'section',
+    { className: 'contacto completa' },
+    _react2.default.createElement(
+      'article',
+      { className: 'contactoInfo rosaTrans' },
+      _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(
+          'h2',
+          null,
+          'Cont\xE1ctenos:'
+        ),
+        _react2.default.createElement(
+          'h4',
+          null,
+          'Email:'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'info@folkinlovepty.com'
+        ),
+        _react2.default.createElement(
+          'h4',
+          null,
+          'tel\xE9fono:'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          '6945-5931'
+        ),
+        _react2.default.createElement(_mailChimpForm2.default, null)
+      )
+    )
+  );
+}
+
+/***/ }),
+/* 31 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+exports.default = Chimp;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Chimp() {
+
+	return _react2.default.createElement(
+		"div",
+		{ id: "mc_embed_signup" },
+		_react2.default.createElement(
+			"form",
+			{ action: "https://folkinlovepty.us20.list-manage.com/subscribe/post?u=f0ce6f84c82e3f639c6d105d9&id=22a2454ef3", method: "post", id: "mc-embedded-subscribe-form", name: "mc-embedded-subscribe-form", "class": "validate", target: "_blank", novalidate: true },
+			_react2.default.createElement(
+				"div",
+				{ id: "mc_embed_signup_scroll" },
+				_react2.default.createElement(
+					"h2",
+					null,
+					"Informaci\xF3n:"
+				),
+				_react2.default.createElement(
+					"div",
+					{ className: "indicates-required" },
+					_react2.default.createElement(
+						"span",
+						{ className: "asterisk" },
+						"*"
+					),
+					"Indica los campos requeridos"
+				),
+				_react2.default.createElement(
+					"div",
+					{ className: "mc-field-group" },
+					_react2.default.createElement(
+						"label",
+						{ "for": "mce-EMAIL" },
+						"Email  ",
+						_react2.default.createElement(
+							"span",
+							{ className: "asterisk" },
+							"*"
+						)
+					),
+					_react2.default.createElement("input", { type: "email", name: "EMAIL", className: "required email", id: "mce-EMAIL" })
+				),
+				_react2.default.createElement(
+					"div",
+					{ className: "mc-field-group" },
+					_react2.default.createElement(
+						"label",
+						{ "for": "mce-FNAME" },
+						"Nombre  ",
+						_react2.default.createElement(
+							"span",
+							{ className: "asterisk" },
+							"*"
+						),
+						" "
+					),
+					_react2.default.createElement("input", { type: "text", name: "FNAME", className: "", id: "mce-FNAME" })
+				),
+				_react2.default.createElement(
+					"div",
+					{ className: "mc-field-group" },
+					_react2.default.createElement(
+						"label",
+						{ "for": "mce-LNAME" },
+						"Apellido  ",
+						_react2.default.createElement(
+							"span",
+							{ className: "asterisk" },
+							"*"
+						)
+					),
+					_react2.default.createElement("input", { type: "text", name: "LNAME", className: "required", id: "mce-LNAME" })
+				),
+				_react2.default.createElement(
+					"div",
+					{ className: "mc-field-group size1of2" },
+					_react2.default.createElement(
+						"label",
+						{ "for": "mce-BIRTHDAY-month" },
+						"Fecha de Cumplea\xF1os "
+					),
+					_react2.default.createElement(
+						"div",
+						{ className: "datefield" },
+						_react2.default.createElement(
+							"span",
+							{ className: "subfield monthfield" },
+							_react2.default.createElement("input", { className: "birthday ", type: "text", pattern: "[0-9]*", placeholder: "MM", size: "2", maxlength: "2", name: "BIRTHDAY[month]", id: "mce-BIRTHDAY-month" })
+						),
+						_react2.default.createElement(
+							"span",
+							{ className: "subfield dayfield" },
+							_react2.default.createElement("input", { className: "birthday ", type: "text", pattern: "[0-9]*", placeholder: "DD", size: "2", maxlength: "2", name: "BIRTHDAY[day]", id: "mce-BIRTHDAY-day" })
+						)
+					)
+				),
+				_react2.default.createElement(
+					"div",
+					{ className: "mc-field-group input-group" },
+					_react2.default.createElement(
+						"strong",
+						null,
+						"Quieres saber m\xE1s sobre "
+					),
+					_react2.default.createElement(
+						"ul",
+						{ className: "tematica" },
+						_react2.default.createElement(
+							"li",
+							null,
+							_react2.default.createElement("input", { type: "radio", className: "radio", value: "Sesi\xF3n de Fotos en Pollera", name: "MMERGE3", id: "mce-MMERGE3-0" }),
+							_react2.default.createElement(
+								"label",
+								{ "for": "mce-MMERGE3-0" },
+								"Sesi\xF3n de Fotos en Pollera"
+							)
+						),
+						_react2.default.createElement(
+							"li",
+							null,
+							_react2.default.createElement("input", { type: "radio", className: "radio", value: "Venta de Productos Folkl\xF3ricos", name: "MMERGE3", id: "mce-MMERGE3-1" }),
+							_react2.default.createElement(
+								"label",
+								{ "for": "mce-MMERGE3-1" },
+								"Venta de Productos Folkl\xF3ricos"
+							)
+						),
+						_react2.default.createElement(
+							"li",
+							null,
+							_react2.default.createElement("input", { type: "radio", className: "radio", value: "Alquiler de Productos Folkl\xF3ricos", name: "MMERGE3", id: "mce-MMERGE3-2" }),
+							_react2.default.createElement(
+								"label",
+								{ "for": "mce-MMERGE3-2" },
+								"Alquiler de Productos Folkl\xF3ricos"
+							)
+						),
+						_react2.default.createElement(
+							"li",
+							null,
+							_react2.default.createElement("input", { type: "radio", className: "radio", value: "Informaci\xF3n sobre el Folklore o art\xEDculos de la p\xE1gina", name: "MMERGE3", id: "mce-MMERGE3-3" }),
+							_react2.default.createElement(
+								"label",
+								{ "for": "mce-MMERGE3-3" },
+								"Informaci\xF3n sobre el Folklore o art\xEDculos de la p\xE1gina"
+							)
+						),
+						_react2.default.createElement(
+							"li",
+							null,
+							_react2.default.createElement("input", { type: "radio", className: "radio", value: "Otros productos o servicios", name: "MMERGE3", id: "mce-MMERGE3-4" }),
+							_react2.default.createElement(
+								"label",
+								{ "for": "mce-MMERGE3-4" },
+								"Otros productos o servicios"
+							)
+						)
+					)
+				),
+				_react2.default.createElement(
+					"div",
+					{ id: "mce-responses", className: "clear" },
+					_react2.default.createElement("div", { className: "response", id: "mce-error-response", style: { display: "none" } }),
+					_react2.default.createElement("div", { className: "response", id: "mce-success-response", style: { display: "none" } })
+				),
+				_react2.default.createElement(
+					"div",
+					{ style: { position: "absolute", left: -5000 + "px" }, "aria-hidden": "true" },
+					_react2.default.createElement("input", { type: "text", name: "b_f0ce6f84c82e3f639c6d105d9_22a2454ef3" })
+				),
+				_react2.default.createElement(
+					"div",
+					{ className: "clear" },
+					_react2.default.createElement("input", { type: "submit", value: "Enviar", name: "subscribe", id: "mc-embedded-subscribe", className: "button" })
+				)
+			)
+		)
+	);
+}
+
+/***/ }),
+/* 32 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Confirmacion;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Confirmacion() {
+  return _react2.default.createElement(
+    "articulo",
+    { className: "completa blanco texto" },
+    _react2.default.createElement(
+      "hgroup",
+      null,
+      _react2.default.createElement(
+        "h2",
+        null,
+        "Su Mensaje Ha Sido Enviado"
       )
     )
   );

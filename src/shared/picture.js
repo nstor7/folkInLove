@@ -12,7 +12,7 @@ export default function Picture(imagen){
     <source media="(min-width: 801px)" srcSet={tamaño1}/>
     <source media="(min-width: 541px)" srcSet={tamaño2}/>
     <source media="(min-width: 10px)" srcSet={tamaño3}/>
-    <img class="completa" src={tamaño4} alt="Bailes Típicos de Panamá, Baile Congo"/>
+    <img className="completa" src={tamaño4} alt="Bailes Típicos de Panamá, Baile Congo"/>
    </picture>
   )
  }
