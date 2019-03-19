@@ -3610,7 +3610,7 @@ function Chimp() {
 		{ id: "mc_embed_signup" },
 		_react2.default.createElement(
 			"form",
-			{ action: "https://folkinlovepty.us20.list-manage.com/subscribe/post?u=f0ce6f84c82e3f639c6d105d9&id=22a2454ef3", method: "post", id: "mc-embedded-subscribe-form", name: "mc-embedded-subscribe-form", "class": "validate", target: "_blank", novalidate: true },
+			{ action: "https://folkinlovepty.us20.list-manage.com/subscribe/post?u=f0ce6f84c82e3f639c6d105d9&id=22a2454ef3", method: "post", id: "mc-embedded-subscribe-form", name: "mc-embedded-subscribe-form", className: "validate", target: "_blank", novalidate: true },
 			_react2.default.createElement(
 				"div",
 				{ id: "mc_embed_signup_scroll" },
@@ -3634,7 +3634,7 @@ function Chimp() {
 					{ className: "mc-field-group" },
 					_react2.default.createElement(
 						"label",
-						{ "for": "mce-EMAIL" },
+						{ htmlFor: "mce-EMAIL" },
 						"Email  ",
 						_react2.default.createElement(
 							"span",
@@ -3649,7 +3649,7 @@ function Chimp() {
 					{ className: "mc-field-group" },
 					_react2.default.createElement(
 						"label",
-						{ "for": "mce-FNAME" },
+						{ htmlFor: "mce-FNAME" },
 						"Nombre  ",
 						_react2.default.createElement(
 							"span",
@@ -3665,7 +3665,7 @@ function Chimp() {
 					{ className: "mc-field-group" },
 					_react2.default.createElement(
 						"label",
-						{ "for": "mce-LNAME" },
+						{ htmlFor: "mce-LNAME" },
 						"Apellido  ",
 						_react2.default.createElement(
 							"span",
@@ -3680,7 +3680,7 @@ function Chimp() {
 					{ className: "mc-field-group size1of2" },
 					_react2.default.createElement(
 						"label",
-						{ "for": "mce-BIRTHDAY-month" },
+						{ htmlFor: "mce-BIRTHDAY-month" },
 						"Fecha de Cumplea\xF1os "
 					),
 					_react2.default.createElement(
@@ -3689,12 +3689,12 @@ function Chimp() {
 						_react2.default.createElement(
 							"span",
 							{ className: "subfield monthfield" },
-							_react2.default.createElement("input", { className: "birthday ", type: "text", pattern: "[0-9]*", placeholder: "MM", size: "2", maxlength: "2", name: "BIRTHDAY[month]", id: "mce-BIRTHDAY-month" })
+							_react2.default.createElement("input", { className: "birthday ", type: "text", pattern: "[0-9]*", placeholder: "MM", size: "2", maxLength: "2", name: "BIRTHDAY[month]", id: "mce-BIRTHDAY-month" })
 						),
 						_react2.default.createElement(
 							"span",
 							{ className: "subfield dayfield" },
-							_react2.default.createElement("input", { className: "birthday ", type: "text", pattern: "[0-9]*", placeholder: "DD", size: "2", maxlength: "2", name: "BIRTHDAY[day]", id: "mce-BIRTHDAY-day" })
+							_react2.default.createElement("input", { className: "birthday ", type: "text", pattern: "[0-9]*", placeholder: "DD", size: "2", maxLength: "2", name: "BIRTHDAY[day]", id: "mce-BIRTHDAY-day" })
 						)
 					)
 				),
@@ -3715,7 +3715,7 @@ function Chimp() {
 							_react2.default.createElement("input", { type: "radio", className: "radio", value: "Sesi\xF3n de Fotos en Pollera", name: "MMERGE3", id: "mce-MMERGE3-0" }),
 							_react2.default.createElement(
 								"label",
-								{ "for": "mce-MMERGE3-0" },
+								{ htmlFor: "mce-MMERGE3-0" },
 								"Sesi\xF3n de Fotos en Pollera"
 							)
 						),
@@ -3725,7 +3725,7 @@ function Chimp() {
 							_react2.default.createElement("input", { type: "radio", className: "radio", value: "Venta de Productos Folkl\xF3ricos", name: "MMERGE3", id: "mce-MMERGE3-1" }),
 							_react2.default.createElement(
 								"label",
-								{ "for": "mce-MMERGE3-1" },
+								{ htmlFor: "mce-MMERGE3-1" },
 								"Venta de Productos Folkl\xF3ricos"
 							)
 						),
@@ -3735,7 +3735,7 @@ function Chimp() {
 							_react2.default.createElement("input", { type: "radio", className: "radio", value: "Alquiler de Productos Folkl\xF3ricos", name: "MMERGE3", id: "mce-MMERGE3-2" }),
 							_react2.default.createElement(
 								"label",
-								{ "for": "mce-MMERGE3-2" },
+								{ htmlFor: "mce-MMERGE3-2" },
 								"Alquiler de Productos Folkl\xF3ricos"
 							)
 						),
@@ -3745,7 +3745,7 @@ function Chimp() {
 							_react2.default.createElement("input", { type: "radio", className: "radio", value: "Informaci\xF3n sobre el Folklore o art\xEDculos de la p\xE1gina", name: "MMERGE3", id: "mce-MMERGE3-3" }),
 							_react2.default.createElement(
 								"label",
-								{ "for": "mce-MMERGE3-3" },
+								{ htmlFor: "mce-MMERGE3-3" },
 								"Informaci\xF3n sobre el Folklore o art\xEDculos de la p\xE1gina"
 							)
 						),
@@ -3755,7 +3755,7 @@ function Chimp() {
 							_react2.default.createElement("input", { type: "radio", className: "radio", value: "Otros productos o servicios", name: "MMERGE3", id: "mce-MMERGE3-4" }),
 							_react2.default.createElement(
 								"label",
-								{ "for": "mce-MMERGE3-4" },
+								{ htmlFor: "mce-MMERGE3-4" },
 								"Otros productos o servicios"
 							)
 						)
