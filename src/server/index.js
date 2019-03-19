@@ -52,7 +52,7 @@ app.get("*", (req, res, next) => {
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><meta name="google-site-verification" content="A8E9MrD4Av9bQbh6y4jcxY4I-yoSDqg8yuMCsidXEIU" />
           <script async src="https://cdn.ampproject.org/v0.js"></script>
-          <title>${seo.title}</title>
+          <title>${seo.title} </title>
           <link rel="stylesheet" href="/index.css">
           <script src="/bundle.js" defer></script>
           <link rel='apple-touch-icon', sizes='57x57', href='/images/apple-icon-57x57.png'/>
