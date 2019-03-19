@@ -41,6 +41,14 @@ app.get("*", (req, res, next) => {
       <!DOCTYPE html>
       <html>
         <head id="headTag">
+          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118329881-1"></script>
+          <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+                        
+              gtag('config', 'UA-118329881-1');
+          </script>
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><meta name="google-site-verification" content="A8E9MrD4Av9bQbh6y4jcxY4I-yoSDqg8yuMCsidXEIU" />
           <script async src="https://cdn.ampproject.org/v0.js"></script>
@@ -115,15 +123,7 @@ app.get("*", (req, res, next) => {
           <noscript>
             img(height='1', width='1', style='display:none', src='https://www.facebook.com/tr?id=2556254097725082&ev=PageView&noscript=1')</noscript>
             ${chimpScript}
-            <!-- Global site tag (gtag.js) - Google Analytics -->
-            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118329881-1"></script>
-            <script>
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-                        
-              gtag('config', 'UA-118329881-1');
-            </script>
+            
             <script>window.__INITIAL_DATA__ = ${serialize(data)}</script>
         </head>
 

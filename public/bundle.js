@@ -290,11 +290,11 @@ if (process.env.NODE_ENV !== 'production') {
   // By explicitly using `prop-types` you are opting into new development behavior.
   // http://fb.me/prop-types-in-prod
   var throwOnDirectAccess = true;
-  module.exports = __webpack_require__(60)(ReactIs.isElement, throwOnDirectAccess);
+  module.exports = __webpack_require__(62)(ReactIs.isElement, throwOnDirectAccess);
 } else {
   // By explicitly using `prop-types` you are opting into new production behavior.
   // http://fb.me/prop-types-in-prod
-  module.exports = __webpack_require__(61)();
+  module.exports = __webpack_require__(63)();
 }
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
@@ -458,15 +458,15 @@ Object.defineProperty(exports, 'createPath', {
   }
 });
 
-var _createBrowserHistory2 = __webpack_require__(64);
+var _createBrowserHistory2 = __webpack_require__(66);
 
 var _createBrowserHistory3 = _interopRequireDefault(_createBrowserHistory2);
 
-var _createHashHistory2 = __webpack_require__(65);
+var _createHashHistory2 = __webpack_require__(67);
 
 var _createHashHistory3 = _interopRequireDefault(_createHashHistory2);
 
-var _createMemoryHistory2 = __webpack_require__(66);
+var _createMemoryHistory2 = __webpack_require__(68);
 
 var _createMemoryHistory3 = _interopRequireDefault(_createMemoryHistory2);
 
@@ -652,11 +652,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.locationsAreEqual = exports.createLocation = undefined;
 
-var _resolvePathname = __webpack_require__(62);
+var _resolvePathname = __webpack_require__(64);
 
 var _resolvePathname2 = _interopRequireDefault(_resolvePathname);
 
-var _valueEqual = __webpack_require__(63);
+var _valueEqual = __webpack_require__(65);
 
 var _valueEqual2 = _interopRequireDefault(_valueEqual);
 
@@ -1083,896 +1083,6 @@ exports.default = [{
 
 /***/ }),
 /* 13 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = [{
-  metaTitle: 'Sesión de Fotos en Pollera',
-  metaDescripcion: '🎖Vive la EXPERIENCIA de lucir uno de los trajes típicos más hermosos del mundo. Folk in Love te ofrece 📷 sesiones de FOTOS que incluyen POLLERA, 💍 prendas, tembleques, 💄maquillaje, arreglo, sesión de fotos con asesoría de poses.',
-  nombre: 'Sesión de Fotografía',
-  enlace: 'fotos-en-traje-tipico',
-  subtitulo: 'en vestido típico',
-  descripcion: 'La sesión fotográfica incluye vestido típico, maquillaje, colocación de tembleques y prendas, asesoría con las poses y un minimo de 15 fotos editadas en biblioteca digital perzonalizada.',
-  miniaturaFull: '/images/fotografia-miniatura-full.jpg',
-  miniaturaCel: '/images/fotografia-miniatura-cel.jpg',
-  imagenFull: '/images/fotografia-imagen-full.jpg',
-  imagenCel: '/images/fotografia-imagen-cel.jpg',
-  alt: 'Sesión fotográfica de alta calidad, vestidos típicos de Panamá',
-  opciones: [{
-    detalle: 'Pollera de Lujo',
-    precio: 350
-  }, {
-    detalle: 'Pollera Blanca',
-    precio: 300
-  }, {
-    detalle: 'Pollera Montuna',
-    precio: 225
-  }, {
-    detalle: 'Pollera Congo',
-    precio: 175
-  }, {
-    detalle: 'Persona Adicional',
-    precio: 0,
-    descripcions: 'No se cobra adicional por las fotografías, sólo el costo del alquiler de cada vestuario. (consultar precios en la sección de alquiler de vestuarios)'
-  }],
-  articulo: _react2.default.createElement(
-    'section',
-    { className: 'articulo conGaleria' },
-    _react2.default.createElement(
-      'div',
-      { className: 'sesionGal' },
-      _react2.default.createElement(
-        'picture',
-        null,
-        _react2.default.createElement('source', { media: '(min-width: 10px )', srcSet: '/images/sesionFotosGaleriaCel1x-1.jpg 1x, /images/sesionFotosGaleriaCel2x-1.jpg 2x' }),
-        _react2.default.createElement('source', { media: '(min-width: 541px )', srcSet: '/images/sesionFotosGaleriaTab1x-1.jpg 1x, /images/sesionFotosGaleriaTab2x-1.jpg 2x' }),
-        _react2.default.createElement('source', { media: '(min-width: 801px )', srcSet: '/images/sesionFotosGaleriaFull1x-1.jpg 1x, /images/sesionFotosGaleriaFull2x-1.jpg 2x' }),
-        _react2.default.createElement('img', { src: '/images/sesionFotosGaleriaCel1x-1.jpg 1x', alt: 'Sesi\xF3n de Fotos en pollera en el lugar de la ciudad de Panam\xE1 que prefiera' })
-      ),
-      _react2.default.createElement(
-        'picture',
-        null,
-        _react2.default.createElement('source', { media: '(min-width: 10px )', srcSet: '/images/sesionFotosGaleriaCel1x-3.jpg 1x, /images/sesionFotosGaleriaCel2x-3.jpg 2x' }),
-        _react2.default.createElement('source', { media: '(min-width: 541px )', srcSet: '/images/sesionFotosGaleriaTab1x-3.jpg 1x, /images/sesionFotosGaleriaTab2x-3.jpg 2x' }),
-        _react2.default.createElement('source', { media: '(min-width: 801px )', srcSet: '/images/sesionFotosGaleriaFull1x-3.jpg 1x, /images/sesionFotosGaleriaFull2x-3.jpg 2x' }),
-        _react2.default.createElement('img', { src: '/images/sesionFotosGaleriaCel1x-3.jpg 1x', alt: 'Fotos de Alta Calidad en Vestidos T\xEDpicos de Panam\xE1' })
-      ),
-      _react2.default.createElement(
-        'picture',
-        null,
-        _react2.default.createElement('source', { media: '(min-width: 10px )', srcSet: '/images/sesionFotosGaleriaCel1x-2.jpg 1x, /images/sesionFotosGaleriaCel2x-2.jpg 2x' }),
-        _react2.default.createElement('source', { media: '(min-width: 541px )', srcSet: '/images/sesionFotosGaleriaTab1x-2.jpg 1x, /images/sesionFotosGaleriaTab2x-2.jpg 2x' }),
-        _react2.default.createElement('source', { media: '(min-width: 801px )', srcSet: '/images/sesionFotosGaleriaFull1x-2.jpg 1x, /images/sesionFotosGaleriaFull2x-2.jpg 2x' }),
-        _react2.default.createElement('img', { src: '/images/sesionFotosGaleriaCel1x-2.jpg 1x', alt: 'Fotograf\xEDa en Pollera y Vestidos T\xEDpicos de Panam\xE1. Alta calidad Fotogr\xE1fica, excelentes polleras, tembleques y Maquillaje' })
-      )
-    ),
-    _react2.default.createElement(
-      'articulo',
-      { className: 'completa texto' },
-      _react2.default.createElement(
-        'hgroup',
-        { className: 'blogStyle' },
-        _react2.default.createElement(
-          'h2',
-          null,
-          'La Experiencia de Ponerse un Vestido T\xEDpico Paname\xF1o'
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'Vestirse de pollera es una de las experiencias m\xE1s lindas que pueden tener todas las paname\xF1a. A lo largo de nuestro pa\xEDs las indumentarias tradicionales son muy variadas, pero describen la vida y las experiencias de las mujeres que las portaban.'
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'Hoy en d\xEDa se ha extendido el uso de la pollera de lujo porque es de incalculable belleza, pero no debemos olvidar las otras hermosas polleras y vestimentas que tiene nuestro pa\xEDs. Como, por ejemplo: los vestidos de diablo espejo, diablico sucio, diablicos limpios de la chorrera, indumentarias de faena, basqui\xF1a, chambra y camisola, etc...'
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'Realizarse una sesi\xF3n de fotos nos hace sentir hermosas, es una experiencia que nos saca de nuestra zona de confort y nos permite vivir una experiencia memorable, \xBFpor qu\xE9? porque adem\xE1s de tomarnos el tiempo para engalanarnos con un hermoso maquillaje, peinado, prendas y dem\xE1s accesorios, tendremos la experiencia de conocer los detalles de la confecci\xF3n del vestido t\xEDpico escogido y adem\xE1s conocer de primera mano c\xF3mo se siente la tela, el peso de los tembleques y mucho m\xE1s.'
-        ),
-        _react2.default.createElement(
-          'h2',
-          null,
-          'Descripci\xF3n de la Sesi\xF3n'
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'La aventura inicia desde que el equipo llega a arreglarte (lugar de conveniencia) en d\xF3nde tendr\xE1s la pollera y los accesorios que necesitar\xE1s para esta maravillosa experiencia. Luego pasamos al peinado y maquillaje, de ah\xED a colocar la pollera, las prendas y los accesorios de la cabeza'
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'Escogeremos un lugar m\xE1gico y emblem\xE1tico de Panam\xE1 para que sea el marco perfecto para tu sesi\xF3n de fotos.'
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'y listo, ahora solo queda disfrutar y divertirnos con cada momento.'
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'Nuestro equipo te contara la historia de estas polleras, detalles interesantes de la confecci\xF3n y adem\xE1s te ayudar\xE1 a que poses para que tus recuerdos sean como siempre los so\xF1aste.'
-        ),
-        _react2.default.createElement(
-          'h2',
-          null,
-          'Qu\xE9 Necesitas Para Tu Sesi\xF3n?'
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'Nuestro compromiso es hacer de ese d\xEDa un momento memorable, estas son algunas recomendaciones que nos ayudar\xE1n a hacer todo de forma m\xE1s \xE1gil:'
-        ),
-        _react2.default.createElement(
-          'ul',
-          null,
-          _react2.default.createElement(
-            'li',
-            null,
-            'Comer antes de tu sesi\xF3n'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Ropa interior Blanca'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Cabello Limpio'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Cejas arregladas'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'No usar perfume en el cuello'
-          )
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'Este video les explicar\xE1 un poco m\xE1s del proceso.'
-        ),
-        _react2.default.createElement(
-          'div',
-          { className: 'videoPasos texto' },
-          _react2.default.createElement('iframe', { width: '560', height: '315', src: 'https://www.youtube.com/embed/Y656jCpFLiM?rel=0', frameBorder: '0', allow: 'autoplay; encrypted-media', allowFullScreen: true })
-        ),
-        _react2.default.createElement(
-          'h2',
-          null,
-          'Detalles de Nuestro Servicio'
-        ),
-        _react2.default.createElement(
-          'ul',
-          null,
-          _react2.default.createElement(
-            'li',
-            null,
-            'No hay l\xEDmite de personas por Sesi\xF3n'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Horarios Flexibles'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Locaci\xF3n en exteriores o interiores'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'T\xFA escoges la locaci\xF3n que prefieras (si la locaci\xF3n tiene un costo, este debe ser cubierto por el cliente'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Atenci\xF3n personalizada'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Incluye Maquillaje y asesor\xEDa para las poses'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Varios paquetes a escoger'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Trajes para ni\xF1os disponibles'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Trajes para hombres disponibles'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Todos los vestidos disponibles en tallas S, M y L'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Te entregamos un m\xEDnimo de 15 fotos editadas en una plataforma virtual'
-          )
-        )
-      )
-    )
-  )
-}, {
-  metaTitle: 'Venta de Pollera Blanca para bebes, niñas, jovenes y adultas',
-  metaDescripcion: 'Pollera confeccionada en tela de organza, adornada con finos encajes de hilo.',
-  nombre: 'Pollera Blanca',
-  enlace: 'pollera-blanca',
-  subtitulo: 'Organza Bordada',
-  descripcion: 'Pollera confeccionada en tela de organza, adornada con finos encajes de hilo.',
-  miniaturaFull: '/images/organza-bordada-miniatura-full.jpg',
-  miniaturaCel: '/images/organza-bordada-miniatura-cel.jpg',
-  imagenFull: '/images/organza-bordada-producto-full.jpg',
-  imagenCel: '/images/organza-bordada-producto-cel.jpg',
-  alt: 'pollera blanca de organza bordada, traje tipico de panama',
-  opciones: [{
-    detalle: 'Bebes de 0 a 2 años (con una sola arandela)',
-    precio: 50.00
-  }, {
-    detalle: 'de 3 a 5 años (con 2 arandelas)',
-    precio: 100.00
-  }, {
-    detalle: 'de 6 a 10 años',
-    precio: 200.00
-  }, {
-    detalle: 'de 11 en adelante',
-    precio: 400.00
-  }]
-}, {
-  metaTitle: 'Venta de Pollera Congo para bebes, niñas, jovenes y adultas',
-  metaDescripcion: 'Pollera de retazos de tela de vistosos colores.',
-  nombre: 'Pollera Congo',
-  enlace: 'pollera-congo',
-  subtitulo: 'De Diferentes Clases',
-  descripcion: 'Pollera de retazos de tela de vistosos colores.',
-  miniaturaFull: '/images/pollera-congo-miniatura-full.jpg',
-  miniaturaCel: '/images/pollera-congo-miniatura-cel.jpg',
-  imagenFull: '/images/pollera-congo-producto-full.jpg',
-  imagenCel: '/images/pollera-congo-producto-cel.jpg',
-  alt: 'Pollera congo de retazos, vestuarios tipicos de panama',
-  opciones: [{
-    detalle: 'Niñas hasta 2 años',
-    precio: 45
-  }, {
-    detalle: 'Niñas hasta 10 años',
-    precio: 90
-  }, {
-    detalle: 'Adultos',
-    precio: 160
-  }]
-}, {
-  metaTitle: 'Venta de Polleras de lujo en Panamá',
-  metaDescripcion: 'Pollera de gala en técnica del talco al sol con calados y encajes valencianos.',
-  nombre: 'Pollera de Lujo',
-  enlace: 'pollera-lujo',
-  subtitulo: 'Talco al Sol',
-  descripcion: 'Pollera de gala en técnica del talco al sol con calados y encajes valencianos.',
-  miniaturaFull: '/images/pollera-lujo-miniatura-full.jpg',
-  miniaturaCel: '/images/pollera-lujo-miniatura-cel.jpg',
-  imagenFull: '/images/pollera-lujo-producto-full.jpg',
-  imagenCel: '/images/pollera-lujo-producto-cel.jpg',
-  alt: 'Pollera de Lujo, talco en sol, vestidos tipicos de Panama',
-  opciones: [{
-    detalle: 'Talco en Sol',
-    precio: 5000,
-    descripción: 'Tiempo de entrega 10 a 12 meses, durante ese tiempo se podrán ir efectuando pagos, el primer pago se debe hacer el día de la toma de las medidas.'
-  }]
-}, {
-  metaTitle: 'Confección de tembleques panameños blancos y en color',
-  metaDescripcion: 'Juego de 12 pares de flores.',
-  nombre: 'Tembleques',
-  enlace: 'tembleques',
-  subtitulo: 'blancos o en color',
-  descripcion: 'Juego de 12 pares de flores.',
-  miniaturaFull: '/images/tembleques-miniatura-full.jpg',
-  miniaturaCel: '/images/tembleques-miniatura-cel.jpg',
-  imagenFull: '/images/tembleques-producto-full.jpg',
-  imagenCel: '/images/tembleques-producto-cel.jpg',
-  alt: 'Cabeza de Tembleques, Accesorios Folklóricos Panameños',
-  opciones: [{
-    detalle: 'Niñas',
-    precio: 250
-  }, {
-    detalle: 'Adulta',
-    precio: 450
-  }, {
-    detalle: 'Tapamoños',
-    precio: 25
-  }]
-},
-//estas ya estaban comentadas
-// {
-//  metaTitle: 'Camisa',
-//metaDescripcion: 'Pollera de gala en técnica del talco al sol con calados y encajes valencianos.',//  
-//nombre: 'Camisa',
-//  enlace: 'camisa',
-//  subtitulo: 'Una Sola Arandela',
-//  descripcion: 'Pollera de gala en técnica del talco al sol con calados y encajes valencianos.',
-//  miniaturaFull: '/images/camisa-miniatura-full.jpg',
-//  miniaturaCel: '/images/camisa-miniatura-cel.jpg',
-//  imagenFull: '/images/camisa-imagen-full.jpg',
-//  imagenCel: '/images/camisa-imagen-cel.jpg',
-//  alt: 'Camisa de voilé, con una sola arandela',
-//  opciones: [
-//   {
-//    detalle: 'Arandela de organza bordada', 
-//    precio: 40
-//   },
-//   {
-//    detalle: 'Arandela de Coquito industrial', 
-//    precio: 40
-//   },
-//   {
-//    detalle: 'Arandela de voilé (bual)',
-//    precio: 40
-//   }
-//  ]
-// },
-{
-  metaTitle: 'Venta de Camisas típicas panameñas para hombres',
-  metaDescripcion: '',
-  nombre: 'Camisilla',
-  enlace: 'camisilla',
-  subtitulo: 'De Gala',
-  descripcion: '',
-  miniaturaFull: '/images/camisilla-miniatura-full.jpg',
-  miniaturaCel: '/images/camisilla-miniatura-cel.jpg',
-  imagenFull: '/images/camisilla-producto-full.jpg',
-  imagenCel: '/images/camisilla-producto-cel.jpg',
-  alt: 'Camisilla de Gala, Vestidos Típicos de Panamá',
-  opciones: [{
-    detalle: 'Niños hasta 6 años',
-    precio: 35
-  }, {
-    detalle: 'Niños hasta 12 años',
-    precio: 45
-  }, {
-    detalle: 'Adultos, voilé y alforzas',
-    precio: 100
-  }, {
-    detalle: 'Adultos con espiguetas y tela de hilo',
-    precio: 200
-  }]
-  // {
-  //  metaTitle: 'Montuno Ocueño',
-  //metaDescripcion: 'Camisa y Pantalón en tela de manta sucia con bordados a mano.',//  
-  //nombre: 'Montuno Ocueño',
-  //  enlace: 'montuno-ocueno',
-  //  subtitulo: '',
-  //  descripcion: 'Camisa y Pantalón en tela de manta sucia con bordados a mano.',
-  //  miniaturaFull: '/images/montuno-ocueno-miniatura-full.jpg',
-  //  miniaturaCel: '/images/montuno-ocueno-miniatura-cel.jpg',
-  //  imagenFull: '/images/montuno-ocueno-imagen-full.jpg',
-  //  imagenCel: '/images/montuno-ocueno-imagen-cel.jpg',
-  //  alt: 'Montuno Ocueño, vestidos tipicos de Panama',
-  //  opciones: [
-  //   {
-  //    detalle: 'Niños hasta 6 años', 
-  //    precio: 50
-  //   },
-  //   {
-  //    detalle: 'Niños hasta 12 años',
-  //    precio: 80
-  //   },
-  //   {
-  //    detalle: 'Adultos',
-  //    precio: 100
-  //   }
-  //  ]
-  // },
-  // {
-  //  metaTitle: 'Alquiler de Polleras y vestidos típicos en Panamá',
-  //metaDescripcion: '',//  
-  //nombre: 'Alquiler de Vestidos y accesorios Folklóricos',
-  //  enlace: 'alquiler',
-  //  subtitulo: 'de Panamá',
-  //  descripcion: '',
-  //  miniaturaFull: '/images/camisilla-miniatura-full.jpg',
-  //  miniaturaCel: '/images/camisilla-miniatura-cel.jpg',
-  //  imagenFull: '/images/camisilla-producto-full.jpg',
-  //  imagenCel: '/images/camisilla-producto-cel.jpg',
-  //  alt: 'Camisilla de Gala, Vestidos Típicos de Panamá',
-  //  opciones: [
-  //   {
-  //    detalle: 'Niños hasta 6 años',
-  //    precio: 35
-  //   },
-  //   {
-  //    detalle: 'Niños hasta 12 años',
-  //    precio: 45
-  //   },
-  //   {
-  //    detalle: 'Adultos, voilé y alforzas',
-  //    precio: 100
-  //   },
-  //   {
-  //    detalle: 'Adultos con espiguetas y tela de hilo',
-  //    precio: 200
-  //   }
-  //  ]
-  // }
-}];
-
-/***/ }),
-/* 14 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _warning = __webpack_require__(9);
-
-var _warning2 = _interopRequireDefault(_warning);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var createTransitionManager = function createTransitionManager() {
-  var prompt = null;
-
-  var setPrompt = function setPrompt(nextPrompt) {
-    (0, _warning2.default)(prompt == null, 'A history supports only one prompt at a time');
-
-    prompt = nextPrompt;
-
-    return function () {
-      if (prompt === nextPrompt) prompt = null;
-    };
-  };
-
-  var confirmTransitionTo = function confirmTransitionTo(location, action, getUserConfirmation, callback) {
-    // TODO: If another transition starts while we're still confirming
-    // the previous one, we may end up in a weird state. Figure out the
-    // best way to handle this.
-    if (prompt != null) {
-      var result = typeof prompt === 'function' ? prompt(location, action) : prompt;
-
-      if (typeof result === 'string') {
-        if (typeof getUserConfirmation === 'function') {
-          getUserConfirmation(result, callback);
-        } else {
-          (0, _warning2.default)(false, 'A history needs a getUserConfirmation function in order to use a prompt message');
-
-          callback(true);
-        }
-      } else {
-        // Return false from a transition hook to cancel the transition.
-        callback(result !== false);
-      }
-    } else {
-      callback(true);
-    }
-  };
-
-  var listeners = [];
-
-  var appendListener = function appendListener(fn) {
-    var isActive = true;
-
-    var listener = function listener() {
-      if (isActive) fn.apply(undefined, arguments);
-    };
-
-    listeners.push(listener);
-
-    return function () {
-      isActive = false;
-      listeners = listeners.filter(function (item) {
-        return item !== listener;
-      });
-    };
-  };
-
-  var notifyListeners = function notifyListeners() {
-    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    listeners.forEach(function (listener) {
-      return listener.apply(undefined, args);
-    });
-  };
-
-  return {
-    setPrompt: setPrompt,
-    confirmTransitionTo: confirmTransitionTo,
-    appendListener: appendListener,
-    notifyListeners: notifyListeners
-  };
-};
-
-exports.default = createTransitionManager;
-
-/***/ }),
-/* 15 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _Router = __webpack_require__(16);
-
-var _Router2 = _interopRequireDefault(_Router);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = _Router2.default; // Written in this round about way for babel-transform-imports
-
-/***/ }),
-/* 16 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-var _warning = __webpack_require__(4);
-
-var _warning2 = _interopRequireDefault(_warning);
-
-var _invariant = __webpack_require__(3);
-
-var _invariant2 = _interopRequireDefault(_invariant);
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(2);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _extends = Object.assign || function (target) {
-  for (var i = 1; i < arguments.length; i++) {
-    var source = arguments[i];for (var key in source) {
-      if (Object.prototype.hasOwnProperty.call(source, key)) {
-        target[key] = source[key];
-      }
-    }
-  }return target;
-};
-
-function _classCallCheck(instance, Constructor) {
-  if (!(instance instanceof Constructor)) {
-    throw new TypeError("Cannot call a class as a function");
-  }
-}
-
-function _possibleConstructorReturn(self, call) {
-  if (!self) {
-    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-  }return call && ((typeof call === "undefined" ? "undefined" : _typeof(call)) === "object" || typeof call === "function") ? call : self;
-}
-
-function _inherits(subClass, superClass) {
-  if (typeof superClass !== "function" && superClass !== null) {
-    throw new TypeError("Super expression must either be null or a function, not " + (typeof superClass === "undefined" ? "undefined" : _typeof(superClass)));
-  }subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } });if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
-}
-
-/**
- * The public API for putting history on context.
- */
-
-var Router = function (_React$Component) {
-  _inherits(Router, _React$Component);
-
-  function Router() {
-    var _temp, _this, _ret;
-
-    _classCallCheck(this, Router);
-
-    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, _React$Component.call.apply(_React$Component, [this].concat(args))), _this), _this.state = {
-      match: _this.computeMatch(_this.props.history.location.pathname)
-    }, _temp), _possibleConstructorReturn(_this, _ret);
-  }
-
-  Router.prototype.getChildContext = function getChildContext() {
-    return {
-      router: _extends({}, this.context.router, {
-        history: this.props.history,
-        route: {
-          location: this.props.history.location,
-          match: this.state.match
-        }
-      })
-    };
-  };
-
-  Router.prototype.computeMatch = function computeMatch(pathname) {
-    return {
-      path: "/",
-      url: "/",
-      params: {},
-      isExact: pathname === "/"
-    };
-  };
-
-  Router.prototype.componentWillMount = function componentWillMount() {
-    var _this2 = this;
-
-    var _props = this.props,
-        children = _props.children,
-        history = _props.history;
-
-    (0, _invariant2.default)(children == null || _react2.default.Children.count(children) === 1, "A <Router> may have only one child element");
-
-    // Do this here so we can setState when a <Redirect> changes the
-    // location in componentWillMount. This happens e.g. when doing
-    // server rendering using a <StaticRouter>.
-    this.unlisten = history.listen(function () {
-      _this2.setState({
-        match: _this2.computeMatch(history.location.pathname)
-      });
-    });
-  };
-
-  Router.prototype.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
-    (0, _warning2.default)(this.props.history === nextProps.history, "You cannot change <Router history>");
-  };
-
-  Router.prototype.componentWillUnmount = function componentWillUnmount() {
-    this.unlisten();
-  };
-
-  Router.prototype.render = function render() {
-    var children = this.props.children;
-
-    return children ? _react2.default.Children.only(children) : null;
-  };
-
-  return Router;
-}(_react2.default.Component);
-
-Router.propTypes = {
-  history: _propTypes2.default.object.isRequired,
-  children: _propTypes2.default.node
-};
-Router.contextTypes = {
-  router: _propTypes2.default.object
-};
-Router.childContextTypes = {
-  router: _propTypes2.default.object.isRequired
-};
-
-exports.default = Router;
-
-/***/ }),
-/* 17 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _pathToRegexp = __webpack_require__(28);
-
-var _pathToRegexp2 = _interopRequireDefault(_pathToRegexp);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var patternCache = {};
-var cacheLimit = 10000;
-var cacheCount = 0;
-
-var compilePath = function compilePath(pattern, options) {
-  var cacheKey = "" + options.end + options.strict + options.sensitive;
-  var cache = patternCache[cacheKey] || (patternCache[cacheKey] = {});
-
-  if (cache[pattern]) return cache[pattern];
-
-  var keys = [];
-  var re = (0, _pathToRegexp2.default)(pattern, keys, options);
-  var compiledPattern = { re: re, keys: keys };
-
-  if (cacheCount < cacheLimit) {
-    cache[pattern] = compiledPattern;
-    cacheCount++;
-  }
-
-  return compiledPattern;
-};
-
-/**
- * Public API for matching a URL pathname to a path pattern.
- */
-var matchPath = function matchPath(pathname) {
-  var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-  var parent = arguments[2];
-
-  if (typeof options === "string") options = { path: options };
-
-  var _options = options,
-      path = _options.path,
-      _options$exact = _options.exact,
-      exact = _options$exact === undefined ? false : _options$exact,
-      _options$strict = _options.strict,
-      strict = _options$strict === undefined ? false : _options$strict,
-      _options$sensitive = _options.sensitive,
-      sensitive = _options$sensitive === undefined ? false : _options$sensitive;
-
-  if (path == null) return parent;
-
-  var _compilePath = compilePath(path, { end: exact, strict: strict, sensitive: sensitive }),
-      re = _compilePath.re,
-      keys = _compilePath.keys;
-
-  var match = re.exec(pathname);
-
-  if (!match) return null;
-
-  var url = match[0],
-      values = match.slice(1);
-
-  var isExact = pathname === url;
-
-  if (exact && !isExact) return null;
-
-  return {
-    path: path, // the path pattern used to match
-    url: path === "/" && url === "" ? "/" : url, // the matched portion of the URL
-    isExact: isExact, // whether or not we matched exactly
-    params: keys.reduce(function (memo, key, index) {
-      memo[key.name] = values[index];
-      return memo;
-    }, {})
-  };
-};
-
-exports.default = matchPath;
-
-/***/ }),
-/* 18 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(process) {
-
-if (process.env.NODE_ENV === 'production') {
-  module.exports = __webpack_require__(35);
-} else {
-  module.exports = __webpack_require__(36);
-}
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
-
-/***/ }),
-/* 19 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-var g;
-
-// This works in non-strict mode
-g = function () {
-	return this;
-}();
-
-try {
-	// This works if eval is allowed (see CSP)
-	g = g || Function("return this")() || (1, eval)("this");
-} catch (e) {
-	// This works if the window reference is available
-	if ((typeof window === "undefined" ? "undefined" : _typeof(window)) === "object") g = window;
-}
-
-// g can still be undefined, but nothing to do about it...
-// We return undefined, instead of nothing here, so it's
-// easier to handle this case. if(!global) { ...}
-
-module.exports = g;
-
-/***/ }),
-/* 20 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = Tarjeta;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Tarjeta(seccion, el) {
-  var miniatura = "/images/" + el.miniatura;
-  var url = "/" + seccion + "/" + el.url;
-
-  return _react2.default.createElement(
-    "a",
-    { className: "tarjeta", key: el.nombre, href: url },
-    _react2.default.createElement("img", { className: "tarjetaImagen", src: miniatura }),
-    _react2.default.createElement(
-      "div",
-      { className: "tarjetaInfo" },
-      _react2.default.createElement(
-        "hgroup",
-        null,
-        _react2.default.createElement(
-          "h3",
-          null,
-          el.nombre
-        ),
-        _react2.default.createElement(
-          "h4",
-          null,
-          "Regi\xF3n: ",
-          el.region
-        ),
-        _react2.default.createElement(
-          "h4",
-          null,
-          el.dato
-        )
-      )
-    )
-  );
-}
-
-/***/ }),
-/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2887,6 +1997,896 @@ exports.default = [{
 }];
 
 /***/ }),
+/* 14 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = [{
+  metaTitle: 'Sesión de Fotos en Pollera',
+  metaDescripcion: '🎖Vive la EXPERIENCIA de lucir uno de los trajes típicos más hermosos del mundo. Folk in Love te ofrece 📷 sesiones de FOTOS que incluyen POLLERA, 💍 prendas, tembleques, 💄maquillaje, arreglo, sesión de fotos con asesoría de poses.',
+  nombre: 'Sesión de Fotografía',
+  enlace: 'fotos-en-traje-tipico',
+  subtitulo: 'en vestido típico',
+  descripcion: 'La sesión fotográfica incluye vestido típico, maquillaje, colocación de tembleques y prendas, asesoría con las poses y un minimo de 15 fotos editadas en biblioteca digital perzonalizada.',
+  miniaturaFull: '/images/fotografia-miniatura-full.jpg',
+  miniaturaCel: '/images/fotografia-miniatura-cel.jpg',
+  imagenFull: '/images/fotografia-imagen-full.jpg',
+  imagenCel: '/images/fotografia-imagen-cel.jpg',
+  alt: 'Sesión fotográfica de alta calidad, vestidos típicos de Panamá',
+  opciones: [{
+    detalle: 'Pollera de Lujo',
+    precio: 350
+  }, {
+    detalle: 'Pollera Blanca',
+    precio: 300
+  }, {
+    detalle: 'Pollera Montuna',
+    precio: 225
+  }, {
+    detalle: 'Pollera Congo',
+    precio: 175
+  }, {
+    detalle: 'Persona Adicional',
+    precio: 0,
+    descripcions: 'No se cobra adicional por las fotografías, sólo el costo del alquiler de cada vestuario. (consultar precios en la sección de alquiler de vestuarios)'
+  }],
+  articulo: _react2.default.createElement(
+    'section',
+    { className: 'articulo conGaleria' },
+    _react2.default.createElement(
+      'div',
+      { className: 'sesionGal' },
+      _react2.default.createElement(
+        'picture',
+        null,
+        _react2.default.createElement('source', { media: '(min-width: 10px )', srcSet: '/images/sesionFotosGaleriaCel1x-1.jpg 1x, /images/sesionFotosGaleriaCel2x-1.jpg 2x' }),
+        _react2.default.createElement('source', { media: '(min-width: 541px )', srcSet: '/images/sesionFotosGaleriaTab1x-1.jpg 1x, /images/sesionFotosGaleriaTab2x-1.jpg 2x' }),
+        _react2.default.createElement('source', { media: '(min-width: 801px )', srcSet: '/images/sesionFotosGaleriaFull1x-1.jpg 1x, /images/sesionFotosGaleriaFull2x-1.jpg 2x' }),
+        _react2.default.createElement('img', { src: '/images/sesionFotosGaleriaCel1x-1.jpg 1x', alt: 'Sesi\xF3n de Fotos en pollera en el lugar de la ciudad de Panam\xE1 que prefiera' })
+      ),
+      _react2.default.createElement(
+        'picture',
+        null,
+        _react2.default.createElement('source', { media: '(min-width: 10px )', srcSet: '/images/sesionFotosGaleriaCel1x-3.jpg 1x, /images/sesionFotosGaleriaCel2x-3.jpg 2x' }),
+        _react2.default.createElement('source', { media: '(min-width: 541px )', srcSet: '/images/sesionFotosGaleriaTab1x-3.jpg 1x, /images/sesionFotosGaleriaTab2x-3.jpg 2x' }),
+        _react2.default.createElement('source', { media: '(min-width: 801px )', srcSet: '/images/sesionFotosGaleriaFull1x-3.jpg 1x, /images/sesionFotosGaleriaFull2x-3.jpg 2x' }),
+        _react2.default.createElement('img', { src: '/images/sesionFotosGaleriaCel1x-3.jpg 1x', alt: 'Fotos de Alta Calidad en Vestidos T\xEDpicos de Panam\xE1' })
+      ),
+      _react2.default.createElement(
+        'picture',
+        null,
+        _react2.default.createElement('source', { media: '(min-width: 10px )', srcSet: '/images/sesionFotosGaleriaCel1x-2.jpg 1x, /images/sesionFotosGaleriaCel2x-2.jpg 2x' }),
+        _react2.default.createElement('source', { media: '(min-width: 541px )', srcSet: '/images/sesionFotosGaleriaTab1x-2.jpg 1x, /images/sesionFotosGaleriaTab2x-2.jpg 2x' }),
+        _react2.default.createElement('source', { media: '(min-width: 801px )', srcSet: '/images/sesionFotosGaleriaFull1x-2.jpg 1x, /images/sesionFotosGaleriaFull2x-2.jpg 2x' }),
+        _react2.default.createElement('img', { src: '/images/sesionFotosGaleriaCel1x-2.jpg 1x', alt: 'Fotograf\xEDa en Pollera y Vestidos T\xEDpicos de Panam\xE1. Alta calidad Fotogr\xE1fica, excelentes polleras, tembleques y Maquillaje' })
+      )
+    ),
+    _react2.default.createElement(
+      'articulo',
+      { className: 'completa texto' },
+      _react2.default.createElement(
+        'hgroup',
+        { className: 'blogStyle' },
+        _react2.default.createElement(
+          'h2',
+          null,
+          'La Experiencia de Ponerse un Vestido T\xEDpico Paname\xF1o'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Vestirse de pollera es una de las experiencias m\xE1s lindas que pueden tener todas las paname\xF1a. A lo largo de nuestro pa\xEDs las indumentarias tradicionales son muy variadas, pero describen la vida y las experiencias de las mujeres que las portaban.'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Hoy en d\xEDa se ha extendido el uso de la pollera de lujo porque es de incalculable belleza, pero no debemos olvidar las otras hermosas polleras y vestimentas que tiene nuestro pa\xEDs. Como, por ejemplo: los vestidos de diablo espejo, diablico sucio, diablicos limpios de la chorrera, indumentarias de faena, basqui\xF1a, chambra y camisola, etc...'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Realizarse una sesi\xF3n de fotos nos hace sentir hermosas, es una experiencia que nos saca de nuestra zona de confort y nos permite vivir una experiencia memorable, \xBFpor qu\xE9? porque adem\xE1s de tomarnos el tiempo para engalanarnos con un hermoso maquillaje, peinado, prendas y dem\xE1s accesorios, tendremos la experiencia de conocer los detalles de la confecci\xF3n del vestido t\xEDpico escogido y adem\xE1s conocer de primera mano c\xF3mo se siente la tela, el peso de los tembleques y mucho m\xE1s.'
+        ),
+        _react2.default.createElement(
+          'h2',
+          null,
+          'Descripci\xF3n de la Sesi\xF3n'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'La aventura inicia desde que el equipo llega a arreglarte (lugar de conveniencia) en d\xF3nde tendr\xE1s la pollera y los accesorios que necesitar\xE1s para esta maravillosa experiencia. Luego pasamos al peinado y maquillaje, de ah\xED a colocar la pollera, las prendas y los accesorios de la cabeza'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Escogeremos un lugar m\xE1gico y emblem\xE1tico de Panam\xE1 para que sea el marco perfecto para tu sesi\xF3n de fotos.'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'y listo, ahora solo queda disfrutar y divertirnos con cada momento.'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Nuestro equipo te contara la historia de estas polleras, detalles interesantes de la confecci\xF3n y adem\xE1s te ayudar\xE1 a que poses para que tus recuerdos sean como siempre los so\xF1aste.'
+        ),
+        _react2.default.createElement(
+          'h2',
+          null,
+          'Qu\xE9 Necesitas Para Tu Sesi\xF3n?'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Nuestro compromiso es hacer de ese d\xEDa un momento memorable, estas son algunas recomendaciones que nos ayudar\xE1n a hacer todo de forma m\xE1s \xE1gil:'
+        ),
+        _react2.default.createElement(
+          'ul',
+          null,
+          _react2.default.createElement(
+            'li',
+            null,
+            'Comer antes de tu sesi\xF3n'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Ropa interior Blanca'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Cabello Limpio'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Cejas arregladas'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'No usar perfume en el cuello'
+          )
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Este video les explicar\xE1 un poco m\xE1s del proceso.'
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'videoPasos texto' },
+          _react2.default.createElement('iframe', { width: '560', height: '315', src: 'https://www.youtube.com/embed/Y656jCpFLiM?rel=0', frameBorder: '0', allow: 'autoplay; encrypted-media', allowFullScreen: true })
+        ),
+        _react2.default.createElement(
+          'h2',
+          null,
+          'Detalles de Nuestro Servicio'
+        ),
+        _react2.default.createElement(
+          'ul',
+          null,
+          _react2.default.createElement(
+            'li',
+            null,
+            'No hay l\xEDmite de personas por Sesi\xF3n'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Horarios Flexibles'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Locaci\xF3n en exteriores o interiores'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'T\xFA escoges la locaci\xF3n que prefieras (si la locaci\xF3n tiene un costo, este debe ser cubierto por el cliente'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Atenci\xF3n personalizada'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Incluye Maquillaje y asesor\xEDa para las poses'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Varios paquetes a escoger'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Trajes para ni\xF1os disponibles'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Trajes para hombres disponibles'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Todos los vestidos disponibles en tallas S, M y L'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Te entregamos un m\xEDnimo de 15 fotos editadas en una plataforma virtual'
+          )
+        )
+      )
+    )
+  )
+}, {
+  metaTitle: 'Venta de Pollera Blanca para bebes, niñas, jovenes y adultas',
+  metaDescripcion: 'Pollera confeccionada en tela de organza, adornada con finos encajes de hilo.',
+  nombre: 'Pollera Blanca',
+  enlace: 'pollera-blanca',
+  subtitulo: 'Organza Bordada',
+  descripcion: 'Pollera confeccionada en tela de organza, adornada con finos encajes de hilo.',
+  miniaturaFull: '/images/organza-bordada-miniatura-full.jpg',
+  miniaturaCel: '/images/organza-bordada-miniatura-cel.jpg',
+  imagenFull: '/images/organza-bordada-producto-full.jpg',
+  imagenCel: '/images/organza-bordada-producto-cel.jpg',
+  alt: 'pollera blanca de organza bordada, traje tipico de panama',
+  opciones: [{
+    detalle: 'Bebes de 0 a 2 años (con una sola arandela)',
+    precio: 50.00
+  }, {
+    detalle: 'de 3 a 5 años (con 2 arandelas)',
+    precio: 100.00
+  }, {
+    detalle: 'de 6 a 10 años',
+    precio: 200.00
+  }, {
+    detalle: 'de 11 en adelante',
+    precio: 400.00
+  }]
+}, {
+  metaTitle: 'Venta de Pollera Congo para bebes, niñas, jovenes y adultas',
+  metaDescripcion: 'Pollera de retazos de tela de vistosos colores.',
+  nombre: 'Pollera Congo',
+  enlace: 'pollera-congo',
+  subtitulo: 'De Diferentes Clases',
+  descripcion: 'Pollera de retazos de tela de vistosos colores.',
+  miniaturaFull: '/images/pollera-congo-miniatura-full.jpg',
+  miniaturaCel: '/images/pollera-congo-miniatura-cel.jpg',
+  imagenFull: '/images/pollera-congo-producto-full.jpg',
+  imagenCel: '/images/pollera-congo-producto-cel.jpg',
+  alt: 'Pollera congo de retazos, vestuarios tipicos de panama',
+  opciones: [{
+    detalle: 'Niñas hasta 2 años',
+    precio: 45
+  }, {
+    detalle: 'Niñas hasta 10 años',
+    precio: 90
+  }, {
+    detalle: 'Adultos',
+    precio: 160
+  }]
+}, {
+  metaTitle: 'Venta de Polleras de lujo en Panamá',
+  metaDescripcion: 'Pollera de gala en técnica del talco al sol con calados y encajes valencianos.',
+  nombre: 'Pollera de Lujo',
+  enlace: 'pollera-lujo',
+  subtitulo: 'Talco al Sol',
+  descripcion: 'Pollera de gala en técnica del talco al sol con calados y encajes valencianos.',
+  miniaturaFull: '/images/pollera-lujo-miniatura-full.jpg',
+  miniaturaCel: '/images/pollera-lujo-miniatura-cel.jpg',
+  imagenFull: '/images/pollera-lujo-producto-full.jpg',
+  imagenCel: '/images/pollera-lujo-producto-cel.jpg',
+  alt: 'Pollera de Lujo, talco en sol, vestidos tipicos de Panama',
+  opciones: [{
+    detalle: 'Talco en Sol',
+    precio: 5000,
+    descripción: 'Tiempo de entrega 10 a 12 meses, durante ese tiempo se podrán ir efectuando pagos, el primer pago se debe hacer el día de la toma de las medidas.'
+  }]
+}, {
+  metaTitle: 'Confección de tembleques panameños blancos y en color',
+  metaDescripcion: 'Juego de 12 pares de flores.',
+  nombre: 'Tembleques',
+  enlace: 'tembleques',
+  subtitulo: 'blancos o en color',
+  descripcion: 'Juego de 12 pares de flores.',
+  miniaturaFull: '/images/tembleques-miniatura-full.jpg',
+  miniaturaCel: '/images/tembleques-miniatura-cel.jpg',
+  imagenFull: '/images/tembleques-producto-full.jpg',
+  imagenCel: '/images/tembleques-producto-cel.jpg',
+  alt: 'Cabeza de Tembleques, Accesorios Folklóricos Panameños',
+  opciones: [{
+    detalle: 'Niñas',
+    precio: 250
+  }, {
+    detalle: 'Adulta',
+    precio: 450
+  }, {
+    detalle: 'Tapamoños',
+    precio: 25
+  }]
+},
+//estas ya estaban comentadas
+// {
+//  metaTitle: 'Camisa',
+//metaDescripcion: 'Pollera de gala en técnica del talco al sol con calados y encajes valencianos.',//  
+//nombre: 'Camisa',
+//  enlace: 'camisa',
+//  subtitulo: 'Una Sola Arandela',
+//  descripcion: 'Pollera de gala en técnica del talco al sol con calados y encajes valencianos.',
+//  miniaturaFull: '/images/camisa-miniatura-full.jpg',
+//  miniaturaCel: '/images/camisa-miniatura-cel.jpg',
+//  imagenFull: '/images/camisa-imagen-full.jpg',
+//  imagenCel: '/images/camisa-imagen-cel.jpg',
+//  alt: 'Camisa de voilé, con una sola arandela',
+//  opciones: [
+//   {
+//    detalle: 'Arandela de organza bordada', 
+//    precio: 40
+//   },
+//   {
+//    detalle: 'Arandela de Coquito industrial', 
+//    precio: 40
+//   },
+//   {
+//    detalle: 'Arandela de voilé (bual)',
+//    precio: 40
+//   }
+//  ]
+// },
+{
+  metaTitle: 'Venta de Camisas típicas panameñas para hombres',
+  metaDescripcion: '',
+  nombre: 'Camisilla',
+  enlace: 'camisilla',
+  subtitulo: 'De Gala',
+  descripcion: '',
+  miniaturaFull: '/images/camisilla-miniatura-full.jpg',
+  miniaturaCel: '/images/camisilla-miniatura-cel.jpg',
+  imagenFull: '/images/camisilla-producto-full.jpg',
+  imagenCel: '/images/camisilla-producto-cel.jpg',
+  alt: 'Camisilla de Gala, Vestidos Típicos de Panamá',
+  opciones: [{
+    detalle: 'Niños hasta 6 años',
+    precio: 35
+  }, {
+    detalle: 'Niños hasta 12 años',
+    precio: 45
+  }, {
+    detalle: 'Adultos, voilé y alforzas',
+    precio: 100
+  }, {
+    detalle: 'Adultos con espiguetas y tela de hilo',
+    precio: 200
+  }]
+  // {
+  //  metaTitle: 'Montuno Ocueño',
+  //metaDescripcion: 'Camisa y Pantalón en tela de manta sucia con bordados a mano.',//  
+  //nombre: 'Montuno Ocueño',
+  //  enlace: 'montuno-ocueno',
+  //  subtitulo: '',
+  //  descripcion: 'Camisa y Pantalón en tela de manta sucia con bordados a mano.',
+  //  miniaturaFull: '/images/montuno-ocueno-miniatura-full.jpg',
+  //  miniaturaCel: '/images/montuno-ocueno-miniatura-cel.jpg',
+  //  imagenFull: '/images/montuno-ocueno-imagen-full.jpg',
+  //  imagenCel: '/images/montuno-ocueno-imagen-cel.jpg',
+  //  alt: 'Montuno Ocueño, vestidos tipicos de Panama',
+  //  opciones: [
+  //   {
+  //    detalle: 'Niños hasta 6 años', 
+  //    precio: 50
+  //   },
+  //   {
+  //    detalle: 'Niños hasta 12 años',
+  //    precio: 80
+  //   },
+  //   {
+  //    detalle: 'Adultos',
+  //    precio: 100
+  //   }
+  //  ]
+  // },
+  // {
+  //  metaTitle: 'Alquiler de Polleras y vestidos típicos en Panamá',
+  //metaDescripcion: '',//  
+  //nombre: 'Alquiler de Vestidos y accesorios Folklóricos',
+  //  enlace: 'alquiler',
+  //  subtitulo: 'de Panamá',
+  //  descripcion: '',
+  //  miniaturaFull: '/images/camisilla-miniatura-full.jpg',
+  //  miniaturaCel: '/images/camisilla-miniatura-cel.jpg',
+  //  imagenFull: '/images/camisilla-producto-full.jpg',
+  //  imagenCel: '/images/camisilla-producto-cel.jpg',
+  //  alt: 'Camisilla de Gala, Vestidos Típicos de Panamá',
+  //  opciones: [
+  //   {
+  //    detalle: 'Niños hasta 6 años',
+  //    precio: 35
+  //   },
+  //   {
+  //    detalle: 'Niños hasta 12 años',
+  //    precio: 45
+  //   },
+  //   {
+  //    detalle: 'Adultos, voilé y alforzas',
+  //    precio: 100
+  //   },
+  //   {
+  //    detalle: 'Adultos con espiguetas y tela de hilo',
+  //    precio: 200
+  //   }
+  //  ]
+  // }
+}];
+
+/***/ }),
+/* 15 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _warning = __webpack_require__(9);
+
+var _warning2 = _interopRequireDefault(_warning);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var createTransitionManager = function createTransitionManager() {
+  var prompt = null;
+
+  var setPrompt = function setPrompt(nextPrompt) {
+    (0, _warning2.default)(prompt == null, 'A history supports only one prompt at a time');
+
+    prompt = nextPrompt;
+
+    return function () {
+      if (prompt === nextPrompt) prompt = null;
+    };
+  };
+
+  var confirmTransitionTo = function confirmTransitionTo(location, action, getUserConfirmation, callback) {
+    // TODO: If another transition starts while we're still confirming
+    // the previous one, we may end up in a weird state. Figure out the
+    // best way to handle this.
+    if (prompt != null) {
+      var result = typeof prompt === 'function' ? prompt(location, action) : prompt;
+
+      if (typeof result === 'string') {
+        if (typeof getUserConfirmation === 'function') {
+          getUserConfirmation(result, callback);
+        } else {
+          (0, _warning2.default)(false, 'A history needs a getUserConfirmation function in order to use a prompt message');
+
+          callback(true);
+        }
+      } else {
+        // Return false from a transition hook to cancel the transition.
+        callback(result !== false);
+      }
+    } else {
+      callback(true);
+    }
+  };
+
+  var listeners = [];
+
+  var appendListener = function appendListener(fn) {
+    var isActive = true;
+
+    var listener = function listener() {
+      if (isActive) fn.apply(undefined, arguments);
+    };
+
+    listeners.push(listener);
+
+    return function () {
+      isActive = false;
+      listeners = listeners.filter(function (item) {
+        return item !== listener;
+      });
+    };
+  };
+
+  var notifyListeners = function notifyListeners() {
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    listeners.forEach(function (listener) {
+      return listener.apply(undefined, args);
+    });
+  };
+
+  return {
+    setPrompt: setPrompt,
+    confirmTransitionTo: confirmTransitionTo,
+    appendListener: appendListener,
+    notifyListeners: notifyListeners
+  };
+};
+
+exports.default = createTransitionManager;
+
+/***/ }),
+/* 16 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _Router = __webpack_require__(17);
+
+var _Router2 = _interopRequireDefault(_Router);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = _Router2.default; // Written in this round about way for babel-transform-imports
+
+/***/ }),
+/* 17 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+var _warning = __webpack_require__(4);
+
+var _warning2 = _interopRequireDefault(_warning);
+
+var _invariant = __webpack_require__(3);
+
+var _invariant2 = _interopRequireDefault(_invariant);
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(2);
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _extends = Object.assign || function (target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = arguments[i];for (var key in source) {
+      if (Object.prototype.hasOwnProperty.call(source, key)) {
+        target[key] = source[key];
+      }
+    }
+  }return target;
+};
+
+function _classCallCheck(instance, Constructor) {
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
+}
+
+function _possibleConstructorReturn(self, call) {
+  if (!self) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }return call && ((typeof call === "undefined" ? "undefined" : _typeof(call)) === "object" || typeof call === "function") ? call : self;
+}
+
+function _inherits(subClass, superClass) {
+  if (typeof superClass !== "function" && superClass !== null) {
+    throw new TypeError("Super expression must either be null or a function, not " + (typeof superClass === "undefined" ? "undefined" : _typeof(superClass)));
+  }subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } });if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
+}
+
+/**
+ * The public API for putting history on context.
+ */
+
+var Router = function (_React$Component) {
+  _inherits(Router, _React$Component);
+
+  function Router() {
+    var _temp, _this, _ret;
+
+    _classCallCheck(this, Router);
+
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, _React$Component.call.apply(_React$Component, [this].concat(args))), _this), _this.state = {
+      match: _this.computeMatch(_this.props.history.location.pathname)
+    }, _temp), _possibleConstructorReturn(_this, _ret);
+  }
+
+  Router.prototype.getChildContext = function getChildContext() {
+    return {
+      router: _extends({}, this.context.router, {
+        history: this.props.history,
+        route: {
+          location: this.props.history.location,
+          match: this.state.match
+        }
+      })
+    };
+  };
+
+  Router.prototype.computeMatch = function computeMatch(pathname) {
+    return {
+      path: "/",
+      url: "/",
+      params: {},
+      isExact: pathname === "/"
+    };
+  };
+
+  Router.prototype.componentWillMount = function componentWillMount() {
+    var _this2 = this;
+
+    var _props = this.props,
+        children = _props.children,
+        history = _props.history;
+
+    (0, _invariant2.default)(children == null || _react2.default.Children.count(children) === 1, "A <Router> may have only one child element");
+
+    // Do this here so we can setState when a <Redirect> changes the
+    // location in componentWillMount. This happens e.g. when doing
+    // server rendering using a <StaticRouter>.
+    this.unlisten = history.listen(function () {
+      _this2.setState({
+        match: _this2.computeMatch(history.location.pathname)
+      });
+    });
+  };
+
+  Router.prototype.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
+    (0, _warning2.default)(this.props.history === nextProps.history, "You cannot change <Router history>");
+  };
+
+  Router.prototype.componentWillUnmount = function componentWillUnmount() {
+    this.unlisten();
+  };
+
+  Router.prototype.render = function render() {
+    var children = this.props.children;
+
+    return children ? _react2.default.Children.only(children) : null;
+  };
+
+  return Router;
+}(_react2.default.Component);
+
+Router.propTypes = {
+  history: _propTypes2.default.object.isRequired,
+  children: _propTypes2.default.node
+};
+Router.contextTypes = {
+  router: _propTypes2.default.object
+};
+Router.childContextTypes = {
+  router: _propTypes2.default.object.isRequired
+};
+
+exports.default = Router;
+
+/***/ }),
+/* 18 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _pathToRegexp = __webpack_require__(28);
+
+var _pathToRegexp2 = _interopRequireDefault(_pathToRegexp);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var patternCache = {};
+var cacheLimit = 10000;
+var cacheCount = 0;
+
+var compilePath = function compilePath(pattern, options) {
+  var cacheKey = "" + options.end + options.strict + options.sensitive;
+  var cache = patternCache[cacheKey] || (patternCache[cacheKey] = {});
+
+  if (cache[pattern]) return cache[pattern];
+
+  var keys = [];
+  var re = (0, _pathToRegexp2.default)(pattern, keys, options);
+  var compiledPattern = { re: re, keys: keys };
+
+  if (cacheCount < cacheLimit) {
+    cache[pattern] = compiledPattern;
+    cacheCount++;
+  }
+
+  return compiledPattern;
+};
+
+/**
+ * Public API for matching a URL pathname to a path pattern.
+ */
+var matchPath = function matchPath(pathname) {
+  var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+  var parent = arguments[2];
+
+  if (typeof options === "string") options = { path: options };
+
+  var _options = options,
+      path = _options.path,
+      _options$exact = _options.exact,
+      exact = _options$exact === undefined ? false : _options$exact,
+      _options$strict = _options.strict,
+      strict = _options$strict === undefined ? false : _options$strict,
+      _options$sensitive = _options.sensitive,
+      sensitive = _options$sensitive === undefined ? false : _options$sensitive;
+
+  if (path == null) return parent;
+
+  var _compilePath = compilePath(path, { end: exact, strict: strict, sensitive: sensitive }),
+      re = _compilePath.re,
+      keys = _compilePath.keys;
+
+  var match = re.exec(pathname);
+
+  if (!match) return null;
+
+  var url = match[0],
+      values = match.slice(1);
+
+  var isExact = pathname === url;
+
+  if (exact && !isExact) return null;
+
+  return {
+    path: path, // the path pattern used to match
+    url: path === "/" && url === "" ? "/" : url, // the matched portion of the URL
+    isExact: isExact, // whether or not we matched exactly
+    params: keys.reduce(function (memo, key, index) {
+      memo[key.name] = values[index];
+      return memo;
+    }, {})
+  };
+};
+
+exports.default = matchPath;
+
+/***/ }),
+/* 19 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(process) {
+
+if (process.env.NODE_ENV === 'production') {
+  module.exports = __webpack_require__(35);
+} else {
+  module.exports = __webpack_require__(36);
+}
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
+
+/***/ }),
+/* 20 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+var g;
+
+// This works in non-strict mode
+g = function () {
+	return this;
+}();
+
+try {
+	// This works if eval is allowed (see CSP)
+	g = g || Function("return this")() || (1, eval)("this");
+} catch (e) {
+	// This works if the window reference is available
+	if ((typeof window === "undefined" ? "undefined" : _typeof(window)) === "object") g = window;
+}
+
+// g can still be undefined, but nothing to do about it...
+// We return undefined, instead of nothing here, so it's
+// easier to handle this case. if(!global) { ...}
+
+module.exports = g;
+
+/***/ }),
+/* 21 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Tarjeta;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Tarjeta(seccion, el) {
+  var miniatura = "/images/" + el.miniatura;
+  var url = "/" + seccion + "/" + el.url;
+
+  return _react2.default.createElement(
+    "a",
+    { className: "tarjeta", key: el.nombre, href: url },
+    _react2.default.createElement("img", { className: "tarjetaImagen", src: miniatura }),
+    _react2.default.createElement(
+      "div",
+      { className: "tarjetaInfo" },
+      _react2.default.createElement(
+        "hgroup",
+        null,
+        _react2.default.createElement(
+          "h3",
+          null,
+          el.nombre
+        ),
+        _react2.default.createElement(
+          "h4",
+          null,
+          "Regi\xF3n: ",
+          el.region
+        ),
+        _react2.default.createElement(
+          "h4",
+          null,
+          el.dato
+        )
+      )
+    )
+  );
+}
+
+/***/ }),
 /* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2898,11 +2898,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.withRouter = exports.matchPath = exports.generatePath = exports.Switch = exports.StaticRouter = exports.Router = exports.Route = exports.Redirect = exports.Prompt = exports.NavLink = exports.MemoryRouter = exports.Link = exports.HashRouter = exports.BrowserRouter = undefined;
 
-var _BrowserRouter2 = __webpack_require__(57);
+var _BrowserRouter2 = __webpack_require__(59);
 
 var _BrowserRouter3 = _interopRequireDefault(_BrowserRouter2);
 
-var _HashRouter2 = __webpack_require__(67);
+var _HashRouter2 = __webpack_require__(69);
 
 var _HashRouter3 = _interopRequireDefault(_HashRouter2);
 
@@ -2910,19 +2910,19 @@ var _Link2 = __webpack_require__(25);
 
 var _Link3 = _interopRequireDefault(_Link2);
 
-var _MemoryRouter2 = __webpack_require__(68);
+var _MemoryRouter2 = __webpack_require__(70);
 
 var _MemoryRouter3 = _interopRequireDefault(_MemoryRouter2);
 
-var _NavLink2 = __webpack_require__(70);
+var _NavLink2 = __webpack_require__(72);
 
 var _NavLink3 = _interopRequireDefault(_NavLink2);
 
-var _Prompt2 = __webpack_require__(72);
+var _Prompt2 = __webpack_require__(74);
 
 var _Prompt3 = _interopRequireDefault(_Prompt2);
 
-var _Redirect2 = __webpack_require__(74);
+var _Redirect2 = __webpack_require__(76);
 
 var _Redirect3 = _interopRequireDefault(_Redirect2);
 
@@ -2930,27 +2930,27 @@ var _Route2 = __webpack_require__(26);
 
 var _Route3 = _interopRequireDefault(_Route2);
 
-var _Router2 = __webpack_require__(15);
+var _Router2 = __webpack_require__(16);
 
 var _Router3 = _interopRequireDefault(_Router2);
 
-var _StaticRouter2 = __webpack_require__(76);
+var _StaticRouter2 = __webpack_require__(78);
 
 var _StaticRouter3 = _interopRequireDefault(_StaticRouter2);
 
-var _Switch2 = __webpack_require__(78);
+var _Switch2 = __webpack_require__(80);
 
 var _Switch3 = _interopRequireDefault(_Switch2);
 
-var _generatePath2 = __webpack_require__(80);
+var _generatePath2 = __webpack_require__(82);
 
 var _generatePath3 = _interopRequireDefault(_generatePath2);
 
-var _matchPath2 = __webpack_require__(81);
+var _matchPath2 = __webpack_require__(83);
 
 var _matchPath3 = _interopRequireDefault(_matchPath2);
 
-var _withRouter2 = __webpack_require__(82);
+var _withRouter2 = __webpack_require__(84);
 
 var _withRouter3 = _interopRequireDefault(_withRouter2);
 
@@ -2979,9 +2979,9 @@ exports.withRouter = _withRouter3.default;
 /* WEBPACK VAR INJECTION */(function(process) {
 
 if (process.env.NODE_ENV === 'production') {
-  module.exports = __webpack_require__(58);
+  module.exports = __webpack_require__(60);
 } else {
-  module.exports = __webpack_require__(59);
+  module.exports = __webpack_require__(61);
 }
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
@@ -3247,7 +3247,7 @@ var _propTypes = __webpack_require__(2);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _matchPath = __webpack_require__(17);
+var _matchPath = __webpack_require__(18);
 
 var _matchPath2 = _interopRequireDefault(_matchPath);
 
@@ -3415,7 +3415,7 @@ exports.default = Route;
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-var isarray = __webpack_require__(71);
+var isarray = __webpack_require__(73);
 
 /**
  * Expose `pathToRegexp`.
@@ -6073,7 +6073,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 var aa = __webpack_require__(0),
     n = __webpack_require__(6),
-    r = __webpack_require__(18);function ba(a, b, c, d, e, f, g, h) {
+    r = __webpack_require__(19);function ba(a, b, c, d, e, f, g, h) {
   if (!a) {
     a = void 0;if (void 0 === b) a = Error("Minified exception occurred; use the non-minified dev environment for the full error message and additional helpful warnings.");else {
       var l = [c, d, e, f, g, h],
@@ -8598,7 +8598,7 @@ exports.unstable_shouldYield = function () {
 };exports.unstable_pauseExecution = function () {};exports.unstable_getFirstCallbackNode = function () {
   return d;
 };
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(19)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(20)))
 
 /***/ }),
 /* 36 */
@@ -9304,7 +9304,7 @@ if (process.env.NODE_ENV !== "production") {
     exports.unstable_getFirstCallbackNode = unstable_getFirstCallbackNode;
   })();
 }
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1), __webpack_require__(19)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1), __webpack_require__(20)))
 
 /***/ }),
 /* 37 */
@@ -9318,7 +9318,7 @@ if (process.env.NODE_ENV !== "production") {
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */var _typeof=typeof Symbol==="function"&&typeof Symbol.iterator==="symbol"?function(obj){return typeof obj;}:function(obj){return obj&&typeof Symbol==="function"&&obj.constructor===Symbol&&obj!==Symbol.prototype?"symbol":typeof obj;};if(process.env.NODE_ENV!=="production"){(function(){'use strict';var React=__webpack_require__(0);var _assign=__webpack_require__(6);var checkPropTypes=__webpack_require__(10);var scheduler=__webpack_require__(18);var tracing=__webpack_require__(38);/**
+ */var _typeof=typeof Symbol==="function"&&typeof Symbol.iterator==="symbol"?function(obj){return typeof obj;}:function(obj){return obj&&typeof Symbol==="function"&&obj.constructor===Symbol&&obj!==Symbol.prototype?"symbol":typeof obj;};if(process.env.NODE_ENV!=="production"){(function(){'use strict';var React=__webpack_require__(0);var _assign=__webpack_require__(6);var checkPropTypes=__webpack_require__(10);var scheduler=__webpack_require__(19);var tracing=__webpack_require__(38);/**
  * Use invariant() to assert state which your program assumes to be true.
  *
  * Provide sprintf-style format (only %s is supported) and arguments
@@ -13674,15 +13674,15 @@ var _routes2 = _interopRequireDefault(_routes);
 
 var _reactRouterDom = __webpack_require__(22);
 
-var _NoMatch = __webpack_require__(85);
+var _NoMatch = __webpack_require__(87);
 
 var _NoMatch2 = _interopRequireDefault(_NoMatch);
 
-var _Navbar = __webpack_require__(86);
+var _Navbar = __webpack_require__(88);
 
 var _Navbar2 = _interopRequireDefault(_Navbar);
 
-var _footer = __webpack_require__(87);
+var _footer = __webpack_require__(89);
 
 var _footer2 = _interopRequireDefault(_footer);
 
@@ -13754,35 +13754,35 @@ var _index = __webpack_require__(43);
 
 var _index2 = _interopRequireDefault(_index);
 
-var _index3 = __webpack_require__(88);
+var _index3 = __webpack_require__(48);
 
 var _index4 = _interopRequireDefault(_index3);
 
-var _danzas = __webpack_require__(49);
+var _danzas = __webpack_require__(50);
 
 var _danzas2 = _interopRequireDefault(_danzas);
 
-var _danza = __webpack_require__(50);
+var _danza = __webpack_require__(51);
 
 var _danza2 = _interopRequireDefault(_danza);
 
-var _vestuarios = __webpack_require__(52);
+var _vestuarios = __webpack_require__(53);
 
 var _vestuarios2 = _interopRequireDefault(_vestuarios);
 
-var _vestuario = __webpack_require__(53);
+var _vestuario = __webpack_require__(54);
 
 var _vestuario2 = _interopRequireDefault(_vestuario);
 
-var _tienda = __webpack_require__(54);
+var _tienda = __webpack_require__(55);
 
 var _tienda2 = _interopRequireDefault(_tienda);
 
-var _producto = __webpack_require__(56);
+var _producto = __webpack_require__(57);
 
 var _producto2 = _interopRequireDefault(_producto);
 
-var _catalogo = __webpack_require__(13);
+var _catalogo = __webpack_require__(14);
 
 var _catalogo2 = _interopRequireDefault(_catalogo);
 
@@ -13790,11 +13790,11 @@ var _danzas3 = __webpack_require__(12);
 
 var _danzas4 = _interopRequireDefault(_danzas3);
 
-var _vestuarios3 = __webpack_require__(21);
+var _vestuarios3 = __webpack_require__(13);
 
 var _vestuarios4 = _interopRequireDefault(_vestuarios3);
 
-var _confirmacion = __webpack_require__(90);
+var _confirmacion = __webpack_require__(58);
 
 var _confirmacion2 = _interopRequireDefault(_confirmacion);
 
@@ -14469,8 +14469,267 @@ function Apoyo() {
 }
 
 /***/ }),
-/* 48 */,
+/* 48 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Contacto;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _mailChimpForm = __webpack_require__(49);
+
+var _mailChimpForm2 = _interopRequireDefault(_mailChimpForm);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Contacto() {
+  return _react2.default.createElement(
+    'section',
+    { className: 'contacto completa' },
+    _react2.default.createElement(
+      'article',
+      { className: 'contactoInfo rosaTrans' },
+      _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(
+          'h2',
+          null,
+          'Cont\xE1ctenos:'
+        ),
+        _react2.default.createElement(
+          'h4',
+          null,
+          'Email:'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'info@folkinlovepty.com'
+        ),
+        _react2.default.createElement(
+          'h4',
+          null,
+          'tel\xE9fono:'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          '6945-5931'
+        ),
+        _react2.default.createElement(_mailChimpForm2.default, null)
+      )
+    )
+  );
+}
+
+/***/ }),
 /* 49 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+exports.default = Chimp;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Chimp() {
+
+	return _react2.default.createElement(
+		"div",
+		{ id: "mc_embed_signup" },
+		_react2.default.createElement(
+			"form",
+			{ action: "https://folkinlovepty.us20.list-manage.com/subscribe/post?u=f0ce6f84c82e3f639c6d105d9&id=22a2454ef3", method: "post", id: "mc-embedded-subscribe-form", name: "mc-embedded-subscribe-form", className: "validate", target: "_blank", noValidate: true },
+			_react2.default.createElement(
+				"div",
+				{ id: "mc_embed_signup_scroll" },
+				_react2.default.createElement(
+					"h2",
+					null,
+					"Informaci\xF3n:"
+				),
+				_react2.default.createElement(
+					"div",
+					{ className: "indicates-required" },
+					_react2.default.createElement(
+						"span",
+						{ className: "asterisk" },
+						"*"
+					),
+					"Indica los campos requeridos"
+				),
+				_react2.default.createElement(
+					"div",
+					{ className: "mc-field-group" },
+					_react2.default.createElement(
+						"label",
+						{ htmlFor: "mce-EMAIL" },
+						"Email  ",
+						_react2.default.createElement(
+							"span",
+							{ className: "asterisk" },
+							"*"
+						)
+					),
+					_react2.default.createElement("input", { type: "email", name: "EMAIL", className: "required email", id: "mce-EMAIL" })
+				),
+				_react2.default.createElement(
+					"div",
+					{ className: "mc-field-group" },
+					_react2.default.createElement(
+						"label",
+						{ htmlFor: "mce-FNAME" },
+						"Nombre  ",
+						_react2.default.createElement(
+							"span",
+							{ className: "asterisk" },
+							"*"
+						),
+						" "
+					),
+					_react2.default.createElement("input", { type: "text", name: "FNAME", className: "", id: "mce-FNAME" })
+				),
+				_react2.default.createElement(
+					"div",
+					{ className: "mc-field-group" },
+					_react2.default.createElement(
+						"label",
+						{ htmlFor: "mce-LNAME" },
+						"Apellido  ",
+						_react2.default.createElement(
+							"span",
+							{ className: "asterisk" },
+							"*"
+						)
+					),
+					_react2.default.createElement("input", { type: "text", name: "LNAME", className: "required", id: "mce-LNAME" })
+				),
+				_react2.default.createElement(
+					"div",
+					{ className: "mc-field-group size1of2" },
+					_react2.default.createElement(
+						"label",
+						{ htmlFor: "mce-BIRTHDAY-month" },
+						"Fecha de Cumplea\xF1os "
+					),
+					_react2.default.createElement(
+						"div",
+						{ className: "datefield" },
+						_react2.default.createElement(
+							"span",
+							{ className: "subfield monthfield" },
+							_react2.default.createElement("input", { className: "birthday ", type: "text", pattern: "[0-9]*", placeholder: "MM", size: "2", maxLength: "2", name: "BIRTHDAY[month]", id: "mce-BIRTHDAY-month" })
+						),
+						_react2.default.createElement(
+							"span",
+							{ className: "subfield dayfield" },
+							_react2.default.createElement("input", { className: "birthday ", type: "text", pattern: "[0-9]*", placeholder: "DD", size: "2", maxLength: "2", name: "BIRTHDAY[day]", id: "mce-BIRTHDAY-day" })
+						)
+					)
+				),
+				_react2.default.createElement(
+					"div",
+					{ className: "mc-field-group input-group" },
+					_react2.default.createElement(
+						"strong",
+						null,
+						"Quieres saber m\xE1s sobre "
+					),
+					_react2.default.createElement(
+						"ul",
+						{ className: "tematica" },
+						_react2.default.createElement(
+							"li",
+							null,
+							_react2.default.createElement("input", { type: "radio", className: "radio", value: "Sesi\xF3n de Fotos en Pollera", name: "MMERGE3", id: "mce-MMERGE3-0" }),
+							_react2.default.createElement(
+								"label",
+								{ htmlFor: "mce-MMERGE3-0" },
+								"Sesi\xF3n de Fotos en Pollera"
+							)
+						),
+						_react2.default.createElement(
+							"li",
+							null,
+							_react2.default.createElement("input", { type: "radio", className: "radio", value: "Venta de Productos Folkl\xF3ricos", name: "MMERGE3", id: "mce-MMERGE3-1" }),
+							_react2.default.createElement(
+								"label",
+								{ htmlFor: "mce-MMERGE3-1" },
+								"Venta de Productos Folkl\xF3ricos"
+							)
+						),
+						_react2.default.createElement(
+							"li",
+							null,
+							_react2.default.createElement("input", { type: "radio", className: "radio", value: "Alquiler de Productos Folkl\xF3ricos", name: "MMERGE3", id: "mce-MMERGE3-2" }),
+							_react2.default.createElement(
+								"label",
+								{ htmlFor: "mce-MMERGE3-2" },
+								"Alquiler de Productos Folkl\xF3ricos"
+							)
+						),
+						_react2.default.createElement(
+							"li",
+							null,
+							_react2.default.createElement("input", { type: "radio", className: "radio", value: "Informaci\xF3n sobre el Folklore o art\xEDculos de la p\xE1gina", name: "MMERGE3", id: "mce-MMERGE3-3" }),
+							_react2.default.createElement(
+								"label",
+								{ htmlFor: "mce-MMERGE3-3" },
+								"Informaci\xF3n sobre el Folklore o art\xEDculos de la p\xE1gina"
+							)
+						),
+						_react2.default.createElement(
+							"li",
+							null,
+							_react2.default.createElement("input", { type: "radio", className: "radio", value: "Otros productos o servicios", name: "MMERGE3", id: "mce-MMERGE3-4" }),
+							_react2.default.createElement(
+								"label",
+								{ htmlFor: "mce-MMERGE3-4" },
+								"Otros productos o servicios"
+							)
+						)
+					)
+				),
+				_react2.default.createElement(
+					"div",
+					{ id: "mce-responses", className: "clear" },
+					_react2.default.createElement("div", { className: "response", id: "mce-error-response", style: { display: "none" } }),
+					_react2.default.createElement("div", { className: "response", id: "mce-success-response", style: { display: "none" } })
+				),
+				_react2.default.createElement(
+					"div",
+					{ style: { position: "absolute", left: -5000 + "px" }, "aria-hidden": "true" },
+					_react2.default.createElement("input", { type: "text", name: "b_f0ce6f84c82e3f639c6d105d9_22a2454ef3" })
+				),
+				_react2.default.createElement(
+					"div",
+					{ className: "clear" },
+					_react2.default.createElement("input", { type: "submit", value: "Enviar", name: "subscribe", id: "mc-embedded-subscribe", className: "button" })
+				)
+			)
+		)
+	);
+}
+
+/***/ }),
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14489,7 +14748,7 @@ var _danzas = __webpack_require__(12);
 
 var _danzas2 = _interopRequireDefault(_danzas);
 
-var _tarjeta = __webpack_require__(20);
+var _tarjeta = __webpack_require__(21);
 
 var _tarjeta2 = _interopRequireDefault(_tarjeta);
 
@@ -14667,7 +14926,7 @@ function Danzas() {
 }
 
 /***/ }),
-/* 50 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14686,7 +14945,7 @@ var _danzas = __webpack_require__(12);
 
 var _danzas2 = _interopRequireDefault(_danzas);
 
-var _picture = __webpack_require__(51);
+var _picture = __webpack_require__(52);
 
 var _picture2 = _interopRequireDefault(_picture);
 
@@ -14780,7 +15039,7 @@ function Danza(props) {
 }
 
 /***/ }),
-/* 51 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14815,7 +15074,7 @@ function Picture(imagen) {
 }
 
 /***/ }),
-/* 52 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14830,11 +15089,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _vestuarios = __webpack_require__(21);
+var _vestuarios = __webpack_require__(13);
 
 var _vestuarios2 = _interopRequireDefault(_vestuarios);
 
-var _tarjeta = __webpack_require__(20);
+var _tarjeta = __webpack_require__(21);
 
 var _tarjeta2 = _interopRequireDefault(_tarjeta);
 
@@ -14889,7 +15148,7 @@ function vestuarios() {
 }
 
 /***/ }),
-/* 53 */
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14904,7 +15163,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _vestuarios = __webpack_require__(21);
+var _vestuarios = __webpack_require__(13);
 
 var _vestuarios2 = _interopRequireDefault(_vestuarios);
 
@@ -14976,7 +15235,7 @@ function Vestuario(props) {
 }
 
 /***/ }),
-/* 54 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14991,11 +15250,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _catalogo = __webpack_require__(13);
+var _catalogo = __webpack_require__(14);
 
 var _catalogo2 = _interopRequireDefault(_catalogo);
 
-var _tarjeta = __webpack_require__(55);
+var _tarjeta = __webpack_require__(56);
 
 var _tarjeta2 = _interopRequireDefault(_tarjeta);
 
@@ -15046,7 +15305,7 @@ function Tienda(props) {
 }
 
 /***/ }),
-/* 55 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15106,7 +15365,7 @@ function Tarjeta(producto) {
 }
 
 /***/ }),
-/* 56 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15121,7 +15380,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _catalogo = __webpack_require__(13);
+var _catalogo = __webpack_require__(14);
 
 var _catalogo2 = _interopRequireDefault(_catalogo);
 
@@ -15202,7 +15461,41 @@ function Producto(props) {
 }
 
 /***/ }),
-/* 57 */
+/* 58 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Confirmacion;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Confirmacion() {
+  return _react2.default.createElement(
+    "articulo",
+    { className: "completa blanco texto" },
+    _react2.default.createElement(
+      "hgroup",
+      null,
+      _react2.default.createElement(
+        "h2",
+        null,
+        "Su Mensaje Ha Sido Enviado"
+      )
+    )
+  );
+}
+
+/***/ }),
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15228,7 +15521,7 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _history = __webpack_require__(5);
 
-var _Router = __webpack_require__(15);
+var _Router = __webpack_require__(16);
 
 var _Router2 = _interopRequireDefault(_Router);
 
@@ -15293,7 +15586,7 @@ BrowserRouter.propTypes = {
 exports.default = BrowserRouter;
 
 /***/ }),
-/* 58 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15368,7 +15661,7 @@ exports.isSuspense = function (a) {
 };
 
 /***/ }),
-/* 59 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15602,7 +15895,7 @@ if (process.env.NODE_ENV !== "production") {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 60 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16180,7 +16473,7 @@ module.exports = function (isValidElement, throwOnDirectAccess) {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 61 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16246,7 +16539,7 @@ module.exports = function () {
 };
 
 /***/ }),
-/* 62 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16327,7 +16620,7 @@ function resolvePathname(to) {
 exports.default = resolvePathname;
 
 /***/ }),
-/* 63 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16383,7 +16676,7 @@ function valueEqual(a, b) {
 exports.default = valueEqual;
 
 /***/ }),
-/* 64 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16407,7 +16700,7 @@ var _LocationUtils = __webpack_require__(8);
 
 var _PathUtils = __webpack_require__(7);
 
-var _createTransitionManager = __webpack_require__(14);
+var _createTransitionManager = __webpack_require__(15);
 
 var _createTransitionManager2 = _interopRequireDefault(_createTransitionManager);
 
@@ -16709,7 +17002,7 @@ var createBrowserHistory = function createBrowserHistory() {
 exports.default = createBrowserHistory;
 
 /***/ }),
-/* 65 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16731,7 +17024,7 @@ var _LocationUtils = __webpack_require__(8);
 
 var _PathUtils = __webpack_require__(7);
 
-var _createTransitionManager = __webpack_require__(14);
+var _createTransitionManager = __webpack_require__(15);
 
 var _createTransitionManager2 = _interopRequireDefault(_createTransitionManager);
 
@@ -17048,7 +17341,7 @@ var createHashHistory = function createHashHistory() {
 exports.default = createHashHistory;
 
 /***/ }),
-/* 66 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17068,7 +17361,7 @@ var _PathUtils = __webpack_require__(7);
 
 var _LocationUtils = __webpack_require__(8);
 
-var _createTransitionManager = __webpack_require__(14);
+var _createTransitionManager = __webpack_require__(15);
 
 var _createTransitionManager2 = _interopRequireDefault(_createTransitionManager);
 
@@ -17239,7 +17532,7 @@ var createMemoryHistory = function createMemoryHistory() {
 exports.default = createMemoryHistory;
 
 /***/ }),
-/* 67 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17265,7 +17558,7 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _history = __webpack_require__(5);
 
-var _Router = __webpack_require__(15);
+var _Router = __webpack_require__(16);
 
 var _Router2 = _interopRequireDefault(_Router);
 
@@ -17329,7 +17622,7 @@ HashRouter.propTypes = {
 exports.default = HashRouter;
 
 /***/ }),
-/* 68 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17339,7 +17632,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _MemoryRouter = __webpack_require__(69);
+var _MemoryRouter = __webpack_require__(71);
 
 var _MemoryRouter2 = _interopRequireDefault(_MemoryRouter);
 
@@ -17348,7 +17641,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.default = _MemoryRouter2.default; // Written in this round about way for babel-transform-imports
 
 /***/ }),
-/* 69 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17374,7 +17667,7 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _history = __webpack_require__(5);
 
-var _Router = __webpack_require__(16);
+var _Router = __webpack_require__(17);
 
 var _Router2 = _interopRequireDefault(_Router);
 
@@ -17439,7 +17732,7 @@ MemoryRouter.propTypes = {
 exports.default = MemoryRouter;
 
 /***/ }),
-/* 70 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17556,7 +17849,7 @@ NavLink.defaultProps = {
 exports.default = NavLink;
 
 /***/ }),
-/* 71 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17567,7 +17860,7 @@ module.exports = Array.isArray || function (arr) {
 };
 
 /***/ }),
-/* 72 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17577,7 +17870,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _Prompt = __webpack_require__(73);
+var _Prompt = __webpack_require__(75);
 
 var _Prompt2 = _interopRequireDefault(_Prompt);
 
@@ -17586,7 +17879,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.default = _Prompt2.default; // Written in this round about way for babel-transform-imports
 
 /***/ }),
-/* 73 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17700,7 +17993,7 @@ Prompt.contextTypes = {
 exports.default = Prompt;
 
 /***/ }),
-/* 74 */
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17710,7 +18003,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _Redirect = __webpack_require__(75);
+var _Redirect = __webpack_require__(77);
 
 var _Redirect2 = _interopRequireDefault(_Redirect);
 
@@ -17719,7 +18012,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.default = _Redirect2.default; // Written in this round about way for babel-transform-imports
 
 /***/ }),
-/* 75 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17882,7 +18175,7 @@ Redirect.contextTypes = {
 exports.default = Redirect;
 
 /***/ }),
-/* 76 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17892,7 +18185,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _StaticRouter = __webpack_require__(77);
+var _StaticRouter = __webpack_require__(79);
 
 var _StaticRouter2 = _interopRequireDefault(_StaticRouter);
 
@@ -17901,7 +18194,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.default = _StaticRouter2.default; // Written in this round about way for babel-transform-imports
 
 /***/ }),
-/* 77 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17931,7 +18224,7 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _history = __webpack_require__(5);
 
-var _Router = __webpack_require__(16);
+var _Router = __webpack_require__(17);
 
 var _Router2 = _interopRequireDefault(_Router);
 
@@ -18105,7 +18398,7 @@ StaticRouter.childContextTypes = {
 exports.default = StaticRouter;
 
 /***/ }),
-/* 78 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18115,7 +18408,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _Switch = __webpack_require__(79);
+var _Switch = __webpack_require__(81);
 
 var _Switch2 = _interopRequireDefault(_Switch);
 
@@ -18124,7 +18417,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.default = _Switch2.default; // Written in this round about way for babel-transform-imports
 
 /***/ }),
-/* 79 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18152,7 +18445,7 @@ var _invariant = __webpack_require__(3);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
-var _matchPath = __webpack_require__(17);
+var _matchPath = __webpack_require__(18);
 
 var _matchPath2 = _interopRequireDefault(_matchPath);
 
@@ -18242,7 +18535,7 @@ Switch.propTypes = {
 exports.default = Switch;
 
 /***/ }),
-/* 80 */
+/* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18261,7 +18554,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.default = _generatePath2.default; // Written in this round about way for babel-transform-imports
 
 /***/ }),
-/* 81 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18271,7 +18564,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _matchPath = __webpack_require__(17);
+var _matchPath = __webpack_require__(18);
 
 var _matchPath2 = _interopRequireDefault(_matchPath);
 
@@ -18280,7 +18573,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.default = _matchPath2.default; // Written in this round about way for babel-transform-imports
 
 /***/ }),
-/* 82 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18290,7 +18583,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _withRouter = __webpack_require__(83);
+var _withRouter = __webpack_require__(85);
 
 var _withRouter2 = _interopRequireDefault(_withRouter);
 
@@ -18299,7 +18592,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.default = _withRouter2.default; // Written in this round about way for babel-transform-imports
 
 /***/ }),
-/* 83 */
+/* 85 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18317,7 +18610,7 @@ var _propTypes = __webpack_require__(2);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _hoistNonReactStatics = __webpack_require__(84);
+var _hoistNonReactStatics = __webpack_require__(86);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
@@ -18372,7 +18665,7 @@ var withRouter = function withRouter(Component) {
 exports.default = withRouter;
 
 /***/ }),
-/* 84 */
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18449,7 +18742,7 @@ function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
 module.exports = hoistNonReactStatics;
 
 /***/ }),
-/* 85 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18475,7 +18768,7 @@ function NoMatch() {
 }
 
 /***/ }),
-/* 86 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18579,7 +18872,7 @@ var NavBAr = function (_React$Component) {
 exports.default = NavBAr;
 
 /***/ }),
-/* 87 */
+/* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18656,300 +18949,6 @@ function Footer() {
           { href: "mailto: info@folkinlovepty.com" },
           _react2.default.createElement("i", { className: "fa fa-envelope-o", "aria-hidden": "true" })
         )
-      )
-    )
-  );
-}
-
-/***/ }),
-/* 88 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = Contacto;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _mailChimpForm = __webpack_require__(89);
-
-var _mailChimpForm2 = _interopRequireDefault(_mailChimpForm);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Contacto() {
-  return _react2.default.createElement(
-    'section',
-    { className: 'contacto completa' },
-    _react2.default.createElement(
-      'article',
-      { className: 'contactoInfo rosaTrans' },
-      _react2.default.createElement(
-        'div',
-        null,
-        _react2.default.createElement(
-          'h2',
-          null,
-          'Cont\xE1ctenos:'
-        ),
-        _react2.default.createElement(
-          'h4',
-          null,
-          'Email:'
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'info@folkinlovepty.com'
-        ),
-        _react2.default.createElement(
-          'h4',
-          null,
-          'tel\xE9fono:'
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          '6945-5931'
-        ),
-        _react2.default.createElement(_mailChimpForm2.default, null)
-      )
-    )
-  );
-}
-
-/***/ }),
-/* 89 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-	value: true
-});
-exports.default = Chimp;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Chimp() {
-
-	return _react2.default.createElement(
-		"div",
-		{ id: "mc_embed_signup" },
-		_react2.default.createElement(
-			"form",
-			{ action: "https://folkinlovepty.us20.list-manage.com/subscribe/post?u=f0ce6f84c82e3f639c6d105d9&id=22a2454ef3", method: "post", id: "mc-embedded-subscribe-form", name: "mc-embedded-subscribe-form", className: "validate", target: "_blank", noValidate: true },
-			_react2.default.createElement(
-				"div",
-				{ id: "mc_embed_signup_scroll" },
-				_react2.default.createElement(
-					"h2",
-					null,
-					"Informaci\xF3n:"
-				),
-				_react2.default.createElement(
-					"div",
-					{ className: "indicates-required" },
-					_react2.default.createElement(
-						"span",
-						{ className: "asterisk" },
-						"*"
-					),
-					"Indica los campos requeridos"
-				),
-				_react2.default.createElement(
-					"div",
-					{ className: "mc-field-group" },
-					_react2.default.createElement(
-						"label",
-						{ htmlFor: "mce-EMAIL" },
-						"Email  ",
-						_react2.default.createElement(
-							"span",
-							{ className: "asterisk" },
-							"*"
-						)
-					),
-					_react2.default.createElement("input", { type: "email", name: "EMAIL", className: "required email", id: "mce-EMAIL" })
-				),
-				_react2.default.createElement(
-					"div",
-					{ className: "mc-field-group" },
-					_react2.default.createElement(
-						"label",
-						{ htmlFor: "mce-FNAME" },
-						"Nombre  ",
-						_react2.default.createElement(
-							"span",
-							{ className: "asterisk" },
-							"*"
-						),
-						" "
-					),
-					_react2.default.createElement("input", { type: "text", name: "FNAME", className: "", id: "mce-FNAME" })
-				),
-				_react2.default.createElement(
-					"div",
-					{ className: "mc-field-group" },
-					_react2.default.createElement(
-						"label",
-						{ htmlFor: "mce-LNAME" },
-						"Apellido  ",
-						_react2.default.createElement(
-							"span",
-							{ className: "asterisk" },
-							"*"
-						)
-					),
-					_react2.default.createElement("input", { type: "text", name: "LNAME", className: "required", id: "mce-LNAME" })
-				),
-				_react2.default.createElement(
-					"div",
-					{ className: "mc-field-group size1of2" },
-					_react2.default.createElement(
-						"label",
-						{ htmlFor: "mce-BIRTHDAY-month" },
-						"Fecha de Cumplea\xF1os "
-					),
-					_react2.default.createElement(
-						"div",
-						{ className: "datefield" },
-						_react2.default.createElement(
-							"span",
-							{ className: "subfield monthfield" },
-							_react2.default.createElement("input", { className: "birthday ", type: "text", pattern: "[0-9]*", placeholder: "MM", size: "2", maxLength: "2", name: "BIRTHDAY[month]", id: "mce-BIRTHDAY-month" })
-						),
-						_react2.default.createElement(
-							"span",
-							{ className: "subfield dayfield" },
-							_react2.default.createElement("input", { className: "birthday ", type: "text", pattern: "[0-9]*", placeholder: "DD", size: "2", maxLength: "2", name: "BIRTHDAY[day]", id: "mce-BIRTHDAY-day" })
-						)
-					)
-				),
-				_react2.default.createElement(
-					"div",
-					{ className: "mc-field-group input-group" },
-					_react2.default.createElement(
-						"strong",
-						null,
-						"Quieres saber m\xE1s sobre "
-					),
-					_react2.default.createElement(
-						"ul",
-						{ className: "tematica" },
-						_react2.default.createElement(
-							"li",
-							null,
-							_react2.default.createElement("input", { type: "radio", className: "radio", value: "Sesi\xF3n de Fotos en Pollera", name: "MMERGE3", id: "mce-MMERGE3-0" }),
-							_react2.default.createElement(
-								"label",
-								{ htmlFor: "mce-MMERGE3-0" },
-								"Sesi\xF3n de Fotos en Pollera"
-							)
-						),
-						_react2.default.createElement(
-							"li",
-							null,
-							_react2.default.createElement("input", { type: "radio", className: "radio", value: "Venta de Productos Folkl\xF3ricos", name: "MMERGE3", id: "mce-MMERGE3-1" }),
-							_react2.default.createElement(
-								"label",
-								{ htmlFor: "mce-MMERGE3-1" },
-								"Venta de Productos Folkl\xF3ricos"
-							)
-						),
-						_react2.default.createElement(
-							"li",
-							null,
-							_react2.default.createElement("input", { type: "radio", className: "radio", value: "Alquiler de Productos Folkl\xF3ricos", name: "MMERGE3", id: "mce-MMERGE3-2" }),
-							_react2.default.createElement(
-								"label",
-								{ htmlFor: "mce-MMERGE3-2" },
-								"Alquiler de Productos Folkl\xF3ricos"
-							)
-						),
-						_react2.default.createElement(
-							"li",
-							null,
-							_react2.default.createElement("input", { type: "radio", className: "radio", value: "Informaci\xF3n sobre el Folklore o art\xEDculos de la p\xE1gina", name: "MMERGE3", id: "mce-MMERGE3-3" }),
-							_react2.default.createElement(
-								"label",
-								{ htmlFor: "mce-MMERGE3-3" },
-								"Informaci\xF3n sobre el Folklore o art\xEDculos de la p\xE1gina"
-							)
-						),
-						_react2.default.createElement(
-							"li",
-							null,
-							_react2.default.createElement("input", { type: "radio", className: "radio", value: "Otros productos o servicios", name: "MMERGE3", id: "mce-MMERGE3-4" }),
-							_react2.default.createElement(
-								"label",
-								{ htmlFor: "mce-MMERGE3-4" },
-								"Otros productos o servicios"
-							)
-						)
-					)
-				),
-				_react2.default.createElement(
-					"div",
-					{ id: "mce-responses", className: "clear" },
-					_react2.default.createElement("div", { className: "response", id: "mce-error-response", style: { display: "none" } }),
-					_react2.default.createElement("div", { className: "response", id: "mce-success-response", style: { display: "none" } })
-				),
-				_react2.default.createElement(
-					"div",
-					{ style: { position: "absolute", left: -5000 + "px" }, "aria-hidden": "true" },
-					_react2.default.createElement("input", { type: "text", name: "b_f0ce6f84c82e3f639c6d105d9_22a2454ef3" })
-				),
-				_react2.default.createElement(
-					"div",
-					{ className: "clear" },
-					_react2.default.createElement("input", { type: "submit", value: "Enviar", name: "subscribe", id: "mc-embedded-subscribe", className: "button" })
-				)
-			)
-		)
-	);
-}
-
-/***/ }),
-/* 90 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = Confirmacion;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Confirmacion() {
-  return _react2.default.createElement(
-    "articulo",
-    { className: "completa blanco texto" },
-    _react2.default.createElement(
-      "hgroup",
-      null,
-      _react2.default.createElement(
-        "h2",
-        null,
-        "Su Mensaje Ha Sido Enviado"
       )
     )
   );
