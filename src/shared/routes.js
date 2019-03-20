@@ -171,11 +171,7 @@ const routes =  [
     fbEvent: (enlace) =>{
       var product = Catalogo.find((prod) => prod.enlace === enlace)
       return `<script>
-                    fbq('track', 'ViewContent', {
-                      content_ids: 'interes-${product.enlace}',
-                      content_type: 'product',
-                      product_catalog_id: ${product.enlace}
-                    });
+                    fbq('track', 'ViewContent');
               </script>`
               
       },
