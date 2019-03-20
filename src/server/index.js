@@ -23,6 +23,10 @@ app.get("*", (req, res, next) => {
   ?  activeRoute.chimpScript
   :  ''
 
+  const fbEvent = activeRoute.fbEvent
+  ?  activeRoute.fbEvent
+  :  ''
+  
   const promise = activeRoute.fetchInitialData
     ? activeRoute.fetchInitialData(req.path)
     : Promise.resolve()
@@ -129,6 +133,7 @@ app.get("*", (req, res, next) => {
         </head>
 
         <body>
+          ${fbEvent}
           <div id="app">${markup}</div>
         </body>
       </html>

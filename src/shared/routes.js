@@ -175,10 +175,13 @@ const routes =  [
         title: `${product.metaTitle}`,
         description: `${product.metaDescripcion}`,
         image: `https://www.folkinlovepty.com/${product.miniaturaFull}`,
+        fbEvent: `<script>
+                    fbq('track', 'ViewContent', {
+                      content_ids: 'interes${product.fbEventId}',
+                    });
+                  </script>`,
         schemaType: 'Article',
-        schemaImages:[
-         `https://www.folkinlovepty.com/${product.imagenFull}`
-        ],
+        schemaImages: [`https://www.folkinlovepty.com/${product.miniaturaFull}`],
         schemaPublished: '2017-10-016T00:00:00+00:00',
         schemaModified: '2018-5-05T03:41:00+03:41'
        }
