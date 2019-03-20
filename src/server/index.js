@@ -40,15 +40,16 @@ app.get("*", (req, res, next) => {
     res.send(`
       <!DOCTYPE html>
       <html>
-        <head id="headTag">
+        <head>
           <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118329881-1"></script>
           <script>
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-                        
-              gtag('config', 'UA-118329881-1');
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+          
+            gtag('config', 'UA-118329881-1');
           </script>
+        
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><meta name="google-site-verification" content="A8E9MrD4Av9bQbh6y4jcxY4I-yoSDqg8yuMCsidXEIU" />
           <script async src="https://cdn.ampproject.org/v0.js"></script>
