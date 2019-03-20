@@ -173,6 +173,8 @@ const routes =  [
       return `<script>
                     fbq('track', 'ViewContent', {
                       content_ids: 'interes-${product.enlace}',
+                      content_type: 'product',
+                      product_catalog_id: ${producto.enlace}
                     });
               </script>`
               

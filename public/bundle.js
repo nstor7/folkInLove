@@ -13920,7 +13920,7 @@ var routes = [{
     var product = _catalogo2.default.find(function (prod) {
       return prod.enlace === enlace;
     });
-    return '<script>\n                    fbq(\'track\', \'ViewContent\', {\n                      content_ids: \'interes-' + product.enlace + '\',\n                    });\n              </script>';
+    return '<script>\n                    fbq(\'track\', \'ViewContent\', {\n                      content_ids: \'interes-' + product.enlace + '\',\n                      content_type: \'product\',\n                      product_catalog_id: ' + producto.enlace + '\n                    });\n              </script>';
   },
   seo: function seo(enlace) {
     var product = _catalogo2.default.find(function (prod) {
