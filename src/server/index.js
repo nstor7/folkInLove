@@ -24,7 +24,7 @@ app.get("*", (req, res, next) => {
   :  ''
 
   const fbEvent = activeRoute.fbEvent
-  ?  activeRoute.fbEvent
+  ?  activeRoute.fbEvent(req.url.split('/')[2])
   :  ''
   
   const promise = activeRoute.fetchInitialData

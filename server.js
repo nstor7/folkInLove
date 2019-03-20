@@ -1183,7 +1183,6 @@ exports.default = [{
   imagenFull: '/images/fotografia-imagen-full.jpg',
   imagenCel: '/images/fotografia-imagen-cel.jpg',
   alt: 'Sesión fotográfica de alta calidad, vestidos típicos de Panamá',
-  fbEventId: 'Fotos',
   opciones: [{
     detalle: 'Pollera de Lujo',
     precio: 350
@@ -1782,6 +1781,12 @@ var routes = [{
 }, {
   path: '/tienda/:enlace',
   component: _producto2.default,
+  fbEvent: function fbEvent(enlace) {
+    var product = _catalogo2.default.find(function (prod) {
+      return prod.enlace === enlace;
+    });
+    return '<script>\n                    fbq(\'track\', \'ViewContent\', {\n                      content_ids: \'interes-' + product.enlace + '\',\n                    });\n              </script>';
+  },
   seo: function seo(enlace) {
     var product = _catalogo2.default.find(function (prod) {
       return prod.enlace === enlace;
@@ -1791,7 +1796,6 @@ var routes = [{
       title: '' + product.metaTitle,
       description: '' + product.metaDescripcion,
       image: 'https://www.folkinlovepty.com/' + product.miniaturaFull,
-      fbEvent: '<script>\n                    fbq(\'track\', \'ViewContent\', {\n                      content_ids: \'interes' + product.fbEventId + '\',\n                    });\n                  </script>',
       schemaType: 'Article',
       schemaImages: ['https://www.folkinlovepty.com/' + product.miniaturaFull],
       schemaPublished: '2017-10-016T00:00:00+00:00',
@@ -1909,7 +1913,7 @@ app.get("*", function (req, res, next) {
 
   var chimpScript = activeRoute.chimpScript ? activeRoute.chimpScript : '';
 
-  var fbEvent = activeRoute.fbEvent ? activeRoute.fbEvent : '';
+  var fbEvent = activeRoute.fbEvent ? activeRoute.fbEvent(req.url.split('/')[2]) : '';
 
   var promise = activeRoute.fetchInitialData ? activeRoute.fetchInitialData(req.path) : Promise.resolve();
 

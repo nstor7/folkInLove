@@ -13,7 +13,6 @@ export default [
   imagenFull: '/images/fotografia-imagen-full.jpg',
   imagenCel: '/images/fotografia-imagen-cel.jpg',
   alt: 'Sesión fotográfica de alta calidad, vestidos típicos de Panamá',
-  fbEventId: 'Fotos',
   opciones:[
    {
     detalle: 'Pollera de Lujo',

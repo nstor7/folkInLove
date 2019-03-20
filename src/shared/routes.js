@@ -168,6 +168,15 @@ const routes =  [
   {
     path: '/tienda/:enlace',
     component: Producto,
+    fbEvent: (enlace) =>{
+      var product = Catalogo.find((prod) => prod.enlace === enlace)
+      return `<script>
+                    fbq('track', 'ViewContent', {
+                      content_ids: 'interes-${product.enlace}',
+                    });
+              </script>`
+              
+      },
     seo: (enlace) =>{
       var product = Catalogo.find((prod) => prod.enlace === enlace)
       return {
@@ -175,11 +184,6 @@ const routes =  [
         title: `${product.metaTitle}`,
         description: `${product.metaDescripcion}`,
         image: `https://www.folkinlovepty.com/${product.miniaturaFull}`,
-        fbEvent: `<script>
-                    fbq('track', 'ViewContent', {
-                      content_ids: 'interes${product.fbEventId}',
-                    });
-                  </script>`,
         schemaType: 'Article',
         schemaImages: [`https://www.folkinlovepty.com/${product.miniaturaFull}`],
         schemaPublished: '2017-10-016T00:00:00+00:00',
