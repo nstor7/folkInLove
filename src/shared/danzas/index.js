@@ -2,32 +2,24 @@ import React from 'react'
 // import tarjeta from '../componentes/tarjeta'
 import Listado from './danzas'
 import Tarjeta from '../tarjeta'
+import picture from '../picture'
 
 export default function Danzas(){
   return ( 
-    <main>
-      <section className="portada" id="danzasPortada">
-        <picture className="banner">
-        <source media="(min-width: 801px)" srcSet="images/danzasBannerFull-1x.jpg 1x, images/danzasBannerFull-2x.jpg 2x"/>
-        <source media="(min-width: 541px)" srcSet="images/danzasBannerTab-1x.jpg 1x, images/danzasBannerTab-2x.jpg 2x"/>
-        <source media="(min-width: 10px)" srcSet="images/danzasBannerCel-1x.jpg 1x, images/danzasBannerCel-2x.jpg 2x"/>
-        <img className="completa" src="images/danzasBannerCel.jpg" alt="Bailes Típicos de Panamá, Baile Congo"/>
-        </picture>
-        <article className="completa negroTrans">
-        <hgroup>
+    <div className="contenedor">
+      <div className="completa banner relativa negroTrans flex flexLeft">
+        {picture('danzasBanner', 'Baile Congo', 'completa background')}
+        <div className="mitad rosaTrans texto">
           <h1>Bailes Típicos de Panamá</h1>
           <p><b>Las danzas folklóricas</b> panameñas expresan las experiencias del hombre y la mujer, muchas de ellas son inspiradas en la faena diaria del trabajo en el campo, otras traen a colación <b>costumbres</b>, rituales religiosos y celebraciones.</p>
-        </hgroup>
-        </article>
+        </div>
+      </div>
+      <section className="completa blanco lista">
+        {Listado.map((danza) => Tarjeta("danzas", danza))}
       </section>
-      <section className="lista blanco">
-        <div className="listaCont">
-          {Listado.map((danza) => Tarjeta("danzas", danza))}
-        </div> 
-      </section>
-      <section className="completa blanco videoPasos">
+      <section className="completa blanco textoLargo">
         <h2>Pasos Básicos de los Danzas Típicas Panameñas</h2>
-        <iframe src="https://www.youtube.com/embed/x7HdglWtujg?rel=0" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+        <iframe className="video" src="https://www.youtube.com/embed/x7HdglWtujg?rel=0" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
         <hgroup className="blogStyle">
           <p>A diferencia de otros países de latinoamérica, donde los bailes no tiene una estructura marcada y los pasos cambian a voluntad del bailarín, en Panamá si tenemos una serie de <b>pasos estructurados</b>  que son guiados por los <b>cambios de la música</b>.</p>
           <h3>El Paseo</h3>
@@ -42,7 +34,7 @@ export default function Danzas(){
           <p>En este paso, como su nombre lo indica, el hombre y la mujer se cruzan. Cada uno sale de su posición con el pié izquierdo, pasando de espaldas al lado de la pareja. Se cuentan cuatro pasos hacia adelante y cuatro pasos hacia atras.</p>
         </hgroup>
       </section>
-    </main>
+    </div>
 
   )  
 }

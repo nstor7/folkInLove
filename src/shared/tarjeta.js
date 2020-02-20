@@ -1,13 +1,14 @@
 import React from 'react'
+import Picture from './picture'
 
 export default function Tarjeta(seccion, el){
-var miniatura = `/images/${el.miniatura}`
 var url = `/${seccion}/${el.url}`
+
 
 
 return (
   <a className="tarjeta" key={el.nombre} href={url}>
-    <img className="tarjetaImagen" src={miniatura} />
+    {Picture(el.miniatura, el.nombre, 'tarjetaImagen')}
     <div className="tarjetaInfo">
      <hgroup>
       <h3>{el.nombre}</h3>

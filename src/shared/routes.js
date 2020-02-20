@@ -1,4 +1,4 @@
-import Inicio from './Inicio/index'
+import Inicio from './Inicio'
 import Contacto from './contacto/index'
 import Danzas from './danzas'
 import Danza from './danza'

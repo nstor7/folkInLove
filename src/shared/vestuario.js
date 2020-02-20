@@ -1,35 +1,32 @@
 import React from 'react'
 import Listado from './vestuarios/vestuarios'
+import picture from './picture'
 
 export default function Vestuario(props){
  var Vestido = Listado.find((vestuario) =>  vestuario.url === props.match.params.url)
  return (
-  <main itemScope itemType="http://schema.org/Article">
-   <section className="portada">
-    <picture className="banner">
-      <source media="(min-width: 800px)" srcSet={Vestido.portadaImagenFull}/>
-      <source media="(min-width: 541px)" srcSet={Vestido.portadaImagenTab}/>
-      <source media="(min-width: 200px)" srcSet={Vestido.portadaImagenCel}/>
-      <img className="completa" src={Vestido.portadaImagen} alt= {Vestido.nombre}/>
-    </picture>
-    <article className="mitad rosaTrans">
+  <main itemScope itemType="http://schema.org/Article" className="contenedor">
+   <section className="completa banner relativa flex flexLeft">
+    {picture(Vestido.portadaImagen, Vestido.nombre, 'completa background flex flexLeft')}
+    <article className="mitad rosaTrans texto">
       <hgroup>
           <h1 itemProp="name">{Vestido.nombre}</h1>
           {Vestido.reseña}
       </hgroup>
     </article>
    </section>
-   <section itemProp="articleBody" className="completa texto info blanco">
+   <section itemProp="articleBody" className="completa textoLargo blanco">
     {Vestido.antecedentes}
    </section>
-   <section className="completa portada" style={{background: "url('" + Vestido.generalImagen + "')", backgroundSize: "cover", backgroundAttachment: "fixed"}}>
+   <section className="completa banner relativa flex flexLeft">
+    {picture(Vestido.generalImagen, Vestido.nombre, 'completa background')}
     <article itemProp="articleBody" className="mitad negroTrans texto">
      <hgroup>
        <p>{Vestido.general}</p>
      </hgroup>
     </article>
    </section>
-   <section itemProp="articleBody" className="completa texto info blanco">
+   <section itemProp="articleBody" className="completa textoLargo blanco">
      {Vestido.descripcion}
    </section>
    {Vestido.extra}

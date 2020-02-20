@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
-    "start": "webpack -w & nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack -w & nodemon server.js & npm run style",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style": "stylus -w -c src/styles/index.styl -o public/index.css"
   },
   "repository": {
     "type": "git",

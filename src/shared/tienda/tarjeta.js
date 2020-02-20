@@ -1,13 +1,11 @@
 import React from 'react'
+import picture from '../picture'
 
 export default function Tarjeta(producto){
 var url = `/tienda/${producto.enlace}`
 return(
   <a className="tarjeta tiendaTarjeta" key={url} href={url}>
-    <picture>
-      <source media="(min-width: 800px)" srcSet={producto.miniaturaFull}/>
-      <img src={producto.miniaturaCel} alt={producto.alt} className="tarjetaImagen"/>
-    </picture>
+    {picture(producto.miniatura, producto.alt, 'tarjetaImagen')}
     <div className="tarjetaInfo">
      <hgroup>
       <h2>{producto.nombre}</h2>

@@ -1,9 +1,12 @@
 import React from 'react'
 import Chimp from './mailChimpForm'
+import Picture from '../picture'
 export default function Contacto(){
  return(
-  <section className="contacto completa">
-   <article className="contactoInfo rosaTrans">
+  <div className="contenedor">
+    <div className="completa relativa flex flexleft">
+   {Picture('contactoBanner', 'Pollera de Coquitos', 'completa background')}
+   <article className="mitad texto rosaTrans scroll">
      <div>
        <h2>Contáctenos:</h2>
        <h4>Email:</h4>
@@ -13,6 +16,8 @@ export default function Contacto(){
        <Chimp/>
      </div>
    </article>
-  </section>
+  </div>
+  </div>
+  
  )
 }

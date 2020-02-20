@@ -1,5 +1,6 @@
 import React from "react"
 import Catalogo from './tienda/catalogo'
+import picture from './picture'
 
 
 export default function Producto(props){
@@ -15,25 +16,25 @@ export default function Producto(props){
        <p>{opcion.descripcion}</p>
   </div>)}
  var opciones = Producto.opciones.map((opcion)=> Template(opcion))
+ var mensaje = `https://api.whatsapp.com/send?phone=50769455931&text=Hola!%20Quisiera%20información%20sobre%20 ${Producto.nombre}`
 
  return (
- <section className="completa producto">
+<div className="contenedor">
+{Producto.articulo}
+<section className="completa flex">
   <articulo className="tercio productoImagenes">
-   <picture>
-    <source media="(min-width: 800px)" srcSet={Producto.imagenFull}/>
-    <img src={Producto.imagenCel} alt={Producto.alt}/>
-   </picture>
+   {picture(Producto.imagen, Producto.alt, 'tercio')}
   </articulo>
-  <articulo className="dosTercios">
-     <div className="productoInfo">
+  <articulo className="dosTercios texto">
       <h1>{Producto.nombre}</h1>
       <h3>{Producto.subtitulo}</h3>
       <h2>Opciones:</h2>
       {opciones}
-    </div>
+      <a className="whatsApp" href={mensaje}  target="_blank">Más Información</a>
   </articulo>
-  {Producto.articulo}
  </section>
+</div>
+ 
 
  )
 }

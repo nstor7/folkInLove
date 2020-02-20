@@ -4,7 +4,7 @@ export default function Chimp (){
 
  return (
 <div id="mc_embed_signup">
-<form action="https://folkinlovepty.us20.list-manage.com/subscribe/post?u=f0ce6f84c82e3f639c6d105d9&amp;id=22a2454ef3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
+<form action="https://folkinlovepty.us20.list-manage.com/subscribe/post?u=f0ce6f84c82e3f639c6d105d9&amp;id=22a2454ef3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate form" target="_blank" noValidate>
     <div id="mc_embed_signup_scroll">
 	<h2>Información:</h2>
 <div className="indicates-required"><span className="asterisk">*</span>Indica los campos requeridos</div>
@@ -42,7 +42,7 @@ export default function Chimp (){
 		<div className="response" id="mce-success-response" style={{display:"none"}}></div>
 	</div>    
     <div style={{position: "absolute", left: -5000 + "px"}} aria-hidden="true"><input type="text" name="b_f0ce6f84c82e3f639c6d105d9_22a2454ef3"/></div>
-    <div className="clear"><input type="submit" value="Enviar" name="subscribe" id="mc-embedded-subscribe" className="button"/></div>
+    <div className="clear"><input type="submit" value="Enviar" name="subscribe" id="mc-embedded-subscribe" className="btn"/></div>
     </div>
 </form>
 </div>
