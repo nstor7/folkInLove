@@ -46,10 +46,10 @@ export default [
   <div className="completa texto">
   <h2>La Experiencia de Ponerse una Pollera Panameña</h2>
    <p>La Pollera es reconocida como uno de los trajes típicos más hermosos y lujosos del mundo. Por lo que, muchas panameñas e incluso extranjeras, sueñan con ataviarse con ella y aún mejor, inmortalizar ese momento con una sesión de fotos. </p>
-   <p>Sin embargo, es un traje muy costoso, lleno de detalles, prendas, tembleques, enjaretado, etc. Por otro lado organizar los horarios con maquillistas, fotografo, alguién que arregle a la empollerada, etc.</p>
-   <p>Folk in Love quiere ayudarte a cumplir tu sueño de vestir una pollera, sin que tengas las complicaciones y el estress que puede producir organizarla. Queremos que estés hermosa y relajada en un día tan especial.</p>
+   <p>Sin embargo, es un traje muy costoso, lleno de detalles, prendas, tembleques, enjaretado, etc. Por otro lado organizar los horarios con maquillistas, fotógrafos, alguien que arregle a la empollerada, etc.</p>
+   <p>Folk in Love quiere ayudarte a cumplir tu sueño de vestir una pollera, sin que tengas las complicaciones y el estrés que puede producir organizarla. Queremos que estés hermosa y relajada en un día tan especial.</p>
    <p>Para eso te ofrecemos varios tipos de polleras y varias opciones en cada una de ellas, con distintas tallas para que te quede perfecta.</p>
-   <p>Además tenemos todos los accesorios que puedas necesitar dependiendo del tipo de pollera que quieras usar. Desde las Prendas y tembleques de a pollera de Gala Santeña, hasta los collares y flores de las pollera Congo.</p>
+   <p>Además tenemos todos los accesorios que puedas necesitar dependiendo del tipo de pollera que quieras usar. Desde las prendas y tembleques de la pollera de Gala Santeña, hasta los collares y flores de la pollera Congo.</p>
    <p>También nos encargamos de la fotografía, las poses y todo lo que se necesita para que tengas fotos hermosas.</p>
    
   </div>
@@ -60,26 +60,26 @@ export default [
   </div>
   <div className="completa texto">
     <h2>Organización Previa de la Sesión</h2>
-    <p>Nuestra intensión es que puedas tener la experiencia que deseas sin las preocupaciones de coordinar todos los detalles. Nosotros nos encargamos de todo.</p>
+    <p>Nuestra intención es que puedas tener la experiencia que deseas sin las preocupaciones de coordinar todos los detalles. Nosotros nos encargamos de todo.</p>
     <p>Comenzaremos eligiendo un día que te sea conveniente para hacer la sesión. Toma en cuenta que el proceso completo toma aproximadamente 4 horas.</p>
     <p>Luego hay que definir el tipo de pollera que deseas. Nuestros paquetes más populares son el de Pollera de Gala Santeña, Pollera Montuna Santeña, Pollera Blanca de Organza Bordada y Pollera Congo.</p>
-    <p>Una vez elegido el tipo de pollera, necesitamos encontrar una pollera que te guste con la talla correcta para tí. Puedes decirnos el color de tu preferencia o cualquier característica que te parezca importante. Por supuesto las polleras son trabajos únicos hechos por artesanas a mano, en su mayoría. Así que no tenemos opciones ilimitadas, pero haremos todo lo posible por encontrar una que te haga felíz y te quede bién.</p>
+    <p>Una vez elegido el tipo de pollera, necesitamos encontrar una pollera que te guste con la talla correcta para ti. Puedes decirnos el color de tu preferencia o cualquier característica que te parezca importante. Por supuesto, las polleras son trabajos únicos hechos por artesanas a mano, en su mayoría. Así que no tenemos opciones ilimitadas, pero haremos todo lo posible por encontrar una que te haga feliz y te quede bien.</p>
     <p>Luego definiremos detalles menores, como si necesitas los zapatos o ya los tienes, color del enjaretado, si llevarás acompañantes, si ellos necesitan vestuario o ya lo tienen, etc.</p>
-    <p>Es bueno que comiences a hacer todo este proceso con tiempo, sobre todo si necesitas recibir las fotos para alguna fecha especial, además es bueno que dés el abono con tiempo si lo que deseas es una fecha específica y no quieres perderla.</p>
+    <p>Es bueno que comiences a hacer todo este proceso con tiempo, sobre todo si necesitas recibir las fotos para alguna fecha especial, además es bueno que des el abono con tiempo si lo que deseas es una fecha específica y no quieres perderla.</p>
   </div>
   <div className="completa relativa flex flexRight">
     {picture('sesionDeFotosMaquillaje', 'Maquillaje para Sesión de Fotos', 'completa background')}
     <div className="mitad rosaTrans texto">
       <h2>Maquillaje</h2>
-      <p>Por fin llegó el día de tu sesión, es hora de relajarse y disfrutar. Lo primero que harémos tan pronto llegues a nuestro hogar será el maquillaje.</p>
+      <p>Por fin llegó el día de tu sesión, es hora de relajarse y disfrutar. Lo primero que haremos tan pronto llegues a nuestro hogar será el maquillaje.</p>
       <p>El maquillaje profesional para escenario y para fiestas es bastante diferente al maquillaje que se utiliza para fotografía. Este último debe ser limpio ya que será visto desde muy cerca y de todos los ángulos. Es por eso que nos hemos especializado en este tipo de maquillaje y constantemente estamos mejorando, usando como referencia las miles de fotos que hemos hecho hasta ahora.</p>
-      <p>Es muy común creer que la pollera debe llevar un maquillaje fuerte y con muchos colores, pero no es una regla esticta, si no te gustan los maquillajes fuertes o no los puedes lucir por alguna razón personal, no te preocupes, haremos le maquillaje que te haga sentir cómoda.</p>
+      <p>Es muy común creer que la pollera debe llevar un maquillaje fuerte y con muchos colores, pero no es una regla estricta, si no te gustan los maquillajes fuertes o no los puedes lucir por alguna razón personal, no te preocupes, haremos el maquillaje que te haga sentir cómoda.</p>
     </div>
   </div>
   <div className="completa texto">
   <h2>Arreglo de la Pollera</h2>
     <p>A la hora de ponerte la pollera y los accesorios, para nosotros es muy importante que vestirte correctamente, cada pollera tiene tradiciones que hay que cumplir.</p>
-    <p>También es muy importante para nosotros que no sufras a la hora de vestirte, que los templeques estén bien puestos para que no te generen ningún dolor innecesario. Todo hecho con calma para que sea agradable y cuidando los detalles.</p>
+    <p>También es muy importante para nosotros que no sufras a la hora de vestirte, que los tembleques estén bien puestos para que no te generen ningún dolor innecesario. Todo hecho con calma para que sea agradable y cuidando los detalles.</p>
     <p>En este momento es cuando comenzaremos a contarte cosas sobre la pollera. Que prendas te estamos poniendo y todos los detalles, porque uno de los objetivos más importantes de Folk in Love es la educación en nuestro folkore y el fortalecimiento de nuestra identidad.</p>
     <p>Este es, también, un gran momento para que nos digas como te sientes, si algo te molesta o te incomoda, porque si no lo dices la molestia irá en aumento y no podrás disfrutar de tu sesión.</p>
     <p>Por otro lado aprovechamos para elegir el lugar donde haremos la sesión y si tienes algunas poses o fotos que te gustaría hacerte, te invitamos a contarnos y si tienes ejemplos, mejor!!</p>
@@ -90,10 +90,10 @@ export default [
     <div className="dosTercios texto blanco">
       <h2>La Atención a los Detalles</h2>
       <p>Una vez estemos en el lugar elegido para hacer las fotos, el equipo de Folk in Love te ayudará a que puedas posar con la pollera como si hubieras nacido con ella.</p>
-      <p>Te enseñaremos a posar, abrir y cerrar la pollera según cada pose lo requiera, la mejor posición de las manos y del cuerpo para favorecer tu figuar, colocación de la mirada, trabajo con los ojos, etc.</p>
-      <p>Estaremos pendientes a que el maquillaje se mantenga en buen estado y para hacer los retoques que hagan falta. También te mostraremos las fotos para que nos cuentes como te gustaría salir, poder hacer los ajustes necesarios, tanto en la pose como en la técnica con la cámara.</p>
+      <p>Te enseñaremos a posar, abrir y cerrar la pollera según cada pose lo requiera, la mejor posición de las manos y del cuerpo para favorecer tu figura, colocación de la mirada, trabajo con los ojos, etc.</p>
+      <p>Estaremos pendientes a que el maquillaje se mantenga en buen estado y para hacer los retoques que hagan falta. También te mostraremos las fotos para que nos cuentes cómo te gustaría salir, poder hacer los ajustes necesarios, tanto en la pose como en la técnica con la cámara.</p>
       <p>En este momento es importante que confíes en nosotros y te comuniques sobre cualquier preocupación que puedas tener. Este es el momento en que se pueden mejorar las fotos, una vez que se tomaron ya no hay marcha atrás.</p>
-      <p>También estaremos pendientes a los fondos a la dirección de la luz, y a otros detalles técnicos que harán de tus fotos espectaculares.</p>
+      <p>También estaremos pendientes a los fondos, a la dirección de la luz y a otros detalles técnicos que harán de tus fotos espectaculares.</p>
     </div>
   </div>
   

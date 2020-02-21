@@ -6,7 +6,7 @@ export default function Contacto(){
   <div className="contenedor">
     <div className="completa relativa flex flexleft">
    {Picture('contactoBanner', 'Pollera de Coquitos', 'completa background')}
-   <article className="mitad texto rosaTrans scroll">
+   <article className="mitad texto rosaTrans">
      <div>
        <h2>Contáctenos:</h2>
        <h4>Email:</h4>

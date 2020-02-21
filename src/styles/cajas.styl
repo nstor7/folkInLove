@@ -21,25 +21,28 @@ body
  width: 33.333vw
  height 40vw
  @media(max-width: 800px)
-   width: 100vw
-
+  width: 100vw
+  height 125vw
 .dosTercios
  width: 66.666vw
  height 40vw
  @media(max-width: 800px)
-   width: 100vw
+  width: 100vw
+  height 125vw
 
 .mitad
  width: 50vw
  height 40vw
  @media(max-width: 800px)
   width: 100vw
+  height 125vw
 
 .cuarto
  grid-column: span 3
  grid-row: span 3
  @media(max-width: 800px)
   width: 100vw
+  height 125vw
 
 .tresCuartos
  grid-column span 9
@@ -90,9 +93,15 @@ body
 
 .flex
  display flex
+ @media(max-width: 800px)
+   min-height: 125vw
+   height auto
+   flex-wrap: wrap
 
 .flexLeft
  justify-content: flex-start
+ @media(max-width: 800px)
+   align-items: flex-end
 
 .flexRight
   justify-content: flex-end
@@ -162,9 +171,10 @@ body
   width: 48vw
   height 27vw
   margin 2vw 26vw
-  @media(max-width:800)
+  @media(max-width:800px)
+    justify-items: center
     width: 90vw
-    margin: 2vw 5vw
+    margin: 2vw 
     height 56.25vw
 
 .form
@@ -213,3 +223,8 @@ body
   &:hover
     background: #4cc755
     color #eeeeee
+  @media(max-width: 800px)
+    width: 50vw
+    height 10vw
+    line-height: 10vw
+    font-size: 5vw
