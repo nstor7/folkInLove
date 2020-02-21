@@ -1,6 +1,7 @@
 import React from 'react'
 import picture from '../picture'
 
+
 export default [
  {
   metaTitle: 'Sesión de Fotos en Pollera',
@@ -41,6 +42,7 @@ export default [
     {picture('sesionDeFotosBanner', 'Sesión de Fotos en Pollera de Gala Santeña', 'completa background flex')}
     <div className="centerText whiteText ">
       <h1>Sesión de Fotos Pollera</h1>
+      <a className="whatsApp callToAction" href='https://api.whatsapp.com/send?phone=50769455931&text=Hola!%20Quisiera%20informaci%C3%B3n%20sobre%20Sesi%C3%B3n%20de%20Fotograf%C3%ADa'  target="_blank">Inicia Tu Compra</a>
     </div>
   </div>
   <div className="completa texto">
@@ -121,7 +123,7 @@ export default [
    },
    {
     detalle: 'de 3 a 5 años (con 2 arandelas)',
-    precio: 100.00
+    precio: 150.00
    },
    {
     detalle: 'de 6 a 10 años',

@@ -9,7 +9,7 @@ import Producto from './producto'
 import Catalogo from './tienda/catalogo'
 import bailes from './danzas/danzas'
 import Trajes from './vestuarios/vestuarios'
-import Confirmacion from './contacto/confirmacion';
+import Confirmacion from './contacto/confirmacion'
 
 
 const routes =  [
@@ -171,8 +171,9 @@ const routes =  [
     fbEvent: (enlace) =>{
       var product = Catalogo.find((prod) => prod.enlace === enlace)
       return `<script>
-                    fbq('track', 'ViewContent');
-              </script>`
+                fbq('track', 'ViewContent');
+              </script>
+              `
               
       },
     seo: (enlace) =>{
@@ -193,7 +194,8 @@ const routes =  [
       path: '/confirmacion',
       component: Confirmacion,
       exact: true
-    } 
+    }
+  
 ]
 
 export default routes

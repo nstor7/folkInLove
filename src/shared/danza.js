@@ -7,8 +7,8 @@ import Picture from './picture'
   var Baile = Listado.find((danza) =>  danza.url === props.match.params.url) 
   return(
  <div className="contenedor">
-  <section className="completa relativa">
-    {Picture(Baile.portadaImagen, Baile.nombre, 'completa background flex flexLeft')}   
+  <section className="completa relativa flex flexLeft">
+    {Picture(Baile.portadaImagen, Baile.nombre, 'completa background ')}   
     <article className="mitad rosaTrans texto">
     <hgroup>
       <h1>{Baile.nombre}</h1>
