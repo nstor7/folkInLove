@@ -6,7 +6,7 @@ export default function Vestuario(props){
  var Vestido = Listado.find((vestuario) =>  vestuario.url === props.match.params.url)
  return (
   <main itemScope itemType="http://schema.org/Article" className="contenedor">
-   <section className="completa banner relativa flex flexLeft">
+   <section className="completa relativa flex flexLeft">
     {picture(Vestido.portadaImagen, Vestido.nombre, 'completa background flex flexLeft')}
     <article className="mitad rosaTrans texto">
       <hgroup>
