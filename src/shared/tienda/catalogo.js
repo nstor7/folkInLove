@@ -16,15 +16,15 @@ export default [
   opciones:[
    {
     detalle: 'Pollera de Lujo',
-    precio: 350
+    precio: 450
    },
    {
     detalle: 'Pollera Blanca',
-    precio: 300
+    precio: 350
    },
    {
     detalle: 'Pollera Montuna',
-    precio: 300
+    precio: 350
    },
    {
     detalle: 'Pollera Congo',
