@@ -29,11 +29,6 @@ export default [
    {
     detalle: 'Pollera Congo',
     precio: 200
-   },
-   {
-    detalle: 'Persona Adicional',
-    precio: 0,
-    descripcions: 'No se cobra adicional por las fotografías, sólo el costo del alquiler de cada vestuario. (consultar precios en la sección de alquiler de vestuarios)'
    }
   ],
   articulo: (
